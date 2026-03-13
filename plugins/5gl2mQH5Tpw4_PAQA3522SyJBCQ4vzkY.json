@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "periodic-para",
+        "version": "1.0.0",
+        "title": "LifeOS",
+        "description": "LifeOS Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.23.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个介于 0 和 125 之间的正整数，不支持强制高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unable to copy using execCommand: ",
+                    "target": "无法使用 execCommand 进行复制："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unable to copy using clipboardData: ",
+                    "target": "无法使用 clipboardData 进行复制："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "falling back to prompt",
+                    "target": "正在回退到 prompt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request error:",
+                    "target": "请求错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "unable to use e.clipboardData",
+                    "target": "无法使用 e.clipboardData"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "trying IE specific stuff",
+                    "target": "正在尝试 IE 特定方案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No data",
+                    "target": "暂无数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "暂无数据",
+                    "target": "暂无数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select time",
+                    "target": "选择时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select date",
+                    "target": "选择日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Please select",
+                    "target": "请选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "请选择时间",
+                    "target": "请选择时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "请选择日期",
+                    "target": "请选择日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "请选择",
+                    "target": "请选择"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
