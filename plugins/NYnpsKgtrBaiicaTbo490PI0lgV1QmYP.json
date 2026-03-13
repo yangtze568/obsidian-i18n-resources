@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-daf-yomi",
+        "version": "1.0.0",
+        "title": "Daf Yomi",
+        "description": "Daf Yomi Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.15.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add page",
+                    "target": "添加页面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Put each link in its own section",
+                    "target": "将每个链接放在单独的部分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a link to a literature note",
+                    "target": "添加文献注释链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add link to Steinsaltz PDF",
+                    "target": "添加 Steinsaltz PDF 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add Steinsaltz PDF",
+                    "target": "添加 Steinsaltz PDF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add link to Sefaria",
+                    "target": "添加 Sefaria 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add link to Steinsaltz commentary",
+                    "target": "添加 Steinsaltz 注释链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add link to My Jewish Learning commentary",
+                    "target": "添加 My Jewish Learning 注释链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add link to Daf Yomi Digest (Chicago Center for Torah & Chesed)",
+                    "target": "添加 Daf Yomi Digest（Chicago Center for Torah & Chesed）链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add link to Hadran commentary",
+                    "target": "添加 Hadran 注释链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add link to Living Greengrass blog",
+                    "target": "添加指向 Living Greengrass 博客的链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Make sections",
+                    "target": "制作章节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Make Literature note links",
+                    "target": "制作文献注释链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to Steinsaltz PDF",
+                    "target": "链接到 Steinsaltz PDF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download Steinsaltz PDF",
+                    "target": "下载 Steinsaltz PDF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to Sefaria",
+                    "target": "链接到 Sefaria"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to Steinsaltz commentary",
+                    "target": "链接到 Steinsaltz 注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to My Jewish Learning commentary",
+                    "target": "链接到 My Jewish Learning 注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to Daf Yomi Digest",
+                    "target": "链接到 Daf Yomi Digest"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to Hadran commentary",
+                    "target": "链接到 Hadran 注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to Living Greengrass blog",
+                    "target": "链接到 Living Greengrass 博客"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Date does not match a Daf",
+                    "target": "日期与 Daf 不匹配"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tractate is unknown",
+                    "target": "卷名未知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Daf Yomi page by date",
+                    "target": "按日期添加 Daf Yomi 页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Daf Yomi page by tractate/daf",
+                    "target": "按卷名/页添加 Daf Yomi 页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Daf Yomi settings",
+                    "target": "Daf Yomi 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
