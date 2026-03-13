@@ -1,0 +1,277 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "timethings",
+        "version": "1.0.0",
+        "title": "Time Things",
+        "description": "Time Things Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No active view",
+                    "target": "没有活动视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No focus",
+                    "target": "没有焦点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Couldn't get the line number of last_modified property",
+                    "target": "无法获取 last_modified 属性的行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Wrong format of last_modified property",
+                    "target": "last_modified 属性格式错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset settings",
+                    "target": "重置设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Smoother experience. Prone to bugs if you use a nested value.",
+                    "target": "体验更流畅。如果使用嵌套值，容易出现 Bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show clock on the status bar? This setting requires restart of the plugin.",
+                    "target": "在状态栏显示时钟？此设置需要重启插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "In milliseconds. Restart plugin for this setting to take effect.",
+                    "target": "单位为毫秒。重启插件后此设置才会生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use UTC instead of local time?",
+                    "target": "使用 UTC 而不是本地时间？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Supports nested keys. For example `timethings.updated_at`",
+                    "target": "支持嵌套键。例如 `timethings.updated_at`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only for Obsidian frontmatter API.",
+                    "target": "仅适用于 Obsidian frontmatter API。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Supports nested keys. For example `timethings.edited_seconds`",
+                    "target": "支持嵌套键。例如 `timethings.edited_seconds`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Resets settings to default",
+                    "target": "将设置重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom frontmatter handling solution",
+                    "target": "使用自定义 frontmatter 处理方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable status bar clock",
+                    "target": "启用状态栏时钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update interval",
+                    "target": "更新间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UTC timezone",
+                    "target": "UTC 时区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable update of the modified key",
+                    "target": "启用更新 modified 键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Modified key name",
+                    "target": "Modified 键名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Modified key format",
+                    "target": "修改的键格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Interval between updates",
+                    "target": "更新间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable edit duration key",
+                    "target": "启用编辑时长键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Edit duration key name",
+                    "target": "编辑时长键名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Non-typing editing time percentage",
+                    "target": "非输入编辑时间百分比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset settings",
+                    "target": "重置设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "hh:mm A",
+                    "target": "hh:mm A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset settings",
+                    "target": "重置设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Most edited notes",
+                    "target": "编辑次数最多的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Most edited notes",
+                    "target": "编辑次数最多的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Moment.js date format documentation",
+                    "target": "Moment.js 日期格式文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Status bar",
+                    "target": "状态栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Displays clock in the status bar",
+                    "target": "在状态栏显示时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🕰️ Clock",
+                    "target": "🕰️ 时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Handles timestamp keys in frontmatter.",
+                    "target": "处理 frontmatter 中的时间戳键。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔑 Modified timestamp",
+                    "target": "🔑 修改时间戳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔑 Edited duration",
+                    "target": "🔑 编辑时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Track for how long you have been editing a note.",
+                    "target": "跟踪你编辑笔记的时长。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How to calculate yours?",
+                    "target": "如何计算你的？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Danger zone",
+                    "target": "危险区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You've been warned!",
+                    "target": "已警告！"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
