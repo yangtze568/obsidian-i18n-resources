@@ -1,0 +1,403 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-plugins-manager",
+        "version": "1.0.0",
+        "title": "Better Plugins Manager",
+        "description": "Better Plugins Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "troubleshoot-list enabled",
+                    "target": "troubleshoot-list enabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-section manager-section--actions",
+                    "target": "manager-section manager-section--actions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-section manager-section--filters",
+                    "target": "manager-section manager-section--filters"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "打开目录失败",
+                    "target": "打开目录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载仓库缓存失败",
+                    "target": "加载仓库缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "写入仓库缓存失败",
+                    "target": "写入仓库缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取社区插件清单失败",
+                    "target": "获取社区插件清单失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to create report:",
+                    "target": "[BPM] 创建报告失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fallback to raw tag failed",
+                    "target": "回退到原始标签失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fetch versions in modal failed",
+                    "target": "在模态框中获取版本失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Restore failed:",
+                    "target": "[BPM] 恢复失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "检查更新时出错:",
+                    "target": "检查更新时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] reload manifests failed",
+                    "target": "[BPM] 重新加载清单失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to read community-plugins.json:",
+                    "target": "[BPM] 读取 community-plugins.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to write community-plugins.json:",
+                    "target": "[BPM] 写入 community-plugins.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to load workspace config",
+                    "target": "[BPM] 加载工作区配置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to save workspace config",
+                    "target": "[BPM] 保存工作区配置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save on unload",
+                    "target": "卸载时保存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] startup check updates failed",
+                    "target": "[BPM] 启动时检查更新失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步启用/禁用插件失败",
+                    "target": "同步启用/禁用插件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步导入 BPM 笔记失败",
+                    "target": "同步导入 BPM 笔记失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析仓库映射失败",
+                    "target": "解析仓库映射失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "导出 BPM 笔记失败",
+                    "target": "导出 BPM 笔记失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] checkUpdates error",
+                    "target": "[BPM] checkUpdates 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] checkUpdateForPlugin error",
+                    "target": "[BPM] checkUpdateForPlugin 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取官方插件 stats 失败",
+                    "target": "获取官方插件 stats 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] fetchGithubVersions error",
+                    "target": "[BPM] fetchGithubVersions 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] install from GitHub",
+                    "target": "[BPM] 从 GitHub 安装"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] release assets picked",
+                    "target": "[BPM] 已选择发布资产"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] release asset fetch failed, will fallback",
+                    "target": "[BPM] 获取发布资产失败，将回退"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] fallback to raw tag",
+                    "target": "[BPM] 回退到原始标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] manifest parsed",
+                    "target": "[BPM] 清单已解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] writing files",
+                    "target": "[BPM] 正在写入文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] manifest after reload",
+                    "target": "[BPM] 重新加载后的清单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] install complete",
+                    "target": "[BPM] 安装完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData manifests size:",
+                    "target": "[BPM] 渲染 showData 清单大小："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData uniquePlugins:",
+                    "target": "[BPM] 渲染 showData 唯一插件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData before loop, children:",
+                    "target": "[BPM] 渲染 showData 循环前，子项："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "children before add:",
+                    "target": "添加前的子项："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData after loop, cards:",
+                    "target": "[BPM] 渲染 showData 循环后，卡片："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ids:",
+                    "target": "ids："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] reloadShowData end, children after render:",
+                    "target": "[BPM] reloadShowData 结束，渲染后子项："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Workspace config saved successfully.",
+                    "target": "[BPM] 工作区配置保存成功。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Detected workspace config change, reloading...",
+                    "target": "[BPM] 检测到工作区配置变更，正在重新加载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;",
+                    "target": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;",
+                    "target": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] checkUpdates start, total manifests:",
+                    "target": "[BPM] checkUpdates 开始，总清单数："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update official match",
+                    "target": "[BPM] 更新官方匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update github match",
+                    "target": "[BPM] 更新 GitHub 匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update unknown source",
+                    "target": "[BPM] 更新未知来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update official",
+                    "target": "[BPM] 单次更新 官方"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update github",
+                    "target": "[BPM] 单次更新 GitHub"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update unknown source",
+                    "target": "[BPM] 单次更新 未知来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "刷新插件",
+                    "target": "刷新插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "测试插件",
+                    "target": "测试插件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "移动端暂不支持打开文件夹，请在桌面端操作。",
+                    "target": "移动端暂不支持打开文件夹，请在桌面端操作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到 manifest.json 或 main.js，请检查发布资产或仓库 tag。",
+                    "target": "未找到 manifest.json 或 main.js，请检查发布资产或仓库 tag。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "manifest.json 缺少 id 字段，无法安装。",
+                    "target": "manifest.json 缺少 id 字段，无法安装。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "主题 manifest 缺少 name 字段。",
+                    "target": "主题 manifest 缺少 name 字段。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "主题安装失败，请检查仓库地址/版本或网络状态。",
+                    "target": "主题安装失败，请检查仓库地址/版本或网络状态。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "保存 Ribbon 配置失败，请查看控制台",
+                    "target": "保存 Ribbon 配置失败，请查看控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在应用更改，请勿频繁操作。",
+                    "target": "正在应用更改，请勿频繁操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认延迟",
+                    "target": "默认延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔌",
+                    "target": "🔌"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
