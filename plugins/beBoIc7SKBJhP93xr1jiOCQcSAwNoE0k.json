@@ -1,0 +1,499 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "llm-test-gen",
+        "version": "1.0.0",
+        "title": "LLM Test Generator",
+        "description": "LLM Test Generator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ollama (Local)",
+                    "target": "Ollama（本地）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Mistral AI",
+                    "target": "Mistral AI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Anthropic (Claude)",
+                    "target": "Anthropic（Claude）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing index:",
+                    "target": "刷新索引时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating tests:",
+                    "target": "生成测试时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in test generation:",
+                    "target": "测试生成出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in markAllTests:",
+                    "target": "markAllTests 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error marking answers:",
+                    "target": "标记答案时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select which LLM provider you want to use for generating and marking tests",
+                    "target": "选择用于生成和批改测试的 LLM 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the URL of your Ollama server",
+                    "target": "输入你的 Ollama 服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the name of the Ollama model to use. Some models may not be compatible with this plugin.",
+                    "target": "输入要使用的 Ollama 模型名称。某些模型可能与此插件不兼容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "LLM provider",
+                    "target": "LLM 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ollama server URL",
+                    "target": "Ollama 服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ollama model",
+                    "target": "Ollama 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "About API keys",
+                    "target": "关于 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Refresh models list",
+                    "target": "刷新模型列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle visibility",
+                    "target": "切换可见性"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🔄 Refreshing test index...",
+                    "target": "🔄 正在刷新测试索引..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ Error refreshing index. Check console for details.",
+                    "target": "❌ 刷新索引时出错。查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ Test Plugin not found.",
+                    "target": "❌ 未找到测试插件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✅ Test generation complete!",
+                    "target": "✅ 测试生成完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ Some tests could not be generated. Check console for details.",
+                    "target": "❌ 部分测试无法生成。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No tests with answers to mark.",
+                    "target": "没有可标注答案的测试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There's an issue with the test index. Please restart Obsidian and try again.",
+                    "target": "测试索引有问题。请重启 Obsidian 后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid tests with answers found.",
+                    "target": "未找到包含答案的有效测试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file path found for this test document.",
+                    "target": "未找到此测试文档的文件路径。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No indexed content found for this file. Cannot mark answers.",
+                    "target": "未找到该文件的索引内容。无法标注答案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Marking complete!",
+                    "target": "标注完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching local models from Ollama...",
+                    "target": "正在从 Ollama 获取本地模型..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updated models from Ollama",
+                    "target": "已更新来自 Ollama 的模型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not connect to Ollama. Check your URL.",
+                    "target": "无法连接到 Ollama。请检查你的 URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching latest community models list...",
+                    "target": "正在获取最新的社区模型列表..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updated with community model list",
+                    "target": "已更新社区模型列表"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not obtain workspace leaf.",
+                    "target": "无法获取工作区叶节点。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No tests found for this note. Generate tests first.",
+                    "target": "未找到此笔记的测试。请先生成测试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Note content not found",
+                    "target": "未找到笔记内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No answers to mark",
+                    "target": "没有可标记的答案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-4o (Latest)",
+                    "target": "GPT-4o（最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-4o (2024-08-06)",
+                    "target": "GPT-4o（2024-08-06）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-4o (2024-05-13)",
+                    "target": "GPT-4o（2024-05-13）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-4o Mini",
+                    "target": "GPT-4o Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "o1 Preview",
+                    "target": "o1 预览版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "o1 Mini",
+                    "target": "o1 Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "o3 Mini",
+                    "target": "o3 Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-4 Turbo",
+                    "target": "GPT-4 Turbo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-3.5 Turbo",
+                    "target": "GPT-3.5 Turbo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.5 Sonnet (Latest)",
+                    "target": "Claude 3.5 Sonnet（最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.5 Sonnet (2024-06-20)",
+                    "target": "Claude 3.5 Sonnet（2024-06-20）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Opus",
+                    "target": "Claude 3 Opus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Sonnet",
+                    "target": "Claude 3 Sonnet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Haiku",
+                    "target": "Claude 3 Haiku"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepSeek Chat (DeepSeek-V3)",
+                    "target": "DeepSeek Chat (DeepSeek-V3)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepSeek Coder",
+                    "target": "DeepSeek Coder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mistral Large (Latest)",
+                    "target": "Mistral Large (Latest)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mistral Medium (Latest)",
+                    "target": "Mistral Medium (Latest)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mistral Small (Latest)",
+                    "target": "Mistral Small (Latest)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixtral 12B",
+                    "target": "Pixtral 12B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open test dashboard",
+                    "target": "打开测试仪表板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type your answer here",
+                    "target": "在此输入你的答案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Test plugin not found.",
+                    "target": "未找到测试插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Test dashboard",
+                    "target": "测试仪表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " Refreshing...",
+                    "target": " 正在刷新..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create tests",
+                    "target": "创建测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files found. Click Refresh to scan your vault.",
+                    "target": "未找到文件。点击刷新以扫描你的库。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mark all tests",
+                    "target": "标记所有测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Marking in progress...",
+                    "target": "正在标记..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No test questions available.",
+                    "target": "没有可用的测试题目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Suggestions: Split your document into smaller parts, or try a different LLM provider with a larger context window.",
+                    "target": "建议：将文档拆分为更小部分，或尝试具有更大上下文窗口的其他 LLM 提供商。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The model failed to generate properly structured output required for test marking.",
+                    "target": "模型未能生成测试标记所需的正确结构化输出。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ollama lets you run LLMs locally. Make sure Ollama is installed and running before using this option.",
+                    "target": "Ollama 允许你在本地运行 LLM。使用此选项前请确保已安装并运行 Ollama。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Download Ollama from: https://ollama.com/",
+                    "target": "从此处下载 Ollama：https://ollama.com/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your API keys are stored locally in your vault and are only used to communicate with the selected LLM provider.",
+                    "target": "您的 API 密钥存储在本地保险库中，仅用于与所选的 LLM 提供商通信。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "OpenAI API keys can be obtained from: https://platform.openai.com/account/api-keys",
+                    "target": "OpenAI API 密钥可从此处获取：https://platform.openai.com/account/api-keys"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GPT-4 and GPT-4o provide the best results but require a higher API usage tier.",
+                    "target": "GPT-4 和 GPT-4o 提供最佳效果，但需要更高的 API 使用等级。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "DeepSeek API keys can be obtained from the DeepSeek website.",
+                    "target": "DeepSeek API 密钥可从 DeepSeek 网站获取。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "WARNING: Mistral is currently not effective at marking answers",
+                    "target": "警告：Mistral 目前在标记答案方面效果不佳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mistral API keys can be obtained from: https://console.mistral.ai/api-keys/",
+                    "target": "Mistral API 密钥可从此处获取：https://console.mistral.ai/api-keys/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mistral offers several model sizes with different capabilities and pricing. Mistral Medium provides a good balance of performance and cost.",
+                    "target": "Mistral 提供多种模型规模，能力和定价各不相同。Mistral Medium 在性能和成本之间提供良好平衡。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Refresh file index",
+                    "target": "刷新文件索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open test document",
+                    "target": "打开测试文档"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
