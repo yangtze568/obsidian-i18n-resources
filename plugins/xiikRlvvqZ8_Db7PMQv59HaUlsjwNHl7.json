@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tg-emoji-search",
+        "version": "1.0.0",
+        "title": "TG Emoji Search",
+        "description": "TG Emoji Search Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize WASM:",
+                    "target": "初始化 WASM 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading WASM module:",
+                    "target": "加载 WASM 模块出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chosen languages",
+                    "target": "已选择的语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trigger character",
+                    "target": "触发字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show keywords in suggestions",
+                    "target": "在建议中显示关键词"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "At least one language must be selected. English has been re-enabled.",
+                    "target": "必须至少选择一种语言。英语已重新启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "😌",
+                    "target": "😌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "🏷",
+                    "target": "🏷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "⛓ 🔗",
+                    "target": "⛓ 🔗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "page",
+                    "source": "📑 📜 📃 📰 📄",
+                    "target": "📑 📜 📃 📰 📄"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "🔎 🔍",
+                    "target": "🔎 🔍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "speech",
+                    "source": "🗯 💭 💬",
+                    "target": "🗯 💭 💬"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📝 💬",
+                    "target": "📝 💬"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "🚸 📵 ⚠️ 🚱 🚷 🚫 ☢ ☣ 🚳 🔞 🚯 🚭 ⛔",
+                    "target": "🚸 📵 ⚠️ 🚱 🚷 🚫 ☢ ☣ 🚳 🔞 🚯 🚭 ⛔"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
