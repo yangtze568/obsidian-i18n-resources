@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-simple-mention",
+        "version": "1.0.0",
+        "title": "Simple Mention",
+        "description": "Simple Mention Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Include completed tasks",
+                    "target": "包含已完成的任务"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "No occurences to show",
+                    "target": "没有可显示的发生项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete cache",
+                    "target": "删除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Leave this blank if you want to use the default value (@). Please reload Obsidian after changing this value.",
+                    "target": "如果要使用默认值（@），请留空。更改此值后请重新加载 Obsidian。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "List of directories to ignore (separated by comma). Please reload Obsidian after changing this value.",
+                    "target": "要忽略的目录列表（用逗号分隔）。更改此值后请重新加载 Obsidian。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "All cache related data is deleted and will be recreated after reloading Obsidian. Please reload Obsidian after deleting.",
+                    "target": "所有与缓存相关的数据已删除，并将在重新加载 Obsidian 后重新创建。删除后请重新加载 Obsidian。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mention trigger",
+                    "target": "提及触发器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mention style color",
+                    "target": "提及样式颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mention yourself",
+                    "target": "提及自己"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mention yourself style color",
+                    "target": "提及自己样式颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignored directories",
+                    "target": "已忽略的目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete cache",
+                    "target": "删除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Couldn't initiate Popover component",
+                    "target": "无法初始化 Popover 组件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Couldn't initiate popper",
+                    "target": "无法初始化 popper"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Need to reopen db",
+                    "target": "Dexie：需要重新打开数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Couldn't initiate Virtual Select",
+                    "target": "无法初始化 Virtual Select"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Simple Mention:\n",
+                    "target": "简单提及：\n"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Simple Mention:\nIndexing done",
+                    "target": "简单提及：\n索引完成"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
