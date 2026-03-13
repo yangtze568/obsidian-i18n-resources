@@ -1,0 +1,235 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-recall",
+        "version": "1.0.0",
+        "title": "Better Recall",
+        "description": "Better Recall Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "better-recall-card better-recall-review-card",
+                    "target": "better-recall-card better-recall-review-card"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "better-recall-card better-recall__cards-list",
+                    "target": "better-recall-card better-recall__cards-list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading better recall",
+                    "target": "正在加载 better recall"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading better recall",
+                    "target": "正在卸载 better recall"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create Deck",
+                    "target": "创建卡组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add card",
+                    "target": "添加卡片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Algorithms & datastructures",
+                    "target": "算法与数据结构"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "A lovely CS learning experience.",
+                    "target": "一次愉快的计算机科学学习体验。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No available decks",
+                    "target": "没有可用的卡组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create new deck",
+                    "target": "创建新卡组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "🚪",
+                    "target": "🚪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "👀",
+                    "target": "👀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Show answer",
+                    "target": "显示答案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Review session complete 🚀!",
+                    "target": "复习完成 🚀！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add card",
+                    "target": "添加卡片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create new deck",
+                    "target": "创建新牌组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit card",
+                    "target": "编辑卡片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New deck name:",
+                    "target": "新牌组名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Description (optional):",
+                    "target": "描述（可选）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Deck name:",
+                    "target": "牌组名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Deck description:",
+                    "target": "牌组描述："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The multiplier applied to the current interval when a card lapses.",
+                    "target": "卡片遗忘时应用于当前间隔的倍率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The interval (in days) assigned to a card when rated as `easy` during learning/relearning.",
+                    "target": "在学习/重新学习期间被评为 `easy` 时分配给卡片的间隔（天）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The multiplier applied to the interval when a review card is rated as `easy`.",
+                    "target": "复习卡被评为 `easy` 时应用于间隔的倍率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The interval (in days) assigned to a card when it graduates from learning to review.",
+                    "target": "卡片从学习阶段毕业进入复习时分配的间隔（天）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The minimum allowed ease factor for a card.",
+                    "target": "卡片允许的最小易记系数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The amount by which the ease factor is decreased when a card is rated as `again`.",
+                    "target": "卡片被评为 `again` 时易记系数减少的幅度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The amount by which the ease factor is increased when a card is rated as `easy`.",
+                    "target": "卡片被评为 `easy` 时易记系数增加的幅度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The multiplier applied to the current interval when a review card is rated as `hard`.",
+                    "target": "复习卡被评为 `hard` 时应用于当前间隔的倍率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Comma-separated step intervals (in minutes) for new cards in the learning phase.",
+                    "target": "新卡学习阶段的步进间隔（以分钟计），用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Comma-separated step intervals (in minutes) for cards in the relearning phase.",
+                    "target": "复习阶段卡片的步进间隔（以分钟计），用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add card",
+                    "target": "添加卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Deck:",
+                    "target": "牌组："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Type:",
+                    "target": "类型："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No cards created for this deck",
+                    "target": "此牌组未创建卡片"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
