@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "theme-picker",
+        "version": "1.0.0",
+        "title": "Theme Picker",
+        "description": "Theme Picker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
