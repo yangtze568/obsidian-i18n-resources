@@ -1,0 +1,319 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "yandex-tracker-issue",
+        "version": "1.0.0",
+        "title": "Yandex Tracker Issue",
+        "description": "Yandex Tracker Issue Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YTI: Ошибка при проверке подключения.\n\nПолученный ответ: ",
+                    "target": "YTI: 检查连接时出错。\n\n收到的响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Не смог сгенерировать строку диаграммы Ганта из-за ошибки: ",
+                    "target": "由于错误，无法生成甘特图字符串："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Проверить",
+                    "target": "检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Сбросить",
+                    "target": "重置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Ререндер",
+                    "target": "重新渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Проверка подключения к yandex tracker",
+                    "target": "检查与 Yandex Tracker 的连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Атрибуты задач через пробел",
+                    "target": "任务属性，用空格分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Атрибуты досок через пробел",
+                    "target": "看板属性，用空格分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Атрибуты проектов через пробел",
+                    "target": "项目属性，用空格分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Атрибуты очередей через пробел",
+                    "target": "队列属性，用空格分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Атрибуты спринтов через пробел",
+                    "target": "冲刺属性（用空格分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Атрибуты пользователей через пробел",
+                    "target": "用户属性（用空格分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Статусы завершённых задач для диаграммы Ганта",
+                    "target": "甘特图已完成任务的状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Настройки отображения сбросятся до стандартных",
+                    "target": "显示设置将重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Когда данные с Yandex Tracker загрузились некорректно, используйте эту кнопку",
+                    "target": "当 Yandex Tracker 数据加载不正确时，请使用此按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Авторизация.",
+                    "target": "授权。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Проверка подключения",
+                    "target": "连接检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Настройки отображения.",
+                    "target": "显示设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Атрибуты задач",
+                    "target": "任务属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Атрибуты досок",
+                    "target": "看板属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Атрибуты проектов",
+                    "target": "项目属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Атрибуты очередей",
+                    "target": "队列属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Атрибуты спринтов",
+                    "target": "冲刺属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Атрибуты пользователей",
+                    "target": "用户属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Статусы завершённых задач",
+                    "target": "已完成任务状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Сбросить настройки до стандартных",
+                    "target": "重置为默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ререндер",
+                    "target": "重新渲染"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u0424\\u0430\\u0439\\u043B 'data.json' \\u043F\\u043E\\u0432\\u0440\\u0435\\u0436\\u0434\\u0451\\u043D \\u0438 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0432\\u043E\\u0441\\u0441\\u0442\\u0430\\u043D\\u043E\\u0432\\u043B\\u0435\\u043D \\u0434\\u043E \\u0441\\u0442\\u0430\\u043D\\u0434\\u0430\\u0440\\u0442\\u043D\\u044B\\u0445 \\u0437\\u043D\\u0430\\u0447\\u0435\\u043D\\u0438\\u0439.",
+                    "target": "\\u6587\\u4EF6 'data.json' \\u5DF2\\u635F\\u574F\\uFF0C\\u5C06\\u6062\\u590D\\u4E3A\\u9ED8\\u8BA4\\u503C\\u3002"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u0412\\u0438\\u0434\\u0438\\u043C\\u043E, \\u0432\\u044B \\u0437\\u0430\\u043F\\u0443\\u0441\\u0442\\u0438\\u043B\\u0438 'Yandex Tracker Issue' \\u0432 \\u043F\\u0435\\u0440\\u0432\\u044B\\u0439 \\u0440\\u0430\\u0437.\n\n\\u0421\\u043F\\u0430\\u0441\\u0438\\u0431\\u043E \\u0437\\u0430 \\u0443\\u0441\\u0442\\u0430\\u043D\\u043E\\u0432\\u043A\\u0443 \\u043F\\u043B\\u0430\\u0433\\u0438\\u043D\\u0430!!!\n\n\\u0414\\u043B\\u044F \\u0434\\u0435\\u0442\\u0430\\u043B\\u044C\\u043D\\u043E\\u0439 \\u0438\\u043D\\u0444\\u043E\\u0440\\u043C\\u0430\\u0446\\u0438\\u0438, \\u043E\\u0437\\u043D\\u0430\\u043A\\u043E\\u043C\\u0442\\u0435\\u0441\\u044C \\u0441 \\u0438\\u043D\\u0441\\u0442\\u0440\\u0443\\u043A\\u0446\\u0438\\u0435\\u0439.\n\n\\u0415\\u0441\\u043B\\u0438 \\u0432\\u044B \\u043D\\u0430\\u0448\\u043B\\u0438 \\u043E\\u0448\\u0438\\u0431\\u043A\\u0443 - \\u043E\\u0442\\u043A\\u0440\\u043E\\u0439\\u0442\\u0435, \\u043F\\u043E\\u0436\\u0430\\u043B\\u0443\\u0439\\u0441\\u0442\\u0430, Issue \\u0432 github-\\u0435.",
+                    "target": "\\u770B\\u6765\\u60A8\\u662F\\u7B2C\\u4E00\\u6B21\\u8FD0\\u884C 'Yandex Tracker Issue'\\u3002\n\n\\u611F\\u8C22\\u5B89\\u88C5\\u63D2\\u4EF6!!!\n\n\\u5982\\u9700\\u8BE6\\u7EC6\\u4FE1\\u606F\\uFF0C\\u8BF7\\u67E5\\u770B\\u8BF4\\u660E\\u3002\n\n\\u5982\\u679C\\u60A8\\u53D1\\u73B0\\u4E86\\u9519\\u8BEF\\uFF0C\\u8BF7\\u5728 GitHub \\u4E0A\\u63D0\\u4EA4 Issue\\u3002"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Не могу протестировать подключение.\n\nОткройте, пожалуйста, issue на гитхабе в репозитории данного плагина по данной проблеме.",
+                    "target": "无法测试连接。\n\n请在 GitHub 上该插件的仓库中就此问题提交 issue。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Настройки были сброшены",
+                    "target": "设置已重置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Запуск ререндера",
+                    "target": "启动重新渲染"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Проблемы с подключением.\n\nДля дополнительной информации смотри логи.",
+                    "target": "连接出现问题。\n\n更多信息请查看日志。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Количество попыток превышено",
+                    "target": "尝试次数已超出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запрос выполнен успешно.",
+                    "target": "请求已成功执行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "В результате выполнения запроса с методом POST успешно создан новый объект.",
+                    "target": "执行 POST 方法的请求后成功创建了新对象。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запрос с методом DELETE успешно выполнен, объект удален.",
+                    "target": "DELETE 方法的请求已成功执行，对象已删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Один или несколько параметров запроса имеют недопустимое значение.",
+                    "target": "一个或多个请求参数的值无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Пользователь не авторизован. Проверьте, были ли выполнены действия, описанные в разделе Доступ к API.",
+                    "target": "用户未授权。请检查是否已执行“API 访问”部分中描述的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "У вас не хватает прав на выполнение этого действия. Наличие прав можно перепроверить в интерфейсе Трекера — для выполнения действия при помощи API и через интерфейс требуются одинаковые права.",
+                    "target": "您没有执行此操作的权限。可在 Tracker 界面中复核权限——通过 API 和通过界面执行该操作所需的权限相同。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запрошенный объект не был найден. Возможно, вы указали неверное значение идентификатора или ключа объекта.",
+                    "target": "未找到请求的对象。可能是您指定了错误的标识符或对象键值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "При редактировании объекта возник конфликт. Возможно, ошибка возникла из-за неправильно указанной версии изменений.",
+                    "target": "编辑对象时发生冲突。可能是由于指定的更改版本不正确导致的错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ошибка валидации JSON, запрос отклонен.",
+                    "target": "JSON 验证错误，请求被拒绝。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Редактирование объекта заблокировано. Возможно, превышено допустимое значение параметра version — количество обновлений объекта. Максимальное значение версии составляет 10100 для роботов и 11100 для пользователей.",
+                    "target": "对象编辑被阻止。可能超过了 version 参数的允许值——对象更新次数。机器人最大版本为 10100，用户为 11100。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Доступ к ресурсу отклонен. Проверьте, указаны ли все обязательные условия выполнения запроса.",
+                    "target": "对资源的访问被拒绝。请检查是否已指定所有请求必需的条件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Превышено допустимое количество запросов к хосту в единицу времени. Попробуйте повторить запрос позже.",
+                    "target": "在单位时间内对主机的请求数量超过上限。请稍后重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Описание",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Название доски",
+                    "target": "看板名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Название",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Название",
+                    "target": "名称"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
