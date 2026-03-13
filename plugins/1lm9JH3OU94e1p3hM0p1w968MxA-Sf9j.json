@@ -1,0 +1,595 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hoarder-sync",
+        "version": "1.0.0",
+        "title": "Hoarder Sync",
+        "description": "Hoarder Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.12.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add deletion tag",
+                    "target": "添加删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Move to archive folder",
+                    "target": "移至归档文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete file",
+                    "target": "删除文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add archived tag",
+                    "target": "添加归档标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Do nothing",
+                    "target": "不执行任何操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error downloading image:",
+                    "target": "下载图片出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "API request failed:",
+                    "target": "API 请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Asset download failed:",
+                    "target": "资源下载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading file:",
+                    "target": "读取文件出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating bookmark in Hoarder:",
+                    "target": "在 Hoarder 中更新书签出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Hoarder] Sync already in progress",
+                    "target": "[Hoarder] 同步已在进行中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching highlights in bulk:",
+                    "target": "批量获取高亮时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error syncing bookmarks:",
+                    "target": "同步书签时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Hoarder] Error updating frontmatter:",
+                    "target": "[Hoarder] 更新 frontmatter 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Hoarder] Failed to update bookmark in Hoarder",
+                    "target": "[Hoarder] 在 Hoarder 中更新书签失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Hoarder] Error handling file modification:",
+                    "target": "[Hoarder] 处理文件修改时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] API key not configured",
+                    "target": "[Hoarder] 未配置 API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] Starting sync...",
+                    "target": "[Hoarder] 开始同步..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] Skipping - notes match last synced version",
+                    "target": "[Hoarder] 跳过 - 笔记与上次同步版本一致"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] No bookmark_id found in frontmatter",
+                    "target": "[Hoarder] 在 frontmatter 中未找到 bookmark_id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] Notes have changed from frontmatter note",
+                    "target": "[Hoarder] 笔记已从 frontmatter 备注发生更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] Notes have changed, syncing to Hoarder",
+                    "target": "[Hoarder] 笔记已更改，正在同步到 Hoarder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] Successfully synced notes to Hoarder",
+                    "target": "[Hoarder] 已成功将笔记同步到 Hoarder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Hoarder] Notes unchanged, no sync needed",
+                    "target": "[Hoarder] 笔记未更改，无需同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Hoarder API key",
+                    "target": "你的 Hoarder API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hoarder API endpoint URL (default: https://api.karakeep.app/api/v1)",
+                    "target": "Hoarder API 端点 URL（默认：https://api.karakeep.app/api/v1）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where bookmarks will be saved",
+                    "target": "保存书签的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where bookmark images will be saved",
+                    "target": "保存书签图片的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often to sync (in minutes)",
+                    "target": "同步频率（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to sync notes to Karakeep",
+                    "target": "是否将笔记同步到 Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to sync highlights from Karakeep into bookmark files",
+                    "target": "是否将 Karakeep 的高亮同步到书签文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude archived bookmarks from sync",
+                    "target": "同步时排除已归档的书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only sync favorited bookmarks",
+                    "target": "仅同步已收藏的书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only sync bookmarks that have highlights (requires 'Sync highlights' to be enabled)",
+                    "target": "仅同步包含高亮的书签（需要启用“同步高亮”）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Bookmarks with these tags will not be synced (comma-separated), unless favorited",
+                    "target": "带有这些标签的书签将不会同步（以逗号分隔），除非已收藏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Bookmarks with these tags will be synced (comma-separated)",
+                    "target": "带有这些标签的书签将被同步（以逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically handle bookmarks that are deleted in Karakeep",
+                    "target": "自动处理在 Karakeep 中删除的书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to do with local files when bookmarks are deleted in Karakeep",
+                    "target": "当书签在 Karakeep 中删除时如何处理本地文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to move deleted bookmarks to",
+                    "target": "用于移动已删除书签的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tag to add to files when bookmarks are deleted",
+                    "target": "书签删除时添加到文件的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Separately handle bookmarks that are archived (not deleted) in Karakeep",
+                    "target": "单独处理在 Karakeep 中归档（未删除）的书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to do with local files when bookmarks are archived in Karakeep",
+                    "target": "当书签在 Karakeep 中归档时如何处理本地文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to move archived bookmarks to",
+                    "target": "将已归档书签移动到的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tag to add to files when bookmarks are archived",
+                    "target": "书签归档时为文件添加的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sync bookmarks now",
+                    "target": "立即同步书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Api key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Api endpoint",
+                    "target": "API 端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bypass CORS",
+                    "target": "绕过 CORS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync folder",
+                    "target": "同步文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Attachments folder",
+                    "target": "附件文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync interval",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update existing files",
+                    "target": "更新现有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync notes to Karakeep",
+                    "target": "将笔记同步到 Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync highlights",
+                    "target": "同步标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download assets",
+                    "target": "下载资源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude archived",
+                    "target": "排除已归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only favorites",
+                    "target": "仅收藏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only bookmarks with highlights",
+                    "target": "仅含标注的书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded tags",
+                    "target": "排除的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Included tags",
+                    "target": "包含的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync deletions",
+                    "target": "同步删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deletion action",
+                    "target": "删除操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive folder",
+                    "target": "归档文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deletion tag",
+                    "target": "删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Handle archived bookmarks",
+                    "target": "处理已归档书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archived bookmark action",
+                    "target": "已归档书签操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archived bookmark folder",
+                    "target": "已归档书签文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archived bookmark tag",
+                    "target": "已归档书签标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manual sync",
+                    "target": "手动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter API endpoint",
+                    "target": "输入 API 端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/attachments",
+                    "target": "示例：folder1/attachments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "private, secret, draft",
+                    "target": "私有、保密、草稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "public, shared",
+                    "target": "公开、共享"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: Hoarder/deleted",
+                    "target": "示例：Hoarder/deleted"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: Hoarder/archived",
+                    "target": "示例：Hoarder/archived"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Notes synced to Hoarder",
+                    "target": "笔记已同步到 Hoarder"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to sync notes to Hoarder",
+                    "target": "同步笔记到 Hoarder 失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Sync already in progress",
+                    "target": "同步已在进行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Hoarder API key not configured",
+                    "target": "未配置 Hoarder API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Bookmarks",
+                    "target": "同步书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "API Configuration",
+                    "target": "API 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Connection settings for your Karakeep instance",
+                    "target": "你的 Karakeep 实例连接设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File Organization",
+                    "target": "文件组织"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure where your bookmarks and assets are stored",
+                    "target": "配置书签和资产的存储位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Behavior",
+                    "target": "同步行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Control how synchronization works",
+                    "target": "控制同步的工作方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Filtering",
+                    "target": "同步筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Control which bookmarks are synchronized",
+                    "target": "控制同步哪些书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Deletion Handling",
+                    "target": "删除处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure what happens when bookmarks are deleted in Karakeep",
+                    "target": "配置在 Karakeep 中删除书签时的处理方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Archive Handling",
+                    "target": "归档处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure what happens when bookmarks are archived in Karakeep",
+                    "target": "配置在 Karakeep 中归档书签时的处理方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manual Actions & Status",
+                    "target": "手动操作与状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manual sync controls and synchronization status",
+                    "target": "手动同步控件和同步状态"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
