@@ -1,0 +1,523 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-file-cooker",
+        "version": "1.0.0",
+        "title": "File Cooker",
+        "description": "File Cooker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.9.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "You should have at least one edge in the canvas to use this feature!",
+                    "target": "要使用此功能，画布中至少需要有一条连线！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "config batch file limit",
+                    "target": "配置批处理文件限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "config flomo API to sync notes",
+                    "target": "配置 flomo API 同步笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Properties Key",
+                    "target": "属性键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Properties Value",
+                    "target": "属性值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter batch file limit",
+                    "target": "输入批处理文件限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter flomo API",
+                    "target": "输入 flomo API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Override if exists!",
+                    "target": "若存在则覆盖！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy instead!",
+                    "target": "改为复制！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Split by line!",
+                    "target": "按行拆分！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Include resolved links!",
+                    "target": "包含已解析的链接！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy name only!",
+                    "target": "仅复制名称！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Delete Success!",
+                    "target": "删除成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Delete Canceled!",
+                    "target": "删除已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Files Found!",
+                    "target": "未找到文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Modify Property Success!",
+                    "target": "修改属性成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Modify Property Canceled!",
+                    "target": "修改属性已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy Success!",
+                    "target": "复制成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Move Success!",
+                    "target": "移动成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Move Canceled!",
+                    "target": "移动已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Rename Success!",
+                    "target": "重命名成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Rename Canceled!",
+                    "target": "重命名已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync to flomo Success!",
+                    "target": "同步到 flomo 成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync to flomo Canceled!",
+                    "target": "同步到 flomo 已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please config flomoAPI first!",
+                    "target": "请先配置 flomoAPI！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Add to Canvas Success!",
+                    "target": "添加到画布成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Add to Canvas Canceled!",
+                    "target": "添加到画布已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Merge Success!",
+                    "target": "合并成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Merge Canceled!",
+                    "target": "合并已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Create Success!",
+                    "target": "创建成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Create Canceled!",
+                    "target": "创建已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file!",
+                    "target": "没有活动文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy links success!",
+                    "target": "复制链接成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy to Clipboard Canceled!",
+                    "target": "复制到剪贴板已取消！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Has no search results!Please search first!",
+                    "target": "没有搜索结果！请先搜索！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename files in clipboard ...",
+                    "target": "重命名剪贴板中的文件 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit Properties in clipboard files ...",
+                    "target": "编辑剪贴板文件的属性 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete files in clipboard!",
+                    "target": "删除剪贴板中的文件！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merge files in clipboard to ...",
+                    "target": "将剪贴板中的文件合并到 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync files in clipboard to flomo ...",
+                    "target": "将剪贴板中的文件同步到flomo ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move files in clipboard to ...",
+                    "target": "将剪贴板中的文件移动到..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add content in clipboard to canvas ...",
+                    "target": "将剪贴板中的内容添加到画布..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add files in clipboard to target canvas ...",
+                    "target": "将剪贴板中的文件添加到目标画布..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename in current file links ...",
+                    "target": "重命名当前文件中的链接..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit Properties in current file links ...",
+                    "target": "编辑当前文件中链接的属性..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete link-files in current file!",
+                    "target": "删除当前文件中的链接文件！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merge links in current file to ...",
+                    "target": "将当前文件中的链接合并到..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create links in current file ...",
+                    "target": "在当前文件中创建链接..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync links in current file to flomo ...",
+                    "target": "将当前文件中的链接同步到flomo..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync content in current file to flomo ...",
+                    "target": "将当前文件中的内容同步到flomo..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync selection in current file to flomo ...",
+                    "target": "同步当前文件中的选区到 flomo ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add selection in current file to canvas ...",
+                    "target": "将当前文件中的选区添加到画布 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move links in current file to ...",
+                    "target": "将当前文件中的链接移动到 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add links in current file to target canvas ...",
+                    "target": "将当前文件中的链接添加到目标画布 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename in dataview results ...",
+                    "target": "在 dataview 结果中重命名 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit Properties in dataview results ...",
+                    "target": "在 dataview 结果中编辑属性 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy dataview result links!",
+                    "target": "复制 dataview 结果链接！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete dataview query results!",
+                    "target": "删除 dataview 查询结果！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merge dataview query results to ...",
+                    "target": "将 dataview 查询结果合并到 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync dataview query results to flomo ...",
+                    "target": "同步 dataview 查询结果到 flomo ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move dataview query results to ...",
+                    "target": "将 dataview 查询结果移动到 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add dataview query results to canvas...",
+                    "target": "将 dataview 查询结果添加到画布..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add dataview task to canvas...",
+                    "target": "将 dataview 任务添加到画布..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start Presentation",
+                    "target": "开始演示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stop Presentation",
+                    "target": "停止演示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename files in searchresults ...",
+                    "target": "重命名 searchresults 中的文件 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit Properties in searchresults files ...",
+                    "target": "编辑 searchresults 文件中的属性 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete files in searchresults!",
+                    "target": "删除 searchresults 中的文件！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merge files in searchresults to ...",
+                    "target": "将 searchresults 中的文件合并到 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync files in searchresults to flomo ...",
+                    "target": "将 searchresults 中的文件同步到 flomo ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move files in searchresults to ...",
+                    "target": "将 searchresults 中的文件移动到..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add files in searchresults to target canvas ...",
+                    "target": "将 searchresults 中的文件添加到目标画布..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm Delete?",
+                    "target": "确认删除？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files found!",
+                    "target": "未找到文件！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit Properties",
+                    "target": "编辑属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm Move/Copy?",
+                    "target": "确认移动/复制？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rename Files",
+                    "target": "重命名文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm Sync to flomo?",
+                    "target": "确认同步到 flomo？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Selection",
+                    "target": "同步选中项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm Add to Canvas?",
+                    "target": "确认添加到画布？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm Merge?",
+                    "target": "确认合并？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm Create?",
+                    "target": "确认创建？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm copy to clipboard?",
+                    "target": "确认复制到剪贴板？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for File Cooker!",
+                    "target": "File Cooker 设置！"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
