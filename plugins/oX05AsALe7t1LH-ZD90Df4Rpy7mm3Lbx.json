@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vault-nickname",
+        "version": "1.0.0",
+        "title": "Vault Nickname",
+        "description": "Vault Nickname Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Vault name first",
+                    "target": "保管库名称优先"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "File name first",
+                    "target": "文件名优先"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The vault settings menu was not found after the timeout.",
+                    "target": "超时后未找到保管库设置菜单。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Timeout while waiting for a settings menu tab to be found.",
+                    "target": "等待设置菜单标签页时超时。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Plugin tab not found.",
+                    "target": "未找到插件标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "no this.app.title",
+                    "target": "no this.app.title"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Override the vault's display name.",
+                    "target": "覆盖保管库的显示名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Position and use of vault nickname in the app title.",
+                    "target": "保管库昵称在应用标题中的位置与使用方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault nickname",
+                    "target": "保管库昵称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Nickname in app title",
+                    "target": "应用标题中的昵称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "No nickname",
+                    "target": "无昵称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Vault Nickname settings",
+                    "target": "保管库昵称设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Use the name of the vault's parents folder.",
+                    "target": "使用保管库父文件夹的名称。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
