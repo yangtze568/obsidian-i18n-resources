@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "iconoir-icons",
+        "version": "1.0.0",
+        "title": "Iconoir Icons",
+        "description": "Iconoir Icons Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "iconoir-icons loaded",
+                    "target": "iconoir-icons 已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "iconoir-icons unloaded",
+                    "target": "iconoir-icons 已卸载"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
