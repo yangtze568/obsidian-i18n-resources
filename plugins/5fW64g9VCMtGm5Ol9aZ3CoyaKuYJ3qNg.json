@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-rtl",
+        "version": "1.0.0",
+        "title": "RTL Support",
+        "description": "RTL Support Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Text direction",
+                    "target": "文本方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading RTL plugin",
+                    "target": "正在卸载 RTL 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Front matter direction in file",
+                    "target": "文件中的 Front matter 方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "is unknown:",
+                    "target": "未知："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What should be the default text direction in Obsidian?",
+                    "target": "Obsidian 中默认的文本方向应是什么？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "In RTL notes, also set the direction of the note title.",
+                    "target": "在 RTL 笔记中，也设置笔记标题的方向。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For RTL notes, preview YAML blocks as RTL. (When turning off, restart of Obsidian is required.)",
+                    "target": "对 RTL 笔记，将 YAML 块预览为 RTL。（关闭时需重启 Obsidian。）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Raw YAML will always be LTR-directioned whatever the direction is. (Restart required after changing.)",
+                    "target": "无论方向如何，原始 YAML 始终为 LTR 方向。（更改后需重启。）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default text direction",
+                    "target": "默认文本方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set note title direction",
+                    "target": "设置笔记标题方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set YAML direction in Preview",
+                    "target": "在预览中设置 YAML 方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prevent raw YAML (Frontmatter) to be RTL-directioned in Editor",
+                    "target": "防止编辑器中的原始 YAML（Frontmatter）被设置为 RTL 方向"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RTL Plugin: legacy settings were converted to the new format",
+                    "target": "RTL 插件：旧版设置已转换为新格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Obsidian RTL can't set the direction of this document",
+                    "target": "Obsidian RTL 无法设置此文档的方向"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "To change a canvas card direction, open the document separately and reload the canvas.",
+                    "target": "要更改画布卡片方向，请单独打开文档并重新加载画布。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't change the direction of a card without a file.",
+                    "target": "没有文件时无法更改卡片方向。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch Text Direction (LTR->RTL->auto)",
+                    "target": "切换文本方向（LTR->RTL->自动）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "RTL Settings",
+                    "target": "RTL 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
