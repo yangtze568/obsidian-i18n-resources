@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "copy-without-links",
+        "version": "1.0.0",
+        "title": "Strip Internal Links",
+        "description": "Strip Internal Links Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Selection copied with internal links stripped",
+                    "target": "已复制选区并移除内部链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File copied with internal links stripped",
+                    "target": "已复制文件并移除内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Selection (to clipboard)",
+                    "target": "选区（到剪贴板）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Entire file (to clipboard)",
+                    "target": "整个文件（到剪贴板）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Selection (in place)",
+                    "target": "选区（原位）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Entire file (in place)",
+                    "target": "整个文件（原位）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
