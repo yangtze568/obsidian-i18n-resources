@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "custom-slides",
+        "version": "1.0.0",
+        "title": "Custom Slides",
+        "description": "Custom Slides Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a transition effect between slides.",
+                    "target": "选择幻灯片之间的过渡效果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use W, A, S, D keys to navigate slides. Q jumps to first slide, E to last.",
+                    "target": "使用 W、A、S、D 键导航幻灯片。Q 跳到第一张，E 跳到最后一张。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle visibility of the left navigation arrow.",
+                    "target": "切换左侧导航箭头的可见性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle visibility of the right navigation arrow.",
+                    "target": "切换右侧导航箭头的可见性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle visibility of the up navigation arrow.",
+                    "target": "切换向上导航箭头的可见性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle visibility of the down navigation arrow.",
+                    "target": "切换向下导航箭头的可见性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle visibility of the close button.",
+                    "target": "切换关闭按钮的可见性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle to left-align bulleted and numbered lists in presentation mode.",
+                    "target": "在演示模式下切换为左对齐项目符号和编号列表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the height of the progress bar in pixels.",
+                    "target": "设置进度条的高度（像素）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use the same font as your Obsidian text settings in slides.",
+                    "target": "在幻灯片中使用与 Obsidian 文本设置相同的字体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow clicking and dragging to move slides around.",
+                    "target": "允许点击并拖动以移动幻灯片。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow using the mouse wheel to zoom in and out of slides.",
+                    "target": "允许使用鼠标滚轮放大和缩小幻灯片。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transition effect",
+                    "target": "过渡效果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use WASD for navigation",
+                    "target": "使用 WASD 进行导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide left navigation arrow",
+                    "target": "隐藏左侧导航箭头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide right navigation arrow",
+                    "target": "隐藏右侧导航箭头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide up navigation arrow",
+                    "target": "隐藏上方导航箭头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide down navigation arrow",
+                    "target": "隐藏下方导航箭头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide close button",
+                    "target": "隐藏关闭按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Left-align lists",
+                    "target": "列表左对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Progress bar height",
+                    "target": "进度条高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Obsidian font settings",
+                    "target": "使用 Obsidian 字体设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable pan",
+                    "target": "启用平移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable zoom",
+                    "target": "启用缩放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter height in pixels",
+                    "target": "输入高度（像素）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
