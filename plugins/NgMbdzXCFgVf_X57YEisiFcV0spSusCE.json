@@ -1,0 +1,283 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "extended-graph",
+        "version": "1.0.0",
+        "title": "Extended Graph",
+        "description": "Extended Graph Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.7.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "select to enable accessibility for this content",
+                    "target": "选择以启用此内容的辅助功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "tooltip extended-graph-tooltip",
+                    "target": "tooltip extended-graph-tooltip"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "PixiJS Error: Could not initialize shader.",
+                    "target": "PixiJS 错误：无法初始化着色器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "KTXLoader: keyAndValueByteSize out of bounds",
+                    "target": "KTXLoader：keyAndValueByteSize 超出范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "KTXLoader: Failed to find null byte terminating kvData key",
+                    "target": "KTXLoader：未能找到终止 kvData 键的空字节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BackgroundLoader] assets: ",
+                    "target": "[BackgroundLoader] 资源： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open on web",
+                    "target": "在网页上打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show modified arrows",
+                    "target": "显示修改的箭头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show folder boxes",
+                    "target": "显示文件夹框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show modified names",
+                    "target": "显示修改的名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show icons",
+                    "target": "显示图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid property while creating proxy:",
+                    "target": "创建代理时的属性无效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Trying to create a proxy for a undefined or null property:",
+                    "target": "尝试为未定义或为空的属性创建代理："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The core reference is no longer pointing to the proxy. Instead :",
+                    "target": "核心引用已不再指向代理。而是："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: could not set global UI.",
+                    "target": "警告：无法设置全局 UI。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "PixiJS Deprecation Warning: ",
+                    "target": "PixiJS 弃用警告："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "PixiJS Warning: gl.getProgramInfoLog()",
+                    "target": "PixiJS 警告：gl.getProgramInfoLog()"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Provided WebGL context does not have a stencil buffer, masks may not render correctly",
+                    "target": "提供的 WebGL 上下文没有模板缓冲区，遮罩可能无法正确渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Provided WebGL context does not support 32 index buffer, complex graphics may not render correctly",
+                    "target": "提供的 WebGL 上下文不支持 32 位索引缓冲区，复杂图形可能无法正确渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "unsupported index buffer type: uint32",
+                    "target": "不支持的索引缓冲区类型：uint32"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "TransformFeedback is not supported but TransformFeedbackVaryings are given.",
+                    "target": "不支持 TransformFeedback，但提供了 TransformFeedbackVaryings。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "EventBoundary cannot map a non-pointer event as a pointer event",
+                    "target": "EventBoundary 无法将非指针事件映射为指针事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "EventBoundary cannot map a non-wheel event as a wheel event",
+                    "target": "EventBoundary 无法将非滚轮事件映射为滚轮事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Cache] already has key:",
+                    "target": "[Cache] 已存在键："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[loadWebFont] FontFace API is not supported. Skipping loading font",
+                    "target": "[loadWebFont] 不支持 FontFace API。跳过加载字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resolver] Manifest already exists, this will be overwritten",
+                    "target": "[Resolver] Manifest 已存在，将被覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Assets]AssetManager already initialized, did you load before calling this Asset.init()?",
+                    "target": "[Assets]AssetManager 已初始化，你是否在调用 Asset.init() 之前就加载了？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WebGL not available for compressed textures.",
+                    "target": "WebGL 不支持压缩纹理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLTextStyle] fillGradientStops is not supported by HTMLText",
+                    "target": "[HTMLTextStyle] HTMLText 不支持 fillGradientStops"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLTextStyle] fillGradientType is not supported by HTMLText",
+                    "target": "[HTMLTextStyle] HTMLText 不支持 fillGradientType"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLTextStyle] miterLimit is not supported by HTMLText",
+                    "target": "[HTMLTextStyle] miterLimit 不受 HTMLText 支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLTextStyle] trim is not supported by HTMLText",
+                    "target": "[HTMLTextStyle] trim 不受 HTMLText 支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLTextStyle] textBaseline is not supported by HTMLText",
+                    "target": "[HTMLTextStyle] textBaseline 不受 HTMLText 支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLTextStyle] leading is not supported by HTMLText",
+                    "target": "[HTMLTextStyle] leading 不受 HTMLText 支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLTextStyle] lineJoin is not supported by HTMLText",
+                    "target": "[HTMLTextStyle] lineJoin 不受 HTMLText 支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HTMLText] Cloning TextStyle, if this is not what you want, use HTMLTextStyle",
+                    "target": "[HTMLText] 正在克隆 TextStyle，如果这不是你想要的，请使用 HTMLTextStyle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "信息",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "链接",
+                    "target": "链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extended graph",
+                    "target": "扩展图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extended Graph 增强图谱",
+                    "target": "扩展图谱 增强图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "page",
+                    "source": "页面",
+                    "target": "页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "selection",
+                    "source": "Sélection",
+                    "target": "选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "selection",
+                    "source": "选择",
+                    "target": "选择"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
