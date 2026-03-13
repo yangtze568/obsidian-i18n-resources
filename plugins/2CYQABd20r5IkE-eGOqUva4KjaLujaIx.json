@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mantou-ai",
+        "version": "1.0.0",
+        "title": "MantouAI",
+        "description": "MantouAI Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error:",
+                    "target": "错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dashscope API Key",
+                    "target": "Dashscope API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "APIKEY: sk-xxxxxx",
+                    "target": "APIKEY: sk-xxxxxx"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "全文摘要",
+                    "target": "全文摘要"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "馒头：U•ェ•*U努力思考中...",
+                    "target": "馒头：U•ェ•*U努力思考中..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🐶英译中",
+                    "target": "🐶英译中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🐶中译英",
+                    "target": "🐶中译英"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🐶向馒头提问",
+                    "target": "🐶向馒头提问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🐶要点归纳",
+                    "target": "🐶要点归纳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🐶段落精读（PPT）",
+                    "target": "🐶段落精读（PPT）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🐶英文润色",
+                    "target": "🐶英文润色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🐶中文润色",
+                    "target": "🐶中文润色"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
