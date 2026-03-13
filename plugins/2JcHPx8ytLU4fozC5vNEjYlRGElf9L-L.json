@@ -1,0 +1,265 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "regex-mark",
+        "version": "1.0.0",
+        "title": "Regex Mark",
+        "description": "Regex Mark Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.11.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading plugin RegexMark",
+                    "target": "正在加载插件 RegexMark"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading plugin RegexMark",
+                    "target": "正在卸载插件 RegexMark"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Change open/close tags",
+                    "target": "更改打开/关闭标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Change property name",
+                    "target": "更改属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Regex",
+                    "target": "添加正则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Verify & apply",
+                    "target": "验证并应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define the pattern to be used",
+                    "target": "定义要使用的模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define the close pattern to be used",
+                    "target": "定义要使用的关闭模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow to import regex from other users.",
+                    "target": "允许从其他用户导入正则。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow to export regex to share it with other users.",
+                    "target": "允许导出正则以与其他用户共享。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The property name to search in the frontmatter",
+                    "target": "在 frontmatter 中搜索的属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow to choose where the regex should be applied. Each toggle are independent.",
+                    "target": "允许选择正则表达式应用的位置。每个开关相互独立。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Apply the regex to the reading mode",
+                    "target": "在阅读模式中应用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Note: In source mode, open and close tags are not hidden. It will just enable the css class.",
+                    "target": "注意：在源代码模式下，开始和结束标签不会被隐藏。它只会启用 CSS 类。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Apply the regex to the live mode",
+                    "target": "在实时模式中应用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Apply the regex when the text is within code (inline or block).",
+                    "target": "当文本位于代码中（行内或块）时应用正则表达式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Change open/close tags",
+                    "target": "更改开始/结束标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Close pattern",
+                    "target": "结束模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import settings",
+                    "target": "导入设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export settings",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Property Name",
+                    "target": "属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "View mode",
+                    "target": "查看模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reading mode",
+                    "target": "阅读模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Source mode",
+                    "target": "源代码模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Live mode",
+                    "target": "实时模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto rules",
+                    "target": "自动规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Paste your settings here",
+                    "target": "在此粘贴你的设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter a regex or a string",
+                    "target": "输入正则表达式或字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No importation detected",
+                    "target": "未检测到导入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add auto rule",
+                    "target": "添加自动规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Change the property name to search in the frontmatter for view mode autorules options.",
+                    "target": "更改属性名称，以在 frontmatter 中搜索视图模式自动规则选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit the view mode",
+                    "target": "编辑视图模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete this regex",
+                    "target": "删除此正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move this regex up",
+                    "target": "将此正则表达式上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move this regex down",
+                    "target": "将此正则表达式下移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add a new regex",
+                    "target": "添加新的正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Verify and apply the regexes",
+                    "target": "验证并应用这些正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid regex",
+                    "target": "无效的正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error during the importation: ",
+                    "target": "导入过程中出错： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import from a file",
+                    "target": "从文件导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy to clipboard",
+                    "target": "复制到剪贴板"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
