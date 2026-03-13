@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "magic-mic",
+        "version": "1.0.0",
+        "title": "Magic Mic",
+        "description": "Magic Mic Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error recording audio:",
+                    "target": "录音出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error accessing microphone:",
+                    "target": "访问麦克风出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot pause: not currently recording",
+                    "target": "无法暂停：当前未在录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot resume: not currently paused",
+                    "target": "无法继续：当前未暂停"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ Add an assistant",
+                    "target": "+ 添加助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Save audio files in your vault after transcription; files will be saved according to your vault settings for new attachments.",
+                    "target": "转录后将音频文件保存在你的库中；文件将根据你的库中新附件的设置进行保存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Link audio files into the summary note; ignored if not retaining audio",
+                    "target": "将音频文件链接到摘要笔记中；若不保留音频则忽略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hint the transcription with words, acronyms, or names that are likely to appear in your audio, or with stylized text you want the transcript to match. Note that this is different from summary instructions - see OpenAI's documentation for more. For longer transcriptions that require more than one API call, the prompt will be prepended to the final tokens of the previous response to improve consistency across segments.",
+                    "target": "可用可能出现在音频中的词语、缩写或名称来提示转录，或使用你希望转录匹配的特定风格文本。注意这与摘要指令不同——更多信息请参阅 OpenAI 文档。对于需要多次 API 调用的较长转录，提示词会被添加到上一段响应的最后几个 token 之前，以提高各段之间的一致性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose an OpenAI chat model to power your summary assistants.",
+                    "target": "选择一个 OpenAI 聊天模型来驱动你的摘要助手。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save audio",
+                    "target": "保存音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link audio",
+                    "target": "链接音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI configuration",
+                    "target": "AI 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Speech to text hints",
+                    "target": "语音转文本提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Summary assistant model",
+                    "target": "摘要助手模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Summary assistants",
+                    "target": "摘要助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Avi, Bryan, and Kristy discussed the latest work on BART, MTS, and the T.",
+                    "target": "Avi、Bryan 和 Kristy 讨论了 BART、MTS 以及 T 的最新工作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Assistant name",
+                    "target": "助手名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Start recording",
+                    "target": "开始录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Resume recording",
+                    "target": "继续录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Cancel recording",
+                    "target": "取消录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Pause recording",
+                    "target": "暂停录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete this prompt",
+                    "target": "删除此提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start recording",
+                    "target": "开始录音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resume recording",
+                    "target": "继续录音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pause recording",
+                    "target": "暂停录音"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
