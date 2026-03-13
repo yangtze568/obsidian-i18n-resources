@@ -1,0 +1,3997 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sync-vault-ce",
+        "version": "1.0.0",
+        "title": "Sync Vault",
+        "description": "Sync Vault Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.10.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "alt",
+                    "source": "文件缩略图",
+                    "target": "文件缩略图"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class=\"video-error\">Playback failed: Multiple consecutive errors occurred</div>",
+                    "target": "<div class=\"video-error\">播放失败：发生多次连续错误</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class=\"cloud-video-info\">Playlist finished.</div>",
+                    "target": "<div class=\"cloud-video-info\">播放列表已结束。</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<path d=\"M7 3L16 12L7 21\"></path>",
+                    "target": "<path d=\"M7 3L16 12L7 21\"></path>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 100 100\">\n            <circle cx=\"75\" cy=\"25\" r=\"5\" fill=\"#555\" />\n            <rect x=\"73\" y=\"25\" width=\"4\" height=\"40\" fill=\"#999\" transform=\"rotate(-15 75 25)\" />\n            <rect x=\"55\" y=\"60\" width=\"4\" height=\"25\" fill=\"#999\" transform=\"rotate(25 55 60)\" />\n            <rect x=\"45\" y=\"80\" width=\"12\" height=\"15\" fill=\"#333\" transform=\"rotate(25 45 80)\" />\n        </svg>",
+                    "target": "<svg viewBox=\"0 0 100 100\">\n            <circle cx=\"75\" cy=\"25\" r=\"5\" fill=\"#555\" />\n            <rect x=\"73\" y=\"25\" width=\"4\" height=\"40\" fill=\"#999\" transform=\"rotate(-15 75 25)\" />\n            <rect x=\"55\" y=\"60\" width=\"4\" height=\"25\" fill=\"#999\" transform=\"rotate(25 55 60)\" />\n            <rect x=\"45\" y=\"80\" width=\"12\" height=\"15\" fill=\"#333\" transform=\"rotate(25 45 80)\" />\n        </svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Failed to load content.",
+                    "target": "内容加载失败。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "❚❚",
+                    "target": "❚❚"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "00:00 / 00:00",
+                    "target": "00:00 / 00:00"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "🔊",
+                    "target": "🔊"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "正在加载，请稍候...",
+                    "target": "正在加载，请稍候..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "等待连接超时.",
+                    "target": "等待连接超时."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Unknown Artist",
+                    "target": "未知艺术家"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No Track Selected",
+                    "target": "未选择曲目"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "退出全屏",
+                    "target": "退出全屏"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "全屏",
+                    "target": "全屏"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Cloud Explorer",
+                    "target": "云端浏览器"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Sync Vault仪表盘",
+                    "target": "Sync Vault仪表盘"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "设备管理",
+                    "target": "设备管理"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Image Preview",
+                    "target": "图像预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "仅下载",
+                    "target": "仅下载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "仅上传",
+                    "target": "仅上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "双向同步",
+                    "target": "双向同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "夸克网盘cookie无效,是否重新配置cookie?",
+                    "target": "夸克网盘cookie无效,是否重新配置cookie?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "已经超过30天未同步,是否初始化同步?",
+                    "target": "已经超过30天未同步,是否初始化同步?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "No perf info found.",
+                    "target": "未找到性能信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载调试配置失败:",
+                    "target": "加载调试配置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存调试配置失败:",
+                    "target": "保存调试配置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解密代码失败:",
+                    "target": "解密代码失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加密代码失败:",
+                    "target": "加密代码失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "关闭队列时出错:",
+                    "target": "关闭队列时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[onEdit] previousDoc is null",
+                    "target": "[onEdit] previousDoc 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Capacitor appendFile failed",
+                    "target": "Capacitor appendFile 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cloud OAuth error:",
+                    "target": "Cloud OAuth 错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create HTML log:",
+                    "target": "创建 HTML 日志失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取授权信息失败:",
+                    "target": "获取授权信息失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ERROR:",
+                    "target": "错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching file info:",
+                    "target": "获取文件信息出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating file:",
+                    "target": "创建文件出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching user info:",
+                    "target": "获取用户信息出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching storage info:",
+                    "target": "获取存储信息出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制文件时发生错误：",
+                    "target": "复制文件时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[baidu.provider] 获取M3U8地址出错:",
+                    "target": "[baidu.provider] 获取 M3U8 地址出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[aliyun] upload failed: ",
+                    "target": "[aliyun] 上传失败: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File not found",
+                    "target": "未找到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get download URL",
+                    "target": "获取下载 URL 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Download file failed",
+                    "target": "下载文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to decrypt file",
+                    "target": "解密文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh download URL",
+                    "target": "刷新下载 URL 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching OneDrive user info:",
+                    "target": "获取 OneDrive 用户信息出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching OneDrive storage info:",
+                    "target": "获取 OneDrive 存储信息时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating folder:",
+                    "target": "创建文件夹时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deleting file:",
+                    "target": "删除文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error moving file:",
+                    "target": "移动文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error copying file:",
+                    "target": "复制文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error renaming file:",
+                    "target": "重命名文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching OneDrive delta:",
+                    "target": "获取 OneDrive 增量时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Get business failed: ",
+                    "target": "获取业务失败： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "检查资源存在性失败：",
+                    "target": "检查资源存在性失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "S3 连接测试失败:",
+                    "target": "S3 连接测试失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to apply CORS configuration",
+                    "target": "应用 CORS 配置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This document was already integrated as a sub-document. You should create a second instance instead with the same guid.",
+                    "target": "此文档已作为子文档集成。你应该使用相同的 guid 创建第二个实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Yjs was already imported. This breaks constructor checks and will lead to issues! - https://github.com/yjs/yjs/issues/438",
+                    "target": "Yjs 已被导入。这会破坏构造函数检查并导致问题！ - https://github.com/yjs/yjs/issues/438"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize IndexedDB:",
+                    "target": "初始化 IndexedDB 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add document:",
+                    "target": "添加文档失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get document:",
+                    "target": "获取文档失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Database not initialized.",
+                    "target": "数据库未初始化。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add cloud snapshot:",
+                    "target": "添加云快照失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get cloud snapshot:",
+                    "target": "获取云快照失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Task execution failed:",
+                    "target": "任务执行失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cloud Sync Cancelled.",
+                    "target": "云同步已取消。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "连接失败:",
+                    "target": "连接失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "当前 ICE 收集状态:",
+                    "target": "当前 ICE 收集状态:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "当前信令状态:",
+                    "target": "当前信令状态:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "最终添加 ICE 候选失败:",
+                    "target": "最终添加 ICE 候选失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Buffer too short",
+                    "target": "缓冲区过短"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Payload length mismatch",
+                    "target": "负载长度不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Magic number mismatch",
+                    "target": "魔数不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "未知的消息类型",
+                    "target": "未知的消息类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理消息错误:",
+                    "target": "处理消息错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YDoc not initialized",
+                    "target": "YDoc 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "销毁 P2P 服务时出错:",
+                    "target": "销毁 P2P 服务时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[syncThread] sync executor not ready",
+                    "target": "[syncThread] 同步执行器未就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Current mode is not auto mode.",
+                    "target": "当前模式不是自动模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Sync error:",
+                    "target": "同步错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[start] Sync executor not ready",
+                    "target": "[start] 同步执行器未就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "启动自动同步失败:",
+                    "target": "启动自动同步失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to replace links:",
+                    "target": "替换链接失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to list files:",
+                    "target": "列出文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot read more than 32 bits at a time",
+                    "target": "无法一次读取超过 32 位"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MediaProxy: Too many redirects",
+                    "target": "MediaProxy：重定向次数过多"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MediaProxy request error:",
+                    "target": "MediaProxy 请求错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HLS 错误:",
+                    "target": "HLS 错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reload video stream:",
+                    "target": "重新加载视频流失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "连续错误次数过多，停止播放",
+                    "target": "连续错误次数过多，停止播放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HLS 网络错误，尝试恢复...",
+                    "target": "HLS 网络错误，尝试恢复..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HLS 媒体错误，尝试恢复...",
+                    "target": "HLS 媒体错误，尝试恢复..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HLS 致命错误:",
+                    "target": "HLS 致命错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "视频播放错误:",
+                    "target": "视频播放错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate QR code",
+                    "target": "生成二维码失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "播放失败：",
+                    "target": "播放失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Aliyun error: ",
+                    "target": "阿里云错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "读取字幕文件失败：",
+                    "target": "读取字幕文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering video:",
+                    "target": "渲染视频出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to extract text from PDF",
+                    "target": "无法从 PDF 提取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载回收站文件失败:",
+                    "target": "加载回收站文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reload .obsidian-cloud-only after download",
+                    "target": "下载后无法重新加载 .obsidian-cloud-only"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载本地根节点时出错:",
+                    "target": "加载本地根节点时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "快照生成失败,",
+                    "target": "快照生成失败,"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CloudDiskModel initialization timeout after 5 retries",
+                    "target": "CloudDiskModel 重试 5 次后初始化超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Root node is null, maybe root node is broken",
+                    "target": "根节点为空，可能根节点已损坏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to restore revision:",
+                    "target": "无法恢复修订："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete revision:",
+                    "target": "无法删除修订："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load thumbnails",
+                    "target": "无法加载缩略图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch cover",
+                    "target": "无法获取封面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Play failed",
+                    "target": "播放失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HLS Play failed",
+                    "target": "HLS 播放失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Auto play failed",
+                    "target": "自动播放失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get cloud account info",
+                    "target": "无法获取云账户信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to process canvas file",
+                    "target": "无法处理画布文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update node state",
+                    "target": "无法更新节点状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MCP Server start failed",
+                    "target": "MCP 服务器启动失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request stream error",
+                    "target": "请求流错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Notification processing error",
+                    "target": "通知处理错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MCP JSON-RPC Error",
+                    "target": "MCP JSON-RPC 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate diagnostic info:",
+                    "target": "生成诊断信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get file info for hover preview:",
+                    "target": "获取悬停预览的文件信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch/render markdown content:",
+                    "target": "获取/渲染 Markdown 内容失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown cloud type or invalid ID from src:",
+                    "target": "从 src 获取的云类型未知或 ID 无效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to resolve cloud resource for src:",
+                    "target": "解析 src 的云资源失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch markdown content:",
+                    "target": "获取 Markdown 内容失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get download url from fsid.",
+                    "target": "从 fsid 获取下载 URL 失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reload .obsidian-cloud-only",
+                    "target": "重新加载 .obsidian-cloud-only 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to start MCP Server",
+                    "target": "启动 MCP 服务器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "关闭任务队列失败:",
+                    "target": "关闭任务队列失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "正在关闭任务队列...",
+                    "target": "正在关闭任务队列..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "任务队列已关闭",
+                    "target": "任务队列已关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Smart queue error: ",
+                    "target": "智能队列错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Refresh token successful.",
+                    "target": "刷新令牌成功。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "File is encrypted, decrypting...",
+                    "target": "文件已加密，正在解密..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Got extm3u playlist",
+                    "target": "已获取 extm3u 播放列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "获取 M3U8 地址失败，尝试获取普通视频流",
+                    "target": "获取 M3U8 地址失败，尝试获取普通视频流"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Batch response: ",
+                    "target": "批量响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Business response: ",
+                    "target": "业务响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "激活失败：",
+                    "target": "激活失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Dir: ",
+                    "target": "目录："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "My client id: ",
+                    "target": "我的客户端 ID："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "CORS configuration looks good.",
+                    "target": "CORS 配置看起来没问题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "S3 authorize",
+                    "target": "S3 授权"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "S3 refreshToken",
+                    "target": "S3 刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Init service...",
+                    "target": "初始化服务..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Exit service...",
+                    "target": "退出服务..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Local event: ",
+                    "target": "本地事件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "启动同步",
+                    "target": "启动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "结束同步",
+                    "target": "结束同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cloud sync stopped",
+                    "target": "云同步已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cloud client is syncing, skip",
+                    "target": "云客户端正在同步，跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Save fingerprint.",
+                    "target": "保存指纹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No tag found, initial sync...",
+                    "target": "未找到标签，开始初始同步..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "当前正使用 TURN 服务器: ",
+                    "target": "当前正使用 TURN 服务器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "当前未使用 TURN",
+                    "target": "当前未使用 TURN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "DB loaded",
+                    "target": "数据库已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Exit p2p service.",
+                    "target": "退出 p2p 服务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[P2PStrategy] Stopped",
+                    "target": "[P2PStrategy] 已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Already prepared.",
+                    "target": "已准备好。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[P2PStrategy] Ready",
+                    "target": "[P2PStrategy] 就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "启动自动同步，周期：自适应。",
+                    "target": "启动自动同步，周期：自适应。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[stop] Auto sync.",
+                    "target": "[stop] 自动同步。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[stop] Auto sync stop done",
+                    "target": "[stop] 自动同步停止完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步已停止",
+                    "target": "自动同步已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Init auto sync.",
+                    "target": "初始化自动同步。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Dispose all sync instances.",
+                    "target": "释放所有同步实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Playlist finished from renderer's perspective.",
+                    "target": "从渲染器的角度看，播放列表已完成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "进入受控模式控制面板",
+                    "target": "进入受控模式控制面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "启动自动同步",
+                    "target": "启动自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Sync Vault Dashboard.",
+                    "target": "同步 Vault 仪表板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Reloaded cloud only files after sync download",
+                    "target": "同步下载后重新加载仅云端文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "CloudDiskModel not initialized yet, waiting...",
+                    "target": "CloudDiskModel 尚未初始化，正在等待..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Mount view",
+                    "target": "挂载视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unmount view",
+                    "target": "卸载视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Reached end of the main playlist.",
+                    "target": "已到达主播放列表末尾。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Canvas Agent Manager disabled on mobile",
+                    "target": "Canvas Agent Manager 在移动端已禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Canvas Agent Manager registered",
+                    "target": "Canvas Agent Manager 已注册"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "MCP Server stopped",
+                    "target": "MCP 服务器已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Result: ",
+                    "target": "结果："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步已停止.",
+                    "target": "自动同步已停止."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Start cloud auto sync...",
+                    "target": "开始云端自动同步..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "切换到自动模式",
+                    "target": "切换到自动模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Set auto sync strategy to none.",
+                    "target": "将自动同步策略设置为无。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "切换到受控模式",
+                    "target": "切换到受控模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "RangeTransport aborted:",
+                    "target": "RangeTransport 已中止："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "pdfViewer patched.",
+                    "target": "pdfViewer 已打补丁。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Reloaded cloud only files from config",
+                    "target": "从配置重新加载仅云端文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Bye!",
+                    "target": "再见！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "failed to get media.buffered",
+                    "target": "无法获取 media.buffered"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "seeking outside of buffer while fragment load in progress, cancel fragment load",
+                    "target": "片段加载进行中在缓冲区外跳转，取消片段加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "setting startPosition to 0 because media ended",
+                    "target": "由于媒体已结束，将 startPosition 设置为 0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "MSE detaching and video ended, reset startPosition",
+                    "target": "MSE 正在分离且视频已结束，重置 startPosition"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LL-Part loading ON for initial live fragment",
+                    "target": "初始直播片段启用 LL-Part 加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "setting startPosition to 0 by default",
+                    "target": "默认将 startPosition 设置为 0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Reset loading state",
+                    "target": "重置加载状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "resetting startPosition for live start",
+                    "target": "为直播开始重置 startPosition"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Ignore frame with unrecognized character encoding",
+                    "target": "忽略字符编码无法识别的帧"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ADTS sync word found !",
+                    "target": "找到 ADTS 同步字！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "MPEG Audio sync word found !",
+                    "target": "找到 MPEG Audio 同步字！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "last AAC PES packet truncated,might overlap between fragments",
+                    "target": "最后一个 AAC PES 包被截断，可能在片段之间重叠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "MPEG audio found, not supported in this browser",
+                    "target": "检测到 MPEG 音频，此浏览器不支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "AC-3 audio found, not supported in this browser",
+                    "target": "检测到 AC-3 音频，此浏览器不支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "AC-3 audio found, not supported in this browser for now",
+                    "target": "检测到 AC-3 音频，目前此浏览器不支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "HEVC in M2TS found",
+                    "target": "检测到 M2TS 中的 HEVC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RetryDate reached, switch back to IDLE state",
+                    "target": "达到 RetryDate，切换回 IDLE 状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Alt audio track ahead of main track, seek to start of alt audio track",
+                    "target": "备用音轨领先主音轨，跳转到备用音轨起始位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switching audio track : flushing all audio",
+                    "target": "切换音轨：正在清空所有音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Media source opened",
+                    "target": "媒体源已打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Media source closed",
+                    "target": "媒体源已关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Media source ended",
+                    "target": "媒体源已结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "attachTransferred: waiting for SourceBuffer track info",
+                    "target": "attachTransferred：等待 SourceBuffer 轨道信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "attachTransferred: MediaSource w/o SourceBuffers",
+                    "target": "attachTransferred：MediaSource 无 SourceBuffers"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Queueing EOS",
+                    "target": "正在排队 EOS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Calling mediaSource.endOfStream()",
+                    "target": "调用 mediaSource.endOfStream()"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Blocking operation requested, but no SourceBuffers exist",
+                    "target": "请求阻塞操作，但不存在 SourceBuffers"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "finished closing key sessions and clearing media keys",
+                    "target": "已完成关闭密钥会话并清除媒体密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "roll_up but nrRollUpRows not set yet",
+                    "target": "roll_up 但尚未设置 nrRollUpRows"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Rolling up",
+                    "target": "正在上卷"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RCL - Resume Caption Loading",
+                    "target": "RCL - 恢复字幕加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "BS - BackSpace",
+                    "target": "BS - 退格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DER- Delete to End of Row",
+                    "target": "DER- 删除到行尾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "FON - Flash On",
+                    "target": "FON - 闪烁开启"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RDC - Resume Direct Captioning",
+                    "target": "RDC - 恢复直接字幕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "CR - Carriage Return",
+                    "target": "CR - 回车"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "EOC - End Of Caption",
+                    "target": "EOC - 字幕结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No channel found yet. TEXT-MODE?",
+                    "target": "尚未找到频道。TEXT-MODE？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Mismatch channel in midrow parsing",
+                    "target": "中行解析中的频道不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[config]: Custom loader detected, cannot enable progressive streaming",
+                    "target": "[config]: 检测到自定义加载器，无法启用渐进式流式传输"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[config]: Progressive streaming enabled, using FetchLoader",
+                    "target": "[config]: 已启用渐进式流式传输，使用 FetchLoader"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Trigger BUFFER_RESET",
+                    "target": "触发 BUFFER_RESET"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Both AAC/HE-AAC audio found in levels; declaring level codec as HE-AAC",
+                    "target": "在各级中发现 AAC/HE-AAC 音频；将级别编解码器声明为 HE-AAC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switching on main audio, use media.buffered to schedule main fragment loading",
+                    "target": "切换到主音频，使用 media.buffered 安排主分片加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switching to main audio track, cancel main fragment load",
+                    "target": "切换到主音轨，取消主分片加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switching on alternate audio, use video.buffered to schedule main fragment loading",
+                    "target": "切换到备用音频，使用 video.buffered 安排主分片加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Swapping audio codec",
+                    "target": "切换音频编解码器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "resume buffering",
+                    "target": "恢复缓冲"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "pause buffering",
+                    "target": "暂停缓冲"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ICE servers: ",
+                    "target": "ICE 服务器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Query: ",
+                    "target": "查询："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Replace: ",
+                    "target": "替换："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test Connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "确认",
+                    "target": "确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "恢复",
+                    "target": "恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "永久删除",
+                    "target": "永久删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Copy Report",
+                    "target": "复制报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export Report",
+                    "target": "导出报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "How to use",
+                    "target": "如何使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "能力说明",
+                    "target": "能力说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "存储桶地域,选择合适的地域能提高访问速度",
+                    "target": "存储桶地域,选择合适的地域能提高访问速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "申请腾讯云帐号后生成的应用ID",
+                    "target": "申请腾讯云帐号后生成的应用ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Move original files to trash after all links are successfully replaced",
+                    "target": "所有链接成功替换后，将原始文件移至回收站"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Stream audio&video directly from cloud without full download.",
+                    "target": "无需完整下载，直接从云端流式播放音视频。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "View and restore file history.",
+                    "target": "查看并恢复文件历史记录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Type {{ or @ in editor to search cloud files.",
+                    "target": "在编辑器中输入 {{ 或 @ 以搜索云端文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically convert local attachment links to cloud links.",
+                    "target": "自动将本地附件链接转换为云端链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Recover deleted files from cloud recycle bin.",
+                    "target": "从云端回收站恢复已删除文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Generate a diagnostic report for support.",
+                    "target": "生成用于支持的诊断报告。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Test connection speed to cloud storage.",
+                    "target": "测试连接到云存储的速度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable Model Context Protocol (MCP) server for AI integration",
+                    "target": "启用 Model Context Protocol (MCP) 服务器以集成 AI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Port to listen on (0 for random, requires restart)",
+                    "target": "监听端口（0 为随机，需要重启）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "查看新手引导弹窗",
+                    "target": "查看新手引导弹窗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于P2P连接的WebSocket信令服务器，例如 ws://your-signaling-server:port",
+                    "target": "用于P2P连接的WebSocket信令服务器，例如 ws://your-signaling-server:port"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于NAT穿透的TURN服务器，格式如 turn:host:port?username=xxx&password=xxx",
+                    "target": "用于NAT穿透的TURN服务器，格式如 turn:host:port?username=xxx&password=xxx"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "WebDAV Url",
+                    "target": "WebDAV 地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "腾讯 COS",
+                    "target": "腾讯 COS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "选择地域",
+                    "target": "选择地域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "身份标识",
+                    "target": "身份标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "访问密钥",
+                    "target": "访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "应用ID",
+                    "target": "应用ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新文件名",
+                    "target": "新文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fuzzy Search",
+                    "target": "模糊搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Attachment Link Transformation",
+                    "target": "附件链接转换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "MCP Server",
+                    "target": "MCP 服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新手引导",
+                    "target": "新手引导"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "信令服务器地址",
+                    "target": "信令服务器地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "TURN服务器",
+                    "target": "TURN服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "地址",
+                    "target": "地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "房间配置",
+                    "target": "房间配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "房间密码",
+                    "target": "房间密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "昵称",
+                    "target": "昵称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步方向",
+                    "target": "同步方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "搜索并选择需要添加的字幕srt文件...",
+                    "target": "搜索并选择需要添加的字幕srt文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Trump .etc",
+                    "target": "特朗普 等"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Replaced & Deleted",
+                    "target": "已替换与已删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "最近删除",
+                    "target": "最近删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未发现预览地址",
+                    "target": "未发现预览地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Cloud sync perf monitor",
+                    "target": "云同步性能监控"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "插入时间笔记",
+                    "target": "插入时间笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "保存进度",
+                    "target": "保存进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "添加字幕",
+                    "target": "添加字幕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文件信息",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "复制文件链接",
+                    "target": "复制文件链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "复制文件路径",
+                    "target": "复制文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "提取文本",
+                    "target": "提取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "复制到视频的代码块",
+                    "target": "复制到视频的代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "下载",
+                    "target": "下载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "重命名",
+                    "target": "重命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "添加到播放列表",
+                    "target": "添加到播放列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文件名 (A-Z)",
+                    "target": "文件名 (A-Z)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文件名 (Z-A)",
+                    "target": "文件名 (Z-A)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文件夹优先",
+                    "target": "文件夹优先"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文件优先",
+                    "target": "文件优先"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Go to Root",
+                    "target": "转到根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "在云盘中打开",
+                    "target": "在云盘中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "盐值不匹配，使用新的盐值",
+                    "target": "盐值不匹配，使用新的盐值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Clear old logs...",
+                    "target": "清理旧日志..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Baidu广告Token重试次数已用完",
+                    "target": "Baidu广告Token重试次数已用完"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[downloadFileTo] 403 Forbidden, refreshing url...",
+                    "target": "[downloadFileTo] 403 Forbidden，正在刷新 url..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Not available: ",
+                    "target": "不可用："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "没有可用的视频流",
+                    "target": "没有可用的视频流"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Search thumb fallback failed",
+                    "target": "搜索缩略图回退失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "未找到 Content-Length 头信息",
+                    "target": "未找到 Content-Length 头信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load .obsidian-cloud-only",
+                    "target": "加载 .obsidian-cloud-only 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to save .obsidian-cloud-only",
+                    "target": "保存 .obsidian-cloud-only 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local modified time missing, use server time.",
+                    "target": "本地修改时间缺失，使用服务器时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Too many requests",
+                    "target": "请求过多"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "CORS configuration is not properly set: ",
+                    "target": "CORS 配置未正确设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Ingore syncing file due to pending event: ",
+                    "target": "由于待处理事件，忽略同步文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "信令服务器连接断开",
+                    "target": "信令服务器连接断开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "远程描述未设置，延迟添加 ICE 候选",
+                    "target": "远程描述未设置，延迟添加 ICE 候选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No content to update.",
+                    "target": "没有可更新的内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No auto sync found, exit...",
+                    "target": "未找到自动同步，退出…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cloud disk syncing executor is already running, skip",
+                    "target": "云盘同步执行器已在运行，跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "File not found in current view.",
+                    "target": "当前视图中未找到文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SIDX has hierarchical references (not supported)",
+                    "target": "SIDX 有分层引用（不支持）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SoftwareDecrypt: can only handle AES-128-CBC",
+                    "target": "SoftwareDecrypt：只能处理 AES-128-CBC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No matches on slow regex match for level playlist!",
+                    "target": "层级播放列表的慢速正则匹配没有命中！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fragment should have a positive duration",
+                    "target": "片段应具有正的时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[level-helper] Previous playlist missing segments skipped in delta playlist",
+                    "target": "[level-helper] 增量播放列表中跳过了上一播放列表缺失的分段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No fragments in live playlist",
+                    "target": "直播播放列表中没有片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "level.details undefined",
+                    "target": "level.details undefined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Found irregular gaps in sample duration. Using PTS instead of DTS to determine MP4 sample duration.",
+                    "target": "发现样本时长存在不规则间隔。使用 PTS 而不是 DTS 来确定 MP4 样本时长。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Duration parsed from mp4 should be greater than zero",
+                    "target": "从 mp4 解析的时长应大于零"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Audio track is undefined on fragment load progress",
+                    "target": "片段加载进度中音轨未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Audio track details undefined on fragment load progress",
+                    "target": "片段加载进度中音轨详情未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "media|source.src was changed by a third party - skip cleanup",
+                    "target": "media|source.src 被第三方更改 - 跳过清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error executing block-audio operation",
+                    "target": "执行 block-audio 操作时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not generate manifest CMCD data.",
+                    "target": "无法生成清单 CMCD 数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not generate segment CMCD data.",
+                    "target": "无法生成分段 CMCD 数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not renew expired session. Missing pssh initData.",
+                    "target": "无法续期已过期的会话。缺少 pssh initData。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Subtitle playlist not aligned with playback",
+                    "target": "字幕播放列表与播放不同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Trying to nudge playhead over buffer-hole",
+                    "target": "尝试将播放头推过缓冲空洞"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[latency-controller]: Stall detected, adjusting target latency",
+                    "target": "[latency-controller]: 检测到卡顿，正在调整目标延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "media must be detached before attaching",
+                    "target": "在附加之前必须先解除媒体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "MediaProxy is only available on desktop",
+                    "target": "MediaProxy 仅在桌面端可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "HLS 非致命错误:",
+                    "target": "HLS 非致命错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Auto-play failed after reload:",
+                    "target": "重载后自动播放失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "字幕文本解析失败，无有效字幕片段",
+                    "target": "字幕文本解析失败，无有效字幕片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Playlist finished or index out of bounds.",
+                    "target": "播放列表已结束或索引超出范围。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No render to unload",
+                    "target": "没有可卸载的渲染器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to resolve fileId:",
+                    "target": "解析 fileId 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "PDF streaming failed, falling back to full download",
+                    "target": "PDF 流式传输失败，回退为完整下载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Range download failed, using full download",
+                    "target": "范围下载失败，使用完整下载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "MCP Server is only available on desktop",
+                    "target": "MCP Server 仅在桌面端可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cloud resource not found for src:",
+                    "target": "未找到与 src 对应的云资源："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to download file by cloudpath:",
+                    "target": "通过 cloudpath 下载文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to get file by ID:",
+                    "target": "通过 ID 获取文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Skipping non-http url:",
+                    "target": "跳过非 http 的 url："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Resolve failed for:",
+                    "target": "解析失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "pdfjsViewer not loaded.",
+                    "target": "pdfjsViewer 未加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Conflict resolved and saved.",
+                    "target": "冲突已解决并保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Baidu: invalid token.",
+                    "target": "Baidu：无效的 token。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Baidu: token invalid.",
+                    "target": "Baidu：token 无效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Retrieve user info failed",
+                    "target": "获取用户信息失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "视频格式不支持",
+                    "target": "视频格式不支持"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "WARN: free space is less than 1GB.",
+                    "target": "警告：可用空间少于 1GB。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Aliyun: token invalid.",
+                    "target": "Aliyun：token 无效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Retreive storage info failed",
+                    "target": "获取存储信息失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Retreive user info failed",
+                    "target": "获取用户信息失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "夸克登陆失败,请重新配置cookie",
+                    "target": "夸克登陆失败,请重新配置cookie"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quark login",
+                    "target": "Quark 登录"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Config is incomplete.",
+                    "target": "配置不完整。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Test connection successful",
+                    "target": "测试连接成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CORS is properly configured.",
+                    "target": "CORS 配置正确。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to set CORS configuration. Please configure it manually.",
+                    "target": "设置 CORS 配置失败。请手动配置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Load db timeout: 10s",
+                    "target": "加载数据库超时：10s"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "跳过本次同步",
+                    "target": "跳过本次同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pausing sync to avoid conflicts...",
+                    "target": "为避免冲突，暂停同步..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to replace links. Check console for details.",
+                    "target": "替换链接失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Scanning for local assets...",
+                    "target": "正在扫描本地资源..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to check cloud status. Please try again.",
+                    "target": "检查云端状态失败。请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video stream expired, reloading...",
+                    "target": "视频流已过期，正在重新加载..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "二维码生成失败，请稍后重试",
+                    "target": "二维码生成失败，请稍后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前用户不是三方会员，购买三方会员后即可获取高清观影地址",
+                    "target": "当前用户不是三方会员，购买三方会员后即可获取高清观影地址"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "视频播放失败，可能是流地址已过期",
+                    "target": "视频播放失败，可能是流地址已过期"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File link copied.",
+                    "target": "文件链接已复制。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "重命名成功",
+                    "target": "重命名成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Init cloud disk failed",
+                    "target": "初始化云盘失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to delete revision.",
+                    "target": "删除版本失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to play audio",
+                    "target": "音频播放失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Agent task completed!",
+                    "target": "Agent 任务完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Live mode is not enabled.",
+                    "target": "未启用直播模式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Diagnostic report copied to clipboard",
+                    "target": "诊断报告已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please wait for current tests to complete",
+                    "target": "请等待当前测试完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tests already running",
+                    "target": "测试已在运行"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Stopping Auto Sync...",
+                    "target": "正在停止自动同步..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "进入实时模式.",
+                    "target": "进入实时模式."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "退出自动同步.",
+                    "target": "退出自动同步."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已切换到协作模式,点击侧边栏👥查看状态",
+                    "target": "已切换到协作模式,点击侧边栏👥查看状态"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "关闭实时模式,进入受控模式.",
+                    "target": "关闭实时模式,进入受控模式."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enter {{ or @ in your editor to trigger cloud search",
+                    "target": "在编辑器中输入 {{ 或 @ 以触发云端搜索"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "MCP Server stopped",
+                    "target": "MCP 服务器已停止"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Signaling server changed, reconnect mannually.",
+                    "target": "信令服务器已更改，请手动重连。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Url invalid, should start with 'ws://' or 'wss://'",
+                    "target": "Url 无效，应以 'ws://' 或 'wss://' 开头"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "pdfviewer not loaded. pls reload.",
+                    "target": "pdfviewer 未加载。请重新加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Try to open pdf viewer.",
+                    "target": "尝试打开 PDF 查看器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync Vault Loaded.",
+                    "target": "同步仓库已加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync Vault Stopped.",
+                    "target": "同步仓库已停止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "已包含",
+                    "target": "已包含"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "排序",
+                    "target": "排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Clear All",
+                    "target": "全部清除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "本插件可以帮助你安全高效地同步 Obsidian 仓库到云盘。点击下一步了解基本操作。",
+                    "target": "本插件可以帮助你安全高效地同步 Obsidian 仓库到云盘。点击下一步了解基本操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "在设置页选择你要使用的云盘类型，并完成授权。",
+                    "target": "在设置页选择你要使用的云盘类型，并完成授权。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "你可以选择自动同步、受控同步或实时同步模式，根据需求灵活切换。",
+                    "target": "你可以选择自动同步、受控同步或实时同步模式，根据需求灵活切换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "♨︎恭喜你完成新手引导！点击下方按扭进入看板。",
+                    "target": "♨︎恭喜你完成新手引导！点击下方按扭进入看板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Authenticate and activate here after installing the plugin",
+                    "target": "安装插件后在此进行认证并激活"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sync directly between devices without cloud disk relay",
+                    "target": "无需云盘中转，设备间直接同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configure basic info for device connection, including room ID and server address",
+                    "target": "配置设备连接所需的基本信息，包括房间号和服务器地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enter a room ID; devices in the same room can sync notes with each other",
+                    "target": "输入房间号；同一房间的设备可相互同步笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Server address for establishing device-to-device connections",
+                    "target": "用于建立设备间连接的服务器地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set cloud disk sync mode, upload/download policies, encryption mode, etc.",
+                    "target": "设置云盘同步模式、上传/下载策略、加密模式等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Auto Mode: Sync automatically when the plugin starts; Controlled Mode: Require manual sync click",
+                    "target": "自动模式：插件启动时自动同步；受控模式：需手动点击同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Auto sync interval, conflict resolution method, ignored files, etc.",
+                    "target": "自动同步间隔、冲突解决方式、忽略文件等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Switch between Auto Mode and Controlled Mode",
+                    "target": "在自动模式与受控模式之间切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Minimum interval for syncing with cloud disk (Unit: Minutes)",
+                    "target": "与云盘同步的最小间隔（单位：分钟）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select how to resolve file conflicts: Keep latest file or auto-merge",
+                    "target": "选择文件冲突的解决方式：保留最新文件或自动合并"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Files or folders not to sync (Regular expressions supported)",
+                    "target": "不需要同步的文件或文件夹（支持正则表达式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Skip files larger than the specified size (Unit: MB)",
+                    "target": "跳过大于指定大小的文件（单位：MB）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Controlled Upload: Only previously uploaded files will auto-upload",
+                    "target": "受控上传：仅已上传过的文件才会自动上传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Update on Load: Auto-download cloud files when the plugin loads; Manual Only: Require manual download click",
+                    "target": "加载时更新：插件加载时自动下载云端文件；仅手动：需手动点击下载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "End-to-end encryption for uploaded MD files. ⚠️ Warning ⚠️: Please keep your password safe!",
+                    "target": "对上传的 MD 文件进行端到端加密。⚠️ 警告 ⚠️：请妥善保管密码！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose the cloud disk to use",
+                    "target": "选择要使用的云盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "View and manage your access token",
+                    "target": "查看并管理你的访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Auto-sync from cloud disk when the plugin starts",
+                    "target": "插件启动时从云盘自动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set document encryption key",
+                    "target": "设置文档加密密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Check for updates, upgrade the plugin. Click for user manual",
+                    "target": "检查更新并升级插件。点击查看用户手册"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Record plugin operation logs",
+                    "target": "记录插件运行日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Join our community for latest updates and user discussions",
+                    "target": "加入我们的社区，获取最新动态与用户讨论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "安装插件后，在此鉴权并激活",
+                    "target": "安装插件后，在此鉴权并激活"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "实时同步,多人协同",
+                    "target": "实时同步,多人协同"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "配置设备互联所需的基本信息，包括房间号和服务器地址",
+                    "target": "配置设备互联所需的基本信息，包括房间号和服务器地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "输入一个房间号，相同房间的设备可以互相同步笔记",
+                    "target": "输入一个房间号，相同房间的设备可以互相同步笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用于建立设备间连接的服务器地址",
+                    "target": "用于建立设备间连接的服务器地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置云盘同步方式，上传、下载策略，以及加密模式等",
+                    "target": "设置云盘同步方式，上传、下载策略，以及加密模式等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自动模式：在插件启动时自动同步；受控模式：需要手动点击同步按钮",
+                    "target": "自动模式：在插件启动时自动同步；受控模式：需要手动点击同步按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自动同步周期、冲突解决方式、忽略文件等",
+                    "target": "自动同步周期、冲突解决方式、忽略文件等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "切换到自动模式或受控模式",
+                    "target": "切换到自动模式或受控模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "和云盘同步的最小时间间隔，单位：分钟",
+                    "target": "和云盘同步的最小时间间隔，单位：分钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择解决文件冲突的方式，选择最新文件或者自动合并",
+                    "target": "选择解决文件冲突的方式，选择最新文件或者自动合并"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "不同步的文件或文件夹，支持正则表达式",
+                    "target": "不同步的文件或文件夹，支持正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "跳过大于指定大小的文件，单位：MB",
+                    "target": "跳过大于指定大小的文件，单位：MB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "仓库内以.开头的文件,包括主题和插件",
+                    "target": "仓库内以.开头的文件,包括主题和插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "受控上传：只有已经上传过的文件才会自动上传",
+                    "target": "受控上传：只有已经上传过的文件才会自动上传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "加载时更新：在插件加载时自动下载云盘上的文件；仅手动下载：需要手动点击下载按钮",
+                    "target": "加载时更新：在插件加载时自动下载云盘上的文件；仅手动下载：需要手动点击下载按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "对上传的md文件进行端到端加密，⚠️警告⚠️：请务必妥善保管密码！",
+                    "target": "对上传的md文件进行端到端加密，⚠️警告⚠️：请务必妥善保管密码！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择要使用的云盘",
+                    "target": "选择要使用的云盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示和管理您的访问令牌",
+                    "target": "显示和管理您的访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在插件启动的时候自动从云盘同步",
+                    "target": "在插件启动的时候自动从云盘同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置文档加密密钥",
+                    "target": "设置文档加密密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "检查更新、升级插件，用户手册请点击",
+                    "target": "检查更新、升级插件，用户手册请点击"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文件同步记录等",
+                    "target": "文件同步记录等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "加入我们的社群，获取最新资讯和用户交流",
+                    "target": "加入我们的社群，获取最新资讯和用户交流"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Init revision",
+                    "target": "初始化修订版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "该功能属于 Sync Vault 增值服务，解锁后可获得以下权益：",
+                    "target": "该功能属于 Sync Vault 增值服务，解锁后可获得以下权益："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "受控模式支持",
+                    "target": "受控模式支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "阿里云盘",
+                    "target": "阿里云盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "文件历史记录",
+                    "target": "文件历史记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "视频播放器",
+                    "target": "视频播放器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "实时同步功能",
+                    "target": "实时同步功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "文件冲突自动合并",
+                    "target": "文件冲突自动合并"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "自动同步功能",
+                    "target": "自动同步功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "运行时报告",
+                    "target": "运行时报告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI Agent 集成服务",
+                    "target": "AI Agent 集成服务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PDF阅读器",
+                    "target": "PDF阅读器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "云盘浏览器",
+                    "target": "云盘浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "文件在远程已删除，但本地进行了重命名",
+                    "target": "文件在远程已删除，但本地进行了重命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "本地重命名，但远程文件有修改",
+                    "target": "本地重命名，但远程文件有修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "文件在远程已删除，但本地有未同步的修改",
+                    "target": "文件在远程已删除，但本地有未同步的修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "文件在本地和远程都有修改",
+                    "target": "文件在本地和远程都有修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "文件在本地修改，但远程已移动",
+                    "target": "文件在本地修改，但远程已移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Get cloud storage account information including username, storage capacity, and usage statistics.",
+                    "target": "获取云存储账户信息，包括用户名、存储容量和使用统计。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The cloud storage type. Options: 'Baidu', 'Aliyun', 'Quark', 'OneDrive', 'OneLife'. If omitted, returns info for the currently active cloud storage.",
+                    "target": "云存储类型。可选：'Baidu'、'Aliyun'、'Quark'、'OneDrive'、'OneLife'。如省略，返回当前活动云存储的信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The cloud storage type. Options: 'Baidu', 'Aliyun', 'Quark', 'OneLife', 'OneDrive'. Default to configured active drive if omitted.",
+                    "target": "云存储类型。可选：'Baidu'、'Aliyun'、'Quark'、'OneLife'、'OneDrive'。如省略，默认使用已配置的活动云盘。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Directory path to list. Defaults to root '/'.",
+                    "target": "要列出的目录路径。默认为根目录“/”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Read the content of a file directly from cloud storage. Supports Markdown, Text, code files, and PDF (auto-extracted to text).",
+                    "target": "直接从云存储读取文件内容。支持 Markdown、文本、代码文件和 PDF（自动提取为文本）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The cloud storage type. Options: 'Baidu', 'Aliyun', 'Quark', 'OneDrive'.",
+                    "target": "云存储类型。可选：'Baidu'、'Aliyun'、'Quark'、'OneDrive'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Absolute path of the file in the cloud storage.",
+                    "target": "文件在云存储中的绝对路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional. Limit the number of bytes to read (default 50KB). Useful for large files.",
+                    "target": "可选。限制读取的字节数（默认 50KB）。适用于大文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fuzzy search for files in cloud storage by name with pagination support.",
+                    "target": "按名称在云存储中进行模糊搜索文件，支持分页。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The search keyword.",
+                    "target": "搜索关键词。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The cloud storage type. Options: 'Baidu', 'Aliyun', 'Quark', 'OneLife', 'OneDrive'.",
+                    "target": "云存储类型。可选：'Baidu'、'Aliyun'、'Quark'、'OneLife'、'OneDrive'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum number of results to return (default: 20, max: 100). Use pagination for large result sets.",
+                    "target": "返回结果的最大数量（默认：20，最大：100）。结果集较大时请使用分页。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Offset for pagination (default: 0). Use with limit parameter.",
+                    "target": "分页偏移量（默认：0）。与 limit 参数一起使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Generate hyperlink address of file in cloud disk.",
+                    "target": "生成云盘文件的超链接地址。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The file id in cloud storage (e.g., '1234'). Use search_cloud_files to find the file id first if unknown.",
+                    "target": "云存储中的文件 id（如“1234”）。若未知，先使用 search_cloud_files 查找文件 id。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Ignored due to OnlyDownload config.",
+                    "target": "因 OnlyDownload 配置而被忽略。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Ignored due to OnlyUpload config.",
+                    "target": "因 OnlyUpload 配置而被忽略。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Ignored due to One-Way sync.",
+                    "target": "因单向同步而被忽略。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Ignored due to OnlyUpload config",
+                    "target": "因 OnlyUpload 配置而被忽略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Ignored due to OnlyDownload config",
+                    "target": "因 OnlyDownload 配置而被忽略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to retrieve account information",
+                    "target": "获取账户信息失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Network change, sync paused.",
+                    "target": "网络变化，同步已暂停。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Network offline, sync paused.",
+                    "target": "网络离线，同步已暂停。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Network timeout, sync paused.",
+                    "target": "网络超时，同步已暂停。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Internal Error",
+                    "target": "内部错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mannual Sync",
+                    "target": "手动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File History",
+                    "target": "文件历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Video Player",
+                    "target": "视频播放器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Hidden Files",
+                    "target": "同步隐藏文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Plugins",
+                    "target": "同步插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Live Sync",
+                    "target": "实时同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Conflict Resolution",
+                    "target": "冲突解决"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto Sync",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Runtime Report",
+                    "target": "运行报告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MCP Server",
+                    "target": "MCP 服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PDF Viewer",
+                    "target": "PDF 查看器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cloud Viewer",
+                    "target": "云查看器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Vault",
+                    "target": "同步仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "共享所有",
+                    "target": "共享所有"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert local links to cloud links",
+                    "target": "将本地链接转换为云端链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open cloud drive explorer",
+                    "target": "打开云盘资源管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Vinyl Player",
+                    "target": "打开黑胶播放器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Leave blank to use vault name as default room ID",
+                    "target": "留空则默认使用仓库名称作为房间号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter sync interval",
+                    "target": "输入同步周期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter regex for ignored files",
+                    "target": "输入忽略文件的正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter size threshold",
+                    "target": "输入大小阈值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter Encryption Key",
+                    "target": "输入加密密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "不填则默认使用仓库名称作为房间号",
+                    "target": "不填则默认使用仓库名称作为房间号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入同步周期",
+                    "target": "输入同步周期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入忽略文件正则表达式",
+                    "target": "输入忽略文件正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入跳过大小",
+                    "target": "输入跳过大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入密钥",
+                    "target": "输入密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Conflict resolver",
+                    "target": "冲突解决器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clapsed（click to expand）",
+                    "target": "已折叠（点击展开）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Merge Result(Editable)",
+                    "target": "合并结果（可编辑）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keep Local",
+                    "target": "保留本地"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm and Save",
+                    "target": "确认并保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "刷新日志",
+                    "target": "刷新日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "清除日志",
+                    "target": "清除日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cookie Configuration",
+                    "target": "Cookie 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Not valid WebDAV",
+                    "target": "WebDAV 无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "OSS 配置",
+                    "target": "OSS 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Linked Assets",
+                    "target": "已链接资产"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No linked images, PDFs, or videos found.",
+                    "target": "未找到已链接的图片、PDF 或视频。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "扫描下方二维码，直达云盘购买页面",
+                    "target": "扫描下方二维码，直达云盘购买页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✅ 使用云盘官方app或者微信扫码后在浏览器打开 | 扫码后直接进入官方购买渠道",
+                    "target": "✅ 使用云盘官方app或者微信扫码后在浏览器打开 | 扫码后直接进入官方购买渠道"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "二维码加载失败，请关闭重试",
+                    "target": "二维码加载失败，请关闭重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "温馨提示：扫码后请按照页面指引完成购买，享受云盘专属会员权益",
+                    "target": "温馨提示：扫码后请按照页面指引完成购买，享受云盘专属会员权益"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未找到相关字幕",
+                    "target": "未找到相关字幕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文件信息",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关闭",
+                    "target": "关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重命名文件",
+                    "target": "重命名文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上一步",
+                    "target": "上一步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "回收站为空",
+                    "target": "回收站为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "没有删除的文件",
+                    "target": "没有删除的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前模式:",
+                    "target": "当前模式:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在加载云盘信息...",
+                    "target": "正在加载云盘信息..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重新授权",
+                    "target": "重新授权"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "受控模式面板",
+                    "target": "受控模式面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "最近同步",
+                    "target": "最近同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "最近删除",
+                    "target": "最近删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "启动自动同步",
+                    "target": "启动自动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂停自动同步",
+                    "target": "暂停自动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "设置",
+                    "target": "设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "新手导引",
+                    "target": "新手导引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "登录",
+                    "target": "登录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "清除记录",
+                    "target": "清除记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "显示更多",
+                    "target": "显示更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No revision history found.",
+                    "target": "未找到修订历史。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前协作",
+                    "target": "当前协作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📂 暂无正在共享的文件",
+                    "target": "📂 暂无正在共享的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " · ",
+                    "target": " · "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🖥️",
+                    "target": "🖥️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "只读",
+                    "target": "只读"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "可读写",
+                    "target": "可读写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "等待连接...",
+                    "target": "等待连接..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "在线设备",
+                    "target": "在线设备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No image selected",
+                    "target": "未选择图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No image source found",
+                    "target": "未找到图片来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "[Access Denied] PDF reading is a Pro feature. Please upgrade to Sync Vault Pro to unlock cloud PDF reading.",
+                    "target": "[访问被拒绝] PDF 阅读是 Pro 功能。请升级到 Sync Vault Pro 以解锁云端 PDF 阅读。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Vault Diagnostic Report",
+                    "target": "Sync Vault 诊断报告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Recent Errors",
+                    "target": "最近错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No recent errors found.",
+                    "target": "未发现最近错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cloud Storage Speed Test",
+                    "target": "云存储速度测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Measure upload/download speeds to your connected cloud services.",
+                    "target": "测量已连接云服务的上传/下载速度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Test All Services",
+                    "target": "测试所有服务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Test results will appear here...",
+                    "target": "测试结果将显示在此处..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " | ",
+                    "target": " | "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自部署配置",
+                    "target": "自部署配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Failed to load content.",
+                    "target": "加载内容失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "解锁高级功能",
+                    "target": "解锁高级功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open Sync Vault View",
+                    "target": "打开同步库视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Revision History: %{file}",
+                    "target": "修订历史：%{file}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Get Started",
+                    "target": "开始使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Enable Device Direct Connection",
+                    "target": "启用设备直连"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configure Device Connection",
+                    "target": "配置设备连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Room Name",
+                    "target": "房间名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Connect to Server",
+                    "target": "连接到服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Cloud Disk Sync Features",
+                    "target": "云盘同步功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sync Mode",
+                    "target": "同步模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configure Sync Parameters",
+                    "target": "配置同步参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Switch Sync Mode",
+                    "target": "切换同步模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Auto Sync Interval",
+                    "target": "自动同步间隔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Resolve File Conflicts",
+                    "target": "解决文件冲突"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ignored Files",
+                    "target": "已忽略文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Skip Large Files",
+                    "target": "跳过大文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sync Other Files",
+                    "target": "同步其他文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sync Plugins (Effective in Controlled Mode)",
+                    "target": "同步插件（受控模式下生效）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Upload Strategy",
+                    "target": "上传策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Download Strategy",
+                    "target": "下载策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Document Encryption",
+                    "target": "文档加密"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Select Cloud Disk",
+                    "target": "选择云盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Authorization Code",
+                    "target": "授权码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Auto Sync on Load",
+                    "target": "加载时自动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Encryption Key",
+                    "target": "加密密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Upgrade & Help",
+                    "target": "升级与帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "⚠️ Auto Update Notes:",
+                    "target": "⚠️ 自动更新说明："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Log Mode",
+                    "target": "日志模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "User Community",
+                    "target": "用户社区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "打开Sync Vault看板",
+                    "target": "打开Sync Vault看板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "修订历史: %{file}",
+                    "target": "修订历史: %{file}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "远程仓库",
+                    "target": "远程仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "开始使用",
+                    "target": "开始使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "开启协作,点击侧边栏👥进入连接",
+                    "target": "开启协作,点击侧边栏👥进入连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "配置设备互联",
+                    "target": "配置设备互联"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "房间名字",
+                    "target": "房间名字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "连接服务器",
+                    "target": "连接服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "云盘同步功能",
+                    "target": "云盘同步功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "同步模式",
+                    "target": "同步模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "配置同步参数",
+                    "target": "配置同步参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "切换同步模式",
+                    "target": "切换同步模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "自动同步周期",
+                    "target": "自动同步周期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "解决文件冲突",
+                    "target": "解决文件冲突"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "忽略文件",
+                    "target": "忽略文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "跳过大文件",
+                    "target": "跳过大文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "同步其他文件",
+                    "target": "同步其他文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "同步主题（在受控模式下有效）",
+                    "target": "同步主题（在受控模式下有效）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "同步插件（在受控模式下有效）",
+                    "target": "同步插件（在受控模式下有效）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "上传模式",
+                    "target": "上传模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "下载模式",
+                    "target": "下载模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "文档加密",
+                    "target": "文档加密"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择云盘",
+                    "target": "选择云盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "授权码",
+                    "target": "授权码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "加载时自动同步",
+                    "target": "加载时自动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "获取专业版",
+                    "target": "获取专业版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "密钥",
+                    "target": "密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "升级和帮助",
+                    "target": "升级和帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "⚠️ 自动更新注意事项：",
+                    "target": "⚠️ 自动更新注意事项："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "运行日志",
+                    "target": "运行日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "用户社群",
+                    "target": "用户社群"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Back to root",
+                    "target": "返回根目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "欢迎使用 Sync Vault",
+                    "target": "欢迎使用 Sync Vault"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择同步模式",
+                    "target": "选择同步模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "打开同步看板",
+                    "target": "打开同步看板"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
