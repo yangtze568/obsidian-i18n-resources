@@ -1,0 +1,343 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "youtube-downloader",
+        "version": "1.0.0",
+        "title": "YouTube downloader",
+        "description": "YouTube downloader Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If this plugin adds value for you and you would like to help support continued development, please use the buttons below. 🧡🧡 👏🏻👏🏻",
+                    "target": "如果这个插件对你有价值，且你愿意支持持续开发，请使用下方按钮。🧡🧡 👏🏻👏🏻"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "如果您觉得这个插件帮助到您了，为您提供了价值，欢迎赞助我以持续开发迭代本插件。您可以使用如下微信/ WeChat 二维码以赞助开发者.",
+                    "target": "如果您觉得这个插件帮助到您了，为您提供了价值，欢迎赞助我以持续开发迭代本插件。您可以使用如下微信/ WeChat 二维码以赞助开发者."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected end",
+                    "target": "意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot write after close. Assign an onready handler.",
+                    "target": "关闭后无法写入。请指定 onready 处理程序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unquoted attribute value",
+                    "target": "未加引号的属性值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download folder",
+                    "target": "下载文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default,video resolution from YouTube,default is heightest",
+                    "target": "默认，视频分辨率来自 YouTube，默认最高"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "video-url: youtube video url",
+                    "target": "video-url: youtube 视频 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "video-name: youtube video name",
+                    "target": "video-name: youtube 视频名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "👉 📺 Downloader setting",
+                    "target": "👉 📺 下载器设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "YouTube save folder",
+                    "target": "YouTube 保存文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Video resolution",
+                    "target": "视频分辨率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "💰 Support 支持 & Funding 赞助 💰",
+                    "target": "💰 支持 & 赞助 💰"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "video url",
+                    "target": "视频网址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "video name",
+                    "target": "视频名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Download video from YouTube",
+                    "target": "从 YouTube 下载视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\u001b[33mWARNING:\u001b[0m @distube/ytdl-core is out of date! Update with \"npm install @distube/ytdl-core@latest\".",
+                    "target": "\u001b[33m警告:\u001b[0m @distube/ytdl-core 已过期！请使用 \"npm install @distube/ytdl-core@latest\" 更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error checking for updates:",
+                    "target": "检查更新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You can disable this check by setting the `YTDL_NO_UPDATE` env variable.",
+                    "target": "你可以通过设置 `YTDL_NO_UPDATE` 环境变量来禁用此检查。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\u001b[33mWARNING:\u001b[0m Using old cookie format, please use the new one instead. (https://github.com/distubejs/ytdl-core#cookies-support)",
+                    "target": "\u001b[33m警告:\u001b[0m 正在使用旧的 cookie 格式，请改用新的格式。 (https://github.com/distubejs/ytdl-core#cookies-support)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\u001b[33mWARNING:\u001b[0m Using old localAddress option, please add it to the agent options instead. (https://github.com/distubejs/ytdl-core#ip-rotation)",
+                    "target": "\u001b[33m警告:\u001b[0m 正在使用旧的 localAddress 选项，请改为将其添加到 agent 选项中。 (https://github.com/distubejs/ytdl-core#ip-rotation)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\u001b[33mWARNING:\u001b[0m IPv6Block option is deprecated, please create your own ip rotation instead. (https://github.com/distubejs/ytdl-core#ip-rotation)",
+                    "target": "\u001b[33m警告:\u001b[0m IPv6Block 选项已弃用，请改为创建你自己的 IP 轮换。 (https://github.com/distubejs/ytdl-core#ip-rotation)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`MinigetStream#abort()` has been deprecated in favor of `MinigetStream#destroy()`",
+                    "target": "`MinigetStream#abort()` 已弃用，请改用 `MinigetStream#destroy()`"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting Download",
+                    "target": "开始下载"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input correct YouTube video url!",
+                    "target": "请输入正确的 YouTube 视频 URL！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "DisTube fork of ytdl-core. YouTube video downloader in pure javascript.",
+                    "target": "DisTube 的 ytdl-core 分支。纯 JavaScript 的 YouTube 视频下载器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Integer conversion",
+                    "target": "整数转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "File constructor",
+                    "target": "文件构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Headers constructor",
+                    "target": "Headers 构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Response constructor",
+                    "target": "Response 构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Request constructor",
+                    "target": "Request 构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "MessageEvent constructor",
+                    "target": "MessageEvent 构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "CloseEvent constructor",
+                    "target": "CloseEvent 构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "ErrorEvent constructor",
+                    "target": "ErrorEvent 构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "WebSocket constructor",
+                    "target": "WebSocket 构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Illegal constructor",
+                    "target": "非法构造函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Object is not an iterator.",
+                    "target": "对象不是迭代器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "SharedArrayBuffer is not allowed.",
+                    "target": "不允许使用 SharedArrayBuffer。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Object is not a DataView.",
+                    "target": "对象不是 DataView。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not parse content as FormData.",
+                    "target": "无法将内容解析为 FormData。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Body has already been consumed.",
+                    "target": "正文已被消耗。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "invalid request mode navigate.",
+                    "target": "无效的请求模式 navigate。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Received an invalid status code or the request failed.",
+                    "target": "收到无效的状态码或请求失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "invalid vary field value",
+                    "target": "无效的 vary 字段值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Got 206 status",
+                    "target": "收到 206 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Got * vary field value",
+                    "target": "收到 * vary 字段值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Response body is locked or disturbed",
+                    "target": "响应正文被锁定或被干扰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "operation type does not match \"delete\" or \"put\"",
+                    "target": "操作类型不匹配 \"delete\" 或 \"put\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "delete operation should not have an associated response",
+                    "target": "delete 操作不应有对应的响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "put operation should have an associated response",
+                    "target": "put 操作应有对应的响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "not get method",
+                    "target": "不是 GET 方法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "options must not be defined",
+                    "target": "options 不得定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "download YouTube video",
+                    "target": "下载 YouTube 视频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Input youtube video source",
+                    "target": "输入 YouTube 视频源"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
