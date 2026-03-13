@@ -1,0 +1,289 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "task-list-kanban",
+        "version": "1.0.0",
+        "title": "Task List Kanban",
+        "description": "Task List Kanban Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.8.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Valid done status markers",
+                    "target": "有效的完成状态标记"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Valid cancelled status markers",
+                    "target": "有效的已取消状态标记"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Valid ignored status markers",
+                    "target": "有效的已忽略状态标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bottom to top",
+                    "target": "从下到上"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Top to bottom",
+                    "target": "从上到下"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Right to left",
+                    "target": "从右到左"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Left to right",
+                    "target": "从左到右"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "This folder",
+                    "target": "此文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every folder",
+                    "target": "每个文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Never show",
+                    "target": "从不显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Always show",
+                    "target": "始终显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The column names separated by a comma \",\"",
+                    "target": "用逗号 \",\" 分隔的列名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Width of task cards in pixels (200-600)",
+                    "target": "任务卡片宽度（像素）（200-600）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Direction columns flow across the board",
+                    "target": "列在看板上的流动方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where should we try to find tasks for this Kanban?",
+                    "target": "应从哪里尝试为此看板查找任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the filepath on each task in Kanban?",
+                    "target": "在看板中的每个任务上显示文件路径？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When to show the Uncategorized column",
+                    "target": "何时显示“未分类”列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When to show the Done column",
+                    "target": "何时显示“已完成”列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Consolidate the tags on each task in Kanban into the footer?",
+                    "target": "将看板中每个任务的标签合并到页脚？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Characters that mark a task as done (e.g., 'xX' for [x] and [X]). Each character should be a single Unicode character without spaces.",
+                    "target": "标记任务为已完成的字符（例如，[x] 和 [X] 使用 'xX'）。每个字符都应是单个 Unicode 字符且不含空格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Characters that mark a task as cancelled (e.g., '-' for [-]). Each character should be a single Unicode character without spaces.",
+                    "target": "用于标记任务为已取消的字符（例如用“-”表示[-]）。每个字符应为单个 Unicode 字符且不含空格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Column width",
+                    "target": "列宽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Flow direction",
+                    "target": "流向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder scope",
+                    "target": "文件夹范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show filepath",
+                    "target": "显示文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Uncategorized column visibility",
+                    "target": "未分类列可见性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Done column visibility",
+                    "target": "完成列可见性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Consolidate tags",
+                    "target": "合并标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Done status markers",
+                    "target": "完成状态标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cancelled status markers",
+                    "target": "已取消状态标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignored status markers",
+                    "target": "已忽略的状态标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Go to file",
+                    "target": "转到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move to Done",
+                    "target": "移动到已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Restore task",
+                    "target": "恢复任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Cancel task",
+                    "target": "取消任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Archive task",
+                    "target": "归档任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete task",
+                    "target": "删除任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Archive all",
+                    "target": "全部归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New kanban",
+                    "target": "新建看板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未被挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%c尝试卸载一个状态代理，而不是组件\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%c\\`<svelte:boundary>\\` 的 \\`reset\\` 函数只会在首次调用时重置该边界\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "水合失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "svelte-select loadOptions error :>> ",
+                    "target": "svelte-select loadOptions 错误 :>> "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Filter by tag",
+                    "target": "按标签筛选"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
