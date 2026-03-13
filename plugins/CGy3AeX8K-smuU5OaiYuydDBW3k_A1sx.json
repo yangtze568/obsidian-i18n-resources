@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "typecho",
+        "version": "1.0.0",
+        "title": "Typecho",
+        "description": "Typecho Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n        <div class=\"upload-progress-header\">\n            <span class=\"upload-progress-title\">\\u{1F4CE} \\u6587\\u4EF6\\u4E0A\\u4F20</span>\n            <button class=\"upload-progress-cancel\" title=\"\\u53D6\\u6D88\\u4E0A\\u4F20\">\\xD7</button>\n        </div>\n        <div class=\"upload-progress-filename\">-</div>\n        <div class=\"upload-progress-bar-container\">\n            <div class=\"upload-progress-bar\"></div>\n        </div>\n        <div class=\"upload-progress-status\">\n            <span class=\"status-text\">\\u51C6\\u5907\\u4E2D...</span>\n            <span class=\"progress-percent\">0%</span>\n        </div>\n    ",
+                    "target": "\n        <div class=\"upload-progress-header\">\n            <span class=\"upload-progress-title\">\\u{1F4CE} \\u6587\\u4EF6\\u4E0A\\u4F20</span>\n            <button class=\"upload-progress-cancel\" title=\"\\u53D6\\u6D88\\u4E0A\\u4F20\">\\xD7</button>\n        </div>\n        <div class=\"upload-progress-filename\">-</div>\n        <div class=\"upload-progress-bar-container\">\n            <div class=\"upload-progress-bar\"></div>\n        </div>\n        <div class=\"upload-progress-status\">\n            <span class=\"status-text\">\\u51C6\\u5907\\u4E2D...</span>\n            <span class=\"progress-percent\">0%</span>\n        </div>\n    "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取失败:",
+                    "target": "获取失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Paste image upload failed:",
+                    "target": "粘贴图片上传失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "发布失败:",
+                    "target": "发布失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch articles:",
+                    "target": "获取文章失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload process error:",
+                    "target": "上传过程错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "📥 Detected image paste, handling...",
+                    "target": "📥 检测到图片粘贴，处理中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用后，Ctrl+V 粘贴图片将自动上传并插入 Markdown 链接",
+                    "target": "启用后，Ctrl+V 粘贴图片将自动上传并插入 Markdown 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "粘贴图片自动上传",
+                    "target": "粘贴图片自动上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象——但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的配置有问题。在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前访问了 t 函数。请在回调或 Promise 解析完成后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已初始化。你只应调用 init 一次！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cleanup local duplicate file failed:",
+                    "target": "清理本地重复文件失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ 图片上传失败",
+                    "target": "❌ 图片上传失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✅ 图片已上传并插入",
+                    "target": "✅ 图片已上传并插入"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ 粘贴上传图片失败，请重试",
+                    "target": "❌ 粘贴上传图片失败，请重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "不能为空",
+                    "target": "不能为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上一页",
+                    "target": "上一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "下一页",
+                    "target": "下一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sync to Typecho",
+                    "target": "同步到 Typecho"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "同步到Typecho",
+                    "target": "同步到Typecho"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标题",
+                    "target": "标题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
