@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "text-progress-bar",
+        "version": "1.0.0",
+        "title": "Text Progress Bar",
+        "description": "Text Progress Bar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A character representing the filled part of your bar.",
+                    "target": "表示进度条已填充部分的字符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A character representing the un-filled part of your bar.",
+                    "target": "表示进度条未填充部分的字符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a prefix to start your bar with.  Eg \"[\"",
+                    "target": "输入用于进度条开头的前缀。例如“[”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a suffix to end your bar with.  Eg \"]\"",
+                    "target": "输入用于进度条结尾的后缀。例如“]”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If labels should be hidden or shown",
+                    "target": "标签是否隐藏或显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide labels",
+                    "target": "隐藏标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "🌕",
+                    "target": "🌕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "🌑",
+                    "target": "🌑"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No progress bars found.",
+                    "target": "未找到进度条。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "🌑",
+                    "target": "🌑"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
