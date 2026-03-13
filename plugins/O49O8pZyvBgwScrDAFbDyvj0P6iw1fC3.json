@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "type-zen-mode",
+        "version": "1.0.0",
+        "title": "Typezen",
+        "description": "Typezen Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
