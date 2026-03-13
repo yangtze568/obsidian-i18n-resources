@@ -1,0 +1,649 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ical",
+        "version": "1.0.0",
+        "title": "iCal",
+        "description": "iCal Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse ApiValidateResponse:",
+                    "target": "无法解析 ApiValidateResponse："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse ApiGetCalendarResponse:",
+                    "target": "无法解析 ApiGetCalendarResponse："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Load settings",
+                    "target": "加载设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Save settings",
+                    "target": "保存设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File exists: updating",
+                    "target": "文件已存在：正在更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File does not exist: creating",
+                    "target": "文件不存在：正在创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ApiErrorResponse:",
+                    "target": "ApiErrorResponse："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ApiValidateResponseData:",
+                    "target": "ApiValidateResponseData："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unrecognized subscription status:",
+                    "target": "无法识别的订阅状态："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ApiSaveResponse:",
+                    "target": "ApiSaveResponse："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ApiGetCalendarResponse:",
+                    "target": "ApiGetCalendarResponse:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ValidationCache: No cached response found",
+                    "target": "ValidationCache: 未找到缓存响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ValidationCache: Returning cached response",
+                    "target": "ValidationCache: 返回缓存响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ValidationCache: Stored response in cache",
+                    "target": "ValidationCache: 已将响应存入缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ValidationCache: Cleared cache for secret key",
+                    "target": "ValidationCache: 已清除该密钥的缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ValidationCache: Cleared all cache",
+                    "target": "ValidationCache: 已清除所有缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using cached validation response",
+                    "target": "使用缓存的验证响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Making fresh validation request to API",
+                    "target": "向 API 发起新的验证请求"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "response:",
+                    "target": "response:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skipping save - cached validation shows inactive subscription",
+                    "target": "跳过保存 - 缓存的验证显示订阅未激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "/api/save response:",
+                    "target": "/api/save 响应:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Getting calendar for vault:",
+                    "target": "正在获取保险库的日历:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "/api/calendar response:",
+                    "target": "/api/calendar 响应:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Performing a scan",
+                    "target": "正在执行扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SyncThing sync conflict file. Skipping",
+                    "target": "SyncThing 同步冲突文件。跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Calendar has been built",
+                    "target": "日历已生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Saving calendar to Gist...",
+                    "target": "正在保存日历到 Gist..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skip saving calendar to Gist",
+                    "target": "跳过保存日历到 Gist"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Saving calendar to file...",
+                    "target": "正在保存日历到文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skip saving calendar to file",
+                    "target": "跳过保存日历到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Saving calendar to web...",
+                    "target": "正在将日历保存到网页..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skip saving calendar to web",
+                    "target": "跳过将日历保存到网页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Calendar saved to web successfully:",
+                    "target": "日历已成功保存到网页："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Background secret key validation failed:",
+                    "target": "后台密钥验证失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Secret key validation failed:",
+                    "target": "密钥验证失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error!",
+                    "target": "错误！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsManager and Logger initialised",
+                    "target": "SettingsManager 和 Logger 已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Validation refresh enabled and will run every 5 minute",
+                    "target": "验证刷新已启用，将每 5 分钟运行一次"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Validation refresh triggered - refreshing validation cache",
+                    "target": "已触发验证刷新 - 正在刷新验证缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Validation refresh failed:",
+                    "target": "验证刷新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "📋 Copy to clipboard",
+                    "target": "📋 复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "✅ Copied!",
+                    "target": "✅ 已复制！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify where we should look for tasks. Choose \"/\" to look in the whole vault.",
+                    "target": "指定我们应在哪里查找任务。选择 \"/\" 可在整个库中查找。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turning this on will save your calendar to your private area on https://obsidian-ical.com",
+                    "target": "开启后会将你的日历保存到 https://obsidian-ical.com 上的私密区域。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose if you want your calendar to ignore tasks that have been completed.",
+                    "target": "选择是否让日历忽略已完成的任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Do you want to exclude tasks if they are older than a certain age? This could be useful if you have a very large number of tasks and are not interested in the past.",
+                    "target": "是否要排除超过一定时间的旧任务？如果任务数量很大且你不关注过去的任务，这会很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If every date for a given task is more than this many days ago then it will be excluded from your calendar.",
+                    "target": "如果某个任务的所有日期都早于指定的天数，那么它将从日历中排除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A task can have many dates (eg: due, start, scheduled, etc). When multiple dates are encountered in a task, which date do you want to use for the calendar?",
+                    "target": "一个任务可以有多个日期（例如：截止、开始、计划等）。当任务包含多个日期时，你希望日历使用哪个日期？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn this on if you want to support the Day Planner plugin format.",
+                    "target": "如果你想支持 Day Planner 插件格式，请开启此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Do you want the plugin to periodically process your tasks? If you choose not to then a calendar will only be built when Obsidian is loaded.",
+                    "target": "是否希望插件定期处理你的任务？如果不选择，日历只会在 Obsidian 加载时构建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often do you want to periodically scan for tasks?",
+                    "target": "你想多长时间定期扫描一次任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Do you want your calendar to only include tasks that contain certain tags?",
+                    "target": "你是否希望日历仅包含带有特定标签的任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter one or more tags. Separate multiple tags with a space. If one or more of these tags are found then the task will be included in your calendar.",
+                    "target": "输入一个或多个标签。多个标签用空格分隔。如果找到其中一个或多个标签，任务将被包含在你的日历中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Do you want your calendar to exclude tasks that contain certain tags?",
+                    "target": "你是否希望日历排除带有特定标签的任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter one or more tags. Separate multiple tags with a space. If one or more of these tags are found then the task will be excluded from your calendar.",
+                    "target": "输入一个或多个标签。多个标签用空格分隔。如果找到其中一个或多个标签，任务将从你的日历中排除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How should [[wikilinks]] and [markdown links](markdown links) be processed if they are encountered in a task?",
+                    "target": "如果在任务中遇到 [[wikilinks]] 和 [markdown links](markdown links)，应如何处理？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include a link to open the task in Obsidian in the event description. This is useful for clients such as Thunderbird or Evolution.",
+                    "target": "在事件描述中包含一个在 Obsidian 中打开任务的链接。这对 Thunderbird 或 Evolution 等客户端很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used to privately store your calendar on Github",
+                    "target": "用于在 Github 上私密存储你的日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is the unique ID to the Gist that you created in GitHub",
+                    "target": "这是你在 GitHub 中创建的 Gist 的唯一 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is only used to generate the URL to your calendar",
+                    "target": "这仅用于生成你的日历 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Give your calendar a file name",
+                    "target": "为你的日历指定文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The file extension must be one of .ical or .ics or .ifb or .icalendar",
+                    "target": "文件扩展名必须是 .ical、.ics、.ifb 或 .icalendar 之一"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turning this on will write logs to console.",
+                    "target": "开启此项将把日志写入控制台。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target directory",
+                    "target": "目标目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save calendar to disk?",
+                    "target": "将日历保存到磁盘？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save calendar to GitHub Gist?",
+                    "target": "将日历保存到 GitHub Gist？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Secret Key",
+                    "target": "密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Calendar URL",
+                    "target": "日历 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save calendar to the web",
+                    "target": "将日历保存到网页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore completed tasks?",
+                    "target": "忽略已完成的任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore old tasks?",
+                    "target": "忽略旧任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "How many days back to you want to keep old tasks?",
+                    "target": "您想保留多少天前的旧任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Which task date should be used?",
+                    "target": "应使用哪个任务日期？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Support Day Planner plugin?",
+                    "target": "支持 Day Planner 插件？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Periodically save your calendar",
+                    "target": "定期保存您的日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "How often should we parse and save your calendar? (minutes)",
+                    "target": "我们应多频繁解析并保存您的日历？（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only include tasks with certain tags?",
+                    "target": "仅包含带有特定标签的任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only include tasks that contain these tags",
+                    "target": "仅包含包含这些标签的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude tasks with certain tags?",
+                    "target": "排除带有特定标签的任务？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude tasks that contain these tags",
+                    "target": "排除包含这些标签的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Processing internal links",
+                    "target": "正在处理内部链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add link to Obsidian in event description",
+                    "target": "在事件描述中添加 Obsidian 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub personal access token",
+                    "target": "GitHub 个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub Gist ID",
+                    "target": "GitHub Gist ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub username",
+                    "target": "GitHub 用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your calendar URL",
+                    "target": "你的日历 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File extension",
+                    "target": "文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your calendar path",
+                    "target": "你的日历路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Calendar not found for this vault",
+                    "target": "未找到此库的日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Task Lists",
+                    "target": "任务列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quick Start & Essential Settings",
+                    "target": "快速开始与基本设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save Destinations",
+                    "target": "保存目标位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create an account on obsidian-ical.com",
+                    "target": "在 obsidian-ical.com 上创建账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Secret Key",
+                    "target": "密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📅 Your calendar URL will appear here after your first save to the web.",
+                    "target": "📅 首次保存到网络后，你的日历 URL 将显示在此处。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pro Settings",
+                    "target": "专业版设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Task Processing",
+                    "target": "任务处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Automation & Advanced",
+                    "target": "自动化与高级功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GitHub Gist Settings",
+                    "target": "GitHub Gist 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Perform the following steps to get your Personal Access Token and Gist ID:",
+                    "target": "请执行以下步骤获取你的个人访问令牌和 Gist ID："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Go to https://github.com/settings/tokens/new and create a new personal access token. It only needs Gist scope.",
+                    "target": "前往 https://github.com/settings/tokens/new 并创建新的个人访问令牌。只需要 Gist 权限范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Go to https://gist.github.com/ and create a new secret Gist.",
+                    "target": "前往 https://gist.github.com/ 并创建新的私密 Gist。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Local File Settings",
+                    "target": "本地文件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Link to Task Lists on on obsidian.md (https://help.obsidian.md/syntax#Task+lists)",
+                    "target": "链接到 obsidian.md 上的任务列表（https://help.obsidian.md/syntax#Task+lists）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
