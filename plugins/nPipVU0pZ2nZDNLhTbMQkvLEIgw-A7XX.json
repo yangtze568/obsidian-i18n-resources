@@ -1,0 +1,235 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "emoji-selector",
+        "version": "1.0.0",
+        "title": "Emoji selector",
+        "description": "Emoji selector Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "NONE (No logs)",
+                    "target": "NONE（无日志）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ERROR (Errors only)",
+                    "target": "ERROR（仅错误）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "WARN (Warnings and errors only)",
+                    "target": "WARN（仅警告和错误）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "INFO (Info and above)",
+                    "target": "INFO（信息及以上）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DEBUG (All logs)",
+                    "target": "DEBUG（所有日志）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Made by ",
+                    "target": "由 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " with ❤️ | ",
+                    "target": " 用❤️制作 | "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Background cache save failed for URL:",
+                    "target": "后台缓存保存失败，URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to set cached data for URL:",
+                    "target": "为URL设置缓存数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Background cache save failed after clearing URL:",
+                    "target": "清除URL后后台缓存保存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear cached data for URL:",
+                    "target": "清除该 URL 的缓存数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Background cache save failed after clearing all cache:",
+                    "target": "清除所有缓存后后台缓存保存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear all cached data:",
+                    "target": "清除所有缓存数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Background cache save failed after cleanup:",
+                    "target": "清理后后台缓存保存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to cleanup unused cache entries:",
+                    "target": "清理未使用的缓存条目失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Background cache warming failed:",
+                    "target": "后台缓存预热失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Background cache warming encountered an error:",
+                    "target": "后台缓存预热遇到错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cache initialization promise failed:",
+                    "target": "缓存初始化承诺失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear cache and reload:",
+                    "target": "清除缓存并重新加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to cleanup cache:",
+                    "target": "清理缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to start background cache warming:",
+                    "target": "无法启动后台缓存预热："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug and troubleshooting",
+                    "target": "调试与故障排查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug log level",
+                    "target": "调试日志级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "<img src=\"{url}\" alt=\"{text}\" title=\"{text}\" class=\"{classes}\">",
+                    "target": "<img src=\"{url}\" alt=\"{text}\" title=\"{text}\" class=\"{classes}\">"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "::|：：",
+                    "target": "::|：："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid regex pattern, falling back to alternative search:",
+                    "target": "正则表达式模式无效，回退到备用搜索："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Virtual renderer not initialized",
+                    "target": "虚拟渲染器未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to migrate cache from data.json:",
+                    "target": "从 data.json 迁移缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cache initialization failed, proceeding without cache:",
+                    "target": "缓存初始化失败，将在无缓存情况下继续："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cache initialization failed during force reload, proceeding without cache:",
+                    "target": "强制重新加载期间缓存初始化失败，将在无缓存情况下继续："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to clear cache during force reload:",
+                    "target": "强制重新加载时清除缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cache initialization failed:",
+                    "target": "缓存初始化失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Error: ",
+                    "target": "错误："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "出错了：",
+                    "target": "出错了："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Loading settings...",
+                    "target": "正在加载设置..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📦",
+                    "target": "📦"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
