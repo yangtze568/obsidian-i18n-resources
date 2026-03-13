@@ -1,0 +1,1069 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "any-block",
+        "version": "1.0.0",
+        "title": "AnyBlock",
+        "description": "AnyBlock Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.4.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d=\"M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z\"/></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d=\"M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d=\"M320 464c8.8 0 16-7.2 16-16l0-288-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0zM0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64z\"/></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d=\"M320 464c8.8 0 16-7.2 16-16l0-288-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0zM0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64z\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "展开",
+                    "target": "展开"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "折叠",
+                    "target": "折叠"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "折叠/展开",
+                    "target": "折叠/展开"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "处理器名\nProcessor name",
+                    "target": "处理器名\n处理器名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "下拉框默认项\nThe default drop-down box",
+                    "target": "下拉框默认项\n默认下拉框"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "用途描述\nPurpose description",
+                    "target": "用途描述\n用途说明"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "输入类型\nInput type",
+                    "target": "输入类型\n输入类型"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "输出类型\nOutput type",
+                    "target": "输出类型\n输出类型"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "正则\nRegExp",
+                    "target": "正则\n正则表达式"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "是否启用\nIs enable",
+                    "target": "是否启用\n是否启用"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "定义来源\nSource",
+                    "target": "定义来源\n来源"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "别名替换\nAlias substitution",
+                    "target": "别名替换\n别名替换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Please use renderMarkdownFn redefine render function",
+                    "target": "请使用 renderMarkdownFn 重新定义渲染函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "节点错误",
+                    "target": "节点错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "不是列表内容:",
+                    "target": "不是列表内容:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "不是标题内容:",
+                    "target": "不是标题内容:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "no match",
+                    "target": "未匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "转换时文件保存失败:",
+                    "target": "转换时文件保存失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[environment]: markdown-it, without obsidian",
+                    "target": "[environment]: markdown-it，无 obsidian"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[environment]: obsidian",
+                    "target": "[environment]: obsidian"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  - markmap_event",
+                    "target": "  - markmap_event"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "initRet:",
+                    "target": "initRet:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " -- ABPosthtmlManager.processor, called by 'ReRender'",
+                    "target": " -- ABPosthtmlManager.processor，由“ReRender”调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " !! RebuildView: executed",
+                    "target": " !! RebuildView: 已执行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": ">>> Loading plugin AnyBlock",
+                    "target": ">>> 正在加载插件 AnyBlock"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "<<< Unloading plugin AnyBlock",
+                    "target": "<<< 正在卸载插件 AnyBlock"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only for developer use",
+                    "target": "仅供开发者使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "编辑器菜单",
+                    "target": "编辑器菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: KaTeX doesn't work in quirks mode. Make sure your website has a suitable doctype.",
+                    "target": "警告：KaTeX 在怪异模式下无法工作。请确保你的网站有合适的 doctype。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "处理器必须实现process或process_alias方法",
+                    "target": "处理器必须实现process或process_alias方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "other type in tail, can not tail processor:",
+                    "target": "尾部存在其他类型，无法作为尾部处理器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "开始时间解析失败1",
+                    "target": "开始时间解析失败1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "结束时间解析失败1",
+                    "target": "结束时间解析失败1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "开始时间戳解析失败2",
+                    "target": "开始时间戳解析失败2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "结束时间戳解析失败2",
+                    "target": "结束时间戳解析失败2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "暂不支持非时间格式的甘特图时间解析",
+                    "target": "暂不支持非时间格式的甘特图时间解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "get cursor pos failed:",
+                    "target": "获取光标位置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "decorationSet map error, maybe paste ab at end",
+                    "target": "decorationSet 映射错误，可能是在末尾粘贴了 ab"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Copy source content",
+                    "target": "复制源内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Make the block wider",
+                    "target": "加宽区块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Refresh the block",
+                    "target": "刷新区块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "More option",
+                    "target": "更多选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在文本的每行前面加上 `> `",
+                    "target": "在文本的每行前面加上 `> `"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在文本的前后均加上一行代码块围栏。不加`()`表示用原文本的第一行作为代码类型，括号类型为空表示代码类型为空",
+                    "target": "在文本的前后均加上一行代码块围栏。不加`()`表示用原文本的第一行作为代码类型，括号类型为空表示代码类型为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在文本的每行前面删除 `> `",
+                    "target": "在文本的每行前面删除 `> `"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "参数为是否移除代码类型, Xcode默认为false, Xcode默认为true。记法: code|Xcode 或 code()|Xcode()内容不变",
+                    "target": "参数为是否移除代码类型, Xcode默认为false, Xcode默认为true。记法: code|Xcode 或 code()|Xcode()内容不变"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "和js的slice方法是一样的。例如 `[slice(1, -1)]`",
+                    "target": "和js的slice方法是一样的。例如 `[slice(1, -1)]`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "增添. 参数2为行序, 默认0, 行尾-1。会插行增添",
+                    "target": "增添. 参数2为行序, 默认0, 行尾-1。会插行增添"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "每行前面加两空格，并在首行插入 `- ` 开头的根列表项",
+                    "target": "每行前面加两空格，并在首行插入 `- ` 开头的根列表项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "缩进转列表",
+                    "target": "缩进转列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "列表转缩进。对于多行内容的列表项，默认换行项删除前置空格并使用 `; ` 拼接，拼接符暂不支持自定义",
+                    "target": "列表转缩进。对于多行内容的列表项，默认换行项删除前置空格并使用 `; ` 拼接，拼接符暂不支持自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "代码块注释转缩进 (识别 `//` 和 `#` 的region注释对)，通常配合code2list使用。默认补充两缩进",
+                    "target": "代码块注释转缩进 (识别 `//` 和 `#` 的region注释对)，通常配合code2list使用。默认补充两缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mdit转代码块 (允许嵌套)。注意 `:*n` 会转化为 `~*(n+3)`, `@aaa bbb` 会转换为 `# bbb` (h1标题)",
+                    "target": "mdit转代码块 (允许嵌套)。注意 `:*n` 会转化为 `~*(n+3)`, `@aaa bbb` 会转换为 `# bbb` (h1标题)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "列表到listdata",
+                    "target": "列表到listdata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "标题到listdata",
+                    "target": "标题到listdata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "listdata到列表",
+                    "target": "listdata到列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "listdata到节点图",
+                    "target": "listdata到节点图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "将列表数据转化为更规范的列表数据。统一缩进符(2空格 4空格 tab混用)为level 1、禁止跳等级(h1直接就到h3)",
+                    "target": "将列表数据转化为更规范的列表数据。统一缩进符(2空格 4空格 tab混用)为level 1、禁止跳等级(h1直接就到h3)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "当列表中存在任务列表项时，令此列表项支持任务项",
+                    "target": "当列表中存在任务列表项时，令此列表项支持任务项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "列表到listnode",
+                    "target": "列表到listnode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "列表到json",
+                    "target": "列表到json"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "适配到easy_timeline格式，需要安装easy timeline插件",
+                    "target": "适配到easy_timeline格式，需要安装easy timeline插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "其实一般会更推荐用code()代替，那个更精确",
+                    "target": "其实一般会更推荐用code()代替，那个更精确"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "默认是纵向滚动。可以指定溢出滚动的范围，可以使用scrollX进行横向滚动",
+                    "target": "默认是纵向滚动。可以指定溢出滚动的范围，可以使用scrollX进行横向滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "用于控制表格或分栏的每列的宽度",
+                    "target": "用于控制表格或分栏的每列的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "给当前块增加一个类名。支持正常使用空格来添加多个class, 不需要加dot符, 就像在class=''里写的那样",
+                    "target": "给当前块增加一个类名。支持正常使用空格来添加多个class, 不需要加dot符, 就像在class=''里写的那样"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "给当前块增加一个样式, 注意最外的括号往内要留一个空格, 避免rotate这种用括号时冲突。添加多个则正常使用分号",
+                    "target": "给当前块增加一个样式, 注意最外的括号往内要留一个空格, 避免rotate这种用括号时冲突。添加多个则正常使用分号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "给当前块增加一个父类，需要给这个父类一个类名",
+                    "target": "给当前块增加一个父类，需要给这个父类一个类名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "若直接处理代码或表格块，则会有特殊风格",
+                    "target": "若直接处理代码或表格块，则会有特殊风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "将表格进行转置，就像矩阵转置那样。该版本不支持有跨行跨列单元格。若复杂表格，请换用trs版本",
+                    "target": "将表格进行转置，就像矩阵转置那样。该版本不支持有跨行跨列单元格。若复杂表格，请换用trs版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "将表格进行转置，就像矩阵转置那样。该版本支持有跨行跨列单元格",
+                    "target": "将表格进行转置，就像矩阵转置那样。该版本支持有跨行跨列单元格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "将表格应用sheet-table语法 (使用 `</^` 标注合并单元格)",
+                    "target": "将表格应用sheet-table语法 (使用 `</^` 标注合并单元格)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "补全表格的尾丢失项，list2table|trs时，可以有效避免bug",
+                    "target": "补全表格的尾丢失项，list2table|trs时，可以有效避免bug"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "渲染常见问题/对话。每个项需以 `/^([a-zA-Z])(: |：)(.*)/` 开头",
+                    "target": "渲染常见问题/对话。每个项需以 `/^([a-zA-Z])(: |：)(.*)/` 开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "查看当前软件版本下的注册处理器表",
+                    "target": "查看当前软件版本下的注册处理器表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "查看当前软件版本下的注册别名表",
+                    "target": "查看当前软件版本下的注册别名表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "显示渲染对话，需要配合 obsidian-view-chat-qq 插件使用",
+                    "target": "显示渲染对话，需要配合 obsidian-view-chat-qq 插件使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "将列表转换为放ECharts树图，可选附加参数: `_tb` 或 `_radial` 或 `_polyline` 等",
+                    "target": "将列表转换为放ECharts树图，可选附加参数: `_tb` 或 `_radial` 或 `_polyline` 等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "将列表转换为放ECharts旭日图 (平均分配)",
+                    "target": "将列表转换为放ECharts旭日图 (平均分配)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "将列表转换为放ECharts甘特图 (ECharts的甘特图是用custom模拟的)",
+                    "target": "将列表转换为放ECharts甘特图 (ECharts的甘特图是用custom模拟的)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "列表转mermaid文本",
+                    "target": "列表转mermaid文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "需要配合mehrmaid插件和code(mehrmaid)使用，或使用别名简化",
+                    "target": "需要配合mehrmaid插件和code(mehrmaid)使用，或使用别名简化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "由于需要兼容脑图，这里会使用插件内置的最新版mermaid",
+                    "target": "由于需要兼容脑图，这里会使用插件内置的最新版mermaid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "以`:::`开头和结尾，处理器名写在第一个`:::`的后面，不需要加`[]`。其实就和代码块差不多，这也是VuePress的一个md扩展语法",
+                    "target": "以`:::`开头和结尾，处理器名写在第一个`:::`的后面，不需要加`[]`。其实就和代码块差不多，这也是VuePress的一个md扩展语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在列表的上一/两行加上`[处理器名]`的header，注意header必须和列表首行位于同一层次",
+                    "target": "在列表的上一/两行加上`[处理器名]`的header，注意header必须和列表首行位于同一层次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在代码块的上一/两行加上`[处理器名]`的header，注意header必须和代码块首行位于同一层次",
+                    "target": "在代码块的上一/两行加上`[处理器名]`的header，注意header必须和代码块首行位于同一层次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在引用块的上一/两行加上`[处理器名]`的header，注意header必须和引用块首行位于同一层次",
+                    "target": "在引用块的上一/两行加上`[处理器名]`的header，注意header必须和引用块首行位于同一层次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在表格的上一/两行加上`[处理器名]`的header，注意header必须和表格首行位于同一层次",
+                    "target": "在表格的上一/两行加上`[处理器名]`的header，注意header必须和表格首行位于同一层次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "在标题的上一/两行加上`[处理器名]`的header，注意header必须和标题首行位于同一层次",
+                    "target": "在标题的上一/两行加上`[处理器名]`的header，注意header必须和标题首行位于同一层次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected block-seq-ind on same line with key",
+                    "target": "同一行上键出现了意外的块序列指示符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增加引用块",
+                    "target": "增加引用块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增加代码块",
+                    "target": "增加代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "去除引用块",
+                    "target": "去除引用块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "去除代码块",
+                    "target": "去除代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "去除代码或引用块",
+                    "target": "去除代码或引用块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切片",
+                    "target": "切片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增添内容",
+                    "target": "增添内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增加列表根",
+                    "target": "增加列表根"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩进转列表",
+                    "target": "缩进转列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转缩进",
+                    "target": "列表转缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "代码注释转缩进",
+                    "target": "代码注释转缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mdit转代码块",
+                    "target": "mdit转代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到listdata",
+                    "target": "列表到listdata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题到listdata",
+                    "target": "标题到listdata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "listdata到列表",
+                    "target": "listdata到列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "listdata到节点图",
+                    "target": "listdata到节点图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "listdata严格化",
+                    "target": "listdata严格化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "listdata支持任务列表",
+                    "target": "listdata支持任务列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到listnode (beta)",
+                    "target": "列表到listnode (beta)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到json (beta)",
+                    "target": "列表到json (beta)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转c2listdata",
+                    "target": "列表转c2listdata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题转c2listdata",
+                    "target": "标题转c2listdata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "c2listdata转标签",
+                    "target": "c2listdata转标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "c2listdata转容器结构",
+                    "target": "c2listdata转容器结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "适配到easy_timeline",
+                    "target": "适配到easy_timeline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题到表格",
+                    "target": "标题到表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转表格",
+                    "target": "列表转表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转二列表格",
+                    "target": "列表转二列表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转二维表格",
+                    "target": "列表转二维表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转时间线",
+                    "target": "列表转时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题转时间线",
+                    "target": "标题转时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转列表表格",
+                    "target": "列表转列表表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转树状目录",
+                    "target": "列表转树状目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到sacii目录树",
+                    "target": "列表到sacii目录树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "纯文本",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "折叠",
+                    "target": "折叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "滚动",
+                    "target": "滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "超出折叠",
+                    "target": "超出折叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "宽度控制",
+                    "target": "宽度控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增加class",
+                    "target": "增加class"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增加style",
+                    "target": "增加style"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增加div和class",
+                    "target": "增加div和class"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "表格转置",
+                    "target": "表格转置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "表格扩展",
+                    "target": "表格扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "正规化表格",
+                    "target": "正规化表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mdit标签页",
+                    "target": "mdit标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mdit展示对比",
+                    "target": "mdit展示对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AnyBlock专用展示对比",
+                    "target": "AnyBlock专用展示对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mdit分栏",
+                    "target": "mdit分栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mdit卡片",
+                    "target": "mdit卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mdit对话",
+                    "target": "mdit对话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ECharts树图",
+                    "target": "ECharts树图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ECharts旭日图",
+                    "target": "ECharts旭日图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ECharts甘特图",
+                    "target": "ECharts甘特图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "json到可视化",
+                    "target": "json到可视化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到puml工作分解结构",
+                    "target": "列表到puml工作分解结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到puml思维导图",
+                    "target": "列表到puml思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到puml活动图文本",
+                    "target": "列表到puml活动图文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到puml活动图",
+                    "target": "列表到puml活动图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题到脑图",
+                    "target": "标题到脑图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转mermaid思维导图",
+                    "target": "列表转mermaid思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转mermaid流程图",
+                    "target": "列表转mermaid流程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转mermaid文本",
+                    "target": "列表转mermaid文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表转mehrmaid文本",
+                    "target": "列表转mehrmaid文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新mermaid",
+                    "target": "新mermaid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表到脑图 (markmap)",
+                    "target": "列表到脑图 (markmap)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mdit:::头尾选择器",
+                    "target": "mdit:::头尾选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表选择器",
+                    "target": "列表选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "代码选择器",
+                    "target": "代码选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "引用块选择器",
+                    "target": "引用块选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "表格选择器",
+                    "target": "表格选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题选择器",
+                    "target": "标题选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete AnyBlock header",
+                    "target": "删除 AnyBlock 头部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selector Name",
+                    "target": "选择器名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "First-line Regular",
+                    "target": "首行常规"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "编辑器菜单",
+                    "target": "编辑器菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(!\\u5C06\\u5F03\\u7528\\uFF0C\\u8BF7\\u4F7F\\u7528\\u540C\\u4F5C\\u8005\\u5F00\\u53D1\\u7684 AnyMenu \\u63D2\\u4EF6)",
+                    "target": "(!\\u5C06\\u5F03\\u7528\\uFF0C\\u8BF7\\u4F7F\\u7528\\u540C\\u4F5C\\u8005\\u5F00\\u53D1\\u7684 AnyMenu \\u63D2\\u4EF6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\\u4F60\\u53EF\\u4EE5\\u5728\\u8FD9\\u91CC\\u7F16\\u8F91\\u6269\\u5C55\\u7684\\u7F16\\u8F91\\u5668\\u53F3\\u952E\\u83DC\\u5355\\uFF0C\\u52A0\\u5165\\u81EA\\u5B9A\\u4E49\\u8981\\u9ECF\\u8D34\\u7684\\u9884\\u8BBE\\u6587\\u672C\\u3002\n\\u7F16\\u8F91\\u5668\\u83DC\\u5355\\u662F\\u4E00\\u4E2A\\u72EC\\u7ACB\\u529F\\u80FD\\u7684\\u901A\\u7528\\u6A21\\u5757\\uFF0C\\u4F60\\u53EF\\u4EE5\\u628A\\u4ED6\\u5F53\\u4F5C\\u53E6\\u4E00\\u4E2A\\u72EC\\u7ACB\\u529F\\u80FD\\u7684\\u63D2\\u4EF6\\u6765\\u4F7F\\u7528",
+                    "target": "\\u4F60\\u53EF\\u4EE5\\u5728\\u8FD9\\u91CC\\u7F16\\u8F91\\u6269\\u5C55\\u7684\\u7F16\\u8F91\\u5668\\u53F3\\u952E\\u83DC\\u5355\\uFF0C\\u52A0\\u5165\\u81EA\\u5B9A\\u4E49\\u8981\\u9ECF\\u8D34\\u7684\\u9884\\u8BBE\\u6587\\u672C\\u3002\n\\u7F16\\u8F91\\u5668\\u83DC\\u5355\\u662F\\u4E00\\u4E2A\\u72EC\\u7ACB\\u529F\\u80FD\\u7684\\u901A\\u7528\\u6A21\\u5757\\uFF0C\\u4F60\\u53EF\\u4EE5\\u628A\\u4ED6\\u5F53\\u4F5C\\u53E6\\u4E00\\u4E2A\\u72EC\\u7ACB\\u529F\\u80FD\\u7684\\u63D2\\u4EF6\\u6765\\u4F7F\\u7528"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "! \\u4EC5\\u6D4B\\u8BD5\\u7528\\u3002\\u76EE\\u524D\\u8FD9\\u4E00\\u90E8\\u5206\\u5728\\u975EPro\\u7248\\u4EC5\\u4F9B\\u67E5\\u8BE2\\u4E0D\\u53EF\\u7F16\\u8F91\\uFF0C\\u4E14\\u76EE\\u524D\\u4E0D\\u5199\\u914D\\u7F6E\\u6587\\u4EF6\\uFF0C\\u8BBE\\u7F6E\\u540E\\u91CD\\u542F\\u5C31\\u4E0D\\u751F\\u6548\\u4E86",
+                    "target": "! \\u4EC5\\u6D4B\\u8BD5\\u7528\\u3002\\u76EE\\u524D\\u8FD9\\u4E00\\u90E8\\u520\\u5728\\u975EPro\\u7248\\u4EC5\\u4F9B\\u67E5\\u8BE2\\u4E0D\\u53EF\\u7F16\\u8F91\\uFF0C\\u4E14\\u76EE\\u524D\\u4E0D\\u5199\\u914D\\u7F6E\\u6587\\u4EF6\\uFF0C\\u8BBE\\u7F6E\\u540E\\u91CD\\u542F\\u5C31\\u4E0D\\u751F\\u6548\\u4E86"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
