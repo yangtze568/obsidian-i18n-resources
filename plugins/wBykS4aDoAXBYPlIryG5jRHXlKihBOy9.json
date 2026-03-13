@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "floating-toc",
+        "version": "1.0.0",
+        "title": "floating toc",
+        "description": "floating toc Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.7.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Hollow Line",
+                    "target": "空心线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Vertical Line",
+                    "target": "竖线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If you like this Plugin and are considering donating to support continued development, use the button below!",
+                    "target": "如果你喜欢这个插件并考虑捐赠以支持持续开发，请使用下面的按钮！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "移动标题内容失败:",
+                    "target": "移动标题内容失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error cleaning up resources:",
+                    "target": "清理资源时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "🎨 Open style settings",
+                    "target": "🎨 打开样式设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Scroll to Top",
+                    "target": "滚动到顶部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Scroll to Bottom",
+                    "target": "滚动到底部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "copy TOC to clipboard",
+                    "target": "复制目录到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Collapse/Expand all headings",
+                    "target": "折叠/展开所有标题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "移动标题失败",
+                    "target": "移动标题失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "标题已移动",
+                    "target": "标题已移动"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "TOC Copied",
+                    "target": "目录已复制"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Position style set to both. Toogle position only works when fixed position (left or right) is selected.",
+                    "target": "位置样式已设置为两侧。仅在选择固定位置（左或右）时，切换位置才生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pinning the Floating TOC panel",
+                    "target": "固定悬浮目录面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide/Show the Floating TOC panel",
+                    "target": "隐藏/显示悬浮目录面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scroll to Bottom",
+                    "target": "滚动到底部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scroll to Top",
+                    "target": "滚动到顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Floating TOC Position (left/right)",
+                    "target": "切换悬浮目录位置（左/右）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search in Floating TOC",
+                    "target": "在悬浮目录中搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Floating TOC ",
+                    "target": "Obsidian 悬浮目录 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Author: Cuman ✨",
+                    "target": "作者：Cuman ✨"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Readme:中文",
+                    "target": "Readme：中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "|English  ",
+                    "target": "|English  "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔑TIPS:",
+                    "target": "🔑提示："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please install or enable the style-settings plugin",
+                    "target": "请安装或启用 style-settings 插件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
