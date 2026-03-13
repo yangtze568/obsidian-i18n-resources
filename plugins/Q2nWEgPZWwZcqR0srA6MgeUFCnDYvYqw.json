@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hanko",
+        "version": "1.0.0",
+        "title": "Hanko",
+        "description": "Hanko Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "setSelf function cannot be used with read-only atom",
+                    "target": "setSelf 函数不能与只读 atom 一起使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "setSelf function cannot be called in sync",
+                    "target": "setSelf 函数不能在同步中调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Detected multiple Jotai instances. It may cause unexpected behavior with the default store. https://github.com/pmndrs/jotai/discussions/2044",
+                    "target": "检测到多个 Jotai 实例。这可能会导致默认存储出现异常行为。https://github.com/pmndrs/jotai/discussions/2044"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
