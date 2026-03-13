@@ -1,0 +1,199 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-quiz",
+        "version": "1.0.0",
+        "title": "Simple Quiz",
+        "description": "Simple Quiz Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only on mobile device",
+                    "target": "仅限移动设备"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show cards placeholder",
+                    "target": "显示卡片占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minify card placeholder",
+                    "target": "最小化卡片占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable saving results",
+                    "target": "启用结果保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cards rate failed threshold",
+                    "target": "卡片评价失败阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cards rate success threshold",
+                    "target": "卡片评价成功阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimum card non repetition time, in seconds",
+                    "target": "最小卡片不重复时间（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum card non repetition time, in seconds",
+                    "target": "最大卡片不重复时间（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear results",
+                    "target": "清除结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JS Functions",
+                    "target": "JS 函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable load cards using JS",
+                    "target": "启用使用 JS 加载卡片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Question input",
+                    "target": "问题输入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fullscreen card on input",
+                    "target": "输入时全屏卡片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sound feedback on answer input",
+                    "target": "回答输入时声音反馈"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vibrate feedback on answer input",
+                    "target": "回答输入时振动反馈"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quiz tag",
+                    "target": "测验标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JSON cards tag",
+                    "target": "JSON 卡片标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JS cards tag",
+                    "target": "JS 卡片标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Today streak tag",
+                    "target": "今日连胜标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Progression charts tag",
+                    "target": "进度图表标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Groups tag",
+                    "target": "分组标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Show answer",
+                    "target": "显示答案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "在未启用 'Filler' 插件的情况下尝试使用 'fill' 选项。请导入并注册 'Filler' 插件，并确保它未在选项中被禁用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Results cleared",
+                    "target": "结果已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "At least one flashcard must be selected",
+                    "target": "至少选择一张闪卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Cards at day",
+                    "target": "每日卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Run quiz",
+                    "target": "开始测验"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Repeated cards by days",
+                    "target": "按天重复的卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Total card statuses",
+                    "target": "卡片状态总数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cards statuses progression in year",
+                    "target": "年度卡片状态变化"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
