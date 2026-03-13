@@ -1,0 +1,481 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "eccirian",
+        "version": "1.0.0",
+        "title": "Eccirian Encrypt",
+        "description": "Eccirian Encrypt Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ECC+AES (Asymmetric)",
+                    "target": "ECC+AES（非对称）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "AES-256 (Symmetric)",
+                    "target": "AES-256（对称）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Permanent (Repeatable)",
+                    "target": "永久（可重复）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1,000,000 (Strong)",
+                    "target": "1,000,000（强）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "600,000 (Balanced)",
+                    "target": "600,000（均衡）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "100,000 (Fast)",
+                    "target": "100,000（快速）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "5 (Strong)",
+                    "target": "5（强）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "3 (Balanced)",
+                    "target": "3（均衡）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1 (Fast)",
+                    "target": "1（快速）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "32 (AES-256)",
+                    "target": "32（AES-256）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "AES decryption failed:",
+                    "target": "AES 解密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ECC decryption failed:",
+                    "target": "ECC 解密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking folder status:",
+                    "target": "检查文件夹状态出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Folder decryption failed:",
+                    "target": "文件夹解密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Salt:",
+                    "target": "Salt："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "IV:",
+                    "target": "IV："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Data:",
+                    "target": "数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error details:",
+                    "target": "错误详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decryption error:",
+                    "target": "解密错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save before loading new file:",
+                    "target": "加载新文件前保存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save before switching files:",
+                    "target": "切换文件前保存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Auto-encryption failed:",
+                    "target": "自动加密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Save operation failed:",
+                    "target": "保存操作失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during final save:",
+                    "target": "最终保存时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decryption failed:",
+                    "target": "解密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "View is not of correct type:",
+                    "target": "视图类型不正确："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening file:",
+                    "target": "打开文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error converting file:",
+                    "target": "转换文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Binary encryption failed",
+                    "target": "二进制加密失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error encrypting folder:",
+                    "target": "加密文件夹时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose encryption method",
+                    "target": "选择加密方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose encryption mode",
+                    "target": "选择加密模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Eccirian Encryption",
+                    "target": "Eccirian 加密"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Encryption Method",
+                    "target": "加密方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Encryption Mode",
+                    "target": "加密模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm Password",
+                    "target": "确认密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Password Hint",
+                    "target": "密码提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Visit GitHub Repository?",
+                    "target": "访问 GitHub 仓库？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter password",
+                    "target": "输入密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Confirm password",
+                    "target": "确认密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter password hint (optional)",
+                    "target": "输入密码提示（可选）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a password",
+                    "target": "请输入密码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please confirm your password",
+                    "target": "请确认密码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Passwords do not match",
+                    "target": "两次输入的密码不一致"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File does not exist",
+                    "target": "文件不存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This is not an encrypted file",
+                    "target": "这不是加密文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid JSON format",
+                    "target": "JSON 格式无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Decryption failed",
+                    "target": "解密失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File not found",
+                    "target": "未找到文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File decrypted",
+                    "target": "文件已解密"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Decryption failed: Invalid file format",
+                    "target": "解密失败：文件格式无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Missing ORIGINAL_PATH",
+                    "target": "缺少 ORIGINAL_PATH"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This is not an encrypted file, restored as normal file",
+                    "target": "这不是加密文件，已按普通文件还原"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Decryption failed: Password may be incorrect",
+                    "target": "解密失败：密码可能不正确"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Decryption failed: Unexpected error",
+                    "target": "解密失败：发生意外错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to restore file extension",
+                    "target": "恢复文件扩展名失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to change file extension",
+                    "target": "更改文件扩展名失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a file first",
+                    "target": "请先打开文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Only .md files can be converted to .eccirian",
+                    "target": "仅 .md 文件可转换为 .eccirian"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a decrypted permanently encrypted file first",
+                    "target": "请先打开已解密的永久加密文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A conversion is already in progress. Please wait.",
+                    "target": "转换已在进行中。请稍候。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please wait until decryption is complete.",
+                    "target": "请等待解密完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please decrypt the file first",
+                    "target": "请先解密文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to get current file",
+                    "target": "获取当前文件失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Missing password to restore file",
+                    "target": "缺少恢复文件的密码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid encrypted container",
+                    "target": "加密容器无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This file is already decrypted",
+                    "target": "此文件已解密"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File encrypted",
+                    "target": "文件已加密"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Encryption failed",
+                    "target": "加密失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Decryption failed: Invalid JSON format",
+                    "target": "解密失败：JSON 格式无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Operation failed: Password may be incorrect",
+                    "target": "操作失败：密码可能不正确"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle between .md and .eccirian",
+                    "target": "在 .md 和 .eccirian 之间切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Encrypt/Decrypt file",
+                    "target": "加密/解密文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Encrypt Folder",
+                    "target": "加密文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to Markdown",
+                    "target": "转换为 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Password Hint",
+                    "target": "密码提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Do you want to visit the GitHub repository?",
+                    "target": "是否要访问 GitHub 仓库？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
