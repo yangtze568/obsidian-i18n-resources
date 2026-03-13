@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vextab",
+        "version": "1.0.0",
+        "title": "Vextab",
+        "description": "Vextab Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning: ",
+                    "target": "警告："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Running VexTab.Div:",
+                    "target": "正在运行 VexTab.Div："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Includes \"tabstave\" in each quicktab block by default. You can always include this manually if this option is turned off.",
+                    "target": "默认在每个 quicktab 块中包含 \"tabstave\"。如果关闭此选项，你也可以随时手动添加。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Includes \"notation=true\" in each quicktab block by default. You can always include this manually if this option is turned off.",
+                    "target": "默认在每个 quicktab 块中包含 \"notation=true\"。如果关闭此选项，你也可以随时手动添加。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include tabstave",
+                    "target": "包含 tabstave"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include notation",
+                    "target": "包含 notation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vextab Settings",
+                    "target": "Vextab 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reload the current note for these changes to take effect",
+                    "target": "重新加载当前笔记以使这些更改生效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General Settings",
+                    "target": "常规设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quicktab Settings",
+                    "target": "Quicktab 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
