@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lexicon-dictionary",
+        "version": "1.0.0",
+        "title": "Dictionary Lexicon",
+        "description": "Dictionary Lexicon Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize dictionary service:",
+                    "target": "初始化词典服务失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where the vocabulary file will be stored",
+                    "target": "存储词汇文件的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Markdown file to store saved words",
+                    "target": "用于保存单词的 Markdown 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show periodic flashcards with saved vocabulary",
+                    "target": "定期显示已保存词汇的闪卡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often to show a flashcard when enabled",
+                    "target": "启用后显示闪卡的频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vocabulary folder path",
+                    "target": "词汇文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vocabulary file name",
+                    "target": "词汇文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable flashcard popups",
+                    "target": "启用闪卡弹窗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Flashcard interval (minutes)",
+                    "target": "闪卡间隔（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type a word to look up in lexicon",
+                    "target": "输入要在词典中查找的单词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Look up selection",
+                    "target": "查找所选内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add selection to vocabulary",
+                    "target": "将所选内容添加到词汇表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You do not have an internet connection, and the Lexicon dictionary cannot be downloaded. Please restore your internet connection and restart Obsidian",
+                    "target": "您没有网络连接，Lexicon 词典无法下载。请恢复网络连接并重启 Obsidian"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Lexicon dictionary is being downloaded, this may take a few minutes. This message will disappear when the process is complete.",
+                    "target": "Lexicon 词典正在下载，可能需要几分钟。完成后此消息将消失。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The Lexicon dictionary file is not currently available for download. Please try again later.",
+                    "target": "Lexicon 词典文件目前无法下载。请稍后再试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dictionary is still loading. Please try again in a moment.",
+                    "target": "词典仍在加载中。请稍后再试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Look up a word",
+                    "target": "查找单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add selection to vocabulary",
+                    "target": "将所选内容添加到词汇表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open vocabulary flashcard",
+                    "target": "打开词汇闪卡"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
