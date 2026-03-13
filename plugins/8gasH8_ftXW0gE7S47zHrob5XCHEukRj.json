@@ -1,0 +1,2977 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "yandex-wiki-integration",
+        "version": "1.0.0",
+        "title": "Yandex Wiki Integration",
+        "description": "Yandex Wiki Integration Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't call %s on a component that is not yet mounted. This is a no-op, but it might indicate a bug in your application. Instead, assign to `this.state` directly or define a `state = {};` class property with the desired state in the %s component.",
+                    "target": "无法在尚未挂载的组件上调用 %s。这不会产生任何操作，但可能表示你的应用中存在 bug。请改为直接赋值给 `this.state`，或在 %s 组件中定义一个带有所需 state 的 `state = {};` 类属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.",
+                    "target": "在 getComponentNameFromType() 中收到意外对象。这可能是 React 的 bug。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)",
+                    "target": "%s：`key` 不是一个 prop。尝试访问它会返回 `undefined`。如果你需要在子组件中访问相同的值，请将其作为不同的 prop 传递。（https://react.dev/link/special-props）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "lazy: Expected the result of a dynamic import() call. Instead received: %s\n\nYour code should look like: \n  const MyComponent = lazy(() => import('./MyComponent'))\n\nDid you accidentally put curly braces around the import?",
+                    "target": "lazy：期望收到动态 import() 调用的结果，却收到：%s\n\n你的代码应如下所示：\n  const MyComponent = lazy(() => import('./MyComponent'))\n\n你是否不小心在 import 周围加了花括号？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "lazy: Expected the result of a dynamic import() call. Instead received: %s\n\nYour code should look like: \n  const MyComponent = lazy(() => import('./MyComponent'))",
+                    "target": "lazy：期望收到动态 import() 调用的结果，却收到：%s\n\n你的代码应如下所示：\n  const MyComponent = lazy(() => import('./MyComponent'))"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You called act(async () => ...) without await. This could lead to unexpected testing behaviour, interleaving multiple act calls and mixing their scopes. You should - await act(async () => ...);",
+                    "target": "你在没有 await 的情况下调用了 act(async () => ...)。这可能导致意外的测试行为，多个 act 调用交错并混合其作用域。你应该 - await act(async () => ...);"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A component suspended inside an `act` scope, but the `act` call was not awaited. When testing React components that depend on asynchronous data, you must await the result:\n\nawait act(() => ...)",
+                    "target": "在 `act` 作用域内有组件被挂起，但 `act` 调用未被 await。测试依赖异步数据的 React 组件时，必须等待结果：\n\nawait act(() => ...)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef requires a render function but was given %s.",
+                    "target": "forwardRef 需要一个 render 函数，但给的是 %s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef render functions accept exactly two parameters: props and ref. %s",
+                    "target": "forwardRef 的 render 函数只接受两个参数：props 和 ref。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef render functions do not support defaultProps. Did you accidentally pass a React component?",
+                    "target": "forwardRef 的 render 函数不支持 defaultProps。你是否误传了一个 React 组件？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Calling useContext(Context.Consumer) is not supported and will cause bugs. Did you mean to call useContext(Context) instead?",
+                    "target": "不支持调用 useContext(Context.Consumer)，这会导致 bug。你是不是想调用 useContext(Context)？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The provided key is an unsupported type %s. This value must be coerced to a string before using it here.",
+                    "target": "提供的 key 是不受支持的类型 %s。在此使用前必须将该值强制转换为字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React depends on Map and Set built-in types. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills",
+                    "target": "React 依赖内置的 Map 和 Set 类型。请确保在旧版浏览器中加载 polyfill。https://reactjs.org/link/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "flushSync was called from inside a lifecycle method. React cannot flush when React is already rendering. Consider moving this call to a scheduler task or micro task.",
+                    "target": "flushSync 在生命周期方法内部被调用。React 在已经渲染时无法进行 flush。请考虑将此调用移到调度器任务或微任务中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ReactDOM.preconnect(): Expected the `options` argument (second) to be an object but encountered %s instead. The only supported option at this time is `crossOrigin` which accepts a string.",
+                    "target": "ReactDOM.preconnect()：期望 `options` 参数（第二个）为对象，但却遇到 %s。目前仅支持的选项是 `crossOrigin`，其接受一个字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ReactDOM.prefetchDNS(): Expected only one argument, `href`, but encountered %s as a second argument instead. This argument is reserved for future options and is currently disallowed. Try calling ReactDOM.prefetchDNS() with just a single string argument, `href`.",
+                    "target": "ReactDOM.prefetchDNS()：期望只有一个参数 `href`，却遇到 %s 作为第二个参数。该参数为未来选项保留，当前不允许使用。请仅使用一个字符串参数 `href` 调用 ReactDOM.prefetchDNS()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ReactDOM.preinit(): Expected the `options` argument (second) to be an object with an `as` property describing the type of resource to be preinitialized but encountered %s instead.",
+                    "target": "ReactDOM.preinit()：期望 `options` 参数（第二个）为包含 `as` 属性的对象，用于描述要预初始化的资源类型，但却遇到 %s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ReactDOM.preinit(): Expected the `as` property in the `options` argument (second) to contain a valid value describing the type of resource to be preinitialized but encountered %s instead. Valid values for `as` are \"style\" and \"script\".",
+                    "target": "ReactDOM.preinit()：期望 `options` 参数（第二个）中的 `as` 属性包含一个有效值，用于描述要预初始化的资源类型，但却遇到 %s。`as` 的有效值为 \"style\" 和 \"script\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ReactDOM.preinitModule(): Currently the only supported \"as\" type for this function is \"script\" but received \"%s\" instead. This warning was generated for `href` \"%s\". In the future other module types will be supported, aligning with the import-attributes proposal. Learn more here: (https://github.com/tc39/proposal-import-attributes)",
+                    "target": "ReactDOM.preinitModule()：目前此函数仅支持的 \"as\" 类型是 \"script\"，但收到的是 \"%s\"。该警告针对 `href` \"%s\" 生成。未来将支持其他模块类型，以与 import-attributes 提案保持一致。了解更多：(https://github.com/tc39/proposal-import-attributes)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected pop.",
+                    "target": "意外的 pop。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected Fiber popped.",
+                    "target": "意外弹出了 Fiber。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected host context to exist. This error is likely caused by a bug in React. Please file an issue.",
+                    "target": "期望存在 host context。此错误可能由 React 的 bug 引起。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The provided `%s` attribute is an unsupported type %s. This value must be coerced to a string before using it here.",
+                    "target": "提供的 `%s` 属性是不受支持的类型 %s。在此使用前必须将该值强制转换为字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The provided `%s` CSS property is an unsupported type %s. This value must be coerced to a string before using it here.",
+                    "target": "提供的 `%s` CSS 属性是不受支持的类型 %s。在此使用前必须将该值强制转换为字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Form field values (value, checked, defaultValue, or defaultChecked props) must be strings, not %s. This value must be coerced to a string before using it here.",
+                    "target": "表单字段的值（value、checked、defaultValue 或 defaultChecked 属性）必须是字符串，不能是 %s。在此使用前必须将该值强制转换为字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The installed version of React DevTools is too old and will not work with the current version of React. Please update React DevTools. https://react.dev/link/react-devtools",
+                    "target": "已安装的 React DevTools 版本过旧，无法与当前版本的 React 一起使用。请更新 React DevTools。https://react.dev/link/react-devtools"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React instrumentation encountered an error: %s.",
+                    "target": "React 插桩遇到错误：%s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React instrumentation encountered an error: %s",
+                    "target": "React 插桩遇到错误：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Should have found matching lanes. This is a bug in React.",
+                    "target": "应该找到匹配的 lanes。这是 React 的一个 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set `onChange`.",
+                    "target": "你为表单字段提供了 `value` 属性但没有 `onChange` 处理程序。这会渲染为只读字段。如果该字段应可变，请使用 `defaultValue`。否则，请设置 `onChange`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.",
+                    "target": "你为表单字段提供了 `value` 属性但没有 `onChange` 处理程序。这会渲染为只读字段。如果该字段应可变，请使用 `defaultValue`。否则，请设置 `onChange` 或 `readOnly`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You provided a `checked` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultChecked`. Otherwise, set either `onChange` or `readOnly`.",
+                    "target": "你为表单字段提供了 `checked` 属性但没有 `onChange` 处理程序。这会渲染为只读字段。如果该字段应可变，请使用 `defaultChecked`。否则，请设置 `onChange` 或 `readOnly`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid attribute name: `%s`",
+                    "target": "无效的属性名：`%s`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "disabledDepth fell below zero. This is a bug in React. Please file an issue.",
+                    "target": "disabledDepth 低于零。这是 React 的一个 bug。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot infer the option value of complex children. Pass a `value` prop or use a plain string as children to <option>.",
+                    "target": "无法推断复杂子节点的选项值。请传入 `value` 属性或在 <option> 中使用纯字符串作为子节点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Pass a `value` prop if you set dangerouslyInnerHTML so React knows which value should be selected.",
+                    "target": "如果你设置了 dangerouslyInnerHTML，请传入 `value` 属性，以便 React 知道应选择哪个值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.",
+                    "target": "在 <select> 上使用 `defaultValue` 或 `value` 属性，而不要在 <option> 上设置 `selected`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The `%s` prop supplied to <select> must be an array if `multiple` is true.%s",
+                    "target": "当 `multiple` 为 true 时，传给 <select> 的 `%s` 属性必须是数组。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The `%s` prop supplied to <select> must be a scalar value if `multiple` is false.%s",
+                    "target": "当 `multiple` 为 false 时，传给 <select> 的 `%s` 属性必须是标量值。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use the `defaultValue` or `value` props instead of setting children on <textarea>.",
+                    "target": "使用 `defaultValue` 或 `value` 属性，而不要在 <textarea> 上设置子节点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Should not have matched a non HostText fiber to a Text node. This is a bug in React.",
+                    "target": "不应将非 HostText fiber 匹配到 Text 节点。这是 React 的一个 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "In HTML, %s cannot be a child of <%s>.%s\nThis will cause a hydration error.%s",
+                    "target": "在 HTML 中，%s 不能作为 <%s> 的子节点。%s\n这将导致 hydration 错误。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "In HTML, %s cannot be a descendant of <%s>.\nThis will cause a hydration error.%s",
+                    "target": "在 HTML 中，%s 不能作为 <%s> 的后代节点。\n这将导致 hydration 错误。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "<%s> cannot contain a nested %s.\nSee this log for the ancestor stack trace.",
+                    "target": "<%s> 不能包含嵌套的 %s。\n请查看此日志以获取祖先堆栈跟踪。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "In HTML, text nodes cannot be a child of <%s>.\nThis will cause a hydration error.%s",
+                    "target": "在 HTML 中，文本节点不能作为 <%s> 的子节点。\n这将导致 hydration 错误。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.\nThis will cause a hydration error.%s",
+                    "target": "在 HTML 中，空白文本节点不能作为 <%s> 的子节点。请确保源代码每行的标签之间没有多余的空白。\n这将导致 hydration 错误。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported style property %s. Did you mean %s?",
+                    "target": "不支持的样式属性 %s。你是不是想写 %s？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported vendor-prefixed style property %s. Did you mean %s?",
+                    "target": "不支持的厂商前缀样式属性 %s。你是不是想写 %s？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`NaN` is an invalid value for the `%s` css style property.",
+                    "target": "`NaN` 是 `%s` CSS 样式属性的无效值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`Infinity` is an invalid value for the `%s` css style property.",
+                    "target": "`Infinity` 不是 `%s` CSS 样式属性的有效值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid ARIA attribute `%s`. ARIA attributes follow the pattern aria-* and must be lowercase.",
+                    "target": "无效的 ARIA 属性 `%s`。ARIA 属性遵循 aria-* 模式，且必须为小写。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid ARIA attribute `%s`. Did you mean `%s`?",
+                    "target": "无效的 ARIA 属性 `%s`。你是否想写 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown ARIA attribute `%s`. Did you mean `%s`?",
+                    "target": "未知的 ARIA 属性 `%s`。你是否想写 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid aria prop %s on <%s> tag. For details, see https://react.dev/link/invalid-aria-props",
+                    "target": "<%s> 标签上的 aria 属性 %s 无效。详情参见 https://react.dev/link/invalid-aria-props"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid aria props %s on <%s> tag. For details, see https://react.dev/link/invalid-aria-props",
+                    "target": "<%s> 标签上的 aria 属性 %s 无效。详情参见 https://react.dev/link/invalid-aria-props"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React uses onFocus and onBlur instead of onFocusIn and onFocusOut. All React events are normalized to bubble, so onFocusIn and onFocusOut are not needed/supported by React.",
+                    "target": "React 使用 onFocus 和 onBlur 代替 onFocusIn 和 onFocusOut。所有 React 事件都会被规范化为冒泡，因此 onFocusIn 和 onFocusOut 不需要/不被 React 支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid event handler property `%s`. Did you mean `%s`?",
+                    "target": "无效的事件处理程序属性 `%s`。你是否想写 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown event handler property `%s`. It will be ignored.",
+                    "target": "未知的事件处理程序属性 `%s`。它将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid event handler property `%s`. React events use the camelCase naming convention, for example `onClick`.",
+                    "target": "无效的事件处理程序属性 `%s`。React 事件使用 camelCase 命名约定，例如 `onClick`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Directly setting property `innerHTML` is not permitted. For more information, lookup documentation on `dangerouslySetInnerHTML`.",
+                    "target": "不允许直接设置属性 `innerHTML`。更多信息请查阅 `dangerouslySetInnerHTML` 的文档。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The `aria` attribute is reserved for future use in React. Pass individual `aria-` attributes instead.",
+                    "target": "`aria` 属性被保留供 React 未来使用。请改为传递单独的 `aria-` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Received a `%s` for a string attribute `is`. If this is expected, cast the value to a string.",
+                    "target": "字符串属性 `is` 收到了 `%s`。如果这是预期的，请将该值转换为字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Received NaN for the `%s` attribute. If this is expected, cast the value to a string.",
+                    "target": "属性 `%s` 收到了 NaN。 如果这是预期的，请将该值转换为字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid DOM property `%s`. Did you mean `%s`?",
+                    "target": "无效的 DOM 属性 `%s`。你是否想写 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s=\"%s\" or %s={value.toString()}.",
+                    "target": "非布尔属性 `%s` 收到了 `%s`。\n\n如果你想将其写入 DOM，请改传字符串：%s=\"%s\" 或 %s={value.toString()}。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s=\"%s\" or %s={value.toString()}.\n\nIf you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.",
+                    "target": "非布尔属性 `%s` 收到了 `%s`。\n\n如果你想将其写入 DOM，请改传字符串：%s=\"%s\" 或 %s={value.toString()}。\n\n如果你以前用 %s={condition && value} 来有条件省略它，请改用 %s={condition ? value : undefined}。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Received the string `%s` for the boolean attribute `%s`. %s Did you mean %s={%s}?",
+                    "target": "布尔属性 `%s` 收到了字符串 `%s`。%s 你是否想写 %s={%s}？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Maximum update depth exceeded. This can happen when a component calls setState inside useEffect, but useEffect either doesn't have a dependency array, or one of the dependencies changes on every render.",
+                    "target": "超过最大更新深度。当组件在 useEffect 中调用 setState，且 useEffect 没有依赖数组，或某个依赖在每次渲染时都会变化时，会发生这种情况。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Profiler must specify an \"id\" of type `string` as a prop. Received the type `%s` instead.",
+                    "target": "Profiler 必须指定类型为 `string` 的 \"id\" 作为 prop。却收到了类型 `%s`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected to be hydrating. This is a bug in React. Please file an issue.",
+                    "target": "预期处于 hydration 过程中。这是 React 的一个 bug。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s",
+                    "target": "一个树完成了 hydration，但服务端渲染的 HTML 的某些属性与客户端属性不匹配。这不会被修补。出现这种情况可能是因为某个 SSR 的客户端组件使用了：\n\n- 服务端/客户端分支 `if (typeof window !== 'undefined')`。\n- 每次调用都会变化的可变输入，如 `Date.now()` 或 `Math.random()`。\n- 与服务端不匹配的用户本地日期格式化。\n- 外部变化的数据，但未随 HTML 发送其快照。\n- 无效的 HTML 标签嵌套。\n\n如果客户端安装了在 React 加载前篡改 HTML 的浏览器扩展，也可能发生这种情况。\n\n%s%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Detected multiple renderers concurrently rendering the same context provider. This is currently unsupported.",
+                    "target": "检测到多个渲染器同时渲染同一个 context provider。目前不支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected to find the propagation root when scheduling context work. This error is likely caused by a bug in React. Please file an issue.",
+                    "target": "在调度 context 工作时应找到传播根。这一错误很可能由 React 的 bug 导致。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.",
+                    "target": "一个组件被未缓存的 promise 挂起。在客户端组件或 hook 内创建 promise 目前尚不支持，除非通过与 Suspense 兼容的库或框架。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An update (setState, replaceState, or forceUpdate) was scheduled from inside an update function. Update functions should be pure, with zero side-effects. Consider using componentDidUpdate or a callback.\n\nPlease update the following component: %s",
+                    "target": "从更新函数内部安排了更新（setState、replaceState 或 forceUpdate）。更新函数应当是纯函数，不产生副作用。请考虑使用 componentDidUpdate 或回调。\n\n请更新以下组件：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks\n\n   Previous render            Next render\n   ------------------------------------------------------\n%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+                    "target": "React 检测到 %s 调用 Hooks 的顺序发生了变化。如果不修复，将导致 bug 和错误。更多信息请阅读 Hooks 规则：https://react.dev/link/rules-of-hooks\n\n   上一次渲染            下一次渲染\n   ------------------------------------------------------\n%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s received a final argument that is not an array (instead, received `%s`). When specified, the final argument must be an array.",
+                    "target": "%s 收到了一个不是数组的最后参数（实际收到 `%s`）。指定时，最后一个参数必须是数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ReactDOM.useFormState has been renamed to React.useActionState. Please update %s to use React.useActionState.",
+                    "target": "ReactDOM.useFormState 已更名为 React.useActionState。请更新 %s 以使用 React.useActionState。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s received a final argument during this render, but not during the previous render. Even though the final argument is optional, its type cannot change between renders.",
+                    "target": "%s 在本次渲染中收到了最后一个参数，但在上一次渲染中没有。即使最后一个参数是可选的，它的类型也不能在渲染之间改变。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s is an async Client Component. Only Server Components can be async at the moment. This error is often caused by accidentally adding `'use client'` to a module that was originally written for the server.",
+                    "target": "%s 是一个异步的客户端组件。目前只有服务器组件可以是异步的。此错误通常是因为误将 `'use client'` 添加到原本为服务器编写的模块中导致的。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Internal React error: Expected static flag was missing. Please notify the React team.",
+                    "target": "React 内部错误：缺少预期的 static 标志。请通知 React 团队。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`use` was called from inside a try/catch block. This is not allowed and can lead to unexpected behavior. To handle errors triggered by `use`, wrap your component in a error boundary.",
+                    "target": "`use` 在 try/catch 块内被调用。这是不允许的，可能导致意外行为。要处理由 `use` 触发的错误，请将组件包裹在错误边界中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Internal error: Expected work-in-progress queue to be a clone. This is a bug in React.",
+                    "target": "内部错误：期望 work-in-progress 队列为克隆。这是 React 的一个 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The result of getServerSnapshot should be cached to avoid an infinite loop",
+                    "target": "getServerSnapshot 的结果应进行缓存以避免无限循环"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The result of getSnapshot should be cached to avoid an infinite loop",
+                    "target": "getSnapshot 的结果应进行缓存以避免无限循环"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An async function with useActionState was called outside of a transition. This is likely not what you intended (for example, isPending will not update correctly). Either call the returned function inside startTransition, or pass it to an `action` or `formAction` prop.",
+                    "target": "带有 useActionState 的异步函数在 transition 之外被调用。这很可能不是你的本意（例如，isPending 将无法正确更新）。要么在 startTransition 内调用返回的函数，要么将其传给 `action` 或 `formAction` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected useImperativeHandle() first argument to either be a ref callback or React.createRef() object. Instead received: %s.",
+                    "target": "期望 useImperativeHandle() 的第一个参数是 ref 回调或 React.createRef() 对象。实际收到：%s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected useImperativeHandle() second argument to be a function that creates a handle. Instead received: %s.",
+                    "target": "期望 useImperativeHandle() 的第二个参数是创建 handle 的函数。实际收到：%s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "requestFormReset was called outside a transition or action. To fix, move to an action, or wrap with startTransition.",
+                    "target": "requestFormReset 在 transition 或 action 之外被调用。要修复，请移到 action 中，或用 startTransition 包裹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The seed argument is not enabled outside experimental channels.",
+                    "target": "seed 参数在非实验渠道中未启用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "State updates from the useState() and useReducer() Hooks don't support the second callback argument. To execute a side effect after rendering, declare it in the component body with useEffect().",
+                    "target": "来自 useState() 和 useReducer() Hooks 的状态更新不支持第二个回调参数。要在渲染后执行副作用，请在组件体内使用 useEffect() 声明。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An optimistic state update occurred outside a transition or action. To fix, move the update to an action, or wrap with startTransition.",
+                    "target": "乐观状态更新发生在 transition 或 action 之外。要修复，请将更新移到 action 中，或用 startTransition 包裹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot call startTransition while rendering.",
+                    "target": "渲染过程中无法调用 startTransition。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.",
+                    "target": "向 `React.Fragment` 传入了无效的属性 `%s`。React.Fragment 只能有 `key` 和 `children` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.\n  root.render(%s)",
+                    "target": "函数不能作为 React 子元素。这可能发生在你在 render 中返回 %s 而不是 <%s /> 时。或者你可能想要调用这个函数而不是返回它。\n  root.render(%s)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.\n  <%s>{%s}</%s>",
+                    "target": "函数不能作为 React 子元素。这可能发生在你在 render 中返回 %s 而不是 <%s /> 时。或者你可能想要调用这个函数而不是返回它。\n  <%s>{%s}</%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Symbols are not valid as a React child.\n  root.render(%s)",
+                    "target": "Symbol 不能作为 React 子元素。\n  root.render(%s)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Symbols are not valid as a React child.\n  <%s>%s</%s>",
+                    "target": "Symbol 不能作为 React 子元素。\n  <%s>%s</%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.",
+                    "target": "遇到了两个具有相同 key 的子元素：`%s`。key 应该是唯一的，以便组件在更新之间保持其身份。非唯一的 key 可能导致子元素被重复和/或遗漏——这种行为不受支持，且可能在未来版本中更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected the last optional `callback` argument to be a function. Instead received: %s.",
+                    "target": "预期最后一个可选的 `callback` 参数为函数，但收到的是：%s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.getDerivedStateFromProps(): A valid state object (or null) must be returned. You have returned undefined.",
+                    "target": "%s.getDerivedStateFromProps(): 必须返回一个有效的 state 对象（或 null）。你返回了 undefined。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.shouldComponentUpdate(): Returned undefined instead of a boolean value. Make sure to return true or false.",
+                    "target": "%s.shouldComponentUpdate(): 返回了 undefined 而不是布尔值。请确保返回 true 或 false。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.componentWillReceiveProps(): Assigning directly to this.state is deprecated (except inside a component's constructor). Use setState instead.",
+                    "target": "%s.componentWillReceiveProps(): 直接给 this.state 赋值已弃用（组件构造函数内除外）。请改用 setState。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%o\n\n%s\n\n%s\n",
+                    "target": "%o\n\n%s\n\n%s\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The <%s /> component appears to have a render method, but doesn't extend React.Component. This is likely to cause errors. Change %s to extend React.Component instead.",
+                    "target": "<%s /> 组件似乎有 render 方法，但没有继承 React.Component。这可能会导致错误。请将 %s 改为继承 React.Component。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s defines an invalid contextType. contextType should point to the Context object returned by React.createContext().%s",
+                    "target": "%s 定义了无效的 contextType。contextType 应指向 React.createContext() 返回的 Context 对象。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`%s` uses `getDerivedStateFromProps` but its initial state is %s. This is not recommended. Instead, define the initial state by assigning an object to `this.state` in the constructor of `%s`. This ensures that `getDerivedStateFromProps` arguments have a consistent shape.",
+                    "target": "`%s` 使用了 `getDerivedStateFromProps`，但其初始 state 为 %s。不建议这样做。请在 `%s` 的构造函数中给 `this.state` 赋一个对象以定义初始 state。这可确保 `getDerivedStateFromProps` 参数的结构一致。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No `render` method found on the %s instance: did you accidentally return an object from the constructor?",
+                    "target": "在 %s 实例上未找到 `render` 方法：你是否在构造函数中意外返回了一个对象？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No `render` method found on the %s instance: you may have forgotten to define `render`.",
+                    "target": "在 %s 实例上未找到 `render` 方法：你可能忘了定义 `render`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "getInitialState was defined on %s, a plain JavaScript class. This is only supported for classes created using React.createClass. Did you mean to define a state property instead?",
+                    "target": "getInitialState 定义在 %s 上，它是一个普通的 JavaScript 类。这仅支持通过 React.createClass 创建的类。你是否想改为定义 state 属性？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "getDefaultProps was defined on %s, a plain JavaScript class. This is only supported for classes created using React.createClass. Use a static property to define defaultProps instead.",
+                    "target": "getDefaultProps 定义在 %s 上，它是一个普通的 JavaScript 类。这仅支持通过 React.createClass 创建的类。请改用静态属性来定义 defaultProps。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "contextType was defined as an instance property on %s. Use a static property to define contextType instead.",
+                    "target": "contextType 被定义为 %s 的实例属性。请改用静态属性来定义 contextType。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s has a method called componentShouldUpdate(). Did you mean shouldComponentUpdate()? The name is phrased as a question because the function is expected to return a value.",
+                    "target": "%s 有一个名为 componentShouldUpdate() 的方法。你是否想写 shouldComponentUpdate()？该名称以疑问形式命名，因为该函数应返回一个值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s has a method called shouldComponentUpdate(). shouldComponentUpdate should not be used when extending React.PureComponent. Please extend React.Component if shouldComponentUpdate is used.",
+                    "target": "%s 有一个名为 shouldComponentUpdate() 的方法。扩展 React.PureComponent 时不应使用 shouldComponentUpdate。若使用 shouldComponentUpdate，请改为继承 React.Component。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s has a method called componentDidUnmount(). But there is no such lifecycle method. Did you mean componentWillUnmount()?",
+                    "target": "%s 有一个名为 componentDidUnmount() 的方法。但并不存在该生命周期方法。你是否想写 componentWillUnmount()？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s has a method called componentDidReceiveProps(). But there is no such lifecycle method. If you meant to update the state in response to changing props, use componentWillReceiveProps(). If you meant to fetch data or run side-effects or mutations after React has updated the UI, use componentDidUpdate().",
+                    "target": "%s 有一个名为 componentDidReceiveProps() 的方法。但并不存在该生命周期方法。如果你想在 props 变化时更新 state，请使用 componentWillReceiveProps()。如果你想在 React 更新 UI 后获取数据或执行副作用或变更，请使用 componentDidUpdate()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s has a method called componentWillRecieveProps(). Did you mean componentWillReceiveProps()?",
+                    "target": "%s 有一个名为 componentWillRecieveProps() 的方法。你是否想写 componentWillReceiveProps()？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s has a method called UNSAFE_componentWillRecieveProps(). Did you mean UNSAFE_componentWillReceiveProps()?",
+                    "target": "%s 有一个名为 UNSAFE_componentWillRecieveProps() 的方法。你是否想写 UNSAFE_componentWillReceiveProps()？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "When calling super() in `%s`, make sure to pass up the same props that your component's constructor was passed.",
+                    "target": "在 `%s` 中调用 super() 时，请确保传入与你的组件构造函数收到的相同 props。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Setting defaultProps as an instance property on %s is not supported and will be ignored. Instead, define defaultProps as a static property on %s.",
+                    "target": "将 defaultProps 作为 %s 的实例属性设置不受支持并会被忽略。请改为在 %s 上将 defaultProps 定义为静态属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: getSnapshotBeforeUpdate() should be used with componentDidUpdate(). This component defines getSnapshotBeforeUpdate() only.",
+                    "target": "%s：getSnapshotBeforeUpdate() 应与 componentDidUpdate() 一起使用。该组件只定义了 getSnapshotBeforeUpdate()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: getDerivedStateFromProps() is defined as an instance method and will be ignored. Instead, declare it as a static method.",
+                    "target": "%s：getDerivedStateFromProps() 被定义为实例方法，将被忽略。请改为声明为静态方法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: getDerivedStateFromError() is defined as an instance method and will be ignored. Instead, declare it as a static method.",
+                    "target": "%s：getDerivedStateFromError() 被定义为实例方法，将被忽略。请改为声明为静态方法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: getSnapshotBeforeUpdate() is defined as a static method and will be ignored. Instead, declare it as an instance method.",
+                    "target": "%s：getSnapshotBeforeUpdate() 被定义为静态方法，将被忽略。请改为声明为实例方法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.state: must be set to an object or null",
+                    "target": "%s.state：必须设置为一个对象或 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.getChildContext(): childContextTypes must be defined in order to use getChildContext().",
+                    "target": "%s.getChildContext()：必须定义 childContextTypes 才能使用 getChildContext()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: It is not recommended to assign props directly to state because updates to props won't be reflected in state. In most cases, it is better to use props directly.",
+                    "target": "%s：不建议直接把 props 赋给 state，因为对 props 的更新不会反映到 state 中。多数情况下，直接使用 props 更好。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.componentWillMount(): Assigning directly to this.state is deprecated (except inside a component's constructor). Use setState instead.",
+                    "target": "%s.componentWillMount()：直接赋值给 this.state 已被弃用（组件构造函数内除外）。请改用 setState。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "It looks like %s is reassigning its own `this.props` while rendering. This is not supported and can lead to confusing bugs.",
+                    "target": "看起来 %s 在渲染时重新赋值了自己的 `this.props`。这不受支持，可能导致令人困惑的 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "childContextTypes cannot be defined on a function component.\n  %s.childContextTypes = ...",
+                    "target": "函数组件上不能定义 childContextTypes。\n  %s.childContextTypes = ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: Function components do not support getDerivedStateFromProps.",
+                    "target": "%s：函数组件不支持 getDerivedStateFromProps。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: Function components do not support contextType.",
+                    "target": "%s：函数组件不支持 contextType。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "We should not be hydrating here. This is a bug in React. Please file a bug.",
+                    "target": "这里不应该进行 hydration。这是 React 的一个 bug。请提交一个 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A nested %s was passed to row #%s in <SuspenseList />. Wrap it in an additional SuspenseList to configure its revealOrder: <SuspenseList revealOrder=...> ... <SuspenseList revealOrder=...>{%s}</SuspenseList> ... </SuspenseList>",
+                    "target": "在 <SuspenseList /> 的第 #%s 行传入了一个嵌套的 %s。请用额外的 SuspenseList 包裹它以配置其 revealOrder：<SuspenseList revealOrder=...> ... <SuspenseList revealOrder=...>{%s}</SuspenseList> ... </SuspenseList>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\"%s\" is not a valid value for revealOrder on <SuspenseList />. Use lowercase \"%s\" instead.",
+                    "target": "“%s” 不是 <SuspenseList /> 上 revealOrder 的有效值。请改用小写的 “%s”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\"%s\" is not a valid value for revealOrder on <SuspenseList />. React uses the -s suffix in the spelling. Use \"%ss\" instead.",
+                    "target": "“%s” 不是 <SuspenseList /> 上 revealOrder 的有效值。React 的拼写使用 -s 后缀。请改用 “%ss”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\"%s\" is not a supported revealOrder on <SuspenseList />. Did you mean \"together\", \"forwards\" or \"backwards\"?",
+                    "target": "“%s” 不是 <SuspenseList /> 上受支持的 revealOrder。你是想用 “together”、“forwards” 还是 “backwards”？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s is not a supported value for revealOrder on <SuspenseList />. Did you mean \"together\", \"forwards\" or \"backwards\"?",
+                    "target": "%s 不是 <SuspenseList /> 上 revealOrder 的受支持值。你是想用 “together”、“forwards” 还是 “backwards”？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\"%s\" is not a supported value for tail on <SuspenseList />. Did you mean \"collapsed\" or \"hidden\"?",
+                    "target": "“%s” 不是 <SuspenseList /> 上 tail 的受支持值。你是想用 “collapsed” 还是 “hidden”？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "<SuspenseList tail=\"%s\" /> is only valid if revealOrder is \"forwards\" or \"backwards\". Did you mean to specify revealOrder=\"forwards\"?",
+                    "target": "只有当 revealOrder 为 “forwards” 或 “backwards” 时，<SuspenseList tail=\"%s\" /> 才有效。你是想指定 revealOrder=\"forwards\" 吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A single row was passed to a <SuspenseList revealOrder=\"%s\" />. This is not useful since it needs multiple rows. Did you mean to pass multiple children or an array?",
+                    "target": "向 <SuspenseList revealOrder=\"%s\" /> 传入了单行内容。这没有意义，因为它需要多行。你是想传入多个子元素或一个数组吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The `value` prop is required for the `<Context.Provider>`. Did you misspell it or forget to pass it?",
+                    "target": "`<Context.Provider>` 需要 `value` prop。你是不是拼写错了或忘了传入？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A context consumer was rendered with multiple children, or a child that isn't a function. A context consumer expects a single child that is a function. If you did pass a function, make sure there is no trailing or leading whitespace around it.",
+                    "target": "一个 context consumer 被渲染为多个子元素，或子元素不是函数。context consumer 期望只有一个且为函数的子元素。如果你确实传入了函数，请确保其前后没有多余空白。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.",
+                    "target": "此浏览器无法识别标签 <%s>。如果你想渲染 React 组件，请以大写字母开头命名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s must not return anything besides a function, which is used for clean-up.%s",
+                    "target": "%s 除了用于清理的函数之外，不应返回任何内容。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.getSnapshotBeforeUpdate(): A snapshot value (or null) must be returned. You have returned undefined.",
+                    "target": "%s.getSnapshotBeforeUpdate()：必须返回一个快照值（或 null）。你返回了 undefined。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "String refs are no longer supported.",
+                    "target": "不再支持字符串 ref。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected ref object provided for %s. Use either a ref-setter function or React.createRef().",
+                    "target": "为 %s 提供了意外的 ref 对象。请使用 ref 设置函数或 React.createRef()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected host component type. Expected a form. This is a bug in React.",
+                    "target": "意外的宿主组件类型。期望的是 form。这是 React 的一个 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The current testing environment is not configured to support act(...)",
+                    "target": "当前测试环境未配置为支持 act(...)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "useInsertionEffect must not schedule updates.",
+                    "target": "useInsertionEffect 不能安排更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render",
+                    "target": "在渲染另一个组件（`%s`）时无法更新组件（`%s`）。要定位 `%s` 内部的错误 setState() 调用，请按 https://react.dev/link/setstate-in-render 所述跟踪调用栈。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot update during an existing state transition (such as within `render`). Render methods should be a pure function of props and state.",
+                    "target": "在已有的状态转换期间（例如在 `render` 中）无法更新。Render 方法应当是 props 和 state 的纯函数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected type of fiber triggered a suspensey commit. This is a bug in React.",
+                    "target": "意外的 fiber 类型触发了 suspensey 提交。这是 React 的一个 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You are accessing \"digest\" from the errorInfo object passed to onRecoverableError. This property is no longer provided as part of errorInfo but can be accessed as a property of the Error instance itself.",
+                    "target": "你正在从传递给 onRecoverableError 的 errorInfo 对象中访问 \"digest\"。该属性不再作为 errorInfo 的一部分提供，但可以作为 Error 实例自身的属性访问。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A suspended resource finished loading inside a test, but the event was not wrapped in act(...).\n\nWhen testing, code that resolves suspended data should be wrapped into act(...):\n\nact(() => {\n  /* finish loading suspended data */\n});\n/* assert on the output */\n\nThis ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act",
+                    "target": "测试中一个被挂起的资源完成加载，但该事件未被包裹在 act(...) 中。\n\n测试时，解析被挂起数据的代码应包裹在 act(...) 中：\n\nact(() => {\n  /* 完成加载被挂起的数据 */\n});\n/* 断言输出 */\n\n这可确保你测试的是用户在浏览器中会看到的行为。了解更多：https://react.dev/link/wrap-tests-with-act"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously later calls tries to update the component. Move this work to useEffect instead.",
+                    "target": "无法在尚未挂载的组件上执行 React 状态更新。这表明你在 render 函数中有一个副作用，稍后异步调用尝试更新该组件。请将这项工作移到 useEffect 中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An update to %s inside a test was not wrapped in act(...).\n\nWhen testing, code that causes React state updates should be wrapped into act(...):\n\nact(() => {\n  /* fire events that update state */\n});\n/* assert on the output */\n\nThis ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act",
+                    "target": "测试中对 %s 的更新未被包裹在 act(...) 中。\n\n测试时，会触发 React 状态更新的代码应包裹在 act(...) 中：\n\nact(() => {\n  /* 触发更新状态的事件 */\n});\n/* 断言输出 */\n\n这可确保你测试的是用户在浏览器中会看到的行为。了解更多：https://react.dev/link/wrap-tests-with-act"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Did not expect a listenToNonDelegatedEvent() call for \"%s\". This is a bug in React. Please file an issue.",
+                    "target": "未预期对 \"%s\" 调用 listenToNonDelegatedEvent()。这是 React 的一个 bug。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Did not expect a listenToNativeEvent() call for \"%s\" in the bubble phase. This is a bug in React. Please file an issue.",
+                    "target": "未预期在冒泡阶段对 \"%s\" 调用 listenToNativeEvent()。这是 React 的一个 bug。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A component is `contentEditable` and contains `children` managed by React. It is now your responsibility to guarantee that none of those nodes are unexpectedly modified or duplicated. This is probably not intentional.",
+                    "target": "一个组件是 `contentEditable`，并包含由 React 管理的 `children`。现在你有责任确保这些节点不会被意外修改或复制。这可能不是有意为之。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected `%s` listener to be a function, instead got `false`.\n\nIf you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.",
+                    "target": "期望 `%s` 监听器是一个函数，但实际得到 `false`。\n\n如果你以前通过 %s={condition && value} 有条件地省略它，请改为传入 %s={condition ? value : undefined}。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected `%s` listener to be a function, instead got a value of `%s` type.",
+                    "target": "期望 `%s` 监听器是一个函数，但实际得到的是 `%s` 类型的值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The provided HTML markup uses a value of unsupported type %s. This value must be coerced to a string before using it here.",
+                    "target": "提供的 HTML 标记使用了不受支持的 %s 类型值。在此使用之前必须将该值强制转换为字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You can only pass the formAction prop to <input> or <button>. Use the action prop on <form>.",
+                    "target": "只能将 formAction 属性传递给 <input> 或 <button>。在 <form> 上使用 action 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot specify a encType or method for a form that specifies a function as the action. React provides those automatically. They will get overridden.",
+                    "target": "对于将函数作为 action 的表单，不能指定 encType 或 method。React 会自动提供它们，并将被覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot specify a target for a form that specifies a function as the action. The function will always be executed in the same window.",
+                    "target": "对于将函数作为 action 的表单，不能指定 target。该函数始终会在同一窗口中执行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You can only pass the action prop to <form>. Use the formAction prop on <input> or <button>.",
+                    "target": "只能将 action 属性传递给 <form>。在 <input> 或 <button> 上使用 formAction 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot specify a \"name\" prop for a button that specifies a function as a formAction. React needs it to encode which action should be invoked. It will get overridden.",
+                    "target": "对于将函数作为 formAction 的按钮，不能指定 \"name\" 属性。React 需要它来编码应调用的操作。它将被覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot specify a formEncType or formMethod for a button that specifies a function as a formAction. React provides those automatically. They will get overridden.",
+                    "target": "对于将函数作为 formAction 的按钮，不能指定 formEncType 或 formMethod。React 会自动提供它们，并将被覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot specify a formTarget for a button that specifies a function as a formAction. The function will always be executed in the same window.",
+                    "target": "对于将函数作为 formAction 的按钮，不能指定 formTarget。该函数始终会在同一窗口中执行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A button can only specify a formAction along with type=\"submit\" or no type.",
+                    "target": "按钮只能在 type=\"submit\" 或未指定 type 时指定 formAction。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An input can only specify a formAction along with type=\"submit\" or type=\"image\".",
+                    "target": "input 只能在 type=\"submit\" 或 type=\"image\" 时指定 formAction。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You can only pass the action prop to <form>.",
+                    "target": "只能将 action 属性传递给 <form>。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You can only pass the formAction prop to <input> or <button>.",
+                    "target": "你只能将 formAction 属性传递给 <input> 或 <button>。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot update the \"is\" prop after it has been initialized.",
+                    "target": "初始化后无法更新 \"is\" 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Assignment to read-only property will result in a no-op: `%s`",
+                    "target": "对只读属性赋值将不会产生任何效果：`%s`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You are mounting a new %s component when a previous one has not first unmounted. It is an error to render more than one %s component at a time and attributes and children of these components will likely fail in unpredictable ways. Please only render a single instance of <%s> and if you need to mount a new one, ensure any previous ones have unmounted first.",
+                    "target": "在前一个 %s 组件尚未卸载时你又挂载了新的 %s 组件。一次渲染多个 %s 组件是错误的，这些组件的属性和子元素很可能以不可预测的方式失效。请只渲染一个 <%s> 实例，如果需要挂载新的，请先确保之前的已卸载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot render a <style> outside the main document without knowing its precedence and a unique href key. React can hoist and deduplicate <style> tags if you provide a `precedence` prop along with an `href` prop that does not conflict with the `href` values used in any other hoisted <style> or <link rel=\"stylesheet\" ...> tags.  Note that hoisting <style> tags is considered an advanced feature that most will not use directly. Consider moving the <style> tag to the <head> or consider adding a `precedence=\"default\"` and `href=\"some unique resource identifier\"`.",
+                    "target": "在不知道其优先级和唯一 href 键的情况下，无法在主文档之外渲染 <style>。如果你提供 `precedence` 属性以及一个与其他已提升的 <style> 或 <link rel=\"stylesheet\" ...> 标签所用 `href` 值不冲突的 `href` 属性，React 就可以提升并去重 <style> 标签。注意，提升 <style> 标签被视为高级功能，大多数人不会直接使用。请考虑将 <style> 标签移到 <head>，或添加 `precedence=\"default\"` 和 `href=\"some unique resource identifier\"`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot render a <link> outside the main document without a `rel` and `href` prop. Try adding a `rel` and/or `href` prop to this <link> or moving the link into the <head> tag",
+                    "target": "在没有 `rel` 和 `href` 属性的情况下，无法在主文档之外渲染 <link>。尝试为此 <link> 添加 `rel` 和/或 `href` 属性，或将该链接移入 <head> 标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot render a <link rel=\"stylesheet\" /> outside the main document without knowing its precedence. Consider adding precedence=\"default\" or moving it into the root <head> tag.",
+                    "target": "在不知道其优先级的情况下，无法在主文档之外渲染 <link rel=\"stylesheet\" />。请考虑添加 precedence=\"default\" 或将其移入根 <head> 标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot render a sync or defer <script> outside the main document without knowing its order. Try adding async=\"\" or moving it into the root <head> tag.",
+                    "target": "在不知道其加载顺序的情况下，无法在主文档之外渲染同步或 defer 的 <script>。尝试添加 async=\"\" 或将其移入根 <head> 标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot render <%s> outside the main document. Try moving it into the root <head> tag.",
+                    "target": "无法在主文档之外渲染 <%s>。请尝试将其移入根 <head> 标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Render methods should be a pure function of props and state; triggering nested component updates from render is not allowed. If necessary, trigger nested updates in componentDidUpdate.\n\nCheck the render method of %s.",
+                    "target": "渲染方法应是 props 和 state 的纯函数；不允许从 render 触发嵌套组件更新。如有需要，请在 componentDidUpdate 中触发嵌套更新。\n\n请检查 %s 的 render 方法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected currently replaying event to be null. This error is likely caused by a bug in React. Please file an issue.",
+                    "target": "期望当前正在重放的事件为 null。此错误很可能由 React 的 bug 引起。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected currently replaying event to not be null. This error is likely caused by a bug in React. Please file an issue.",
+                    "target": "期望当前正在重放的事件不为 null。此错误很可能由 React 的 bug 引起。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You are calling ReactDOMClient.createRoot() on a container that was previously passed to ReactDOM.render(). This is not supported.",
+                    "target": "你在一个之前传给 ReactDOM.render() 的容器上调用了 ReactDOMClient.createRoot()。这不受支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.",
+                    "target": "你在一个已经传给 createRoot() 的容器上再次调用 ReactDOMClient.createRoot()。如果要更新，请在现有 root 上调用 root.render()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Using UNSAFE_componentWillMount in strict mode is not recommended and may indicate bugs in your code. See https://react.dev/link/unsafe-component-lifecycles for details.\n\n* Move code with side effects to componentDidMount, and set initial state in the constructor.\n\nPlease update the following components: %s",
+                    "target": "在严格模式下不推荐使用 UNSAFE_componentWillMount，这可能表明你的代码存在 bug。详情见 https://react.dev/link/unsafe-component-lifecycles。\n\n* 将带副作用的代码移到 componentDidMount，并在构造函数中设置初始 state。\n\n请更新以下组件：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Using UNSAFE_componentWillUpdate in strict mode is not recommended and may indicate bugs in your code. See https://react.dev/link/unsafe-component-lifecycles for details.\n\n* Move data fetching code or side effects to componentDidUpdate.\n\nPlease update the following components: %s",
+                    "target": "在严格模式下不推荐使用 UNSAFE_componentWillUpdate，这可能表明你的代码存在 bug。详情见 https://react.dev/link/unsafe-component-lifecycles。\n\n* 将数据获取代码或副作用移到 componentDidUpdate。\n\n请更新以下组件：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected to find a StrictMode component in a strict mode tree. This error is likely caused by a bug in React. Please file an issue.",
+                    "target": "期望在严格模式树中找到 StrictMode 组件。此错误很可能由 React 的 bug 引起。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Legacy context API has been detected within a strict-mode tree.\n\nThe old API will be supported in all 16.x releases, but applications using it should migrate to the new version.\n\nPlease update the following components: %s\n\nLearn more about this warning here: https://react.dev/link/legacy-context",
+                    "target": "在严格模式树中检测到旧版 context API。\n\n旧 API 会在所有 16.x 版本中受支持，但使用它的应用应迁移到新版本。\n\n请更新以下组件：%s\n\n了解此警告的更多信息：https://react.dev/link/legacy-context"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Internal React error: A listener was unexpectedly attached to a \"noop\" thenable. This is a bug in React. Please file an issue.",
+                    "target": "React 内部错误：一个监听器意外地附加到了 \"noop\" thenable 上。这是 React 的 bug。请提交 issue。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected only SimpleEffects when enableUseEffectCRUDOverload is disabled, got %s",
+                    "target": "在禁用 enableUseEffectCRUDOverload 时，期望仅有 SimpleEffects，但得到了 %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information.",
+                    "target": "列表中的每个子项都应有唯一的 \"key\" 属性。%s%s 更多信息请见 https://react.dev/link/warning-keys。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "does not support the second callback argument. To execute a side effect after rendering, declare it in a component body with useEffect().",
+                    "target": "不支持第二个回调参数。要在渲染后执行副作用，请在组件体中使用 useEffect() 声明。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You passed a container to the second argument of root.render(...). You don't need to pass it again since you already passed it to create the root.",
+                    "target": "你将容器传给了 root.render(...) 的第二个参数。既然已经用它创建了 root，就不需要再次传入。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You passed a second argument to root.render(...) but it only accepts one argument.",
+                    "target": "你向 root.render(...) 传入了第二个参数，但它只接受一个参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "does not support a callback argument. To execute a side effect after rendering, declare it in a component body with useEffect().",
+                    "target": "不支持回调参数。要在渲染后执行副作用，请在组件体中使用 useEffect() 声明。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React depends on Map and Set built-in types. Make sure that you load a polyfill in older browsers. https://react.dev/link/react-polyfills",
+                    "target": "React 依赖 Map 和 Set 内置类型。请确保在旧版浏览器中加载 polyfill。 https://react.dev/link/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Must provide initial children as second argument to hydrateRoot. Example usage: hydrateRoot(domContainer, <App />)",
+                    "target": "必须将初始子节点作为第二个参数传给 hydrateRoot。用法示例：hydrateRoot(domContainer, <App />)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.",
+                    "target": "React.jsx：静态子节点应始终为数组。你可能是在显式调用 React.jsxs 或 React.jsxDEV。请改用 Babel 转换。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />",
+                    "target": "包含“key”属性的 props 对象被展开到 JSX 中：\n  let props = %s;\n  <%s {...props} />\nReact 的 key 必须直接传给 JSX，不能使用展开：\n  let props = %s;\n  <%s key={someKey} {...props} />"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[C to host error: returning null]",
+                    "target": "[C 到宿主错误：返回 null]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[C to host interrupt: returning error]",
+                    "target": "[C 到宿主中断：返回错误]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[C to host module loader error: returning null]",
+                    "target": "[C 到宿主模块加载器错误：返回 null]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "QuickJS: cannot handle error in suspended function",
+                    "target": "QuickJS：无法处理挂起函数中的错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Params:",
+                    "target": "参数："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugins were requested but not running in environment that supports 'require'. Nothing will be loaded",
+                    "target": "请求了插件，但未在支持“require”的环境中运行。不会加载任何内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugin validation succeeded",
+                    "target": "插件验证成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No types map provided; using the default",
+                    "target": "未提供类型映射；使用默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Open files: ",
+                    "target": "打开的文件： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Format host information updated",
+                    "target": "格式化宿主信息已更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Host file extension mappings updated",
+                    "target": "宿主文件扩展名映射已更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "reload projects.",
+                    "target": "重新加载项目。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "After reloading projects..",
+                    "target": "重新加载项目后.."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Before ensureProjectForOpenFiles:",
+                    "target": "ensureProjectForOpenFiles 之前："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "After ensureProjectForOpenFiles:",
+                    "target": "ensureProjectForOpenFiles 之后："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": " =>",
+                    "target": " =>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": " = ",
+                    "target": " = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": "/** @type {Promise<void>} */(",
+                    "target": "/** @type {Promise<void>} */("
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": "export ",
+                    "target": "export "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Deprecated call using send(command, flag) with boolean flag to ignore errors. Use sendIgnoringError(command).",
+                    "target": "已弃用使用带布尔 flag 的 send(command, flag) 调用来忽略错误。请使用 sendIgnoringError(command)。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Trying to find optimal transfer strategy...",
+                    "target": "正在尝试找到最佳传输策略..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Optimal transfer strategy found.",
+                    "target": "已找到最佳传输策略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning: upload() has been deprecated, use uploadFrom().",
+                    "target": "警告：upload() 已弃用，请使用 uploadFrom()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning: append() has been deprecated, use appendFrom().",
+                    "target": "警告：append() 已弃用，请使用 appendFrom()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning: download() has been deprecated, use downloadTo().",
+                    "target": "警告：download() 已弃用，请使用 downloadTo()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning: uploadDir() has been deprecated, use uploadFromDir().",
+                    "target": "警告：uploadDir() 已弃用，请使用 uploadFromDir()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning: downloadDir() has been deprecated, use downloadToDir().",
+                    "target": "警告：downloadDir() 已弃用，请使用 downloadToDir()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Inferred 'react' typings due to presence of '.jsx' extension",
+                    "target": "由于存在“.jsx”扩展名，已推断使用“react”类型定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TypeRoots version has changed; provide new program",
+                    "target": "TypeRoots 版本已更改；请提供新程序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Подтвердить",
+                    "target": "确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Необходимо указать путь до браузера.",
+                    "target": "需要指定浏览器路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Директория, куда будут выгружаться файлы из Obsidian в Yandex Wiki (Нужно указывать Slug)",
+                    "target": "将 Obsidian 文件导出到 Yandex Wiki 的目录（需填写 Slug）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Форматы, которые будут экспортироваться в Yandex Wiki. Форматы указываются без точек, через пробел. Пример: \"md json txt\"",
+                    "target": "将导出到 Yandex Wiki 的格式。格式不带点并用空格分隔。示例：“md json txt”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Файлы из Yandex Wiki можно представлять в виде Markdown, а можно в виде HTML",
+                    "target": "Yandex Wiki 的文件可以以 Markdown 或 HTML 形式显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "При открытии страницы в Yandex Wiki будет отображаться её название сверху",
+                    "target": "在 Yandex Wiki 打开页面时会在顶部显示其标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Сессия в Yandex Wiki будет сохраняться в локальнных файлах",
+                    "target": "Yandex Wiki 会话将保存在本地文件中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Форматы экспорта",
+                    "target": "导出格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Режим отображения",
+                    "target": "显示模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Slug директории экспорта",
+                    "target": "导出目录 Slug"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Путь до браузера",
+                    "target": "浏览器路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Домашняя директория",
+                    "target": "主目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Отображать название страницы",
+                    "target": "显示页面标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Сохранять сесию",
+                    "target": "保存会话"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Введите форматы",
+                    "target": "请输入格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Выберете режим отображения",
+                    "target": "选择显示模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Введите директорию экспорта",
+                    "target": "请输入导出目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Установить как рабочую директорию",
+                    "target": "设为工作目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Экспортировать хранилище сюда",
+                    "target": "将存储导出到此处"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "YWI: \\u042D\\u043A\\u0441\\u043F\\u043E\\u0440\\u0442 \\u0432 Yandex Wiki",
+                    "target": "YWI: \\u5BFC\\u51FA\\u5230 Yandex Wiki"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%s(...) is deprecated in plain JavaScript React classes. %s",
+                    "target": "%s(...) 在普通 JavaScript React 类中已弃用。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform",
+                    "target": "你的应用（或其某个依赖）正在使用过时的 JSX 转换。请更新到现代 JSX 转换以获得更快的性能：https://react.dev/link/new-jsx-transform"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Detected a large number of updates inside startTransition. If this is due to a subscription please re-write it to use React provided hooks. Otherwise concurrent mode guarantees are off the table.",
+                    "target": "在 startTransition 内检测到大量更新。如果这是由于订阅导致的，请重写为使用 React 提供的 Hook。否则并发模式的保证将不再适用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "React Hook useEffect requires an effect callback. Did you forget to pass a callback to the hook?",
+                    "target": "React Hook useEffect 需要一个 effect 回调。你是否忘记向该 Hook 传递回调？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "React Hook useInsertionEffect requires an effect callback. Did you forget to pass a callback to the hook?",
+                    "target": "React Hook useInsertionEffect 需要一个 effect 回调。你是否忘记向该 Hook 传递回调？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "React Hook useLayoutEffect requires an effect callback. Did you forget to pass a callback to the hook?",
+                    "target": "React Hook useLayoutEffect 需要一个 effect 回调。你是否忘记向该 Hook 传递回调？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "copyWithRename() expects paths of the same length",
+                    "target": "copyWithRename() 需要路径长度相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "copyWithRename() expects paths to be the same except for the deepest key",
+                    "target": "copyWithRename() 要求路径除最深层键外都相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A cache instance was retained after it was already freed. This likely indicates a bug in React.",
+                    "target": "缓存实例在已释放后仍被保留。这可能表明 React 存在 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A cache instance was released after it was already freed. This likely indicates a bug in React.",
+                    "target": "缓存实例在已释放后又被释放。这可能表明 React 存在 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%s\n\n%s\n",
+                    "target": "%s\n\n%s\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Consider adding an error boundary to your tree to customize error handling behavior.\nVisit https://react.dev/link/error-boundaries to learn more about error boundaries.",
+                    "target": "请考虑在组件树中添加错误边界以自定义错误处理行为。\n访问 https://react.dev/link/error-boundaries 了解更多关于错误边界的信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hydrate through createRoot is deprecated. Use ReactDOMClient.hydrateRoot(container, <App />) instead.",
+                    "target": "通过 createRoot 进行 hydrate 已弃用。请改用 ReactDOMClient.hydrateRoot(container, <App />)。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u0424\\u0430\\u0439\\u043B 'data.json' \\u043F\\u043E\\u0432\\u0440\\u0435\\u0436\\u0434\\u0451\\u043D \\u0438 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0432\\u043E\\u0441\\u0441\\u0442\\u0430\\u043D\\u043E\\u0432\\u043B\\u0435\\u043D \\u0434\\u043E \\u0441\\u0442\\u0430\\u043D\\u0434\\u0430\\u0440\\u0442\\u043D\\u044B\\u0445 \\u0437\\u043D\\u0430\\u0447\\u0435\\u043D\\u0438\\u0439.",
+                    "target": "\\u6587\\u4EF6 'data.json' \\u5DF2\\u635F\\u574F\\uFF0C\\u5C06\\u6062\\u590D\\u4E3A\\u9ED8\\u8BA4\\u503C\\u3002"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u0412\\u0438\\u0434\\u0438\\u043C\\u043E, \\u0432\\u044B \\u0437\\u0430\\u043F\\u0443\\u0441\\u0442\\u0438\\u043B\\u0438 'Yandex Wiki Integration' \\u0432 \\u043F\\u0435\\u0440\\u0432\\u044B\\u0439 \\u0440\\u0430\\u0437.\n\n\\u0421\\u043F\\u0430\\u0441\\u0438\\u0431\\u043E \\u0437\\u0430 \\u0443\\u0441\\u0442\\u0430\\u043D\\u043E\\u0432\\u043A\\u0443 \\u043F\\u043B\\u0430\\u0433\\u0438\\u043D\\u0430!!!\n\n\\u0414\\u043B\\u044F \\u0434\\u0435\\u0442\\u0430\\u043B\\u044C\\u043D\\u043E\\u0439 \\u0438\\u043D\\u0444\\u043E\\u0440\\u043C\\u0430\\u0446\\u0438\\u0438, \\u043E\\u0437\\u043D\\u0430\\u043A\\u043E\\u043C\\u0442\\u0435\\u0441\\u044C \\u0441 \\u0438\\u043D\\u0441\\u0442\\u0440\\u0443\\u043A\\u0446\\u0438\\u0435\\u0439.\n\n\\u0415\\u0441\\u043B\\u0438 \\u0432\\u044B \\u043D\\u0430\\u0448\\u043B\\u0438 \\u043E\\u0448\\u0438\\u0431\\u043A\\u0443 - \\u043E\\u0442\\u043A\\u0440\\u043E\\u0439\\u0442\\u0435, \\u043F\\u043E\\u0436\\u0430\\u043B\\u0443\\u0439\\u0441\\u0442\\u0430, Issue \\u0432 github-\\u0435.",
+                    "target": "\\u770B\\u6765\\uFF0C\\u4F60\\u662F\\u7B2C\\u4E00\\u6B21\\u542F\\u52A8 'Yandex Wiki Integration'\\u3002\n\n\\u611F\\u8C22\\u5B89\\u88C5\\u8BE5\\u63D2\\u4EF6\\uFF01\\uFF01\\uFF01\n\n\\u5982\\u9700\\u8BE6\\u7EC6\\u4FE1\\u606F\\uFF0C\\u8BF7\\u67E5\\u770B\\u8BF4\\u660E\\u3002\n\n\\u5982\\u679C\\u4F60\\u53D1\\u73B0\\u4E86\\u9519\\u8BEF\\u2014\\u2014\\u8BF7\\u5728 github \\u4E0A\\u63D0\\u4EA4 Issue\\u3002"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "YWI: \\u0412\\u044B \\u0432\\u044B\\u0448\\u043B\\u0438 \\u0438\\u0437 YWI",
+                    "target": "YWI: \\u4F60\\u5DF2\\u9000\\u51FA YWI"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Установите путь до браузера в настройках. Поле 'pathToBrowser'",
+                    "target": "请在设置中指定浏览器路径。字段 'pathToBrowser'"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "YWI: Экспорт законичлся",
+                    "target": "YWI: 导出完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Platform that the binary needs to be compatible with.",
+                    "target": "二进制文件需要兼容的平台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Path to the root folder for the browser downloads and installation. If a relative path is provided, it will be resolved relative to the current working directory. The installation folder structure is compatible with the cache structure used by Puppeteer.",
+                    "target": "用于浏览器下载和安装的根目录路径。如果提供相对路径，将以当前工作目录为基准解析。安装文件夹结构与 Puppeteer 使用的缓存结构兼容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Base URL to download from",
+                    "target": "用于下载的基础 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Detach the child process.",
+                    "target": "分离子进程。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Forwards the browser's process stdout and stderr",
+                    "target": "转发浏览器进程的 stdout 和 stderr"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ECMAScript code generator",
+                    "target": "ECMAScript 代码生成器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which browser to install <browser>[@<buildId|latest>]. `latest` will try to find the latest available build. `buildId` is a browser-specific identifier such as a version or a revision.",
+                    "target": "要安装的浏览器 <browser>[@<buildId|latest>]。`latest` 将尝试查找最新可用构建。`buildId` 是浏览器特定的标识符，例如版本号或修订号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Количество попыток превышено",
+                    "target": "尝试次数已超限"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запрос выполнен успешно.",
+                    "target": "请求成功完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "В результате выполнения запроса с методом POST успешно создан новый объект.",
+                    "target": "通过 POST 方法请求已成功创建新对象。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запрос с методом DELETE успешно выполнен, объект удален.",
+                    "target": "DELETE 方法请求成功执行，对象已删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Один или несколько параметров запроса имеют недопустимое значение.",
+                    "target": "一个或多个请求参数具有无效值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Пользователь не авторизован. Проверьте, были ли выполнены действия, описанные в разделе Доступ к API.",
+                    "target": "用户未授权。请检查是否已完成“API 访问”部分中 опис的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "У вас не хватает прав на выполнение этого действия. Наличие прав можно перепроверить в интерфейсе Трекера — для выполнения действия при помощи API и через интерфейс требуются одинаковые права.",
+                    "target": "您没有执行此操作的权限。可在 Tracker 界面中再次确认权限——通过 API 和界面执行该操作所需权限相同。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Запрошенный объект не был найден. Возможно, вы указали неверное значение идентификатора или ключа объекта.",
+                    "target": "未找到请求的对象。可能是您指定的对象标识符或键值不正确。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "При редактировании объекта возник конфликт. Возможно, ошибка возникла из-за неправильно указанной версии изменений.",
+                    "target": "编辑对象时发生冲突。可能是由于指定的变更版本不正确导致。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ошибка валидации JSON, запрос отклонен.",
+                    "target": "JSON 验证错误，请求被拒绝。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Редактирование объекта заблокировано. Возможно, превышено допустимое значение параметра version — количество обновлений объекта. Максимальное значение версии составляет 10100 для роботов и 11100 для пользователей.",
+                    "target": "对象编辑被锁定。可能是参数 version 的允许值已超出——对象更新次数。版本最大值为机器人 10100、用户 11100。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Доступ к ресурсу отклонен. Проверьте, указаны ли все обязательные условия выполнения запроса.",
+                    "target": "对资源的访问被拒绝。请检查是否已指定请求执行的所有必需条件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Превышено допустимое количество запросов к хосту в единицу времени. Попробуйте повторить запрос позже.",
+                    "target": "单位时间内对主机的请求次数超过允许值。请稍后重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "failed to parse address with port",
+                    "target": "无法解析带端口的地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "failed to parse address from URL",
+                    "target": "无法从 URL 解析地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Selection is not an import declaration.",
+                    "target": "选择内容不是导入声明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Frame was not swapped",
+                    "target": "帧未被切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "already connected",
+                    "target": "已连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not determine a project root path.",
+                    "target": "无法确定项目根路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Blackberry PlayBook",
+                    "target": "Blackberry PlayBook"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Blackberry PlayBook landscape",
+                    "target": "Blackberry PlayBook 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BlackBerry Z30",
+                    "target": "BlackBerry Z30"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BlackBerry Z30 landscape",
+                    "target": "BlackBerry Z30 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy Note 3",
+                    "target": "Galaxy Note 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy Note 3 landscape",
+                    "target": "Galaxy Note 3 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy Note II",
+                    "target": "Galaxy Note II"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy Note II landscape",
+                    "target": "Galaxy Note II 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S III",
+                    "target": "Galaxy S III"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S III landscape",
+                    "target": "Galaxy S III 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S5",
+                    "target": "Galaxy S5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S5 landscape",
+                    "target": "Galaxy S5 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S8",
+                    "target": "Galaxy S8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S8 landscape",
+                    "target": "Galaxy S8 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S9+",
+                    "target": "Galaxy S9+"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy S9+ landscape",
+                    "target": "Galaxy S9+ 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy Tab S4",
+                    "target": "Galaxy Tab S4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galaxy Tab S4 landscape",
+                    "target": "Galaxy Tab S4 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad landscape",
+                    "target": "iPad 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad (gen 6)",
+                    "target": "iPad（第 6 代）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad (gen 6) landscape",
+                    "target": "iPad（第 6 代）横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad (gen 7)",
+                    "target": "iPad（第 7 代）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad (gen 7) landscape",
+                    "target": "iPad（第 7 代）横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad Mini",
+                    "target": "iPad Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad Mini landscape",
+                    "target": "iPad Mini 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad Pro",
+                    "target": "iPad Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad Pro landscape",
+                    "target": "iPad Pro 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad Pro 11",
+                    "target": "iPad Pro 11"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPad Pro 11 landscape",
+                    "target": "iPad Pro 11 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 4",
+                    "target": "iPhone 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 4 landscape",
+                    "target": "iPhone 4 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 5",
+                    "target": "iPhone 5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 5 landscape",
+                    "target": "iPhone 5 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 6",
+                    "target": "iPhone 6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 6 landscape",
+                    "target": "iPhone 6 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 6 Plus",
+                    "target": "iPhone 6 Plus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 6 Plus landscape",
+                    "target": "iPhone 6 Plus 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 7",
+                    "target": "iPhone 7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 7 landscape",
+                    "target": "iPhone 7 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 7 Plus",
+                    "target": "iPhone 7 Plus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 7 Plus landscape",
+                    "target": "iPhone 7 Plus 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 8",
+                    "target": "iPhone 8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 8 landscape",
+                    "target": "iPhone 8 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 8 Plus",
+                    "target": "iPhone 8 Plus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 8 Plus landscape",
+                    "target": "iPhone 8 Plus 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone SE",
+                    "target": "iPhone SE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone SE landscape",
+                    "target": "iPhone SE 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone X",
+                    "target": "iPhone X"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone X landscape",
+                    "target": "iPhone X 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone XR",
+                    "target": "iPhone XR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone XR landscape",
+                    "target": "iPhone XR 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 11",
+                    "target": "iPhone 11"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 11 landscape",
+                    "target": "iPhone 11 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 11 Pro",
+                    "target": "iPhone 11 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 11 Pro landscape",
+                    "target": "iPhone 11 Pro 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 11 Pro Max",
+                    "target": "iPhone 11 Pro Max"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 11 Pro Max landscape",
+                    "target": "iPhone 11 Pro Max 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12",
+                    "target": "iPhone 12"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12 landscape",
+                    "target": "iPhone 12 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12 Pro",
+                    "target": "iPhone 12 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12 Pro landscape",
+                    "target": "iPhone 12 Pro 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12 Pro Max",
+                    "target": "iPhone 12 Pro Max"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12 Pro Max landscape",
+                    "target": "iPhone 12 Pro Max 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12 Mini",
+                    "target": "iPhone 12 Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 12 Mini landscape",
+                    "target": "iPhone 12 Mini 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13",
+                    "target": "iPhone 13"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13 landscape",
+                    "target": "iPhone 13 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13 Pro",
+                    "target": "iPhone 13 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13 Pro landscape",
+                    "target": "iPhone 13 Pro 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13 Pro Max",
+                    "target": "iPhone 13 Pro Max"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13 Pro Max landscape",
+                    "target": "iPhone 13 Pro Max 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13 Mini",
+                    "target": "iPhone 13 Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 13 Mini landscape",
+                    "target": "iPhone 13 Mini 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14",
+                    "target": "iPhone 14"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14 landscape",
+                    "target": "iPhone 14 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14 Plus",
+                    "target": "iPhone 14 Plus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14 Plus landscape",
+                    "target": "iPhone 14 Plus 横屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14 Pro",
+                    "target": "iPhone 14 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14 Pro landscape",
+                    "target": "iPhone 14 Pro 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14 Pro Max",
+                    "target": "iPhone 14 Pro Max"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 14 Pro Max landscape",
+                    "target": "iPhone 14 Pro Max 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15",
+                    "target": "iPhone 15"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15 landscape",
+                    "target": "iPhone 15 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15 Plus",
+                    "target": "iPhone 15 Plus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15 Plus landscape",
+                    "target": "iPhone 15 Plus 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15 Pro",
+                    "target": "iPhone 15 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15 Pro landscape",
+                    "target": "iPhone 15 Pro 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15 Pro Max",
+                    "target": "iPhone 15 Pro Max"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "iPhone 15 Pro Max landscape",
+                    "target": "iPhone 15 Pro Max 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JioPhone 2",
+                    "target": "JioPhone 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JioPhone 2 landscape",
+                    "target": "JioPhone 2 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kindle Fire HDX",
+                    "target": "Kindle Fire HDX"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kindle Fire HDX landscape",
+                    "target": "Kindle Fire HDX 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LG Optimus L70",
+                    "target": "LG Optimus L70"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LG Optimus L70 landscape",
+                    "target": "LG Optimus L70 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Microsoft Lumia 550",
+                    "target": "Microsoft Lumia 550"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Microsoft Lumia 950",
+                    "target": "Microsoft Lumia 950"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Microsoft Lumia 950 landscape",
+                    "target": "Microsoft Lumia 950 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 10",
+                    "target": "Nexus 10"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 10 landscape",
+                    "target": "Nexus 10 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 4",
+                    "target": "Nexus 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 4 landscape",
+                    "target": "Nexus 4 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 5",
+                    "target": "Nexus 5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 5 landscape",
+                    "target": "Nexus 5 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 5X",
+                    "target": "Nexus 5X"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 5X landscape",
+                    "target": "Nexus 5X 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 6",
+                    "target": "Nexus 6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 6 landscape",
+                    "target": "Nexus 6 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 6P",
+                    "target": "Nexus 6P"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 6P landscape",
+                    "target": "Nexus 6P 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 7",
+                    "target": "Nexus 7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus 7 landscape",
+                    "target": "Nexus 7 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nokia Lumia 520",
+                    "target": "诺基亚 Lumia 520"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nokia Lumia 520 landscape",
+                    "target": "诺基亚 Lumia 520 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nokia N9",
+                    "target": "诺基亚 N9"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nokia N9 landscape",
+                    "target": "诺基亚 N9 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 2",
+                    "target": "Pixel 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 2 landscape",
+                    "target": "Pixel 2 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 2 XL",
+                    "target": "Pixel 2 XL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 2 XL landscape",
+                    "target": "Pixel 2 XL 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 3",
+                    "target": "Pixel 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 3 landscape",
+                    "target": "Pixel 3 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 4",
+                    "target": "Pixel 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 4 landscape",
+                    "target": "Pixel 4 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 4a (5G)",
+                    "target": "Pixel 4a (5G)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 4a (5G) landscape",
+                    "target": "Pixel 4a (5G) 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 5",
+                    "target": "Pixel 5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel 5 landscape",
+                    "target": "Pixel 5 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Moto G4",
+                    "target": "Moto G4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Moto G4 landscape",
+                    "target": "Moto G4 横向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yusuke Suzuki",
+                    "target": "Yusuke Suzuki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Projects in scope",
+                    "target": "范围内的项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert default export to named export",
+                    "target": "将默认导出转换为命名导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named export to default export",
+                    "target": "将命名导出转换为默认导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert namespace import to named imports",
+                    "target": "将命名空间导入转换为命名导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named imports to namespace import",
+                    "target": "将命名导入转换为命名空间导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named imports to default import",
+                    "target": "将命名导入转换为默认导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to type alias",
+                    "target": "提取为类型别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to interface",
+                    "target": "提取为接口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to typedef",
+                    "target": "提取为 typedef"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move to file",
+                    "target": "移动到文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add braces to arrow function",
+                    "target": "为箭头函数添加大括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to anonymous function",
+                    "target": "转换为匿名函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to named function",
+                    "target": "转换为命名函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to arrow function",
+                    "target": "转换为箭头函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Constant",
+                    "target": "提取常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Function",
+                    "target": "提取函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n                var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n                if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n                else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n                return c > 3 && r && Object.defineProperty(target, key, r), r;\n            };",
+                    "target": "\n            var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n                var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n                if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n                else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n                return c > 3 && r && Object.defineProperty(target, key, r), r;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __metadata = (this && this.__metadata) || function (k, v) {\n                if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\n            };",
+                    "target": "\n            var __metadata = (this && this.__metadata) || function (k, v) {\n                if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __param = (this && this.__param) || function (paramIndex, decorator) {\n                return function (target, key) { decorator(target, key, paramIndex); }\n            };",
+                    "target": "\n            var __param = (this && this.__param) || function (paramIndex, decorator) {\n                return function (target, key) { decorator(target, key, paramIndex); }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __esDecorate = (this && this.__esDecorate) || function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {\n            function accept(f) { if (f !== void 0 && typeof f !== \"function\") throw new TypeError(\"Function expected\"); return f; }\n            var kind = contextIn.kind, key = kind === \"getter\" ? \"get\" : kind === \"setter\" ? \"set\" : \"value\";\n            var target = !descriptorIn && ctor ? contextIn[\"static\"] ? ctor : ctor.prototype : null;\n            var descriptor = descriptorIn || (target ? Object.getOwnPropertyDescriptor(target, contextIn.name) : {});\n            var _, done = false;\n            for (var i = decorators.length - 1; i >= 0; i--) {\n                var context = {};\n                for (var p in contextIn) context[p] = p === \"access\" ? {} : contextIn[p];\n                for (var p in contextIn.access) context.access[p] = contextIn.access[p];\n                context.addInitializer = function (f) { if (done) throw new TypeError(\"Cannot add initializers after decoration has completed\"); extraInitializers.push(accept(f || null)); };\n                var result = (0, decorators[i])(kind === \"accessor\" ? { get: descriptor.get, set: descriptor.set } : descriptor[key], context);\n                if (kind === \"accessor\") {\n                    if (result === void 0) continue;\n                    if (result === null || typeof result !== \"object\") throw new TypeError(\"Object expected\");\n                    if (_ = accept(result.get)) descriptor.get = _;\n                    if (_ = accept(result.set)) descriptor.set = _;\n                    if (_ = accept(result.init)) initializers.unshift(_);\n                }\n                else if (_ = accept(result)) {\n                    if (kind === \"field\") initializers.unshift(_);\n                    else descriptor[key] = _;\n                }\n            }\n            if (target) Object.defineProperty(target, contextIn.name, descriptor);\n            done = true;\n        };",
+                    "target": "\n        var __esDecorate = (this && this.__esDecorate) || function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {\n            function accept(f) { if (f !== void 0 && typeof f !== \"function\") throw new TypeError(\"Function expected\"); return f; }\n            var kind = contextIn.kind, key = kind === \"getter\" ? \"get\" : kind === \"setter\" ? \"set\" : \"value\";\n            var target = !descriptorIn && ctor ? contextIn[\"static\"] ? ctor : ctor.prototype : null;\n            var descriptor = descriptorIn || (target ? Object.getOwnPropertyDescriptor(target, contextIn.name) : {});\n            var _, done = false;\n            for (var i = decorators.length - 1; i >= 0; i--) {\n                var context = {};\n                for (var p in contextIn) context[p] = p === \"access\" ? {} : contextIn[p];\n                for (var p in contextIn.access) context.access[p] = contextIn.access[p];\n                context.addInitializer = function (f) { if (done) throw new TypeError(\"Cannot add initializers after decoration has completed\"); extraInitializers.push(accept(f || null)); };\n                var result = (0, decorators[i])(kind === \"accessor\" ? { get: descriptor.get, set: descriptor.set } : descriptor[key], context);\n                if (kind === \"accessor\") {\n                    if (result === void 0) continue;\n                    if (result === null || typeof result !== \"object\") throw new TypeError(\"Object expected\");\n                    if (_ = accept(result.get)) descriptor.get = _;\n                    if (_ = accept(result.set)) descriptor.set = _;\n                    if (_ = accept(result.init)) initializers.unshift(_);\n                }\n                else if (_ = accept(result)) {\n                    if (kind === \"field\") initializers.unshift(_);\n                    else descriptor[key] = _;\n                }\n            }\n            if (target) Object.defineProperty(target, contextIn.name, descriptor);\n            done = true;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __runInitializers = (this && this.__runInitializers) || function (thisArg, initializers, value) {\n            var useValue = arguments.length > 2;\n            for (var i = 0; i < initializers.length; i++) {\n                value = useValue ? initializers[i].call(thisArg, value) : initializers[i].call(thisArg);\n            }\n            return useValue ? value : void 0;\n        };",
+                    "target": "\n        var __runInitializers = (this && this.__runInitializers) || function (thisArg, initializers, value) {\n            var useValue = arguments.length > 2;\n            for (var i = 0; i < initializers.length; i++) {\n                value = useValue ? initializers[i].call(thisArg, value) : initializers[i].call(thisArg);\n            }\n            return useValue ? value : void 0;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __assign = (this && this.__assign) || function () {\n                __assign = Object.assign || function(t) {\n                    for (var s, i = 1, n = arguments.length; i < n; i++) {\n                        s = arguments[i];\n                        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                            t[p] = s[p];\n                    }\n                    return t;\n                };\n                return __assign.apply(this, arguments);\n            };",
+                    "target": "\n            var __assign = (this && this.__assign) || function () {\n                __assign = Object.assign || function(t) {\n                    for (var s, i = 1, n = arguments.length; i < n; i++) {\n                        s = arguments[i];\n                        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                            t[p] = s[p];\n                    }\n                    return t;\n                };\n                return __assign.apply(this, arguments);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __await = (this && this.__await) || function (v) { return this instanceof __await ? (this.v = v, this) : new __await(v); }",
+                    "target": "\n            var __await = (this && this.__await) || function (v) { return this instanceof __await ? (this.v = v, this) : new __await(v); }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _arguments, generator) {\n            if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n            var g = generator.apply(thisArg, _arguments || []), i, q = [];\n            return i = Object.create((typeof AsyncIterator === \"function\" ? AsyncIterator : Object).prototype), verb(\"next\"), verb(\"throw\"), verb(\"return\", awaitReturn), i[Symbol.asyncIterator] = function () { return this; }, i;\n            function awaitReturn(f) { return function (v) { return Promise.resolve(v).then(f, reject); }; }\n            function verb(n, f) { if (g[n]) { i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; if (f) i[n] = f(i[n]); } }\n            function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }\n            function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }\n            function fulfill(value) { resume(\"next\", value); }\n            function reject(value) { resume(\"throw\", value); }\n            function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }\n        };",
+                    "target": "\n        var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _arguments, generator) {\n            if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n            var g = generator.apply(thisArg, _arguments || []), i, q = [];\n            return i = Object.create((typeof AsyncIterator === \"function\" ? AsyncIterator : Object).prototype), verb(\"next\"), verb(\"throw\"), verb(\"return\", awaitReturn), i[Symbol.asyncIterator] = function () { return this; }, i;\n            function awaitReturn(f) { return function (v) { return Promise.resolve(v).then(f, reject); }; }\n            function verb(n, f) { if (g[n]) { i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; if (f) i[n] = f(i[n]); } }\n            function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }\n            function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }\n            function fulfill(value) { resume(\"next\", value); }\n            function reject(value) { resume(\"throw\", value); }\n            function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __asyncDelegator = (this && this.__asyncDelegator) || function (o) {\n                var i, p;\n                return i = {}, verb(\"next\"), verb(\"throw\", function (e) { throw e; }), verb(\"return\"), i[Symbol.iterator] = function () { return this; }, i;\n                function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: false } : f ? f(v) : v; } : f; }\n            };",
+                    "target": "\n            var __asyncDelegator = (this && this.__asyncDelegator) || function (o) {\n                var i, p;\n                return i = {}, verb(\"next\"), verb(\"throw\", function (e) { throw e; }), verb(\"return\"), i[Symbol.iterator] = function () { return this; }, i;\n                function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: false } : f ? f(v) : v; } : f; }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __asyncValues = (this && this.__asyncValues) || function (o) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var m = o[Symbol.asyncIterator], i;\n                return m ? m.call(o) : (o = typeof __values === \"function\" ? __values(o) : o[Symbol.iterator](), i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i);\n                function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }\n                function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }\n            };",
+                    "target": "\n            var __asyncValues = (this && this.__asyncValues) || function (o) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var m = o[Symbol.asyncIterator], i;\n                return m ? m.call(o) : (o = typeof __values === \"function\" ? __values(o) : o[Symbol.iterator](), i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i);\n                function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }\n                function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __rest = (this && this.__rest) || function (s, e) {\n                var t = {};\n                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n                    t[p] = s[p];\n                if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n                    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n                        if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n                            t[p[i]] = s[p[i]];\n                    }\n                return t;\n            };",
+                    "target": "\n            var __rest = (this && this.__rest) || function (s, e) {\n                var t = {};\n                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n                    t[p] = s[p];\n                if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n                    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n                        if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n                            t[p[i]] = s[p[i]];\n                    }\n                return t;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\n                function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n                return new (P || (P = Promise))(function (resolve, reject) {\n                    function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n                    function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n                    function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n                    step((generator = generator.apply(thisArg, _arguments || [])).next());\n                });\n            };",
+                    "target": "\n            var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\n                function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n                return new (P || (P = Promise))(function (resolve, reject) {\n                    function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n                    function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n                    function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n                    step((generator = generator.apply(thisArg, _arguments || [])).next());\n                });\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __extends = (this && this.__extends) || (function () {\n                var extendStatics = function (d, b) {\n                    extendStatics = Object.setPrototypeOf ||\n                        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n                        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };\n                    return extendStatics(d, b);\n                };\n\n                return function (d, b) {\n                    if (typeof b !== \"function\" && b !== null)\n                        throw new TypeError(\"Class extends value \" + String(b) + \" is not a constructor or null\");\n                    extendStatics(d, b);\n                    function __() { this.constructor = d; }\n                    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n                };\n            })();",
+                    "target": "\n            var __extends = (this && this.__extends) || (function () {\n                var extendStatics = function (d, b) {\n                    extendStatics = Object.setPrototypeOf ||\n                        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n                        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };\n                    return extendStatics(d, b);\n                };\n\n                return function (d, b) {\n                    if (typeof b !== \"function\" && b !== null)\n                        throw new TypeError(\"Class extends value \" + String(b) + \" is not a constructor or null\");\n                    extendStatics(d, b);\n                    function __() { this.constructor = d; }\n                    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n                };\n            })();"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __read = (this && this.__read) || function (o, n) {\n                var m = typeof Symbol === \"function\" && o[Symbol.iterator];\n                if (!m) return o;\n                var i = m.call(o), r, ar = [], e;\n                try {\n                    while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);\n                }\n                catch (error) { e = { error: error }; }\n                finally {\n                    try {\n                        if (r && !r.done && (m = i[\"return\"])) m.call(i);\n                    }\n                    finally { if (e) throw e.error; }\n                }\n                return ar;\n            };",
+                    "target": "\n            var __read = (this && this.__read) || function (o, n) {\n                var m = typeof Symbol === \"function\" && o[Symbol.iterator];\n                if (!m) return o;\n                var i = m.call(o), r, ar = [], e;\n                try {\n                    while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);\n                }\n                catch (error) { e = { error: error }; }\n                finally {\n                    try {\n                        if (r && !r.done && (m = i[\"return\"])) m.call(i);\n                    }\n                    finally { if (e) throw e.error; }\n                }\n                return ar;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {\n                if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {\n                    if (ar || !(i in from)) {\n                        if (!ar) ar = Array.prototype.slice.call(from, 0, i);\n                        ar[i] = from[i];\n                    }\n                }\n                return to.concat(ar || Array.prototype.slice.call(from));\n            };",
+                    "target": "\n            var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {\n                if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {\n                    if (ar || !(i in from)) {\n                        if (!ar) ar = Array.prototype.slice.call(from, 0, i);\n                        ar[i] = from[i];\n                    }\n                }\n                return to.concat(ar || Array.prototype.slice.call(from));\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __propKey = (this && this.__propKey) || function (x) {\n            return typeof x === \"symbol\" ? x : \"\".concat(x);\n        };",
+                    "target": "\n        var __propKey = (this && this.__propKey) || function (x) {\n            return typeof x === \"symbol\" ? x : \"\".concat(x);\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __setFunctionName = (this && this.__setFunctionName) || function (f, name, prefix) {\n            if (typeof name === \"symbol\") name = name.description ? \"[\".concat(name.description, \"]\") : \"\";\n            return Object.defineProperty(f, \"name\", { configurable: true, value: prefix ? \"\".concat(prefix, \" \", name) : name });\n        };",
+                    "target": "\n        var __setFunctionName = (this && this.__setFunctionName) || function (f, name, prefix) {\n            if (typeof name === \"symbol\") name = name.description ? \"[\".concat(name.description, \"]\") : \"\";\n            return Object.defineProperty(f, \"name\", { configurable: true, value: prefix ? \"\".concat(prefix, \" \", name) : name });\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __values = (this && this.__values) || function(o) {\n                var s = typeof Symbol === \"function\" && Symbol.iterator, m = s && o[s], i = 0;\n                if (m) return m.call(o);\n                if (o && typeof o.length === \"number\") return {\n                    next: function () {\n                        if (o && i >= o.length) o = void 0;\n                        return { value: o && o[i++], done: !o };\n                    }\n                };\n                throw new TypeError(s ? \"Object is not iterable.\" : \"Symbol.iterator is not defined.\");\n            };",
+                    "target": "\n            var __values = (this && this.__values) || function(o) {\n                var s = typeof Symbol === \"function\" && Symbol.iterator, m = s && o[s], i = 0;\n                if (m) return m.call(o);\n                if (o && typeof o.length === \"number\") return {\n                    next: function () {\n                        if (o && i >= o.length) o = void 0;\n                        return { value: o && o[i++], done: !o };\n                    }\n                };\n                throw new TypeError(s ? \"Object is not iterable.\" : \"Symbol.iterator is not defined.\");\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __generator = (this && this.__generator) || function (thisArg, body) {\n                var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === \"function\" ? Iterator : Object).prototype);\n                return g.next = verb(0), g[\"throw\"] = verb(1), g[\"return\"] = verb(2), typeof Symbol === \"function\" && (g[Symbol.iterator] = function() { return this; }), g;\n                function verb(n) { return function (v) { return step([n, v]); }; }\n                function step(op) {\n                    if (f) throw new TypeError(\"Generator is already executing.\");\n                    while (g && (g = 0, op[0] && (_ = 0)), _) try {\n                        if (f = 1, y && (t = op[0] & 2 ? y[\"return\"] : op[0] ? y[\"throw\"] || ((t = y[\"return\"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;\n                        if (y = 0, t) op = [op[0] & 2, t.value];\n                        switch (op[0]) {\n                            case 0: case 1: t = op; break;\n                            case 4: _.label++; return { value: op[1], done: false };\n                            case 5: _.label++; y = op[1]; op = [0]; continue;\n                            case 7: op = _.ops.pop(); _.trys.pop(); continue;\n                            default:\n                                if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }\n                                if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }\n                                if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }\n                                if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }\n                                if (t[2]) _.ops.pop();\n                                _.trys.pop(); continue;\n                        }\n                        op = body.call(thisArg, _);\n                    } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }\n                    if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };\n                }\n            };",
+                    "target": "\n            var __generator = (this && this.__generator) || function (thisArg, body) {\n                var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === \"function\" ? Iterator : Object).prototype);\n                return g.next = verb(0), g[\"throw\"] = verb(1), g[\"return\"] = verb(2), typeof Symbol === \"function\" && (g[Symbol.iterator] = function() { return this; }), g;\n                function verb(n) { return function (v) { return step([n, v]); }; }\n                function step(op) {\n                    if (f) throw new TypeError(\"Generator is already executing.\");\n                    while (g && (g = 0, op[0] && (_ = 0)), _) try {\n                        if (f = 1, y && (t = op[0] & 2 ? y[\"return\"] : op[0] ? y[\"throw\"] || ((t = y[\"return\"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;\n                        if (y = 0, t) op = [op[0] & 2, t.value];\n                        switch (op[0]) {\n                            case 0: case 1: t = op; break;\n                            case 4: _.label++; return { value: op[1], done: false };\n                            case 5: _.label++; y = op[1]; op = [0]; continue;\n                            case 7: op = _.ops.pop(); _.trys.pop(); continue;\n                            default:\n                                if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }\n                                if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }\n                                if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }\n                                if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }\n                                if (t[2]) _.ops.pop();\n                                _.trys.pop(); continue;\n                        }\n                        op = body.call(thisArg, _);\n                    } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }\n                    if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };\n                }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                var desc = Object.getOwnPropertyDescriptor(m, k);\n                if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\n                  desc = { enumerable: true, get: function() { return m[k]; } };\n                }\n                Object.defineProperty(o, k2, desc);\n            }) : (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                o[k2] = m[k];\n            }));",
+                    "target": "\n            var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                var desc = Object.getOwnPropertyDescriptor(m, k);\n                if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\n                  desc = { enumerable: true, get: function() { return m[k]; } };\n                }\n                Object.defineProperty(o, k2, desc);\n            }) : (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                o[k2] = m[k];\n            }));"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\n                Object.defineProperty(o, \"default\", { enumerable: true, value: v });\n            }) : function(o, v) {\n                o[\"default\"] = v;\n            });",
+                    "target": "\n            var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\n                Object.defineProperty(o, \"default\", { enumerable: true, value: v });\n            }) : function(o, v) {\n                o[\"default\"] = v;\n            });"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __importStar = (this && this.__importStar) || (function () {\n                var ownKeys = function(o) {\n                    ownKeys = Object.getOwnPropertyNames || function (o) {\n                        var ar = [];\n                        for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;\n                        return ar;\n                    };\n                    return ownKeys(o);\n                };\n                return function (mod) {\n                    if (mod && mod.__esModule) return mod;\n                    var result = {};\n                    if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== \"default\") __createBinding(result, mod, k[i]);\n                    __setModuleDefault(result, mod);\n                    return result;\n                };\n            })();",
+                    "target": "\n            var __importStar = (this && this.__importStar) || (function () {\n                var ownKeys = function(o) {\n                    ownKeys = Object.getOwnPropertyNames || function (o) {\n                        var ar = [];\n                        for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;\n                        return ar;\n                    };\n                    return ownKeys(o);\n                };\n                return function (mod) {\n                    if (mod && mod.__esModule) return mod;\n                    var result = {};\n                    if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== \"default\") __createBinding(result, mod, k[i]);\n                    __setModuleDefault(result, mod);\n                    return result;\n                };\n            })();"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __importDefault = (this && this.__importDefault) || function (mod) {\n                return (mod && mod.__esModule) ? mod : { \"default\": mod };\n            };",
+                    "target": "\n            var __importDefault = (this && this.__importDefault) || function (mod) {\n                return (mod && mod.__esModule) ? mod : { \"default\": mod };\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __exportStar = (this && this.__exportStar) || function(m, exports) {\n                for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n            };",
+                    "target": "\n            var __exportStar = (this && this.__exportStar) || function(m, exports) {\n                for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __classPrivateFieldIn = (this && this.__classPrivateFieldIn) || function(state, receiver) {\n                if (receiver === null || (typeof receiver !== \"object\" && typeof receiver !== \"function\")) throw new TypeError(\"Cannot use 'in' operator on non-object\");\n                return typeof state === \"function\" ? receiver === state : state.has(receiver);\n            };",
+                    "target": "\n            var __classPrivateFieldIn = (this && this.__classPrivateFieldIn) || function(state, receiver) {\n                if (receiver === null || (typeof receiver !== \"object\" && typeof receiver !== \"function\")) throw new TypeError(\"Cannot use 'in' operator on non-object\");\n                return typeof state === \"function\" ? receiver === state : state.has(receiver);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __addDisposableResource = (this && this.__addDisposableResource) || function (env, value, async) {\n            if (value !== null && value !== void 0) {\n                if (typeof value !== \"object\" && typeof value !== \"function\") throw new TypeError(\"Object expected.\");\n                var dispose, inner;\n                if (async) {\n                    if (!Symbol.asyncDispose) throw new TypeError(\"Symbol.asyncDispose is not defined.\");\n                    dispose = value[Symbol.asyncDispose];\n                }\n                if (dispose === void 0) {\n                    if (!Symbol.dispose) throw new TypeError(\"Symbol.dispose is not defined.\");\n                    dispose = value[Symbol.dispose];\n                    if (async) inner = dispose;\n                }\n                if (typeof dispose !== \"function\") throw new TypeError(\"Object not disposable.\");\n                if (inner) dispose = function() { try { inner.call(this); } catch (e) { return Promise.reject(e); } };\n                env.stack.push({ value: value, dispose: dispose, async: async });\n            }\n            else if (async) {\n                env.stack.push({ async: true });\n            }\n            return value;\n        };",
+                    "target": "\n        var __addDisposableResource = (this && this.__addDisposableResource) || function (env, value, async) {\n            if (value !== null && value !== void 0) {\n                if (typeof value !== \"object\" && typeof value !== \"function\") throw new TypeError(\"Object expected.\");\n                var dispose, inner;\n                if (async) {\n                    if (!Symbol.asyncDispose) throw new TypeError(\"Symbol.asyncDispose is not defined.\");\n                    dispose = value[Symbol.asyncDispose];\n                }\n                if (dispose === void 0) {\n                    if (!Symbol.dispose) throw new TypeError(\"Symbol.dispose is not defined.\");\n                    dispose = value[Symbol.dispose];\n                    if (async) inner = dispose;\n                }\n                if (typeof dispose !== \"function\") throw new TypeError(\"Object not disposable.\");\n                if (inner) dispose = function() { try { inner.call(this); } catch (e) { return Promise.reject(e); } };\n                env.stack.push({ value: value, dispose: dispose, async: async });\n            }\n            else if (async) {\n                env.stack.push({ async: true });\n            }\n            return value;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __disposeResources = (this && this.__disposeResources) || (function (SuppressedError) {\n            return function (env) {\n                function fail(e) {\n                    env.error = env.hasError ? new SuppressedError(e, env.error, \"An error was suppressed during disposal.\") : e;\n                    env.hasError = true;\n                }\n                var r, s = 0;\n                function next() {\n                    while (r = env.stack.pop()) {\n                        try {\n                            if (!r.async && s === 1) return s = 0, env.stack.push(r), Promise.resolve().then(next);\n                            if (r.dispose) {\n                                var result = r.dispose.call(r.value);\n                                if (r.async) return s |= 2, Promise.resolve(result).then(next, function(e) { fail(e); return next(); });\n                            }\n                            else s |= 1;\n                        }\n                        catch (e) {\n                            fail(e);\n                        }\n                    }\n                    if (s === 1) return env.hasError ? Promise.reject(env.error) : Promise.resolve();\n                    if (env.hasError) throw env.error;\n                }\n                return next();\n            };\n        })(typeof SuppressedError === \"function\" ? SuppressedError : function (error, suppressed, message) {\n            var e = new Error(message);\n            return e.name = \"SuppressedError\", e.error = error, e.suppressed = suppressed, e;\n        });",
+                    "target": "\n        var __disposeResources = (this && this.__disposeResources) || (function (SuppressedError) {\n            return function (env) {\n                function fail(e) {\n                    env.error = env.hasError ? new SuppressedError(e, env.error, \"An error was suppressed during disposal.\") : e;\n                    env.hasError = true;\n                }\n                var r, s = 0;\n                function next() {\n                    while (r = env.stack.pop()) {\n                        try {\n                            if (!r.async && s === 1) return s = 0, env.stack.push(r), Promise.resolve().then(next);\n                            if (r.dispose) {\n                                var result = r.dispose.call(r.value);\n                                if (r.async) return s |= 2, Promise.resolve(result).then(next, function(e) { fail(e); return next(); });\n                            }\n                            else s |= 1;\n                        }\n                        catch (e) {\n                            fail(e);\n                        }\n                    }\n                    if (s === 1) return env.hasError ? Promise.reject(env.error) : Promise.resolve();\n                    if (env.hasError) throw env.error;\n                }\n                return next();\n            };\n        })(typeof SuppressedError === \"function\" ? SuppressedError : function (error, suppressed, message) {\n            var e = new Error(message);\n            return e.name = \"SuppressedError\", e.error = error, e.suppressed = suppressed, e;\n        });"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __rewriteRelativeImportExtension = (this && this.__rewriteRelativeImportExtension) || function (path, preserveJsx) {\n            if (typeof path === \"string\" && /^\\\\.\\\\.?\\\\//.test(path)) {\n                return path.replace(/\\\\.(tsx)$|((?:\\\\.d)?)((?:\\\\.[^./]+?)?)\\\\.([cm]?)ts$/i, function (m, tsx, d, ext, cm) {\n                    return tsx ? preserveJsx ? \".jsx\" : \".js\" : d && (!ext || !cm) ? m : (d + ext + \".\" + cm.toLowerCase() + \"js\");\n                });\n            }\n            return path;\n        };",
+                    "target": "\n        var __rewriteRelativeImportExtension = (this && this.__rewriteRelativeImportExtension) || function (path, preserveJsx) {\n            if (typeof path === \"string\" && /^\\\\.\\\\.?\\\\//.test(path)) {\n                return path.replace(/\\\\.(tsx)$|((?:\\\\.d)?)((?:\\\\.[^./]+?)?)\\\\.([cm]?)ts$/i, function (m, tsx, d, ext, cm) {\n                    return tsx ? preserveJsx ? \".jsx\" : \".js\" : d && (!ext || !cm) ? m : (d + ext + \".\" + cm.toLowerCase() + \"js\");\n                });\n            }\n            return path;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __syncRequire = typeof module === \"object\" && typeof module.exports === \"object\";",
+                    "target": "\n            var __syncRequire = typeof module === \"object\" && typeof module.exports === \"object\";"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "asserts ",
+                    "target": "asserts "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " is ",
+                    "target": " is "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " extends ",
+                    "target": " extends "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " = ",
+                    "target": " = "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "new ",
+                    "target": "new "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " => ",
+                    "target": " => "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "typeof ",
+                    "target": "typeof "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " ? ",
+                    "target": " ? "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " : ",
+                    "target": " : "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "infer ",
+                    "target": "infer "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{ ",
+                    "target": "{ "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "readonly ",
+                    "target": "readonly "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " as ",
+                    "target": " as "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "; }",
+                    "target": "; }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": ", { assert: ",
+                    "target": ", { assert: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " }",
+                    "target": " }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Войти",
+                    "target": "登录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Выйти",
+                    "target": "退出登录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Экспортировать хранилище",
+                    "target": "导出存储"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
