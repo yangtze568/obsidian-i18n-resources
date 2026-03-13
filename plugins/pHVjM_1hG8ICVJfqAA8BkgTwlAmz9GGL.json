@@ -1,0 +1,217 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "harn-weather",
+        "version": "1.0.0",
+        "title": "Hârn Weather Generator",
+        "description": "Hârn Weather Generator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ubárian & Central Tríerzòn",
+                    "target": "Ubárian & Central Tríerzòn"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Isýnen & Northern Hèpekéria",
+                    "target": "Isýnen & Northern Hèpekéria"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Énselet & Shôrkýne",
+                    "target": "Énselet & Shôrkýne"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ázadmêre & Hârn",
+                    "target": "Ázadmêre & Hârn"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tropical Humid",
+                    "target": "热带湿润"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tropical Arid",
+                    "target": "热带干旱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Morgát",
+                    "target": "Morgát"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Návek",
+                    "target": "Návek"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ilvín",
+                    "target": "Ilvín"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Savôr",
+                    "target": "Savôr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Halánè",
+                    "target": "Halánè"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Azúra",
+                    "target": "Azúra"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ágrazhâr",
+                    "target": "Ágrazhâr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Laránè",
+                    "target": "Laránè"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nólus",
+                    "target": "Nólus"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Kelén",
+                    "target": "Kelén"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Peónu",
+                    "target": "Peónu"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Núzyæl",
+                    "target": "Núzyæl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The latitude to generate the weather for.",
+                    "target": "用于生成天气的纬度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The climate zone to generate the weather for.",
+                    "target": "用于生成天气的气候带。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The day in a range from 1 to 30.",
+                    "target": "日期范围为 1 到 30。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The month according to the Túzyn Reckoning calendar.",
+                    "target": "根据图辛历法的月份。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The year according to the Túzyn Reckoning calendar.",
+                    "target": "根据图辛历法的年份。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Climate zone",
+                    "target": "气候区"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please specify a valid number.",
+                    "target": "请指定一个有效的数字。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The generated Weather for one day has been copied to the clipboard.",
+                    "target": "生成的一日天气已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The generated Weather for one week has been copied to the clipboard.",
+                    "target": "生成的一周天气已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The generated Weather for one month has been copied to the clipboard.",
+                    "target": "生成的一月天气已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The generated Weather for one year has been copied to the clipboard.",
+                    "target": "生成的一年天气已复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get the weather for one day",
+                    "target": "获取一天的天气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get the weather for one week",
+                    "target": "获取一周天气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get the weather for one month",
+                    "target": "获取一个月天气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get the weather for one year",
+                    "target": "获取一年天气"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
