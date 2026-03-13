@@ -1,0 +1,145 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "excel",
+        "version": "1.0.0",
+        "title": "Excel",
+        "description": "Excel Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.24",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read clipboard content:",
+                    "target": "无法读取剪贴板内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Clipboard API is not supported in this browser.",
+                    "target": "此浏览器不支持剪贴板 API。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot hydrate range",
+                    "target": "无法还原范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ODS has no equivalent of format |mmmmm|",
+                    "target": "ODS 没有与格式 |mmmmm| 对应的等价格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Codepage tables are not loaded.  Non-ASCII characters may not give expected results",
+                    "target": "代码页表未加载。非 ASCII 字符可能无法得到预期结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "isCurrentSheetPaste ==",
+                    "target": "isCurrentSheetPaste =="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "evt.keyCode:",
+                    "target": "evt.keyCode:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "save data success",
+                    "target": "保存数据成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "save data error",
+                    "target": "保存数据失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "YYYY-MM-DD HH.mm.ss",
+                    "target": "YYYY-MM-DD HH.mm.ss"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sort Z -> A",
+                    "target": "按 Z -> A 排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "降序",
+                    "target": "降序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "空白",
+                    "target": "空白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "￥10.00",
+                    "target": "￥10.00"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "€10.00",
+                    "target": "€10.00"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "26/09/2008 15:59:00",
+                    "target": "26/09/2008 15:59:00"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Plain Text",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文本",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Source Sans Pro",
+                    "target": "Source Sans Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Comic Sans MS",
+                    "target": "Comic Sans MS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Courier New",
+                    "target": "Courier New"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
