@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quick-cards",
+        "version": "1.0.0",
+        "title": "Quick Cards",
+        "description": "Quick Cards Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "set scroll position to: ",
+                    "target": "将滚动位置设置为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "open cardify",
+                    "target": "打开卡片化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "close cardify",
+                    "target": "关闭卡片化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It's a secret",
+                    "target": "这是个秘密"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Setting #1",
+                    "target": "设置 #1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your secret",
+                    "target": "输入你的秘密"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to generate summary.",
+                    "target": "生成摘要失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Card View",
+                    "target": "显示卡片视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files found",
+                    "target": "未找到文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
