@@ -1,0 +1,3019 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "calendarium",
+        "version": "1.0.0",
+        "title": "Calendarium",
+        "description": "Calendarium Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Your callback will receive the <code>day</code> and\n        <code>calendar</code>\n        parameters and <b>must</b> return a <code>string</code> or\n        <code>number</code>",
+                    "target": "你的回调函数将接收 <code>day</code> 和\n        <code>calendar</code>\n        参数，并且<b>必须</b>返回一个 <code>string</code> 或\n        <code>number</code>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<label>Display format</label>",
+                    "target": "<label>显示格式</label>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>Increases likelihood of precipitation occuring</span>",
+                    "target": "<span>提高降水发生的概率</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>How strong the precipitation is, when it occurs</span>",
+                    "target": "<span>降水发生时的强度</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>Increases likelihood of stronger wind</span>",
+                    "target": "<span>提高出现更强风力的概率</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>Increases likelihood of cloud coverage</span>",
+                    "target": "<span>提高云量覆盖的概率</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "per page",
+                    "target": "每页"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add end date",
+                    "target": "添加结束日期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "End date",
+                    "target": "结束日期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add event date",
+                    "target": "添加事件日期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Event name",
+                    "target": "事件名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Link the event to a note",
+                    "target": "将事件关联到笔记"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Event description",
+                    "target": "事件描述"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Event category",
+                    "target": "事件类别"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Select a Weekday",
+                    "target": "选择一个工作日"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Use this to override what is displayed for a given day.",
+                    "target": "用于覆盖某一天显示的内容。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "The display format of your era can be whatever\n                                you want, but you can also include the following\n                                options:",
+                    "target": "时代的显示格式可以随你设置，但也可以包含以下\n                                选项："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{ year }} - Displays the current year",
+                    "target": "{{ year }} - 显示当前年份"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{ abs_year }} - Displays the current year,\n                                    but without a minus in front of it if is negative.",
+                    "target": "{{ abs_year }} - 显示当前年份，\n                                    如果为负数，则不显示前面的负号。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{ nth_year }} - Display the year with an\n                                    ordinal (1st, 2nd, etc).",
+                    "target": "{{ nth_year }} - 以序数显示年份\n                                    （1st、2nd 等）。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{ abs_nth_year }} - Combination of abs_year\n                                    and nth_year.",
+                    "target": "{{ abs_nth_year }} - abs_year 与 nth_year 的组合。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{ era_year }} - The current era year. If\n                                    any eras in the past has restarted the year count,\n                                    this number will be different than the year number.",
+                    "target": "{{ era_year }} - 当前时代的年份。如果\n                                    过去的某些时代重新开始了年份计数，\n                                    该数字将不同于年份数。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{ era_nth_year }} - Similar to nth_year,\n                                    but counting only the era years.",
+                    "target": "{{ era_nth_year }} - 类似于 nth_year，\n                                    但仅计算时代年份。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{ era_name }} - Inserts the current name\n                                    of the era",
+                    "target": "{{ era_name }} - 插入当前时代的名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Start date",
+                    "target": "开始日期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Display eras on calendar",
+                    "target": "在日历上显示时代"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "This can always be toggled in the calendar menu.",
+                    "target": "可随时在日历菜单中切换。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Season type",
+                    "target": "季节类型"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Change how the start and end dates for seasons are calculated",
+                    "target": "更改季节开始和结束日期的计算方式"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Wind units",
+                    "target": "风速单位"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Locations are different regions of your world that can have\n                their own weather settings.",
+                    "target": "地点是你世界中的不同区域，可以拥有\n                各自的天气设置。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Default location",
+                    "target": "默认地点"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Choose a location to use by default.",
+                    "target": "选择一个默认使用的地点。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "(no name)",
+                    "target": "（无名称）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Could not find linked calendar.",
+                    "target": "未找到已关联的日历。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No calendars created! Create one in settings to get started.",
+                    "target": "尚未创建日历！请在设置中创建一个以开始使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Never reload",
+                    "target": "从不重新加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Always reload",
+                    "target": "始终重新加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Continue asking",
+                    "target": "继续询问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Default calendar",
+                    "target": "默认日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "migrating-icon rotating",
+                    "target": "migrating-icon rotating"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "existing-calendars has-table",
+                    "target": "existing-calendars has-table"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "paths-table-row add-new",
+                    "target": "paths-table-row add-new"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of input",
+                    "target": "输入意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed comment",
+                    "target": "未闭合的注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid doc source",
+                    "target": "无效的文档来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Calendarium: %s. From '%s', date value: %o",
+                    "target": "Calendarium：%s。来自“%s”，日期值：%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Beginning full rescan for calendar events",
+                    "target": "开始对日历事件进行完整重新扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reload data",
+                    "target": "重新加载数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open settings",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Choose preset",
+                    "target": "选择预设"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Apply a common Calendarium as a preset.",
+                    "target": "将常用的 Calendarium 作为预设应用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default, the first three letters of the name will be used.",
+                    "target": "默认使用名称的前三个字母。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often the condition applies.",
+                    "target": "条件应用的频率。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If true, the leap day will not apply when the year meets the condition.\n\nRequires the leap day to have at least one non-exclusive condition.",
+                    "target": "如果为真，当年份满足条件时闰日将不适用。\n\n要求闰日至少有一个非互斥条件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The condition will ignore the leap day's offset when checking to apply.",
+                    "target": "条件在检查是否应用时会忽略闰日的偏移。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How many days it takes for the moon to complete a full cycle.",
+                    "target": "月亮完成一个完整周期所需的天数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Shift the starting moon phase by a number of days.",
+                    "target": "将起始月相按若干天进行偏移。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Seasons will transition to the next season over this number of days.",
+                    "target": "季节将在此天数内过渡到下一季。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of days before the 'peak' weather of the season. Typically this occurs a few months into the season.",
+                    "target": "距离该季节“峰值”天气的天数。通常发生在该季节开始后的几个月。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How long a season's peak weather lasts.",
+                    "target": "季节的峰值天气持续多久。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Views will open to this calendar by default.",
+                    "target": "视图将默认打开此日历。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Calendarium can be restricted to look at certain paths in your vault for events. You can add specific paths here and associate default calendars to those paths. If no calendar is selected, Calendarium will add the event to your default calendar, if any.",
+                    "target": "可将 Calendarium 限制为仅在你的仓库中特定路径中查找事件。你可以在此添加特定路径，并为这些路径关联默认日历。如果未选择日历，Calendarium 将把事件添加到你的默认日历（若有）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "All confirmations set to \"Don't Ask Again\" will be reset.",
+                    "target": "所有设置为“Don't Ask Again”的确认将被重置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Control how the plugin reloads data when a sync is detected.",
+                    "target": "控制检测到同步时插件如何重新加载数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply preset",
+                    "target": "应用预设"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom abbreviation",
+                    "target": "自定义缩写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore offset",
+                    "target": "忽略偏移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Face color",
+                    "target": "表盘颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shadow color",
+                    "target": "阴影颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Seasonal information",
+                    "target": "季节信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Peak duration",
+                    "target": "峰值持续时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Peak weather offset",
+                    "target": "峰值天气偏移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Peak weather duration",
+                    "target": "峰值天气持续时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Load previous data file",
+                    "target": "加载之前的数据文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default calendar",
+                    "target": "默认日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import from Fantasy Calendar",
+                    "target": "从 Fantasy Calendar 导入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Restore deleted calendars",
+                    "target": "恢复已删除的日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create new calendar",
+                    "target": "创建新日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display event previews",
+                    "target": "显示事件预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parse note titles for event dates",
+                    "target": "从笔记标题解析事件日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Events parsing",
+                    "target": "事件解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable event parsing",
+                    "target": "启用事件解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline events tag",
+                    "target": "内联事件标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Event paths",
+                    "target": "事件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset \"Don't ask again\" prompts",
+                    "target": "重置“不再询问”提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Settings sync behavior",
+                    "target": "设置同步行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show event debug messages",
+                    "target": "显示事件调试消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No match found",
+                    "target": "未找到匹配项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Restore calendars",
+                    "target": "恢复日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Leap day condition",
+                    "target": "闰日条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Calendar could not be found",
+                    "target": "无法找到日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit era",
+                    "target": "编辑纪元"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Go to date",
+                    "target": "跳转到日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Go to day",
+                    "target": "跳转到当天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show week numbers",
+                    "target": "显示周数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show day number",
+                    "target": "显示日序号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show era",
+                    "target": "显示纪元"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show moons",
+                    "target": "显示月相"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show season colors",
+                    "target": "显示季节颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Gradient season colors",
+                    "target": "渐变季节颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Display weather",
+                    "target": "显示天气"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit event",
+                    "target": "编辑事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete event",
+                    "target": "删除事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open day view",
+                    "target": "打开日视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Set as Today",
+                    "target": "设为今天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New event",
+                    "target": "新建事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open note",
+                    "target": "打开笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Make recurring",
+                    "target": "设为重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open quick creator",
+                    "target": "打开快速创建器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open custom creator",
+                    "target": "打开自定义创建器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Export this calendar",
+                    "target": "导出此日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dndzone will ignore unknown options",
+                    "target": "dndzone 将忽略未知选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "the unthinkable has happened",
+                    "target": "不可想象的事情发生了"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The moon must have a name.",
+                    "target": "卫星必须有一个名称。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The moon must have a positive cycle.",
+                    "target": "卫星必须有一个正周期。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue opening that calendar.",
+                    "target": "打开该日历时出现问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display day of year in Day View",
+                    "target": "在日视图中显示一年中的第几天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Only notes with this tag will be scanned for inline events",
+                    "target": "仅扫描带有此标签的笔记以查找内联事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Weeks will flow into the next month. Disable to reset the weekday each month.",
+                    "target": "周将延续到下个月。禁用后每月重置星期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Intercalary months will appear a distinct months in the calendar.",
+                    "target": "闰月将在日历中作为独立的月份显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Offset the year the leap day is applied to.",
+                    "target": "偏移应用闰日的年份。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Intercalary days interrupt the normal flow of the month.",
+                    "target": "闰日会打断月份的正常进程。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How often the condition applies.",
+                    "target": "该条件适用的频率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If true, the leap day will not apply when the year meets the condition.\\n\\nRequires the leap day to have at least one non-exclusive condition.",
+                    "target": "如果为真，当年份满足该条件时将不会应用闰日。\\n\\n要求该闰日至少有一个非排他条件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The condition will ignore the leap day's offset when checking to apply.",
+                    "target": "在检查是否应用时，该条件将忽略闰日的偏移。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display moons by default when viewing this calendar.",
+                    "target": "查看此日历时默认显示月亮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "A new year will begin the date this era starts.",
+                    "target": "新的一年将从此纪元开始的日期起算。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When seasonal colors are displayed, show a gradient between one color and the next.",
+                    "target": "显示季节颜色时，在相邻颜色之间显示渐变。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Offset the first season from the start of the year. An offset of 0 means the seasons start on 1/1/0001.",
+                    "target": "将第一个季节从年初开始偏移。偏移为 0 表示季节从 1/1/0001 开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Evenly distribute the year between your seasons, taking into account month length and leap days.",
+                    "target": "在考虑月份长度和闰日的情况下，将一年在各季节之间均匀分配。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show seasonal colors on the calendar. Can be changed using the calendar settings menu.",
+                    "target": "在日历上显示季节颜色。可通过日历设置菜单更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A calendar for the real world.",
+                    "target": "一个面向真实世界的日历。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "At the summer solstice, the Sun travels the longest path through the sky, and that day therefore has the most daylight.",
+                    "target": "在夏至，太阳在天空中行经的路径最长，因此这一天的日照时间最多。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The winter solstice marks the shortest day and longest night of the year, when the sun is at its lowest arc in the sky.",
+                    "target": "冬至标志着一年中白昼最短、黑夜最长，此时太阳在天空中的弧度最低。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The equinox marks the day and the night is equally as long.",
+                    "target": "春分标志着白天与夜晚等长。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Christmas is a Christian holiday celebrating the birth of Christ. Due to a combination of marketability and long lasting traditions it is popular even among many non-Christians, especially in countries that have a strong Christian tradition.",
+                    "target": "圣诞节是基督教庆祝基督诞生的节日。由于商业推广与长期传统的共同作用，它在许多非基督徒中也很受欢迎，尤其是在具有深厚基督教传统的国家。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The first full moon after march 21st, which is considered the fixed date for the spring equinox.",
+                    "target": "3月21日之后的第一个满月，3月21日被视为春分的固定日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Easter is considered the most important feast for Christians, celebrating the resurrection of Christ. It is classed as a moveable feast occurring on the first full moon after the spring equinox, which is considered to be fixed at March 21st for the sake of computing the date.",
+                    "target": "复活节被视为基督徒最重要的节日，庆祝基督的复活。它属于可移动节日，发生在春分之后的第一个满月，为便于计算日期，春分被固定为3月21日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Monday following the Easter Sunday is often considered part of the Easter Celebration and is a day off in many countries with a strong Christian tradition.",
+                    "target": "复活节主日后的星期一通常被视为复活节庆祝的一部分，在许多具有深厚基督教传统的国家是休息日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Celebrated exactly 50 days after Easter, Pentecost is the celebration of the Holy Spirit appearing before the Apostles as described in the Bible.",
+                    "target": "五旬节在复活节后第50天庆祝，是对《圣经》中圣灵显现在使徒面前的纪念。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New Year's Day marks the date of a new year on the Gregorian Calendar. It dates when the clock strikes midnight and is often celebrated with fireworks, champagne and kissing.",
+                    "target": "元旦标志着公历新一年的开始。它始于午夜钟声敲响之时，常以烟花、香槟和亲吻来庆祝。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Halloween is holiday popular in the US, Canada and Ireland that has gradually been adopted by more and more countries. It is often celebrated by people dressing up, usually as something scary. Children will often go from door to door shouting \"trick or treat\" in the hopes of receiving candy, while adults tend to go to parties.",
+                    "target": "万圣节是一个在美国、加拿大和爱尔兰很受欢迎的节日，逐渐被越来越多国家所接受。人们常通过化装来庆祝，通常扮成可怕的形象。孩子们常挨家挨户喊着“不给糖就捣蛋”以索取糖果，而成人则多参加派对。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "On this day in 1582 the Gregorian calendar was officially introduced, following Thursday October 4th on the Julian Calendar",
+                    "target": "1582年的这一天，公历被正式引入，紧接着儒略历的10月4日星期四。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create the calendar of Oerth",
+                    "target": "创建Oerth历法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The 4th of Growfest is the first day of Low Summer in Oerth's Calendar. This is the point where the sun crosses Oerth's equator. Holidays celebrated on this date include Saint Cuthbert's Day, the Feast of Edoira, the Spring Feast, and Raxivort's Orgy. This is also the day on which the priests of Tlaloc ritually sacrifice and eat the flesh of human children or babies in their patron's honor. Worshippers of Rillifane Rallathil celebrate the Budding on this day, a joyful celebration of new life celebrated through dance and song in oak groves in the heart of the forest. A ritual hunt of a noble heart is held on this day, after which the venison is eaten in celebration of Rillifane's bounty.\n\nAlso celebrated on this date is the Sanctification of Renewal, a sacred holiday to the followers of Garyx.",
+                    "target": "Growfest 4日是Oerth历法中低夏的第一天。这是太阳穿越Oerth赤道之时。此日庆祝的节日包括Saint Cuthbert's Day、Feast of Edoira、Spring Feast以及Raxivort's Orgy。这一天也是Tlaloc的祭司为纪念其守护神而仪式性地祭献并食用人类儿童或婴儿肉的日子。Rillifane Rallathil的信徒在这一天庆祝Budding，这是在森林中心的橡树林中以歌舞庆祝新生命的欢乐节日。这一天还会举行一场高贵之心的仪式性狩猎，之后以食用鹿肉来庆祝Rillifane的馈赠。\n\n同日还会庆祝Sanctification of Renewal，这是Garyx信徒的神圣节日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\tAt the summer solstice, the Sun travels the longest path through the sky, and that day therefore has the most daylight.",
+                    "target": "\t在夏至，太阳在天空中走过最长的路径，因此这一天的日照时间最长。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The 4th of Brewfest is the Autumnal Equinox, when the sun crosses the equator from north to south. This date is the official end of high summer and the beginning of autumn on the Greyhawk Calendar. This date is holy to Wenta and is sometimes regarded as an unofficial holy day of Velnius. Among the xvarts, it also marks the celebration of Raxivort's Orgy. The worshippers of Rillifane Rallathil celebrate the Transformation on this day, a time of dancing and spiritual rebirth marking the beginning of autumn and the promise that spring will come again.",
+                    "target": "Brewfest 4日是秋分，太阳从北向南穿越赤道。这一天在Greyhawk历法中标志着盛夏的正式结束和秋季的开始。这一日期对Wenta而言是神圣的，有时也被视为Velnius的非官方圣日。在xvarts之中，这一天也标志着Raxivort's Orgy的庆典。Rillifane Rallathil的信徒在这一天庆祝Transformation，这是一个以舞蹈和精神再生为主题的时刻，标志着秋季的开始并承诺春天将再度来临。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The night of Great Moon's Glory on Readying 11th, when Luna is full but Celene is new. It is holy to Celestian, and a time when offerings are left to Atroa to beg her to come early and to Telchur to request that he peacefully leave. Druids of the Old Faith are known to also hold this night as auspicious, but few outside their circles know the details.",
+                    "target": "Readying 11日的Great Moon's Glory之夜，此时Luna为满月而Celene为新月。这一夜对Celestian而言神圣，人们会向Atroa献供以祈求她早日来临，并向Telchur祈请他安然离去。旧信仰的德鲁伊也认为这一夜吉祥，但圈外人很少知道其细节。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Feast of Edoira is a holiday celebrated in the Domain of Greyhawk on Growfest 4, during the Spring Equinox. It is named after Edoira, a priest of Rao who centuries ago established the Edoiran Compact, a pact by which many of the lawful good-aligned faiths and people of the Domain could agree to cooperate. The Compact was later extended to non-lawful good and neutral faiths.\n\nEdoira was never deified but was revered by many good faiths in the Domain. The holiday was marked by religious services on Godsday of Growfest led by the clerics of the good faiths who partook of the Compact, and secular festivals by the ordinary citizenry. Observance of the holiday has declined over the years, though the clergies of Rao and Pelor still hold their traditional interfaith services, with occasional participation by the priesthoods of Heironeous and Mayaheine. Since the end of the Greyhawk Wars most of the Domain's outlying communities no longer observe the holiday. Only one church in Safeton still does so.",
+                    "target": "Feast of Edoira是在Greyhawk领地于Growfest 4日（春分期间）庆祝的节日。它以Rao的牧师Edoira命名，Edoira在数百年前建立了Edoiran Compact，这是一项使领地内许多守序善良阵营的信仰与人民同意合作的契约。该契约后来扩展到非守序善良与中立的信仰。\n\nEdoira从未被神化，但在领地内许多善良信仰中备受尊崇。该节日的标志是在Growfest的Godsday，由参与契约的善良信仰神职人员主持宗教仪式，以及普通市民的世俗庆典。多年来对该节日的遵行逐渐减少，尽管Rao与Pelor的神职人员仍会举行传统的跨信仰仪式，偶尔有Heironeous与Mayaheine的祭司参与。自Greyhawk Wars结束后，领地的大多数边远社区不再庆祝该节日，只有Safeton的一座教堂仍然遵行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Holy Day of Serenity, on Reaping 10, is celebrated in Veluna as a holy day of Rao, though it's actually the anniversary of Veluna's secession from Furyondy in 476 CY. It is celebrated with religious singing and worship.",
+                    "target": "宁静圣日于收获月10日举行，在维鲁纳被庆祝为饶的圣日，尽管实际上这是维鲁纳于476 CY从弗尤隆迪分离的周年纪念。人们以宗教歌唱和礼拜来庆祝。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Calendar for the world of Pathfinder.",
+                    "target": "《开拓者》世界的日历。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Longnight is a holiday celebrated on the full moon in the winter month of Abadius. During the festival, revelers stay up all night to greet the dawn to defy the long winter months. It is even celebrated in Irrisen, where there are no natural seasons.",
+                    "target": "长夜节是在冬月阿巴迪乌斯的满月之夜庆祝的节日。节日期间，狂欢者整夜不眠迎接黎明，以对抗漫长的冬季。即便在没有自然季节的伊里森也会庆祝。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Abadar\n\nVault Day is a holiday held on 6 Abadius in honor of Abadar, Master of the First Vault.",
+                    "target": "阿巴达尔\n\n宝库日是在阿巴迪乌斯月6日举行的节日，以纪念第一宝库之主阿巴达尔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pharasma\n\nPriests and worshipers of the Lady of Graves parade the bodies of the recently dead on this holiday, holding free burials afterwards.",
+                    "target": "法拉丝玛\n\n在这个节日里，坟墓女士的祭司与信徒会游行展示新近亡者的遗体，之后提供免费安葬。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Korvosa\n\nSable Company Founding Day is a holiday marking the founding of the Sable Company of the Varisian city-state of Korvosa. Celebrated on 6 Pharast, the day is marked by somber military parades that generally preclude the consumption of alcohol, a staple on most other holidays.",
+                    "target": "科沃萨\n\n黑貂公司成立日是纪念瓦瑞西亚城邦科沃萨的黑貂公司成立的节日。于法拉斯特月6日庆祝，这一天以肃穆的军队游行作为标志，通常会禁止饮酒——而这在大多数其他节日中是常见之物。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gozreh\n\nFirstbloom is a holiday celebrating the first planting of the agricultural season, and generally associated with the weather god Gozreh. It falls on the vernal equinox. Many farming communities see it as the beginning of the year, even though conventional calendars begin two months earlier. Despite weariness after a full day planting, many farming communities hold celebrations come the night: feasting, dancing and courtship feature showing the cycle of nature.",
+                    "target": "戈兹瑞\n\n初芽节是庆祝农耕季首次播种的节日，通常与天气之神戈兹瑞相关。它落在春分之日。许多农业社区把它视为新年的开始，尽管传统日历早两个月就已开始。尽管劳作一日后疲惫不堪，许多农社到了夜晚仍会举行庆典：盛宴、舞蹈与求偶等活动展现自然的循环。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gozreh\n\nOn this religious holiday, all who travel on the water make offerings to Gozreh in the hopes of safe passage for the coming year.",
+                    "target": "戈兹瑞\n\n在这个宗教节日里，所有水上旅行者都会向戈兹瑞献祭，以祈求来年行程平安。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Absalom\n\nOne of two local festivals where kite-battlers compete.",
+                    "target": "阿布萨罗姆\n\n当地两大风筝对战节之一。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sarenrae\n\nThe holy, month-long festival ends on this day, featuring dances with flaming blades.",
+                    "target": "莎伦瑞\n\n为期一月的圣祭在这一天结束，特色是挥舞燃烧刀刃的舞蹈。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Andoran, Milani\n\nHoliday celebrating Andoran's independence. Milanites celebrate that very little violence occurred.",
+                    "target": "安多兰，米拉妮\n\n庆祝安多兰独立的节日。米拉妮的信徒庆祝其中几乎未发生暴力。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Andoran\n\nThe Eagle Knights perform aerial displays in Almas on this day.",
+                    "target": "安多兰\n\n当天，鹰骑士会在阿尔玛斯进行空中表演。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Korvosa\n\nAn early summer holiday that honors a cooling shift in the winds, celebrated with much drinking.",
+                    "target": "科沃萨\n\n初夏的节日，纪念风向转凉的变化，以大量饮酒庆祝。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ustalav\n\nThe Day of Silenced Whispers is an Ustalavic holiday celebrated every 9 Arodus marking the defeat of the Whispering Tyrant in 3827 AR by the coalition forces of the Shining Crusade and the liberation of the country after centuries of undead domination.",
+                    "target": "乌斯塔拉夫\n\n寂语之日是乌斯塔拉夫的节日，于阿罗杜斯月9日庆祝，纪念在3827 AR，辉耀十字军的联军击败低语暴君，并在经历数世纪不死统治后解放该国。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ilsurian, Varisia\n\nFestival celebrating the founding by Ilsur of the town of Ilsurian in 4631 AR.",
+                    "target": "伊尔苏里安，瓦瑞西亚\n\n庆祝伊尔苏于4631 AR建立伊尔苏里安镇的节日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aroden, Iomedae, Milani\n\nThe raucous, week-long festival known as Armasse is held each year beginning on 16 Arodus. The celebration \\u2014 once dedicated to the god Aroden \\u2014 is still important to the faithful of Iomedae, who use it to train commoners in combat, ordain apprentice clergy, pick squires for knights, and teach military history, hoping to prevent the mistakes of the past from being repeated. Among those not dedicated to the Inheritor the holiday has lost most of its religious significance since Aroden's death, tending now only toward wild partying, a fact that has precluded the diabolist authorities of Cheliax from prohibiting Armasse outright. Nevertheless, in places where the church of Asmodeus is openly allowed, it hosts special activities for its parishioners during the same week in an effort to counter the influence of the holiday. The city of Corentyn is especially known for its extravagant Armasse festivities.",
+                    "target": "Aroden, Iomedae, Milani\n\n喧闹、持续一周的节日“阿玛塞”每年于阿罗德斯月16日开始举行。该庆典\\u2014曾献给神祇阿罗登\\u2014对艾奥美黛的信徒仍很重要，他们借此训练平民战斗、按立见习教士、为骑士挑选侍从，并教授军事史，希望避免重蹈覆辙。对不信奉“继承者”的人来说，自阿罗登死后这一节日已失去大部分宗教意义，如今更趋向于狂欢作乐，这也使切利亚斯的恶魔崇拜当局无法完全禁止阿玛塞。尽管如此，在阿斯莫德斯教会被公开允许的地方，它会在同一周为教民举办特别活动，以对抗该节日的影响。科伦廷城尤以其奢华的阿玛塞庆典闻名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Korvosa\n\nQuiet holiday honoring the birth of Saint Alika the Martyr.",
+                    "target": "科沃萨\n\n纪念殉道者圣阿莉卡诞生的宁静节日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Korvosa\n\nFounding Festival is a local Korvosan celebration marking the establishment of the city in 4407 AR. Held annually on 14 Erastus, the festival is a chance for the citizens to let off some steam, drink copiously, and watch magical light shows late into the night.",
+                    "target": "科沃萨\n\n建城节是科沃萨当地的庆典，纪念该城于AR 4407年建立。每年伊拉图斯月14日举行，为市民提供发泄压力、畅饮并欣赏深夜魔法灯光秀的机会。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Festival of Night's Return\n\nNidal\n\nCelebrated throughout Nidal, this holiday involves the burning of effigies and self-flagellation.\n\nSwallowtail Festival\n\nDesna\n\nHoliday celebrated with storytelling, feasting, and the release of butterflies.\n\nWaning Light Festival\n\nSegada\n\nAlso called Blessing of the Sun and Night of Spirits, participants bid farewell to the long days of sunshine with feasting, dancing, and music.",
+                    "target": "夜归节\n\n尼达尔\n\n在整个尼达尔庆祝的节日，包括焚烧人偶和自我鞭笞。\n\n燕尾蝶节\n\n德丝娜\n\n以讲故事、盛宴和放飞蝴蝶来庆祝的节日。\n\n光衰节\n\n塞加达\n\n亦称“太阳的祝福”与“灵之夜”，参与者以盛宴、舞蹈与音乐告别漫长的晴日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Korvosa\n\nCrabfest is a Korvosan holiday held on the first Wealday of Rova. It celebrates the return of the crabs from the cooler waters of the Jeggare River to their winter habitat in Conqueror's Bay, and is marked by crab boil feasts held throughout the city and its surrounding communities.",
+                    "target": "科沃萨\n\n蟹节是科沃萨的节日，于罗瓦月第一个韦尔日举行。它庆祝螃蟹从杰加河较冷水域回到征服者湾的冬季栖息地，并以全城及周边社区举办的煮蟹盛宴为标志。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Irrisen\n\nThis \"celebration of plenty\" festival mocks the traditional harvest festivals celebrated in the region before Baba Yaga and her eternal winter descended upon the land.",
+                    "target": "伊里森\n\n这场“丰饶庆典”节日嘲弄了巴巴雅加与她的永恒寒冬降临此地之前该地区的传统丰收节。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ydersius\n\nOnce many holidays were celebrated by the faith of Ydersius, but today only this date has much significance.",
+                    "target": "伊德西乌斯\n\n过去伊德西乌斯信众曾庆祝诸多节日，但如今仅此日期仍具重要意义。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Jalmeri\n\nAdmani Upastuti is a Jalmeri holiday celebrated on the first full moon of Lamashan that marks the founding of Jalmeray as a Vudran colony.",
+                    "target": "贾尔梅里\n\n阿德玛尼·乌帕斯图提是贾尔梅里的节日，于拉玛尚月的第一个满月庆祝，纪念贾尔梅雷作为瓦德兰殖民地的建立。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Solku\n\nBastion Day is a two-day festival held annually on 19 and 20 Lamashan in the Katapeshi town of Solku honoring the founding of the town, when it is traditional to host a stranger from one noon until the next.",
+                    "target": "索尔库\n\n堡垒节是卡塔佩什城镇索尔库每年拉玛尚月19日至20日举行的两日节庆，以纪念该镇的建立，传统上会从一个中午招待一位陌生人直到次日中午。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Absalom\n\nThe second of two local festivals where kite-battlers compete.",
+                    "target": "阿布萨罗姆\n\n两项本地风筝斗士竞赛节庆中的第二个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Galt\n\nMarks the beginning of the Red Revolution.",
+                    "target": "盖尔特\n\n标志红色革命的开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nethys\n\nAbjurant Day occurs on 8 Neth and is known as a day of cooperation between neighbors to shore up mutual defenses and train allies in magic. Potential apprentices are often tested on the day.",
+                    "target": "内希斯\n\n防护日于内斯月8日举行，是邻里协作巩固共同防御并训练盟友魔法的一天。潜在学徒常在当天接受测试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Irrisen\n\nIn the Irriseni Baptism of Ice, an annual fertility festival held from the 24th to the 30th of Neth, locals parade all children born during the year through the town in fine clothes. In most towns, the festival ends with a symbolic sacrifice of a child to the cold. However, in Whitethrone and Irrisen's provincial capitals, a peasant child is killed through exposure.",
+                    "target": "伊里森\n\n在伊里森的冰之洗礼中，这是一年一度的生育节，於内斯月24日至30日举行。当地人会让当年出生的所有孩子穿着华服游行穿过城镇。在大多数城镇，节日以象征性地把一个孩子献祭给寒冷作为结束。然而在白王座城及伊里森各省会，实际会让一名农民孩子因暴露在严寒中而丧生。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Traditional feast; time for courting and spending time with friends.",
+                    "target": "传统宴会；用于求爱与与朋友相聚的时刻。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Korvosa\n\nKorvosa's Pseudodragon Festival, a holiday celebrated annually on 7 Kuthona, marks the winter migration of wild pseudodragons from the Mindspin Mountains to Conqueror's Bay, which inspires the creatures already in the city\\u2014even those domesticated\\u2014to play with their wild kin in the skies over the city. Locals mark the day with a joyous inebriation.",
+                    "target": "科沃萨\n\n科沃萨的伪龙节是每年库索纳月7日庆祝的节日，纪念野生伪龙从脉旋山脉迁徙至征服者湾越冬，这也激励城中已有的生物\\u2014即便是被驯化的\\u2014与其野生同族在城市上空嬉戏。当地人以欢快的酩酊庆祝这一天。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Naderi\n\nHoliday celebrating Naderi's ascension. Celebrations are typically understated but include readings of The Lay of Arden and Lysena.",
+                    "target": "Naderi\n\n庆祝纳德里升神的节日。庆祝活动通常较为低调，但会诵读《阿登与利瑟娜之歌》。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Groetus\n\nCultists of Groetus perform an hour's silence at dusk on the last day of the year and seek guidance from their god about the End Time.",
+                    "target": "Groetus\n\n格罗图斯的信徒在年末最后一天的黄昏保持一小时的沉默，并向他们的神祈求有关末日的指引。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Erastil\n\nThis holy week to the god Erastil is a time of heavy work in the fields for farmers.",
+                    "target": "Erastil\n\n这是一周献给神埃拉斯提尔的圣期，对农民而言是田间劳作繁重的时节。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Norgorber\n\nDay marking the apotheosis of the Reaper of Reputation.",
+                    "target": "Norgorber\n\n纪念“名誉收割者”登神的日子。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gruhastha\n\nCelebration of the revelation of the Azvadeva Pujila, with gifts of books, celebrations of knowledge, blessing of animals, and a vegetarian feast.",
+                    "target": "Gruhastha\n\n庆祝阿兹瓦德瓦·普吉拉的显现，包括赠送书籍、崇尚知识的庆典、为动物祝福，以及一场素食盛宴。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Andoran\n\nA market day that focuses on unusual crafts and offers games to children who dress up for the occasion.",
+                    "target": "Andoran\n\n一个以罕见工艺品为主的集市日，并为盛装打扮的孩子们提供游戏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Andoran\n\nSilverglazer Sunday is a two-part Andoren national festival that is held on the last Sunday of Arodus and the first Sunday of Rova every year. Celebrants spend the two Sundays fishing, holding swimming competitions, and making enormous puppets.",
+                    "target": "Andoran\n\n“银釉星期日”是安多伦的双段全国性节庆，每年在阿罗德斯的最后一个星期日和罗瓦的第一个星期日举行。庆祝者在这两个星期日钓鱼、举办游泳比赛，并制作巨型木偶。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Calendar of the world of Eberron.",
+                    "target": "艾伯伦世界的日历。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Tain Gala is a notable event held on the first Far of each month in Sharn.",
+                    "target": "坦因盛会是在夏恩每月第一个法尔日举办的重要活动。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The longest night of the year.",
+                    "target": "一年中最长的一夜。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Purified new year; a night for spiritual vigil and guarding against evil. ",
+                    "target": "净化者的新年；一个守夜冥想并防御邪恶的夜晚。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "On this day each year, the Purified celebrate the lives and sacrifice of all followers of the Flame who died while fighting evil and protecting the faithful. ",
+                    "target": "每年的这一天，净化者纪念所有在对抗邪恶、守护信众时牺牲的圣焰追随者的生命与奉献。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "On this day, the Silver Flame work, give gifts, and partake in joyous celebration out of thankfulness for the new planting season and the birth of Tira Miron - the Voice of the Silver Flame.",
+                    "target": "在这一天，银焰信徒劳作、赠礼并欢庆，以感谢新的播种季节以及蒂拉·米隆——银焰之声——的诞生。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Sovereign Host enjoys this festival of peace, and of setting aside differences, in the name of Dol Arrah.",
+                    "target": "主权众神在多尔·阿拉的名义下享受这场和平之节，并暂时搁置分歧。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "An old and misunderstood, yet immensely popular, holiday wherein followers of the Silver Flame gather to share pastries and treats created by bakers within their fold. ",
+                    "target": "一个古老且被误解、却极受欢迎的节日，银焰信徒聚集在一起分享由本教烘焙师制作的点心与甜品。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A controversial holiday outside of the Silver Flame faith, on this day the Purified honor the Silver Flame for the promise of paradise. They also honor (without worship) the Sovereign Host for having created the world, before stepping aside to allow the Flame its rightful place as the last god of Eberron.  ",
+                    "target": "作为白银之焰信仰之外颇具争议的节日，在这一天，净化者为天堂的承诺而敬奉白银之焰。他们也会（不进行崇拜地）致敬主权诸神，感谢其创造了世界，并在随后退位，让焰火获得其作为艾伯伦最后神明的应有地位。  "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Sovereign Host celebrate Balinor with communal hunts of dangerous creatures. \n\nIn Sharn, a dangerous beast*, whose transport to the city was arranged by the priests of Balinor, is released into the Depths of the Lower-City. Open to any who would participate (and pay an entry fee in the form of a 5gp donation), the victor must return with the beast's head to receive a 500gp purse, local fame, and the blessing of Balinor. \n\n\n\n*often a singular beast, it can be several - which then requires the victor to return with the most skins. ",
+                    "target": "主权诸神以集体狩猎危险生物来庆祝巴利诺。 \n\n在沙恩，一只危险的野兽*（由巴利诺的祭司安排运送进城）被放入下城深处。任何人都可参与（并以 5gp 捐款作为报名费），胜者必须带回兽首，方可获得 500gp 的奖金、本地声望以及巴利诺的祝福。 \n\n\n\n*通常是一只野兽，也可能有多只——这时胜者必须带回最多的兽皮。 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "With the The Fury (the Sovereign of Passion and Madness) reaching the height of her power on this night, people find it difficult to control or restrain their impulses - once the sun sets, public revelry in the streets climbs to joyous or, all too often, dangerous levels, calming only as the sun rises on the following morning. ",
+                    "target": "在这夜，“狂怒”（激情与疯狂的主权者）力量达到巅峰，人们很难控制或抑制冲动——太阳一落山，街头的公开狂欢便升至欢腾、或（太过频繁地）危险的程度，直到次日清晨日出才会平息。 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Though one of the least high holy days, it is marked by brief prayers and church services in the honor of the birth of Saint Voltros - the first paladin called to only serve the Silver Flame.",
+                    "target": "虽是最不重要的圣日之一，但会以简短的祷告与教会礼拜来纪念圣沃尔特罗斯的诞生——他是首位被召唤仅侍奉白银之焰的圣武士。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "On this day in 996, the Treaty of Thronehold was signed, formally ending the Last War. Annual celebratory feasts are held throughout the Five Nations to mark this auspicious and long-awaited event. ",
+                    "target": "996 年的这一天，《王座堡条约》签署，正式结束了终末之战。五国各地每年都会举行庆祝宴会，以纪念这一吉祥且久盼的事件。 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "As dark magic dominates over these three days of the Long Shadows, the myth of Sovereign Lord Aureon's stolen shadow is forefront in the minds of the people. Most will spend these days indoors huddled around the warmth of a fire, but those few who worship the dark deity use this time to prey upon the weak and the foolish. ",
+                    "target": "在长影这三天里黑暗魔法占据上风，主权之主奥瑞安影子被盗的神话便占据人们心头。大多数人会在室内围火取暖度过，但少数崇拜黑暗神祇者会趁此时机掠夺弱者与愚者。 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The spring equinox is when the day and the night are equally as long, and are getting longer.",
+                    "target": "春分时，白昼与夜晚等长，且白昼在逐渐变长。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The autumn equinox is when the day and the night are equally as long, and are getting shorter.",
+                    "target": "秋分时，白昼与夜晚等长，且白昼在逐渐变短。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Calendar of the realm of Barovia, home of Strahd.",
+                    "target": "巴罗维亚王国的历法，斯特拉德的故乡。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Winter Solstice is the day of the year with the least time between sunrise and sunset. Many western cultures consider it the official date of winter.",
+                    "target": "冬至是一年中日出与日落间隔最短的一天。许多西方文化将其视为冬季的正式日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Summer Solstice is the day of the year with the most time between \nsunrise and sunset. Many western cultures consider it the official date\n of summer.",
+                    "target": "夏至是一年中日出与日落间隔最长的一天。许多西方文化将其视为夏季的正式日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Spring Equinox,\nalso called the Vernal Equinox, is the day between the winter and\nsummer solstices where the day is the exact same length as the night.\nMany western cultures consider it the official date of Spring.\n",
+                    "target": "春分，\n又称春分点，是冬至与夏至之间昼夜等长的一天。\n许多西方文化将其视为春季的正式日期。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The Autumnal Equinox,\nalso called the Fall Equinox, is the midpoint between the summer and\nwinter solstices, where the day is the exact same length as the night.\nMany western cultures consider it the official date of Autumn.\n",
+                    "target": "秋分，\n又称秋分点，是夏至与冬至之间的中点，昼夜等长。\n许多西方文化将其视为秋季的正式日期。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New Year's day marks the date of a new year.",
+                    "target": "元旦标志着新一年的开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This holiday is up to the calendar owner to decide what it is for! :)",
+                    "target": "这个节日由日历所有者决定其用途！:)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Spring begins early in the month of Dualahei, officially dateing on the 13th with the Renewal Festival.",
+                    "target": "春天在Dualahei月初开始，官方日期为13日的Renewal Festival。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Moradin's holy day is Deep Solace, which is celebrated on the eighteenth day of the fifth month. Especially devout followers of the All-Hammer spend the day in isolation, meditating on the meaning of family and how they may be better mothers, fathers, siblings, and children.\n\nThe dwarven communities across Exandria, such as the ones in Grimgolir and Kraghammer, celebrate with a full day of feasting and drinking.\\xA0",
+                    "target": "Moradin的圣日是Deep Solace，在第五个月的第十八日庆祝。尤其虔诚的All-Hammer信徒会独自度过这一天，冥想家庭的意义以及他们如何成为更好的母亲、父亲、兄弟姐妹和孩子。\n\n埃克桑德里亚各地的矮人社区，例如Grimgolir和Kraghammer的社区，以整日的盛宴和饮酒来庆祝。\\xA0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Summer begins in the middle of Unndilar, officially dateing at noon on the 26th day known as the Zenith.",
+                    "target": "夏季在Unndilar月中开始，官方日期为第26天中午，称为Zenith。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Autumn begins on the 3rd of Fessuran and is typically celebrated with feasting in rural regions and with carnivals in the cities. ",
+                    "target": "秋季在Fessuran的第3日开始，通常在乡村以盛宴庆祝，在城市则以狂欢节庆祝。 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This day celebrates the freedom of Tal'Dorei from Errevon the Rimelord. It is the peak of the winter season, so devout followers of the Matron of Ravens (as the goddess of winter) consider it to be one of her holy days.\n\nHowever, in most of the land, people see Winter's Crest as a secular holiday, often celebrated with omnipresent music in public areas, lavish gift-giving to relatives and loved ones, and the cutting and decorating of trees placed indoors. The Sun Tree in Whitestone is often decorated with lights and other baubles for Winter's Crest.",
+                    "target": "这一天庆祝Tal'Dorei摆脱冰霜领主Errevon的自由。它是冬季的顶峰，因此乌鸦女神的虔诚信徒（作为冬季女神）将其视为她的圣日之一。\n\n然而，在大多数地区，人们把Winter's Crest视为世俗节日，常在公共场所播放无处不在的音乐，向亲友赠送丰厚礼物，并砍伐并装饰摆在室内的树木。Whitestone的Sun Tree常为Winter's Crest装点灯饰和其他饰物。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Calendar of Faerûn of the Forgotten Realms.",
+                    "target": "被遗忘的国度中费伦的历法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "The calendar must have a name",
+                    "target": "日历必须有名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Invalid current date specified",
+                    "target": "当前日期无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "At least one weekday is required",
+                    "target": "至少需要一个星期几"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "At least one month is required",
+                    "target": "至少需要一个月份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "At least one condition is required",
+                    "target": "至少需要一个条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "At least one year is required when using custom years",
+                    "target": "使用自定义年份时至少需要一个年份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Your seasons are not fully distributed and could drift over time.",
+                    "target": "你的季节分布不均，随着时间可能会偏移。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new event category to see it here.",
+                    "target": "创建新的事件类别以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new event to see it here.",
+                    "target": "创建新的事件以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new weekday to see it here.",
+                    "target": "创建新的工作日以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new month to see it here.",
+                    "target": "创建新的月份以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new leap day to see it here.",
+                    "target": "创建新的闰日以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new year to see it here.",
+                    "target": "创建新的年份以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new moon to see it here.",
+                    "target": "创建新的月亮以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new era to see it here.",
+                    "target": "创建新的纪元以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new season to see it here.",
+                    "target": "创建新的季节以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Create a new location to see it here.",
+                    "target": "创建新的地点以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gregorian Calendar",
+                    "target": "公历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leap Day",
+                    "target": "闰日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Summer Solstice",
+                    "target": "夏至"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Winter Solstice",
+                    "target": "冬至"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Spring Equinox",
+                    "target": "春分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Autumn Equinox",
+                    "target": "秋分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paschal Full Moon",
+                    "target": "逾越节满月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Easter Monday",
+                    "target": "复活节星期一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Good Friday",
+                    "target": "耶稣受难日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Year's Day",
+                    "target": "元旦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Valentine's Day",
+                    "target": "情人节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Introduction of the Gregorian Calendar",
+                    "target": "格里高利历的引入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Natural Events",
+                    "target": "自然事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Christian Holidays",
+                    "target": "基督教节日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Secular Holidays",
+                    "target": "世俗节日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Historical Events",
+                    "target": "历史事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Miscellaneous Events",
+                    "target": "其他事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calendar of Greyhawk",
+                    "target": "灰鹰历法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Common Year",
+                    "target": "平年"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Great Moons Glory",
+                    "target": "大月之荣光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dark Night",
+                    "target": "暗夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Blood Moon Festival",
+                    "target": "血月节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Breadgiving Day",
+                    "target": "面包馈赠日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Feast of Edoira",
+                    "target": "埃多伊拉盛宴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Desportium of Magic",
+                    "target": "魔法竞技节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Holy Day of Pelor",
+                    "target": "佩洛尔圣日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Holy Day of Serenity",
+                    "target": "宁静圣日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Religious Holidays",
+                    "target": "宗教节日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Magical Events",
+                    "target": "魔法事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calendar of Golarion",
+                    "target": "格拉里昂历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Age of Serpents",
+                    "target": "蛇之纪元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Age of Darkness",
+                    "target": "黑暗纪元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Age of Anguish",
+                    "target": "苦难纪元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Age of Destiny",
+                    "target": "命运纪元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Age of Lost Omens",
+                    "target": "失落预兆纪元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eternal Kiss",
+                    "target": "永恒之吻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Foundation Day",
+                    "target": "建国日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pjallarane Day",
+                    "target": "皮亚拉兰日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vault Day",
+                    "target": "宝库日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ruby Prince's Birthday",
+                    "target": "红宝石亲王诞辰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "King Eodred II's Birthday",
+                    "target": "埃奥德雷德二世国王诞辰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Loyalty Day",
+                    "target": "忠诚日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fateless Day",
+                    "target": "无命者之日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Day of Bones",
+                    "target": "骨之日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sable Company Founding Day",
+                    "target": "黑貂公司成立日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Night of Tears",
+                    "target": "泪之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Conquest Day",
+                    "target": "征服日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Days of Wrath",
+                    "target": "怒火之日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "First Cut",
+                    "target": "第一刀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wrights of Augustana",
+                    "target": "奥古斯塔纳的赖特家族"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gala of Sails",
+                    "target": "帆船盛典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Angel Day",
+                    "target": "天使日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Old-Mage Day",
+                    "target": "古法师日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multiple Events",
+                    "target": "多个活动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Burning Blades",
+                    "target": "燃烧之刃"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Liberty Day",
+                    "target": "自由日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Talon Tag",
+                    "target": "利爪标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Riverwind Festival",
+                    "target": "河风节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inheritor's Ascendance ",
+                    "target": "继承者的升格 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "First Crusader Day",
+                    "target": "第一十字军日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Day of Silenced Whispers",
+                    "target": "沉默低语之日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Founding Day",
+                    "target": "建国日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saint Alika's Birthday",
+                    "target": "阿利卡圣人诞辰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Founding Festival",
+                    "target": "建国庆典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Burning Night",
+                    "target": "燃烧之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kianidi Festival",
+                    "target": "基亚尼迪节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Harvest Moon",
+                    "target": "丰收之月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Signing Day",
+                    "target": "签署日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Feast of Szurpade",
+                    "target": "苏尔帕德盛宴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Day of Sundering",
+                    "target": "裂分之日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Admani Upastuti",
+                    "target": "阿德玛尼·乌帕斯图蒂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ascendance Day",
+                    "target": "升华日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bastion Day",
+                    "target": "堡垒日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Feast of the Survivors",
+                    "target": "幸存者盛宴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kraken Carnival",
+                    "target": "克拉肯狂欢节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Independence Day",
+                    "target": "独立日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Seven Veils",
+                    "target": "七重面纱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abjurant Day",
+                    "target": "防护日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Even-Tongued Day",
+                    "target": "巧舌日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Evoking Day",
+                    "target": "唤起日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Baptism of Ice",
+                    "target": "冰之洗礼"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Winter Week",
+                    "target": "冬季周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Shadowchaining",
+                    "target": "暗影锁链仪式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pseudodragon Festival",
+                    "target": "伪龙节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ascension Day",
+                    "target": "升华日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Final Day",
+                    "target": "终末日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Night of the Pale",
+                    "target": "苍白之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Turning Day",
+                    "target": "转折日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ritual of Stardust",
+                    "target": "星尘仪式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Planting Week",
+                    "target": "播种周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ascendance Night",
+                    "target": "升华之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Azvadeva Dejal",
+                    "target": "阿兹瓦德瓦·德贾尔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Goblin Flea Market",
+                    "target": "地精跳蚤市场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Breaching Festival",
+                    "target": "破界节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Silverglazer Sunday",
+                    "target": "银晶守望主日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batul al-Alim",
+                    "target": "巴图尔·阿尔-阿利姆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calendar of Galifar",
+                    "target": "加利法尔历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Tain Gala - Sharn",
+                    "target": "泰恩盛会 - 沙恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Revelation Day - Blood of Vol",
+                    "target": "启示日 - 沃尔之血"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rebirth Eve - The Silver Flame",
+                    "target": "重生前夜 - 银焰教会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crystalfall - Sharn",
+                    "target": "晶落节 - 沙恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bright Souls' Day - The Silver Flame",
+                    "target": "明魂日 - 银焰教会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Day of Mourning - Sharn",
+                    "target": "哀悼之日 - 沙恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tirasday - The Silver Flame",
+                    "target": "提拉斯日 - 银焰教会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sun's Blessing - The Sovereign Host",
+                    "target": "太阳祝福 - 主权诸神"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Initiation Day - The Silver Flame",
+                    "target": "入会日 - 银焰教会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Baker's Night - The Silver Flame",
+                    "target": "烘焙之夜 - 银焰教会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aureon's Crown - Sharn and The Sovereign Host",
+                    "target": "奥瑞昂之冠 - 沙恩与主权诸神"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Promisetide - The Silver Flame",
+                    "target": "许诺潮 - 银焰教会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brightblade - Sharn and The Sovereign Host",
+                    "target": "光刃节 - 沙恩与主权诸神"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "First Dawn - The Silver Flame",
+                    "target": "初曦 - 白银之焰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Silvertide - The Silver Flame",
+                    "target": "银潮 - 白银之焰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Race of Eight Winds - Sharn",
+                    "target": "八风竞赛 - 夏恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Hunt - Sharn and The Sovereign Host",
+                    "target": "狩猎节 - 夏恩与主权诸神"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Victory Day - The Silver Flame",
+                    "target": "胜利日 - 白银之焰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fathen's Fall - Sharn",
+                    "target": "法森陨落 - 夏恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Boldrei's Feast - Sharn and The Sovereign Host",
+                    "target": "博尔德蕾盛宴 - 夏恩与主权诸神"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Ascension - Sharn",
+                    "target": "升天节 - 夏恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wildnight - Sharn",
+                    "target": "狂夜 - 夏恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saint Voltros's Day - The Silver Flame",
+                    "target": "圣沃尔特罗斯日 - 白银之焰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thronehold - Sharn",
+                    "target": "王座堡 - 夏恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rampartide - The Silver Flame",
+                    "target": "壁垒潮 - 白银之焰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Long Shadows - Sharn",
+                    "target": "长影节 - 夏恩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Khybersef - The Silver Flame",
+                    "target": "凯柏瑟夫 - 白银之焰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Barovian Calendar",
+                    "target": "巴洛维亚历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1st Moon",
+                    "target": "第一月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2nd Moon",
+                    "target": "第二月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "3rd Moon",
+                    "target": "第三月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "4th Moon",
+                    "target": "第四月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "5th Moon",
+                    "target": "第五月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "6th Moon",
+                    "target": "第六月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "7th Moon",
+                    "target": "第七月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "8th Moon",
+                    "target": "第八月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "9th Moon",
+                    "target": "第九月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "10th Moon",
+                    "target": "第十月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "11th Moon",
+                    "target": "第十一月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "12th Moon",
+                    "target": "第十二月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Autumnal Equinox",
+                    "target": "秋分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Natural Event",
+                    "target": "自然事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exandrian Calendar",
+                    "target": "埃克斯安德里亚历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Founding",
+                    "target": "立国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Age of Arcanum",
+                    "target": "奥术时代"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Calamity",
+                    "target": "大灾变"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Dawn",
+                    "target": "新黎明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Day of Challenging",
+                    "target": "挑战之日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renewal Festival",
+                    "target": "复苏节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wild's Grandeur",
+                    "target": "野性盛典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Harvest's Rise",
+                    "target": "丰收之始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merryfrond's Day",
+                    "target": "欢叶日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deep Solace",
+                    "target": "深沉慰藉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Artisan's Faire",
+                    "target": "工匠集市"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Morn of Largesse",
+                    "target": "慷慨之晨"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Harvest's Close",
+                    "target": "丰收之终"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Hazel Festival",
+                    "target": "榛树节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Civilization's Dawn",
+                    "target": "文明黎明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Night of Ascension",
+                    "target": "升天之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zan's Cup",
+                    "target": "赞恩之杯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Barren Eve",
+                    "target": "荒芜之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Winter's Crest",
+                    "target": "冬之峰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calendar of Harptos",
+                    "target": "哈普托斯历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hammer (Deepwinter)",
+                    "target": "Hammer（深冬）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alturiak (The Claw of Winter)",
+                    "target": "Alturiak（冬之爪）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ches (The Claw of the Sunsets)",
+                    "target": "Ches（落日之爪）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tarsakh (The Claw of Storms)",
+                    "target": "Tarsakh（风暴之爪）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mirtul (The Melting)",
+                    "target": "Mirtul（融雪季）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kythorn (The Time of Flowers)",
+                    "target": "Kythorn（花季）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flamerule (Summertide)",
+                    "target": "Flamerule（夏潮）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eleasis (Highsun)",
+                    "target": "Eleasis（盛阳）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eleint (The Fading)",
+                    "target": "Eleint（消退季）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Marpenoth (Leaffall)",
+                    "target": "Marpenoth（落叶季）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Uktar (The Rotting)",
+                    "target": "乌克塔尔（腐烂之月）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Feast of the Moon",
+                    "target": "月之盛宴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nightal (The Drawing Down)",
+                    "target": "奈特尔（沉降之月）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Selúne",
+                    "target": "塞露妮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vernal Equinox",
+                    "target": "春分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Feast of the Moon",
+                    "target": "月之盛宴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display day number",
+                    "target": "显示日期编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display date format",
+                    "target": "显示日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Support inline events",
+                    "target": "支持行内事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tag for inline events",
+                    "target": "行内事件标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Basic info",
+                    "target": "基本信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Current date",
+                    "target": "当前日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Overflow weeks",
+                    "target": "溢出周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show intercalary months separately",
+                    "target": "单独显示闰月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ignore offset",
+                    "target": "忽略偏移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leap days",
+                    "target": "闰日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use custom years",
+                    "target": "使用自定义年份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Day Callback",
+                    "target": "日回调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display moons",
+                    "target": "显示月亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ends the year",
+                    "target": "结束年份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Starting era",
+                    "target": "起始纪元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add event",
+                    "target": "添加事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gradient seasonal colors",
+                    "target": "季节渐变颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Seasonal offset",
+                    "target": "季节偏移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Distribute seasonal periods",
+                    "target": "分配季节时段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display seasonal colors",
+                    "target": "显示季节颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable weather",
+                    "target": "启用天气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "XYZ D65",
+                    "target": "XYZ D65"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "XYZ D50",
+                    "target": "XYZ D50"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Absolute XYZ D65",
+                    "target": "绝对 XYZ D65"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linear REC.2020",
+                    "target": "线性 REC.2020"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linear P3",
+                    "target": "线性 P3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linear sRGB",
+                    "target": "线性 sRGB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lab D65",
+                    "target": "Lab D65"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linear Adobe® 98 RGB compatible",
+                    "target": "线性 Adobe® 98 RGB 兼容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Adobe® 98 RGB compatible",
+                    "target": "Adobe® 98 RGB 兼容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linear ProPhoto",
+                    "target": "线性 ProPhoto"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calendarium File Watcher",
+                    "target": "Calendarium 文件监视器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rescan events",
+                    "target": "重新扫描事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open calendar",
+                    "target": "打开日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Current Date",
+                    "target": "插入当前日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set Current Date to Next",
+                    "target": "将当前日期设为下一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set Current Date to Previous",
+                    "target": "将当前日期设为前一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search events",
+                    "target": "搜索事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Leap day",
+                    "target": "闰日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Add era",
+                    "target": "添加纪元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Claw of Winter",
+                    "target": "寒冬之爪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Claw of the Sunsets",
+                    "target": "落日之爪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Claw of Storms",
+                    "target": "风暴之爪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Melting",
+                    "target": "融化期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Time of Flowers",
+                    "target": "花之时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Fading",
+                    "target": "凋零期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Rotting",
+                    "target": "腐朽期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "The Drawing Down",
+                    "target": "回落期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your settings have been changed externally (e.g., from sync). Would you like to reload Calendarium settings?",
+                    "target": "你的设置已在外部更改（例如通过同步）。是否要重新加载 Calendarium 设置？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reloading data...",
+                    "target": "正在重新加载数据..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Calendarium data reloaded.",
+                    "target": "Calendarium 数据已重新加载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How should Calendarium reload your data in the future?",
+                    "target": "今后 Calendarium 应如何重新加载你的数据？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This behavior can be changed in settings.",
+                    "target": "此行为可在设置中更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Would you like to migrate your existing Fantasy Calendar settings to Calendarium?",
+                    "target": "是否要将现有的 Fantasy Calendar 设置迁移到 Calendarium？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fantasy Calendar settings migrated.",
+                    "target": "Fantasy Calendar 设置已迁移。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You have the same event path registered to multiple calendars.",
+                    "target": "你将相同的事件路径注册到了多个日历中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please review your event path settings.",
+                    "target": "请检查你的事件路径设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to delete this calendar?",
+                    "target": "确定要删除此日历吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete and don't ask again",
+                    "target": "删除且不再询问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Additional information is required to save this calendar. Any changes you may have made will be discarded if you exit now.",
+                    "target": "保存此日历需要额外信息。如果你现在退出，你可能已做的任何更改都将被丢弃。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Exit and don't ask again",
+                    "target": "退出且不再询问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keep editing",
+                    "target": "继续编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose a Preset Calendar",
+                    "target": "选择预设日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(no name)",
+                    "target": "（无名称）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Event dates will be displayed using this format.",
+                    "target": "事件日期将使用此格式显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Information on how the format works can be seen ",
+                    "target": "有关此格式如何工作的说明可见于 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If on, ",
+                    "target": "如果开启，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "only the years added below will be displayed.",
+                    "target": "仅显示下方添加的年份。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The weather will be calculated using this data during this season.",
+                    "target": "在此季节期间，天气将使用此数据进行计算。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The surrounding seasons will also affect the weather, but the closer you are to the peak, the stronger the current effect is.",
+                    "target": "周围季节也会影响天气，但越接近峰值，当前影响就越强。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No weather data set",
+                    "target": "未设置天气数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will be used to do all weather calculations.",
+                    "target": "这将用于进行所有天气计算。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The same seed will return the same weather for the same calendar.",
+                    "target": "相同的种子会为同一日历生成相同的天气。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will overwrite your existing data file.",
+                    "target": "这将覆盖你现有的数据文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import calendar from the ",
+                    "target": "从以下位置导入日历："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fantasy Calendar website",
+                    "target": "Fantasy Calendar 网站"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Importing calendars...",
+                    "target": "正在导入日历…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No calendars created! Create a calendar to see it here.",
+                    "target": "未创建任何日历！创建一个日历以在此处查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Use the core Page Preview plugin to display event notes when hovered.",
+                    "target": "使用核心 Page Preview 插件在悬停时显示事件备注。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The Page Preview plugin is required to modify this setting.",
+                    "target": "修改此设置需要 Page Preview 插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Calendarium will find events defined in your notes. Events discovered in this way will only be added to one calendar.",
+                    "target": "Calendarium 会查找你笔记中定义的事件。以这种方式发现的事件只会添加到一个日历中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Use the following settings to match events found in a folder to a specific calendar. The most specific path (the most nested folder) will be used.",
+                    "target": "使用以下设置将文件夹中找到的事件匹配到特定日历。将使用最具体的路径（最深层的文件夹）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parse the vault for Calendarium events.",
+                    "target": "解析库中的 Calendarium 事件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " events.",
+                    "target": " 个事件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No calendars created! Create a calendar to use this feature.",
+                    "target": "未创建任何日历！创建一个日历以使用此功能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default calendar",
+                    "target": "默认日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The plugin will show debug messages when events are added, deleted or updated by the file watcher.",
+                    "target": "当文件监视器添加、删除或更新事件时，插件将显示调试消息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No calendar by that name was found.",
+                    "target": "未找到该名称的日历。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Calendarium has been unloaded. Re-enable the plugin to render your calendars.",
+                    "target": "Calendarium 已卸载。重新启用插件以渲染你的日历。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
