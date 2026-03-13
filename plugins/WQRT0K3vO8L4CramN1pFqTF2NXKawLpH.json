@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "slackify-note",
+        "version": "1.0.0",
+        "title": "Slackify Note",
+        "description": "Slackify Note Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy note as Slack Markdown",
+                    "target": "将笔记复制为 Slack Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy selection as Slack Markdown",
+                    "target": "将所选内容复制为 Slack Markdown"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
