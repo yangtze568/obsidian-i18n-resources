@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ytranscript",
+        "version": "1.0.0",
+        "title": "YTranscript",
+        "description": "YTranscript Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Insert transcript failed:",
+                    "target": "插入转录失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\\u{1F504} Calling InnerTube Player API with ANDROID client...",
+                    "target": "\\u{1F504} 使用 ANDROID 客户端调用 InnerTube Player API..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Indicates how often timestamp should occur in text (1 - every line, 10 - every 10 lines)",
+                    "target": "指示时间戳在文本中出现的频率（1 - 每行，10 - 每 10 行）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Preferred transcript language",
+                    "target": "首选转录语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Preferred transcript country code",
+                    "target": "首选转录国家代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Timestamp interval",
+                    "target": "时间戳间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "YouTube URL",
+                    "target": "YouTube URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy all",
+                    "target": "全部复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get YouTube transcript from selected url",
+                    "target": "从选定的 URL 获取 YouTube 转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get YouTube transcript from url prompt",
+                    "target": "从 URL 提示获取 YouTube 转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert YouTube transcript",
+                    "target": "插入 YouTube 转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No transcript found",
+                    "target": "未找到转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please check if video contains any transcript or try adjust language and country in plugin settings.",
+                    "target": "请检查视频是否包含任何转录，或在插件设置中尝试调整语言和国家。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error loading transcript",
+                    "target": "加载转录时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for YTranscript",
+                    "target": "YTranscript 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Click to copy",
+                    "target": "点击复制"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
