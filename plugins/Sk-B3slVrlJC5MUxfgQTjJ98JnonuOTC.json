@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "short-tab-name",
+        "version": "1.0.0",
+        "title": "short tab name",
+        "description": "short tab name Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
