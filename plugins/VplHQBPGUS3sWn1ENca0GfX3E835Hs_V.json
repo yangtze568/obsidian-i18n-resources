@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "age-encrypt",
+        "version": "1.0.0",
+        "title": "Age Encrypt",
+        "description": "Age Encrypt Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Encryption failed:",
+                    "target": "加密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decryption failed:",
+                    "target": "解密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to process age codeblock:",
+                    "target": "处理 age 代码块失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the YAML frontmatter will not be encrypted when using the \"Encrypt file\" command.",
+                    "target": "启用后，使用“加密文件”命令时将不会加密 YAML frontmatter。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your password",
+                    "target": "输入你的密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Re-enter your password to confirm",
+                    "target": "重新输入你的密码以确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude frontmatter from encryption",
+                    "target": "加密时排除 frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm Password",
+                    "target": "确认密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hint (optional)",
+                    "target": "提示（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter password",
+                    "target": "输入密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Confirm password",
+                    "target": "确认密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter hint",
+                    "target": "输入提示"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Content re-encrypted successfully",
+                    "target": "内容重新加密成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to re-encrypt content",
+                    "target": "内容重新加密失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Saved as plain text",
+                    "target": "已保存为纯文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save as plain text",
+                    "target": "保存为纯文本失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to decrypt content",
+                    "target": "内容解密失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No text selected",
+                    "target": "未选择文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to encrypt content",
+                    "target": "内容加密失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file",
+                    "target": "没有活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File encrypted successfully",
+                    "target": "文件加密成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to encrypt file",
+                    "target": "文件加密失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Decrypt encrypted content",
+                    "target": "解密已加密内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Encrypt selection",
+                    "target": "加密所选内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Encrypt file",
+                    "target": "加密文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Encrypted content",
+                    "target": "已加密内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click to decrypt",
+                    "target": "点击解密"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "• Encrypted with age",
+                    "target": "• 使用 age 加密"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save encrypted",
+                    "target": "保存加密内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save as plain text",
+                    "target": "另存为纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Invalid encrypted content",
+                    "target": "无效的加密内容"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
