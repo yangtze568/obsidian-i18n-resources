@@ -1,0 +1,1129 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-front-matter-title-plugin",
+        "version": "1.0.0",
+        "title": "Front Matter Title",
+        "description": "Front Matter Title Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.13.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Manager enabled",
+                    "target": "管理器已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Catch explorer view",
+                    "target": "捕获资源管理器视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Called when is not enabled",
+                    "target": "在未启用时调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Could not get view. Subscribe and wait for active leaf",
+                    "target": "无法获取视图。订阅并等待活动叶"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Try to request sort by event",
+                    "target": "尝试按事件请求排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skipped because feature is not enabled",
+                    "target": "由于功能未启用而跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Enable replacer",
+                    "target": "启用替换器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Init replacer",
+                    "target": "初始化替换器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File is not TFolder. Why? Skipped.",
+                    "target": "文件不是 TFolder。为什么？已跳过。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Could not find a view of bookmarks type",
+                    "target": "找不到书签类型的视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Leaf does not have a plugin",
+                    "target": "Leaf 没有插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Triggered by plugin event",
+                    "target": "由插件事件触发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "init by backgroundInit",
+                    "target": "由 backgroundInit 初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Entity created",
+                    "target": "实体已创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这表示你的设置中有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 解析后再访问它！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已初始化。你只应调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Modify alias in metadata cache. The real alias will not be affected",
+                    "target": "在元数据缓存中修改别名。真实别名不会受影响"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If frontmatter does not exist, it will be created in cache. Side-effects may occur.",
+                    "target": "如果 frontmatter 不存在，将在缓存中创建。可能会产生副作用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Only files with frontmatter will be processed.",
+                    "target": "仅处理包含 frontmatter 的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set title as an alias only if the one does not exist",
+                    "target": "仅在别名不存在时将标题设为别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add title to alias and without affect on existing alias",
+                    "target": "将标题添加到别名中且不影响现有别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace current alias with title",
+                    "target": "用标题替换当前别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in the file explorer",
+                    "target": "替换文件资源管理器中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sort files in explorer by titles from Explorer feature",
+                    "target": "在资源管理器中按 Explorer 功能的标题排序文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in the graph/local-graph",
+                    "target": "替换 graph/local-graph 中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in built-in bookmarks plugin",
+                    "target": "替换内置书签插件中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in search leaf",
+                    "target": "替换搜索叶节点中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in suggest modals",
+                    "target": "替换建议弹窗中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in tabs",
+                    "target": "替换标签页中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in Inline Title",
+                    "target": "替换内联标题中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in Canvas",
+                    "target": "替换 Canvas 中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown titles in Backlink(Linked mentions)",
+                    "target": "替换 Backlink(Linked mentions) 中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace internal links in files",
+                    "target": "替换文件中的内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Define the strategy what the feature will do with links",
+                    "target": "定义此功能对链接的处理策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Should plugin ask you to approve changes or not",
+                    "target": "插件是否需要你批准更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace shown title in window frame",
+                    "target": "替换窗口框架中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Files that are located by paths will be ignored by plugin. Each path must be written with new line.",
+                    "target": "通过路径定位的文件将被插件忽略。每个路径必须另起一行书写。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Files that are located by paths will be processed by plugin. Each path must be written with new line.",
+                    "target": "通过路径定位的文件将由插件处理。每个路径必须另起一行书写。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the rule about how to process list values",
+                    "target": "设置如何处理列表值的规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show debug info and caught errors in console",
+                    "target": "在控制台显示调试信息和捕获的错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Plugin will be loaded with specified delay in ms",
+                    "target": "插件将按指定延迟（毫秒）加载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Plugin will be loaded in background to not blocking application",
+                    "target": "插件将在后台加载以避免阻塞应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Modifies resolved title",
+                    "target": "修改解析后的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "What will be executed",
+                    "target": "将要执行的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Will be used as a first argument of RegExp first, and then as a first argument of replace()",
+                    "target": "将先作为 RegExp 的第一个参数使用，然后作为 replace() 的第一个参数使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Will be used as a second argument of new RegExp",
+                    "target": "将作为 new RegExp 的第二个参数使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Will be used as a second argument of replace()",
+                    "target": "将作为 replace() 的第二个参数使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How it will work:",
+                    "target": "工作方式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "修改元数据（frontmatter）缓存中的别名，不影响实际别名",
+                    "target": "修改元数据（frontmatter）缓存中的别名，不影响实际别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果 frontmatter 不存在，则会在缓存中创建。可能会发生副作用。",
+                    "target": "如果 frontmatter 不存在，则会在缓存中创建。可能会发生副作用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "只处理有 frontmatter 的文件。",
+                    "target": "只处理有 frontmatter 的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "仅当标题不在别名中时，才将标题设置为别名",
+                    "target": "仅当标题不在别名中时，才将标题设置为别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将标题添加到别名中，但不影响现有别名",
+                    "target": "将标题添加到别名中，但不影响现有别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用标题替换当前别名",
+                    "target": "用标题替换当前别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换文件资源管理器中显示的标题",
+                    "target": "替换文件资源管理器中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换图谱/本地图谱中显示的标题",
+                    "target": "替换图谱/本地图谱中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换Tab标签页顶部的标题并更新它们",
+                    "target": "替换Tab标签页顶部的标题并更新它们"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换内置书签插件中显示的标题",
+                    "target": "替换内置书签插件中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换搜索页面中显示的标题",
+                    "target": "替换搜索页面中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换建议窗口中显示的标题",
+                    "target": "替换建议窗口中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换Tab标签页中显示的标题",
+                    "target": "替换Tab标签页中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换页面内显示的标题",
+                    "target": "替换页面内显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换白板中显示的标题",
+                    "target": "替换白板中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换反向链接(链接提及)中显示的标题",
+                    "target": "替换反向链接(链接提及)中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替换笔记中的内部链接",
+                    "target": "替换笔记中的内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "根据各特性功能独立管理模板",
+                    "target": "根据各特性功能独立管理模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\\u8BBE\\u7F6E yaml \\u8DEF\\u5F84\\uFF0C\\u8BE5\\u503C\\u5C06\\u7528\\u4E8E\\u6587\\u4EF6\\u6807\\u9898\\u3002\\u503C\\u5FC5\\u987B\\u662F\\u5B57\\u7B26\\u4E32\\u6216\\u6570\\u503C\\u3002\\u8FD8\\u53EF\\u4EE5\\u4F7F\\u7528\\u7C7B\\u4F3C\\u6A21\\u677F\\u8DEF\\u5F84 \"{{ }}\"\\u3002\n                \\u8FD8\\u53EF\\u4EE5\\u4F7F\\u7528 #\\u6807\\u9898 \\u6765\\u4F7F\\u7528\\u4E00\\u7EA7\\u6807\\u9898\\uFF0C\\u6216 _ basename \\u548C\\u5176\\u4ED6\\u4FDD\\u7559\\u5B57\\u3002\n                \\u67E5\\u9605 Readme \\u4E86\\u89E3\\u66F4\\u591A",
+                    "target": "\\u8BBE\\u7F6E yaml \\u8DEF\\u5F84\\uFF0C\\u8BE5\\u503C\\u5C06\\u7528\\u4E8E\\u6587\\u4EF6\\u6807\\u9898\\u3002\\u503C\\u5FC5\\u987B\\u662F\\u5B57\\u7B26\\u4E32\\u6216\\u6570\\u503C\\u3002\\u8FD8\\u53EF\\u4EE5\\u4F7F\\u7528\\u7C7B\\u4F3C\\u6A21\\u677F\\u8DEF\\u5F84 \"{{ }}\"\\u3002\n                \\u8FD8\\u53EF\\u4EE5\\u4F7F\\u7528 #\\u6807\\u9898 \\u6765\\u4F7F\\u7528\\u4E00\\u7EA7\\u6807\\u9898\\uFF0C\\u6216 _ basename \\u548C\\u5176\\u4ED6\\u4FDD\\u7559\\u5B57\\u3002\n                \\u67E5\\u9605 Readme \\u4E86\\u89E3\\u66F4\\u591A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "作为备用选项的模板，当通用主模板无法解析出来时使用",
+                    "target": "作为备用选项的模板，当通用主模板无法解析出来时使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "插件将忽略路径中的文件，每个路径必须使用在新行中写入.",
+                    "target": "插件将忽略路径中的文件，每个路径必须使用在新行中写入."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "插件将处理路径中的文件，每个路径必须使用在新行中写入.",
+                    "target": "插件将处理路径中的文件，每个路径必须使用在新行中写入."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置处理列表值的规则",
+                    "target": "设置处理列表值的规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在终端中显示调试信息和捕捉到的错误信息",
+                    "target": "在终端中显示调试信息和捕捉到的错误信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "插件将在指定时间（毫秒）后加载",
+                    "target": "插件将在指定时间（毫秒）后加载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "修改解析的标题",
+                    "target": "修改解析的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将执行",
+                    "target": "将执行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将首先用作 RegExp 的第一个参数，然后用作 replace()的第一个参数",
+                    "target": "将首先用作 RegExp 的第一个参数，然后用作 replace()的第一个参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将用作新RegExp 的第二个参数",
+                    "target": "将用作新RegExp 的第二个参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将用作 replace() 的第二个参数",
+                    "target": "将用作 replace() 的第二个参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将怎样起作用:",
+                    "target": "将怎样起作用:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "修改元數據（frontmatter）緩存中的別名，不影響實際別名",
+                    "target": "修改元数据（frontmatter）缓存中的别名，不影响实际别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果 frontmatter 不存在，則會在緩存中創建。可能會發生副作用。",
+                    "target": "如果 frontmatter 不存在，则会在缓存中创建。可能会发生副作用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "只處理有 frontmatter 的檔。",
+                    "target": "只处理有 frontmatter 的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "僅當標題不在別名中時，才將標題設置為別名",
+                    "target": "仅当标题不在别名中时，才将标题设置为别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將標題添加到別名中，但不影響現有別名",
+                    "target": "将标题添加到别名中，但不影响现有别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用標題替換當前別名",
+                    "target": "用标题替换当前别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換檔資源管理器中顯示的標題",
+                    "target": "替换文件资源管理器中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換圖譜/本地圖譜中顯示的標題",
+                    "target": "替换图谱/本地图谱中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換Tab標籤頁頂部的標題並更新它們",
+                    "target": "替换Tab标签页顶部的标题并更新它们"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換內置書簽插件中顯示的標題",
+                    "target": "替换内置书签插件中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換搜索頁面中顯示的標題",
+                    "target": "替换搜索页面中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換建議窗口中顯示的標題",
+                    "target": "替换建议窗口中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換Tab標籤頁中顯示的標題",
+                    "target": "替换Tab标签页中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換頁面內顯示的標題",
+                    "target": "替换页面内显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換白板中顯示的標題",
+                    "target": "替换白板中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換反向鏈接(鏈接提及)中顯示的標題",
+                    "target": "替换反向链接(链接提及)中显示的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "替換筆記中的內部鏈接",
+                    "target": "替换笔记中的内部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "根據各特性功能獨立管理範本",
+                    "target": "根据各特性功能独立管理模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\\u8A2D\\u7F6E yaml \\u8DEF\\u5F91\\uFF0C\\u8A72\\u503C\\u5C07\\u7528\\u65BC\\u6A94\\u6A19\\u984C\\u3002\\u503C\\u5FC5\\u9808\\u662F\\u5B57\\u4E32\\u6216\\u6578\\u503C\\u3002\\u9084\\u53EF\\u4EE5\\u4F7F\\u7528\\u985E\\u4F3C\\u7BC4\\u672C\\u8DEF\\u5F91 \"{{ }}\"\\u3002\n                \\u9084\\u53EF\\u4EE5\\u4F7F\\u7528 #\\u6A19\\u984C \\u4F86\\u4F7F\\u7528\\u4E00\\u7D1A\\u6A19\\u984C\\uFF0C\\u6216 _ basename \\u548C\\u5176\\u4ED6\\u4FDD\\u7559\\u5B57\\u3002\n                \\u67E5\\u95B1 Readme \\u77AD\\u89E3\\u66F4\\u591A",
+                    "target": "\\u8BBE\\u7F6E yaml \\u8DEF\\u5F84\\uFF0C\\u8BE5\\u503C\\u5C06\\u7528\\u4E8E\\u6587\\u4EF6\\u6807\\u9898\\u3002\\u503C\\u5FC5\\u987B\\u662F\\u5B57\\u7B26\\u4E32\\u6216\\u6570\\u503C\\u3002\\u8FD8\\u53EF\\u4EE5\\u4F7F\\u7528\\u7C7B\\u4F3C\\u6A21\\u677F\\u8DEF\\u5F84 \"{{ }}\"\\u3002\n                \\u8FD8\\u53EF\\u4EE5\\u4F7F\\u7528 #\\u6807\\u9898 \\u6765\\u4F7F\\u7528\\u4E00\\u7EA7\\u6807\\u9898\\uFF0C\\u6216 _ basename \\u548C\\u5176\\u4ED6\\u4FDD\\u7559\\u5B57\\u3002\n                \\u67E5\\u9605 Readme \\u4E86\\u89E3\\u66F4\\u591A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "作為備用選項的範本，當通用主範本無法解析出來時使用",
+                    "target": "作为备用选项的模板，当通用主模板无法解析出来时使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "插件將忽略路徑中的檔，每個路徑必須使用在新行中寫入.",
+                    "target": "插件将忽略路径中的文件，每个路径必须在新行中写入."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "插件將處理路徑中的檔，每個路徑必須使用在新行中寫入.",
+                    "target": "插件将处理路径中的文件，每个路径必须在新行中写入."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設置處理列表值的規則",
+                    "target": "设置处理列表值的规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在終端中顯示調試資訊和捕捉到的錯誤資訊",
+                    "target": "在终端中显示调试信息和捕捉到的错误信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "插件將在指定時間（毫秒）後加載",
+                    "target": "插件将在指定时间（毫秒）后加载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "修改解析的標題",
+                    "target": "修改解析的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將執行",
+                    "target": "将执行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將首先用作 RegExp 的第一個參數，然後用作 replace()的第一個參數",
+                    "target": "将首先用作 RegExp 的第一个参数，然后用作 replace()的第一个参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將用作新RegExp 的第二個參數",
+                    "target": "将用作新RegExp 的第二个参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將用作 replace() 的第二個參數",
+                    "target": "将用作 replace() 的第二个参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將怎樣起作用:",
+                    "target": "将怎样起作用:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter Required",
+                    "target": "需要Frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note Link",
+                    "target": "笔记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Window Frame Title",
+                    "target": "窗口框架标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File path rule",
+                    "target": "文件路径规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Black list mode",
+                    "target": "黑名单模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "White list mode",
+                    "target": "白名单模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List values",
+                    "target": "列表值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Function V2",
+                    "target": "函数 V2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "别名Alias",
+                    "target": "别名Alias"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动Frontmatter",
+                    "target": "自动Frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "有Frontmatter才生效",
+                    "target": "有Frontmatter才生效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增强",
+                    "target": "增强"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调整",
+                    "target": "调整"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "替换",
+                    "target": "替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文件资源管理器",
+                    "target": "文件资源管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图谱",
+                    "target": "图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "页顶标题",
+                    "target": "页顶标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "书签",
+                    "target": "书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "建议",
+                    "target": "建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标签页",
+                    "target": "标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "页内标题",
+                    "target": "页内标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "白板",
+                    "target": "白板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "反向链接",
+                    "target": "反向链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "笔记链接",
+                    "target": "笔记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "特性模板",
+                    "target": "特性模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通用主模板",
+                    "target": "通用主模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通用备用模板",
+                    "target": "通用备用模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "规则",
+                    "target": "规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文件路径规则",
+                    "target": "文件路径规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "黑名单模式",
+                    "target": "黑名单模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "白名单模式",
+                    "target": "白名单模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列表值",
+                    "target": "列表值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "处理器",
+                    "target": "处理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "正则Pattern",
+                    "target": "正则Pattern"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "修饰符Flags",
+                    "target": "修饰符Flags"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "函数",
+                    "target": "函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "別名Alias",
+                    "target": "别名Alias"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自動Frontmatter",
+                    "target": "自动Frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增強",
+                    "target": "增强"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "調整",
+                    "target": "调整"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "替換",
+                    "target": "替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "檔資源管理器",
+                    "target": "文件资源管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "圖譜",
+                    "target": "图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "頁頂標題",
+                    "target": "页顶标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "書簽",
+                    "target": "书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "建議",
+                    "target": "建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "標籤頁",
+                    "target": "标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "頁內標題",
+                    "target": "页内标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "反向鏈接",
+                    "target": "反向链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "筆記鏈接",
+                    "target": "笔记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "特性範本",
+                    "target": "特性范本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通用主範本",
+                    "target": "通用主范本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通用備用範本",
+                    "target": "通用备用范本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "規則",
+                    "target": "规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "檔路徑規則",
+                    "target": "档路径规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "黑名單模式",
+                    "target": "黑名单模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "白名單模式",
+                    "target": "白名单模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "處理器",
+                    "target": "处理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "正則Pattern",
+                    "target": "正则Pattern"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "修飾符Flags",
+                    "target": "修饰符Flags"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "函數",
+                    "target": "函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入模板",
+                    "target": "输入模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "輸入範本",
+                    "target": "输入范本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Debug info",
+                    "target": "调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Boot delay",
+                    "target": "启动延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Boot in background",
+                    "target": "后台启动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "调试信息",
+                    "target": "调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "延迟启动加载",
+                    "target": "延迟启动加载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "調試資訊",
+                    "target": "调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "延遲啟動加載",
+                    "target": "延迟启动加载"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
