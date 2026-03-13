@@ -1,0 +1,223 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fetch-prayer-times",
+        "version": "1.0.0",
+        "title": "Fetch Prayer Times",
+        "description": "Fetch Prayer Times Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "**Location:** %city%\n**Date:** %MMMM% %DD%, %YYYY%\n\n| Prayer | Time | Time (UTC) |\n|--------|------|-------------|\n| Fajr | %fajr% | %fajr_utc% |",
+                    "target": "**地点:** %city%\n**日期:** %MMMM% %DD%, %YYYY%\n\n| 礼拜 | 时间 | 时间 (UTC) |\n|--------|------|-------------|\n| Fajr | %fajr% | %fajr_utc% |"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Simple List",
+                    "target": "简单列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Checklist Format",
+                    "target": "清单格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Table Format",
+                    "target": "表格格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to reset all settings to their default values?",
+                    "target": "确定要将所有设置重置为默认值吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Prayer Times Plugin",
+                    "target": "正在加载礼拜时间插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset All Settings",
+                    "target": "重置所有设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your city.",
+                    "target": "请输入你的城市。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically fetch prayer times when the app is launched?",
+                    "target": "在应用启动时自动获取礼拜时间？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically fetch prayer times when the appropriate note is opened?",
+                    "target": "打开相应的笔记时自动获取礼拜时间？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "File path for prayer times. Supports %YYYY%, %MM%, %DD%, etc..",
+                    "target": "礼拜时间的文件路径。支持 %YYYY%、%MM%、%DD% 等。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Placeholders are available in the README file.",
+                    "target": "README 文件中提供占位符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the location in the header",
+                    "target": "在页眉中显示位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the date in the header",
+                    "target": "在页眉中显示日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display times in 24-hour format instead of AM/PM",
+                    "target": "以 24 小时制显示时间，替代 AM/PM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include UTC time column in table or after regular time",
+                    "target": "在表格中或常规时间后包含 UTC 时间列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the UTC offset to calculate UTC time",
+                    "target": "指定 UTC 偏移量以计算 UTC 时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reset all settings to their default values",
+                    "target": "将所有设置重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prayers to include",
+                    "target": "包含的礼拜"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update Frequency",
+                    "target": "更新频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch on app launch",
+                    "target": "应用启动时获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch on note open",
+                    "target": "打开笔记时获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output Location",
+                    "target": "输出位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Location",
+                    "target": "显示位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Date",
+                    "target": "显示日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use 24-hour Time Format",
+                    "target": "使用24小时制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show UTC Time",
+                    "target": "显示UTC时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UTC Offset",
+                    "target": "UTC偏移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset to Default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha",
+                    "target": "Fajr, Sunrise, Dhuhr, Asr, Maghrib, Isha"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., New York",
+                    "target": "例如：纽约"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prayer times updated successfully.",
+                    "target": "祈祷时间已成功更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prayer Times settings reset to defaults.",
+                    "target": "祈祷时间设置已重置为默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fetch Prayer Times",
+                    "target": "获取祈祷时间"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
