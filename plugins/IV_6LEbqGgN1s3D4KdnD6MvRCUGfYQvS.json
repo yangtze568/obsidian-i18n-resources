@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "file-forgetting-curve-obsidian",
+        "version": "1.0.0",
+        "title": "File Forgetting Curve",
+        "description": "File Forgetting Curve Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Very Hard",
+                    "target": "非常困难"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Very Easy",
+                    "target": "非常容易"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maybe Forget",
+                    "target": "可能会忘记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Impossible Forget",
+                    "target": "不可能忘记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "20 minutes",
+                    "target": "20分钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 hours",
+                    "target": "1小时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "8 hours",
+                    "target": "8小时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 days",
+                    "target": "1天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 days",
+                    "target": "2天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "7 days",
+                    "target": "7天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "30 days",
+                    "target": "30 天"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
