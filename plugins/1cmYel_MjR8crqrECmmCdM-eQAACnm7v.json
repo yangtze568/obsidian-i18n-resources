@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-bulk-rename-plugin",
+        "version": "1.0.0",
+        "title": "Bulk Rename",
+        "description": "Bulk Rename Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only RegExp will work now, however it doesn't prevent you to pass string",
+                    "target": "目前只有正则表达式有效，但这并不妨碍你传入字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search by: ",
+                    "target": "搜索方式： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder location",
+                    "target": "文件夹位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag names ",
+                    "target": "标签名称 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "RegExp Search",
+                    "target": "正则表达式搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Replace patterns",
+                    "target": "替换模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Here you will see files under folder location",
+                    "target": "这里将显示文件夹位置下的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/",
+                    "target": "示例：folder1/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: #tag, #tag2",
+                    "target": "示例：#tag, #tag2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Put your RegExp here",
+                    "target": "在此输入你的正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "flags here",
+                    "target": "在此输入标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "existing chars",
+                    "target": "现有字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "replace with",
+                    "target": "替换为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Your files won't be changed",
+                    "target": "你的文件不会被更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "We don't have undone button yet!\r\n Do we need it?",
+                    "target": "我们还没有撤销按钮！\r\n 需要它吗？"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "please fill Existing Symbol",
+                    "target": "请填写现有符号"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please check your results before rename!",
+                    "target": "重命名前请检查结果！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "renaming has been started",
+                    "target": "重命名已开始"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "FILES NOT RENAMED!",
+                    "target": "文件未重命名！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "WARNING: YOU MUST CREATE FOLDER BEFORE MOVING INTO IT",
+                    "target": "警告：在移动到其中之前必须创建文件夹"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "successfully renamed all files",
+                    "target": "已成功重命名所有文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Support development",
+                    "target": "支持开发"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you enjoy Bulk Rename, consider ",
+                    "target": "如果你喜欢 Bulk Rename，考虑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "buying me a coffee",
+                    "target": "请我喝杯咖啡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": ", and following me on Twitter ",
+                    "target": "，并在 Twitter 上关注我"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Bulk Rename - Settings",
+                    "target": "Bulk Rename - 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Warning: ",
+                    "target": "警告："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
