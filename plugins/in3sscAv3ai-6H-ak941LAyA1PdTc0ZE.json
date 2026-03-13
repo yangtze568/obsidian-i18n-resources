@@ -1,0 +1,277 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "visited-countries",
+        "version": "1.0.0",
+        "title": "Visited Countries",
+        "description": "Visited Countries Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制高于 125 fps 的帧率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Burkina Faso",
+                    "target": "布基纳法索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bosnia and Herzegovina",
+                    "target": "波斯尼亚和黑塞哥维那"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brunei Darussalam",
+                    "target": "文莱达鲁萨兰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Central African Republic",
+                    "target": "中非共和国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Côte d'Ivoire",
+                    "target": "科特迪瓦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Republic of Congo",
+                    "target": "刚果共和国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Costa Rica",
+                    "target": "哥斯达黎加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Czech Republic",
+                    "target": "捷克共和国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dominican Republic",
+                    "target": "多米尼加共和国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "United Kingdom",
+                    "target": "英国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Gambia",
+                    "target": "冈比亚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Equatorial Guinea",
+                    "target": "赤道几内亚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Republic of Korea",
+                    "target": "韩国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lao PDR",
+                    "target": "老挝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sri Lanka",
+                    "target": "斯里兰卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Papua New Guinea",
+                    "target": "巴布亚新几内亚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saudi Arabia",
+                    "target": "沙特阿拉伯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "South Sudan",
+                    "target": "南苏丹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sierra Leone",
+                    "target": "塞拉利昂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "El Salvador",
+                    "target": "萨尔瓦多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "San Marino",
+                    "target": "圣马力诺"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "South Africa",
+                    "target": "南非"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Zealand",
+                    "target": "新西兰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Russian Federation",
+                    "target": "俄罗斯联邦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "United States",
+                    "target": "美国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Antigua and Barbuda",
+                    "target": "安提瓜和巴布达"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cape Verde",
+                    "target": "佛得角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Federated States of Micronesia",
+                    "target": "密克罗尼西亚联邦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vatican City",
+                    "target": "梵蒂冈城国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saint Kitts and Nevis",
+                    "target": "圣基茨和尼维斯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saint Lucia",
+                    "target": "圣卢西亚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Marshall Islands",
+                    "target": "马绍尔群岛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Solomon Islands",
+                    "target": "所罗门群岛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "São Tomé and Principe",
+                    "target": "圣多美和普林西比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trinidad and Tobago",
+                    "target": "特立尼达和多巴哥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saint Vincent and the Grenadines",
+                    "target": "圣文森特和格林纳丁斯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open map",
+                    "target": "打开地图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search notes...",
+                    "target": "搜索笔记..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zoom in",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zoom out",
+                    "target": "缩小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fit to viewer",
+                    "target": "适配到查看器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Link notes",
+                    "target": "链接注释"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
