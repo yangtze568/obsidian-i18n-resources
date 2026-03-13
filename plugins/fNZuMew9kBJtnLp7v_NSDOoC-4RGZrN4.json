@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "image-picker",
+        "version": "1.0.0",
+        "title": "Image Picker",
+        "description": "Image Picker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save index:",
+                    "target": "保存索引失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load image:",
+                    "target": "加载图像失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to trash node:",
+                    "target": "移入回收站失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Indexer -> ",
+                    "target": "索引器 -> "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using cached thumbnail:",
+                    "target": "使用缓存缩略图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Generating thumbnail:",
+                    "target": "正在生成缩略图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Generated thumbnail:",
+                    "target": "已生成缩略图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Image size:",
+                    "target": "图像大小："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Notifying subscribers:",
+                    "target": "正在通知订阅者："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loaded index:",
+                    "target": "已加载索引："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Opening root:",
+                    "target": "正在打开根："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Rerendering root:",
+                    "target": "正在重新渲染根："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Closing root",
+                    "target": "正在关闭根"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unique job already in queue, ignoring:",
+                    "target": "唯一任务已在队列中，已忽略："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Enqueued:",
+                    "target": "已入队："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Running immediately:",
+                    "target": "立即运行："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Waiting to run:",
+                    "target": "等待运行："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Running:",
+                    "target": "正在运行："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Finished:",
+                    "target": "已完成："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cleared queue",
+                    "target": "已清空队列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Backgrounder -> ",
+                    "target": "后台任务 -> "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Stopped lane:",
+                    "target": "已停止通道："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Lane not found:",
+                    "target": "未找到通道："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Stopped all lanes",
+                    "target": "已停止所有通道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ImagePicker -> ",
+                    "target": "图片选择器 -> "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "onFileCreate:",
+                    "target": "onFileCreate:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "onFileDelete:",
+                    "target": "onFileDelete:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading settings...",
+                    "target": "正在加载设置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Saving settings:",
+                    "target": "正在保存设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset Index",
+                    "target": "重置索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Image picker will look for images in this folder and its subfolders, by default it will look in the root of the vault",
+                    "target": "图像选择器将在此文件夹及其子文件夹中查找图像，默认会在库的根目录中查找"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Clears the image index and rebuilds it from the image folder. Obsidian will reload immediately after. Please run this after changing the image folder.",
+                    "target": "清除图像索引并从图像文件夹重新构建。Obsidian 将在之后立即重新加载。请在更改图像文件夹后运行此操作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Warning: large gifs can slow down or crash Obsidian",
+                    "target": "警告：大型 GIF 可能会导致 Obsidian 变慢或崩溃"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Log debug messages to the console",
+                    "target": "将调试消息记录到控制台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image Folder",
+                    "target": "图像文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset Image Index",
+                    "target": "重置图像索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Animate GIFs",
+                    "target": "播放 GIF 动画"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug Mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Image Folder",
+                    "target": "图像文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "browser-image-resizer: image size is too small",
+                    "target": "browser-image-resizer: 图像尺寸太小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Need to reopen db",
+                    "target": "Dexie: 需要重新打开 db"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Workaround for Chrome UnknownError on open()",
+                    "target": "Dexie: 针对 Chrome open() UnknownError 的变通方案"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied image path to clipboard",
+                    "target": "已将图片路径复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search images...",
+                    "target": "搜索图片..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Built with 💚 by ",
+                    "target": "由 💚 构建，作者："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📖 documentation",
+                    "target": "📖 文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💝 donate",
+                    "target": "💝 捐赠"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
