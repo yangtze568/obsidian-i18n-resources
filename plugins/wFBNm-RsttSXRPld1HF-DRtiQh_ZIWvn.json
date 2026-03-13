@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "alignment-tracker",
+        "version": "1.0.0",
+        "title": "Alignment Tracker",
+        "description": "Alignment Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
