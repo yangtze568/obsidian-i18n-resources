@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "url-namer",
+        "version": "1.0.0",
+        "title": "URL Namer",
+        "description": "URL Namer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching titles for selected text...",
+                    "target": "正在获取所选文本的标题..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name the URL links in the selected text",
+                    "target": "为所选文本中的 URL 链接命名"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
