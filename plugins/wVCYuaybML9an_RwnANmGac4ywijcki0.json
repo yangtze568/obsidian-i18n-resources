@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hide-folders",
+        "version": "1.0.0",
+        "title": "Hide Folders",
+        "description": "Hide Folders Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<a href=\"https://github.com/JonasDoesThings/obsidian-hide-folders\" target=\"_blank\">obsidian-hide-folders</a>",
+                    "target": "<a href=\"https://github.com/JonasDoesThings/obsidian-hide-folders\" target=\"_blank\">obsidian-hide-folders</a>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Experimental & Unstable Settings",
+                    "target": "实验性与不稳定设置"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "outerHTML",
+                    "source": "<a href='https://www.buymeacoffee.com/jonasdoesthings' target='_blank'><img src='https://cdn.buymeacoffee.com/buttons/default-orange.png' alt='Buy Me A Coffee' height='27' width='116'></a>",
+                    "target": "<a href='https://www.buymeacoffee.com/jonasdoesthings' target='_blank'><img src='https://cdn.buymeacoffee.com/buttons/default-orange.png' alt='请我喝杯咖啡' height='27' width='116'></a>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading plugin hide-folders",
+                    "target": "正在加载插件 hide-folders"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The names of the folders to hide, one per line. Either exact folder-names, startsWith::FOLDERPREFIX, or endsWith::FOLDERSUFFIX",
+                    "target": "要隐藏的文件夹名称，每行一个。可以是精确的文件夹名称、startsWith::FOLDERPREFIX 或 endsWith::FOLDERSUFFIX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, 'SOMEFOLDER', 'someFolder', or 'sOmeFoldEr' will all be treated the same and matched.",
+                    "target": "启用后，'SOMEFOLDER'、'someFolder' 或 'sOmeFoldEr' 将被视为相同并匹配。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If the configured folders should be hidden or not",
+                    "target": "已配置的文件夹是否应隐藏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Excluded files will be hidden in Search, Graph View, and Unlinked Mentions, less noticeable in Quick Switcher and link suggestions.",
+                    "target": "排除的文件将在搜索、图谱视图和未链接提及中隐藏，在快速切换器和链接建议中不那么显眼。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enable there will be no bottom-bar indicator-text telling you if this plugin is active.",
+                    "target": "启用后将不会有底部栏指示文本告知此插件是否处于活动状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "[WARNING: UNSTABLE] Also hide hidden folders in the https://github.com/pjeby/quick-explorer plugin. Not affiliated with quick-explorer's author.",
+                    "target": "[警告：不稳定] 同时在 https://github.com/pjeby/quick-explorer 插件中隐藏已隐藏的文件夹。与 quick-explorer 的作者无关联。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Report Issues or Ideas, see the Source Code and Contribute.",
+                    "target": "报告问题或想法，查看源代码并参与贡献。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you like this open-source plugin, consider a small tip to support my unpaid work.",
+                    "target": "如果你喜欢这个开源插件，可考虑小额打赏以支持我无偿的工作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folders to hide",
+                    "target": "要隐藏的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore Upper/lowercase",
+                    "target": "忽略大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide folders",
+                    "target": "隐藏文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Hidden Folders to Obsidian Exclusion-List",
+                    "target": "将隐藏文件夹添加到 Obsidian 排除列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide bottom status-bar \"Folders are Hidden\" indicator",
+                    "target": "隐藏底部状态栏“文件夹已隐藏”指示器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "[EXPERIMENTAL] Compatibility: quick-explorer by pjeby",
+                    "target": "[实验性] 兼容性：pjeby 的 quick-explorer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "attachments\nendsWith::_attachments",
+                    "target": "附件\nendsWith::_attachments"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle visibility of hidden folders",
+                    "target": "切换隐藏文件夹的可见性"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
