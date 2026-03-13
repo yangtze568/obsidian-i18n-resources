@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cloze",
+        "version": "1.0.0",
+        "title": "Cloze",
+        "description": "Cloze Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.18",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "load cloze plugin",
+                    "target": "加载完形填空插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hint text: ",
+                    "target": "提示文本："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cloze plugin: No containerEl.",
+                    "target": "完形填空插件：没有 containerEl。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
