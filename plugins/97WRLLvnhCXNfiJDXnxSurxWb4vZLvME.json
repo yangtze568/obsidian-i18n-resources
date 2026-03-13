@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "alpha-bullet",
+        "version": "1.0.0",
+        "title": "Alpha Bullet",
+        "description": "Alpha Bullet Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "不支持 Intl，请使用 Intl polyfill！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象——但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的设置有问题。在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 解析后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加任何后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已初始化。你只应调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enables commands to be used when selecting a list in edit mode",
+                    "target": "在编辑模式下选择列表时启用命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The button will only displayed if {{- sml_sort}} is on {{- value}}.",
+                    "target": "仅当 {{- sml_sort}} 为 {{- value}} 时才显示该按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Reverse the order of the sort (Z-A)",
+                    "target": "反转排序顺序（Z-A）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Disables the \"automatic\" command (other commands can still be used)",
+                    "target": "禁用“automatic”命令（其他命令仍可使用）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Heading level for the glossary sort (1-6)",
+                    "target": "术语表排序的标题级别（1-6）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Permet d'utiliser les commandes en sélectionnant une liste en mode édition",
+                    "target": "允许在编辑模式下通过选择列表来使用命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Le bouton ne sera affiché que si {{- sml_sort}} est sur {{- value}}.",
+                    "target": "仅当 {{- sml_sort}} 为 {{- value}} 时才会显示该按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ordre décroissant",
+                    "target": "降序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Inverse l'ordre du tri (Z-A)",
+                    "target": "反转排序顺序（Z-A）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Désactive la commande \"automatique\" (les autres commandes restent utilisables)",
+                    "target": "禁用“automatic”命令（其他命令仍可使用）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Trie les éléments par ordre descendant quand le glossaire est utilisé.",
+                    "target": "使用术语表时按降序排列条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Niveau des titres pour le tri en glossaire (1-6)",
+                    "target": "术语表排序的标题级别（1-6）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The frontmatter allows to use automatically the right commands based on the value of the following properties.",
+                    "target": "frontmatter 允许根据以下属性的值自动使用正确的命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Enable only the auto sort on frontmatter properties",
+                    "target": "仅对 frontmatter 属性启用自动排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Editor menu",
+                    "target": "编辑器菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sort as glossary (A-Z)",
+                    "target": "按词汇表排序（A-Z）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sort as glossary (Z-A)",
+                    "target": "按词汇表排序（Z-A）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Menu d'édition",
+                    "target": "编辑菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Trier en glossaire (A-Z)",
+                    "target": "按词汇表排序（A-Z）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Trier en glossaire (Z-A)",
+                    "target": "按词汇表排序（Z-A）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
