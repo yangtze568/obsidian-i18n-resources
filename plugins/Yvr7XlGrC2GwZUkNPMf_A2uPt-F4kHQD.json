@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fold-properties-by-default",
+        "version": "1.0.0",
+        "title": "Fold Properties By Default",
+        "description": "Fold Properties By Default Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "folding properties",
+                    "target": "折叠属性"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
