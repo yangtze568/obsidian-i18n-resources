@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "image-magician",
+        "version": "1.0.0",
+        "title": "Image Magician",
+        "description": "Image Magician Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "migrate ",
+                    "target": "迁移 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "输入: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom file name format",
+                    "target": "使用自定义文件名格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jinho Yun",
+                    "target": "Jinho Yun"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
