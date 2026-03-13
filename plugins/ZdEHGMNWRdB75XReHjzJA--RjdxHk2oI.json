@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "shogi-kif-viewer",
+        "version": "1.0.0",
+        "title": "Shogi KIF Viewer",
+        "description": "Shogi KIF Viewer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "棋譜はありません。",
+                    "target": "没有棋谱。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Icon only",
+                    "target": "仅图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Text + icon",
+                    "target": "文字+图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose whether the First/Back/Forward/Last/Autoplay buttons show text with icons or icons only",
+                    "target": "选择首页/后退/前进/末页/自动播放按钮显示文字+图标还是仅图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose whether the board + captured pieces width is automatically derived from the note area or fixed manually",
+                    "target": "选择棋盘+吃子区宽度是从注释区自动推导还是手动固定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Control button labels",
+                    "target": "控制按钮标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Board width mode",
+                    "target": "棋盘宽度模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Board wrapper width (px)",
+                    "target": "棋盘容器宽度（px）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "手数は数字で入力してください。",
+                    "target": "请用数字输入手数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "指定した手が見つかりません。",
+                    "target": "未找到指定的手数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Go to the first move (home)",
+                    "target": "转到第一步（home）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Step back one move (arrrow-left)",
+                    "target": "后退一步（arrrow-left）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Step forward one move (arrow-right)",
+                    "target": "前进一步（arrow-right）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Go to the final move (end)",
+                    "target": "转到最后一步（end）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Autoplay (space)",
+                    "target": "自动播放（space）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "開始局面",
+                    "target": "开始局面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Move #",
+                    "target": "步数 #"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Jump to move:",
+                    "target": "跳转到步数："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Jump!",
+                    "target": "跳转！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "なし",
+                    "target": "无"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Go to the first move (home)",
+                    "target": "转到第一步（home）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Step back one move (arrrow-left)",
+                    "target": "后退一步（arrrow-left）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Step forward one move (arrow-right)",
+                    "target": "前进一步（arrow-right）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Go to the final move (end)",
+                    "target": "转到最后一步（end）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Autoplay (space)",
+                    "target": "自动播放（space）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
