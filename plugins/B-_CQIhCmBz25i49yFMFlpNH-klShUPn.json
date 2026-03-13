@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tars",
+        "version": "1.0.0",
+        "title": "Tars",
+        "description": "Tars Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.5.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: locale not found",
+                    "target": "错误：未找到区域设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to parse error response as JSON",
+                    "target": "无法将错误响应解析为 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Getting text from response",
+                    "target": "正在从响应中获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to get text from error response",
+                    "target": "无法从错误响应中获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "e.g. https://docs-test-001.openai.azure.com/",
+                    "target": "例如 https://docs-test-001.openai.azure.com/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "e.g. 2024-xx-xx-preview",
+                    "target": "例如 2024-xx-xx-preview"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Secret",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max tokens",
+                    "target": "最大令牌数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "response.functionCall() is deprecated. Use response.functionCalls() instead.",
+                    "target": "response.functionCall() 已弃用。请改用 response.functionCalls()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid json: ",
+                    "target": "无效的 json： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Initiate your response with \"<think>\n\\u55EF\" at the beginning of every output.",
+                    "target": "在每次输出的开头以 \"<think>\n\\u55EF\" 开始你的回复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "消息",
+                    "target": "消息"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
