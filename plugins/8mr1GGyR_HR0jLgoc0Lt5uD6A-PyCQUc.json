@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "query-json",
+        "version": "1.0.0",
+        "title": "Query JSON",
+        "description": "Query JSON Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", ",
+                    "target": ", "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error counting QJSON blocks:",
+                    "target": "统计QJSON块时出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No ID found",
+                    "target": "未找到ID"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ID must be a number",
+                    "target": "ID必须是数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No query found",
+                    "target": "未找到查询"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field format \"header\" is not in first position",
+                    "target": "字段格式“header”不在第一位"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field format is missing field name",
+                    "target": "字段格式缺少字段名"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field format link is missing second field name",
+                    "target": "字段格式链接缺少第二个字段名"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No format found",
+                    "target": "未找到格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file given",
+                    "target": "未提供文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field queries currently ignore field formats",
+                    "target": "字段查询目前忽略字段格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "unsupported object type",
+                    "target": "不支持的对象类型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "one or more entries could not be rendered",
+                    "target": "一个或多个条目无法渲染"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "format \"img\" does not support objects",
+                    "target": "格式“img”不支持对象"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Table & list can only be created from array",
+                    "target": "表格和列表只能从数组创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No ID found",
+                    "target": "未找到 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ID must be a number",
+                    "target": "ID 必须是数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No query found",
+                    "target": "未找到查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Field format \"header\" is not in first position",
+                    "target": "字段格式“header”不在首位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Field format is missing field name",
+                    "target": "字段格式缺少字段名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Field format link is missing second field name",
+                    "target": "字段格式链接缺少第二个字段名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No format found",
+                    "target": "未找到格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No file given",
+                    "target": "未提供文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Table & list can only be created from array",
+                    "target": "表格和列表只能从数组创建"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
