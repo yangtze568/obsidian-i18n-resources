@@ -1,0 +1,865 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "syncthing-integration",
+        "version": "1.0.0",
+        "title": "Syncthing Integration",
+        "description": "Syncthing Integration Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<a href=\"/\" style=\"color: inherit;\">0 B/s (0 B)</a>",
+                    "target": "<a href=\"/\" style=\"color: inherit;\">0 B/s (0 B)</a>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>Files: 100, Folders: 50, Storage: ~40 MiB</span>",
+                    "target": "<span>文件：100，文件夹：50，存储：~40 MiB</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>10h 23m</span>",
+                    "target": "<span>10h 23m</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>v1.23.7, Windows, blabla</span>",
+                    "target": "<span>v1.23.7, Windows, blabla</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>up to date</span>",
+                    "target": "<span>已是最新</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-alert-triangle\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-alert-triangle\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z\"></path><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"13\"></line><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Please set the files you want to ignore in your vault when syncing\n\t\t\twith Syncthing.\n\t\t\t<br/>\n\t\t\tSee\n\t\t\t<a href=\"https://docs.syncthing.net/users/ignoring.html\" target=\"_blank\">Syncthing documentation</a> for more information.",
+                    "target": "请设置在与 Syncthing 同步时要在库中忽略的文件。\n\t\t\t<br/>\n\t\t\t请参阅\n\t\t\t<a href=\"https://docs.syncthing.net/users/ignoring.html\" target=\"_blank\">Syncthing 文档</a> 了解更多信息。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "This plugin allows you to sync your vault with Syncthing. It allows you\n\t\tto manage the sync process from within Obsidian. You can only manage the\n\t\tfolder you are in. To use this plugin, you need to have Syncthing\n\t\tinstalled on your device. You can find more information about Syncthing\n\t\there:\n\t\t<a href=\"https://syncthing.net\">https://syncthing.net</a>",
+                    "target": "此插件允许你将库与 Syncthing 同步。它允许你\n\t\t在 Obsidian 内管理同步过程。你只能管理\n\t\t当前所在的文件夹。要使用此插件，你需要在设备上安装 Syncthing。\n\t\t你可以在此处找到更多关于 Syncthing 的信息：\n\t\t<a href=\"https://syncthing.net\">https://syncthing.net</a>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Preview the merged file",
+                    "target": "预览合并后的文件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Loading preview...",
+                    "target": "正在加载预览..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Conflicting files",
+                    "target": "冲突文件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Quick difference view",
+                    "target": "快速差异视图"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Original file",
+                    "target": "原始文件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Original file preview",
+                    "target": "原始文件预览"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Conflicting file preview",
+                    "target": "冲突文件预览"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Accept conflict changes",
+                    "target": "接受冲突更改"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Accept original",
+                    "target": "接受原始版本"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Open in Merge Editor",
+                    "target": "在合并编辑器中打开"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Download Rate",
+                    "target": "下载速率"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Upload Rate",
+                    "target": "上传速率"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Local State (Total)",
+                    "target": "本地状态（总计）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Last seen",
+                    "target": "上次在线"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Sync Status",
+                    "target": "同步状态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Folder ID",
+                    "target": "文件夹ID"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Folder Path",
+                    "target": "文件夹路径"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Global State",
+                    "target": "全局状态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Local State",
+                    "target": "本地状态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "File Versioning",
+                    "target": "文件版本控制"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Shared With",
+                    "target": "共享给"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Last Scan",
+                    "target": "上次扫描"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Latest Change",
+                    "target": "最新更改"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Updated <filename>.ext",
+                    "target": "已更新 <filename>.ext"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Pause All",
+                    "target": "全部暂停"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Rescan All",
+                    "target": "全部重新扫描"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add Folder",
+                    "target": "添加文件夹"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "This Device",
+                    "target": "此设备"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Recent Changes",
+                    "target": "最近更改"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add file/folder",
+                    "target": "添加文件/文件夹"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add pattern",
+                    "target": "添加模式"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Connect to Syncthing via API.",
+                    "target": "通过 API 连接到 Syncthing。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Get API key",
+                    "target": "获取 API 密钥"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Check API Status",
+                    "target": "检查 API 状态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Check CLI Status",
+                    "target": "检查 CLI 状态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Open Syncthing on Mobile.",
+                    "target": "在移动端打开 Syncthing。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "requestEndpoint: error: ",
+                    "target": "requestEndpoint: 错误: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: ",
+                    "target": "错误: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "In the generateSyncthingConflicts function.",
+                    "target": "在 generateSyncthingConflicts 函数中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Platform: ",
+                    "target": "平台: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Obsidian App: ",
+                    "target": "Obsidian 应用: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Syncthing is installed",
+                    "target": "Syncthing 已安装"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "REST - ping: ",
+                    "target": "REST - ping: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "REST: ",
+                    "target": "REST: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "requestEndpoint: Endpoint",
+                    "target": "requestEndpoint: 端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "requestEndpoint: API Key set ?",
+                    "target": "requestEndpoint: 已设置 API Key ?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "requestEndpoint: url requested ",
+                    "target": "requestEndpoint: 请求的 url "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "requestEndpoint: response ",
+                    "target": "requestEndpoint: 响应 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Folders: ",
+                    "target": "文件夹: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Devices: ",
+                    "target": "设备: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "selectedFile: ",
+                    "target": "selectedFile: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "fileSuggester: ",
+                    "target": "fileSuggester: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "typedPattern: ",
+                    "target": "已输入的模式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "settings tab error: ",
+                    "target": "设置选项卡错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "select change: ",
+                    "target": "选择更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ip address change: ",
+                    "target": "IP 地址更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "port change: ",
+                    "target": "端口更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save merged file",
+                    "target": "保存合并文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel merge",
+                    "target": "取消合并"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of files that will be created.",
+                    "target": "将创建的文件数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of conflicts that will be created for each file.",
+                    "target": "每个文件将创建的冲突数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Delete all files in the vault.",
+                    "target": "删除保管库中的所有文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This section will show the configuration of the Syncthing instance for the vault.",
+                    "target": "此部分将显示用于保险库的 Syncthing 实例配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This button will get the configuration of the Syncthing instance for the vault.",
+                    "target": "此按钮将获取用于保险库的 Syncthing 实例配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Error getting configuration. Please try again later.",
+                    "target": "获取配置时出错。请稍后再试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of distinct files",
+                    "target": "不同文件数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of conflicts per file",
+                    "target": "每个文件的冲突数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Generate Syncthing conflicts",
+                    "target": "生成 Syncthing 冲突"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Purge Vault",
+                    "target": "清除保险库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Are you sure?",
+                    "target": "确定吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sort by date",
+                    "target": "按日期排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Syncthing Configuration",
+                    "target": "Syncthing 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Get Syncthing Configuration",
+                    "target": "获取 Syncthing 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to search for a file",
+                    "target": "输入以搜索文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Are you sure?",
+                    "target": "你确定吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Difference view",
+                    "target": "差异视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Syncthing Conflicts",
+                    "target": "Syncthing 冲突"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Syncthing Configuration",
+                    "target": "Syncthing 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open all conflicts as splits",
+                    "target": "以拆分方式打开所有冲突"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename to original",
+                    "target": "重命名为原始名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open original file",
+                    "target": "打开原始文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "marked(): The async option was set to true by an extension. The async: false option sent to parse will be ignored.",
+                    "target": "marked(): 扩展将 async 选项设置为 true。发送给 parse 的 async: false 选项将被忽略。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Creating main files...",
+                    "target": "正在创建主文件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Creating conflict files...",
+                    "target": "正在创建冲突文件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to parse conflict filename",
+                    "target": "无法解析冲突文件名"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Saved file",
+                    "target": "已保存文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Deleted conflicting file",
+                    "target": "已删除冲突文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Closing the merge editor.",
+                    "target": "正在关闭合并编辑器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Resolving conflict : Accepting left",
+                    "target": "正在解决冲突：接受左侧"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Original file deleted",
+                    "target": "原始文件已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Conflict resolved : Accepted left",
+                    "target": "冲突已解决：已接受左侧"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Resolving conflict : Accepting original",
+                    "target": "正在解决冲突：接受原始版本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Conflict resolved",
+                    "target": "冲突已解决"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No .stignore file found.",
+                    "target": "未找到 .stignore 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This pattern is already in the .stignore file.",
+                    "target": "该模式已在 .stignore 文件中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set your GUI credentials first. There are needed on mobile app.",
+                    "target": "请先设置你的 GUI 凭据。移动应用需要这些信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This part is in construction.",
+                    "target": "此部分正在建设中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error getting configuration. Please try again later.",
+                    "target": "获取配置时出错。请稍后再试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dev mode is enabled.",
+                    "target": "开发者模式已启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If you want to retry connecting, after setting the API key. This might resolve the issue.",
+                    "target": "如果你想重试连接，请在设置 API 密钥后再试。这可能会解决问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The following settings are in beta. All plugin's features may not currently be available on mobile.",
+                    "target": "以下设置处于测试版。该插件的所有功能目前可能无法在移动端使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open the Syncthing mobile app, if not it opens the Google Play Store page.",
+                    "target": "打开 Syncthing 移动应用，如果未安装则会打开 Google Play 商店页面。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Please set your Syncthing base URL here. This address will be used to open the Syncthing GUI in your browser and to make API requests.",
+                    "target": "请在此设置 Syncthing 基础 URL。该地址将用于在浏览器中打开 Syncthing GUI 并发起 API 请求。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Please set your Syncthing GUI credentials here. These credentials will be used to open the Syncthing GUI in your browser.",
+                    "target": "请在此设置 Syncthing GUI 凭据。这些凭据将用于在浏览器中打开 Syncthing GUI。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open the Syncthing GUI in your browser.",
+                    "target": "在浏览器中打开 Syncthing GUI。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This part is in construction.",
+                    "target": "此部分正在建设中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "folder label",
+                    "target": "文件夹标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "device name",
+                    "target": "设备名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing Ignored Files",
+                    "target": "Syncthing 忽略文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing is not found",
+                    "target": "未找到 Syncthing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing CLI Status",
+                    "target": "Syncthing CLI 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugin's Dev Mode",
+                    "target": "插件开发模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Plugin's Developer Mode",
+                    "target": "启用插件的开发者模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Mobile app",
+                    "target": "打开移动端应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Syncthing mobile app",
+                    "target": "打开 Syncthing 移动端应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing Integration for Obsidian",
+                    "target": "适用于 Obsidian 的 Syncthing 集成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing API Key",
+                    "target": "Syncthing API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing API Status",
+                    "target": "Syncthing API 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing base URL",
+                    "target": "Syncthing 基础 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set the Syncthing base URL",
+                    "target": "设置 Syncthing 基础 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set GUI Credentials",
+                    "target": "设置 GUI 凭据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Syncthing GUI",
+                    "target": "打开 Syncthing GUI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Syncthing Configuration",
+                    "target": "Syncthing 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "In construction",
+                    "target": "建设中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate Syncthing conflicts",
+                    "target": "生成 Syncthing 冲突文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Plugin development mode",
+                    "target": "插件开发模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Here, you can create sample files to test the Obsidian Syncthing integration plugin.\nThe generated files are formated as in Syncthing documentation about conflicting files.",
+                    "target": "在这里，你可以创建示例文件来测试 Obsidian Syncthing 集成插件。\n生成的文件格式与 Syncthing 关于冲突文件的文档一致。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File format : <filename>.sync-conflict-<date>-<deviceID>.<extension>",
+                    "target": "文件格式：<filename>.sync-conflict-<date>-<deviceID>.<extension>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Purge Vault",
+                    "target": "清空仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will delete all files in the vault. Please don't use it on a vault that contains important files.",
+                    "target": "这将删除仓库中的所有文件。请不要在包含重要文件的仓库上使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Device ID",
+                    "target": "设备 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Device Name",
+                    "target": "设备名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Device Address",
+                    "target": "设备地址"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
