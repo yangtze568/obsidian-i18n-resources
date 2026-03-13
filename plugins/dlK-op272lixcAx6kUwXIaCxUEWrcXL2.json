@@ -1,0 +1,283 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chord-sheets",
+        "version": "1.0.0",
+        "title": "Chord Sheets",
+        "description": "Chord Sheets Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.6.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ukulele (Baritone)",
+                    "target": "尤克里里（男中音）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ukulele (D tuning)",
+                    "target": "尤克里里（D 调弦）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Update viewport in state field from: ",
+                    "target": "更新状态字段中的视口，来源："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "updateChordBlocks called",
+                    "target": "已调用 updateChordBlocks"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Out of parse",
+                    "target": "解析结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show an overview of chord diagrams above chord blocks. Might impact performance for very (!) long documents.",
+                    "target": "在和弦块上方显示和弦图概览。对非常（！）长的文档可能影响性能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a chord diagram popup when the mouse hovers over a chord.",
+                    "target": "当鼠标悬停在和弦上时显示和弦图弹窗。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Transpose all chords in a chord block up or down with the click of a button.",
+                    "target": "点击按钮即可将和弦块中的所有和弦整体升调或降调。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Control for changing the instrument of a chord block. Chord diagrams will be rendered for the chosen instrument.",
+                    "target": "用于更改和弦块乐器的控制项。和弦图将按所选乐器渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles chords between sharp (#) and flat (b) enharmonic equivalents.",
+                    "target": "在升号（#）与降号（b）的等音和弦之间切换。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set to 'Always' if you want to use autoscroll for all documents or 'Never' if you don't want to use autoscroll.",
+                    "target": "如果你想在所有文档中使用自动滚动，请设置为“始终”；如果不想使用自动滚动，请设置为“从不”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables verbose logging and a debug gutter in the editor.",
+                    "target": "在编辑器中启用详细日志和调试侧栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show chord overview",
+                    "target": "显示和弦概览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show chord diagrams on hover",
+                    "target": "悬停时显示和弦图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chord diagram size",
+                    "target": "和弦图大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default instrument",
+                    "target": "默认乐器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight chord symbols",
+                    "target": "高亮和弦符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight section headers",
+                    "target": "高亮章节标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight rhythm markers",
+                    "target": "高亮节奏标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reading mode",
+                    "target": "阅读模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display inline/ChordPro-style chords over lyrics",
+                    "target": "在歌词上方显示内联/ChordPro 风格和弦"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Live preview / edit mode",
+                    "target": "实时预览 / 编辑模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show transpose control",
+                    "target": "显示移调控制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show instrument control",
+                    "target": "显示乐器控制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show enharmonic toggle control",
+                    "target": "显示等音切换控制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Autoscroll default speed",
+                    "target": "自动滚动默认速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always save autoscroll speed to frontmatter",
+                    "target": "始终将自动滚动速度保存到 frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show autoscroll view action button",
+                    "target": "显示自动滚动视图操作按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chord block syntax",
+                    "target": "和弦块语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block language specifier",
+                    "target": "块语言标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chord line marker",
+                    "target": "和弦行标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text line marker",
+                    "target": "文本行标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No chords with accidentals were found.",
+                    "target": "未找到带变音记号的和弦。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "suspended four sharp five",
+                    "target": "挂四升五"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enharmonically toggle chords in current block between sharp (#) and flat (b).",
+                    "target": "在当前块中在升号(#)与降号(b)之间等音切换和弦。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle autoscroll",
+                    "target": "切换自动滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Increase autoscroll speed",
+                    "target": "提高自动滚动速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decrease autoscroll speed",
+                    "target": "降低自动滚动速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Save current autoscroll speed to frontmatter",
+                    "target": "将当前自动滚动速度保存到 frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Autoscroll speed",
+                    "target": "自动滚动速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "[Verse 1]",
+                    "target": "[第1节]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "| C C/B | Am C/G | F Bb | C | % |",
+                    "target": "| C C/B | Am C/G | F Bb | C | % |"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Am G F (a comment that breaks chord detection) C   %c",
+                    "target": "Am G F (会破坏和弦检测的注释) C   %c"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
