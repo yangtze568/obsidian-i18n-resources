@@ -1,0 +1,247 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "related-notes-by-tag",
+        "version": "1.0.0",
+        "title": "Related Notes by Tag",
+        "description": "Related Notes by Tag Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Hide matched tags",
+                    "target": "隐藏匹配的标签"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Show matched tags",
+                    "target": "显示匹配的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Date Created",
+                    "target": "创建日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Date Edited",
+                    "target": "编辑日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to render preview:",
+                    "target": "渲染预览失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Setting up suggestions container with parent:",
+                    "target": "正在使用父级设置建议容器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Container styles after positioning:",
+                    "target": "定位后的容器样式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default sort method for related notes",
+                    "target": "相关笔记的默认排序方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of tags to exclude from related notes (# prefix optional)",
+                    "target": "从相关笔记中排除的标签列表（逗号分隔，# 前缀可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Initial expansion state of tag groups",
+                    "target": "标签组的初始展开状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a new folder to exclude from related notes",
+                    "target": "添加一个要从相关笔记中排除的新文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default sort mode",
+                    "target": "默认排序模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded tags",
+                    "target": "排除的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default group state",
+                    "target": "默认分组状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add another exclusion",
+                    "target": "添加另一项排除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., ignore, draft, #private",
+                    "target": "例如：ignore、draft、#private"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Failed to load preview",
+                    "target": "预览加载失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add another folder exclusion",
+                    "target": "添加另一项文件夹排除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Include subfolders",
+                    "target": "包含子文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete folder exclusion",
+                    "target": "删除文件夹排除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not Open Related Notes by Tag sidebar: No available leaf.",
+                    "target": "无法打开“按标签关联笔记”侧边栏：没有可用的叶子。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open sidebar",
+                    "target": "打开侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Folder Exclusion",
+                    "target": "文件夹排除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Exclude files from specific folders when finding related notes. Use absolute paths from vault root (e.g., /Personal/Journal).",
+                    "target": "在查找相关笔记时排除特定文件夹中的文件。使用从库根目录开始的绝对路径（例如 /Personal/Journal）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Activation and usage instructions",
+                    "target": "启用与使用说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "To activate the Related Notes by Tag sidebar:",
+                    "target": "要启用“按标签关联笔记”侧边栏："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click the ribbon icon (tag icon) in the top right if visible",
+                    "target": "如果可见，请点击右上角的功能区图标（标签图标）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Or use the command palette (cmd/ctrl-P on desktop, pull down from top of Obsidian on mobile) and search for: \"Related Notes by Tag: Open sidebar\"",
+                    "target": "或者使用命令面板（桌面端 cmd/ctrl-P，移动端从 Obsidian 顶部下拉），并搜索：“Related Notes by Tag: Open sidebar”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Usage:",
+                    "target": "用法："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click tag group header to expand/collapse group",
+                    "target": "点击标签组标题以展开/折叠该组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click note name to open in current tab",
+                    "target": "点击笔记名称在当前标签页打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cmd/ctrl-click note name to open note in a new tab",
+                    "target": "Cmd/ctrl-点击笔记名称在新标签页打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click Name/Date to change sort order",
+                    "target": "点击名称/日期以更改排序顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No folders excluded yet. Click \"Add Folder Path\" to create one.",
+                    "target": "尚未排除任何文件夹。点击“Add Folder Path”创建一个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Active note has no tags.",
+                    "target": "当前笔记没有标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No other notes found with matching tags.",
+                    "target": "未找到具有匹配标签的其他笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No active note or not a markdown file.",
+                    "target": "没有活动笔记或不是 Markdown 文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Hold Cmd/Ctrl + hover to preview\nClick to open",
+                    "target": "按住 Cmd/Ctrl + 悬停以预览\n点击打开"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
