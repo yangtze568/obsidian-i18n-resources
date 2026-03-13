@@ -1,0 +1,271 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-echarts",
+        "version": "1.0.0",
+        "title": "obsidian echarts",
+        "description": "obsidian echarts Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "param should be highDownDispatcher",
+                    "target": "param 应该是 highDownDispatcher"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Illegal media option. Must be like { media: [ { query: {}, option: {} } ] }",
+                    "target": "非法的 media 选项。必须类似 { media: [ { query: {}, option: {} } ] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Illegal media option. Must be an array. Like { media: [ {...}, {...} ] }",
+                    "target": "非法的 media 选项。必须是数组。类似 { media: [ {...}, {...} ] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`setOption` should not be called during main process.",
+                    "target": "`setOption` 不应在主流程中调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`resize` should not be called during main process.",
+                    "target": "`resize` 不应在主流程中调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Danger: only stack dimension can be modified",
+                    "target": "危险：只能修改 stack 维度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For some unknown reason. drawIndex is -1",
+                    "target": "由于未知原因。drawIndex 为 -1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid boundingCoords",
+                    "target": "无效的 boundingCoords"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Graph nodes have duplicate name or id",
+                    "target": "图节点名称或 id 重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid morphing: unmatched splitted path",
+                    "target": "无效的 morphing：未匹配的拆分路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid mask image",
+                    "target": "无效的遮罩图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading echarts plugin...",
+                    "target": "正在加载 echarts 插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a pie chart data source",
+                    "target": "输入饼图数据源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "z / z2 / zlevel of displayable is invalid, which may cause unexpected errors",
+                    "target": "displayable 的 z / z2 / zlevel 无效，可能导致意外错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Currently only one tooltip component is allowed.",
+                    "target": "当前只允许一个提示框组件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "There is no specified seires model",
+                    "target": "未指定 series 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "model or view can not be found by params",
+                    "target": "无法通过参数找到 model 或 view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "There is a chart instance already initialized on the dom.",
+                    "target": "该 DOM 上已初始化图表实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Exceed safe limit.",
+                    "target": "超出安全限制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Visual map on line style is only supported on cartesian2d.",
+                    "target": "线条样式上的视觉映射仅支持 cartesian2d。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Visual map on line style only support x or y dimension.",
+                    "target": "线条样式上的视觉映射仅支持 x 或 y 维度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Only cartesian2d and polar supported for bar.",
+                    "target": "柱状图仅支持 cartesian2d 和 polar。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`realtimeSort` will not work because this bar series is not based on a category axis.",
+                    "target": "`realtimeSort` 将无法工作，因为该柱状系列不是基于类目轴。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`realtimeSort` will not work because this bar series is not on cartesian2d.",
+                    "target": "`realtimeSort` 将无法工作，因为该柱状系列不在 cartesian2d 上。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "project and unproject must be both provided in the projeciton.",
+                    "target": "project 和 unproject 必须在 projeciton 中同时提供。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Given layoutCenter or layoutSize data are invalid. Use left/top/width/height instead.",
+                    "target": "给定的 layoutCenter 或 layoutSize 数据无效。请改用 left/top/width/height。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Position error: Funnel chart on vertical orient dose not support top and bottom.",
+                    "target": "位置错误：垂直方向的漏斗图不支持 top 和 bottom。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Position error: Funnel chart on horizontal orient dose not support left and right.",
+                    "target": "位置错误：水平方向的漏斗图不支持 left 和 right。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SVG render mode doesn't support lines with trail effect",
+                    "target": "SVG 渲染模式不支持带尾迹效果的线条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Large lines not support effect",
+                    "target": "大规模线条不支持效果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "End frame with percent: 1 is missing in the keyframeAnimation.",
+                    "target": "关键帧动画中缺少百分比为 1 的结束帧。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Universal transition is disabled on large data > 10k.",
+                    "target": "大数据量（> 10k）时已禁用通用过渡。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dataview is not installed. This plugin requires Dataview to work properly.",
+                    "target": "未安装 Dataview。此插件需要 Dataview 才能正常工作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can only be created in editing mode",
+                    "target": "只能在编辑模式下创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Access From",
+                    "target": "访问来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "create echarts",
+                    "target": "创建 echarts"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "file size Pie",
+                    "target": "文件大小饼图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Data View",
+                    "target": "数据视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Save as Image",
+                    "target": "保存为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "数据视图",
+                    "target": "数据视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "还原",
+                    "target": "还原"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "保存为图片",
+                    "target": "保存为图片"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
