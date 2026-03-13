@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "todoist-completed-tasks-plugin",
+        "version": "1.0.0",
+        "title": "Todoist completed tasks",
+        "description": "Todoist completed tasks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "This is your personal authentication token for Todoist. Be aware that anyone with this token could access all of your Todoist data. This is stored in plain text in your .obsidian/plugins folder. Ensure that you are comfortable with the security implications before proceeding. \nYou can get your token from the \"API token\" section ",
+                    "target": "这是你的 Todoist 个人身份验证令牌。请注意，任何拥有此令牌的人都可以访问你的所有 Todoist 数据。该令牌以明文形式存储在你的 .obsidian/plugins 文件夹中。请确保在继续之前你已充分了解其安全影响。\n你可以在“API token”部分获取你的令牌"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Segment for the plugin to detect the start of tasks. \nSupports Obsidian's comments syntax.",
+                    "target": "供插件检测任务开始的片段。\n支持 Obsidian 的注释语法。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Segment for the plugin to detect the end of tasks. \nSupports Obsidian's comments syntax.",
+                    "target": "供插件检测任务结束的片段。\n支持 Obsidian 的注释语法。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Obsidian Markdown",
+                    "target": "Obsidian Markdown"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Set postfix for tasks. Popular usecases:\n\"💪\" - Keep it up!\n\"✅{task_finish_date}\" - to make it compatible with ",
+                    "target": "为任务设置后缀。常见用法：\n\"💪\" - 继续加油！\n\"✅{task_finish_date}\" - 使其兼容"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Obsidian Tasks",
+                    "target": "Obsidian Tasks"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "The special parameter \"{current_date}\" will be replaced with current date in \"YYYY-MM-DD\" format.\nAnother special parameter \"{task_finish_date}\" will be replaced with task finish date in \"YYYY-MM-DD\" format.\nAlso you can use {task_finish_datetime} and {current_datetime} to get date and time in \"YYYY-MM-DD HH:MM:SS\" format.\nUse \"{task_created_date}\" or \"{task_created_datetime}\" to show when the task was originally created.\nUse \"{link}\" to insert a direct web link to the task in Todoist.\nNote: Non-completed parent tasks can have completed subtasks, 'N/A' will be used for the parent in this case.",
+                    "target": "特殊参数 \"{current_date}\" 将被替换为当前日期，格式为 \"YYYY-MM-DD\"。\n另一个特殊参数 \"{task_finish_date}\" 将被替换为任务完成日期，格式为 \"YYYY-MM-DD\"。\n你还可以使用 {task_finish_datetime} 和 {current_datetime} 来获取 \"YYYY-MM-DD HH:MM:SS\" 格式的日期和时间。\n使用 \"{task_created_date}\" 或 \"{task_created_datetime}\" 来显示任务最初创建的时间。\n使用 \"{link}\" 插入 Todoist 中该任务的直接网页链接。\n注意：未完成的父任务可以有已完成的子任务，此时父任务将使用 'N/A'。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Renders projects names as headers. \nIf disabled, projects names will not be rendered at all.",
+                    "target": "将项目名称渲染为标题。\n如果禁用，项目名称将不会被渲染。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "You should disable this if you want to load more than 30 (up to 200) tasks. This is due to a limitation of the Todoist API.\nIf enabled, subtasks will be rendered as subtasks. \nIf disabled, subtasks will be rendered as normal tasks.\nDramatically increases loading time if enabled.",
+                    "target": "如果你想加载超过 30（最多 200）个任务，应禁用此项。这是由于 Todoist API 的限制。\n如果启用，子任务将被渲染为子任务。\n如果禁用，子任务将被渲染为普通任务。\n启用后会显著增加加载时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API token",
+                    "target": "API token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start segment",
+                    "target": "开始分段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "End segment",
+                    "target": "结束分段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Render projects names",
+                    "target": "渲染项目名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Render subtasks",
+                    "target": "渲染子任务"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid date format. Please use 'YYYY-MM-DD HH:mm' format.",
+                    "target": "日期格式无效。请使用“YYYY-MM-DD HH:mm”格式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No keyword segment set. Please set one in the settings.",
+                    "target": "未设置关键词分段。请在设置中设置一个。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No auth token set. Please set one in the settings.",
+                    "target": "未设置认证令牌。请在设置中设置一个。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid time frame.",
+                    "target": "时间范围无效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Completed tasks loaded.",
+                    "target": "已加载已完成任务。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching completed tasks..",
+                    "target": "正在获取已完成任务.."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid number of hours",
+                    "target": "请输入有效的小时数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You are fetching completed tasks with \"Render subtasks\" enabled. \nThis will limit the number of tasks fetched to 30.",
+                    "target": "你正在在启用“渲染子任务”的情况下获取已完成任务。\n这将把获取的任务数量限制为 30。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fetch today's completed tasks",
+                    "target": "获取今天已完成的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fetch completed tasks using dates in segments",
+                    "target": "按日期分段获取已完成任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fetch completed tasks for last N hours",
+                    "target": "获取过去 N 小时内已完成的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fetch completed tasks for last N hours",
+                    "target": "获取过去 N 小时内已完成的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Todoist Completed Tasks",
+                    "target": "Todoist 已完成任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Important - see usage instructions",
+                    "target": "重要 - 请查看使用说明"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
