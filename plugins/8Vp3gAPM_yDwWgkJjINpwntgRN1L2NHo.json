@@ -1,0 +1,463 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "publish-note-to-mowen",
+        "version": "1.0.0",
+        "title": "Publish Note to Mowen Note",
+        "description": "Publish Note to Mowen Note Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.26",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "私有",
+                    "target": "私有"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "公开",
+                    "target": "公开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "规则",
+                    "target": "规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析 frontmatter 中的标签失败:",
+                    "target": "解析 frontmatter 中的标签失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "DeepSeek API 请求失败:",
+                    "target": "DeepSeek API 请求失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析 frontmatter 失败:",
+                    "target": "解析 frontmatter 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "✨ AI 生成",
+                    "target": "✨ AI 生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "正在生成...",
+                    "target": "正在生成..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "发布",
+                    "target": "发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请输入你的墨问 API key",
+                    "target": "请输入你的墨问 API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于在frontmatter中存储墨问笔记ID的键名，以避免与其他插件冲突，不建议频繁修改，建议保持不变。",
+                    "target": "用于在frontmatter中存储墨问笔记ID的键名，以避免与其他插件冲突，不建议频繁修改，建议保持不变。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可选。如果配置此项，将从frontmatter中读取该键名对应的值作为笔记标题。",
+                    "target": "可选。如果配置此项，将从frontmatter中读取该键名对应的值作为笔记标题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，当找不到自定义的笔记ID键时，会自动尝试查找默认的 'noteId' 键。如果其他插件占用了 'noteId' 导致冲突，请关闭此选项。",
+                    "target": "开启后，当找不到自定义的笔记ID键时，会自动尝试查找默认的 'noteId' 键。如果其他插件占用了 'noteId' 导致冲突，请关闭此选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "发布到墨问笔记中默认的标签，多个标签用英文逗号分隔",
+                    "target": "发布到墨问笔记中默认的标签，多个标签用英文逗号分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "发布后是否自动发布到墨问，默认是发布到墨问笔记中，但不是发布状态",
+                    "target": "发布后是否自动发布到墨问，默认是发布到墨问笔记中，但不是发布状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，发布笔记时将直接采用下方配置，无需每次弹窗设置",
+                    "target": "开启后，发布笔记时将直接采用下方配置，无需每次弹窗设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "发布后是否立即公开，无需审核",
+                    "target": "发布后是否立即公开，无需审核"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "全局标签，多个标签用英文逗号分隔",
+                    "target": "全局标签，多个标签用英文逗号分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择发布笔记的隐私类型",
+                    "target": "选择发布笔记的隐私类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，禁止他人分享/转发该笔记",
+                    "target": "开启后，禁止他人分享/转发该笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "到期后自动变为私有，留空为永久公开",
+                    "target": "到期后自动变为私有，留空为永久公开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择用于生成标题和标签的AI服务",
+                    "target": "选择用于生成标题和标签的AI服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请输入所选 AI 服务商的 API key",
+                    "target": "请输入所选 AI 服务商的 API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "指定要使用的模型，例如 deepseek-chat",
+                    "target": "指定要使用的模型，例如 deepseek-chat"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，AI 将在生成标题和标签的同时生成内容摘要，摘要内容会随文章发布到墨问笔记中，在墨问笔记中会显示在笔记标题下方引用块中",
+                    "target": "开启后，AI 将在生成标题和标签的同时生成内容摘要，摘要内容会随文章发布到墨问笔记中，在墨问笔记中会显示在笔记标题下方引用块中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "指定 AI 生成标签的数量 (1-5)",
+                    "target": "指定 AI 生成标签的数量 (1-5)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "发布到墨问后的笔记标题，会自动加粗",
+                    "target": "发布到墨问后的笔记标题，会自动加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可选，英文逗号分隔，发布到墨问后的笔记标签，通过默认标签配置可以进行自定义",
+                    "target": "可选，英文逗号分隔，发布到墨问后的笔记标签，通过默认标签配置可以进行自定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "使用AI为当前笔记生成标题和标签",
+                    "target": "使用AI为当前笔记生成标题和标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "立即发布到墨问",
+                    "target": "立即发布到墨问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置笔记隐私",
+                    "target": "设置笔记隐私"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置笔记的隐私类型",
+                    "target": "设置笔记的隐私类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否允许分享",
+                    "target": "是否允许分享"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "到期后自动变为私有，选择日期和时间",
+                    "target": "到期后自动变为私有，选择日期和时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记ID键名",
+                    "target": "笔记ID键名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标题属性键",
+                    "target": "标题属性键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "兼容旧版笔记ID",
+                    "target": "兼容旧版笔记ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认标签",
+                    "target": "默认标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动发布",
+                    "target": "自动发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "全局发布",
+                    "target": "全局发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用全局发布配置",
+                    "target": "启用全局发布配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "隐私类型",
+                    "target": "隐私类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "禁止分享",
+                    "target": "禁止分享"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "公开截止时间",
+                    "target": "公开截止时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI 功能",
+                    "target": "AI 功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI 服务商",
+                    "target": "AI 服务商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模型名称",
+                    "target": "模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "生成摘要",
+                    "target": "生成摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "生成标签数量",
+                    "target": "生成标签数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "内容",
+                    "target": "内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "隐私设置",
+                    "target": "隐私设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许分享",
+                    "target": "允许分享"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "公开过期时间",
+                    "target": "公开过期时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的 API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: mowenId",
+                    "target": "例如: mowenId"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: mowenTitle",
+                    "target": "例如: mowenTitle"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "在此输入 API key",
+                    "target": "在此输入 API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如 deepseek-chat",
+                    "target": "例如 deepseek-chat"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Publish selected text to Mowen",
+                    "target": "将所选文本发布到墨问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Publish to Mowen",
+                    "target": "发布到墨问"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在设置中完成 AI 配置",
+                    "target": "请先在设置中完成 AI 配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI 正在生成内容，请稍候...",
+                    "target": "AI 正在生成内容，请稍候..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI 生成成功，摘要已保存！",
+                    "target": "AI 生成成功，摘要已保存！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI 生成成功！",
+                    "target": "AI 生成成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在设置中填写 API key",
+                    "target": "请先在设置中填写 API key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在发布到墨问...",
+                    "target": "正在发布到墨问..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "发布成功！",
+                    "target": "发布成功！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "发布成功",
+                    "target": "发布成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish to Mowen",
+                    "target": "发布到墨问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish selected text to Mowen",
+                    "target": "将所选文本发布到墨问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布到墨问",
+                    "target": "发布到墨问"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
