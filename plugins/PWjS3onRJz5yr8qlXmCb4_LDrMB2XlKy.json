@@ -1,0 +1,331 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-pangu",
+        "version": "1.0.0",
+        "title": "盘古 PanGu",
+        "description": "盘古 PanGu Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.6.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "4个空格",
+                    "target": "4个空格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "2个空格",
+                    "target": "2个空格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading plugin",
+                    "target": "正在卸载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认快捷键为:Mac - Command + Shift + S，Windows -  Shift + Ctrl + S。当然，您可以到「设置 - 快捷键」里进行更改。",
+                    "target": "默认快捷键为:Mac - Command + Shift + S，Windows -  Shift + Ctrl + S。当然，您可以到「设置 - 快捷键」里进行更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "指定格式化时，缩进所占空格数",
+                    "target": "指定格式化时，缩进所占空格数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "指定格式化时，是否格式化文档中的内嵌代码",
+                    "target": "指定格式化时，是否格式化文档中的内嵌代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "快速开始",
+                    "target": "快速开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "缩进宽度",
+                    "target": "缩进宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "格式化内嵌代码",
+                    "target": "格式化内嵌代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No parser and no filepath given, using 'babel' the parser now but this will throw an error in the future. Please specify a parser or a filepath so one can be inferred.",
+                    "target": "未提供 parser 和 filepath，当前使用 'babel' 作为 parser，但未来将抛出错误。请指定一个 parser 或 filepath 以便推断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which end of line characters to apply.",
+                    "target": "要应用哪种行尾字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Line Feed only (\\n), common on Linux and macOS as well as inside git repos",
+                    "target": "仅使用换行符 (\\n)，常见于 Linux、macOS 以及 git 仓库中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return + Line Feed characters (\\r\\n), common on Windows",
+                    "target": "回车 + 换行符 (\\r\\n)，常见于 Windows"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return character only (\\r), used very rarely",
+                    "target": "仅使用回车符 (\\r)，极少使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Specify the input filepath. This will be used to do parser inference.",
+                    "target": "指定输入文件路径。这将用于推断 parser。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Insert @format pragma into file's first docblock comment.",
+                    "target": "将 @format 指令插入到文件的首个 docblock 注释中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which parser to use.",
+                    "target": "使用哪个 parser。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web Components"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add a plugin. Multiple plugins can be passed as separate `--plugin`s.",
+                    "target": "添加一个插件。可以通过多个独立的 `--plugin` 传入多个插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The line length where Prettier will try wrap.",
+                    "target": "Prettier 将尝试换行的行长度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number of spaces per indentation level.",
+                    "target": "每级缩进的空格数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent with tabs instead of spaces.",
+                    "target": "使用制表符缩进而不是空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print spaces between brackets.",
+                    "target": "在括号之间输出空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes instead of double quotes.",
+                    "target": "使用单引号替代双引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to wrap prose.",
+                    "target": "如何换行文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose if it exceeds the print width.",
+                    "target": "当文本超过打印宽度时换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not wrap prose.",
+                    "target": "不对文本换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose as-is.",
+                    "target": "按原样换行文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > of opening tags on the last line instead of on a new line.",
+                    "target": "将起始标签的 > 放在最后一行，而不是新起一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enforce single attribute per line in HTML, Vue and JSX.",
+                    "target": "在 HTML、Vue 和 JSX 中强制每行仅一个属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Include parentheses around a sole arrow function parameter.",
+                    "target": "在只有一个参数的箭头函数参数周围加括号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Always include parens. Example: `(x) => x`",
+                    "target": "始终包含括号。示例：`(x) => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Omit parens when possible. Example: `x => x`",
+                    "target": "尽可能省略括号。示例：`x => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > on the last line instead of at a new line.",
+                    "target": "将 > 放在最后一行，而不是新起一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes in JSX.",
+                    "target": "在 JSX 中使用单引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Change when properties in objects are quoted.",
+                    "target": "更改对象属性何时需要加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Only add quotes around object properties where required.",
+                    "target": "仅在需要时给对象属性加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If at least one property in an object requires quotes, quote all properties.",
+                    "target": "如果对象中至少有一个属性需要引号，则为所有属性加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the input use of quotes in object properties.",
+                    "target": "遵循输入中对象属性的引号用法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print trailing commas wherever possible when multi-line.",
+                    "target": "多行时尽可能输出尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas where valid in ES5 (objects, arrays, etc.)",
+                    "target": "在 ES5 有效的位置使用尾随逗号（对象、数组等）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No trailing commas.",
+                    "target": "不使用尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas wherever possible (including function arguments).",
+                    "target": "尽可能使用尾随逗号（包括函数参数）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to handle whitespaces in HTML.",
+                    "target": "如何处理 HTML 中的空白。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the default value of CSS display property.",
+                    "target": "遵循 CSS display 属性的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered sensitive.",
+                    "target": "空白被视为敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered insensitive.",
+                    "target": "空白被视为不敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent script and style tags in Vue files.",
+                    "target": "在 Vue 文件中缩进 script 和 style 标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JSON with Comments",
+                    "target": "带注释的 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web Components"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "为中英文字符间自动加入空格",
+                    "target": "为中英文字符间自动加入空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pangu 使用说明",
+                    "target": "Pangu 使用说明"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
