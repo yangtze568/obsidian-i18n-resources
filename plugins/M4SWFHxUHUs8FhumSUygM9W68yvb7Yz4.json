@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sets",
+        "version": "1.0.0",
+        "title": "Sets",
+        "description": "Sets Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.14",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "insertText not supported",
+                    "target": "不支持 insertText"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Minimum width of each card in the gallery",
+                    "target": "画廊中每张卡片的最小宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder where Sets will store its data.",
+                    "target": "Sets 用于存储其数据的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The suffix that will be added to the name of the type set.",
+                    "target": "将添加到类型集名称的后缀。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The subfolder where Sets will store its types.",
+                    "target": "Sets 用于存储其类型的子文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The suffix that will be added to the name of the type.",
+                    "target": "将添加到类型名称的后缀。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The subfolder where Sets will store its collections.",
+                    "target": "Sets 用于存储其集合的子文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the attribute that will be used to store the type of a note.",
+                    "target": "用于存储笔记类型的属性名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the attribute that will be used to store the collection of a note.",
+                    "target": "用于存储笔记集合的属性名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default number of notes to show in the views",
+                    "target": "视图中默认显示的笔记数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default number of notes to show in the widgets",
+                    "target": "在小组件中显示的默认笔记数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Min width",
+                    "target": "最小宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sets folder",
+                    "target": "集合文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Type set suffix",
+                    "target": "类型集合后缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Types folder",
+                    "target": "类型文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Types suffix",
+                    "target": "类型后缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Collections folder",
+                    "target": "收藏夹文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Type attribute key",
+                    "target": "类型属性键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Collection attribute key",
+                    "target": "集合属性键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top results",
+                    "target": "最佳结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top Results in Widgets",
+                    "target": "小组件中的热门结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move up",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move down",
+                    "target": "下移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to collection...",
+                    "target": "添加到集合..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unrecognized value. Skipped inserting",
+                    "target": "无法识别的值。已跳过插入"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not create file",
+                    "target": "无法创建文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Sets sidebar",
+                    "target": "打开 Sets 侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new type",
+                    "target": "创建新类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new collection",
+                    "target": "创建新集合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add to collection",
+                    "target": "添加到集合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New widget",
+                    "target": "新建小组件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
