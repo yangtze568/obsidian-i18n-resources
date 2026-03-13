@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "random-broken-link",
+        "version": "1.0.0",
+        "title": "Random broken link",
+        "description": "Random broken link Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you have a tag that marks incomplete files add it here so that the plugin can also open the files with it.",
+                    "target": "如果你有一个用于标记不完整文件的标签，请在此添加，这样插件也可以用它打开这些文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag to consider broken",
+                    "target": "视为损坏的标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open random broken link",
+                    "target": "打开随机损坏链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
