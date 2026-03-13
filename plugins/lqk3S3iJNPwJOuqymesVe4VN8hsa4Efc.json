@@ -1,0 +1,1027 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "coco-askai",
+        "version": "1.0.0",
+        "title": "CoCo AskAI",
+        "description": "CoCo AskAI Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.24",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 100 100\" class=\"document\" width=\"16\" height=\"16\"><path fill=\"currentColor\" stroke=\"currentColor\" d=\"M14,4v92h72V29.2l-0.6-0.6l-24-24L60.8,4H14z M18,8h40v24h24v60H18V8z M62,10.9L79.1,28H62V10.9z\"></path></svg>",
+                    "target": "<svg viewBox=\"0 0 100 100\" class=\"document\" width=\"16\" height=\"16\"><path fill=\"currentColor\" stroke=\"currentColor\" d=\"M14,4v92h72V29.2l-0.6-0.6l-24-24L60.8,4H14z M18,8h40v24h24v60H18V8z M62,10.9L79.1,28H62V10.9z\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Ask Al to write anything...",
+                    "target": "让 Al 写点什么……"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "🥰",
+                    "target": "🥰"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No results",
+                    "target": "无结果"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "There is no content yet, try asking a question.",
+                    "target": "还没有内容，试着提个问题。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Ask Question",
+                    "target": "提问"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Keep Win",
+                    "target": "保持窗口"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Insert Chat",
+                    "target": "插入聊天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize SQL.js:",
+                    "target": "初始化 SQL.js 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create .AskAI folder",
+                    "target": "创建 .AskAI 文件夹失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create sqlite file",
+                    "target": "创建 sqlite 文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "IndexedDB 打开失败:",
+                    "target": "IndexedDB 打开失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建 IndexedDB 事务失败",
+                    "target": "创建 IndexedDB 事务失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存到 IndexedDB 时发生错误:",
+                    "target": "保存到 IndexedDB 时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "清除缓存时发生错误:",
+                    "target": "清除缓存时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "AskInput is not initialized",
+                    "target": "AskInput 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "flexibleTagBox is not initialized",
+                    "target": "flexibleTagBox 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "askInputController is null",
+                    "target": "askInputController 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "USER is null",
+                    "target": "USER 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "InputController is null",
+                    "target": "InputController 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "editor is null",
+                    "target": "editor 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "message is null",
+                    "target": "message 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "askAiView is null",
+                    "target": "askAiView 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "InputMeta is null",
+                    "target": "InputMeta 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fileSelector is null",
+                    "target": "fileSelector 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "askModelSelector is null",
+                    "target": "askModelSelector 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "InputManagerNode is null",
+                    "target": "InputManagerNode 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying default role:",
+                    "target": "应用默认角色时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error parsing url",
+                    "target": "解析 url 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse chunk:",
+                    "target": "解析分块失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[OpenRouterRequest] 处理转义序列出错:",
+                    "target": "[OpenRouterRequest] 处理转义序列出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "settings is null",
+                    "target": "settings 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "winBtnStyle is null",
+                    "target": "winBtnStyle 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法获取文档节点",
+                    "target": "无法获取文档节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "nodeEl is null",
+                    "target": "nodeEl 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "menuContainer is null",
+                    "target": "menuContainer 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "id is null",
+                    "target": "id 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "askWin is null",
+                    "target": "askWin 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HistoryWinNode is null",
+                    "target": "HistoryWinNode 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "askAiView.nodeEl is null",
+                    "target": "askAiView.nodeEl 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WinController is null",
+                    "target": "WinController 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HistroyController is null",
+                    "target": "HistroyController 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "askWinModelStore is null",
+                    "target": "askWinModelStore 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while fetching the notice data:",
+                    "target": "获取通知数据时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while fetching the model data:",
+                    "target": "获取模型数据时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch Ollama models:",
+                    "target": "获取 Ollama 模型失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch LMStudio models:",
+                    "target": "获取 LMStudio 模型失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching Ollama models:",
+                    "target": "获取 Ollama 模型时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching LMStudio models:",
+                    "target": "获取 LMStudio 模型时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling right-click menu settings:",
+                    "target": "处理右键菜单设置时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "created new sqlite database",
+                    "target": "已创建新的 sqlite 数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SQLite database connection closed and resources released",
+                    "target": "SQLite 数据库连接已关闭且资源已释放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unknown tag type:",
+                    "target": "未知的标签类型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to parse error response as JSON",
+                    "target": "无法将错误响应解析为 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Getting text from response",
+                    "target": "正在从响应获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to get text from error response",
+                    "target": "无法从错误响应获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "nodeEl is null",
+                    "target": "nodeEl 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "node undefind",
+                    "target": "node 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "renderMsgSub undefind",
+                    "target": "renderMsgSub 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "lastUser undefind",
+                    "target": "lastUser 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "actionType undefind",
+                    "target": "actionType 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "lastAssistantContent undefind",
+                    "target": "lastAssistantContent 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "messages undefind",
+                    "target": "messages 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "AskWin: 无法获取父级节点，跳过事件监听器移除",
+                    "target": "AskWin: 无法获取父级节点，跳过事件监听器移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "container undefind",
+                    "target": "container 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "drag handle undefind",
+                    "target": "drag handle 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "plugin is null",
+                    "target": "plugin 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "markdownView is null",
+                    "target": "markdownView 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "无法添加节点：没有有效的容器元素",
+                    "target": "无法添加节点：没有有效的容器元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "没有在 HTML 中找到图片 URL:",
+                    "target": "没有在 HTML 中找到图片 URL:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "historyList is null",
+                    "target": "historyList 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "message is null",
+                    "target": "message 为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Current file is null",
+                    "target": "当前文件为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "AskMask: 没有设置回调函数",
+                    "target": "AskMask: 没有设置回调函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid json: ",
+                    "target": "无效的 json: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse tool arguments as JSON:",
+                    "target": "无法将工具参数解析为 JSON:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Ollama: structuredOutputs was set to false but auto-enabled for object generation. This ensures generateText with Output.object() and streamText with Output.object() work correctly.",
+                    "target": "Ollama: structuredOutputs 被设置为 false，但已为对象生成自动启用。这可确保使用 Output.object() 的 generateText 和使用 Output.object() 的 streamText 正常工作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Reliable tool calling skipped:",
+                    "target": "已跳过可靠的工具调用:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Reliable object generation skipped:",
+                    "target": "已跳过可靠的对象生成:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Reader canceled with error:",
+                    "target": "读取器因错误取消："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "askTalkSub is null",
+                    "target": "askTalkSub 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "askTalkList is null",
+                    "target": "askTalkList 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WinCon askWin is null",
+                    "target": "WinCon askWin 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WinCon inputMeta is null",
+                    "target": "WinCon inputMeta 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WinCon askInputMeta.message is null",
+                    "target": "WinCon askInputMeta.message 为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Ollama models updated successfully",
+                    "target": "Ollama 模型更新成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "LMStudio models updated successfully",
+                    "target": "LMStudio 模型更新成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Hi, I am your assistant",
+                    "target": "你好，我是你的助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search the web for current information about any topic. Use this when you need up-to-date information, recent news, current statistics, or real-time data that may not be in your training data.",
+                    "target": "在网上搜索任何主题的最新信息。当你需要最新信息、近期新闻、当前统计数据或训练数据中可能没有的实时数据时使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fetch and read content from a specific web URL. Use this to retrieve the full text content of web pages, articles, documentation, or any publicly accessible web content for analysis or summarization.",
+                    "target": "从特定的网页 URL 获取并读取内容。用于检索网页、文章、文档或任何公开可访问的网页内容的全文，以便进行分析或摘要。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Tool not found or invalid tool call",
+                    "target": "未找到工具或工具调用无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Tool not found",
+                    "target": "未找到工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid JSON string - repair failed",
+                    "target": "无效的 JSON 字符串 - 修复失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת",
+                    "target": "字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מספר",
+                    "target": "数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך בוליאני",
+                    "target": "布尔值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מערך",
+                    "target": "数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "אובייקט",
+                    "target": "对象"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך ריק (null)",
+                    "target": "空值（null）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך לא מוגדר (undefined)",
+                    "target": "未定义值（undefined）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "סימבול (Symbol)",
+                    "target": "符号（Symbol）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "פונקציה",
+                    "target": "函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מפה (Map)",
+                    "target": "映射（Map）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קבוצה (Set)",
+                    "target": "集合（Set）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קובץ",
+                    "target": "文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך לא ידוע",
+                    "target": "未知值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך",
+                    "target": "值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קלט",
+                    "target": "输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת אימייל",
+                    "target": "电子邮件地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת רשת",
+                    "target": "网址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "אימוג'י",
+                    "target": "表情符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך וזמן ISO",
+                    "target": "ISO 日期和时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך ISO",
+                    "target": "ISO 日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "זמן ISO",
+                    "target": "ISO 时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "משך זמן ISO",
+                    "target": "ISO 时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת IPv4",
+                    "target": "IPv4 地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת IPv6",
+                    "target": "IPv6 地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "טווח IPv4",
+                    "target": "IPv4 范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "טווח IPv6",
+                    "target": "IPv6 范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת בבסיס 64",
+                    "target": "Base64 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת בבסיס 64 לכתובות רשת",
+                    "target": "网络地址的 Base64 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת JSON",
+                    "target": "JSON 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מספר E.164",
+                    "target": "E.164 号码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to process error response",
+                    "target": "无法处理错误响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to process successful response",
+                    "target": "无法处理成功响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid JSON response",
+                    "target": "无效的 JSON 响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to read response as array buffer",
+                    "target": "无法将响应读取为 ArrayBuffer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "SSE stream ended without a data event",
+                    "target": "SSE 流在没有数据事件的情况下结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to parse video SSE event",
+                    "target": "无法解析视频 SSE 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Must be a Buffer",
+                    "target": "必须是 Buffer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxOutputTokens must be an integer",
+                    "target": "maxOutputTokens 必须为整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxOutputTokens must be >= 1",
+                    "target": "maxOutputTokens 必须 >= 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "topP must be a number",
+                    "target": "topP 必须为数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "topK must be a number",
+                    "target": "topK 必须为数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "presencePenalty must be a number",
+                    "target": "presencePenalty 必须为数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "frequencyPenalty must be a number",
+                    "target": "frequencyPenalty 必须为数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "seed must be an integer",
+                    "target": "seed 必须为整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "prompt or messages must be defined",
+                    "target": "必须定义 prompt 或 messages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "prompt and messages cannot be defined at the same time",
+                    "target": "prompt 和 messages 不能同时定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxRetries must be an integer",
+                    "target": "maxRetries 必须为整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxRetries must be >= 0",
+                    "target": "maxRetries 必须 >= 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No object generated: could not parse the response.",
+                    "target": "未生成对象：无法解析响应。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Type must start with \"data-\"",
+                    "target": "Type 必须以 \"data-\" 开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No output generated. Check the stream for errors.",
+                    "target": "未生成输出。请检查流是否有错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "logprobs is not supported for reasoning models",
+                    "target": "推理模型不支持 logprobs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "logitBias is not supported for reasoning models",
+                    "target": "推理模型不支持 logitBias"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "topLogprobs is not supported for reasoning models",
+                    "target": "推理模型不支持 topLogprobs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Expected 'function' type.",
+                    "target": "预期为 'function' 类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Expected 'id' to be a string.",
+                    "target": "期望“id”为字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Expected 'function.name' to be a string.",
+                    "target": "期望“function.name”为字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Image generation requires a prompt",
+                    "target": "图像生成需要提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Ollama client not available for web search. This should not happen in normal usage.",
+                    "target": "Web 搜索的 Ollama 客户端不可用。正常使用中不应发生此情况。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Web search is not available. Please upgrade to Ollama v0.6.0 or later.",
+                    "target": "Web 搜索不可用。请升级到 Ollama v0.6.0 或更高版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Web search requires an Ollama API key. Please set OLLAMA_API_KEY environment variable or configure apiKey in provider settings.",
+                    "target": "Web 搜索需要 Ollama API 密钥。请设置 OLLAMA_API_KEY 环境变量或在提供方设置中配置 apiKey。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Web search rate limit exceeded. Please try again later or upgrade your Ollama plan.",
+                    "target": "Web 搜索超出速率限制。请稍后再试或升级您的 Ollama 计划。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Web search request was cancelled.",
+                    "target": "Web 搜索请求已取消。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Ollama client not available for web fetch. This should not happen in normal usage.",
+                    "target": "Web 抓取的 Ollama 客户端不可用。正常使用中不应发生此情况。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Web fetch is not available. Please upgrade to Ollama v0.6.0 or later.",
+                    "target": "Web 抓取不可用。请升级到 Ollama v0.6.0 或更高版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "History window On-Off",
+                    "target": "历史窗口 开/关"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New question",
+                    "target": "新问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quit focus window",
+                    "target": "退出专注窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Continue focus window",
+                    "target": "继续专注窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keep focus window OnOff",
+                    "target": "保持专注窗口 开/关"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert last chat",
+                    "target": "插入上一条聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "note:",
+                    "target": "注："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "text:",
+                    "target": "文本："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
