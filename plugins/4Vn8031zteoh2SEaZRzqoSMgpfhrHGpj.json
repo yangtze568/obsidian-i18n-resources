@@ -1,0 +1,505 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wechat-public-platform",
+        "version": "1.0.0",
+        "title": "Wechat Public Platform",
+        "description": "Wechat Public Platform Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If this plugin adds value for you and you would like to help support continued development, please use the buttons below:",
+                    "target": "如果此插件对您有价值且您愿意支持持续开发，请使用下方按钮："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "如果您觉得这个插件帮助到您了，为您提供了价值，欢迎赞助我以持续开发迭代本插件。您可以使用如下微信/ WeChat 二维码以赞助开发者: 🧡🧡 👏🏻👏🏻",
+                    "target": "如果您觉得这个插件帮助到您了，为您提供了价值，欢迎赞助我以持续开发迭代本插件。您可以使用如下微信/ WeChat 二维码以赞助开发者: 🧡🧡 👏🏻👏🏻"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Copy access-key to clipboard failed!",
+                    "target": "复制 access-key 到剪贴板失败！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Copy cookie to clipboard failed!",
+                    "target": "复制 cookie 到剪贴板失败！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading custom.css:",
+                    "target": "读取 custom.css 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clean secret",
+                    "target": "清除 secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Copy access key",
+                    "target": "复制 access key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clean cookie",
+                    "target": "清除 cookie"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Copy cookie",
+                    "target": "复制 cookie"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Download ...",
+                    "target": "下载 ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Download Complete",
+                    "target": "下载完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "wechat public platform account appid",
+                    "target": "微信公众号账号 appid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "wechat public platform account secret",
+                    "target": "微信公众号账号 secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "for future using",
+                    "target": "供日后使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize article formatting",
+                    "target": "自定义文章格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download folder from wechat public",
+                    "target": "从微信公众号下载文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prohibit upload folders, use comma apart",
+                    "target": "禁止上传的文件夹，用逗号分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "path: ob path or net url",
+                    "target": "path: ob 路径或网络 url"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "fileType: image, voice, video, thumb",
+                    "target": "fileType: image, voice, video, thumb"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "type: news, image, video, voice",
+                    "target": "type: news, image, video, voice"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "offset: start related last log",
+                    "target": "offset：起始相关的最新日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "totalCount: number,maximum 20",
+                    "target": "totalCount：数量，最多 20"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "🌈 Wechat public platform",
+                    "target": "🌈 微信公众平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "🌎 🌞 Baidu bjh platform 🔍",
+                    "target": "🌎 🌞 百度百家号平台 🔍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Test the wechat public API",
+                    "target": "测试微信公众 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Login bjh platform",
+                    "target": "登录百家号平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Setting appid",
+                    "target": "设置 appid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Setting secret",
+                    "target": "设置 secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note location folder",
+                    "target": "备注位置文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom css",
+                    "target": "自定义 css"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download folder",
+                    "target": "下载文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "💰 Support & Funding 💰",
+                    "target": "💰 支持与资金 💰"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your appid",
+                    "target": "输入你的appid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your secret",
+                    "target": "输入你的secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ur wechat release folder",
+                    "target": "你的微信发布文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请从素材库选择文章封面图片......",
+                    "target": "请从素材库选择文章封面图片......"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请选择要发送的文章......",
+                    "target": "请选择要发送的文章......"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "登录百家号~",
+                    "target": "登录百家号~"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Native DOM parser encountered an error during parse",
+                    "target": "原生DOM解析器在解析过程中遇到错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "marked(): The async option was set to true by an extension. The async: false option sent to parse will be ignored.",
+                    "target": "marked(): 一个扩展将async选项设为true。发送给parse的async: false选项将被忽略。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "加载百家号登录页面失败",
+                    "target": "加载百家号登录页面失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy access-key to clipboard succeed!",
+                    "target": "复制 access-key 到剪贴板成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy access-key to clipboard failed!",
+                    "target": "复制 access-key 到剪贴板失败！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy cookie to clipboard succeed!",
+                    "target": "复制 cookie 到剪贴板成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy cookie to clipboard failed!",
+                    "target": "复制 cookie 到剪贴板失败！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Custom css activated",
+                    "target": "自定义 css 已启用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No custom.css, use default css",
+                    "target": "没有 custom.css，使用默认 css"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请检查 CSS 文件是否编写正确！",
+                    "target": "请检查 CSS 文件是否编写正确！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input correct [appid] and [secret]",
+                    "target": "请输入正确的 [appid] 和 [secret]"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "刷新 AccessToken 成功",
+                    "target": "刷新 AccessToken 成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input correct [cookie] and [token]",
+                    "target": "请输入正确的[cookie]和[token]"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Custom css file exists.",
+                    "target": "自定义css文件已存在。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Download Custom css file completion",
+                    "target": "自定义css文件下载完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Download failed, please check the network!",
+                    "target": "下载失败，请检查网络！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input correct file relative path in obsidian",
+                    "target": "请在 Obsidian 中输入正确的文件相对路径"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Not Support, Only supplied type image,video,voice,thumb",
+                    "target": "不支持，仅支持类型 image,video,voice,thumb"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to upload Material",
+                    "target": "上传素材失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set banner of article, thumb_media_id, banner, banner_path in file frontManager",
+                    "target": "请在文件 frontManager 中设置文章的 banner、thumb_media_id、banner、banner_path"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to new wechat public draft. Please check your appId, secret and try again.",
+                    "target": "新建微信公众号草稿失败。请检查你的 appId、secret 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to free publish. Please check your appId, secret and try again.",
+                    "target": "免费发布失败。请检查你的 appId、secret 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to sending all fans. Please check your appId, secret and try again.",
+                    "target": "向所有粉丝发送失败。请检查你的 appId、secret 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No News Data from wechat public",
+                    "target": "微信公众号暂无图文数据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Success batch Get Material",
+                    "target": "批量获取素材成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to batch Get Material. Please check your appId, secret,parameter and try again.",
+                    "target": "批量获取素材失败。请检查你的 appId、secret、parameter 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to get Article Cover. Please check your appId, secret,parameter and try again.",
+                    "target": "获取文章封面失败。请检查你的 appId、secret、parameter 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to upload image",
+                    "target": "上传图片失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "not support format image/webp, use the pointed cover",
+                    "target": "不支持 image/webp 格式，请使用指定的封面"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set banner of article, banner, banner_path in file frontManager",
+                    "target": "请在文件 frontManager 中设置文章的 banner、banner、banner_path"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to publish to baidu bjh. Please check your appId, secret and try again.",
+                    "target": "发布到百度百家号失败。请检查你的 appId、secret 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input correct material details!",
+                    "target": "请输入正确的素材详情！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input all fields!",
+                    "target": "请输入所有字段！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Send to all wechat subscribers【 normal account one shot a day 】",
+                    "target": "发送给所有微信订阅者【普通账号每天一次】"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Release article to WeChat platform",
+                    "target": "发布文章到微信平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "add draft to wechat platform",
+                    "target": "添加草稿到微信平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "upload material to wechat platform",
+                    "target": "上传素材到微信平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "download material from WeChatPublic.",
+                    "target": "从WeChatPublic下载素材。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "publish baidu bjh news",
+                    "target": "发布百度百家号新闻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Input material details",
+                    "target": "输入素材详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Input download details",
+                    "target": "输入下载详情"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
