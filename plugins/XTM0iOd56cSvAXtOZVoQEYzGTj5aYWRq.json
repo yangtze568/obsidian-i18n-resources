@@ -1,0 +1,151 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "kkh",
+        "version": "1.0.0",
+        "title": "kkh",
+        "description": "kkh Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文章：旧字旧仮名へ変換",
+                    "target": "文章：转换为旧字旧假名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文章：新字新仮名へ変換",
+                    "target": "文章：转换为新字新假名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "かな：旧仮名遣いへ変換",
+                    "target": "假名：转换为旧假名遣"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "かな：新仮名遣いへ変換",
+                    "target": "假名：转换为新假名遣"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "漢字：旧漢字へ変換",
+                    "target": "汉字：转换为旧汉字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "漢字：新漢字へ変換",
+                    "target": "汉字：转换为新汉字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "kkh 辞書の情報",
+                    "target": "kkh 词典信息"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "編集モードにしてください！",
+                    "target": "请切换到编辑模式！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文字列が選択されていません！",
+                    "target": "未选择字符串！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "旧字旧仮名へ変換しました！",
+                    "target": "已转换为旧字旧假名！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新字新仮名へ変換しました！",
+                    "target": "已转换为新字新假名！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "旧仮名遣いへ変換しました！",
+                    "target": "已转换为旧假名用法！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新仮名遣いへ変換しました！",
+                    "target": "已转换为新假名用法！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "旧漢字へ変換しました！",
+                    "target": "已转换为旧汉字！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新漢字へ変換しました！",
+                    "target": "已转换为新汉字！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "旧仮名遣いへ変換",
+                    "target": "转换为旧假名用法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新仮名遣いへ変換",
+                    "target": "转换为新假名用法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "旧漢字へ変換",
+                    "target": "转换为旧汉字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新漢字へ変換",
+                    "target": "转换为新汉字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "旧字旧仮名遣いへ変換",
+                    "target": "转换为旧字旧假名用法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新字新仮名遣いへ変換",
+                    "target": "转换为新字新假名用法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "辞書の情報",
+                    "target": "词典信息"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
