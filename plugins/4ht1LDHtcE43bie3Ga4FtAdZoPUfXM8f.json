@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "automatic-list-styles",
+        "version": "1.0.0",
+        "title": "Automatic List Styles",
+        "description": "Automatic List Styles Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
