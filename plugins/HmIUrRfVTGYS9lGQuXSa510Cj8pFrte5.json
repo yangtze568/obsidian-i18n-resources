@@ -1,0 +1,1687 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mp-preview",
+        "version": "1.0.0",
+        "title": "MP Preview",
+        "description": "MP Preview Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "渐变下划线",
+                    "target": "渐变下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "实线下划线",
+                    "target": "实线下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "无下划线",
+                    "target": "无下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "斜体",
+                    "target": "斜体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "常规",
+                    "target": "常规"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "CSS背景图案",
+                    "target": "CSS背景图案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "纯色背景",
+                    "target": "纯色背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "图片处理失败:",
+                    "target": "图片处理失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "图片转换失败:",
+                    "target": "图片转换失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "主题未找到:",
+                    "target": "主题未找到:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "预览",
+                    "target": "预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "确定",
+                    "target": "确定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "确认",
+                    "target": "确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ 添加字体",
+                    "target": "+ 添加字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ 新建模板",
+                    "target": "+ 新建模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ 新建背景",
+                    "target": "+ 新建背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "修改此颜色将更新所有文字相关的颜色",
+                    "target": "修改此颜色将更新所有文字相关的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置标题与上方内容之间的间距（单位：像素）",
+                    "target": "设置标题与上方内容之间的间距（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置标题的字体大小（单位：像素）",
+                    "target": "设置标题的字体大小（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置标题的字体颜色",
+                    "target": "设置标题的字体颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置标题的背景颜色",
+                    "target": "设置标题的背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置标题是否居中",
+                    "target": "设置标题是否居中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置标题左侧边框是否显示",
+                    "target": "设置标题左侧边框是否显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置标题下划线是否显示",
+                    "target": "设置标题下划线是否显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置段落文本的行高（推荐值：1.5-2.0）",
+                    "target": "设置段落文本的行高（推荐值：1.5-2.0）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置段落文本的颜色",
+                    "target": "设置段落文本的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置粗体文本的样式",
+                    "target": "设置粗体文本的样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置斜体文本的样式",
+                    "target": "设置斜体文本的样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置删除线文本的样式",
+                    "target": "设置删除线文本的样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置列表的左侧缩进（单位：像素）",
+                    "target": "设置列表的左侧缩进（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置列表文本的颜色",
+                    "target": "设置列表文本的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置引用块内文本的颜色",
+                    "target": "设置引用块内文本的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置引用块内文本是否斜体、是否加粗",
+                    "target": "设置引用块内文本是否斜体、是否加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置引用块的背景颜色",
+                    "target": "设置引用块的背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置引用块左侧边框的颜色和圆角",
+                    "target": "设置引用块左侧边框的颜色和圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置引用块的内边距（单位：像素）",
+                    "target": "设置引用块的内边距（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置代码块左上角三个点的颜色",
+                    "target": "设置代码块左上角三个点的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置代码块的背景颜色",
+                    "target": "设置代码块的背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置代码块的边框颜色",
+                    "target": "设置代码块的边框颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置代码块的文本颜色",
+                    "target": "设置代码块的文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置代码块文本的样式",
+                    "target": "设置代码块文本的样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置链接文本的颜色",
+                    "target": "设置链接文本的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择链接的下划线样式",
+                    "target": "选择链接的下划线样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置表格边框和分隔线的颜色",
+                    "target": "设置表格边框和分隔线的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置表格头部的背景颜色",
+                    "target": "设置表格头部的背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置表格的圆角大小（单位：像素）",
+                    "target": "设置表格的圆角大小（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置水平分隔线的颜色",
+                    "target": "设置水平分隔线的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置水平分隔线的粗细（单位：像素）",
+                    "target": "设置水平分隔线的粗细（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置分隔线与上下内容的间距（单位：像素）",
+                    "target": "设置分隔线与上下内容的间距（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置脚注引用和返回链接的颜色",
+                    "target": "设置脚注引用和返回链接的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择脚注的字体样式",
+                    "target": "选择脚注的字体样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置图片的最大显示宽度（支持百分比或像素值，例如：100% 或 800px）",
+                    "target": "设置图片的最大显示宽度（支持百分比或像素值，例如：100% 或 800px）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置图片的圆角程度（单位：像素）",
+                    "target": "设置图片的圆角程度（单位：像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置图片边框的颜色",
+                    "target": "设置图片边框的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "显示在下拉菜单中的名称",
+                    "target": "显示在下拉菜单中的名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "CSS font-family 的值",
+                    "target": "CSS font-family 的值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "输入背景的名称",
+                    "target": "输入背景的名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择背景的类型",
+                    "target": "选择背景的类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择背景的颜色",
+                    "target": "选择背景的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择预设的背景模板",
+                    "target": "选择预设的背景模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置背景图案的颜色",
+                    "target": "设置背景图案的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置背景图案的大小",
+                    "target": "设置背景图案的大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "直接输入CSS样式代码",
+                    "target": "直接输入CSS样式代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "是否选择参考模板",
+                    "target": "是否选择参考模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "选择参考模板",
+                    "target": "选择参考模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模板名称",
+                    "target": "模板名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模板描述",
+                    "target": "模板描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "全局主题色",
+                    "target": "全局主题色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "上边距",
+                    "target": "上边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体大小",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体颜色",
+                    "target": "字体颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "背景颜色",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "居中",
+                    "target": "居中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "左边框",
+                    "target": "左边框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "下划线",
+                    "target": "下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "行高",
+                    "target": "行高"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "段前距",
+                    "target": "段前距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文本颜色",
+                    "target": "文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "粗体样式",
+                    "target": "粗体样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "斜体样式",
+                    "target": "斜体样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "删除线样式",
+                    "target": "删除线样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "列表缩进",
+                    "target": "列表缩进"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "列表文本颜色",
+                    "target": "列表文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "引用文本颜色",
+                    "target": "引用文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文本样式",
+                    "target": "文本样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "引用背景颜色",
+                    "target": "引用背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "引用边框",
+                    "target": "引用边框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "内边距",
+                    "target": "内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "指示器颜色",
+                    "target": "指示器颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "边框颜色",
+                    "target": "边框颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "链接颜色",
+                    "target": "链接颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "下划线样式",
+                    "target": "下划线样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "表格边框颜色",
+                    "target": "表格边框颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "表头背景",
+                    "target": "表头背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "圆角大小",
+                    "target": "圆角大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "分隔线颜色",
+                    "target": "分隔线颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "分隔线粗细",
+                    "target": "分隔线粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "上下边距",
+                    "target": "上下边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "脚注颜色",
+                    "target": "脚注颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体样式",
+                    "target": "字体样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "最大宽度",
+                    "target": "最大宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "边距",
+                    "target": "边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体名称",
+                    "target": "字体名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体值",
+                    "target": "字体值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "背景名称",
+                    "target": "背景名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "背景类型",
+                    "target": "背景类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "背景模板",
+                    "target": "背景模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图案颜色",
+                    "target": "图案颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图案大小",
+                    "target": "图案大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CSS代码",
+                    "target": "CSS代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入模板名称",
+                    "target": "请输入模板名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入模板描述",
+                    "target": "请输入模板描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "上下内边距",
+                    "target": "上下内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "左右内边距",
+                    "target": "左右内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "字体大小",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制中...",
+                    "target": "复制中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制成功",
+                    "target": "复制成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制为公众号格式",
+                    "target": "复制为公众号格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制失败",
+                    "target": "复制失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "\\u{1F44B} \\u5B57\\u4F53\\u503C\\u8BBE\\u7F6E\\u8BF4\\u660E\n                                    \\u2022 \\u5355\\u4E2A\\u5B57\\u4F53\\uFF1AArial \\u6216 \"Microsoft YaHei\"\n                                    \\u2022 \\u4E2D\\u6587\\u5B57\\u4F53\\uFF1A\\u9700\\u8981\\u540C\\u65F6\\u8BBE\\u7F6E\\u4E2D\\u82F1\\u6587\\u540D\\u79F0\n                                    \\u2022 \\u5B57\\u4F53\\u65CF\\uFF1A\\u6DFB\\u52A0 serif/sans-serif\n                                    \\u2022 \\u591A\\u4E2A\\u5B57\\u4F53\\u7528\\u9017\\u53F7\\u5206\\u9694\n                                    \\u793A\\u4F8B\n                                    \\u2022 \\u5B8B\\u4F53\\uFF1ASimSun, \"\\u5B8B\\u4F53\", serif\n                                    \\u2022 \\u5FAE\\u8F6F\\u96C5\\u9ED1\\uFF1A\"Microsoft YaHei\", \"\\u5FAE\\u8F6F\\u96C5\\u9ED1\", sans-serif",
+                    "target": "\\u{1F44B} \\u5B57\\u4F53\\u503C\\u8BBE\\u7F6E\\u8BF4\\u660E\n                                    \\u2022 \\u5355\\u4E2A\\u5B57\\u4F53\\uFF1AArial \\u6216 \"Microsoft YaHei\"\n                                    \\u2022 \\u4E2D\\u6587\\u5B57\\u4F53\\uFF1A\\u9700\\u8981\\u540C\\u65F6\\u8BBE\\u7F6E\\u4E2D\\u82F1\\u6587\\u540D\\u79F0\n                                    \\u2022 \\u5B57\\u4F53\\u65CF\\uFF1A\\u6DFB\\u52A0 serif/sans-serif\n                                    \\u2022 \\u591A\\u4E2A\\u5B57\\u4F53\\u7528\\u9017\\u53F7\\u5206\\u9694\n                                    \\u793A\\u4F8B\n                                    \\u2022 \\u5B8B\\u4F53\\uFF1ASimSun, \"\\u5B8B\\u4F53\", serif\n                                    \\u2022 \\u5FAE\\u8F6F\\u96C5\\u9ED1\\uFF1A\"Microsoft YaHei\", \"\\u5FAE\\u8F6F\\u96C5\\u9ED1\", sans-serif"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "斜体",
+                    "target": "斜体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "粗体",
+                    "target": "粗体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "圆角",
+                    "target": "圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "加粗",
+                    "target": "加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "倾斜",
+                    "target": "倾斜"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "编辑",
+                    "target": "编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "预览",
+                    "target": "预览"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已复制到剪贴板",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制失败",
+                    "target": "复制失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "模板名称不能为空",
+                    "target": "模板名称不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请选择一个参考模板",
+                    "target": "请选择一个参考模板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入背景名称",
+                    "target": "请输入背景名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请选择背景颜色",
+                    "target": "请选择背景颜色"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入CSS样式",
+                    "target": "请输入CSS样式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请重启 Obsidian 或重新加载以使更改生效",
+                    "target": "请重启 Obsidian 或重新加载以使更改生效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "背景显示设置已更新",
+                    "target": "背景显示设置已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "背景显示已更新",
+                    "target": "背景显示已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "背景已更新",
+                    "target": "背景已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "背景已删除",
+                    "target": "背景已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "背景已创建",
+                    "target": "背景已创建"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建视图面板",
+                    "target": "无法创建视图面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "关闭实时预览状态",
+                    "target": "关闭实时预览状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "使用指南",
+                    "target": "使用指南"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #2c3e50;",
+                    "target": "font-weight: bold; color: #2c3e50;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #34495e;",
+                    "target": "font-weight: bold; color: #34495e;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #3d566e;",
+                    "target": "font-weight: bold; color: #3d566e;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #47637f;",
+                    "target": "font-weight: bold; color: #47637f;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #000000;",
+                    "target": "font-weight: bold; color: #000000;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #262626;",
+                    "target": "font-weight: bold; color: #262626;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #404040;",
+                    "target": "font-weight: bold; color: #404040;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #595959;",
+                    "target": "font-weight: bold; color: #595959;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #DC143C;",
+                    "target": "font-weight: bold; color: #DC143C;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #E34234;",
+                    "target": "font-weight: bold; color: #E34234;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #E65D52;",
+                    "target": "font-weight: bold; color: #E65D52;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #E87A70;",
+                    "target": "font-weight: bold; color: #E87A70;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #d64b3b;",
+                    "target": "font-weight: bold; color: #d64b3b;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "display: inline-block; font-weight: bold; background: #ef7060; color: #ffffff; padding: 1px 4px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;",
+                    "target": "display: inline-block; font-weight: bold; background: #ef7060; color: #ffffff; padding: 1px 4px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #f18070;",
+                    "target": "font-weight: bold; color: #f18070;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #f39080;",
+                    "target": "font-weight: bold; color: #f39080;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #553C9A;",
+                    "target": "font-weight: bold; color: #553C9A;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "display: inline-block; font-weight: bold; background: #9F7AEA; color: #ffffff; padding: 1px 4px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;",
+                    "target": "display: inline-block; font-weight: bold; background: #9F7AEA; color: #ffffff; padding: 1px 4px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #805AD5;",
+                    "target": "font-weight: bold; color: #805AD5;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #1E90FF;",
+                    "target": "font-weight: bold; color: #1E90FF;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #3B9DFF;",
+                    "target": "font-weight: bold; color: #3B9DFF;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #57A9FF;",
+                    "target": "font-weight: bold; color: #57A9FF;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #74B6FF;",
+                    "target": "font-weight: bold; color: #74B6FF;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #5D4037;",
+                    "target": "font-weight: bold; color: #5D4037;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #6D4C41;",
+                    "target": "font-weight: bold; color: #6D4C41;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #795548;",
+                    "target": "font-weight: bold; color: #795548;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #8D6E63;",
+                    "target": "font-weight: bold; color: #8D6E63;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #666b8f; display: inline-block; border-bottom: 1px solid #666b8f;",
+                    "target": "font-weight: bold; color: #666b8f; display: inline-block; border-bottom: 1px solid #666b8f;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #ffffff; background: #7a7da0; padding: 1px 4px; border-radius: 3px;",
+                    "target": "font-weight: bold; color: #ffffff; background: #7a7da0; padding: 1px 4px; border-radius: 3px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #7a7da0; padding: 1px 1px;",
+                    "target": "font-weight: bold; color: #7a7da0; padding: 1px 1px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #7a7da0;",
+                    "target": "font-weight: bold; color: #7a7da0;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #ef7060; display: inline-block; border-bottom: 1px solid #ef7060;",
+                    "target": "font-weight: bold; color: #ef7060; display: inline-block; border-bottom: 1px solid #ef7060;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #ffffff; background: #ef7060; padding: 1px 4px; border-radius: 3px;",
+                    "target": "font-weight: bold; color: #ffffff; background: #ef7060; padding: 1px 4px; border-radius: 3px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #f18070; padding: 1px 1px;",
+                    "target": "font-weight: bold; color: #f18070; padding: 1px 1px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #2C5530; display: inline-block; border-bottom: 1px solid #2C5530;",
+                    "target": "font-weight: bold; color: #2C5530; display: inline-block; border-bottom: 1px solid #2C5530;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #ffffff; background: #2E8B57; padding: 1px 4px; border-radius: 3px;",
+                    "target": "font-weight: bold; color: #ffffff; background: #2E8B57; padding: 1px 4px; border-radius: 3px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #3CB371; padding: 1px 1px;",
+                    "target": "font-weight: bold; color: #3CB371; padding: 1px 1px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #66CDAA;",
+                    "target": "font-weight: bold; color: #66CDAA;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #4a4a4a;",
+                    "target": "font-weight: bold; color: #4a4a4a;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "font-weight: bold; color: #666b8f; display: inline-block;",
+                    "target": "font-weight: bold; color: #666b8f; display: inline-block;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "无背景",
+                    "target": "无背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "默认模板",
+                    "target": "默认模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "默认字体",
+                    "target": "默认字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "宋体",
+                    "target": "宋体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "黑体",
+                    "target": "黑体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "楷体",
+                    "target": "楷体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "雅黑",
+                    "target": "雅黑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #e0e0e0; text-decoration: none; border-bottom: 1px solid #e0e0e0;",
+                    "target": "color: #e0e0e0; text-decoration: none; border-bottom: 1px solid #e0e0e0;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #262626; text-decoration: none; border-bottom: 1px solid #262626;",
+                    "target": "color: #262626; text-decoration: none; border-bottom: 1px solid #262626;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #DC143C; text-decoration: none; border-bottom: 1px solid #DC143C; transition: all 0.2s ease;",
+                    "target": "color: #DC143C; text-decoration: none; border-bottom: 1px solid #DC143C; transition: all 0.2s ease;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #ef7060; text-decoration: none; border-bottom: 1px solid #ef7060; transition: all 0.2s ease;",
+                    "target": "color: #ef7060; text-decoration: none; border-bottom: 1px solid #ef7060; transition: all 0.2s ease;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #805AD5; text-decoration: none; border-bottom: 1px solid #9F7AEA; transition: all 0.2s ease;",
+                    "target": "color: #805AD5; text-decoration: none; border-bottom: 1px solid #9F7AEA; transition: all 0.2s ease;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #1E90FF; text-decoration: none; border-bottom: 1px solid #1E90FF; transition: all 0.2s ease;",
+                    "target": "color: #1E90FF; text-decoration: none; border-bottom: 1px solid #1E90FF; transition: all 0.2s ease;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #795548; text-decoration: none; border-bottom: 1px solid #8D6E63; transition: all 0.2s ease;",
+                    "target": "color: #795548; text-decoration: none; border-bottom: 1px solid #8D6E63; transition: all 0.2s ease;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #7a7da0; text-decoration: none; border-bottom: 1px solid #7a7da0; transition: all 0.2s ease;",
+                    "target": "color: #7a7da0; text-decoration: none; border-bottom: 1px solid #7a7da0; transition: all 0.2s ease;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #159461; text-decoration: none; border-bottom: 1px solid #1a9d6a; transition: all 0.2s ease;",
+                    "target": "color: #159461; text-decoration: none; border-bottom: 1px solid #1a9d6a; transition: all 0.2s ease;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #c57512; text-decoration: none; border-bottom: 1px solid #c57512;",
+                    "target": "color: #c57512; text-decoration: none; border-bottom: 1px solid #c57512;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认模板",
+                    "target": "默认模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "极简主题",
+                    "target": "极简主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "红绯主题",
+                    "target": "红绯主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "橙心主题",
+                    "target": "橙心主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "优雅主题",
+                    "target": "优雅主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "深色主题",
+                    "target": "深色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "学术主题",
+                    "target": "学术主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "夜半主题",
+                    "target": "夜半主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "夜半橙心",
+                    "target": "夜半橙心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "墨绿主题",
+                    "target": "墨绿主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "悦灵雅棕",
+                    "target": "悦灵雅棕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "网格",
+                    "target": "网格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "交叉",
+                    "target": "交叉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "圆点",
+                    "target": "圆点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "虚线",
+                    "target": "虚线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "波浪",
+                    "target": "波浪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "棋盘",
+                    "target": "棋盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义",
+                    "target": "自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "对角条纹",
+                    "target": "对角条纹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "波尔卡圆点",
+                    "target": "波尔卡圆点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "锯齿形",
+                    "target": "锯齿形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "蜂窝",
+                    "target": "蜂窝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开公众号预览插件",
+                    "target": "打开公众号预览插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关于作者",
+                    "target": "关于作者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "你好，我是",
+                    "target": "你好，我是"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "【夜半】",
+                    "target": "【夜半】"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "，一名",
+                    "target": "，一名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "全职写作与独立开发者",
+                    "target": "全职写作与独立开发者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "这款插件是我为了在 Obsidian 写作后，",
+                    "target": "这款插件是我为了在 Obsidian 写作后，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "无需繁琐排版一键即可发布到公众号而开发的工具，",
+                    "target": "无需繁琐排版一键即可发布到公众号而开发的工具，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "希望能让你的",
+                    "target": "希望能让你的"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "排版更轻松",
+                    "target": "排版更轻松"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "，让你的",
+                    "target": "，让你的"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "创作更高效",
+                    "target": "创作更高效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "如果这款插件对你有帮助，",
+                    "target": "如果这款插件对你有帮助，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "或者你愿意支持我的独立开发与写作，欢迎请我喝咖啡☕️。",
+                    "target": "或者你愿意支持我的独立开发与写作，欢迎请我喝咖啡☕️。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "你的支持来说意义重大，它能让我更专注地开发、写作。",
+                    "target": "你的支持来说意义重大，它能让我更专注地开发、写作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请我喝咖啡",
+                    "target": "请我喝咖啡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "如果你想了解更多关于创作、效率工具的小技巧，",
+                    "target": "如果你想了解更多关于创作、效率工具的小技巧，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "或者关注我未来的写作动态，欢迎关注我的微信公众号。",
+                    "target": "或者关注我未来的写作动态，欢迎关注我的微信公众号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "微信公众号",
+                    "target": "微信公众号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "期待与你一起，在创作的世界里",
+                    "target": "期待与你一起，在创作的世界里"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "找到属于自己的意义",
+                    "target": "找到属于自己的意义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\\u4F7F\\u7528\\u6307\\u5357\\uFF1A\n                1. \\u9009\\u62E9\\u559C\\u6B22\\u7684\\u4E3B\\u9898\\u6A21\\u677F\n                2. \\u8C03\\u6574\\u5B57\\u4F53\\u548C\\u5B57\\u53F7\n                3. \\u5B9E\\u65F6\\u9884\\u89C8\\u6548\\u679C\n                4. \\u70B9\\u51FB\\u3010\\u590D\\u5236\\u6309\\u94AE\\u3011\\u5373\\u53EF\\u7C98\\u8D34\\u5230\\u516C\\u4F17\\u53F7\n                5. \\u7F16\\u8F91\\u5B9E\\u65F6\\u67E5\\u770B\\u6548\\u679C\\uFF0C\\u70B9\\u{1F513}\\u5173\\u95ED\\u5B9E\\u65F6\\u5237\\u65B0\n                6. \\u5982\\u679C\\u4F60\\u559C\\u6B22\\u8FD9\\u4E2A\\u63D2\\u4EF6\\uFF0C\\u6B22\\u8FCE\\u5173\\u6CE8\\u6253\\u8D4F",
+                    "target": "\\u4F7F\\u7528\\u6307\\u5357\\uFF1A\n                1. \\u9009\\u62E9\\u559C\\u6B22\\u7684\\u4E3B\\u9898\\u6A21\\u677F\n                2. \\u8C03\\u6574\\u5B57\\u4F53\\u548C\\u5B57\\u53F7\n                3. \\u5B9E\\u65F6\\u9884\\u89C8\\u6548\\u679C\n                4. \\u70B9\\u51FB\\u3010\\u590D\\u5236\\u6309\\u94AE\\u3011\\u5373\\u53EF\\u7C98\\u8D34\\u5230\\u516C\\u4F17\\u53F7\n                5. \\u7F16\\u8F91\\u5B9E\\u65F6\\u67E5\\u770B\\u6548\\u679C\\uFF0C\\u70B9\\u{1F513}\\u5173\\u95ED\\u5B9E\\u65F6\\u5237\\u65B0\n                6. \\u5982\\u679C\\u4F60\\u559C\\u6B22\\u8FD9\\u4E2A\\u63D2\\u4EF6\\uFF0C\\u6B22\\u8FCE\\u5173\\u6CE8\\u6253\\u8D4F"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "❤️",
+                    "target": "❤️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "复制到公众号",
+                    "target": "复制到公众号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "敬请期待",
+                    "target": "敬请期待"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "只能预览 markdown 文本文档",
+                    "target": "只能预览 markdown 文本文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "探索夜半插件的无限可能",
+                    "target": "探索夜半插件的无限可能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "探索我的插件，让您的笔记发布变得更加轻松！",
+                    "target": "探索我的插件，让您的笔记发布变得更加轻松！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "插件为您提供各种",
+                    "target": "插件为您提供各种"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "优雅的操作，",
+                    "target": "优雅的操作，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "助您轻松发布笔记。",
+                    "target": "助您轻松发布笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "通过插件，您可以快速组织内容，",
+                    "target": "通过插件，您可以快速组织内容，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "提升工作效率。",
+                    "target": "提升工作效率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "轻松定制模板样式",
+                    "target": "轻松定制模板样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "实时预览模板效果",
+                    "target": "实时预览模板效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "“让笔记发帖变得如此简单。”",
+                    "target": "“让笔记发帖变得如此简单。”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "console.log(\"欢迎使用夜半插件！\");",
+                    "target": "console.log(\"欢迎使用夜半插件！\");"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "如果您觉得我的插件对您有帮助，请打赏支持我。",
+                    "target": "如果您觉得我的插件对您有帮助，请打赏支持我。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "段落样式",
+                    "target": "段落样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "强调样式",
+                    "target": "强调样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "代码块样式",
+                    "target": "代码块样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "预览",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "预览效果",
+                    "target": "预览效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "MP Preview",
+                    "target": "MP 预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "字体管理",
+                    "target": "字体管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "模板显示选项",
+                    "target": "模板显示选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "隐藏模板",
+                    "target": "隐藏模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "显示模板",
+                    "target": "显示模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自定义模板",
+                    "target": "自定义模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "背景显示",
+                    "target": "背景显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "隐藏背景",
+                    "target": "隐藏背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "显示背景",
+                    "target": "显示背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自定义背景",
+                    "target": "自定义背景"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
