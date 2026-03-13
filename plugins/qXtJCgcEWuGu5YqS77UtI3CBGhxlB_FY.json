@@ -1,0 +1,2389 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "yolo",
+        "version": "1.0.0",
+        "title": "YOLO",
+        "description": "YOLO Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.1.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，强制帧率高于 125 fps 不受支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening file handle for node",
+                    "target": "打开节点的文件句柄时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to handle MCP settings update:",
+                    "target": "[Smart Composer] 处理 MCP 设置更新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No response choices available",
+                    "target": "没有可用的响应选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No content in the first response choice",
+                    "target": "第一个响应选项中没有内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in generateResponse:",
+                    "target": "generateResponse 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in streamResponse:",
+                    "target": "streamResponse 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to read prompt snapshots",
+                    "target": "[Smart Composer] 读取提示快照失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deserializing mentionable",
+                    "target": "反序列化 mentionable 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to read chat index",
+                    "target": "[Smart Composer] 读取聊天索引失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to generate conversation title",
+                    "target": "[Smart Composer] 生成对话标题失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to compile user message",
+                    "target": "编译用户消息失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching YouTube transcript",
+                    "target": "获取 YouTube 字幕时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "in not contained inside",
+                    "target": "in 不包含在其中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "aria-hidden: cannot operate on ",
+                    "target": "aria-hidden：无法对其进行操作 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to select assistant",
+                    "target": "选择助手失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to select default assistant",
+                    "target": "选择默认助手失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy text: ",
+                    "target": "复制文本失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to allow tool auto execution",
+                    "target": "允许工具自动执行失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy assistant/tool messages",
+                    "target": "复制助手/工具消息失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to process dropped/pasted images",
+                    "target": "处理拖放/粘贴的图像失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to process pasted images",
+                    "target": "处理粘贴的图像失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update chat model setting",
+                    "target": "更新聊天模型设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to select conversation from list",
+                    "target": "从列表中选择对话失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to select conversation",
+                    "target": "选择对话失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete conversation",
+                    "target": "删除对话失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to retry conversation title generation",
+                    "target": "重新生成对话标题失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to toggle pin",
+                    "target": "切换置顶失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update conversation title",
+                    "target": "更新对话标题失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save Cursor Chat quick action",
+                    "target": "保存 Cursor Chat 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete Cursor Chat quick action",
+                    "target": "删除 Cursor Chat 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to duplicate Cursor Chat quick action",
+                    "target": "复制 Cursor Chat 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reorder Cursor Chat actions",
+                    "target": "重新排序 Cursor Chat 操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset Cursor Chat quick actions",
+                    "target": "重置 Cursor Chat 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save Smart Space quick action",
+                    "target": "保存 Smart Space 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete Smart Space quick action",
+                    "target": "删除 Smart Space 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to duplicate Smart Space quick action",
+                    "target": "复制 Smart Space 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reorder Smart Space actions",
+                    "target": "重新排序 Smart Space 操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset Smart Space quick actions",
+                    "target": "重置 Smart Space 快捷操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update index:",
+                    "target": "更新索引失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to test include patterns",
+                    "target": "测试包含模式失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to test exclude patterns",
+                    "target": "测试排除模式失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate response",
+                    "target": "生成响应失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to persist reasoning level preference",
+                    "target": "保存推理等级偏好失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save chat history",
+                    "target": "保存聊天记录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load conversation",
+                    "target": "加载对话失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chat Apply] Edit plan did not produce changes.",
+                    "target": "[Chat Apply] 编辑计划未产生更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to apply changes",
+                    "target": "应用更改失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate conversation title",
+                    "target": "生成对话标题失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to persist agent mode warning confirmation",
+                    "target": "未能持久化代理模式警告确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to retry conversation title generation: conversation not found",
+                    "target": "无法重试生成对话标题：未找到对话"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Auto update index failed:",
+                    "target": "自动更新索引失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Warning! Postgres only supports 63 characters for query names.",
+                    "target": "警告！Postgres 仅支持 63 个字符的查询名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You supplied %s (%s)",
+                    "target": "你提供了 %s（%s）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This can cause conflicts and silent errors executing queries",
+                    "target": "这可能导致执行查询时发生冲突和静默错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "package error:",
+                    "target": "包错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch extension:",
+                    "target": "获取扩展失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not get binary data for extension:",
+                    "target": "无法获取扩展的二进制数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "createNewDatabase error",
+                    "target": "createNewDatabase 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "loadExistingDatabase error",
+                    "target": "loadExistingDatabase 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error migrating database:",
+                    "target": "迁移数据库时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving database:",
+                    "target": "保存数据库时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking PGlite resources:",
+                    "target": "检查 PGlite 资源时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading PGlite resources:",
+                    "target": "加载 PGlite 资源时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Plugin resource path:",
+                    "target": "插件资源路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Vault config dir:",
+                    "target": "Vault 配置目录："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ApplyView] Failed to persist changes before close",
+                    "target": "[ApplyView] 关闭前未能持久化更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[InlineDiffReview] Failed to persist inline review",
+                    "target": "[InlineDiffReview] 未能持久化内联审查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save quick ask conversation",
+                    "target": "保存快速提问对话失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate quick ask conversation title",
+                    "target": "生成快速提问对话标题失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Quick ask failed:",
+                    "target": "快速提问失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[QuickAsk Edit] Edit plan did not produce changes.",
+                    "target": "[QuickAsk Edit] 编辑计划未产生更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Edit mode failed:",
+                    "target": "编辑模式失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[QuickAsk Edit-Direct] Edit plan did not produce changes.",
+                    "target": "[QuickAsk Edit-Direct] 编辑计划未产生更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Edit-direct mode failed:",
+                    "target": "Edit-direct 模式失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy to clipboard",
+                    "target": "复制到剪贴板失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing selection:",
+                    "target": "处理所选内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to restore Smart Space draft",
+                    "target": "恢复 Smart Space 草稿失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Smart Space failed",
+                    "target": "Smart Space 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tab completion failed:",
+                    "target": "Tab 补全失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize MCP manager",
+                    "target": "初始化 MCP 管理器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete MCP server",
+                    "target": "删除 MCP 服务器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to toggle MCP server",
+                    "target": "切换 MCP 服务器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to toggle MCP tool enabled state",
+                    "target": "切换 MCP 工具启用状态失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to toggle MCP tool auto execution",
+                    "target": "切换 MCP 工具自动执行失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load react-dom/client for icon picker",
+                    "target": "为图标选择器加载 react-dom/client 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load available tools for agent editor",
+                    "target": "加载代理编辑器可用工具失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize MCP manager in Agent section",
+                    "target": "在代理部分初始化 MCP 管理器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete agent",
+                    "target": "删除代理失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rebuild index:",
+                    "target": "重建索引失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to auto fetch models",
+                    "target": "自动获取模型失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add chat model",
+                    "target": "添加聊天模型失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update chat model:",
+                    "target": "更新聊天模型失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to save provider:",
+                    "target": "[Smart Composer] 保存提供商失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to reorder providers:",
+                    "target": "[Smart Composer] 重新排序提供商失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to reorder chat models:",
+                    "target": "[Smart Composer] 重新排序聊天模型失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to delete provider:",
+                    "target": "[Smart Composer] 删除提供商失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to delete chat model:",
+                    "target": "[Smart Composer] 删除聊天模型失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Smart Composer] Failed to update chat model state:",
+                    "target": "[Smart Composer] 更新聊天模型状态失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset settings",
+                    "target": "重置设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear chat history",
+                    "target": "清除聊天记录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset providers",
+                    "target": "重置提供方失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear chat snapshots",
+                    "target": "清除聊天快照失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset agents",
+                    "target": "重置代理失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update mention display mode",
+                    "target": "更新提及显示模式失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update chat apply mode",
+                    "target": "更新聊天应用模式失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update YOLO base dir",
+                    "target": "更新 YOLO 基础目录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update selection highlight setting",
+                    "target": "更新选择高亮设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Editor change handler error:",
+                    "target": "编辑器更改处理程序错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "# 1252: onCustomMessage:",
+                    "target": "# 1252: onCustomMessage:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "onCustomMessage:",
+                    "target": "onCustomMessage:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error applying OPFS AHP WAL entry",
+                    "target": "应用 OPFS AHP WAL 条目时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "File handle already exists for pool file",
+                    "target": "池文件的文件句柄已存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Smart Composer] Parsed legacy function_call response format (non-stream).",
+                    "target": "[Smart Composer] 已解析旧版 function_call 响应格式（非流式）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Smart Composer] Parsed legacy function_call response format (stream).",
+                    "target": "[Smart Composer] 已解析旧版 function_call 响应格式（流式）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning text from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning data from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning function calls from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的函数调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning executable code from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的可执行代码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning code execution result from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的代码执行结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: extraBody provided but current request body is a Blob. extraBody will be ignored as merging is not supported for Blob bodies.",
+                    "target": "includeExtraBodyToRequestInit: 已提供 extraBody，但当前请求体是 Blob。由于不支持合并 Blob 请求体，extraBody 将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is valid JSON but not a non-array object. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit: 原始请求体是有效的 JSON，但不是非数组对象。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is not valid JSON. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit: 原始请求体不是有效的 JSON。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Live music generation is experimental and may change in future versions.",
+                    "target": "实时音乐生成功能为实验性，未来版本可能会更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting `LiveConnectConfig.generation_config` is deprecated, please set the fields on `LiveConnectConfig` directly. This will become an error in a future version (not before Q3 2025).",
+                    "target": "设置 `LiveConnectConfig.generation_config` 已弃用，请直接在 `LiveConnectConfig` 上设置字段。此项将在未来版本中变为错误（不早于 2025 年第三季度）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Smart Composer] Failed to read mentioned file",
+                    "target": "[Smart Composer] 读取提及的文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to check PGlite resources:",
+                    "target": "检查 PGlite 资源失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chat Apply] Some planned edits failed during apply.",
+                    "target": "[Chat Apply] 应用过程中部分计划的编辑失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "custom_postMessage?",
+                    "target": "custom_postMessage?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Some planned edits failed:",
+                    "target": "部分计划的编辑失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Some edits failed:",
+                    "target": "部分编辑失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load reference rule folders for continuation",
+                    "target": "加载用于续写的参考规则文件夹失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to include mentioned files for Smart Space continuation",
+                    "target": "未能包含用于 Smart Space 续写的提及文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Continuation RAG lookup failed:",
+                    "target": "续写 RAG 查找失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid settings provided, using defaults:",
+                    "target": "提供的设置无效，使用默认值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load cached RAG progress",
+                    "target": "加载缓存的 RAG 进度失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to persist RAG progress",
+                    "target": "持久化 RAG 进度失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Smart Composer] Failed to initialize vector manager, skip vector-dependent operations.",
+                    "target": "[Smart Composer] 初始化向量管理器失败，跳过依赖向量的操作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Usage statistics are not available for this model",
+                    "target": "此模型不提供使用统计"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Block reference pasted as text. Please reselect the block.",
+                    "target": "块引用已作为文本粘贴。请重新选择该块。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to rebuild index",
+                    "target": "重建索引失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save chat history",
+                    "target": "保存聊天记录失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to load conversation",
+                    "target": "加载对话失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to apply changes",
+                    "target": "应用更改失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取当前编辑器",
+                    "target": "无法获取当前编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建选区数据",
+                    "target": "无法创建选区数据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取编辑器视图",
+                    "target": "无法获取编辑器视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择要改写的文本。",
+                    "target": "请先选择要改写的文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未设置改写指令。",
+                    "target": "未设置改写指令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在生成改写...",
+                    "target": "正在生成改写..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating continuation...",
+                    "target": "正在生成续写..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已取消生成。",
+                    "target": "已取消生成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to generate continuation.",
+                    "target": "生成续写失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Provider with this ID does not exist",
+                    "target": "不存在此 ID 的提供商"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Model not found",
+                    "target": "未找到模型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid dimension value",
+                    "target": "无效的维度值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Provider with this ID already exists. Try a different ID.",
+                    "target": "此 ID 的提供商已存在。请尝试其他 ID。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No provider found with this ID",
+                    "target": "未找到此 ID 的提供商"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save provider settings.",
+                    "target": "保存提供商设置失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to reorder providers.",
+                    "target": "重新排序提供商失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to reorder chat models.",
+                    "target": "重新排序聊天模型失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to delete provider.",
+                    "target": "删除提供商失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to delete chat model.",
+                    "target": "删除聊天模型失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot disable model that is currently selected as chat model or tool model",
+                    "target": "无法禁用当前被选为聊天模型或工具模型的模型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update chat model.",
+                    "target": "更新聊天模型失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先打开目标文件后再应用修改。",
+                    "target": "请先打开目标文件后再应用修改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reloading \"next-composer\" due to migration",
+                    "target": "因迁移正在重新加载 \"next-composer\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Show more options",
+                    "target": "显示更多选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Chat History",
+                    "target": "聊天记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Rebuild index",
+                    "target": "重建索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "New Chat",
+                    "target": "新建聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose which model powers these tasks.",
+                    "target": "选择为这些任务提供支持的模型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Adjust parameters for the model used in this view.",
+                    "target": "调整此视图所用模型的参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Prioritize the content sources referenced when this view runs.",
+                    "target": "设置此视图运行时优先引用的内容来源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If you find this plugin valuable, consider supporting its development!",
+                    "target": "如果你觉得此插件有价值，请考虑支持其开发！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Create and manage custom AI assistants",
+                    "target": "创建并管理自定义 AI 助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Manage global capabilities and configure your agents.",
+                    "target": "管理全局能力并配置你的代理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enter your API keys for the providers you want to use",
+                    "target": "输入你要使用的提供商的 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configure MCP servers to manage custom tool capabilities",
+                    "target": "配置 MCP 服务器以管理自定义工具能力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Scegli quale modello alimenta queste attività.",
+                    "target": "选择为这些任务提供支持的模型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Regola i parametri per il modello usato in questa vista.",
+                    "target": "调整此视图所用模型的参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Dai priorità alle fonti di contenuto referenziate quando questa vista viene eseguita.",
+                    "target": "设置此视图执行时优先引用的内容来源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Se trovi utile questo plugin, considera di supportarne lo sviluppo!",
+                    "target": "如果你觉得此插件有用，请考虑支持其开发！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Gestisci gli assistenti AI personalizzati con istruzioni e comportamenti specifici.",
+                    "target": "使用特定指令和行为管理自定义 AI 助手。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Gestisci le capacità globali e configura i tuoi agenti.",
+                    "target": "管理全局能力并配置你的代理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configura i provider di modelli AI e le loro chiavi API.",
+                    "target": "配置 AI 模型提供商及其 API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Gestisci i server MCP per configurare le capacità degli strumenti personalizzati.",
+                    "target": "管理 MCP 服务器以配置自定义工具能力。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Salva e riutilizza prompt e configurazioni comuni.",
+                    "target": "保存并复用常用提示词和配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择用于 Sparkle 任务的模型。",
+                    "target": "选择用于 Sparkle 任务的模型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "修改 Sparkle 所用模型的参数。",
+                    "target": "修改 Sparkle 所用模型的参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设定 Sparkly 任务执行时优先参考的内容来源。",
+                    "target": "设定 Sparkly 任务执行时优先参考的内容来源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果你觉得 YOLO 有价值，请考虑支持它的开发！",
+                    "target": "如果你觉得 YOLO 有价值，请考虑支持它的开发！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "创建和管理自定义AI助手",
+                    "target": "创建和管理自定义 AI 助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "管理全局能力并配置你的 Agent。",
+                    "target": "管理全局能力并配置你的 Agent。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为你想使用的提供商输入API密钥",
+                    "target": "为你想使用的提供商输入 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "配置 MCP 服务器以管理自定义工具能力",
+                    "target": "配置 MCP 服务器以管理自定义工具能力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "创建可重用的提示模板",
+                    "target": "创建可重用的提示模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal closed",
+                    "target": "终端已关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-C",
+                    "target": "用户使用 CTRL-C 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-\\",
+                    "target": "用户使用 CTRL-\\ 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invalid machine instruction",
+                    "target": "无效的机器指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Debugger breakpoint",
+                    "target": "调试器断点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bus error due to misaligned, non-existing address or paging error",
+                    "target": "由于地址未对齐、不存在或分页错误导致的总线错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Floating point arithmetic error",
+                    "target": "浮点运算错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Forced termination",
+                    "target": "强制终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal",
+                    "target": "应用程序特定信号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Segmentation fault",
+                    "target": "段错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Broken pipe or socket",
+                    "target": "管道或套接字断开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Timeout or timer",
+                    "target": "超时或定时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Child process terminated, paused or unpaused",
+                    "target": "子进程已终止、暂停或恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paused using CTRL-Z or \"suspend\"",
+                    "target": "使用 CTRL-Z 或 \"suspend\" 暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot read terminal input",
+                    "target": "后台进程无法读取终端输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-BREAK",
+                    "target": "用户使用 CTRL-BREAK 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot write to terminal output",
+                    "target": "后台进程无法写入终端输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Socket received out-of-band data",
+                    "target": "套接字收到带外数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Process timed out",
+                    "target": "进程超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "File too big",
+                    "target": "文件过大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal window size changed",
+                    "target": "终端窗口大小已更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "I/O is available",
+                    "target": "I/O 可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Watched event",
+                    "target": "监视的事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Request for process information",
+                    "target": "请求进程信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Device running out of power",
+                    "target": "设备电量即将耗尽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal (realtime)",
+                    "target": "应用特定信号（实时）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Agent can automatically invoke tools. Please review the following risks before continuing:",
+                    "target": "Agent 可自动调用工具。继续前请查看以下风险："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "L'Agent puo invocare strumenti automaticamente. Prima di continuare, leggi i seguenti rischi:",
+                    "target": "Agent 可自动调用工具。继续前请阅读以下风险："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "描述",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Agent 具备自动调用工具、修改文件内容的能力。请在继续前了解以下风险：",
+                    "target": "Agent 具备自动调用工具、修改文件内容的能力。请在继续前了解以下风险："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enforce Obsidian markdown output contract with <smtcmp_block> tags. Use whenever returning markdown content, proposing markdown edits, or referencing markdown snippets.",
+                    "target": "使用 <smtcmp_block> 标签强制执行 Obsidian Markdown 输出约定。在返回 Markdown 内容、提出 Markdown 编辑建议或引用 Markdown 片段时使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Guide for creating effective YOLO skills. Use when users want to create a new skill, update an existing skill, or improve skill quality within their Obsidian vault. Covers skill design principles, anatomy, and the full creation workflow.",
+                    "target": "用于创建高效 YOLO 技能的指南。当用户想要创建新技能、更新现有技能或提升其 Obsidian vault 中的技能质量时使用。涵盖技能设计原则、结构以及完整的创建流程。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List directory structure under a vault path. Useful for workspace orientation.",
+                    "target": "列出 vault 路径下的目录结构。用于工作区定位。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional vault-relative directory path. Omit or use \"/\" for vault root.",
+                    "target": "可选的相对于 vault 的目录路径。省略或使用 \"/\" 表示 vault 根目录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Traversal depth from the target directory. Defaults to 1, range 1-10.",
+                    "target": "从目标目录开始的遍历深度。默认 1，范围 1-10。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum entries to return. Defaults to 200, range 1-2000.",
+                    "target": "返回的最大条目数。默认 200，范围 1-2000。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search files, folders, or markdown content in vault. Scope controls target type.",
+                    "target": "在 vault 中搜索文件、文件夹或 Markdown 内容。由 scope 控制目标类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search scope. content/all reads markdown contents; files/dirs only match paths.",
+                    "target": "搜索范围。content/all 读取 Markdown 内容；files/dirs 仅匹配路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Keyword to search. Optional for files/dirs listing. Required when scope includes content.",
+                    "target": "要搜索的关键字。用于 files/dirs 列表时可选；当 scope 包含 content 时必填。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional vault-relative directory path to scope search.",
+                    "target": "可选的相对于 vault 的目录路径，用于限定搜索范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum results to return. Defaults to 20, range 1-300.",
+                    "target": "返回的最大结果数。默认 20，范围 1-300。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether matching should be case-sensitive. Mainly useful for content scope.",
+                    "target": "匹配是否区分大小写。主要用于 content 范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional 1-based inclusive end line. If set, maxLines is ignored.",
+                    "target": "可选的从 1 开始计数的包含性结束行。若设置，则忽略 maxLines。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Apply text edit operations within a single existing file. Supports replace, insert_after, and append.",
+                    "target": "在单个现有文件内应用文本编辑操作。支持 replace、insert_after 和 append。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vault-relative file path.",
+                    "target": "相对于 vault 的文件路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ordered text edit operations to apply. Supports replace, insert_after, and append.",
+                    "target": "要应用的有序文本编辑操作。支持 replace、insert_after 和 append。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Required for replace.",
+                    "target": "replace 必填。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Required for insert_after.",
+                    "target": "insert_after 必填。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Required for insert_after and append.",
+                    "target": "insert_after 和 append 需要此项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional positive integer match count for replace and insert_after. Defaults to 1.",
+                    "target": "用于 replace 和 insert_after 的可选正整数匹配次数。默认为 1。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a single file in the vault. Use for one-file creation with explicit path and content.",
+                    "target": "在库中创建单个文件。用于具有明确路径和内容的单文件创建。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Full file content.",
+                    "target": "完整文件内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If true, validate and preview result without applying changes.",
+                    "target": "如果为 true，则在不应用更改的情况下验证并预览结果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Delete a single existing file in the vault.",
+                    "target": "删除库中单个现有文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a single folder in the vault.",
+                    "target": "在库中创建单个文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vault-relative folder path.",
+                    "target": "相对于库的文件夹路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Delete a single existing folder in the vault.",
+                    "target": "删除库中单个现有文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Move or rename a single file/folder path in the vault from oldPath to newPath.",
+                    "target": "将库中的单个文件/文件夹路径从 oldPath 移动或重命名为 newPath。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vault-relative source path.",
+                    "target": "相对于库的源路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vault-relative destination path.",
+                    "target": "相对于库的目标路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Legacy batch file/folder operations. Prefer fs_create_file/fs_delete_file/fs_create_dir/fs_delete_dir/fs_move for single operations.",
+                    "target": "遗留的批量文件/文件夹操作。单个操作优先使用 fs_create_file/fs_delete_file/fs_create_dir/fs_delete_dir/fs_move。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If true, validate and preview results without applying changes.",
+                    "target": "如果为 true，则在不应用更改的情况下验证并预览结果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Load a lite skill from the configured skills directory by id or name and return full markdown content.",
+                    "target": "从已配置的技能目录按 id 或名称加载精简技能并返回完整的 markdown 内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Skill id from frontmatter.",
+                    "target": "来自 frontmatter 的技能 id。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Skill name from frontmatter.",
+                    "target": "来自 frontmatter 的技能名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable this if you encounter CORS errors related to Stainless headers (x-stainless-os, etc.)",
+                    "target": "如果遇到与 Stainless 标头（x-stainless-os 等）相关的 CORS 错误，请启用此项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use Obsidian requestUrl to bypass CORS restrictions. Streaming responses will be buffered.",
+                    "target": "使用 Obsidian requestUrl 绕过 CORS 限制。流式响应将被缓冲。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search the web using Google Search",
+                    "target": "使用 Google Search 搜索网页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The search query",
+                    "target": "搜索查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Get context from a URL",
+                    "target": "从 URL 获取上下文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The URL to get context from",
+                    "target": "用于获取上下文的 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default editing agent for sidebar chat.",
+                    "target": "侧边栏聊天的默认编辑代理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "No conversations",
+                    "target": "暂无对话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Nessuna conversazione",
+                    "target": "没有对话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "暂无聊天记录",
+                    "target": "暂无聊天记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to generate response",
+                    "target": "无法生成回复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Impossibile generare la risposta",
+                    "target": "无法生成回复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "生成失败",
+                    "target": "生成失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "matched range could not be resolved.",
+                    "target": "匹配范围无法解析。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "matched range could not be resolved after escape recovery.",
+                    "target": "进行转义恢复后仍无法解析匹配范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "File not found.",
+                    "target": "未找到文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Malformed args.",
+                    "target": "参数格式错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Continue writing",
+                    "target": "继续写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Add a summary",
+                    "target": "添加摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Create a flowchart",
+                    "target": "创建流程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Organize into a table",
+                    "target": "整理成表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Brainstorm ideas",
+                    "target": "头脑风暴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Analyze this section",
+                    "target": "分析此部分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Ask follow-up questions",
+                    "target": "询问后续问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Continua a scrivere",
+                    "target": "继续写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Crea un diagramma di flusso",
+                    "target": "创建流程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aggiungi un riassunto",
+                    "target": "添加摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Organizza in una tabella",
+                    "target": "整理成表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Scrittura libera",
+                    "target": "自由写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Brainstorming idee",
+                    "target": "头脑风暴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Analizza questa sezione",
+                    "target": "分析此部分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fai domande di approfondimento",
+                    "target": "提出深入问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "继续编写",
+                    "target": "继续编写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "添加摘要",
+                    "target": "添加摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "添加待办事项",
+                    "target": "添加待办事项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "制作流程图",
+                    "target": "制作流程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "制作表格",
+                    "target": "制作表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "随心写作",
+                    "target": "随心写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "头脑风暴",
+                    "target": "头脑风暴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "分析重点",
+                    "target": "分析重点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "提出追问",
+                    "target": "提出追问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "LM Studio",
+                    "target": "LM Studio"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Azure OpenAI",
+                    "target": "Azure OpenAI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "API Version",
+                    "target": "API 版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "OpenAI Compatible",
+                    "target": "兼容 OpenAI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No Stainless headers",
+                    "target": "不使用 Stainless 头部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Use Obsidian requestUrl",
+                    "target": "使用 Obsidian requestUrl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid Base64 string",
+                    "target": "无效的 Base64 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Method not found",
+                    "target": "未找到方法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "URL must be parseable",
+                    "target": "URL 必须可解析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "消息",
+                    "target": "消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Support the project",
+                    "target": "支持该项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Supporta il progetto",
+                    "target": "支持该项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "支持 YOLO",
+                    "target": "支持 YOLO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obsidian Output Format",
+                    "target": "Obsidian 输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Skill Creator",
+                    "target": "技能创建器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "claude-3.5-sonnet (Recommended)",
+                    "target": "claude-3.5-sonnet（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "llama-3.1-70b (Groq)",
+                    "target": "llama-3.1-70b（Groq）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom (OpenAI Compatible)",
+                    "target": "自定义（兼容OpenAI）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI o1 (Non-Streaming)",
+                    "target": "OpenAI o1（非流式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "gpt-4o-mini (Recommended)",
+                    "target": "gpt-4o-mini（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "llama-3.1-8b (Groq)",
+                    "target": "llama-3.1-8b（Groq）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Provider type",
+                    "target": "提供商类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type a message...「@ to add references, / to choose a skill」",
+                    "target": "输入消息...「@ 添加引用，/ 选择技能」"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Scrivi un messaggio...「@ per aggiungere riferimenti, / per scegliere una skill」",
+                    "target": "输入消息...「@ 添加引用，/ 选择技能」"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入消息...「@添加标签引用，/选择技能」",
+                    "target": "输入消息...「@添加标签引用，/选择技能」"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your deployment name",
+                    "target": "输入你的部署名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your API version",
+                    "target": "输入你的 API 版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索文件夹...",
+                    "target": "搜索文件夹..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Configure continuation parameters and context before generating.",
+                    "target": "生成前配置续写参数和上下文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Configura i parametri di continuazione e il contesto prima di generare.",
+                    "target": "生成前配置续写参数和上下文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "在续写之前先配置模型、上下文与规则",
+                    "target": "在续写之前先配置模型、上下文与规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Model & prompt",
+                    "target": "模型与提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Model selection",
+                    "target": "模型选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Yolo settings",
+                    "target": "Yolo 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Default models & prompts",
+                    "target": "默认模型与提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Chat preferences",
+                    "target": "聊天偏好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Retrieval-augmented generation (rag)",
+                    "target": "检索增强生成（rag）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Custom tools (MCP)",
+                    "target": "自定义工具（MCP）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sparkle mode",
+                    "target": "Sparkle 模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ideate & converse",
+                    "target": "构思与对话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Please confirm before enabling Agent mode",
+                    "target": "启用代理模式前请确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Modello e prompt",
+                    "target": "模型与提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Selezione modello",
+                    "target": "模型选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Gestione contesto",
+                    "target": "上下文管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Impostazioni Yolo",
+                    "target": "YOLO 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Modelli e prompt predefiniti",
+                    "target": "默认模型与提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Preferenze chat",
+                    "target": "聊天偏好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "RAG (Retrieval Augmented Generation)",
+                    "target": "RAG（检索增强生成）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Strumenti personalizzati (MCP)",
+                    "target": "自定义工具（MCP）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Idea e conversa",
+                    "target": "构思与对话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Conferma prima di abilitare la modalita Agent",
+                    "target": "启用代理模式前请确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sparkle 模式",
+                    "target": "Sparkle 模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "模型选择与提示词",
+                    "target": "模型选择与提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "模型选择",
+                    "target": "模型选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "参数设置",
+                    "target": "参数设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "上下文管理",
+                    "target": "上下文管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "YOLO 设置",
+                    "target": "YOLO 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "默认模型与提示词",
+                    "target": "默认模型与提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "聊天偏好",
+                    "target": "聊天偏好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "助手",
+                    "target": "助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "提供商",
+                    "target": "提供商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "模型",
+                    "target": "模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "RAG (检索增强生成)",
+                    "target": "RAG (检索增强生成)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "自定义工具 (MCP)",
+                    "target": "自定义工具 (MCP)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "模板",
+                    "target": "模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "其他",
+                    "target": "其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "建议",
+                    "target": "建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "撰写",
+                    "target": "撰写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "思考 · 询问 · 对话",
+                    "target": "思考 · 询问 · 对话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "自定义",
+                    "target": "自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "⚠️ Agent 模式风险提示",
+                    "target": "⚠️ Agent 模式风险提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New chat",
+                    "target": "新建聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Cursor chat quick actions",
+                    "target": "Cursor 聊天快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Smart space quick actions",
+                    "target": "Smart space 快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "YOLO Requires Obsidian Update",
+                    "target": "YOLO 需要更新 Obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add custom chat model",
+                    "target": "添加自定义聊天模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Performance warning",
+                    "target": "性能警告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Edit custom chat model",
+                    "target": "编辑自定义聊天模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add custom provider",
+                    "target": "添加自定义提供商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Edit model",
+                    "target": "编辑模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "When using tools, the tool response is passed to the language model; if the tool result contains a large amount of content, this can significantly increase model usage and associated costs, so please be mindful when enabling or using tools that may return long outputs.",
+                    "target": "使用工具时，工具响应会传递给语言模型；如果工具结果包含大量内容，这可能会显著增加模型用量和相关成本，因此在启用或使用可能返回长输出的工具时请注意。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "Avviso: i server MCP possono eseguire codice arbitrario. Aggiungi solo server di cui ti fidi.",
+                    "target": "警告：MCP 服务器可能执行任意代码。仅添加你信任的服务器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "警告",
+                    "target": "警告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "使用工具时，工具响应会传递给语言模型(LLM)。如果工具结果包含大量内容，这可能会显著增加LLM使用量和相关成本。启用或使用可能返回长输出的工具时请注意。",
+                    "target": "使用工具时，工具响应会传递给语言模型(LLM)。如果工具结果包含大量内容，这可能会显著增加LLM使用量和相关成本。启用或使用可能返回长输出的工具时请注意。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
