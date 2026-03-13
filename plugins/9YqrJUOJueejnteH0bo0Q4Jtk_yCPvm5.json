@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "christmas",
+        "version": "1.0.0",
+        "title": "Christmas",
+        "description": "Christmas Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The calendar day of Christmas at your location",
+                    "target": "你所在位置的圣诞节日历日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The calendar month of Christmas at your location",
+                    "target": "你所在位置的圣诞节日历月份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make the Christmas Statusbar show up on a specific time before Christmas",
+                    "target": "让圣诞状态栏在圣诞节前的特定时间显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable large text in the status bar",
+                    "target": "启用或禁用状态栏大号文字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle the seconds in the status bar.",
+                    "target": "切换状态栏中的秒数显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Christmas day",
+                    "target": "圣诞节日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Christmas month",
+                    "target": "圣诞节月份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Statusbar visible time before Christmas",
+                    "target": "圣诞节前状态栏可见时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Large statusbar text",
+                    "target": "状态栏大号文字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle seconds in statusbar",
+                    "target": "切换状态栏秒数显示"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid day. Please enter a number between 1 and 31.",
+                    "target": "无效的日期。请输入 1 到 31 之间的数字。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show days left until Christmas",
+                    "target": "显示距离圣诞节剩余的天数"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
