@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-tts",
+        "version": "1.0.0",
+        "title": "Text to Speech",
+        "description": "Text to Speech Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.6.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Pass 2] DetectPotentialGrams",
+                    "target": "[Pass 2] 检测潜在n-gram"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Merge Results",
+                    "target": "合并结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading tts plugin",
+                    "target": "正在加载TTS插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading tts plugin",
+                    "target": "正在卸载TTS插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a new language specific voice",
+                    "target": "添加新的语言专用语音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "how fast the text will be spoken",
+                    "target": "文本朗读的速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default voice",
+                    "target": "默认语音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add new",
+                    "target": "新增"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stop playback when a note is closed/new note is opened",
+                    "target": "关闭笔记/打开新笔记时停止播放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Configure language specific voice",
+                    "target": "配置语言专用语音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Read the note",
+                    "target": "朗读备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to playback queue",
+                    "target": "添加到播放队列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Test voice",
+                    "target": "测试语音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "add new language specific voice",
+                    "target": "添加新的语言专用语音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "restore default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No voice selected",
+                    "target": "未选择语音"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "TTS: due to a bug in Android this plugin does not work on this platform",
+                    "target": "TTS：由于Android的一个错误，此插件在该平台上无法工作"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "TTS: Could not use configured language, please check your settings.\nUsing default voice",
+                    "target": "TTS：无法使用已配置的语言，请检查你的设置。\n使用默认语音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toki Pona",
+                    "target": "Toki Pona"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start playback",
+                    "target": "开始播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stop playback",
+                    "target": "停止播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pause playback",
+                    "target": "暂停播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resume playback",
+                    "target": "继续播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "See the ",
+                    "target": "查看"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " on how to add more voices",
+                    "target": "有关如何添加更多声音的内容"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
