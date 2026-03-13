@@ -1,0 +1,499 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ai-tagger-universe",
+        "version": "1.0.0",
+        "title": "AI Tagger Universe",
+        "description": "AI Tagger Universe Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.16",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "ℹ️",
+                    "target": "ℹ️"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "💡",
+                    "target": "💡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse URL:",
+                    "target": "解析 URL 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing tag network:",
+                    "target": "刷新标签网络时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[AI Tagger Debug] Tags before updateNoteTags:",
+                    "target": "[AI Tagger Debug] updateNoteTags 前的标签："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[AI Tagger Debug] Result from updateNoteTags:",
+                    "target": "[AI Tagger Debug] updateNoteTags 的结果："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Model name (e.g., mistral, llama2, gpt-3.5-turbo)",
+                    "target": "模型名称（例如：mistral、llama2、gpt-3.5-turbo）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No file selected",
+                    "target": "未选择文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Loading visualization...",
+                    "target": "正在加载可视化..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No tags found in your vault. Add some tags first!",
+                    "target": "你的库中未找到标签。请先添加一些标签！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error refreshing visualization.",
+                    "target": "刷新可视化时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error loading visualization. Please try again.",
+                    "target": "加载可视化时出错。请重试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Failed to load visualization library. Please check your internet connection.",
+                    "target": "无法加载可视化库。请检查您的网络连接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error loading visualization library.",
+                    "target": "加载可视化库时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error: D3.js library not loaded",
+                    "target": "错误：未加载 D3.js 库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Rendering network...",
+                    "target": "正在渲染网络..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show/Hide API Key",
+                    "target": "显示/隐藏 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Metadata update timeout, continuing anyway",
+                    "target": "元数据更新超时，仍继续"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error in metadata change handler:",
+                    "target": "元数据更改处理程序出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error triggering metadata change:",
+                    "target": "触发元数据更改时出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid tags to add",
+                    "target": "没有可添加的有效标签"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to open tag analytics",
+                    "target": "无法打开标签分析"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a note before clearing tags",
+                    "target": "请先打开笔记再清除标签"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update tags: No result returned",
+                    "target": "更新标签失败：未返回结果"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to complete batch processing",
+                    "target": "未能完成批处理"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a note before analyzing",
+                    "target": "请先打开笔记再进行分析"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to analyze note. Please check console for details.",
+                    "target": "分析笔记失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Simple connection test",
+                    "target": "简单连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "如果您觉得这个插件有用，请考虑支持我",
+                    "target": "如果您觉得这个插件有用，请考虑支持我"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "库中标签系统的使用统计和健康指标。",
+                    "target": "库中标签系统的使用统计和健康指标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "节点大小代表标签频率。连接表示同时出现在笔记中的标签。",
+                    "target": "节点大小代表标签频率。连接表示同时出现在笔记中的标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "定义可重用的标签集，快速应用到笔记。",
+                    "target": "定义可重用的标签集，快速应用到笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "查找并合并相似标签，保持库整洁有序。",
+                    "target": "查找并合并相似标签，保持库整洁有序。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If you find this plugin useful, please consider supporting me",
+                    "target": "如果你觉得这个插件有用，请考虑支持我"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Node size represents tag frequency. Connections represent tags that appear together in notes.",
+                    "target": "节点大小代表标签频率。连接表示同时出现在笔记中的标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Define reusable tag sets for quick application to notes.",
+                    "target": "定义可重用的标签集，快速应用到笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Find and merge similar tags to keep your vault organized.",
+                    "target": "查找并合并相似标签，保持库整洁有序。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unknown error",
+                    "target": "未知错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Connection timeout, please check if the local LLM service is running",
+                    "target": "连接超时，请检查本地 LLM 服务是否正在运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Network error, please check if the local service is accessible",
+                    "target": "网络错误，请检查本地服务是否可访问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid response format from local service",
+                    "target": "本地服务响应格式无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unknown error occurred during connection test",
+                    "target": "连接测试期间发生未知错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Connection timeout: Please check your network status",
+                    "target": "连接超时：请检查网络状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Network error: Unable to reach the API endpoint",
+                    "target": "网络错误：无法访问 API 端点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Authentication failed: Please verify your API key",
+                    "target": "身份验证失败：请核实您的 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "API endpoint not found: Please verify the URL",
+                    "target": "未找到 API 端点：请核实 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Skipped: Note has no frontmatter",
+                    "target": "已跳过：笔记没有 frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No valid frontmatter",
+                    "target": "没有有效的 frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No tags to clear",
+                    "target": "没有可清除的标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No valid tags to add",
+                    "target": "没有可添加的有效标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No tags found",
+                    "target": "未找到标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No hierarchical tags found",
+                    "target": "未找到层级标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No frontmatter found",
+                    "target": "未找到前置元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "YAML parse error",
+                    "target": "YAML 解析错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid tag names",
+                    "target": "无效的标签名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Old and new tag names are the same",
+                    "target": "新旧标签名称相同"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No predefined tags available",
+                    "target": "没有可用的预定义标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No analysis results available",
+                    "target": "没有可用的分析结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No valid tags were found or generated",
+                    "target": "未找到或生成有效标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "已在 {count} 个文件中重命名标签",
+                    "target": "已在 {count} 个文件中重命名标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Renamed tag in {count} files",
+                    "target": "已在 {count} 个文件中重命名标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "概要",
+                    "target": "概要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search: ",
+                    "target": "搜索： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Frequency: ",
+                    "target": "频率： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "LLM 设置",
+                    "target": "LLM 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签设置",
+                    "target": "标签设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "支持",
+                    "target": "支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "界面",
+                    "target": "界面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "批量重命名标签",
+                    "target": "批量重命名标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签分析仪表板",
+                    "target": "标签分析仪表板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签网络可视化",
+                    "target": "标签网络可视化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签模板",
+                    "target": "标签模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "智能标签去重",
+                    "target": "智能标签去重"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "LLM Settings",
+                    "target": "LLM 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tagging Settings",
+                    "target": "标注设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Bulk Rename Tag",
+                    "target": "批量重命名标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tag Analytics Dashboard",
+                    "target": "标签分析仪表板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tag Network Visualization",
+                    "target": "标签网络可视化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Smart Tag Deduplication",
+                    "target": "智能标签去重"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "警告",
+                    "target": "警告"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
