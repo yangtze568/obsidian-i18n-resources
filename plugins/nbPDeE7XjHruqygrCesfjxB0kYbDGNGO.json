@@ -1,0 +1,4543 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "workout-planner",
+        "version": "1.0.0",
+        "title": "Workout Planner",
+        "description": "Workout Planner Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "在未启用 'Filler' 插件的情况下尝试使用 'fill' 选项。请导入并注册 'Filler' 插件，并确保它未在选项中被禁用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "وصف",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "إحصائيات تمارينك في ملخص. راجع [[Feature Showcase]] لمعرفة جميع المكونات المتاحة.",
+                    "target": "您的训练统计数据概览。查看 [[Feature Showcase]] 了解所有可用组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vzorková statistika Vašich cvičení. Pro všechny dostupné komponenty nahlédněte do [[Zobrazení funkcí]].",
+                    "target": "您的训练统计示例。查看 [[Zobrazení funkcí]] 了解所有可用组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Din træningsstatistik i oversigt. Se [[Funktionsvisning]] for alle tilgængelige komponenter.",
+                    "target": "您的训练统计概览。查看 [[Funktionsvisning]] 获取所有可用组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ihre Übungsstatistiken im Überblick. Siehe [[Feature Showcase]] für alle verfügbaren Komponenten].",
+                    "target": "您的训练统计一览。参见 [[Feature Showcase]] 获取所有可用组件]."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your workout stats at a glance. See [[{featureShowcase}]] for all available components.",
+                    "target": "一览您的训练统计数据。查看 [[{featureShowcase}]] 获取所有可用组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Descripción",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "विवरण",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your workout stats at a glance. See [[Feature Showcase]] for all available components.",
+                    "target": "一览您的训练统计数据。查看 [[Feature Showcase]] 获取所有可用组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Le tue statistiche di allenamento a colpo d'occhio. Vedi [[{featureShowcase}]] per tutti i componenti disponibili.",
+                    "target": "一览您的训练统计数据。查看 [[{featureShowcase}]] 获取所有可用组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "説明",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "설명",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Descrição",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Описание",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Açıklama",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Опис",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "說明",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "描述",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "一览您的训练统计数据。查看 [[功能展示]] 获取所有可用组件。",
+                    "target": "一览您的训练统计数据。查看 [[功能展示]] 获取所有可用组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to read file",
+                    "target": "读取文件失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "ℹ️",
+                    "target": "ℹ️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Heart rate",
+                    "target": "心率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Max: ",
+                    "target": "最大值: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Min: ",
+                    "target": "最小值: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Drop Set",
+                    "target": "递减组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Myo Reps",
+                    "target": "Myo Reps"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Rest Pause",
+                    "target": "休息暂停法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Loading data...",
+                    "target": "正在加载数据..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الرفع على الصدر",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "آلة الساقين",
+                    "target": "腿部训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الدراجة",
+                    "target": "自行车"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الانحناء على الساق (مقاعد)",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الضغط على الساق 45",
+                    "target": "45°腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الاستقامة",
+                    "target": "腿伸展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الرفع الروماني",
+                    "target": "罗马尼亚硬拉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الجري",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الرفع",
+                    "target": "硬拉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الرفع متعدد القوة",
+                    "target": "多功能力量架"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "يوم القلب",
+                    "target": "心肺日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "اليوم 1 الجسم السفلي A 2.0",
+                    "target": "第1天下肢A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "القوة العلوية",
+                    "target": "上肢力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tlačítko rukou",
+                    "target": "手推举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Masáž nohou",
+                    "target": "腿部按摩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kolenové křivulky sedící",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nohové táhlovky 45",
+                    "target": "45°腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plánek",
+                    "target": "平板支撑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Běh",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Naklon Multi Power",
+                    "target": "上斜史密斯机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kardiovaskulární den",
+                    "target": "心肺日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Den 1 DOLNÍ Část Těla A 2.0",
+                    "target": "第1天 下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horní část těla silnější",
+                    "target": "上半身更强"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bench Presse",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Siddende Knækur",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Benpres 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Løb",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kvad Multi Power",
+                    "target": "股四头肌 Multi Power"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dag 1 NEDRE KROPS A 2.0",
+                    "target": "第1天 下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Øverkrops Kraft",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bankdrücken",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gelenkkurve für die Beine",
+                    "target": "腿部弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sitzende Knöchelkurz",
+                    "target": "坐姿踝屈伸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Knie drücken 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Querzug Multi Power",
+                    "target": "横向拉力 Multi Power"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kardio Tag",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tag 1 UNTERKORPER A 2.0",
+                    "target": "第1天 下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Oberkörper Kraftleistung",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bench Press",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calf Machine",
+                    "target": "小腿机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leg Curl Seated",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leg Press 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Squat Multi Power",
+                    "target": "深蹲 Multi Power"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cardio Day",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Day 1 LOWER BODY A 2.0",
+                    "target": "第1天 下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upper Body Power",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Press de banca.",
+                    "target": "卧推。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flexión de piernas sentado.",
+                    "target": "坐姿腿弯举。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Máquina de prensa de piernas de 45 grados.",
+                    "target": "45度腿举机。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sentadilla multipropósito de alta potencia.",
+                    "target": "高功率多功能深蹲。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Día de ejercicios cardiovasculares.",
+                    "target": "有氧运动日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Día 1: Tren inferior A 2.0.",
+                    "target": "第1天：下肢A 2.0。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Potencia de la parte superior del cuerpo.",
+                    "target": "上肢力量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Développé couché.",
+                    "target": "卧推。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Machine pour les mollets.",
+                    "target": "小腿机。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Le cyclisme.",
+                    "target": "骑行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flexion plantaire assis.",
+                    "target": "坐姿提踵。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Presse à jambes inclinée à 45 degrés.",
+                    "target": "45度斜腿举。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Course à pied.",
+                    "target": "跑步。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Squat multiposition.",
+                    "target": "多体位深蹲。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Journée axée sur le cardio.",
+                    "target": "有氧日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jour 1 : Exercices pour le bas du corps, niveau 2.0.",
+                    "target": "第1天：下肢训练，2.0级。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force du haut du corps.",
+                    "target": "上肢力量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "बेंच प्रेस",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "काल्फ मशीन",
+                    "target": "小腿机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "साइकिल चलाना",
+                    "target": "骑行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "सीट पर लेग कर्ल",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "लेग प्रेस 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "प्लैंक",
+                    "target": "平板支撑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "आरडीएल",
+                    "target": "罗马尼亚硬拉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "दौड़",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "स्क्वाट",
+                    "target": "深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "स्क्वाट मल्टी पावर",
+                    "target": "多功能深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "कार्डियो डे",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "दिन 1 लोअर बॉडी ए 2.0",
+                    "target": "第1天 下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ऊपरी शरीर की शक्ति",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mesin Otot Betis",
+                    "target": "小腿训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Latihan Mengangkat Kaki Duduk",
+                    "target": "坐姿抬腿训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Posisi Plank",
+                    "target": "平板支撑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Latihan Lari",
+                    "target": "跑步训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Latihan Squat Multi Power",
+                    "target": "多功能深蹲训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hari Latihan Kardio",
+                    "target": "有氧训练日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hari 1, LATIHAN KAKI ATAS 2.0",
+                    "target": "第1天，上腿训练 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Latihan Kekuatan Bagian Atas",
+                    "target": "上半身力量训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Panca Piana",
+                    "target": "平板卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Macchina per i polpacci",
+                    "target": "小腿训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leg Curl Seduto",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Esercizio squat multi power",
+                    "target": "多功能深蹲训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Giorno dedicato all'allenamento cardio",
+                    "target": "有氧训练日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Giorno 1 LOWER BODY A 2.0",
+                    "target": "第1天 下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Potenziamento del corpo superiore",
+                    "target": "上半身强化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ベンチプレース",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ふくらはぎマシン",
+                    "target": "小腿训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "サイクリング",
+                    "target": "骑行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "座った状態でのレッグカール",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "レッグプレス 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "プランク",
+                    "target": "平板支撑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ランニング",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "スクワット",
+                    "target": "深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "スクワット マルチ パワー",
+                    "target": "深蹲 多功能力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "有酸素運動の日",
+                    "target": "有氧运动日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1日目 LOWER BODY A 2.0",
+                    "target": "第1天 下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "上半身パワー",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "벤치 프레스",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "퇴근 운동기",
+                    "target": "下班运动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "사이클링",
+                    "target": "骑行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "앉아서 다리 꼬기",
+                    "target": "坐姿腿交叉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "레그 프레스 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "플랭크",
+                    "target": "平板支撑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "달리기",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "스쿼트",
+                    "target": "深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "스쿼트 멀티 파워",
+                    "target": "深蹲 多功能力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "유산소 운동 일",
+                    "target": "有氧运动日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1일차, 하체 A (2.0)",
+                    "target": "第1天，下半身A（2.0）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "상체 근력",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Machine voor de kuiten",
+                    "target": "小腿训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leg Curl, zitten",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Legpers 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dag met cardio",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dag 1, OEFENING A: Onderlichaam 2.0",
+                    "target": "第1天，训练A：下半身 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kracht voor het bovenlichaam",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Benstrekk – sittende",
+                    "target": "坐姿腿伸展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Benpress 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Løping",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Knebøy",
+                    "target": "深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dag 1 NEDRE DEL AV KROPPEN A 2.0",
+                    "target": "第1天 下肢A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Øvre kropps styrke",
+                    "target": "上肢力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ćwiczenie: Wykonywanie przysiadów na ławce",
+                    "target": "练习：在长凳上做深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maszyna na ud",
+                    "target": "大腿训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jazda na rowerze",
+                    "target": "骑自行车"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ćwiczenie: Uginanie nóg na krześle",
+                    "target": "练习：坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ćwiczenie: Ciężar na nogi, 45 kg",
+                    "target": "练习：腿部负重，45公斤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ćwiczenie: Skok ze sztangą (Multi Power)",
+                    "target": "练习：杠铃跳（Multi Power）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dzień ćwiczeń aerobowych",
+                    "target": "有氧训练日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dzień 1, Ćwiczenia na dolne partie ciała A 2.0",
+                    "target": "第1天，下肢训练A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ćwiczenia wzmacniające górną część ciała",
+                    "target": "上肢强化训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Máquina para panturrilha",
+                    "target": "小腿训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Elevação de Pernas Sentado",
+                    "target": "坐姿腿伸展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exercício de agachamento com peso",
+                    "target": "负重深蹲训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dia de exercícios cardiovasculares",
+                    "target": "心肺训练日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dia 1 BAIXO CORPO A 2.0",
+                    "target": "第1天 下肢A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Força do Superior do Corpo",
+                    "target": "上肢力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Agachamento Multi Power",
+                    "target": "Multi Power深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dia de Cardio",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dia 1, TREINO PARA AS MÁSCULAS: Parte Inferior 2.0",
+                    "target": "第1天，肌肉训练：下肢2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exercițiu cu bara",
+                    "target": "杠铃练习"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mașină pentru cvadriceps",
+                    "target": "四头肌训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exercițiu: Flexie a picioarelor în poziție șezând",
+                    "target": "练习：坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Presă pentru picioare, 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exercițiu Plank",
+                    "target": "平板支撑练习"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exerciții de alergare",
+                    "target": "跑步训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exercițiu: Genuflexiune cu greutate",
+                    "target": "练习：负重深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zi de exerciții cardio",
+                    "target": "有氧训练日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ziua 1, ANTRENAMENT pentru partea inferioară a corpului, nivel 2.0",
+                    "target": "第1天，下半身训练，等级2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exerciții pentru forța corpului superior",
+                    "target": "上半身力量训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Жим лежа",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Машина для тренировки мышц голени",
+                    "target": "小腿训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Велоспорт",
+                    "target": "骑行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Подъем ног сидя",
+                    "target": "坐姿抬腿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Жим ногами, 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Планка",
+                    "target": "平板支撑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Бег",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Приседания",
+                    "target": "深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Приседания с использованием многофункционального оборудования",
+                    "target": "使用多功能设备的深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "День кардио",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "День 1. Тренировка для нижней части тела A 2.0",
+                    "target": "第1天，下半身训练A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Силовая тренировка для верхней части тела",
+                    "target": "上半身力量训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Makina për qafat",
+                    "target": "颈部训练机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kursa për bicikling",
+                    "target": "骑行课程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kurose me këmbë",
+                    "target": "腿部交叉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pozicioni \"Plank\"",
+                    "target": "“平板支撑”姿势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dita e Kardio",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dita 1, TRENDOJA E KRYSHËVE A 2.0",
+                    "target": "第1天，下半身训练A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Forca e trupit të sipërm",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bacak Kası Makinesi",
+                    "target": "腿部肌肉训练器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ayakta Bacak Bükme",
+                    "target": "站姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bacak Press 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Koşu",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kardiyo Günü",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1. GÜN ALTI BÖLGE A 2.0",
+                    "target": "第1天，下半身A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Üst Vücut Gücü",
+                    "target": "上半身力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Підтягування на брусах",
+                    "target": "双杠臂屈伸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Машина для тренування м'язів гомілки",
+                    "target": "小腿肌训练器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Підйом ніг сидячи",
+                    "target": "坐姿抬腿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Жим ногами 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Біг",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Присідання",
+                    "target": "深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Присідання з використанням Multi Power",
+                    "target": "使用Multi Power的深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "День кардіо",
+                    "target": "有氧日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "День 1, Тренування для нижньої частини тіла A 2.0",
+                    "target": "第1天，下半身训练A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Силові вправи для верхньої частини тіла",
+                    "target": "上半身力量训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "臥推",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "小腿肌訓練器",
+                    "target": "小腿肌训练器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自行車",
+                    "target": "自行车"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "坐姿腿彎舉",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "腿壓 45",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "平板式",
+                    "target": "平板式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跑步",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "深蹲",
+                    "target": "深蹲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "深蹲多功能訓練",
+                    "target": "深蹲多功能训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "有氧運動日",
+                    "target": "有氧运动日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "第一天：下半身 A 2.0",
+                    "target": "第一天：下半身 A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "上肢力量",
+                    "target": "上肢力量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "卧推",
+                    "target": "卧推"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "小腿训练器",
+                    "target": "小腿训练器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "骑行",
+                    "target": "骑行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "坐姿腿弯举",
+                    "target": "坐姿腿弯举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "45度腿举",
+                    "target": "45度腿举"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "平板支撑",
+                    "target": "平板支撑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "罗马尼亚硬拉",
+                    "target": "罗马尼亚硬拉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "深蹲多组训练",
+                    "target": "深蹲多组训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "有氧训练日",
+                    "target": "有氧训练日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "第一天：下半身训练 A 2.0",
+                    "target": "第一天：下半身训练 A 2.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "上肢力量训练",
+                    "target": "上肢力量训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Please select a muscle group",
+                    "target": "请选择肌肉群"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Please enter a tag name",
+                    "target": "请输入标签名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "بحث",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Søg",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "खोज",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "検索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "검색",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Søk",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Caută",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Поиск",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Kërko",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Пошук",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜尋",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "المدة المقدرة مقابل المدة الفعلية للتمارين",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "تفصيل بروتوكول التدريب (آخر 30 يومًا)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Odhadnutá vs. skutečná délka tréninku",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Rozpis protokolu tréninku (posledních 30 dní)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Estimeret vs. faktisk træningstid",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Detaljeret oversigt over træningsprotokol (de seneste 30 dage)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Geschätzte vs. tatsächliche Dauer des Trainings",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Detaillierte Aufschlüsselung des Schulungsprotokolls (letzten 30 Tage)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Estimated vs actual workout duration",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Training protocol breakdown (last 30 days)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Duración estimada frente a la duración real del ejercicio",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Desglose del protocolo de formación (últimos 30 días)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Répartition des activités de formation (derniers 30 jours)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "अनुमानित बनाम वास्तविक कसरत की अवधि",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "प्रशिक्षण प्रोटोकॉल का विवरण (अंतिम 30 दिन)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Perbandingan perkiraan vs durasi latihan yang sebenarnya",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Rincian protokol pelatihan (30 hari terakhir)",
+                    "target": "训练方案明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Durata stimata rispetto alla durata effettiva dell'allenamento",
+                    "target": "估算时长与实际训练时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Dettaglio del protocollo di formazione (ultimi 30 giorni)",
+                    "target": "培训协议详情（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "予想時間と実際のトレーニング時間",
+                    "target": "预计时间与实际训练时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "トレーニングプロトコルの詳細（過去30日間）",
+                    "target": "训练协议详情（过去30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "예상 시간 대비 실제 운동 시간",
+                    "target": "预计时间与实际运动时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "훈련 프로토콜 상세 내역 (최근 30일)",
+                    "target": "训练协议详细内容（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Geschatte vs. daadwerkelijke duur van de training",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Overzicht van de trainingsprotocollen (laatste 30 dagen)",
+                    "target": "训练协议概览（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Estimert vs. faktisk treningsvarighet",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Detaljert oversikt over treningsprotokollen (de siste 30 dagene)",
+                    "target": "训练协议详细概览（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Szacowany czas trwania treningu w porównaniu z rzeczywistym",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Szczegółowy podział planu szkoleniowego (ostatnie 30 dni)",
+                    "target": "训练计划详细分类（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Duração estimada vs. duração real do treino",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Detalhamento do protocolo de treinamento (últimos 30 dias)",
+                    "target": "训练协议详情（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Durata estimată comparativ cu durata reală a antrenamentului",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Detalii despre protocoalele de instruire (ultimele 30 de zile)",
+                    "target": "训练协议详情（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Ожидаемая продолжительность тренировки против фактической",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Разбивка по протоколам обучения (последние 30 дней)",
+                    "target": "培训协议明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Vlera e shpërthyur vs. durata e vërtetë e stërdhimit",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Shpërqyrja e protokollit të trajtimit (30 ditët e fundit)",
+                    "target": "训练协议概览（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Tahmini vs. gerçek antrenman süresi",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Eğitim protokolü detayları (son 30 gün)",
+                    "target": "训练协议详情（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Орієнтовна тривалість тренування проти фактичної",
+                    "target": "预计训练时长与实际训练时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Розбивка протоколу навчання (останні 30 днів)",
+                    "target": "培训协议明细（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "預估與實際運動時間",
+                    "target": "预估与实际运动时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "訓練計畫細節（過去 30 天）",
+                    "target": "训练计划细节（过去 30 天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "预计时长与实际时长比较",
+                    "target": "预计时长与实际时长比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "训练方案细分（最近30天）",
+                    "target": "训练方案细分（最近30天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "تم تحويل سجلات {count} بنجاح.",
+                    "target": "已成功转换 {count} 条记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Úspěšně převedeny {count} záznamů.",
+                    "target": "已成功转换 {count} 条记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Konverteret {count} log-indlæsninger med succes.",
+                    "target": "已成功转换 {count} 条日志条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Erfolgreich konvertiert: {count} Protokoll-Einträge",
+                    "target": "成功转换：{count} 条日志条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Successfully converted {count} log entries",
+                    "target": "成功转换 {count} 条日志条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Se han convertido con éxito las entradas de registro de {count}.",
+                    "target": "已成功转换 {count} 条日志条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Conversion réussie des [{{count}}] entrées de journal",
+                    "target": "成功转换 [{{count}}] 条日志条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "सफलतापूर्वक {count} लॉग प्रविष्टियाँ परिवर्तित की गईं।",
+                    "target": "已成功转换 {count} 条日志条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Konversi berhasil untuk {count} entri log",
+                    "target": "成功转换 {count} 条日志条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Conversione riuscita dei log: {count}",
+                    "target": "成功转换日志：{count}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "{count} のログエントリを正常に変換しました",
+                    "target": "已成功转换 {count} 条日志条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "{count} 로그 항목이 성공적으로 변환되었습니다.",
+                    "target": "已成功转换 {count} 条日志条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Succesvol omgezet: {count} logberichten",
+                    "target": "成功转换：{count} 条日志条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Konvertert {count} loggposter med suksess.",
+                    "target": "已成功转换 {count} 条日志条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Pomyślnie przekonwertowano {count} wpisów dziennika.",
+                    "target": "已成功转换 {count} 条日志条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Conversia cu succes a {count} înregistrări din jurnalul {name}",
+                    "target": "成功转换日志 {name} 中的 {count} 条记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Успешно преобразованы записи лога {count}",
+                    "target": "成功转换 {count} 条日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Konvertimi i suksesshëm i {count} regjistrave",
+                    "target": "成功转换 {count} 条记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Başarıyla dönüştürüldü: {count} günlük girişi",
+                    "target": "成功转换：{count} 条日志条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Успішно конвертовано {count} записів журналу.",
+                    "target": "已成功转换 {count} 条日志条目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功轉換了 {count} 記錄",
+                    "target": "成功转换了 {count} 条记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功转换 {count} 条记录",
+                    "target": "成功转换 {count} 条记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "نص",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "إنهاء التدريب",
+                    "target": "结束训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dokončit trénink",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Udfør træningsprogrammet",
+                    "target": "完成训练计划"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Workout abschließen",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Complete workout",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Entrenamiento completo",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Veuillez fournir le texte à traduire.",
+                    "target": "请提供要翻译的文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "टेक्स्ट",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "पूरा वर्कआउट",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selesaikan latihan",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Completare l'allenamento",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ワークアウトを完了する",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "텍스트",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "운동 완료",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Volledige training",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fullfør treningsøkten",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Zakończ trening",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Treino completo",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Concluir o treino",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Finalizează antrenamentul",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Текст",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Завершить тренировку",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mërgëmbim i plotë",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tam bir egzersiz",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Завершити тренування",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文字",
+                    "target": "文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "完成運動",
+                    "target": "完成运动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文本",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "完成训练",
+                    "target": "完成训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "تحديد العلاقة بين الحقول",
+                    "target": "确定字段之间的关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "لمحة أولية",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "تحويل بيانات التمرين",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "مقارنة المدة",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "أخطاء الملفات",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "وسوم العضلات",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "توزيع البروتوكولات",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "فعالية البروتوكول",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "الإجراءات السريعة",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "إحصائيات سريعة",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "التمارين الأخيرة",
+                    "target": "最近的训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "الملخص",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "العنوان",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "تحليل الحجم",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "اللوحة الرئيسية",
+                    "target": "主面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "عرض الميزات",
+                    "target": "功能展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "البدء بالتعرف على إضافة الجيم",
+                    "target": "开始了解健身插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "جلسة تمارين HIIT التنفسي",
+                    "target": "呼吸 HIIT 训练课"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "العنوان:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mapování polí",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Předběžný náhled",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Převést data o cvičení",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Srovnání trvání",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Chyby související se soubory",
+                    "target": "文件相关错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Štítky pro svaly",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rozdělení protokolů",
+                    "target": "记录分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Účinnost protokolu",
+                    "target": "记录效率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rychlé akce",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rychlé statistiky",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nedávné cvičení",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Volumová analýza",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zobrazení funkcí",
+                    "target": "功能展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kardio SESSION HIIT",
+                    "target": "有氧 SESSION HIIT"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Název:",
+                    "target": "名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nadpis:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kortlægning af felter",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Forhåndsvisning",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Konverter træningsdata",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sammenligning af varighed",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fejl ved fil",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fordeling af protokoller",
+                    "target": "记录分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Effektivitet af protokollen",
+                    "target": "记录效率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Hurtige handlinger",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Hurtige statistikker",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Seneste øvelser",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Funktionsvisuel Præsentation",
+                    "target": "功能可视化展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Start med The Gym Plugin",
+                    "target": "从 The Gym Plugin 开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "HIIT Kardio Session",
+                    "target": "HIIT 有氧训练课"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Overskrift:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Titel:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zuordnung von Feldern",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Daten der Übungen konvertieren",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Vergleich der Dauer",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fehler beim Datei-Upload",
+                    "target": "文件上传错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tags für Muskeln",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Verteilung der Protokolle",
+                    "target": "训练记录分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Wirksamkeit des Protokolls",
+                    "target": "训练记录效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Schnelle Aktionen",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Letzte Trainings",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Feature-Präsentation",
+                    "target": "功能展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Anfängerlektion mit The Gym Plugin",
+                    "target": "The Gym Plugin 初学者课程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Field mapping",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Convert exercise data",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Duration comparison",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "File errors",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Muscle tags",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Protocol distribution",
+                    "target": "训练记录分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Protocol effectiveness",
+                    "target": "训练记录效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Quick actions",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Quick stats",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Recent workouts",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Volume analytics",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Feature Showcase",
+                    "target": "功能展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Getting Started with The Gym Plugin",
+                    "target": "开始使用 Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "HIIT Cardio Session",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Title:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mapeo de campos",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Vista previa",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Convertir datos del ejercicio",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Comparación de duraciones",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Errores de archivo",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Etiquetas para músculos",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Distribución de protocolos",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eficacia del protocolo",
+                    "target": "协议效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Acciones rápidas",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Datos rápidos.",
+                    "target": "快速数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Entrenamientos recientes.",
+                    "target": "最近训练。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Título.",
+                    "target": "标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Análisis de volúmenes.",
+                    "target": "训练量分析。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Panel de control.",
+                    "target": "控制面板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Destacamos las características principales.",
+                    "target": "突出主要功能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sesión de cardio de alta intensidad (HIIT).",
+                    "target": "高强度有氧训练（HIIT）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Título:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Correspondance des champs",
+                    "target": "字段对应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Aperçu",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Convertir les données d'exercice",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Comparaison de durée",
+                    "target": "时长比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Erreurs de fichier",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Étiquettes pour les muscles",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Répartition des protocoles",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Efficacité du protocole",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Actions rapides",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Statistiques clés.",
+                    "target": "关键统计数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Résumé.",
+                    "target": "摘要。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analyse des volumes.",
+                    "target": "训练量分析。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tableau de bord.",
+                    "target": "仪表板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Présentation des fonctionnalités.",
+                    "target": "功能介绍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Comment démarrer avec le plugin \"The Gym\".",
+                    "target": "如何开始使用“The Gym”插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Séance de cardio HIIT.",
+                    "target": "HIIT 有氧训练课。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Titre :",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "फ़ील्ड मैपिंग",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "नमूना",
+                    "target": "示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "व्यायाम डेटा को रूपांतरित करें",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "अवधि की तुलना",
+                    "target": "时长比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "फ़ाइल त्रुटियाँ",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "मांस के टैग",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "प्रोटोकॉल वितरण",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "प्रोटोकॉल की प्रभावशीलता",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "त्वरित क्रियाएं",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "त्वरित आँकड़े",
+                    "target": "关键统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "हाल के वर्कआउट",
+                    "target": "最近的训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "सारांश",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "शीर्षक",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "मात्रा विश्लेषण",
+                    "target": "容量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "डैशबोर्ड",
+                    "target": "仪表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "विशेषता प्रदर्शन",
+                    "target": "功能展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "द गिम प्लगइन के साथ शुरुआत करना",
+                    "target": "开始使用Gim插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "हाई इंटेंसिटी इंटरवल ट्रेनिंग (HIIT) कार्डियो सत्र",
+                    "target": "高强度间歇训练（HIIT）有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "शीर्षक:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Konversi data latihan",
+                    "target": "训练数据转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Perbandingan durasi",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kesalahan pada file",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tag otot",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Distribusi protokol",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Efektivitas protokol",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tindakan cepat",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Statistik cepat",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Latihan terbaru",
+                    "target": "最新训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analisis volume",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Contoh-contoh Fitur",
+                    "target": "功能示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sesi HIIT Kardio",
+                    "target": "HIIT有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Judul:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mappatura dei campi",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Converti i dati dell'esercizio",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Confronta i periodi",
+                    "target": "比较周期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Errori relativi ai file",
+                    "target": "文件相关错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tag per i muscoli",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Distribuzione dei protocolli",
+                    "target": "方案分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Efficacia del protocollo",
+                    "target": "方案有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Azioni rapide",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Statistiche rapide",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Allenamenti recenti",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analisi volume",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pannello di controllo",
+                    "target": "控制面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Showcase Funzionalità",
+                    "target": "功能展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Inizia con The Gym Plugin",
+                    "target": "开始使用 The Gym Plugin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sessione Cardio HIIT",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Titolo:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "フィールドのマッピング",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "プレビュー",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "エクササイズデータを変換する",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "期間比較",
+                    "target": "期间比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "ファイルのエラー",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "筋肉タグ",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "プロトコル配分",
+                    "target": "方案分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "プロトコルの有効性",
+                    "target": "方案有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "クイックアクション",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "クイック統計",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "最近のトレーニング",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "概要",
+                    "target": "概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "タイトル",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "音量分析",
+                    "target": "音量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "ダッシュボード",
+                    "target": "仪表板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "機能紹介",
+                    "target": "功能介绍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "The Gym プラグインの開始方法",
+                    "target": "The Gym 插件入门"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "HIIT（高強度インターバルトレーニング）カーディオセッション",
+                    "target": "HIIT（高强度间歇训练）有氧课程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "タイトル:",
+                    "target": "标题:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "필드 매핑",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "미리보기",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "운동 데이터 변환",
+                    "target": "运动数据转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "기간 비교",
+                    "target": "期间比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "파일 오류",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "근육 태그",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "프로토콜 배분",
+                    "target": "协议分配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "프로토콜 효과",
+                    "target": "协议效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "빠른 실행",
+                    "target": "快速运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "빠른 통계",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "최근 운동",
+                    "target": "最近运动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "요약",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "제목",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "볼륨 분석",
+                    "target": "音量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "대시보드",
+                    "target": "仪表板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "특징 소개",
+                    "target": "功能介绍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "The Gym 플러그인 사용 시작하기",
+                    "target": "The Gym 插件入门"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "HIIT 심혈관 운동 세션",
+                    "target": "HIIT 心肺训练课程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "제목:",
+                    "target": "标题:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kaarting van velden",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Om gegevens over de oefening om te zetten",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Vergelijking van duur",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Foutmeldingen bij bestanden",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Labels voor spiergroepen",
+                    "target": "肌群标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Verdeling van protocollen",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Effectiviteit van het protocol",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Snelle acties",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Snelle statistieken",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Recente workouts",
+                    "target": "最近的训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analyse van het volume",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Beginnen met het Gym-plugin",
+                    "target": "开始使用 Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "HIIT Cardio Training",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kartlegging av felt",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Forhåndsvis",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Konverter treningsdata",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sammenligning av varighet",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Feil ved fil",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Merker for muskler",
+                    "target": "肌群标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fordeling av protokoller",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Effektivitet av protokollen",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Raske handlinger",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Raske statistikker",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nylige treningsøkter",
+                    "target": "最近的训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Komme i gang med The Gym-plugin",
+                    "target": "开始使用 The Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tittel:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mapowanie pól",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Przykładowy widok",
+                    "target": "示例视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Przekonwertuj dane dotyczące ćwiczeń",
+                    "target": "转换练习数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Porównanie czasów",
+                    "target": "时间比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Błędy w plikach",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tagi dla mięśni",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rozkład protokołów",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Skuteczność protokołu",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Szybkie akcje",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Szybkie statystyki",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ostatnie treningi",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tytuł",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analiza wolumenu",
+                    "target": "容量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Panel kontrolny",
+                    "target": "控制面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Przykłady",
+                    "target": "示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Jak rozpocząć pracę z wtyczką The Gym",
+                    "target": "如何开始使用 The Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sesja HIIT (Trening Interwałowy Wysokiej Intensywności)",
+                    "target": "HIIT 课程（高强度间歇训练）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tytuł:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mapeamento de campos",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Visualização",
+                    "target": "视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Converter dados do exercício",
+                    "target": "转换练习数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Comparar duração",
+                    "target": "比较时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Erros de arquivo",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tags para músculos",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Distribuição de protocolos",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eficácia do protocolo",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ações rápidas",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Estatísticas rápidas",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Treinos recentes",
+                    "target": "近期训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Título",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Análise de volume",
+                    "target": "容量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Painel de controle",
+                    "target": "控制面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Começando com o Plugin The Gym",
+                    "target": "开始使用 The Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sessão de Cardio HIIT",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Começar com o Plugin The Gym",
+                    "target": "开始使用 The Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Maparea câmpurilor",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Convert datele exercițiilor",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Comparație de durată",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Erori în fișiere",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Etichete pentru mușchi",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Distribuția protocoalelor",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eficiența protocolului",
+                    "target": "协议效率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Acțiuni rapide",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Statistici rapide",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Antrenamente recente",
+                    "target": "近期训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analiza volumului",
+                    "target": "容量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Panou de control",
+                    "target": "控制面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Prezentare de funcționalități",
+                    "target": "功能概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Începeți să utilizați pluginul The Gym",
+                    "target": "开始使用 The Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sesiune de cardio HIIT",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Titlu:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Сопоставление полей",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Предварительный просмотр",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Преобразовать данные о тренировках",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Сравнение по продолжительности",
+                    "target": "按时长比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ошибки при работе с файлами",
+                    "target": "文件处理错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Теги для мышц",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Распределение протоколов",
+                    "target": "训练方案分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Эффективность протокола",
+                    "target": "训练方案效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Быстрые действия",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Быстрые показатели",
+                    "target": "快捷指标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Недавние тренировки",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Краткое изложение",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Заголовок",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Анализ объема",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Панель управления",
+                    "target": "控制面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Демонстрация возможностей",
+                    "target": "功能演示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Начало работы с плагином \"The Gym\"",
+                    "target": "开始使用 “The Gym” 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Тренировка HIIT (высокоинтенсивные интервальные тренировки) для кардио",
+                    "target": "HIIT（高强度间歇训练）有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Заголовок:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mapimi i fushave",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Trajtoja e të dhënave",
+                    "target": "处理数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Krahasim i kohës",
+                    "target": "时间比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Gabimet në fail",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Etiketat për muskuj",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Distribuimi i protokollave",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Efektiviteti i protokollit",
+                    "target": "协议效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Akcje të shpejta",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Statistikat e shpejtës",
+                    "target": "速度统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Trajnime të fundit",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Shëmbull",
+                    "target": "示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analizë e volumit",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Shfaqja e veprimeve",
+                    "target": "操作显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fillimi me pluginin The Gym",
+                    "target": "开始使用 The Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sesioni i kardio HIIT",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Titulli:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Egzersiz verilerini dönüştür",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Süre karşılaştırması",
+                    "target": "时长对比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dosya hataları",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kas etiketleri",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Protokol dağılımı",
+                    "target": "协议分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Protokol etkinliği",
+                    "target": "协议效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Hızlı istatistikler",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Son egzersizler",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Özet",
+                    "target": "概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Başlık",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Hacim analizi",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Gösterge",
+                    "target": "指示器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Özellikler",
+                    "target": "功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "The Gym Eklentisi ile Başlangıç",
+                    "target": "The Gym 插件入门"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "HIIT Kardiyo Antrenmanı",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Başlık:",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Мапування полів",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Попередній перегляд",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Перетворити дані про вправи",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Порівняння тривалості",
+                    "target": "时长比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Помилки при роботі з файлами",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Теги для м'язів",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Розподіл протоколів",
+                    "target": "协议分配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ефективність протоколу",
+                    "target": "协议效率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Швидкі дії",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Швидкі показники",
+                    "target": "快速指标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Нещодавні тренування",
+                    "target": "近期训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Підсумок",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Аналітика обсягів",
+                    "target": "容量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Панель керування",
+                    "target": "控制面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Демонстрація функцій",
+                    "target": "功能演示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Початок роботи з плагіном The Gym",
+                    "target": "The Gym 插件入门"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Тренування HIIT з кардіо",
+                    "target": "HIIT 有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "欄位對應",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "預覽",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "轉換運動數據",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "時間比較",
+                    "target": "时间比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "檔案錯誤",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "肌肉標籤",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "協議分配",
+                    "target": "协议分配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "協議有效性",
+                    "target": "协议有效性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "快速操作",
+                    "target": "快速操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "快速統計",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "最近的運動",
+                    "target": "最近的运动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "總結",
+                    "target": "总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "標題",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "儀表板",
+                    "target": "仪表板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "功能展示",
+                    "target": "功能展示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "開始使用 The Gym 插件",
+                    "target": "开始使用 The Gym 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "高強度間歇訓練（HIIT）心臟訓練",
+                    "target": "高强度间歇训练（HIIT）心脏训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "標題：",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "字段映射",
+                    "target": "字段映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "预览",
+                    "target": "预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "转换训练数据",
+                    "target": "转换训练数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "时长比较",
+                    "target": "时长比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "文件错误",
+                    "target": "文件错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "肌肉标签",
+                    "target": "肌肉标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "训练方案分布",
+                    "target": "训练方案分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "训练方案效果",
+                    "target": "训练方案效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "快速统计",
+                    "target": "快速统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "最近训练",
+                    "target": "最近训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "摘要",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "训练量分析",
+                    "target": "训练量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "仪表盘",
+                    "target": "仪表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "开始使用训练插件",
+                    "target": "开始使用训练插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "高强度间歇训练（HIIT）有氧训练",
+                    "target": "高强度间歇训练（HIIT）有氧训练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标题：",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "انقر لنسخ: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Klikněte pro kopírování: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Klik for at kopiere: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Klicken Sie, um zu kopieren: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Click to copy: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Haga clic para copiar: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Cliquez pour copier : {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "कॉपी करने के लिए क्लिक करें: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Klik untuk menyalin: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Clicca per copiare: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "コピーするにはクリック: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "복사하려면 클릭: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Klik om te kopiëren: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Klikk for å kopiere: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Kliknij, aby skopiować: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Clique para copiar: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Dați clic pentru a copia: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Нажмите, чтобы скопировать: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Klikoni për të kopjuar: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Kopyalamak için tıklayın: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Натисніть, щоб скопіювати: {tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "點擊複製：{tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "点击复制：{tag}",
+                    "target": "点击复制：{tag}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "⚠️",
+                    "target": "⚠️"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
