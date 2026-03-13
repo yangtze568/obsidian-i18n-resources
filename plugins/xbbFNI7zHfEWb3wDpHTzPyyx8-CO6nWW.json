@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cryptsidian",
+        "version": "1.0.0",
+        "title": "Cryptsidian",
+        "description": "Cryptsidian Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Please enter your password",
+                    "target": "请输入您的密码"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Confirm your password",
+                    "target": "确认您的密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error using fs.readSync(fd, iv, 0, 16, null) to get the IV back",
+                    "target": "使用 fs.readSync(fd, iv, 0, 16, null) 获取 IV 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading plugin",
+                    "target": "正在加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading plugin",
+                    "target": "正在卸载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Do not open files with Obsidian after encrypting - they can become corrupted and irrecoverable. Always use the Decrypt command prior to re-opening files!",
+                    "target": "加密后请勿使用 Obsidian 打开文件——它们可能会损坏且无法恢复。重新打开文件前务必使用“解密”命令！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Passwords must match",
+                    "target": "两次密码必须一致"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Please enter your password in both boxes.",
+                    "target": "请在两个输入框中输入您的密码。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Your password is not strong enough. Try adding different kinds of characters, like numbers, special characters, or uppercase letters.\n",
+                    "target": "您的密码强度不够。请尝试添加不同类型的字符，例如数字、特殊字符或大写字母。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "secretKey is null or undefined. Uh-oh.\n",
+                    "target": "secretKey 为 null 或未定义。糟糕。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Encrypt Modal",
+                    "target": "打开加密对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Decrypt Modal",
+                    "target": "打开解密对话框"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
