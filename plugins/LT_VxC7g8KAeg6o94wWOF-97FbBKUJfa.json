@@ -1,0 +1,361 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "zhihu",
+        "version": "1.0.0",
+        "title": "Zhihu",
+        "description": "Zhihu Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "\\u6BCF\\u884C\\u4E00\\u4E2A\\u94FE\\u63A5\n\\u652F\\u6301\\u77E5\\u4E4E\\u56DE\\u7B54\\u3001\\u6587\\u7AE0\\u3001\\u95EE\\u9898\\u3001\\u60F3\\u6CD5",
+                    "target": "\\u6BCF\\u884C\\u4E00\\u4E2A\\u94FE\\u63A5\n\\u652F\\u6301\\u77E5\\u4E4E\\u56DE\\u7B54\\u3001\\u6587\\u7AE0\\u3001\\u95EE\\u9898\\u3001\\u60F3\\u6CD5"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save data:",
+                    "target": "\\u4FDD\\u5B58\\u6570\\u636E\\u5931\\u8D25\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading settings:",
+                    "target": "\\u52A0\\u8F7D\\u8BBE\\u7F6E\\u9519\\u8BEF\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving settings:",
+                    "target": "\\u4FDD\\u5B58\\u8BBE\\u7F6E\\u9519\\u8BEF\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Notify failed",
+                    "target": "\\u901A\\u77E5\\u5931\\u8D25"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GIF Multipart Upload Error:",
+                    "target": "GIF \\u5206\\u7247\\u4E0A\\u4F20\\u9519\\u8BEF\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fetchImgStatus error:",
+                    "target": "fetchImgStatus \\u9519\\u8BEF\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Typst display math conversion failed:",
+                    "target": "Typst \\u663E\\u793A\\u6570\\u5B66\\u8F6C\\u6362\\u5931\\u8D25\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Typst code conversion failed:",
+                    "target": "Typst \\u4EE3\\u7801\\u8F6C\\u6362\\u5931\\u8D25\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "load settings failed:",
+                    "target": "\\u52A0\\u8F7D\\u8BBE\\u7F6E\\u5931\\u8D25\\uFF1A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "save settings failed:",
+                    "target": "保存设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "batch open failed:",
+                    "target": "批量打开失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "批量打开链接",
+                    "target": "批量打开链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "选择…",
+                    "target": "选择…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "开始",
+                    "target": "开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "默认：zhihu/（仅支持 Vault 内目录）",
+                    "target": "默认：zhihu/（仅支持 Vault 内目录）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "magicString.insertLeft(...) is deprecated. Use magicString.appendLeft(...) instead",
+                    "target": "magicString.insertLeft(...) 已弃用。请改用 magicString.appendLeft(...)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "magicString.insertRight(...) is deprecated. Use magicString.prependRight(...) instead",
+                    "target": "magicString.insertRight(...) 已弃用。请改用 magicString.prependRight(...)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The final argument to magicString.overwrite(...) should be an options object. See https://github.com/rich-harris/magic-string",
+                    "target": "magicString.overwrite(...) 的最后一个参数应为 options 对象。参见 https://github.com/rich-harris/magic-string"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "上传 GIF 成功!",
+                    "target": "上传 GIF 成功!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Typst 转换图片失败，请检查语法是否正确",
+                    "target": "Typst 转换图片失败，请检查语法是否正确"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到当前活动文件",
+                    "target": "未找到当前活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "添加知乎元信息失败，请重试。",
+                    "target": "添加知乎元信息失败，请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在覆盖已有文件...",
+                    "target": "正在覆盖已有文件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在打开文件...",
+                    "target": "正在打开文件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "cookie 已失效，正在尝试刷新...",
+                    "target": "cookie 已失效，正在尝试刷新..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有检测到任何链接",
+                    "target": "没有检测到任何链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已将当前文件转换为知乎回答格式",
+                    "target": "已将当前文件转换为知乎回答格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "添加知乎回答元信息失败，请重试。",
+                    "target": "添加知乎回答元信息失败，请重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含剧透",
+                    "target": "包含剧透"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "内容包含剧透",
+                    "target": "内容包含剧透"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含医疗建议",
+                    "target": "包含医疗建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "内容包含医疗建议",
+                    "target": "内容包含医疗建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "虚构创作",
+                    "target": "虚构创作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含理财内容",
+                    "target": "包含理财内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含 AI 辅助创作",
+                    "target": "包含 AI 辅助创作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含 ai 辅助创作",
+                    "target": "包含 ai 辅助创作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含AI辅助创作",
+                    "target": "包含AI辅助创作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含ai辅助创作",
+                    "target": "包含ai辅助创作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link",
+                    "target": "打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "QRCode login",
+                    "target": "二维码登录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Web login",
+                    "target": "网页登录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh cookies",
+                    "target": "刷新 Cookies"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preview current article",
+                    "target": "预览当前文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish current article",
+                    "target": "发布当前文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Draft current article",
+                    "target": "保存当前文章为草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new article",
+                    "target": "创建新文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new answer",
+                    "target": "创建新回答"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish current answer",
+                    "target": "发布当前回答"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Draft current answer",
+                    "target": "草拟当前回答"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to new article",
+                    "target": "转换为新文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to new answer",
+                    "target": "转换为新回答"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "覆盖已有文件",
+                    "target": "覆盖已有文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存图片",
+                    "target": "保存图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "批量打开知乎链接",
+                    "target": "批量打开知乎链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "存储目录",
+                    "target": "存储目录"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
