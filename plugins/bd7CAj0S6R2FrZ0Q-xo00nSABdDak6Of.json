@@ -1,0 +1,49 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "colorful-note-background",
+        "version": "1.0.0",
+        "title": "Colorful Note Background",
+        "description": "Colorful Note Background Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add rule",
+                    "target": "添加规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up (higher priority)",
+                    "target": "上移（优先级更高）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down (lower priority)",
+                    "target": "下移（优先级更低）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete rule",
+                    "target": "删除规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add rules to color note backgrounds. Rules are matched in order—first match wins (priority).",
+                    "target": "添加规则以为笔记背景着色。规则按顺序匹配——先匹配者生效（优先级）。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
