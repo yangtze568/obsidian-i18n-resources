@@ -1,0 +1,157 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-clipper",
+        "version": "1.0.0",
+        "title": "Clipper",
+        "description": "Clipper Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg class=\"h-5 w-5 text-blue-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z\" clip-rule=\"evenodd\"></path></svg>",
+                    "target": "<svg class=\"h-5 w-5 text-blue-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z\" clip-rule=\"evenodd\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<a href=\"https://docs.obsidianclipper.com\" class=\"whitespace-nowrap font-medium text-blue-700 hover:text-blue-600\">Details\n\t\t\t<span aria-hidden=\"true\">\\u2192</span></a>",
+                    "target": "<a href=\"https://docs.obsidianclipper.com\" class=\"whitespace-nowrap font-medium text-blue-700 hover:text-blue-600\">详情\n\t\t\t<span aria-hidden=\"true\">\\u2192</span></a>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Common Settings",
+                    "target": "通用设置"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "You can drag or copy the link below to your browser bookmark bar. This\n\t\t\t\tbookmarklet will allow you to highlight information on the web and send\n\t\t\t\tit to obsidian",
+                    "target": "你可以将下面的链接拖拽或复制到浏览器书签栏。这个\n\t\t\t\t书签脚本将允许你在网页上高亮信息并将\n\t\t\t\t其发送到 obsidian"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Download Chrome Extension",
+                    "target": "下载 Chrome 扩展程序"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Bookmarklet Settings",
+                    "target": "书签脚本设置"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Experimental Settings",
+                    "target": "实验性设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义日记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义周记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义月度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find heading",
+                    "target": "找不到标题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Obsidian Clipper Bookmarklet copied to clipboard.",
+                    "target": "Obsidian Clipper 书签脚本已复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Topic Note",
+                    "target": "主题笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vault Bookmarklet to Clipboard",
+                    "target": "保险库书签脚本复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vault Bookmarklet",
+                    "target": "保险库书签脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Topic Bookmarklet to Clipboard",
+                    "target": "主题书签脚本复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Topic Bookmarklet",
+                    "target": "主题书签小工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Canvas Bookmarklet",
+                    "target": "Canvas 书签小工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy Your Bookmarklet",
+                    "target": "复制您的书签小工具"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
