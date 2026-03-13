@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vertical-tabs",
+        "version": "1.0.0",
+        "title": "Vertical Tabs",
+        "description": "Vertical Tabs Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.16.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
