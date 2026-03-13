@@ -1,0 +1,583 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-ocr",
+        "version": "1.0.0",
+        "title": "Obsidian OCR",
+        "description": "Obsidian OCR Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Closing DB",
+                    "target": "正在关闭数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Resetting DB",
+                    "target": "正在重置数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Deleting all transcripts",
+                    "target": "正在删除所有转录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Initializing DB",
+                    "target": "正在初始化数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Performing OCR with NoOp",
+                    "target": "正在使用 NoOp 执行 OCR"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Closing modal",
+                    "target": "正在关闭模态框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "WARNING: instantiating MonoContext is unnecessary, all methods are statically defined",
+                    "target": "警告：实例化 MonoContext 没有必要，所有方法都是静态定义的"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "no writer...",
+                    "target": "没有写入器..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✔️ Okay",
+                    "target": "✔️ 好"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "❌️ Failed",
+                    "target": "❌️ 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✨️ Done",
+                    "target": "✨️ 完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save and reindex",
+                    "target": "保存并重新索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the maximum number of concurrent OCR processes",
+                    "target": "设置并发 OCR 进程的最大数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether images should be OCRed",
+                    "target": "是否对图片进行 OCR"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether PDFs should be OCRed",
+                    "target": "是否对 PDF 进行 OCR"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Image density of converted PDFs",
+                    "target": "转换后 PDF 的图像密度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Image quality of converted PDFs",
+                    "target": "转换后 PDF 的图像质量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to show a tip at startup",
+                    "target": "是否在启动时显示提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the log level. Useful for debugging",
+                    "target": "设置日志级别。便于调试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Log to a file in your vault. Useful for debugging",
+                    "target": "记录到你的保险库文件中。用于调试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The OCR provider to use",
+                    "target": "要使用的 OCR 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Additional commandline arguments passed to tesseract",
+                    "target": "传递给 tesseract 的附加命令行参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The language used by Tesseract for OCR detection",
+                    "target": "Tesseract 用于 OCR 识别的语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable fuzzy search",
+                    "target": "启用或禁用模糊搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable case sensitivity",
+                    "target": "启用或禁用区分大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max OCR Processes",
+                    "target": "最大 OCR 进程数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OCR Image",
+                    "target": "OCR 图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OCR PDF",
+                    "target": "OCR PDF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image density",
+                    "target": "图像密度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image quality",
+                    "target": "图像质量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional search paths (Requires restart)",
+                    "target": "附加搜索路径（需要重启）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show tips",
+                    "target": "显示提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log level",
+                    "target": "日志级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log to file",
+                    "target": "记录到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OCR Provider",
+                    "target": "OCR 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional arguments",
+                    "target": "附加参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OCR Language",
+                    "target": "OCR 语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fuzzy search",
+                    "target": "模糊搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Case sensitive",
+                    "target": "区分大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Additional paths",
+                    "target": "附加路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Do you want to reindex your files?",
+                    "target": "是否要重新索引您的文件？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Unignore folder for OCR",
+                    "target": "取消忽略 OCR 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Ignore folder for OCR",
+                    "target": "忽略 OCR 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Custom OCR settings",
+                    "target": "自定义 OCR 设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy text to clipboard",
+                    "target": "复制文本到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "😨 HOCR has no capabilities",
+                    "target": "😨 HOCR 没有可用功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "StatusBar parentHTML not yet defined, ignoring",
+                    "target": "StatusBar parentHTML 尚未定义，已忽略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Assertion.includeStack is deprecated, use chai.config.includeStack instead.",
+                    "target": "Assertion.includeStack 已弃用，请改用 chai.config.includeStack。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Assertion.showDiff is deprecated, use chai.config.showDiff instead.",
+                    "target": "Assertion.showDiff 已弃用，请改用 chai.config.showDiff。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Don't forget to select an OCR Provider in the settings.",
+                    "target": "别忘了在设置中选择 OCR 提供商。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No transcript available",
+                    "target": "无可用转录"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Content copied to clipboard",
+                    "target": "内容已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Deleting is not available while indexing",
+                    "target": "索引期间无法删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal (realtime)",
+                    "target": "应用程序特定信号（实时）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal closed",
+                    "target": "终端已关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-C",
+                    "target": "用户通过 CTRL-C 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-\\",
+                    "target": "用户通过 CTRL-\\ 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invalid machine instruction",
+                    "target": "无效的机器指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Debugger breakpoint",
+                    "target": "调试器断点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bus error due to misaligned, non-existing address or paging error",
+                    "target": "由于地址未对齐、地址不存在或分页错误导致的总线错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Floating point arithmetic error",
+                    "target": "浮点运算错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Forced termination",
+                    "target": "强制终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal",
+                    "target": "应用程序特定信号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Segmentation fault",
+                    "target": "段错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Broken pipe or socket",
+                    "target": "管道或套接字断开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Timeout or timer",
+                    "target": "超时或定时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Child process terminated, paused or unpaused",
+                    "target": "子进程已终止、暂停或恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paused using CTRL-Z or \"suspend\"",
+                    "target": "使用 CTRL-Z 或 \"suspend\" 暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot read terminal input",
+                    "target": "后台进程无法读取终端输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-BREAK",
+                    "target": "用户使用 CTRL-BREAK 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot write to terminal output",
+                    "target": "后台进程无法写入终端输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Socket received out-of-band data",
+                    "target": "套接字收到带外数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Process timed out",
+                    "target": "进程超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "File too big",
+                    "target": "文件过大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal window size changed",
+                    "target": "终端窗口大小已更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "I/O is available",
+                    "target": "I/O 可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Watched event",
+                    "target": "监视的事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Request for process information",
+                    "target": "请求进程信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Device running out of power",
+                    "target": "设备电量不足"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "令和",
+                    "target": "令和"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "平成",
+                    "target": "平成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "昭和",
+                    "target": "昭和"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "大正",
+                    "target": "大正"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "明治",
+                    "target": "明治"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "西暦",
+                    "target": "公历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "紀元前",
+                    "target": "纪元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search OCR",
+                    "target": "搜索OCR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete all transcripts",
+                    "target": "删除所有转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Run Obsidian-OCR unit tests",
+                    "target": "运行 Obsidian-OCR 单元测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🗑️ Deleting",
+                    "target": "🗑️ 正在删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "NoOp-Provider (No Operation) doesn't do anything. Choose another provider from the dropdown.",
+                    "target": "NoOp-Provider（No Operation）不执行任何操作。请从下拉菜单中选择其他提供程序。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
