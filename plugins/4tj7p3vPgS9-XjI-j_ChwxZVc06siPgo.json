@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "darlal-switcher-plus",
+        "version": "1.0.0",
+        "title": "Quick Switcher++",
+        "description": "Quick Switcher++ Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "6.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error loading settings, using defaults. ",
+                    "target": "Switcher++：加载设置出错，使用默认值。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error saving changes to settings",
+                    "target": "Switcher++：保存设置更改时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error transforming data.json to v1.0.0",
+                    "target": "Switcher++：将 data.json 转换为 v1.0.0 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error transforming data.json to v2.0.0",
+                    "target": "Switcher++：将 data.json 转换为 v2.0.0 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error saving \"Result Priority Adjustments\" setting. ",
+                    "target": "Switcher++：保存“结果优先级调整”设置时出错。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error saving \"Display markdown content as Live Preview\" setting. ",
+                    "target": "Switcher++：保存“将 Markdown 内容显示为实时预览”设置时出错。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error saving \"Search Headings\" setting. ",
+                    "target": "Switcher++：保存“搜索标题”设置时出错。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error saving \"Show Links\" setting. ",
+                    "target": "Switcher++：保存“显示链接”设置时出错。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error rendering markdown to html. ",
+                    "target": "Switcher++：将 Markdown 渲染为 HTML 时出错。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error creating new file. ",
+                    "target": "Switcher++：创建新文件时出错。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error rendering hotkey for command id: ",
+                    "target": "Switcher++：渲染命令 id 的热键时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error parsing vault data. ",
+                    "target": "Switcher++：解析库数据时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error retrieving list of available vaults. ",
+                    "target": "Switcher++：获取可用库列表时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error retrieving suggestions as Promise. ",
+                    "target": "Switcher++：以 Promise 获取建议时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switcher++: error retrieving attachment list from ViewRegistry",
+                    "target": "Switcher++：从 ViewRegistry 获取附件列表时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Invalid mode",
+                    "target": "无效模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default",
+                    "target": "恢复默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Switcher++: HandlerRegistry already initialized.",
+                    "target": "Switcher++：HandlerRegistry 已初始化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Most recent first (descending)",
+                    "target": "最新优先（降序）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render headings as HTML",
+                    "target": "将标题渲染为 HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render links as HTML",
+                    "target": "将链接渲染为 HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render tags as HTML",
+                    "target": "将标签渲染为 HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render callouts as HTML",
+                    "target": "将标注渲染为 HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "file cards",
+                    "target": "文件卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "text cards",
+                    "target": "文本卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "link cards",
+                    "target": "链接卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "table views",
+                    "target": "表格视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "list views",
+                    "target": "列表视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "card views",
+                    "target": "卡片视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "outgoing links",
+                    "target": "外部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "disk location",
+                    "target": "磁盘位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "recent files",
+                    "target": "最近的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "external files",
+                    "target": "外部文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Attachment file types",
+                    "target": "附件文件类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Unresolved filenames",
+                    "target": "未解析的文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "H₁ headings",
+                    "target": "H₁ 标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Canvas files",
+                    "target": "画布文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Standard Mode",
+                    "target": "以标准模式打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Editor Mode",
+                    "target": "以编辑器模式打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Symbols for selected suggestion or editor",
+                    "target": "为所选建议或编辑器打开符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Symbols for the active editor",
+                    "target": "为当前编辑器打开符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Workspaces Mode",
+                    "target": "在工作区模式中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Headings Mode",
+                    "target": "在标题模式中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Bookmarks Mode",
+                    "target": "在书签模式中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Commands Mode",
+                    "target": "在命令模式中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Vaults Mode",
+                    "target": "在库模式中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "open in background tab",
+                    "target": "在后台标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter to create",
+                    "target": "按回车创建"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
