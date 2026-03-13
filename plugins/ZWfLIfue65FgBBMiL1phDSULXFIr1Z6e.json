@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "content-cards",
+        "version": "1.0.0",
+        "title": "Content Cards",
+        "description": "Content Cards Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading content cards plugin",
+                    "target": "正在加载内容卡片插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading content cards plugin",
+                    "target": "正在卸载内容卡片插件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
