@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "jisage-japanese-indentation",
+        "version": "1.0.0",
+        "title": "Jisage -Japanese Indentation-",
+        "description": "Jisage -Japanese Indentation- Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
