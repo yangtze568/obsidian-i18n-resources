@@ -1,0 +1,1861 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ai-transcriber",
+        "version": "1.0.0",
+        "title": "AI Transcriber",
+        "description": "AI Transcriber Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.9.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "• ",
+                    "target": "• "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Stack trace:",
+                    "target": "堆栈跟踪："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during safeStorage initialization",
+                    "target": "初始化 safeStorage 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "SafeStorage decryption failed",
+                    "target": "SafeStorage 解密失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "XOR decryption failed",
+                    "target": "XOR 解密失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "API test failed:",
+                    "target": "API 测试失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "API key test error",
+                    "target": "API 密钥测试错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to export dictionary:",
+                    "target": "导出词典失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to import dictionary:",
+                    "target": "导入词典失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GPT correction failed:",
+                    "target": "GPT 校正失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request timeout",
+                    "target": "请求超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Correction failed",
+                    "target": "校正失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Connection test failed",
+                    "target": "连接测试失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Audio validation failed",
+                    "target": "音频验证失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WASM instantiation error",
+                    "target": "WASM 实例化错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Module initialization error",
+                    "target": "模块初始化错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Initialization failed",
+                    "target": "初始化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load WASM file",
+                    "target": "加载 WASM 文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Processing error",
+                    "target": "处理错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize VAD processor",
+                    "target": "初始化 VAD 处理器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize audio context",
+                    "target": "初始化音频上下文失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize audio processing context",
+                    "target": "初始化音频处理上下文失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to decode audio",
+                    "target": "音频解码失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "VAD is enabled but processor is null",
+                    "target": "已启用 VAD 但处理器为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize VAD preprocessor",
+                    "target": "初始化 VAD 预处理器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing file with VAD",
+                    "target": "使用 VAD 处理文件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebRTC VAD unavailable - fvad.wasm required for VAD processing",
+                    "target": "WebRTC VAD 不可用 - VAD 处理需要 fvad.wasm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Requested VAD processor is not available",
+                    "target": "请求的 VAD 处理器不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GPT-4o transcription failed",
+                    "target": "GPT-4o 转录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GPT-4o API connection test failed",
+                    "target": "GPT-4o API 连接测试失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GPT-4o connection test failed",
+                    "target": "GPT-4o 连接测试失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Whisper transcription failed",
+                    "target": "Whisper 转录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Whisper API connection test failed",
+                    "target": "Whisper API 连接测试失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Transcription failed",
+                    "target": "转录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Merge failed",
+                    "target": "合并失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clean merged text:",
+                    "target": "清理合并文本失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Workflow failed",
+                    "target": "工作流失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "VAD preprocessing failed",
+                    "target": "VAD 预处理失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Dictionary correction failed",
+                    "target": "词典校正失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in progress adapter (continuing)",
+                    "target": "进度适配器出错（继续）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error cleaning up audio pipeline",
+                    "target": "清理音频管道时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Notice displayed",
+                    "target": "通知已显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Technical details",
+                    "target": "技术细节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error estimating cost",
+                    "target": "估算成本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to retrieve file after creation",
+                    "target": "创建后未能检索文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Processing failed",
+                    "target": "处理失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Post-processing failed",
+                    "target": "后处理失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse meta reduction response",
+                    "target": "无法解析元精简响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Meta reduction failed",
+                    "target": "元精简失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to calculate cost estimate",
+                    "target": "未能计算成本估算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to persist model change",
+                    "target": "无法持久化模型更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to cancel transcription",
+                    "target": "无法取消转录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create new note",
+                    "target": "无法创建新笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write transcription to file",
+                    "target": "无法将转录写入文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "All insertion methods failed",
+                    "target": "所有插入方法均失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to close AudioContext",
+                    "target": "无法关闭 AudioContext"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to close AudioContext on modal close",
+                    "target": "在关闭模态框时无法关闭 AudioContext"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy external file:",
+                    "target": "无法复制外部文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in listener",
+                    "target": "监听器中出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save history",
+                    "target": "无法保存历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load AI Transcriber plugin",
+                    "target": "加载 AI 转录插件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to unload AI Transcriber plugin",
+                    "target": "卸载 AI 转录插件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to register view",
+                    "target": "注册视图失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error activating view",
+                    "target": "激活视图时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "API key validation successful",
+                    "target": "API 密钥验证成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "All model configurations:",
+                    "target": "所有模型配置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Audio pipeline processing completed",
+                    "target": "音频流水线处理完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "GPT correction completed",
+                    "target": "GPT 校正完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Audio processing completed",
+                    "target": "音频处理完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Audio processing completed (no preprocessing)",
+                    "target": "音频处理完成（无预处理）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "VAD chunking completed",
+                    "target": "VAD 分块完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "VAD processor initialized successfully",
+                    "target": "VAD 处理器初始化成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "VAD processing completed",
+                    "target": "VAD 处理完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Local VAD unavailable, using fallback audio path",
+                    "target": "本地 VAD 不可用，使用备用音频路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Standard cleaning pipeline summary",
+                    "target": "标准清理流水线摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "GPT-4o transcription completed",
+                    "target": "GPT-4o 转录完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "GPT-4o connection test completed",
+                    "target": "GPT-4o 连接测试完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Transcription completed",
+                    "target": "转录完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Connection test completed",
+                    "target": "连接测试完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting transcription workflow",
+                    "target": "开始转录流程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Transcription workflow completed",
+                    "target": "转录流程已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Transcription workflow cancelled after processing began",
+                    "target": "处理开始后转录流程已取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting transcription",
+                    "target": "开始转录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Transcription cancelled",
+                    "target": "转录已取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Server-side VAD mode active. Local fvad.wasm will not be used.",
+                    "target": "服务器端 VAD 模式已启用。本地 fvad.wasm 将不会使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting external file copy",
+                    "target": "开始复制外部文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "External file copy completed",
+                    "target": "外部文件复制完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Post-processing completed",
+                    "target": "后处理完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting post-processing",
+                    "target": "开始后处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Segmented post-processing completed",
+                    "target": "分段后处理完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting transcription insertion",
+                    "target": "开始插入转录内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "File created and opened",
+                    "target": "文件已创建并打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "File opened after fallback write",
+                    "target": "回退写入后已打开文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Transcription task started",
+                    "target": "转录任务已开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugin loading...",
+                    "target": "插件加载中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "AI Transcriber plugin loaded successfully",
+                    "target": "AI 转录器插件加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unloading AI Transcriber plugin...",
+                    "target": "正在卸载 AI 转录插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "AI Transcriber plugin unloaded",
+                    "target": "AI 转录插件已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Settings saved",
+                    "target": "设置已保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SafeStorage encryption failed, using fallback",
+                    "target": "SafeStorage 加密失败，使用回退方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "API key validation failed",
+                    "target": "API 密钥验证失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid VAD mode selection ignored",
+                    "target": "已忽略无效的 VAD 模式选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to check local wasm on settings load",
+                    "target": "加载设置时检查本地 wasm 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to display support banner:",
+                    "target": "无法显示支持横幅："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Target sample rate is not 16kHz, which is optimal for transcription APIs",
+                    "target": "目标采样率不是 16kHz，这对转录 API 最佳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Target channels is not mono, which is required for transcription APIs",
+                    "target": "目标声道不是单声道，这是转录 API 的要求"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Target bit depth is not 16-bit, which is standard for transcription APIs",
+                    "target": "目标位深不是 16 位，这是转录 API 的标准"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse API error response as JSON",
+                    "target": "无法将 API 错误响应解析为 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Using fallback audio processor - limited functionality",
+                    "target": "正在使用备用音频处理器 - 功能受限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot resample audio in fallback mode",
+                    "target": "在备用模式下无法对音频重采样"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot mix channels to mono in fallback mode",
+                    "target": "回退模式下无法将声道混合为单声道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "VAD preprocessing not supported in fallback mode",
+                    "target": "回退模式不支持 VAD 预处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Frame processing error",
+                    "target": "帧处理错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error freeing buffer",
+                    "target": "释放缓冲区时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error freeing VAD instance",
+                    "target": "释放 VAD 实例时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to close AudioContext in AudioConverter",
+                    "target": "在 AudioConverter 中关闭 AudioContext 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local VAD unavailable. Falling back to server-side VAD.",
+                    "target": "本地 VAD 不可用。回退到服务器端 VAD。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to initialize WebRTC VAD",
+                    "target": "初始化 WebRTC VAD 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Iteration reduction exceeded threshold",
+                    "target": "迭代缩减超过阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Chunk size exceeds limit",
+                    "target": "分块大小超出限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Chunk duration exceeds limit",
+                    "target": "分块时长超过限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported language",
+                    "target": "不支持的语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Overlap expected but no match found; keeping separator",
+                    "target": "预期有重叠但未找到匹配；保留分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Rate limit detected; reducing wave concurrency",
+                    "target": "检测到速率限制；降低波次并发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Rate limit detected; applying cooldown",
+                    "target": "检测到速率限制；应用冷却期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Retrying GPT-4o chunk transcription",
+                    "target": "正在重试 GPT-4o 分块转写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Partial transcription result",
+                    "target": "部分转写结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Transcription returned a partial result",
+                    "target": "转写返回了部分结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local VAD unavailable; server-side VAD will be used for chunking.",
+                    "target": "本地 VAD 不可用；将使用服务器端 VAD 进行分块。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WebAudio not available, using fallback audio engine",
+                    "target": "WebAudio 不可用，使用备用音频引擎"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Creating WebAudio chunking service because local VAD is unavailable",
+                    "target": "因本地 VAD 不可用而创建 WebAudio 分块服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cleanup error",
+                    "target": "清理错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "getTranscriber() is deprecated",
+                    "target": "getTranscriber() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "getChunkProcessor() is deprecated",
+                    "target": "getChunkProcessor() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cleanup session error",
+                    "target": "清理会话错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Low disk space detected",
+                    "target": "检测到磁盘空间不足"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to estimate storage",
+                    "target": "无法估算存储空间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to save settings - saveSettings callback or plugin instance not found",
+                    "target": "无法保存设置 - 未找到 saveSettings 回调或插件实例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to acquire wake lock",
+                    "target": "获取唤醒锁失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to release wake lock",
+                    "target": "释放唤醒锁失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to open created file",
+                    "target": "无法打开已创建的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to add frontmatter metadata",
+                    "target": "无法添加前置元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Transcription body missing after write; reapplying content",
+                    "target": "写入后转录正文缺失；正在重新应用内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to verify transcription write",
+                    "target": "无法验证转录写入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to open created file after fallback write",
+                    "target": "回退写入后无法打开已创建的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not determine audio duration",
+                    "target": "无法确定音频时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to create time range controls",
+                    "target": "无法创建时间范围控件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "API key not configured",
+                    "target": "API 密钥未配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Your OpenAI API key",
+                    "target": "你的 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose the AI model for transcription",
+                    "target": "选择用于转录的 AI 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Processing silent segments can lighten speech recognition workload and reduce the amount of data sent",
+                    "target": "处理静音片段可减轻语音识别负载并减少发送的数据量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select an existing fvad.wasm to automatically place it into the plugin folder",
+                    "target": "选择现有的 fvad.wasm 以自动放入插件文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Primary language for transcription",
+                    "target": "转写的主要语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How to format the transcription output",
+                    "target": "转写输出的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use AI to enhance transcription with related information after completion",
+                    "target": "完成后使用 AI 添加相关信息以增强转写内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Automatically correct transcription results using dictionary-based text correction",
+                    "target": "使用基于词典的文本校正自动纠正转写结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Edit the dictionary to correct speech recognition errors",
+                    "target": "编辑词典以纠正语音识别错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Verify your API key and connection",
+                    "target": "验证你的 API 密钥和连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "OpenAIのAPIキーを入力してください",
+                    "target": "请输入 OpenAI 的 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文字起こしに使用するAIモデルを選択",
+                    "target": "选择用于转写的 AI 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "無音区間の処理により、音声認識処理の軽減や送信データ量の削減が図れます",
+                    "target": "通过处理静音区间，可减轻语音识别处理负担并减少发送数据量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "取得済みの fvad.wasm を選択すると自動でプラグインフォルダに配置します",
+                    "target": "选择已获取的 fvad.wasm 后会自动放置到插件文件夹中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文字起こしの主要言語",
+                    "target": "转录的主要语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文字起こし結果の出力形式",
+                    "target": "转录结果的输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文字起こし完了後、関連情報を使用してAIで後処理を行う",
+                    "target": "转录完成后，使用相关信息通过 AI 进行后处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文字起こし結果を辞書ベースで自動補正する",
+                    "target": "基于词典自动校正转录结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文字起こし結果を保存するフォルダを指定（空欄の場合はVaultルート）",
+                    "target": "指定保存转录结果的文件夹（留空则为 Vault 根目录）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "音声認識の誤認識パターンを修正する辞書を編集できます",
+                    "target": "可编辑用于修正语音识别误识别模式的词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "APIキーと接続状態を確認します",
+                    "target": "检查 API 密钥和连接状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "OpenAI API 키를 입력하세요",
+                    "target": "请输入 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "전사에 사용할 AI 모델 선택",
+                    "target": "选择用于转录的 AI 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "무음 구간을 처리하면 음성 인식 작업을 줄이고 전송 데이터 양을 줄일 수 있습니다",
+                    "target": "处理静音区间可减少语音识别工作量并降低传输数据量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "준비한 fvad.wasm 파일을 선택하면 플러그인 폴더에 자동 배치합니다",
+                    "target": "选择准备好的 fvad.wasm 文件后将自动放置到插件文件夹中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "전사의 기본 언어",
+                    "target": "转录的默认语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "전사 출력 형식 설정",
+                    "target": "设置转录输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "완료 후 AI를 사용하여 관련 정보로 전사를 향상시킵니다",
+                    "target": "完成后使用 AI 以相关信息增强转录内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "사전 기반 텍스트 교정을 사용하여 전사 결과를 자동으로 교정합니다",
+                    "target": "使用基于词典的文本校正自动修正转录结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "전사 결과를 저장할 폴더 (비워두면 vault 루트)",
+                    "target": "保存转录结果的文件夹（留空则为 vault 根目录）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "음성 인식 오류를 수정하기 위한 사전을 편집할 수 있습니다",
+                    "target": "可编辑用于修正语音识别错误的词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "API 키와 연결 상태를 확인합니다",
+                    "target": "检查 API 密钥和连接状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "输入您的 OpenAI API 密钥",
+                    "target": "输入您的 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择用于转录的模型",
+                    "target": "选择用于转录的模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "通过处理静音片段，可以减轻语音识别处理并减少发送的数据量",
+                    "target": "通过处理静音片段，可以减轻语音识别处理并减少发送的数据量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择已获取的 fvad.wasm，自动复制到插件文件夹",
+                    "target": "选择已获取的 fvad.wasm，自动复制到插件文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置转录语言（留空为自动检测）",
+                    "target": "设置转录语言（留空为自动检测）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择转录结果的输出格式",
+                    "target": "选择转录结果的输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "使用 GPT-4.1 mini 使用相关信息改善转录结果",
+                    "target": "使用 GPT-4.1 mini 使用相关信息改善转录结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "使用基于字典的文本校正自动修正转录结果",
+                    "target": "使用基于字典的文本校正自动修正转录结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置保存转录结果的文件夹（留空使用当前文件夹）",
+                    "target": "设置保存转录结果的文件夹（留空使用当前文件夹）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "编辑词典以纠正语音识别错误",
+                    "target": "编辑词典以纠正语音识别错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "验证 API 密钥与连接状态",
+                    "target": "验证 API 密钥与连接状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select specific time range to reduce hallucinations and processing time",
+                    "target": "选择特定的时间范围以减少幻觉和处理时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "特定の時間範囲を選択してハルシネーションと処理時間を削減",
+                    "target": "选择特定的时间范围以减少幻觉和处理时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "할루시네이션을 줄이고 처리 시간을 단축하기 위해 특정 시간 범위를 선택하세요",
+                    "target": "选择特定的时间范围以减少幻觉和处理时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "选择特定的时间范围以减少幻觉和处理时间",
+                    "target": "选择特定的时间范围以减少幻觉和处理时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "エラー",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "File not found after creation",
+                    "target": "创建后未找到文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "情報",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "信息",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "If this plugin adds value for you and you would like to help support continued development, please use the buttons below:",
+                    "target": "如果此插件对您有价值并希望支持持续开发，请使用下方按钮："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "このプラグインが役に立ちましたら、開発継続のためにご支援をお願いいたします：",
+                    "target": "如果此插件对您有帮助，请支持持续开发："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "이 플러그인이 도움이 되었다면, 지속적인 개발을 위해 지원해 주세요:",
+                    "target": "如果此插件对您有帮助，请支持持续开发："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "如果这个插件对您有帮助，请支持我们的持续开发：",
+                    "target": "如果这个插件对您有帮助，请支持我们的持续开发："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Complete XML tags",
+                    "target": "完整的 XML 标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sentence-bounded tags",
+                    "target": "句子范围标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Line-bounded tags",
+                    "target": "行范围标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Standalone tags",
+                    "target": "独立标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AI transcriber",
+                    "target": "AI 转录器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default transcription model",
+                    "target": "默认转写模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Silence detection (voice activity detection)",
+                    "target": "静音检测（语音活动检测）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Place fvad.wasm",
+                    "target": "放置 fvad.wasm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Output format",
+                    "target": "输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable post-processing",
+                    "target": "启用后处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable dictionary correction",
+                    "target": "启用词典纠正"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Output folder",
+                    "target": "输出文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "User dictionary",
+                    "target": "用户词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Test API connection",
+                    "target": "测试 API 连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AI Transcriber",
+                    "target": "AI 转写器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI APIキー",
+                    "target": "OpenAI API密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "標準の文字起こしモデル",
+                    "target": "标准转写模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "無音検出（VAD）方式",
+                    "target": "无音检测（VAD）方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "fvad.wasm を配置",
+                    "target": "配置 fvad.wasm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "言語",
+                    "target": "语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "出力形式",
+                    "target": "输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "後処理を有効化",
+                    "target": "启用后处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "辞書補正を有効化",
+                    "target": "启用词典校正"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "出力フォルダ",
+                    "target": "输出文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ユーザー辞書",
+                    "target": "用户词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "API接続をテスト",
+                    "target": "测试API连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI API 키",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "기본 전사 모델",
+                    "target": "默认转录模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "무음 감지(VAD) 방식",
+                    "target": "静音检测（VAD）方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "fvad.wasm 배치",
+                    "target": "fvad.wasm 部署"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "언어",
+                    "target": "语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "출력 형식",
+                    "target": "输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "후처리 활성화",
+                    "target": "启用后处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "사전 교정 활성화",
+                    "target": "启用预校正"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "출력 폴더",
+                    "target": "输出文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "사용자 사전",
+                    "target": "用户词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "API 연결 테스트",
+                    "target": "API连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI API 密钥",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "转录模型",
+                    "target": "转录模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "静音检测（VAD）方式",
+                    "target": "静音检测（VAD）方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "放置 fvad.wasm",
+                    "target": "放置 fvad.wasm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "语言",
+                    "target": "语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "输出格式",
+                    "target": "输出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用后处理",
+                    "target": "启用后处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用字典校正",
+                    "target": "启用字典校正"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "输出文件夹",
+                    "target": "输出文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "用户词典",
+                    "target": "用户词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "测试 API 连接",
+                    "target": "测试 API 连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your OpenAI API key",
+                    "target": "输入您的 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "E.g., transcriptions",
+                    "target": "例如：transcriptions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "OpenAI APIキーを入力",
+                    "target": "输入 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例: Transcriptions",
+                    "target": "例如：Transcriptions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "OpenAI API 키 입력",
+                    "target": "输入 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "예: Transcriptions",
+                    "target": "例如：Transcriptions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入您的 API 密钥",
+                    "target": "输入您的 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "示例：转录/",
+                    "target": "示例：转录/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "検索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Placed fvad.wasm successfully",
+                    "target": "已成功放置 fvad.wasm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "fvad.wasm を配置しました",
+                    "target": "已放置 fvad.wasm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "fvad.wasm 배치 완료",
+                    "target": "已放置 fvad.wasm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "已放置 fvad.wasm",
+                    "target": "已放置 fvad.wasm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI transcriber settings",
+                    "target": "AI 转录器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Advanced settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Progress UI settings",
+                    "target": "进度 UI 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Connection test",
+                    "target": "连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Select audio file",
+                    "target": "选择音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI transcriber",
+                    "target": "AI 转录器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Processing options",
+                    "target": "处理选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Audio range selection",
+                    "target": "音频范围选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI Transcriber 設定",
+                    "target": "AI 转录器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "詳細設定",
+                    "target": "详细设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "進行状況UI設定",
+                    "target": "进度 UI 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "ユーザー辞書管理",
+                    "target": "用户词典管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "接続テスト",
+                    "target": "连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "音声ファイルを選択",
+                    "target": "选择音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI Transcriber",
+                    "target": "AI Transcriber"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "処理オプション",
+                    "target": "处理选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "音声範囲選択",
+                    "target": "选择音频范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI Transcriber 설정",
+                    "target": "AI Transcriber 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "고급 설정",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "진행 상황 UI 설정",
+                    "target": "进度 UI 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "사용자 사전 관리",
+                    "target": "用户词典管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "연결 테스트",
+                    "target": "连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "오디오 파일 선택",
+                    "target": "选择音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI 전사",
+                    "target": "AI 转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "처리 옵션",
+                    "target": "处理选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "오디오 범위 선택",
+                    "target": "选择音频范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI 转录设置",
+                    "target": "AI 转录设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "高级设置",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "进度显示设置",
+                    "target": "进度显示设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "用户词典管理",
+                    "target": "用户词典管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "连接测试",
+                    "target": "连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择音频文件",
+                    "target": "选择音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "处理选项",
+                    "target": "处理选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "音频范围选择",
+                    "target": "音频范围选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "AI transcriber",
+                    "target": "AI 转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "AI Transcriber",
+                    "target": "AI 转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "AI 전사",
+                    "target": "AI 转录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "转录音频文件",
+                    "target": "转录音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "警告",
+                    "target": "警告"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
