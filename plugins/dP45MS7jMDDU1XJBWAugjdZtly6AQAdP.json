@@ -1,0 +1,631 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "keyboard-analyzer",
+        "version": "1.0.0",
+        "title": "Keyboard Analyzer",
+        "description": "Keyboard Analyzer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Active view only",
+                    "target": "仅活动视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "On click",
+                    "target": "点击时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "On hold",
+                    "target": "按住时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Delete this group? This cannot be undone.",
+                    "target": "删除此组？此操作无法撤销。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] updateGroupFilterSettings failed",
+                    "target": "[groups] updateGroupFilterSettings 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] replaceGroupFilters failed",
+                    "target": "[groups] replaceGroupFilters 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] setGroupDefaults failed",
+                    "target": "[groups] setGroupDefaults 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] applyDefaultsToGroupFilters failed",
+                    "target": "[groups] applyDefaultsToGroupFilters 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] applyDynamicLastUsedToGroupFilters failed",
+                    "target": "[groups] applyDynamicLastUsedToGroupFilters 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] hasUnsavedFilterChanges failed",
+                    "target": "[groups] hasUnsavedFilterChanges 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] saveCurrentFiltersAsDefaults failed",
+                    "target": "[groups] saveCurrentFiltersAsDefaults 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] resetFiltersToDefaults failed",
+                    "target": "[groups] resetFiltersToDefaults 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] setAllGroupDefaults failed",
+                    "target": "[groups] setAllGroupDefaults 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] applyDefaultsToAllFilters failed",
+                    "target": "[groups] applyDefaultsToAllFilters 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to Plugin load settings:",
+                    "target": "插件加载设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write default settings after load error:",
+                    "target": "加载出错后写入默认设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to Plugin save settings:",
+                    "target": "插件保存设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save settings (flush):",
+                    "target": "保存设置（flush）失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to flush settings on unload:",
+                    "target": "卸载时刷新设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] failed to set All defaults",
+                    "target": "[groups] 设置所有默认值失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[GroupSelector] failed to save current filters as defaults",
+                    "target": "[GroupSelector] 无法将当前筛选器保存为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[GroupSelector] failed to reset filters to defaults",
+                    "target": "[GroupSelector] 无法将筛选器重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[GroupSelector] failed to resolve plugin from context",
+                    "target": "[GroupSelector] 无法从上下文解析插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[GroupSelector] hasUnsavedChanges check failed",
+                    "target": "[GroupSelector] hasUnsavedChanges 检查失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[hotkeys] openVaultFolder: failed opening vault root",
+                    "target": "[hotkeys] openVaultFolder: 打开 vault 根目录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[hotkeys] openVaultFolder: fatal error",
+                    "target": "[hotkeys] openVaultFolder: 致命错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[hotkeys] assign: error",
+                    "target": "[hotkeys] assign: 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[hotkeys] restore: prep error",
+                    "target": "[hotkeys] restore: 准备错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[groups] error applying on-open behavior",
+                    "target": "[groups] 应用打开时行为出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] persist quickViewAutoRun failed",
+                    "target": "[qv] 持久化 quickViewAutoRun 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] early window error",
+                    "target": "[qv] 早期窗口错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] early unhandledrejection",
+                    "target": "[qv] 早期未处理的拒绝"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] context set failed",
+                    "target": "[qv] 上下文设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] read lastOpenedGroupId failed",
+                    "target": "[qv] 读取 lastOpenedGroupId 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] recomputePosition:raf error",
+                    "target": "[qv] recomputePosition:raf 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] recomputePosition:error",
+                    "target": "[qv] recomputePosition:错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] failed to init stores",
+                    "target": "[qv] 初始化 stores 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] key scope init failed",
+                    "target": "[qv] 键作用域初始化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] read size settings failed",
+                    "target": "[qv] 读取尺寸设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] read quickViewAutoRun failed",
+                    "target": "[qv] 读取 quickViewAutoRun 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] refilter on mount failed",
+                    "target": "[qv] 挂载时重新筛选失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] recompute on mount failed",
+                    "target": "[qv] 挂载时重新计算失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[qv] persist lastOpenedGroupId failed",
+                    "target": "[qv] 持久化 lastOpenedGroupId 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Keyboard Analyzer] Quick View mount failed:",
+                    "target": "[Keyboard Analyzer] Quick View 挂载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[KB][timings] no timings recorded",
+                    "target": "[KB][timings] 未记录任何计时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Dev logging",
+                    "target": "开发日志记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Keyboard dev tooltips",
+                    "target": "键盘开发工具提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[hotkeys] openVaultFolder: opened .obsidian directory",
+                    "target": "[hotkeys] openVaultFolder: 已打开 .obsidian 目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[hotkeys] openVaultFolder: shell.openPath(.obsidian) =>",
+                    "target": "[hotkeys] openVaultFolder: shell.openPath(.obsidian) =>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[hotkeys] openVaultFolder: opened vault root",
+                    "target": "[hotkeys] openVaultFolder: 已打开库根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[hotkeys] openVaultFolder: shell.openPath(vaultRoot) =>",
+                    "target": "[hotkeys] openVaultFolder: shell.openPath(vaultRoot) =>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show extra developer tools in the UI and settings.",
+                    "target": "在界面和设置中显示额外的开发者工具。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable verbose logging to the console for diagnostics.",
+                    "target": "启用详细日志输出到控制台以便诊断。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show informative tooltips when hovering over keyboard keys. Useful for development and debugging.",
+                    "target": "鼠标悬停在键盘按键上时显示信息性工具提示。对开发和调试很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show human-friendly key names (e.g., Backspace, Up Arrow, Cmd). Turn off to debug raw keys/glyphs.",
+                    "target": "显示用户友好的键名（例如 Backspace、Up Arrow、Cmd）。关闭以调试原始按键/字形。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Restrict the active key listener to the Analyzer view, or allow it globally (global requires modifiers: On hold).",
+                    "target": "将活动按键监听限制在分析器视图中，或允许全局启用（全局需要修饰键：按住）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Delay before applying text filter changes.",
+                    "target": "应用文本筛选更改前的延迟。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable developer options",
+                    "target": "启用开发者选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Developer logging",
+                    "target": "开发者日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keyboard key tooltips",
+                    "target": "键盘按键工具提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use baked key names",
+                    "target": "使用内置键名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Key listener scope",
+                    "target": "按键监听范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Modifier activation",
+                    "target": "修饰键激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search debounce (ms)",
+                    "target": "搜索防抖（毫秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Open group…",
+                    "target": "打开组…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid key found:",
+                    "target": "发现无效键："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[groups] saveCurrentFiltersAsDefaults: group not found",
+                    "target": "[groups] saveCurrentFiltersAsDefaults: 未找到组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[groups] resetFiltersToDefaults: no defaults found",
+                    "target": "[groups] resetFiltersToDefaults: 未找到默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[hotkeys] openVaultFolder: missing basePath on adapter",
+                    "target": "[hotkeys] openVaultFolder: 适配器上的 basePath 缺失"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[hotkeys] openVaultFolder: app.openWithDefaultApp not available",
+                    "target": "[hotkeys] openVaultFolder: app.openWithDefaultApp 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[hotkeys] openVaultFolder: electron shell fallback failed",
+                    "target": "[hotkeys] openVaultFolder: electron shell 回退失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[hotkeys] openVaultFolder: electron shell fallback 2 failed",
+                    "target": "[hotkeys] openVaultFolder: electron shell 回退 2 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[hotkeys] openVaultFolder: failed opening hotkeys.json, fallback to vault root",
+                    "target": "[hotkeys] openVaultFolder: 打开 hotkeys.json 失败，回退到 vault 根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[hotkeys] openVaultFolder: electron shell fallback 3 failed",
+                    "target": "[hotkeys] openVaultFolder: electron shell 回退 3 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[groups] selected group not found; skipping behavior apply",
+                    "target": "[groups] 未找到选定分组；跳过应用行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Refresh commands",
+                    "target": "刷新命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Add command to a group for better organization",
+                    "target": "将命令添加到分组以便更好地组织"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Strict modifiers",
+                    "target": "严格修饰键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Only with hotkeys",
+                    "target": "仅有快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Only duplicates",
+                    "target": "仅重复项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Include internal modules",
+                    "target": "包含内部模块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "This hotkey is already used by the following commands. Proceed to add anyway?",
+                    "target": "此快捷键已被以下命令使用。仍要继续添加吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zoom In",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zoom Out",
+                    "target": "缩小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset Zoom",
+                    "target": "重置缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy (Ctrl+Insert)",
+                    "target": "复制 (Ctrl+Insert)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste (Shift+Insert)",
+                    "target": "粘贴 (Shift+Insert)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cut (Shift+Delete)",
+                    "target": "剪切 (Shift+Delete)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select Left",
+                    "target": "向左选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select Word Left",
+                    "target": "向左选择单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select Word Right",
+                    "target": "向右选择单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move Word Left",
+                    "target": "向左移动单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open keyboard shortcuts view",
+                    "target": "打开键盘快捷键视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open keyboard shortcuts view (new tab)",
+                    "target": "打开键盘快捷键视图（新标签页）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open keyboard shortcuts view (split)",
+                    "target": "打开键盘快捷键视图（分屏）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Focus keyboard shortcuts view",
+                    "target": "聚焦键盘快捷键视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Keyboard Analyzer: Group…",
+                    "target": "打开键盘分析器：分组…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Quick View",
+                    "target": "打开快速视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All Commands",
+                    "target": "所有命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keyboard Analyzer",
+                    "target": "键盘分析器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Duplicate hotkey",
+                    "target": "重复快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Restore default hotkeys",
+                    "target": "恢复默认快捷键"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
