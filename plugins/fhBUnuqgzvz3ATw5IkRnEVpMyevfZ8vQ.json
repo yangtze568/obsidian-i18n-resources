@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "open-in-cursor",
+        "version": "1.0.0",
+        "title": "Open in Cursor",
+        "description": "Open in Cursor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening file in Cursor:",
+                    "target": "在 Cursor 中打开文件出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in openInCursor:",
+                    "target": "openInCursor 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Active file:",
+                    "target": "活动文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Full file path:",
+                    "target": "完整文件路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Line:Column:",
+                    "target": "行：列："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Open in Cursor command:",
+                    "target": "在 Cursor 中打开命令："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cursor execution stdout:",
+                    "target": "Cursor 执行标准输出："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cursor execution stderr:",
+                    "target": "Cursor 执行标准错误输出："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Auto-detected Cursor command:",
+                    "target": "自动检测到的 Cursor 命令："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unsupported platform:",
+                    "target": "不支持的平台："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test Connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The command to run Cursor IDE (e.g., \"cursor\" or full path)",
+                    "target": "运行 Cursor IDE 的命令（例如 \"cursor\" 或完整路径）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show notifications when opening files in Cursor",
+                    "target": "在 Cursor 中打开文件时显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debug logging for troubleshooting",
+                    "target": "启用调试日志以进行故障排查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Test if Cursor IDE is available and working",
+                    "target": "测试 Cursor IDE 是否可用并正常工作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Basic Settings",
+                    "target": "基础设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cursor command",
+                    "target": "Cursor 命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User Interface",
+                    "target": "用户界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable notifications",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Test cursor connection",
+                    "target": "测试 Cursor 连接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open in cursor plugin loaded",
+                    "target": "Open in Cursor 插件已加载"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open in cursor plugin unloaded",
+                    "target": "Open in Cursor 插件已卸载"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file found",
+                    "target": "未找到活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✅ Cursor IDE is available!",
+                    "target": "✅ Cursor IDE 可用！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ Cursor IDE not found. Please check your command in settings.",
+                    "target": "❌ 未找到 Cursor IDE。请在设置中检查你的命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Use the command palette: \"Open in Cursor\"",
+                    "target": "使用命令面板：“Open in Cursor”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note: You can set a custom hotkey in Obsidian's Hotkeys settings.",
+                    "target": "注意：你可以在 Obsidian 的快捷键设置中自定义热键。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No default hotkey is provided to avoid conflicts with existing configurations.",
+                    "target": "为避免与现有配置冲突，未提供默认热键。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
