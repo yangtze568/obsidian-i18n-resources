@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "no-dupe-leaves",
+        "version": "1.0.0",
+        "title": "No dupe leaves",
+        "description": "No dupe leaves Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
