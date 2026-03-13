@@ -1,0 +1,619 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "images-to-notes",
+        "version": "1.0.0",
+        "title": "Images to Notes",
+        "description": "Images to Notes Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "OpenAI-Compatible (Local/Custom)",
+                    "target": "OpenAI 兼容（本地/自定义）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Below image",
+                    "target": "图像下方"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Above image",
+                    "target": "图像上方"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "-- Select a folder --",
+                    "target": "-- 选择文件夹 --"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Save to a specific folder",
+                    "target": "保存到指定文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Create a subfolder in the current folder (default)",
+                    "target": "在当前文件夹中创建子文件夹（默认）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Alongside the original image's location (default)",
+                    "target": "与原图所在位置并列（默认）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use folder + date + image name (e.g., Folder_YYYYMMDD_ImageName.md)",
+                    "target": "使用文件夹 + 日期 + 图片名（例如：Folder_YYYYMMDD_ImageName.md）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use date + image name (e.g., YYYYMMDD_ImageName.md)",
+                    "target": "使用日期 + 图片名（例如：YYYYMMDD_ImageName.md）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use image name (e.g., ImageName.md)",
+                    "target": "使用图片名（例如：ImageName.md）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use first line of transcription (strips markdown)",
+                    "target": "使用转写的第一行（移除 Markdown）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to clear the entire processed image history? This cannot be undone.",
+                    "target": "确定要清除全部已处理图像历史记录吗？此操作无法撤销。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ERR_USER library only accepts BLOBs as input",
+                    "target": "ERR_USER 库仅接受 BLOB 作为输入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ERR_USER \"multiple\" parameter should be of type \"boolean\"",
+                    "target": "ERR_USER \"multiple\" 参数应为 \"boolean\" 类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ERR_USER \"quality\" parameter should be of type \"number\"",
+                    "target": "ERR_USER \"quality\" 参数应为 \"number\" 类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ERR_USER \"gifInterval\" parameter should be of type \"number\"",
+                    "target": "ERR_USER \"gifInterval\" 参数应为 \"number\" 类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File provided to convertHeicToJpg is not a HEIC file:",
+                    "target": "提供给 convertHeicToJpg 的文件不是 HEIC 文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image encoding error:",
+                    "target": "图像编码错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "OpenAI response missing transcription content:",
+                    "target": "OpenAI 响应缺少转写内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error calling OpenAI API:",
+                    "target": "调用 OpenAI API 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Anthropic response missing transcription content:",
+                    "target": "Anthropic 响应缺少转录内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error calling Anthropic API:",
+                    "target": "调用 Anthropic API 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mistral response missing transcription content:",
+                    "target": "Mistral 响应缺少转录内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error calling Mistral API:",
+                    "target": "调用 Mistral API 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Note creation error:",
+                    "target": "创建笔记出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "debt left",
+                    "target": "剩余债务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Initializing mobile support for Notes to Markdown plugin",
+                    "target": "正在初始化 Notes to Markdown 插件的移动端支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "iOS-specific adjustments applied",
+                    "target": "已应用 iOS 专属调整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Android-specific adjustments applied",
+                    "target": "已应用 Android 专属调整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Applying iOS-specific adjustments",
+                    "target": "正在应用 iOS 专属调整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Reducing image quality for iOS performance",
+                    "target": "为提升 iOS 性能降低图像质量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Applying Android-specific adjustments",
+                    "target": "应用 Android 专用调整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset to default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear history",
+                    "target": "清除历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the AI provider for image transcription.",
+                    "target": "选择用于图像转写的 AI 提供商。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your OpenAI API key.",
+                    "target": "输入你的 OpenAI API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a custom base URL for the OpenAI API. Defaults to https://api.openai.com.",
+                    "target": "为 OpenAI API 设置自定义基础 URL。默认为 https://api.openai.com。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the OpenAI model to use. GPT-4.1 Mini is great for its low cost and high accuracy.",
+                    "target": "选择要使用的 OpenAI 模型。GPT-4.1 Mini 以低成本和高准确率见长。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the exact model name to use (e.g., gpt-4-turbo-2024-04-09).",
+                    "target": "输入要使用的准确模型名称（例如，gpt-4-turbo-2024-04-09）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your Anthropic API key.",
+                    "target": "输入你的 Anthropic API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the Anthropic model to use.",
+                    "target": "选择要使用的 Anthropic 模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the exact model name to use (e.g., claude-3-opus-20240229).",
+                    "target": "输入要使用的准确模型名称（例如：claude-3-opus-20240229）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your Mistral API key.",
+                    "target": "输入你的 Mistral API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the Mistral model to use.",
+                    "target": "选择要使用的 Mistral 模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the exact model name to use (e.g., mistral-large-latest).",
+                    "target": "输入要使用的准确模型名称（例如：mistral-large-latest）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The base URL for your OpenAI-compatible API (e.g., http://localhost:1234/v1 for LM Studio, http://localhost:11434/v1 for Ollama).",
+                    "target": "你的兼容 OpenAI 的 API 基础 URL（例如：LM Studio 为 http://localhost:1234/v1，Ollama 为 http://localhost:11434/v1）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The exact model name to use (e.g., llava, llama-3.2-vision, or the model you have loaded).",
+                    "target": "要使用的准确模型名称（例如：llava、llama-3.2-vision，或你已加载的模型）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the processed image will be linked in the transcribed note.",
+                    "target": "启用后，处理后的图片将链接到转写笔记中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose where to place the transcription relative to the image.",
+                    "target": "选择转写内容相对于图片的放置位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the plugin will optimize images for mobile devices.",
+                    "target": "启用后，插件将为移动设备优化图片。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show detailed notifications for every processing step, not just start, finish, and errors.",
+                    "target": "为每个处理步骤显示详细通知，而不仅仅是开始、完成和错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, only images added to the selected folder below will be transcribed.",
+                    "target": "启用后，仅会转写添加到下方所选文件夹的图像。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API provider",
+                    "target": "API 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI Base URL",
+                    "target": "OpenAI 基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI model",
+                    "target": "OpenAI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom model name",
+                    "target": "自定义模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Anthropic API key",
+                    "target": "Anthropic API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Anthropic model",
+                    "target": "Anthropic 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Google API key",
+                    "target": "Google API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Google model",
+                    "target": "Google 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mistral API key",
+                    "target": "Mistral API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mistral model",
+                    "target": "Mistral 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Endpoint URL",
+                    "target": "端点 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key (optional)",
+                    "target": "API 密钥（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model name",
+                    "target": "模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note Content",
+                    "target": "笔记内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include image in note",
+                    "target": "在笔记中包含图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image Source Control",
+                    "target": "图像来源控制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output Destination",
+                    "target": "输出目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mobile Optimizations",
+                    "target": "移动端优化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable mobile optimization",
+                    "target": "启用移动端优化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable verbose notifications",
+                    "target": "启用详细通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear processed image history",
+                    "target": "清除已处理图像历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transcribe only from a specific folder",
+                    "target": "仅从特定文件夹转写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter model name",
+                    "target": "输入模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Optional API key",
+                    "target": "可选的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "User prompt",
+                    "target": "用户提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "The specific instruction for the AI for this image.",
+                    "target": "针对该图像的 AI 具体指令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Image destination",
+                    "target": "图像目标位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Where should processed images be saved?",
+                    "target": "处理后的图像应保存到哪里？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Note destination",
+                    "target": "笔记保存位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Where should new transcription notes be created?",
+                    "target": "新建转录笔记应创建在哪里？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Processed image folder name",
+                    "target": "处理后图像文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Name of the subfolder where processed images will be saved (e.g., 'Images').",
+                    "target": "用于保存处理后图像的子文件夹名称（例如“Images”）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Note naming convention",
+                    "target": "笔记命名规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "How should the new transcription note be named?",
+                    "target": "新建转录笔记应如何命名？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New image to note",
+                    "target": "新图像转笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "User prompt reset to default.",
+                    "target": "用户提示已重置为默认。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processed image history cleared.",
+                    "target": "处理后图像历史已清除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Clear history cancelled.",
+                    "target": "清除历史已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Image folder name reset to default.",
+                    "target": "图片文件夹名称已重置为默认值。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No files selected or photo not captured successfully.",
+                    "target": "未选择文件或照片未成功拍摄。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ OpenAI API key is required.",
+                    "target": "⚠️ 需要 OpenAI API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Anthropic API key is required.",
+                    "target": "⚠️ 需要 Anthropic API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Google API key is required.",
+                    "target": "⚠️ 需要 Google API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Mistral API key is required.",
+                    "target": "⚠️ 需要 Mistral API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Model name is required.",
+                    "target": "⚠️ 需要模型名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Please select a folder.",
+                    "target": "⚠️ 请选择一个文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No folders found in your vault. Create a folder to use this feature.",
+                    "target": "在你的库中未找到文件夹。创建一个文件夹以使用此功能。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
