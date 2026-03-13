@@ -1,0 +1,2323 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "templify",
+        "version": "1.0.0",
+        "title": "Templify",
+        "description": "Templify Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "alt",
+                    "source": "Graph view (unable to capture)",
+                    "target": "图表视图（无法捕获）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span class=\"prompt\">user@obsidian</span>:<span class=\"cmd\">~ $ date</span>",
+                    "target": "<span class=\"prompt\">user@obsidian</span>:<span class=\"cmd\">~ $ date</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span class=\"prompt\">user@obsidian</span>:<span class=\"cmd\">~ $</span> <span class=\"cursor\"></span>",
+                    "target": "<span class=\"prompt\">user@obsidian</span>:<span class=\"cmd\">~ $</span> <span class=\"cursor\"></span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class=\"colon-dot\"></div><div class=\"colon-dot\"></div>",
+                    "target": "<div class=\"colon-dot\"></div><div class=\"colon-dot\"></div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span class=\"label\">Less</span>\n\t\t\t<div class=\"heatmap-legend\">\n\t\t\t\t<span class=\"lg0\"></span>\n\t\t\t\t<span class=\"lg1\"></span>\n\t\t\t\t<span class=\"lg2\"></span>\n\t\t\t\t<span class=\"lg3\"></span>\n\t\t\t\t<span class=\"lg4\"></span>\n\t\t\t</div>\n\t\t\t<span class=\"label\">More</span>",
+                    "target": "<span class=\"label\">更少</span>\n\t\t\t<div class=\"heatmap-legend\">\n\t\t\t\t<span class=\"lg0\"></span>\n\t\t\t\t<span class=\"lg1\"></span>\n\t\t\t\t<span class=\"lg2\"></span>\n\t\t\t\t<span class=\"lg3\"></span>\n\t\t\t\t<span class=\"lg4\"></span>\n\t\t\t</div>\n\t\t\t<span class=\"label\">更多</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Type text…",
+                    "target": "输入文本…"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Add a new task...",
+                    "target": "添加新任务..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Add a new card...",
+                    "target": "添加新卡片..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "What needs to be done?",
+                    "target": "需要做什么？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Add to timeline...",
+                    "target": "添加到时间线..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Add something...",
+                    "target": "添加内容..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Habit name...",
+                    "target": "习惯名称..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "e.g., Product Launch",
+                    "target": "例如：产品发布"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Goal name",
+                    "target": "目标名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter your quote...",
+                    "target": "输入你的名言..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "~ * ~",
+                    "target": "~ * ~"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No tasks yet",
+                    "target": "暂无任务"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Kanban Board",
+                    "target": "看板"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Stacked Cards",
+                    "target": "堆叠卡片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Animated Todo",
+                    "target": "动态待办"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "All clear! Add a task above.",
+                    "target": "全部完成！在上方添加任务。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No timeline entries yet",
+                    "target": "暂无时间线条目"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Glass Todo",
+                    "target": "玻璃待办"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Nothing here yet",
+                    "target": "这里还没有内容"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "🔥",
+                    "target": "🔥"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "day streak",
+                    "target": "连续天数"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Checked In",
+                    "target": "已签到"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Check In",
+                    "target": "签到"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Habit Tracker",
+                    "target": "习惯追踪"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "+ Add Habit",
+                    "target": "+ 添加习惯"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Event Name",
+                    "target": "事件名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Target Date & Time",
+                    "target": "目标日期和时间"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Start Countdown",
+                    "target": "开始倒计时"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "✨ Time's Up! ✨",
+                    "target": "✨ 时间到！✨"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "New Countdown",
+                    "target": "新建倒计时"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Progress Tracker",
+                    "target": "进度跟踪"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "+ Add Goal",
+                    "target": "+ 添加目标"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "+ Custom",
+                    "target": "+ 自定义"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add Quote",
+                    "target": "添加引言"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add content editors\nto start counting",
+                    "target": "添加内容编辑器\n以开始计数"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "0 chars",
+                    "target": "0 个字符"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "0 lines",
+                    "target": "0 行"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Copy URL",
+                    "target": "复制 URL"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Stroke color",
+                    "target": "描边颜色"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Fill color",
+                    "target": "填充颜色"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Stroke width",
+                    "target": "描边宽度"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Move left",
+                    "target": "左移"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Move right",
+                    "target": "右移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Block Editor",
+                    "target": "区块编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please fill in all required fields",
+                    "target": "请填写所有必填字段"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Type already exists",
+                    "target": "类型已存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please check your verification token in the settings",
+                    "target": "请在设置中检查你的验证令牌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "PKMer login is currently only available on desktop.",
+                    "target": "PKMer 登录目前仅在桌面端可用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Login cancelled or timed out.",
+                    "target": "登录已取消或超时。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully logged in to PKMer!",
+                    "target": "已成功登录 PKMer！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to complete login. Please try again.",
+                    "target": "登录未完成。请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Login failed. Please try again.",
+                    "target": "登录失败。请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Logged out from PKMer.",
+                    "target": "已退出 PKMer。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "内容",
+                    "target": "内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable cache area functionality",
+                    "target": "启用缓存区域功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable inline block editor for side-by-side editing in markdown files",
+                    "target": "在 Markdown 文件中启用内联块编辑器，支持并排编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Draw SVG annotations directly in the editor (Shift+Shift to activate)",
+                    "target": "在编辑器中直接绘制 SVG 标注（按 Shift+Shift 激活）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Toggle card action header visibility.",
+                    "target": "切换卡片操作标题的可见性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Toggle paper-like background.",
+                    "target": "切换纸张样式背景。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "登录 PKMer 账号以解锁高级功能",
+                    "target": "登录 PKMer 账号以解锁高级功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果为空，则保存到根目录下",
+                    "target": "如果为空，则保存到根目录下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用临时笔记功能",
+                    "target": "启用临时笔记功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Markdown 文件中启用内联块编辑器，支持并排编辑",
+                    "target": "在 Markdown 文件中启用内联块编辑器，支持并排编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在编辑器中直接绘制 SVG 标注（按 Shift+Shift 激活）",
+                    "target": "在编辑器中直接绘制 SVG 标注（按 Shift+Shift 激活）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "切换隐藏与否",
+                    "target": "切换隐藏与否"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "切换纸张背景",
+                    "target": "切换纸张背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "切换是否行嵌入到当前笔记",
+                    "target": "切换是否行嵌入到当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "可以自定义日期和文字生成一个带进度条的倒计时",
+                    "target": "可以自定义日期和文字生成一个带进度条的倒计时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "可以高亮当前日期范围的日历",
+                    "target": "可以高亮当前日期范围的日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "生成一个可以自定义卡片标题和日期的倒计时",
+                    "target": "生成一个可以自定义卡片标题和日期的倒计时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一套内置主题的日历，可以切换不同主题风格",
+                    "target": "一套内置主题的日历，可以切换不同主题风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个可以自定义名称和日期的简约风格倒计时,双击挂件元素即可更改内容",
+                    "target": "一个可以自定义名称和日期的简约风格倒计时,双击挂件元素即可更改内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "生成一个极简风格的时钟",
+                    "target": "生成一个极简风格的时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "生成一个卡片风格的日历",
+                    "target": "生成一个卡片风格的日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "可以自定义名字和内容的时间进度条",
+                    "target": "可以自定义名字和内容的时间进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "可以添加多个倒计日，以列表形式展现",
+                    "target": "可以添加多个倒计日，以列表形式展现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示周，月，年的剩余天数",
+                    "target": "显示周，月，年的剩余天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用格子展示当年已过的天数",
+                    "target": "用格子展示当年已过的天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "带时间的年度和月份剩余进度条",
+                    "target": "带时间的年度和月份剩余进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "提供一个番茄钟功能，可以自定义输入时间并进行倒计时",
+                    "target": "提供一个番茄钟功能，可以自定义输入时间并进行倒计时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "提供一个时间线展示今天的历史事件",
+                    "target": "提供一个时间线展示今天的历史事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "可以展示一段自定义文字",
+                    "target": "可以展示一段自定义文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "可以自定义文字的卡片倒计时，有多种背景风格切换",
+                    "target": "可以自定义文字的卡片倒计时，有多种背景风格切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "随机生成一句哲理名言",
+                    "target": "随机生成一句哲理名言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "生成一首随机音乐，放松你的心情",
+                    "target": "生成一首随机音乐，放松你的心情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "随机生成一句古诗词",
+                    "target": "随机生成一句古诗词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个卡通风格的倒计时，可以双击卡片进行自定义",
+                    "target": "一个卡通风格的倒计时，可以双击卡片进行自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个卡通风格的周历",
+                    "target": "一个卡通风格的周历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个可自定义颜色的多彩时钟",
+                    "target": "一个可自定义颜色的多彩时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个简单的代办事项管理小工具",
+                    "target": "一个简单的代办事项管理小工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个不停敲代码努力积极向上的猫",
+                    "target": "一个不停敲代码努力积极向上的猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有一个番茄时钟",
+                    "target": "有一个番茄时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个简单的翻页效果的时钟",
+                    "target": "一个简单的翻页效果的时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个具有翻页效果的时钟",
+                    "target": "一个具有翻页效果的时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个看起来很逼真的拟物风格时钟",
+                    "target": "一个看起来很逼真的拟物风格时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自定义轮播图片，双击即可更换卡片地址,回车后确认。",
+                    "target": "自定义轮播图片，双击即可更换卡片地址,回车后确认。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自定义文本，双击标题或者正文切换内容",
+                    "target": "自定义文本，双击标题或者正文切换内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "就一张css生成的动图图",
+                    "target": "就一张css生成的动图图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "看起来很炫酷的太阳系九大行星图,建议在暗色模式下使用。",
+                    "target": "看起来很炫酷的太阳系九大行星图,建议在暗色模式下使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "经典的扫雷游戏",
+                    "target": "经典的扫雷游戏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个简单的计算器",
+                    "target": "一个简单的计算器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "年度进度条，并显示当天位置",
+                    "target": "年度进度条，并显示当天位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一款可以显示农历，并且可以标记日期的日历",
+                    "target": "一款可以显示农历，并且可以标记日期的日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "可以自定义专注时长和休息时长的番茄钟计时器，点击时钟可以暂停。",
+                    "target": "可以自定义专注时长和休息时长的番茄钟计时器，点击时钟可以暂停。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一个迷你天气条，展示当前所在地的天气情况。有多种风格样式切换",
+                    "target": "一个迷你天气条，展示当前所在地的天气情况。有多种风格样式切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Customize your layout by adding and configuring widgets",
+                    "target": "通过添加和配置组件来自定义布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render component is used to render content",
+                    "target": "Render 组件用于渲染内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Webpage component is used to render webpage",
+                    "target": "Webpage 组件用于渲染网页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Graph component is used to render graph",
+                    "target": "Graph 组件用于渲染图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tags component is used to render tags",
+                    "target": "Tags 组件用于渲染标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Heading component is used to render heading",
+                    "target": "Heading 组件用于渲染标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Caption component is used to render caption",
+                    "target": "Caption 组件用于渲染说明文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Online component is used to render online widget",
+                    "target": "Online 组件用于渲染在线组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Content component is used to render content",
+                    "target": "内容组件用于渲染内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "View component is used to render view",
+                    "target": "视图组件用于渲染视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dataview query widget for displaying dynamic data from your vault",
+                    "target": "Dataview 查询小部件，用于显示来自你的库中的动态数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Obsidian Base database view widget",
+                    "target": "Obsidian Base 数据库视图小部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Built-in local widgets including clocks, todo lists, calendars and more",
+                    "target": "内置本地小部件，包括时钟、待办清单、日历等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Current layout exists, changing layout will override existing layout. Do you want to continue?",
+                    "target": "当前布局已存在，更改布局将覆盖现有布局。是否继续？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "描述",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "选择一个预构建的布局模板来快速开始",
+                    "target": "选择一个预构建的布局模板来快速开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "通过添加和配置小部件来自定义您的布局",
+                    "target": "通过添加和配置小部件来自定义您的布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "完成模板详细信息并保存您的布局",
+                    "target": "完成模板详细信息并保存您的布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "渲染组件用于渲染渲染",
+                    "target": "渲染组件用于渲染渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "网页组件用于渲染网页",
+                    "target": "网页组件用于渲染网页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "图谱组件用于渲染图谱",
+                    "target": "图谱组件用于渲染图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "标签组件用于渲染标签",
+                    "target": "标签组件用于渲染标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "标题组件用于渲染标题",
+                    "target": "标题组件用于渲染标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "描述组件用于渲染描述",
+                    "target": "描述组件用于渲染描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "在线组件用于渲染在线组件",
+                    "target": "在线组件用于渲染在线组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "内容组件用于渲染内容",
+                    "target": "内容组件用于渲染内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "视图组件用于渲染视图",
+                    "target": "视图组件用于渲染视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dataview 查询组件，用于动态展示仓库中的数据",
+                    "target": "Dataview 查询组件，用于动态展示仓库中的数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Obsidian Base 数据库视图组件",
+                    "target": "Obsidian Base 数据库视图组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "内置本地小组件，包括时钟、待办清单、日历等",
+                    "target": "内置本地小组件，包括时钟、待办清单、日历等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "当前已有布局，更改布局将会覆盖现有布局。是否继续？",
+                    "target": "当前已有布局，更改布局将会覆盖现有布局。是否继续？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Glowing neon digital clock with cyan and magenta glow effects",
+                    "target": "带有青色与洋红色发光效果的霓虹数字时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Classic green-on-black LCD segment-style clock",
+                    "target": "经典黑底绿字 LCD 分段式时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Clean, modern minimalist clock with thin typography",
+                    "target": "简洁现代的极简时钟，采用细线字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Matrix-inspired clock with digital rain animation",
+                    "target": "受《黑客帝国》启发的时钟，带数字雨动画"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mechanical flip card clock with animated digit changes",
+                    "target": "机械翻页式时钟，数字翻动带动画"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Binary-encoded clock with colored dot columns",
+                    "target": "二进制编码时钟，彩色点阵列显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bold clock with animated shifting gradient colors",
+                    "target": "粗体时钟，带动态渐变色切换效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal-style clock mimicking a CLI date command",
+                    "target": "模仿 CLI 日期命令的终端风格时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retro 8-bit pixel art style clock with game aesthetic",
+                    "target": "复古 8 位像素艺术风格的游戏美学时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Elegant typewriter-style clock on paper-textured background",
+                    "target": "纸质纹理背景上的优雅打字机风格时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Traditional round clock face with Roman numerals and smooth hands",
+                    "target": "带罗马数字与顺滑指针的传统圆形表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ultra-clean analog clock with only tick marks and thin hands",
+                    "target": "仅有刻度与细指针的极简指针时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Clean minimal todo list with smooth animations",
+                    "target": "简洁极简的待办清单，带流畅动画"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Three-column kanban board with To Do, In Progress, and Done",
+                    "target": "三列看板：待办、进行中、已完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Material-design card stack with priority indicators and category filters",
+                    "target": "带优先级指示与分类筛选的 Material Design 卡片堆栈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Beautiful SVG check animations with confetti on completion",
+                    "target": "完成时带彩纸的精美 SVG 勾选动画"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vertical timeline layout with date grouping and timestamps",
+                    "target": "带日期分组与时间戳的垂直时间线布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Frosted glass effect todo list with elegant blur and gradient design",
+                    "target": "带优雅模糊与渐变设计的磨砂玻璃效果待办清单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Compact monthly grid calendar with date marking",
+                    "target": "紧凑的月度网格日历，带日期标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Minimal artistic dot-based calendar with hover tooltips",
+                    "target": "极简艺术点状日历，带悬浮提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "GitHub-style contribution heatmap tracking activity over 52 weeks",
+                    "target": "GitHub 风格的贡献热力图，跟踪 52 周活动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week view with notes for each day, navigate between weeks",
+                    "target": "周视图，每天带备注，可在周之间导航"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Track daily streaks with check-in button and streak counter",
+                    "target": "通过签到按钮和连续天数计数器追踪每日连续记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Days arranged in a circular layout with SVG rendering",
+                    "target": "以圆形布局排列天数并通过 SVG 渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Focus timer with work/break intervals and session tracking",
+                    "target": "带有工作/休息间隔和会话跟踪的专注计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Track daily habits with a 7-day week view and streaks",
+                    "target": "通过 7 天游览视图和连续记录追踪每日习惯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Countdown to an important date with progress tracking",
+                    "target": "带有进度跟踪的重要日期倒计时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Virtual sticky notes board with 4 colorful notes",
+                    "target": "包含 4 张彩色便签的虚拟便签板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Track multiple goals with visual progress bars",
+                    "target": "通过可视化进度条追踪多个目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Daily inspirational quotes with bookmarking and custom quotes",
+                    "target": "每日励志语录，支持收藏和自定义语录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Counts words across all content editors in this view",
+                    "target": "统计此视图中所有内容编辑器的字数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "File name contains invalid characters: / \\\\ : * ? \" < > |",
+                    "target": "文件名包含无效字符：/ \\\\ : * ? \" < > |"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "File name is too long (maximum 255 characters)",
+                    "target": "文件名过长（最多 255 个字符）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Outgoing Links",
+                    "target": "外部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Local Widget",
+                    "target": "本地小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "To Do",
+                    "target": "待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "In Progress",
+                    "target": "进行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PKMer Account",
+                    "target": "PKMer 账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable cache area",
+                    "target": "启用缓存区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable block editor",
+                    "target": "启用块编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable draw editor",
+                    "target": "启用绘图编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom save path",
+                    "target": "自定义保存路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通用",
+                    "target": "通用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PKMer 账号",
+                    "target": "PKMer 账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义保存路径",
+                    "target": "自定义保存路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用临时笔记",
+                    "target": "启用临时笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用块编辑器",
+                    "target": "启用块编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用绘图编辑器",
+                    "target": "启用绘图编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "主题",
+                    "target": "主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隐藏嵌入视图标题",
+                    "target": "隐藏嵌入视图标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "纸张背景",
+                    "target": "纸张背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "高级",
+                    "target": "高级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "分享",
+                    "target": "分享"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "倒计时进度条",
+                    "target": "倒计时进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "范围日历",
+                    "target": "范围日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "卡片倒计时",
+                    "target": "卡片倒计时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "主题日历",
+                    "target": "主题日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "极简倒计日",
+                    "target": "极简倒计日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "极简时钟",
+                    "target": "极简时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "卡片日历",
+                    "target": "卡片日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "人生进度条",
+                    "target": "人生进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "倒计时列表",
+                    "target": "倒计时列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "时间进度条",
+                    "target": "时间进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "年度格子进度",
+                    "target": "年度格子进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "进度时钟",
+                    "target": "进度时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "简单的番茄钟",
+                    "target": "简单的番茄钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "历史上的今天",
+                    "target": "历史上的今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义文字引用块",
+                    "target": "自定义文字引用块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "每日一言",
+                    "target": "每日一言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "随机音乐",
+                    "target": "随机音乐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "每日诗词",
+                    "target": "每日诗词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "卡通倒计时",
+                    "target": "卡通倒计时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "卡通周历",
+                    "target": "卡通周历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "环形多彩时钟",
+                    "target": "环形多彩时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "代办列表",
+                    "target": "代办列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "码力猫",
+                    "target": "码力猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "番茄时钟",
+                    "target": "番茄时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "翻页时钟",
+                    "target": "翻页时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "翻页时钟2",
+                    "target": "翻页时钟2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "拟态时钟",
+                    "target": "拟态时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义轮播图片",
+                    "target": "自定义轮播图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义文本卡片",
+                    "target": "自定义文本卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "野营图",
+                    "target": "野营图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "太阳系行星图",
+                    "target": "太阳系行星图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "扫雷游戏",
+                    "target": "扫雷游戏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "迷你计算器",
+                    "target": "迷你计算器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "年度时间线",
+                    "target": "年度时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "精美日历",
+                    "target": "精美日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "迷你天气条",
+                    "target": "迷你天气条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left Thin",
+                    "target": "左侧细条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Right Thin",
+                    "target": "右侧细条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Equal Vertical",
+                    "target": "等分垂直"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left Split",
+                    "target": "左侧分割"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Right Split",
+                    "target": "右侧分割"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top Split",
+                    "target": "顶部分割"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Three Plus One",
+                    "target": "三加一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vertical Stack",
+                    "target": "垂直堆叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Four Plus One",
+                    "target": "四加一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Neon Digital Clock",
+                    "target": "霓虹数字时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Retro LCD Clock",
+                    "target": "复古LCD时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimal Digital Clock",
+                    "target": "极简数字时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Matrix Clock",
+                    "target": "矩阵时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flip Clock",
+                    "target": "翻页时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Binary Clock",
+                    "target": "二进制时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gradient Clock",
+                    "target": "渐变时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Terminal Clock",
+                    "target": "终端时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel Clock",
+                    "target": "像素时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Typewriter Clock",
+                    "target": "打字机时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Classic Analog Clock",
+                    "target": "经典模拟时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimal Analog Clock",
+                    "target": "极简模拟时钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimal Todo",
+                    "target": "极简待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kanban Todo",
+                    "target": "看板待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stacked Cards Todo",
+                    "target": "堆叠卡片待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Animated Checkmark Todo",
+                    "target": "动画对勾待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timeline Todo",
+                    "target": "时间线待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Glassmorphism Todo",
+                    "target": "玻璃拟态待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mini Grid Calendar",
+                    "target": "迷你网格日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot Calendar",
+                    "target": "点阵日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Heatmap Calendar",
+                    "target": "热力图日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Weekly Planner",
+                    "target": "周计划"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Streak Tracker",
+                    "target": "连胜追踪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Circular Calendar",
+                    "target": "环形日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pomodoro Timer",
+                    "target": "番茄钟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Habit Tracker",
+                    "target": "习惯追踪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Countdown Timer",
+                    "target": "倒计时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sticky Notes",
+                    "target": "便签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Progress Tracker",
+                    "target": "进度追踪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quote of the Day",
+                    "target": "每日语录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Word Counter",
+                    "target": "字数统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "File name",
+                    "target": "文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search icons...",
+                    "target": "搜索图标..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter image/video path or URL...",
+                    "target": "输入图片/视频路径或 URL..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "You can input content you want to render here",
+                    "target": "在此输入要渲染的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "You can paste your webpage url here",
+                    "target": "可在此粘贴网页 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "You can select your graph source or link to sepecific file",
+                    "target": "可选择图表源或链接到特定文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Input tags here",
+                    "target": "在此输入标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "You can input heading you want to render here",
+                    "target": "在此输入要渲染的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "You can input caption you want to render here",
+                    "target": "在此输入要渲染的说明文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "You can input online widget you want to render here",
+                    "target": "在此输入要渲染的在线小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "You can input view you want to render here",
+                    "target": "在此输入要渲染的视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Configure your Dataview query",
+                    "target": "配置 Dataview 查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Configure your Base view",
+                    "target": "配置 Base 视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select a local widget from the list below",
+                    "target": "从下方列表中选择一个本地小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入图片/视频路径或网址...",
+                    "target": "输入图片/视频路径或网址..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "你可以在这里输入你想要渲染的内容",
+                    "target": "你可以在这里输入你想要渲染的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "你可以在这里粘贴你的网页链接",
+                    "target": "你可以在这里粘贴你的网页链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "你可以在这里选择你的节点图来源或链接到特定的文件",
+                    "target": "你可以在这里选择你的节点图来源或链接到特定的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "在这里输入标签",
+                    "target": "在这里输入标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "你可以在这里输入你想要渲染的标题",
+                    "target": "你可以在这里输入你想要渲染的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "你可以在这里输入你想要渲染的描述",
+                    "target": "你可以在这里输入你想要渲染的描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "你可以在这里输入你想要渲染的在线组件",
+                    "target": "你可以在这里输入你想要渲染的在线组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "你可以在这里输入你想要渲染的视图",
+                    "target": "你可以在这里输入你想要渲染的视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "配置你的 Dataview 查询",
+                    "target": "配置你的 Dataview 查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "配置你的 Base 视图",
+                    "target": "配置你的 Base 视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "从下方列表中选择一个本地小组件",
+                    "target": "从下方列表中选择一个本地小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select online widget",
+                    "target": "选择在线小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "TABLE file.name, file.mtime\nFROM \"Projects\"\nSORT file.mtime DESC\nLIMIT 10",
+                    "target": "TABLE file.name, file.mtime\nFROM \"Projects\"\nSORT file.mtime DESC\nLIMIT 10"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "status = \"active\" AND rating > 3",
+                    "target": "status = \"active\" AND rating > 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "file.mtime DESC",
+                    "target": "file.mtime DESC"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "filters:\n  and:\n    - file.inFolder(\"Projects\")\nviews:\n  - type: table\n    name: \"My View\"",
+                    "target": "filters:\n  and:\n    - file.inFolder(\"Projects\")\nviews:\n  - type: table\n    name: \"My View\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "My View",
+                    "target": "我的视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select font size",
+                    "target": "选择字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select font family",
+                    "target": "选择字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select existing type",
+                    "target": "选择现有类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No settings match search",
+                    "target": "没有设置匹配搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Invalid drawing data",
+                    "target": "无效的绘图数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The only way to do great work is to love what you do.",
+                    "target": "做出伟大工作的唯一方式是热爱你所做的事。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Innovation distinguishes between a leader and a follower.",
+                    "target": "创新区分领导者和追随者。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Stay hungry, stay foolish.",
+                    "target": "保持饥饿，保持愚蠢。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Life is what happens when you are busy making other plans.",
+                    "target": "生活就是你忙着制定其他计划时发生的事情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The purpose of our lives is to be happy.",
+                    "target": "我们生活的目的就是快乐。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Get busy living or get busy dying.",
+                    "target": "忙着活，或忙着死。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You only live once, but if you do it right, once is enough.",
+                    "target": "你只活一次，但如果活得正确，一次就够了。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "In the middle of difficulty lies opportunity.",
+                    "target": "困难之中蕴藏着机遇。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Imagination is more important than knowledge.",
+                    "target": "想象力比知识更重要。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Life is really simple, but we insist on making it complicated.",
+                    "target": "生活本来很简单，但我们坚持把它变复杂。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The unexamined life is not worth living.",
+                    "target": "未经审视的人生不值得过。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Turn your wounds into wisdom.",
+                    "target": "把你的伤痛转化为智慧。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The mind is everything. What you think you become.",
+                    "target": "心念就是一切。你所想的会成为你。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "An unexamined life is not worth living.",
+                    "target": "未经审视的人生不值得过。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Eighty percent of success is showing up.",
+                    "target": "成功的百分之八十在于出现。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The best time to plant a tree was 20 years ago. The second best time is now.",
+                    "target": "种树的最佳时间是二十年前，其次是现在。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It is during our darkest moments that we must focus to see the light.",
+                    "target": "正是在最黑暗的时刻，我们必须专注才能看到光。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The only impossible journey is the one you never begin.",
+                    "target": "唯一不可能的旅程是你从未开始的那一段。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Believe you can and you are halfway there.",
+                    "target": "相信自己能做到，你就已经成功了一半。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Everything you can imagine is real.",
+                    "target": "你能想象的一切都是真实的。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Do what you can, with what you have, where you are.",
+                    "target": "用你所拥有的，在你所处之地，做你能做的。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you want to lift yourself up, lift up someone else.",
+                    "target": "如果你想提升自己，就去扶持他人。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What we achieve inwardly will change outer reality.",
+                    "target": "我们内心所取得的成就会改变外在现实。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The way to get started is to quit talking and begin doing.",
+                    "target": "开始的办法就是停止空谈并付诸行动。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If life were predictable it would cease to be life, and be without flavor.",
+                    "target": "如果生活可预测，它就不再是生活，也将失去味道。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+                    "target": "走到哪里都要传播爱。让每个来到你身边的人都能更快乐地离开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "When you reach the end of your rope, tie a knot in it and hang on.",
+                    "target": "当你走到绝境时，在绳子上打个结并坚持下去。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The future belongs to those who believe in the beauty of their dreams.",
+                    "target": "未来属于相信自己梦想之美的人。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It is never too late to be what you might have been.",
+                    "target": "成为你本可以成为的那个人，永远不晚。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+                    "target": "成功不是终点，失败也非致命：重要的是继续前行的勇气。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It does not matter how slowly you go as long as you do not stop.",
+                    "target": "只要不停下，走得多慢都没关系。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Everything has beauty, but not everyone sees it.",
+                    "target": "万物皆有美，只是并非人人都能看见。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The best revenge is massive success.",
+                    "target": "最好的报复是巨大的成功。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Nothing is impossible, the word itself says \"I'm possible\"!",
+                    "target": "没有什么是不可能的，这个词本身就写着“我是可能的”！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+                    "target": "与我们内心所拥有的相比，身后的过去与眼前的未来都微不足道。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Happiness is not something readymade. It comes from your own actions.",
+                    "target": "幸福不是现成的，它来自你的行动。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Well done is better than well said.",
+                    "target": "做得好胜过说得好。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The only limit to our realization of tomorrow will be our doubts of today.",
+                    "target": "实现明天的唯一限制将是我们今天的疑虑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "We must be the change we wish to see in the world.",
+                    "target": "我们必须成为我们希望在世界上看到的改变。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+                    "target": "人生最大的荣耀不在于从不跌倒，而在于每次跌倒都能站起来。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "In three words I can sum up everything I have learned about life: it goes on.",
+                    "target": "用三个词我可以概括我对生活的全部认识：它会继续。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you look at what you have in life, you will always have more.",
+                    "target": "如果你关注你拥有的，你会一直拥有更多。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Life is a succession of lessons which must be lived to be understood.",
+                    "target": "生活是一连串的课，必须亲身经历才能理解。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You miss 100% of the shots you don't take.",
+                    "target": "你不出手，就会错过100%的机会。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Whether you think you can or you think you can't, you're right.",
+                    "target": "不论你认为能还是不能，你都是对的。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "I have not failed. I have just found 10,000 ways that do not work.",
+                    "target": "我没有失败。我只是找到了1万种行不通的方法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A person who never made a mistake never tried anything new.",
+                    "target": "从未犯过错的人从未尝试过新事物。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The secret of getting ahead is getting started.",
+                    "target": "成功的秘诀在于开始行动。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quality is not an act, it is a habit.",
+                    "target": "质量不是一种行为，而是一种习惯。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+                    "target": "我们是我们反复所做的事。因此，卓越不是一种行为，而是一种习惯。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Exporting and uploading...",
+                    "target": "正在导出并上传..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy URL",
+                    "target": "复制 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Online Widget Content",
+                    "target": "在线小组件内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "File Naming",
+                    "target": "文件命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configure Layout",
+                    "target": "配置布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Local Widget",
+                    "target": "本地小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Confirm Layout Change",
+                    "target": "确认布局更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "文件命名",
+                    "target": "文件命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择布局模板",
+                    "target": "选择布局模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "配置布局",
+                    "target": "配置布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "填写模板信息",
+                    "target": "填写模板信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "封面",
+                    "target": "封面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "图标",
+                    "target": "图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "背景",
+                    "target": "背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "渲染",
+                    "target": "渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "网页",
+                    "target": "网页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "图谱",
+                    "target": "图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "描述",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "在线组件",
+                    "target": "在线组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "内容",
+                    "target": "内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "视图",
+                    "target": "视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "本地小组件",
+                    "target": "本地小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认更改布局",
+                    "target": "确认更改布局"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
