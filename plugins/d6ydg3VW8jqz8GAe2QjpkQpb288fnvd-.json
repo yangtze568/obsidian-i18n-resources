@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "bottom-to-top",
+        "version": "1.0.0",
+        "title": "Bottom to Top",
+        "description": "Bottom to Top Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File content is not a string.",
+                    "target": "文件内容不是字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading file content:",
+                    "target": "读取文件内容出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Enter Above Line plugin unloaded",
+                    "target": "Enter Above Line 插件已卸载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Turn On Reverse Mode for Current Note",
+                    "target": "为当前笔记开启反转模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Turn Off Reverse Mode for Current Note",
+                    "target": "为当前笔记关闭反转模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reverse Lines in Current Note",
+                    "target": "反转当前笔记中的行"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
