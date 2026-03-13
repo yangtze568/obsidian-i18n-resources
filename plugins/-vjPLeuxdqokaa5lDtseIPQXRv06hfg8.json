@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "update-time",
+        "version": "1.0.0",
+        "title": "Update Time",
+        "description": "Update Time Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.13",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "alt",
+                    "source": "Buy me a coffee",
+                    "target": "请我喝杯咖啡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Follow me on X",
+                    "target": "在 X 上关注我"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Follow me on X",
+                    "target": "在 X 上关注我"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add folder",
+                    "target": "添加文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Any file created or updated in one of these folders will not trigger an update of the created and updated fields.",
+                    "target": "这些文件夹中创建或更新的任何文件都不会触发“创建时间”和“更新时间”字段的更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folders to exclude",
+                    "target": "要排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Buy me a coffee to support the development of this plugin ❤️",
+                    "target": "请我喝杯咖啡以支持此插件的开发 ❤️"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
