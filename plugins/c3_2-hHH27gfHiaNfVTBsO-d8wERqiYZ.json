@@ -1,0 +1,1057 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "statuslol-post",
+        "version": "1.0.0",
+        "title": "OMG.lol Publisher",
+        "description": "OMG.lol Publisher Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.5.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "✏️ Edit",
+                    "target": "✏️ 编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error publishing post:",
+                    "target": "发布帖子出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error publishing:",
+                    "target": "发布出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deleting weblog post:",
+                    "target": "删除博客帖子出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Post failed:",
+                    "target": "发布失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Action failed:",
+                    "target": "操作失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload failed:",
+                    "target": "上传失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload failed response:",
+                    "target": "上传失败响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Upload failed:",
+                    "target": "❌ 上传失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Alt text generation failed:",
+                    "target": "替代文本生成失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create monthly log folder:",
+                    "target": "创建月度日志文件夹失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create log folder:",
+                    "target": "创建日志文件夹失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update pics upload log:",
+                    "target": "更新图片上传日志失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Update failed response:",
+                    "target": "更新失败响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch metadata:",
+                    "target": "获取元数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected API format:",
+                    "target": "意外的 API 格式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching metadata:",
+                    "target": "获取元数据出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open edit modal:",
+                    "target": "打开编辑模态框失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error publishing/updating paste:",
+                    "target": "发布/更新粘贴内容出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deleting paste:",
+                    "target": "删除粘贴内容出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing YAML frontmatter",
+                    "target": "解析 YAML frontmatter 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Weblog configuration update failed:",
+                    "target": "博客配置更新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Profile web publish failed:",
+                    "target": "个人资料网页发布失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Status bio update failed:",
+                    "target": "状态简介更新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Now page publish failed:",
+                    "target": "Now 页面发布失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Update Configuration",
+                    "target": "更新配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Update Bio",
+                    "target": "更新简介"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your omg.lol username",
+                    "target": "你的 omg.lol 用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your omg.lol API token",
+                    "target": "你的 omg.lol API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable posting to status.lol",
+                    "target": "启用发布到 status.lol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable publishing to weblog.lol",
+                    "target": "启用发布到 weblog.lol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable image uploads to some.pics",
+                    "target": "启用上传图片到 some.pics"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable publishing to paste.lol",
+                    "target": "启用发布到 paste.lol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prevent cross-posting to Mastodon",
+                    "target": "禁止同步发布到 Mastodon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Save status to a log note",
+                    "target": "将状态保存到日志备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Full path to the log file (.md) folders will be created automatically",
+                    "target": "日志文件（.md）的完整路径，文件夹将自动创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Append status to today's Daily Note as well",
+                    "target": "也将状态追加到今天的 Daily Note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Rename note to use slug after publishing",
+                    "target": "发布后将笔记重命名为使用 slug"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If frontmatter has `type: page`, rename those too",
+                    "target": "如果 frontmatter 包含 `type: page`，也重命名这些"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of words to use in auto-generated slug",
+                    "target": "自动生成的 slug 使用的词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tags to apply to all uploaded images (comma or space separated)",
+                    "target": "应用于所有上传图片的标签（用逗号或空格分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional: provide an API key to auto-generate alt text for images",
+                    "target": "可选：提供 API key 以自动生成图片的 alt text"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Save a record of each uploaded picture in a log note",
+                    "target": "在日志笔记中保存每张上传图片的记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Split some.pics logs into monthly files with an index",
+                    "target": "将 some.pics 日志按月拆分为带索引的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Treat this note as a page instead of a blog post",
+                    "target": "将此笔记视为页面而非博客文章"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma separated",
+                    "target": "用逗号分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You may include an extension (e.g. example.js, readme.md)",
+                    "target": "可包含扩展名（例如 example.js、readme.md）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether this paste should be publicly listed",
+                    "target": "是否公开列出此粘贴"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OMG.lol Username",
+                    "target": "OMG.lol 用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip Mastodon post",
+                    "target": "跳过 Mastodon 发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save to note",
+                    "target": "保存到笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log note path",
+                    "target": "记录笔记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Also log to Daily Note",
+                    "target": "同时记录到每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable automatic renaming",
+                    "target": "启用自动重命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Rename Pages",
+                    "target": "重命名页面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Slug word count",
+                    "target": "Slug 词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default tags",
+                    "target": "默认标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ChatGPT API key (for alt text)",
+                    "target": "ChatGPT API 密钥（用于替代文本）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maintain upload log",
+                    "target": "保留上传日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Monthly log rotation",
+                    "target": "每月日志轮换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete after upload",
+                    "target": "上传后删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tags (comma separated)",
+                    "target": "标签（用逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Publish now?",
+                    "target": "现在发布？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Post to social.lol",
+                    "target": "发布到 social.lol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Alt Text",
+                    "target": "替代文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide from public feed",
+                    "target": "从公共动态中隐藏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Paste name",
+                    "target": "粘贴名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "💬",
+                    "target": "💬"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "obsidian upload",
+                    "target": "obsidian 上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a folder…",
+                    "target": "选择文件夹…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Optional title",
+                    "target": "可选标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select folder to batch publish",
+                    "target": "选择文件夹以批量发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm Delete",
+                    "target": "确认删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm Weblog Configuration Update",
+                    "target": "确认更新 Weblog 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm Profile Web Publish",
+                    "target": "确认个人资料网页发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm Status Bio Update",
+                    "target": "确认状态简介更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm /now Page Publish",
+                    "target": "确认 /now 页面发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Using BigInt because of type 64uint but JS can only handle 53b numbers.",
+                    "target": "使用 BigInt，因为类型为 64uint，但 JS 只能处理 53b 数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ILOC box has more than one extent but we're only processing one\nPlease create an issue at https://github.com/MikeKovarik/exifr with this file",
+                    "target": "ILOC box 有多个 extent，但我们只处理一个\n请使用此文件在 https://github.com/MikeKovarik/exifr 提交问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "reached the end of the first ICC chunk. Enable options.tiff.multiSegment to read all ICC segments.",
+                    "target": "已到达第一个 ICC 块的末尾。启用 options.tiff.multiSegment 以读取所有 ICC 段。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Metadata update failed:",
+                    "target": "元数据更新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unexpected metadata format:",
+                    "target": "意外的元数据格式："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Weblog publishing is disabled in settings.",
+                    "target": "设置中已禁用博客发布。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active markdown file.",
+                    "target": "没有活动的 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note frontmatter must include `status: published` or `draft`.",
+                    "target": "笔记的 frontmatter 必须包含 `status: published` 或 `draft`。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ Failed to publish weblog post.",
+                    "target": "❌ 发布博客文章失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No folders found in vault.",
+                    "target": "在库中未找到文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Batch publish canceled — no folder selected.",
+                    "target": "批量发布已取消 — 未选择文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This post has not been published yet.",
+                    "target": "此文章尚未发布。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🗑️ Weblog post/page deleted.",
+                    "target": "🗑️ 博客文章/页面已删除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ Failed to delete weblog post.",
+                    "target": "❌ 删除博客文章失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a status.",
+                    "target": "请输入状态。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Status.lol posting is disabled in settings.",
+                    "target": "设置中已禁用 Status.lol 发布。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🎉 Published!",
+                    "target": "🎉 已发布！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to post. Saving locally.",
+                    "target": "发布失败。正在本地保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating alt text...",
+                    "target": "正在生成替代文本..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Action failed. Check console for details.",
+                    "target": "操作失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor",
+                    "target": "没有活动的编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ Upload failed. See console for details.",
+                    "target": "❌ 上传失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Preparing uploads...",
+                    "target": "正在准备上传..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Update failed. See console.",
+                    "target": "更新失败。请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Metadata updated ✅",
+                    "target": "元数据已更新 ✅"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fetch photo info.",
+                    "target": "获取照片信息失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not fetch photo info for editing.",
+                    "target": "无法获取用于编辑的照片信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unexpected photo data format. Check console.",
+                    "target": "照片数据格式异常。请检查控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to open edit modal. See console for details.",
+                    "target": "无法打开编辑模态框。详情请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No paste_id found in frontmatter to delete",
+                    "target": "在 frontmatter 中未找到可删除的 paste_id"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Paste deleted from omg.lol and metadata cleared",
+                    "target": "已从 omg.lol 删除粘贴并清除元数据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active note to publish",
+                    "target": "没有可发布的活动笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note is not marked as a weblog configuration entry (type: weblog, entry: configuration)",
+                    "target": "此笔记未标记为 weblog 配置条目（type: weblog, entry: configuration）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No ```text``` block found for weblog configuration",
+                    "target": "未找到用于 weblog 配置的 ```text``` 块"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updating weblog configuration…",
+                    "target": "正在更新 weblog 配置…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Weblog configuration updated successfully",
+                    "target": "Weblog 配置更新成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update weblog configuration",
+                    "target": "更新 weblog 配置失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note is not marked as a profile web entry (type: profile, entry: web)",
+                    "target": "此笔记未标记为个人主页条目（type: profile, entry: web）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No ```markdown``` block found for profile content",
+                    "target": "未找到个人主页内容的 ```markdown``` 块"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Publishing profile web page…",
+                    "target": "正在发布个人主页…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile web page published successfully",
+                    "target": "个人主页发布成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to publish profile web page",
+                    "target": "个人主页发布失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note is not marked as a status bio entry (type: status, entry: bio)",
+                    "target": "此笔记未标记为状态简介条目（type: status, entry: bio）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No ```markdown``` block found for bio content",
+                    "target": "未找到简介内容的 ```markdown``` 块"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updating status.lol bio…",
+                    "target": "正在更新 status.lol 简介…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Status.lol bio updated successfully",
+                    "target": "status.lol 简介更新成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update status.lol bio",
+                    "target": "status.lol 简介更新失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note is not marked as a /now entry (type: profile, entry: now)",
+                    "target": "此笔记未标记为 /now 条目（类型：profile，条目：now）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No ```markdown``` block found for /now content",
+                    "target": "未找到用于 /now 内容的 ```markdown``` 块"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Publishing /now page…",
+                    "target": "正在发布 /now 页面…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "/now page published successfully",
+                    "target": "/now 页面发布成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to publish /now page",
+                    "target": "发布 /now 页面失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unsupported selection.",
+                    "target": "不支持的选择。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No URL found on this line.",
+                    "target": "此行未找到 URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No some.pics link found here.",
+                    "target": "此处未找到 some.pics 链接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active note to publish.",
+                    "target": "没有可发布的活动笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You are an assistant that writes short, clear alt text for images.",
+                    "target": "你是一个为图像撰写简短、清晰替代文本的助手。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "Device Link",
+                    "target": "设备链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish to Weblog",
+                    "target": "发布到博客"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete Weblog Post/Page",
+                    "target": "删除博客文章/页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Post to status.lol",
+                    "target": "发布到 status.lol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update Weblog Configuration",
+                    "target": "更新博客配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish Profile Web Page",
+                    "target": "发布个人资料网页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update Status.lol Bio",
+                    "target": "更新 Status.lol 简介"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish /now Page",
+                    "target": "发布 /now 页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch Publish to Weblog",
+                    "target": "批量发布到博客"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upload image to some.pics",
+                    "target": "上传图片到 some.pics"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit some.pics image metadata",
+                    "target": "编辑 some.pics 图片元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish note to paste.lol",
+                    "target": "发布笔记到 paste.lol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete paste.lol entry",
+                    "target": "删除 paste.lol 条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "omg.lol Plugin Settings",
+                    "target": "omg.lol 插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "omg.lol Modules Enabled",
+                    "target": "已启用 omg.lol 模块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Status Settings",
+                    "target": "状态设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📁",
+                    "target": "📁"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Weblog Settings",
+                    "target": "博客设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "some.pics Settings",
+                    "target": "some.pics 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Weblog Post Metadata",
+                    "target": "博客文章元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This action has no undo. Continue?",
+                    "target": "此操作无法撤销。继续？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Post to status.lol",
+                    "target": "发布到 status.lol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Write a short alt text for this image.",
+                    "target": "为此图片编写简短的替代文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Publish to paste.lol",
+                    "target": "发布到 paste.lol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will immediately replace your weblog configuration.",
+                    "target": "这将立即替换你的博客配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Incorrect settings may affect how your weblog renders.",
+                    "target": "不正确的设置可能会影响你的博客呈现方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Continue?",
+                    "target": "继续？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will immediately replace your live omg.lol profile page.",
+                    "target": "这将立即替换你的在线 omg.lol 个人资料页。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "There is no draft mode or undo. Continue?",
+                    "target": "没有草稿模式或撤销。继续？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will immediately update your status.lol bio.",
+                    "target": "这将立即更新你的 status.lol 个人简介。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will immediately replace your live omg.lol /now page.",
+                    "target": "这将立即替换你当前的 omg.lol /now 页面。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
