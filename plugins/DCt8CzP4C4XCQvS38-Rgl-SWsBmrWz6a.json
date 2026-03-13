@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "xiangqi",
+        "version": "1.0.0",
+        "title": "Chinese chess",
+        "description": "Chinese chess Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.6.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建 PGN 文件失败:",
+                    "target": "创建 PGN 文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否显示当前着法",
+                    "target": "是否显示当前着法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否显示下一步着法",
+                    "target": "是否显示下一步着法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否显示当前该谁行棋的边框",
+                    "target": "是否显示当前该谁行棋的边框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否显示棋谱着法列表",
+                    "target": "是否显示棋谱着法列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否显示棋谱着法文字",
+                    "target": "是否显示棋谱着法文字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "调整着法文字大小",
+                    "target": "调整着法文字大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "初始渲染时是否直接跳转至终局",
+                    "target": "初始渲染时是否直接跳转至终局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "调整棋盘顶部边距",
+                    "target": "调整棋盘顶部边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "调整棋盘底部边距",
+                    "target": "调整棋盘底部边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "主题",
+                    "target": "主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "布局",
+                    "target": "布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "界面大小",
+                    "target": "界面大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示坐标标签",
+                    "target": "显示坐标标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "轮次提示",
+                    "target": "轮次提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "着法列表",
+                    "target": "着法列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "开局跳转",
+                    "target": "开局跳转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "棋盘边距",
+                    "target": "棋盘边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "上边距",
+                    "target": "上边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "下边距",
+                    "target": "下边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "朗读着法",
+                    "target": "朗读着法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "用 Markdown 视图打开",
+                    "target": "用 Markdown 视图打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "用 PGN 视图打开",
+                    "target": "用 PGN 视图打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "加载失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "历史记录和PGN记录为空，无需保存！",
+                    "target": "历史记录和PGN记录为空，无需保存！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "保存成功！",
+                    "target": "保存成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "FEN已保存到代码块",
+                    "target": "FEN已保存到代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "重置",
+                    "target": "重置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "开局",
+                    "target": "开局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "回退",
+                    "target": "回退"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "前进",
+                    "target": "前进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "终局",
+                    "target": "终局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "翻转",
+                    "target": "翻转"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "皮卡鱼Web",
+                    "target": "皮卡鱼Web"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "先手",
+                    "target": "先手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "清空",
+                    "target": "清空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "填满",
+                    "target": "填满"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "放大",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "缩小",
+                    "target": "缩小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "提升",
+                    "target": "提升"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标注",
+                    "target": "标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "优势",
+                    "target": "优势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "劣势",
+                    "target": "劣势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "均势",
+                    "target": "均势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "关键",
+                    "target": "关键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "妙手",
+                    "target": "妙手"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
