@@ -1,0 +1,265 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "DEVONlink-obsidian",
+        "version": "1.0.0",
+        "title": "DEVONlink",
+        "description": "DEVONlink Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Reveal the note in the database",
+                    "target": "在数据库中显示该笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Open the note in the database",
+                    "target": "在数据库中打开该笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DEVONthink blue",
+                    "target": "DEVONthink 蓝色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Automatically switch between Wikilinks and DEVONthink URL",
+                    "target": "在维基链接与 DEVONthink URL 之间自动切换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading the DEVONlink plugin.",
+                    "target": "正在加载 DEVONlink 插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading the DEVONlink plugin",
+                    "target": "正在卸载 DEVONlink 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Should the ribbon button open the note in DEVONthink, or reveal it in the DEVONthink database?",
+                    "target": "功能区按钮应在 DEVONthink 中打开笔记，还是在 DEVONthink 数据库中显示它？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ribbon button action",
+                    "target": "功能区按钮操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ribbon button colour",
+                    "target": "功能区按钮颜色"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sorry, DEVONlink couldn't find a matching record in your DEVONthink databases. Make sure your notes are indexed, the index is up to date, and the DEVONthink database with the indexed notes is open.",
+                    "target": "抱歉，DEVONlink 无法在你的 DEVONthink 数据库中找到匹配的记录。请确保你的笔记已建立索引、索引是最新的，并且包含已索引笔记的 DEVONthink 数据库已打开。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active pane. Try again with a note open in edit mode.",
+                    "target": "没有活动窗格。请在笔记以编辑模式打开时重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active pane. Try again with a note open.",
+                    "target": "没有活动窗格。请在打开笔记时重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal closed",
+                    "target": "终端已关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-C",
+                    "target": "用户通过 CTRL-C 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-\\",
+                    "target": "用户通过 CTRL-\\ 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invalid machine instruction",
+                    "target": "无效的机器指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Debugger breakpoint",
+                    "target": "调试器断点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bus error due to misaligned, non-existing address or paging error",
+                    "target": "总线错误，原因是地址未对齐、地址不存在或分页错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Floating point arithmetic error",
+                    "target": "浮点运算错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Forced termination",
+                    "target": "强制终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal",
+                    "target": "应用程序特定信号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Segmentation fault",
+                    "target": "段错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Broken pipe or socket",
+                    "target": "管道或套接字断开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Timeout or timer",
+                    "target": "超时或计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Child process terminated, paused or unpaused",
+                    "target": "子进程终止、暂停或恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paused using CTRL-Z or \"suspend\"",
+                    "target": "使用 CTRL-Z 或“suspend”暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot read terminal input",
+                    "target": "后台进程无法读取终端输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-BREAK",
+                    "target": "用户使用 CTRL-BREAK 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot write to terminal output",
+                    "target": "后台进程无法写入终端输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Socket received out-of-band data",
+                    "target": "套接字收到带外数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Process timed out",
+                    "target": "进程超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "File too big",
+                    "target": "文件过大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal window size changed",
+                    "target": "终端窗口大小已更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "I/O is available",
+                    "target": "I/O 可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Watched event",
+                    "target": "监视事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Request for process information",
+                    "target": "请求进程信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Device running out of power",
+                    "target": "设备电量不足"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal (realtime)",
+                    "target": "应用程序特定信号（实时）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open indexed note in DEVONthink",
+                    "target": "在 DEVONthink 中打开已索引笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reveal indexed note in DEVONthink",
+                    "target": "在 DEVONthink 中显示已索引笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "DEVONlink Settings",
+                    "target": "DEVONlink 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
