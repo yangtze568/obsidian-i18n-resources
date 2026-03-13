@@ -1,0 +1,1087 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "flow",
+        "version": "1.0.0",
+        "title": "Flow",
+        "description": "Flow Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "alt",
+                    "source": "Project cover image",
+                    "target": "项目封面图像"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter project name...",
+                    "target": "输入项目名称..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Please enter something to capture",
+                    "target": "请输入要捕获的内容"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Failed to save to inbox",
+                    "target": "保存到收件箱失败"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Mark as complete",
+                    "target": "标记为完成"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "More actions",
+                    "target": "更多操作"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Pin to top",
+                    "target": "置顶"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Convert to waiting for",
+                    "target": "转换为等待"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Unpin from top",
+                    "target": "取消置顶"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Toggle waiting for",
+                    "target": "切换等待"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Convert back to regular action",
+                    "target": "转换回普通操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "-- Select a person --",
+                    "target": "-- 选择一个人 --"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You can get your API key from ",
+                    "target": "你可以从以下位置获取你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Your API key is stored locally and never shared.",
+                    "target": " 你的 API 密钥存储在本地且绝不共享。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "OpenRouter requires the ",
+                    "target": "OpenRouter 需要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " and ",
+                    "target": " 和 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " API keys are stored locally on your device.",
+                    "target": " API 密钥存储在你的设备本地。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Add action",
+                    "target": " 添加操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh focus view",
+                    "target": "无法刷新专注视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read next actions file",
+                    "target": "无法读取下一步操作文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load sphere view",
+                    "target": "加载球体视图失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not find line for action:",
+                    "target": "未找到操作对应的行："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update project priority",
+                    "target": "更新项目优先级失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not find frontmatter boundaries",
+                    "target": "未找到 frontmatter 边界"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to toggle project current status",
+                    "target": "切换项目当前状态失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate cover image for project:",
+                    "target": "为项目生成封面图失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create project:",
+                    "target": "创建项目失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create person:",
+                    "target": "创建人员失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save to inbox:",
+                    "target": "保存到收件箱失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load waiting for view",
+                    "target": "加载等待视图失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh waiting for view",
+                    "target": "刷新“等待”视图失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load someday view",
+                    "target": "加载“某天”视图失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh someday view",
+                    "target": "刷新“某天”视图失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to archive cleared focus tasks",
+                    "target": "归档已清空的专注任务失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Get API Key",
+                    "target": "获取 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable AI-powered inbox processing and project review. When disabled, all AI functionality is unavailable.",
+                    "target": "启用 AI 驱动的收件箱处理和项目回顾。禁用后，所有 AI 功能不可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which language model to use for GTD processing.",
+                    "target": "选择用于 GTD 处理的语言模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your Anthropic API key to enable AI-powered GTD processing",
+                    "target": "输入你的 Anthropic API 密钥以启用 AI 驱动的 GTD 处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the Anthropic Messages API model ID to use for GTD processing (e.g., claude-sonnet-4-20250514).",
+                    "target": "指定用于 GTD 处理的 Anthropic Messages API 模型 ID（例如：claude-sonnet-4-20250514）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the API key for your OpenAI-compatible provider (e.g., OpenRouter).",
+                    "target": "输入你的 OpenAI 兼容服务商的 API 密钥（例如：OpenRouter）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Override the API base URL (use https://openrouter.ai/api/v1 for OpenRouter).",
+                    "target": "覆盖 API 基础 URL（OpenRouter 使用 https://openrouter.ai/api/v1）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the model ID to use with your OpenAI-compatible provider.",
+                    "target": "指定与您的 OpenAI 兼容提供方一起使用的模型 ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the OpenRouter model ID to use for image generation.",
+                    "target": "指定用于图像生成的 OpenRouter 模型 ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default priority level for new projects (1-5, where 1 is highest)",
+                    "target": "新项目的默认优先级（1-5，1 为最高）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default status for new projects",
+                    "target": "新项目的默认状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically generate a cover image when creating new projects during inbox processing",
+                    "target": "在处理收件箱时创建新项目会自动生成封面图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show cover images on project notes",
+                    "target": "在项目笔记中显示封面图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Flow processes all lines in every note in this folder.",
+                    "target": "Flow 会处理此文件夹中每条笔记的所有行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Flow processes entire notes one by one in this folder.",
+                    "target": "Flow 会逐个处理此文件夹中的完整笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Processed notes from the inbox folder are archived here instead of being deleted.",
+                    "target": "从收件箱文件夹处理后的笔记会归档到此处，而不是删除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "File for standalone next actions that aren't part of a project.",
+                    "target": "用于不属于项目的独立下一步行动的文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where new project files will be created.",
+                    "target": "将创建新项目文件的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where new person notes will be created.",
+                    "target": "将创建新人备注的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Filename for built-in Flow quick capture (will be created in Flow Inbox Files folder)",
+                    "target": "内置 Flow 快速捕捉的文件名（将创建于 Flow 收件箱文件夹）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where generated project cover images will be saved",
+                    "target": "保存生成的项目封面图片的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of spheres for categorising your projects and actions.",
+                    "target": "用于为项目和行动分类的领域逗号分隔列表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "1 (highest) to 5 (lowest)",
+                    "target": "1（最高）到 5（最低）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The outcome or goal of this project",
+                    "target": "该项目的成果或目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The immediate next physical action to move this project forward",
+                    "target": "推进该项目的直接下一步实体行动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional context or notes about the project",
+                    "target": "关于该项目的可选背景或备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which area of life does this project belong to?",
+                    "target": "此项目属于生活的哪个领域？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make this a child of an existing project",
+                    "target": "将其设为现有项目的子项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add the first next action to your focus after creation",
+                    "target": "创建后将首个下一步行动添加到你的关注中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The person's name",
+                    "target": "此人的姓名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable AI features",
+                    "target": "启用 AI 功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI Provider",
+                    "target": "AI 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Anthropic API Key",
+                    "target": "Anthropic API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Anthropic Model",
+                    "target": "Anthropic 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI-compatible API Key",
+                    "target": "OpenAI 兼容 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI-compatible Base URL",
+                    "target": "OpenAI 兼容基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI-compatible Model",
+                    "target": "OpenAI 兼容模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenRouter Image Model",
+                    "target": "OpenRouter 图像模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Project Settings",
+                    "target": "默认项目设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Priority",
+                    "target": "默认优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Status",
+                    "target": "默认状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-create cover image",
+                    "target": "自动创建封面图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display cover images on project notes",
+                    "target": "在项目备注中显示封面图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inbox Settings",
+                    "target": "收件箱设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line at a time",
+                    "target": "每次一行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note at a time",
+                    "target": "每次一条备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Processed inbox folder",
+                    "target": "已处理收件箱文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output Files & Folders",
+                    "target": "输出文件和文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Next Actions File",
+                    "target": "下一步行动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Someday/Maybe File",
+                    "target": "将来/可能文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Projects Folder",
+                    "target": "项目文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "People Folder",
+                    "target": "人员文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Inbox File",
+                    "target": "默认收件箱文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cover Images Folder",
+                    "target": "封面图片文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-clear time",
+                    "target": "自动清除时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive file",
+                    "target": "归档文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Project priority",
+                    "target": "项目优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Project title",
+                    "target": "项目标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "First next action",
+                    "target": "首个下一步行动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create as sub-project",
+                    "target": "创建为子项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add to focus",
+                    "target": "添加到专注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Flow Inbox Files",
+                    "target": "Flow 收件箱文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Flow Inbox Folder",
+                    "target": "Flow 收件箱文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Processed Inbox Folder Notes",
+                    "target": "已处理收件箱文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "personal, work, health",
+                    "target": "个人，工作，健康"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter project title...",
+                    "target": "输入项目标题..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter next action...",
+                    "target": "输入下一步动作..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter description...",
+                    "target": "输入描述..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter name...",
+                    "target": "输入名称..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Your focus was automatically cleared. ",
+                    "target": "你的专注已自动清除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Unable to load sphere details. Check the console for more information.",
+                    "target": "无法加载领域详情。请查看控制台了解更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No Priority",
+                    "target": "无优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create as sub-project",
+                    "target": "创建为子项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Add to focus",
+                    "target": "添加到专注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Mark as done",
+                    "target": "标记为已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Unable to refresh. Check the console for more information.",
+                    "target": "无法刷新。请查看控制台了解更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Waiting For",
+                    "target": "等待"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Mark as current",
+                    "target": "标记为当前"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Toggle Focus",
+                    "target": "切换焦点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Skipping invalid line in focus file:",
+                    "target": "已跳过焦点文件中的无效行："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not find action line for focus:",
+                    "target": "未找到该焦点的操作行："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to load existing projects and persons",
+                    "target": "无法加载现有项目和人员"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI features are disabled. Please enable AI in the plugin settings to use this feature.",
+                    "target": "AI 功能已禁用。请在插件设置中启用 AI 以使用该功能。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file. Please open a project file.",
+                    "target": "没有活动文件。请打开一个项目文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating cover image...",
+                    "target": "正在生成封面图像..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid Anthropic API key format. Should start with \"sk-ant-\"",
+                    "target": "Anthropic API 密钥格式无效。应以 \"sk-ant-\" 开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "API key appears to be too short",
+                    "target": "API 密钥似乎太短"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Date must be in YYYY-MM-DD format",
+                    "target": "日期必须为 YYYY-MM-DD 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid date",
+                    "target": "日期无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "File not found",
+                    "target": "未找到文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Action not found in file",
+                    "target": "文件中未找到操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Line not found",
+                    "target": "未找到该行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "📁 Create",
+                    "target": "📁 创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "➕ Add",
+                    "target": "➕ 添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "📄 Reference",
+                    "target": "📄 参考"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "📋 Next",
+                    "target": "📋 下一步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "💭 Someday",
+                    "target": "💭 将来"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "👤 Person",
+                    "target": "👤 人员"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "🗑️ Trash",
+                    "target": "🗑️ 垃圾桶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Process inbox files",
+                    "target": "处理收件箱文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new project",
+                    "target": "创建新项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create person",
+                    "target": "创建人员"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add to inbox",
+                    "target": "添加到收件箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cycle task status",
+                    "target": "循环任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open waiting for view",
+                    "target": "打开等待视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open someday view",
+                    "target": "打开将来视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open focus",
+                    "target": "打开焦点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate cover image for current project",
+                    "target": "为当前项目生成封面图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Filter actions and projects...",
+                    "target": "筛选操作和项目..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type to search parent projects...",
+                    "target": "输入以搜索父项目..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type to search projects...",
+                    "target": "输入以搜索项目..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search for parent project...",
+                    "target": "搜索父项目..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "What do you want to capture?",
+                    "target": "你想捕捉什么？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Anthropic Console",
+                    "target": "Anthropic Console"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note:",
+                    "target": "注意："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These settings are used when creating new Flow projects.",
+                    "target": "这些设置用于创建新的 Flow 项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure inbox folders for processing.",
+                    "target": "配置收件箱文件夹以便处理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Spheres help categorise projects and actions (e.g., personal, work, health).",
+                    "target": "领域有助于对项目和行动进行分类（如：个人、工作、健康）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure automatic clearing and archiving of your focus.",
+                    "target": "配置专注事项的自动清理和归档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Project Actions",
+                    "target": "项目行动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General Actions",
+                    "target": "通用行动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🤝 ",
+                    "target": "🤝 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📌",
+                    "target": "📌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🕐",
+                    "target": "🕐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🗑️",
+                    "target": "🗑️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⬇️",
+                    "target": "⬇️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✅ ",
+                    "target": "✅ "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📥 Flow inbox processing",
+                    "target": "📥 流程收件箱处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Flow inbox processing",
+                    "target": "流程收件箱处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Next Actions",
+                    "target": "下一步操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🤝",
+                    "target": "🤝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New Project Name",
+                    "target": "新项目名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parent Project",
+                    "target": "父项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No projects found",
+                    "target": "未找到项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create New Project",
+                    "target": "创建新项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create Project",
+                    "target": "创建项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parent project",
+                    "target": "上级项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create Person",
+                    "target": "创建人员"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Capture to inbox",
+                    "target": "捕获到收件箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "→ Next Actions",
+                    "target": "→ 下一步行动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Not now",
+                    "target": "暂时不要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Don't ask again",
+                    "target": "不再询问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keep for now",
+                    "target": "暂时保留"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keep forever",
+                    "target": "永久保留"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
