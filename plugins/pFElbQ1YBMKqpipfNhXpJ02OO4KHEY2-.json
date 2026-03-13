@@ -1,0 +1,49 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pintora",
+        "version": "1.0.0",
+        "title": "Pintora",
+        "description": "Pintora Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[symbolRegistry] error in create",
+                    "target": "[symbolRegistry] 创建时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while drawing message",
+                    "target": "绘制消息时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "no msgModel for",
+                    "target": "没有对应的 msgModel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[calcBound] missing calculator",
+                    "target": "[calcBound] 缺少计算器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid matrix:",
+                    "target": "无效矩阵："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
