@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "about-blank",
+        "version": "1.0.0",
+        "title": "About Blank",
+        "description": "About Blank Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error on About Blank:",
+                    "target": "关于空白页错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Switch info",
+                    "target": "切换信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clean up",
+                    "target": "清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, this action will prompt you before execution.",
+                    "target": "若启用，此操作将在执行前提示您。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, this action will be registered as a command in Obsidian. (can be executed from the command palette, etc.)",
+                    "target": "若启用，此操作将注册为 Obsidian 中的命令。（可从命令面板等执行）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Child action changes require \"Save\" in parents.",
+                    "target": "子操作的更改需要在父级中点击“保存”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It checks the settings data, type or value, duplicate command IDs, etc., and initializes any abnormal parts. Details of the changes are output to the console. These changes are not actually saved unless triggered. They can be discarded by reloading Obsidian.",
+                    "target": "它会检查设置数据、类型或数值、重复的命令 ID 等，并初始化任何异常部分。更改的详细信息会输出到控制台。除非触发保存，否则这些更改不会实际保存。通过重新加载 Obsidian 可丢弃这些更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display name / icon",
+                    "target": "显示名称 / 图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Action content:",
+                    "target": "操作内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ask before execution",
+                    "target": "执行前询问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Register as a command",
+                    "target": "注册为命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete this action",
+                    "target": "删除此操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide message",
+                    "target": "隐藏消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide default actions",
+                    "target": "隐藏默认操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quick actions",
+                    "target": "快捷操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon-text gap",
+                    "target": "图标-文本间距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Center actions vertically",
+                    "target": "垂直居中操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete actions margin-top (more centered)",
+                    "target": "删除操作的上边距（更居中）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clean up settings",
+                    "target": "清理设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "New action's name...",
+                    "target": "新操作名称..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Set icon",
+                    "target": "设置图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Switch the action's information to be displayed",
+                    "target": "切换要显示的操作信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "About Blank: Failed to generate a unique command ID.",
+                    "target": "About Blank：无法生成唯一命令 ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "About Blank: Failed to register a command.",
+                    "target": "About Blank：无法注册命令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reload Obsidian to apply changes",
+                    "target": "重新加载 Obsidian 以应用更改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to register a command.\n(About Blank)",
+                    "target": "无法注册命令。\n(About Blank)"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No settings error found",
+                    "target": "未发现设置错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quick actions",
+                    "target": "快速操作"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
