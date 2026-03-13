@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "always-color-text",
+        "version": "1.0.0",
+        "title": "Always Color Text",
+        "description": "Always Color Text Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.15.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 100 100\" width=\"30\" height=\"20\" fill=\"currentColor\"><path d=\"M30 20h40v10H30zM30 45h40v10H30zM30 70h40v10H30z\"/></svg>",
+                    "target": "<svg viewBox=\"0 0 100 100\" width=\"30\" height=\"20\" fill=\"currentColor\"><path d=\"M30 20h40v10H30zM30 45h40v10H30zM30 70h40v10H30z\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"9\" y=\"9\" width=\"13\" height=\"13\" rx=\"2\" ry=\"2\"></rect><path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"9\" y=\"9\" width=\"13\" height=\"13\" rx=\"2\" ry=\"2\"></rect><path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "folder1/, folder2/",
+                    "target": "folder1/, folder2/"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "#tag1, #tag2",
+                    "target": "#tag1, #tag2"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n          span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .callout span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .is-live-preview .callout span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .is-live-preview .cm-callout span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .callout .always-color-text-highlight,\n          .cm-callout .always-color-text-highlight,\n          .markdown-reading-view .callout .always-color-text-highlight,\n          .markdown-rendered .callout .always-color-text-highlight {\n            --text-normal: inherit !important;\n            --link-color: inherit !important;\n            --link-external-color: inherit !important;\n            --link-unresolved-color: inherit !important;\n            --link-color-hover: inherit !important;\n            --link-external-color-hover: inherit !important;\n            --highlight-color: inherit !important;\n          }\n        ",
+                    "target": "\n          span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .callout span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .is-live-preview .callout span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .is-live-preview .cm-callout span.always-color-text-highlight { color: inherit !important; background-color: transparent !important; padding: 0 !important; border: none !important; }\n          .callout .always-color-text-highlight,\n          .cm-callout .always-color-text-highlight,\n          .markdown-reading-view .callout .always-color-text-highlight,\n          .markdown-rendered .callout .always-color-text-highlight {\n            --text-normal: inherit !important;\n            --link-color: inherit !important;\n            --link-external-color: inherit !important;\n            --link-unresolved-color: inherit !important;\n            --link-color-hover: inherit !important;\n            --link-external-color-hover: inherit !important;\n            --highlight-color: inherit !important;\n          }\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n          span.always-color-text-highlight { background-color: transparent !important; padding: 0 !important; border: none !important; display: inline !important; box-shadow: none !important; }\n          .always-color-text-highlight { background-color: transparent !important; padding: 0 !important; border: none !important; box-shadow: none !important; }\n          .callout .always-color-text-highlight,\n          .cm-callout .always-color-text-highlight,\n          .markdown-reading-view .always-color-text-highlight,\n          .markdown-rendered .always-color-text-highlight,\n          .cm-content .always-color-text-highlight,\n          .cm-line .always-color-text-highlight,\n          .is-live-preview .cm-content .always-color-text-highlight { background-color: transparent !important; padding: 0 !important; border: none !important; box-shadow: none !important; }\n        ",
+                    "target": "\n          span.always-color-text-highlight { background-color: transparent !important; padding: 0 !important; border: none !important; display: inline !important; box-shadow: none !important; }\n          .always-color-text-highlight { background-color: transparent !important; padding: 0 !important; border: none !important; box-shadow: none !important; }\n          .callout .always-color-text-highlight,\n          .cm-callout .always-color-text-highlight,\n          .markdown-reading-view .always-color-text-highlight,\n          .markdown-rendered .always-color-text-highlight,\n          .cm-content .always-color-text-highlight,\n          .cm-line .always-color-text-highlight,\n          .is-live-preview .cm-content .always-color-text-highlight { background-color: transparent !important; padding: 0 !important; border: none !important; box-shadow: none !important; }\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n            .markdown-rendered mark:not(.always-color-text-highlight-marks) {\n              background-color: transparent !important;\n              color: inherit !important;\n            }\n            .cm-highlight {\n              background-color: transparent !important;\n              color: inherit !important;\n            }\n            .cm-s-obsidian span.cm-highlight {\n              background-color: transparent !important;\n              color: inherit !important;\n            }\n          ",
+                    "target": "\n            .markdown-rendered mark:not(.always-color-text-highlight-marks) {\n              background-color: transparent !important;\n              color: inherit !important;\n            }\n            .cm-highlight {\n              background-color: transparent !important;\n              color: inherit !important;\n            }\n            .cm-s-obsidian span.cm-highlight {\n              background-color: transparent !important;\n              color: inherit !important;\n            }\n          "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n          .is-live-preview .callout .always-color-text-highlight,\n          .is-live-preview .callout .always-color-text-highlight *,\n          .is-live-preview .cm-callout .always-color-text-highlight,\n          .is-live-preview .cm-callout .always-color-text-highlight * {\n            --text-normal: var(--highlight-color);\n            --link-color: var(--highlight-color);\n            --link-external-color: var(--highlight-color);\n            --link-unresolved-color: var(--highlight-color);\n            --link-color-hover: var(--highlight-color);\n            --link-external-color-hover: var(--highlight-color);\n            color: var(--highlight-color);\n          }\n        ",
+                    "target": "\n          .is-live-preview .callout .always-color-text-highlight,\n          .is-live-preview .callout .always-color-text-highlight *,\n          .is-live-preview .cm-callout .always-color-text-highlight,\n          .is-live-preview .cm-callout .always-color-text-highlight * {\n            --text-normal: var(--highlight-color);\n            --link-color: var(--highlight-color);\n            --link-external-color: var(--highlight-color);\n            --link-unresolved-color: var(--highlight-color);\n            --link-color-hover: var(--highlight-color);\n            --link-external-color-hover: var(--highlight-color);\n            color: var(--highlight-color);\n          }\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n          .is-live-preview .cm-content .always-color-text-highlight,\n          .is-live-preview .cm-content .always-color-text-highlight * {\n            color: var(--highlight-color);\n          }\n        ",
+                    "target": "\n          .is-live-preview .cm-content .always-color-text-highlight,\n          .is-live-preview .cm-content .always-color-text-highlight * {\n            color: var(--highlight-color);\n          }\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n          .markdown-reading-view .callout .always-color-text-highlight,\n          .markdown-reading-view .callout .always-color-text-highlight *,\n          .markdown-rendered .callout .always-color-text-highlight,\n          .markdown-rendered .callout .always-color-text-highlight *,\n          .callout .always-color-text-highlight,\n          .callout .always-color-text-highlight * {\n            --text-normal: var(--highlight-color);\n            --link-color: var(--highlight-color);\n            --link-external-color: var(--highlight-color);\n            --link-unresolved-color: var(--highlight-color);\n            --link-color-hover: var(--highlight-color);\n            --link-external-color-hover: var(--highlight-color);\n            color: var(--highlight-color);\n          }\n        ",
+                    "target": "\n          .markdown-reading-view .callout .always-color-text-highlight,\n          .markdown-reading-view .callout .always-color-text-highlight *,\n          .markdown-rendered .callout .always-color-text-highlight,\n          .markdown-rendered .callout .always-color-text-highlight *,\n          .callout .always-color-text-highlight,\n          .callout .always-color-text-highlight * {\n            --text-normal: var(--highlight-color);\n            --link-color: var(--highlight-color);\n            --link-external-color: var(--highlight-color);\n            --link-unresolved-color: var(--highlight-color);\n            --link-color-hover: var(--highlight-color);\n            --link-external-color-hover: var(--highlight-color);\n            color: var(--highlight-color);\n          }\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "0 matches",
+                    "target": "0 个匹配项"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "e.g., i, g, m",
+                    "target": "例如：i, g, m"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Text color",
+                    "target": "文本颜色"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Highlight color",
+                    "target": "高亮颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ACT: Error applying formatting styles",
+                    "target": "ACT: 应用格式样式时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. 0, 1, 2",
+                    "target": "例如：0, 1, 2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. 0, 4, 8",
+                    "target": "例如：0, 4, 8"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. 1, 2.5, 3.7",
+                    "target": "例如：1, 2.5, 3.7"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete Entry",
+                    "target": "删除条目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Always Color Text: syntaxTree not available",
+                    "target": "始终着色文本：syntaxTree 不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dark Blue",
+                    "target": "深蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Light Purple",
+                    "target": "浅紫色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Neon Pink",
+                    "target": "霓虹粉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hot Pink",
+                    "target": "艳粉色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Style",
+                    "target": "新样式"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
