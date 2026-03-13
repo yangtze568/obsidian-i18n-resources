@@ -1,0 +1,313 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "regex-line-filter",
+        "version": "1.0.0",
+        "title": "Regex Line Filter",
+        "description": "Regex Line Filter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.3.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n    Manage your saved regex filters. These can be assigned to hotkeys (search for \"Regex Line Filter: Toggle Filter\").<br>\n",
+                    "target": "\n    管理你保存的正则过滤器。它们可以分配给快捷键（搜索“Regex Line Filter: Toggle Filter”）。<br>\n"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-pin-off\"><line x1=\"12\" x2=\"12\" y1=\"17\" y2=\"22\"></line><path d=\"M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z\"></path><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"></line></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-pin-off\"><line x1=\"12\" x2=\"12\" y1=\"17\" y2=\"22\"></line><path d=\"M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z\"></path><line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\"></line></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-save\"><path d=\"M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z\"></path><polyline points=\"17 21 17 13 7 13 7 21\"></polyline><polyline points=\"7 3 7 8 15 8\"></polyline></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-save\"><path d=\"M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z\"></path><polyline points=\"17 21 17 13 7 13 7 21\"></polyline><polyline points=\"7 3 7 8 15 8\"></polyline></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-pin\"><path d=\"M12 17v5\"></path><path d=\"M9 10.75A2.75 2.75 0 0 1 12 8a2.75 2.75 0 0 1 3 2.75V17h-6Z\"></path><path d=\"M12 8V2\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-pin\"><path d=\"M12 17v5\"></path><path d=\"M9 10.75A2.75 2.75 0 0 1 12 8a2.75 2.75 0 0 1 3 2.75V17h-6Z\"></path><path d=\"M12 8V2\"></path></svg>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Regex Line Filter: Error building combined regex",
+                    "target": "Regex Line Filter: 构建合并正则时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Regex Line Filter: Error during decoration build:",
+                    "target": "Regex Line Filter: 构建装饰时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: Processing effect",
+                    "target": "Regex Filter: 正在处理效果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: New unresolved strings (toggle)",
+                    "target": "Regex Filter: 新的未解析字符串（切换）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: New unresolved strings (manual)",
+                    "target": "Regex Filter: 新的未解析字符串（手动）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: buildDecorations called. Unresolved strings:",
+                    "target": "Regex Filter: 已调用 buildDecorations。未解析字符串："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: No filters enabled, finishing decoration build.",
+                    "target": "正则过滤器：未启用任何过滤器，完成装饰构建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: Resolved strings:",
+                    "target": "正则过滤器：解析后的字符串："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: Combined Regex:",
+                    "target": "正则过滤器：合并后的正则："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Regex Filter: Combined regex is null, finishing decoration build.",
+                    "target": "正则过滤器：合并后的正则为 null，完成装饰构建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Regex Line Filter plugin",
+                    "target": "正在加载正则行过滤器插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Regex Line Filter plugin",
+                    "target": "正在卸载正则行过滤器插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add New Saved Regex",
+                    "target": "添加新的已保存正则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Apply filter",
+                    "target": "应用过滤器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A friendly name for this filter, used in the command palette.",
+                    "target": "此过滤器的友好名称，用于命令面板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the regex string. It will be compiled with the 'u' (unicode) flag.",
+                    "target": "输入正则字符串。它将使用“u”（unicode）标志进行编译。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include indents under filter match",
+                    "target": "在筛选匹配项下包含缩进"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include section when heading/title matches",
+                    "target": "当标题/题头匹配时包含该节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note title transparency",
+                    "target": "笔记标题透明度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Copy only filtered text when filter(s) enabled",
+                    "target": "启用筛选器时仅复制已筛选文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Regular expression (supports Unicode):",
+                    "target": "正则表达式（支持 Unicode）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter name (optional)",
+                    "target": "筛选器名称（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Regular expression",
+                    "target": "正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., ^\\s*- \\[ \\].*💡",
+                    "target": "例如：^\\s*- \\[ \\].*💡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., My Custom To-Do Filter",
+                    "target": "例如：我的自定义待办筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., ^\\s*- \\[ \\]",
+                    "target": "例如：^\\s*- \\[ \\]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit Regex",
+                    "target": "编辑正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete Regex",
+                    "target": "删除正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Regex Line Filter: Error dispatching copyOnlyFilteredText",
+                    "target": "正则行过滤器：分发 copyOnlyFilteredText 时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error building combined filter. Some patterns may be invalid. Check console.",
+                    "target": "构建组合过滤器时出错。某些模式可能无效。请检查控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Filter not available in this view.",
+                    "target": "此视图中无法使用过滤器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All regex filters disabled.",
+                    "target": "已禁用所有正则过滤器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Regex filter input cancelled.",
+                    "target": "已取消正则过滤器输入。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown editor to toggle the filter on.",
+                    "target": "没有活动的 Markdown 编辑器可开启过滤器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Saved filter updated!",
+                    "target": "已更新已保存的过滤器！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "New filter saved!",
+                    "target": "已保存新过滤器！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No changes were made.",
+                    "target": "未做任何更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Regex Line Filter (Manual/Clear All)",
+                    "target": "切换正则行过滤器（手动/清除全部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Regex Line Filter Settings",
+                    "target": "正则行过滤器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General Filter Options",
+                    "target": "常规过滤选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Saved Regex Filters",
+                    "target": "已保存的正则过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No saved regex filters yet. Click \"Add New Saved Regex\" to create one.",
+                    "target": "尚未保存任何正则过滤器。点击“新增已保存正则”来创建一个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter regex filter",
+                    "target": "输入正则过滤器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pinned:",
+                    "target": "已置顶："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "History:",
+                    "target": "历史："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
