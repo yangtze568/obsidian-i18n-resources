@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tw-task-wiki",
+        "version": "1.0.0",
+        "title": "TaskWarrior Task Wiki",
+        "description": "TaskWarrior Task Wiki Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "&nbsp;",
+                    "target": "&nbsp;"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span>No tasks found in report.</span>",
+                    "target": "<span>报告中未找到任务。</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "error fetching tasks",
+                    "target": "获取任务时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear cache",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path of the taskwarrior executable",
+                    "target": "taskwarrior 可执行文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debug logging. Prints taskwarrior commands to web console.",
+                    "target": "启用调试日志。将 taskwarrior 命令输出到网页控制台。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cache report columns/labels for faster reloading. Disable if you fiddle with the taskwarrior report columns too much :).",
+                    "target": "缓存报告列/标签以加快重新加载。如果你频繁调整 taskwarrior 报告列，请禁用 : )。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hold key to enable task deletion",
+                    "target": "按住按键以启用任务删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will enable feature of custom actions on context menu on right click.",
+                    "target": "将启用右键上下文菜单中的自定义操作功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will enable external linking for projects in lists.",
+                    "target": "将为列表中的项目启用外部链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Order dictates priority",
+                    "target": "顺序决定优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "TaskWarrior path",
+                    "target": "TaskWarrior 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug log",
+                    "target": "调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Columns cache",
+                    "target": "列缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deletion hold Key",
+                    "target": "删除保留键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable custom actions context menu",
+                    "target": "启用自定义操作上下文菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Right click context menu actions",
+                    "target": "右键上下文菜单操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable project urls",
+                    "target": "启用项目 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Project Regex URIs",
+                    "target": "项目正则 URIs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example +today",
+                    "target": "示例 +today"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create New Tasks",
+                    "target": "创建新任务"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error trying to undo last action",
+                    "target": "尝试撤销上次操作时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Last action undone",
+                    "target": "已撤销上次操作"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No UUID created yet.",
+                    "target": "尚未创建UUID。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create task",
+                    "target": "创建任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Undo last task action",
+                    "target": "撤销上次任务操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "My new task priority:L",
+                    "target": "我的新任务优先级：L"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
