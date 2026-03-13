@@ -1,0 +1,571 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "yourpulse",
+        "version": "1.0.0",
+        "title": "YourPulse - Your Writing Activity Visualised",
+        "description": "YourPulse - Your Writing Activity Visualised Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LinkedNotesCompiler error:",
+                    "target": "LinkedNotesCompiler 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef requires a render function but was given %s.",
+                    "target": "forwardRef 需要一个渲染函数，但收到的是 %s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef render functions accept exactly two parameters: props and ref. %s",
+                    "target": "forwardRef 渲染函数仅接受两个参数：props 和 ref。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed %s type: %s",
+                    "target": "失败的 %s 类型：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?",
+                    "target": "组件 %s 声明了 `PropTypes` 而不是 `propTypes`。你是否拼写错误了属性赋值？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid attribute `ref` supplied to `React.Fragment`.",
+                    "target": "为 `React.Fragment` 提供了无效的属性 `ref`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills",
+                    "target": "此浏览器不支持 requestAnimationFrame。请确保在旧版浏览器中加载 polyfill。https://reactjs.org/link/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills",
+                    "target": "此浏览器不支持 cancelAnimationFrame。请确保在旧版浏览器中加载 polyfill。https://reactjs.org/link/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid attribute name: `%s`",
+                    "target": "无效的属性名：`%s`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Only strings and numbers are supported as <option> children.",
+                    "target": "仅支持字符串和数字作为 <option> 子元素。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported style property %s. Did you mean %s?",
+                    "target": "不支持的样式属性 %s。你是不是想要 %s？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported vendor-prefixed style property %s. Did you mean %s?",
+                    "target": "不支持带厂商前缀的样式属性 %s。你是不是想要 %s？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`NaN` is an invalid value for the `%s` css style property.",
+                    "target": "`NaN` 不是 `%s` CSS 样式属性的有效值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`Infinity` is an invalid value for the `%s` css style property.",
+                    "target": "`Infinity` 不是 `%s` CSS 样式属性的有效值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid ARIA attribute `%s`. ARIA attributes follow the pattern aria-* and must be lowercase.",
+                    "target": "无效的 ARIA 属性 `%s`。ARIA 属性遵循 aria-* 模式且必须为小写。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid ARIA attribute `%s`. Did you mean `%s`?",
+                    "target": "无效的 ARIA 属性 `%s`。你是不是想要 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown ARIA attribute `%s`. Did you mean `%s`?",
+                    "target": "未知的 ARIA 属性 `%s`。你是不是想要 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid event handler property `%s`. Did you mean `%s`?",
+                    "target": "无效的事件处理器属性 `%s`。你是不是想要 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown event handler property `%s`. It will be ignored.",
+                    "target": "未知的事件处理器属性 `%s`。将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid DOM property `%s`. Did you mean `%s`?",
+                    "target": "无效的 DOM 属性 `%s`。你是不是想说 `%s`？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Should have found matching lanes. This is a bug in React.",
+                    "target": "本应找到匹配的车道。这是 React 的一个错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Text content did not match. Server: \"%s\" Client: \"%s\"",
+                    "target": "文本内容不匹配。服务器：\"%s\" 客户端：\"%s\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Prop `%s` did not match. Server: %s Client: %s",
+                    "target": "Prop `%s` 不匹配。服务器：%s 客户端：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Extra attributes from the server: %s",
+                    "target": "服务器返回了额外的属性：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected `%s` listener to be a function, instead got a value of `%s` type.",
+                    "target": "期望 `%s` 监听器是一个函数，但得到的是 `%s` 类型的值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Did not expect server HTML to contain a <%s> in <%s>.",
+                    "target": "不应期望服务器 HTML 在 <%s> 中包含 <%s>。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Did not expect server HTML to contain the text node \"%s\" in <%s>.",
+                    "target": "不应期望服务器 HTML 在 <%s> 中包含文本节点 \"%s\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected server HTML to contain a matching <%s> in <%s>.",
+                    "target": "期望服务器 HTML 在 <%s> 中包含匹配的 <%s>。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected server HTML to contain a matching text node for \"%s\" in <%s>.",
+                    "target": "期望服务器 HTML 在 <%s> 中包含与 \"%s\" 匹配的文本节点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "validateDOMNesting: when childText is passed, childTag should be null",
+                    "target": "validateDOMNesting：当传入 childText 时，childTag 应为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "validateDOMNesting(...): %s cannot appear as a child of <%s>.%s%s",
+                    "target": "validateDOMNesting(...): %s 不能作为 <%s> 的子元素出现。%s%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected pop.",
+                    "target": "意外的 pop。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected Fiber popped.",
+                    "target": "意外弹出了 Fiber。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React instrumentation encountered an error: %s.",
+                    "target": "React instrumentation 遇到了错误：%s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "React instrumentation encountered an error: %s",
+                    "target": "React instrumentation 遇到了错误：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s.state: must be set to an object or null",
+                    "target": "%s.state：必须设置为对象或 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mutable source subscribe function must return an unsubscribe function.",
+                    "target": "Mutable source 的订阅函数必须返回一个取消订阅函数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s(...): childContextTypes cannot be defined on a function component.",
+                    "target": "%s(...): 不能在函数组件上定义 childContextTypes。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: Function components do not support getDerivedStateFromProps.",
+                    "target": "%s：函数组件不支持 getDerivedStateFromProps。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: Function components do not support contextType.",
+                    "target": "%s：函数组件不支持 contextType。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The `value` prop is required for the `<Context.Provider>`. Did you misspell it or forget to pass it?",
+                    "target": "`<Context.Provider>` 需要 `value` 属性。你是否拼写错误或忘记传递？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Profiler must specify an \"id\" as a prop",
+                    "target": "Profiler 必须将 \"id\" 指定为属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Chart library failed to load:",
+                    "target": "图表库加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[yourpulse] error adding yp-publish-url to file:",
+                    "target": "[yourpulse] 将 yp-publish-url 添加到文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[YourPulse] API request failed:",
+                    "target": "[YourPulse] API 请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "--error getting timezone",
+                    "target": "--获取时区出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "--error decrypting key",
+                    "target": "--解密密钥出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "--error getting device name",
+                    "target": "--获取设备名称出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "--error parsing key",
+                    "target": "--解析密钥出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[yourpulse] error uploading file:",
+                    "target": "[yourpulse] 上传文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[yourpulse] error merging devices settings",
+                    "target": "[yourpulse] 合并设备设置时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[YourPulse] Leaderboard API request blocked in private mode",
+                    "target": "[YourPulse] 隐私模式下排行榜 API 请求被阻止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[YourPulse] API request blocked in private mode",
+                    "target": "[YourPulse] 隐私模式下 API 请求被阻止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[yourpulse] device name:",
+                    "target": "[yourpulse] 设备名称："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[yourpulse] Plugin Loaded",
+                    "target": "[yourpulse] 插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[yourpulse] private mode, skipping file upload",
+                    "target": "[yourpulse] 隐私模式，跳过文件上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[yourpulse] Plugin Unloaded",
+                    "target": "[yourpulse] 插件已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[yourpulse] updating statusbar",
+                    "target": "[yourpulse] 正在更新状态栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[yourpulse] status bar stats initialized",
+                    "target": "[yourpulse] 状态栏统计已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Request License",
+                    "target": "请求许可证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Contact Me on X",
+                    "target": "在 X 上联系我"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open Github",
+                    "target": "打开 GitHub"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hide your profile from public view and leaderboards",
+                    "target": "隐藏你的个人资料，避免公开显示和出现在排行榜中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hide the status bar stats for this plugin. Useful if you want to keep your workspace clean and distraction-free.",
+                    "target": "隐藏此插件的状态栏统计。如果你想保持工作区整洁无干扰，这很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "List of files to be shared publicly via YourPulse.com profile (one per line).",
+                    "target": "通过 YourPulse.com 个人资料公开分享的文件列表（每行一个）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable resolution of linked notes (![[note]]) before file upload",
+                    "target": "在文件上传前启用对链接笔记 (![[note]]) 的解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you have any questions regarding this plugin, please contact me directly on x.com, or open an issue on GitHub",
+                    "target": "如果你对该插件有任何问题，请直接在 x.com 联系我，或在 GitHub 上提交 issue"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Private Mode",
+                    "target": "私密模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "License key",
+                    "target": "许可证密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide Status Bar Stats",
+                    "target": "隐藏状态栏统计信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Files to be published",
+                    "target": "待发布文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Linked Notes Resolution",
+                    "target": "关联笔记解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max Resolution Depth",
+                    "target": "最大解析深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User ID",
+                    "target": "用户 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Contact Me",
+                    "target": "联系我"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Your license key here...",
+                    "target": "在此输入你的许可证密钥..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dvapi.tryEvaluate did not yield any result",
+                    "target": "dvapi.tryEvaluate 未产生任何结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "eval did not yield any result",
+                    "target": "eval 未产生任何结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%s(...) is deprecated in plain JavaScript React classes. %s",
+                    "target": "%s(...) 在纯 JavaScript React 类中已弃用。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "copyWithRename() expects paths of the same length",
+                    "target": "copyWithRename() 期望路径长度相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "copyWithRename() expects paths to be the same except for the deepest key",
+                    "target": "copyWithRename() 期望路径除最深层键外相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "named iterables are deprecated; please use an object instead",
+                    "target": "命名可迭代对象已弃用；请改用对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: the projection could not be fit to the specified domain; using the default scale.",
+                    "target": "警告：投影无法拟合到指定域；将使用默认比例尺。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: the implicit z channel has high cardinality. This may occur when the fill or stroke channel is associated with quantitative data rather than ordinal or categorical data. You can suppress this warning by setting the z option explicitly; if this data represents a single series, set z to null.",
+                    "target": "警告：隐式 z 通道的基数很高。当填充或描边通道与定量数据而非序数或类别数据关联时可能发生。你可以显式设置 z 选项来抑制此警告；如果这些数据表示单个序列，请将 z 设为 null。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render dataview query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染 dataview 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render dataviewjs query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染 dataviewjs 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render inline dataview query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染内联 dataview 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render inline dataviewjs query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染内联 dataviewjs 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid license key for YourPulse plugin",
+                    "target": "YourPulse 插件的许可证密钥无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(Please restart Obsidian after changing the key!!)",
+                    "target": "（更改密钥后请重启 Obsidian！！）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can also mark a note for publishing by adding `yp-publish: true` to its file properties (frontmatter)",
+                    "target": "你也可以在其文件属性（frontmatter）中添加 `yp-publish: true` 来标记该笔记可发布"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
