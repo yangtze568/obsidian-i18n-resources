@@ -1,0 +1,1609 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "jw-library-linker",
+        "version": "1.0.0",
+        "title": "JW Library Linker",
+        "description": "JW Library Linker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.12.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No bible books found",
+                    "target": "未找到圣经书卷"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid reference",
+                    "target": "无效的引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating Bible quote:",
+                    "target": "生成圣经引用出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inserting Bible quotes:",
+                    "target": "插入圣经引用出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inserting Bible quote at cursor:",
+                    "target": "在光标处插入圣经引用出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inserting Bible quote from context menu:",
+                    "target": "从右键菜单插入圣经引用出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Could not access localStorage, using default locale",
+                    "target": "无法访问 localStorage，使用默认区域设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "multiple books found",
+                    "target": "找到多个书卷"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Plugin loaded",
+                    "target": "插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{bibleRefLinked}\\n> {quote}",
+                    "target": "{bibleRefLinked}\\n> {quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wähle die Sprache für die Bibelverweise",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Verschiebt den Befehl \"Link und öffnen\" an den Anfang der Liste",
+                    "target": "将“链接并打开”命令移到列表开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wenn aktiviert, wird der aktuelle Linktext beim Umwandeln von Bibeltexten beibehalten",
+                    "target": "启用后，在转换圣经文本时保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wenn aktiviert, werden am Ende eines Links keine Sprachparameter hinzugefügt. Links werden in der jeweiligen Sprache der JW Library geöffnet",
+                    "target": "启用后，链接末尾不会添加语言参数。链接将以 JW Library 的相应语言打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wähle die Länge des Linktextes",
+                    "target": "选择链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text, der am Anfang des Linktextes hinzugefügt wird",
+                    "target": "添加到链接文本开头的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text, der am Ende des Linktextes hinzugefügt wird",
+                    "target": "添加到链接文本末尾的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wähle eine Stilvorlage für den Link",
+                    "target": "为链接选择样式模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wähle den Schriftstil für den Linktext",
+                    "target": "选择链接文本的字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Konfiguriere die Formatierung von eingefügten Bibelzitaten",
+                    "target": "配置插入的圣经引文的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Passe das Zitatformat mit Variablen an: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引用格式：{bibleRef}、{bibleRefLinked}、{quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the language for Bible references",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Moves the \"Link and open\" command to the top of the list",
+                    "target": "将“链接并打开”命令移至列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the current link text will be kept when converting Bible text",
+                    "target": "启用后，转换圣经文本时将保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, no language parameter is added to the link. Links will open in the language of the JW Library",
+                    "target": "启用后，链接中不添加语言参数。链接将以 JW Library 的语言打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, already-converted jwlibrary:// links will be reconverted according to current formatting settings. This allows you to update all links to match your latest preferences.",
+                    "target": "启用后，已转换的 jwlibrary:// 链接将根据当前格式设置重新转换。这可让你更新所有链接以匹配最新偏好。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose the length of the link text",
+                    "target": "选择链接文本的长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text to add before the link",
+                    "target": "在链接前添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text to add at the beginning of the link text",
+                    "target": "在链接文本开头添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text to add at the end of the link text",
+                    "target": "在链接文本末尾添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text to add after the link",
+                    "target": "链接后要添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose a preset style for the link",
+                    "target": "为链接选择预设样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose the font style for the link text",
+                    "target": "选择链接文本的字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configure how Bible quotes are formatted when inserted",
+                    "target": "配置插入时圣经引文的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Customize the quote format using variables: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引文格式：{bibleRef}、{bibleRefLinked}、{quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Selecciona el idioma para las referencias bíblicas",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mueve el comando \"Enlazar y abrir\" al principio de la lista",
+                    "target": "将“链接并打开”命令移到列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Si está activado, se conservará el texto actual del enlace al convertir textos bíblicos",
+                    "target": "若启用，在转换圣经文本时将保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Si está activado, no se añadirá ningún parámetro de idioma al enlace. Los enlaces se abrirán en el idioma correspondiente de JW Library",
+                    "target": "若启用，不会向链接添加任何语言参数。链接将在 JW Library 对应的语言中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Si está activado, los enlaces jwlibrary:// ya convertidos se reconvertirán según la configuración de formato actual. Esto permite actualizar todos los enlaces para que coincidan con tus preferencias más recientes.",
+                    "target": "若启用，已转换的 jwlibrary:// 链接将根据当前格式设置重新转换。这允许更新所有链接以符合你最新的偏好设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Elige la longitud del texto del enlace",
+                    "target": "选择链接文本的长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texto que se añade antes del enlace",
+                    "target": "添加在链接前的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texto que se añade al inicio del texto del enlace",
+                    "target": "添加在链接文本开头的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texto que se añade al final del texto del enlace",
+                    "target": "添加在链接文本末尾的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texto que se añade después del enlace",
+                    "target": "添加在链接后的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Elige un estilo predefinido para el enlace",
+                    "target": "为链接选择预设样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Elige el estilo de fuente para el texto del enlace",
+                    "target": "为链接文本选择字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configurar cómo se formatean las citas bíblicas cuando se insertan",
+                    "target": "配置插入时圣经引用的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Personaliza el formato de cita usando variables: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引用格式：{bibleRef}, {bibleRefLinked}, {quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Valitse kieli raamatunviitteille",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Siirtää \"Linkitä ja avaa\" -komennon listan kärkeen",
+                    "target": "将“链接并打开”命令移到列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kun tämä on käytössä, nykyinen linkkiteksti säilytetään, kun Raamatun tekstiä muunnetaan",
+                    "target": "启用后，在转换圣经文本时保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kun tämä on käytössä, linkkiin ei lisätä kieliparametria. Linkit avautuvat JW-kirjaston kielellä",
+                    "target": "启用后，链接不会添加语言参数。链接将以 JW 图书馆的语言打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kun tämä on käytössä, jo muunnetut jwlibrary:// linkit muunnetaan uudelleen nykyisten muotoiluasetusten mukaan. Tämä mahdollistaa kaikkien linkkien päivittämisen vastaamaan uusimpia asetuksia.",
+                    "target": "启用后，已转换的 jwlibrary:// 链接会根据当前格式设置重新转换。这可让所有链接更新为最新设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Valitse linkin tekstin pituus",
+                    "target": "选择链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Teksti, joka lisätään ennen linkkiä",
+                    "target": "添加在链接前的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Teksti, joka lisätään linkkitekstin alkuun",
+                    "target": "添加在链接文本开头的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Teksti, joka lisätään linkkitekstin loppuun",
+                    "target": "添加在链接文本末尾的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Teksti, joka lisätään linkin jälkeen",
+                    "target": "添加在链接后的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Valitse linkin tyyli",
+                    "target": "选择链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Valitse fonttityyli linkkitekstille",
+                    "target": "选择链接文本的字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Määritä miten raamatunlainaukset muotoillaan kun ne lisätään",
+                    "target": "设置添加时圣经引文的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mukauta lainausmuotoa muuttujilla: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引用格式：{bibleRef}、{bibleRefLinked}、{quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sélectionnez la langue pour les références bibliques",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Déplace la commande \"Lier et ouvrir\" en haut de la liste",
+                    "target": "将“链接并打开”命令移至列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lorsque activé, le texte actuel du lien sera conservé lors de la conversion du texte biblique",
+                    "target": "启用后，转换圣经文本时将保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lorsque activé, aucun paramètre de langue n'est ajouté au lien. Les liens s'ouvriront dans la langue de JW Library",
+                    "target": "启用后，链接中不会添加语言参数。链接将以 JW Library 的语言打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lorsque activé, les liens jwlibrary:// déjà convertis seront reconvertis selon les paramètres de formatage actuels. Cela vous permet de mettre à jour tous les liens pour correspondre à vos dernières préférences.",
+                    "target": "启用后，已转换的 jwlibrary:// 链接将根据当前格式设置重新转换。这可让你更新所有链接以匹配最新偏好。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choisissez la longueur du texte du lien",
+                    "target": "选择链接文本的长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texte à ajouter avant le lien",
+                    "target": "在链接前添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texte à ajouter au début du texte du lien",
+                    "target": "添加到链接文本开头的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texte à ajouter à la fin du texte du lien",
+                    "target": "添加到链接文本末尾的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texte à ajouter après le lien",
+                    "target": "添加到链接后的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choisissez un style prédéfini pour le lien",
+                    "target": "为链接选择预设样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choisissez le style de police pour le texte du lien",
+                    "target": "选择链接文本的字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configurez la façon dont les citations bibliques sont formatées lors de l'insertion",
+                    "target": "配置插入时圣经引用的格式方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Personnalisez le format de citation avec les variables : {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引用格式：{bibleRef}，{bibleRefLinked}，{quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odaberite jezik za biblijske reference",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pomiče naredbu \"Poveži i otvori\" na vrh popisa",
+                    "target": "将“链接并打开”命令移到列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kada je omogućeno, trenutni tekst linka bit će zadržan prilikom pretvaranja biblijskog teksta",
+                    "target": "启用后，转换圣经文本时将保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kada je omogućeno, jezični parametar se ne dodaje na link. Linkovi se otvaraju na jeziku JW Library aplikacije",
+                    "target": "启用后，不会在链接中添加语言参数。链接将以 JW Library 应用的语言打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odaberite duljinu teksta linka",
+                    "target": "选择链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst koji se dodaje prije linka",
+                    "target": "在链接前添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst koji se dodaje na početak teksta linka",
+                    "target": "添加到链接文本开头的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst koji se dodaje na kraj teksta linka",
+                    "target": "添加到链接文本末尾的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst koji se dodaje nakon linka",
+                    "target": "在链接后添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odaberite stilsku predložak za link",
+                    "target": "选择链接的样式模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odaberite stil fonta za tekst linka",
+                    "target": "选择链接文本的字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Konfigurirajte oblikovanje biblijskih citata prilikom umetanja",
+                    "target": "配置插入时的圣经引文格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Prilagodite format citata pomoću varijabli: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引文格式：{bibleRef}, {bibleRefLinked}, {quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "성경 참조를 위한 언어를 선택합니다",
+                    "target": "选择用于圣经参考的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\"링크하고 열기\" 명령을 목록의 맨 위로 이동합니다",
+                    "target": "将“链接并打开”命令移到列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 성경 텍스트를 변환할 때 현재 링크 텍스트가 유지됩니다",
+                    "target": "启用后，在转换圣经文本时将保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 링크에 언어 매개변수가 추가되지 않습니다. 링크는 JW Library의 언어로 열립니다",
+                    "target": "启用后，链接将不会添加语言参数。链接将以 JW Library 的语言打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "활성화하면 이미 변환된 jwlibrary:// 링크가 현재 형식 설정에 따라 재변환됩니다. 이를 통해 모든 링크를 최신 설정에 맞게 업데이트할 수 있습니다.",
+                    "target": "启用后，已转换的 jwlibrary:// 链接将根据当前格式设置重新转换。这样可以将所有链接更新为最新设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크 텍스트의 길이를 선택합니다",
+                    "target": "选择链接文本的长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크 앞, 뒤 또는 내부에 추가할 문자 또는 이모지, 글꼴 스타일을 선택합니다",
+                    "target": "选择要添加在链接前、后或内部的字符或表情符号、字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크 앞에 추가할 텍스트",
+                    "target": "添加在链接前的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크 텍스트 시작 부분에 추가할 텍스트",
+                    "target": "添加在链接文本开头的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크 텍스트 끝 부분에 추가할 텍스트",
+                    "target": "添加在链接文本末尾的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크 뒤에 추가할 텍스트",
+                    "target": "链接后要添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크에 대한 사전 설정 스타일을 선택합니다",
+                    "target": "选择链接的预设样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "링크 텍스트의 글꼴 스타일을 선택합니다",
+                    "target": "选择链接文本的字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "성경 인용문이 삽입될 때의 형식을 구성합니다",
+                    "target": "配置插入圣经引文时的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "변수를 사용하여 인용문 형식을 사용자 정의하세요: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引文格式：{bibleRef}、{bibleRefLinked}、{quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kies de taal voor de bijbelverwijzingen",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Verplaatst het commando \"Link en openen\" naar de bovenkant van de lijst",
+                    "target": "将“链接并打开”命令移到列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indien ingeschakeld, wordt de huidige linktekst behouden bij het converteren van bijbelteksten",
+                    "target": "启用后，在转换圣经文本时会保留当前链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indien ingeschakeld, worden geen taalparameters toegevoegd aan het einde van een link. Links worden geopend in de taal van de JW Library",
+                    "target": "启用后，链接末尾不会添加语言参数。链接将以 JW Library 的语言打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indien ingeschakeld, worden reeds geconverteerde jwlibrary:// links opnieuw geconverteerd volgens de huidige opmaak-instellingen. Dit maakt het mogelijk om alle links bij te werken naar je nieuwste voorkeuren.",
+                    "target": "启用后，已转换的 jwlibrary:// 链接将按当前格式设置重新转换。这样可以将所有链接更新为你的最新偏好。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kies de lengte van de linktekst",
+                    "target": "选择链接文本的长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst die voor de link wordt toegevoegd",
+                    "target": "添加在链接前的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst die aan het begin van de linktekst wordt toegevoegd",
+                    "target": "添加在链接文本开头的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst die aan het einde van de linktekst wordt toegevoegd",
+                    "target": "添加在链接文本末尾的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tekst die na de link wordt toegevoegd",
+                    "target": "添加在链接后的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kies een stijlsjabloon voor de link",
+                    "target": "为链接选择样式模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kies de tekststijl voor de linktekst",
+                    "target": "选择链接文本的文字样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configureer hoe bijbelcitaten worden geformatteerd wanneer ze worden ingevoegd",
+                    "target": "配置插入时圣经引文的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pas het citaatformaat aan met variabelen: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引文格式：{bibleRef}, {bibleRefLinked}, {quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Selecione o idioma para as referências da Bíblia",
+                    "target": "选择圣经引用的语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Move o comando \"Criar hiperligação e abrir\" para o topo da lista",
+                    "target": "将“创建超链接并打开”命令移到列表顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Quando ativo, o texto atual será mantido ao converter textos bíblicos",
+                    "target": "启用后，转换圣经文本时将保留当前文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Quando ativado, as hiperligações jwlibrary:// já convertidas serão reconvertidas de acordo com as configurações de formatação atuais. Isso permite atualizar todas as hiperligações para corresponder às suas preferências mais recentes.",
+                    "target": "启用后，已转换的 jwlibrary:// 超链接将根据当前格式设置重新转换。这允许更新所有超链接以匹配你最新的偏好。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Escolha o comprimento do texto do livro bíblico na hiperligação",
+                    "target": "选择超链接中圣经书卷文本的长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texto a adicionar antes da hiperligação",
+                    "target": "在超链接前添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": " Texto a adicionar no início do texto da hiperligação",
+                    "target": " 在超链接文本开头添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texto a adicionar no final do texto da hiperligação",
+                    "target": "在超链接文本末尾添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Texto a adicionar após a hiperligação",
+                    "target": "在超链接后添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Escolha um estilo predefinido para as hiperligações",
+                    "target": "为超链接选择预设样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Escolha o estilo da fonte para o texto da hiperligação",
+                    "target": "选择超链接文本的字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configure o formato das citações bíblicas inseridas",
+                    "target": "配置插入的圣经引用格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Personalize o formato da citação usando variáveis: {bibleRef}, {bibleRefLinked}, {quote}",
+                    "target": "使用变量自定义引用格式：{bibleRef}、{bibleRefLinked}、{quote}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid verse ranges",
+                    "target": "无效的经文范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Links automatisch öffnen",
+                    "target": "自动打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linktext beibehalten",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Links sprachunabhängig erstellen",
+                    "target": "创建与语言无关的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bestehende Links erneut konvertieren",
+                    "target": "重新转换现有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linktext-Länge",
+                    "target": "链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Präfix außerhalb des Links",
+                    "target": "链接外的前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Präfix innerhalb des Links",
+                    "target": "链接内的前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suffix innerhalb des Links",
+                    "target": "链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suffix außerhalb des Links",
+                    "target": "链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link Vorschau",
+                    "target": "链接预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open links automatically",
+                    "target": "自动打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keep link text",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create links language independent",
+                    "target": "创建与语言无关的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reconvert existing links",
+                    "target": "重新转换现有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link text length",
+                    "target": "链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link styling",
+                    "target": "链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefix outside link",
+                    "target": "链接外前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefix inside link",
+                    "target": "链接内前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suffix inside link",
+                    "target": "链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suffix outside link",
+                    "target": "链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Style presets",
+                    "target": "样式预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font style",
+                    "target": "字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link preview",
+                    "target": "链接预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bible quote formatting",
+                    "target": "圣经引用格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bible quote preview",
+                    "target": "圣经引用预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abrir enlaces automáticamente",
+                    "target": "自动打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Conservar texto del enlace",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crear enlaces sin idioma específico",
+                    "target": "创建无特定语言的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reconvertir enlaces existentes",
+                    "target": "重新转换现有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Longitud del texto del enlace",
+                    "target": "链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Estilo del enlace",
+                    "target": "链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefijo fuera del enlace",
+                    "target": "链接外前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefijo dentro del enlace",
+                    "target": "链接内前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sufijo dentro del enlace",
+                    "target": "链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sufijo fuera del enlace",
+                    "target": "链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Estilos predefinidos",
+                    "target": "预定义样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Estilo de fuente",
+                    "target": "字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vista previa del enlace",
+                    "target": "链接预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Formato de Citas Bíblicas",
+                    "target": "圣经引文格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plantillas predefinidas",
+                    "target": "预定义模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plantilla de cita",
+                    "target": "引文模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vista Previa de Cita Bíblica",
+                    "target": "圣经引文预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Avaa linkit automaattisesti",
+                    "target": "自动打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Säilytä linkkiteksti",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Luo linkit kielestä riippumattomiksi",
+                    "target": "生成与语言无关的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linkin tekstin pituus",
+                    "target": "链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linkin tyyli",
+                    "target": "链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Etuliite linkin ulkopuolella",
+                    "target": "链接外前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Etuliite linkin sisällä",
+                    "target": "链接内前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jälkiliite linkin sisällä",
+                    "target": "链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jälkiliite linkin ulkopuolella",
+                    "target": "链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linkin esikatselu",
+                    "target": "链接预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Raamatunlainauksen Muotoilu",
+                    "target": "圣经引用格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Raamatunlainauksen Esikatselu",
+                    "target": "圣经引用预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Conserver le texte du lien",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Créer des liens indépendants de la langue",
+                    "target": "创建与语言无关的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reconvertir les liens existants",
+                    "target": "重新转换现有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Longueur du texte du lien",
+                    "target": "链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Style du lien",
+                    "target": "链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Préfixe en dehors du lien",
+                    "target": "链接外前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Préfixe à l'intérieur du lien",
+                    "target": "链接内前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suffixe à l'intérieur du lien",
+                    "target": "链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suffixe en dehors du lien",
+                    "target": "链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Préréglages de style",
+                    "target": "样式预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Style de police",
+                    "target": "字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aperçu du lien",
+                    "target": "链接预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Formatage des citations bibliques",
+                    "target": "圣经引用格式化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Préréglages de modèle",
+                    "target": "模板预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modèle de citation",
+                    "target": "引文模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aperçu de la citation biblique",
+                    "target": "圣经引文预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Automatski otvori linkove",
+                    "target": "自动打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zadrži tekst linka",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Izradi linkove neovisno o jeziku",
+                    "target": "不依赖语言创建链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ponovno pretvori postojeće linkove",
+                    "target": "重新转换现有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Duljina teksta linka",
+                    "target": "链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stil linka",
+                    "target": "链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefiks izvan linka",
+                    "target": "链接外前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefiks unutar linka",
+                    "target": "链接内前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sufiks unutar linka",
+                    "target": "链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sufiks izvan linka",
+                    "target": "链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stilske predloške",
+                    "target": "样式模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stil fonta",
+                    "target": "字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pregled linka",
+                    "target": "链接预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Oblikovanje biblijskog citata",
+                    "target": "圣经引用格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Predlošci predložaka",
+                    "target": "模板模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Predložak citata",
+                    "target": "引用模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pregled biblijskog citata",
+                    "target": "圣经引用预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "언어",
+                    "target": "语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 자동 열기",
+                    "target": "自动打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 텍스트 유지",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크를 언어 독립적으로 생성",
+                    "target": "以语言无关方式生成链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "기존 링크 재변환",
+                    "target": "重新转换现有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 텍스트 길이",
+                    "target": "链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 스타일",
+                    "target": "链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 외부 접두사",
+                    "target": "外部链接前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 내부 접두사",
+                    "target": "内部链接前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 내부 접미사",
+                    "target": "内部链接后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 외부 접미사",
+                    "target": "链接外部后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "스타일 프리셋",
+                    "target": "样式预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "글꼴 스타일",
+                    "target": "字体样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "링크 미리보기",
+                    "target": "链接预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "성경 인용문 형식",
+                    "target": "圣经引用格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "템플릿 프리셋",
+                    "target": "模板预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "인용문 템플릿",
+                    "target": "引用模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "성경 인용문 미리보기",
+                    "target": "圣经引用预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Links automatisch openen",
+                    "target": "自动打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linktekst behouden",
+                    "target": "保留链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Links taalonafhankelijk maken",
+                    "target": "使链接与语言无关"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bestaande links opnieuw converteren",
+                    "target": "重新转换现有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Voorvoegsel buiten de link",
+                    "target": "链接外前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Voorvoegsel binnen de link",
+                    "target": "链接内前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Achtervoegsel binnen de link",
+                    "target": "链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Achtervoegsel buiten de link",
+                    "target": "链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tekst stijl",
+                    "target": "文本样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bijbelcitaat Formattering",
+                    "target": "圣经引用格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bijbelcitaat Voorbeeld",
+                    "target": "圣经引用示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abrir automaticamente hiperligações da JW Library",
+                    "target": "自动打开 JW Library 的超链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manter o texto da hiperligação",
+                    "target": "保留超链接文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Criar hiperligações independente de idioma",
+                    "target": "创建与语言无关的超链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reconverter hiperligações existentes",
+                    "target": "重新转换现有超链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Comprimento do texto da hiperligação do livro bíblico",
+                    "target": "圣经书卷超链接文本长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Estilos de hiperligação",
+                    "target": "超链接样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefixo fora da hiperligação",
+                    "target": "超链接外前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prefixo dentro da hiperligação",
+                    "target": "超链接内前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sufixo dentro da hiperligação",
+                    "target": "超链接内后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sufixo fora da hiperligação",
+                    "target": "超链接外后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pré-visualização do estilo da hiperligação",
+                    "target": "超链接样式预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Foramato da citação bíblica",
+                    "target": "圣经引用格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Predefinições de modelo",
+                    "target": "模板预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modelo de citação",
+                    "target": "引用模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pré-visualização da citação bíblica",
+                    "target": "圣经引用预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Unable to extract Bible text - no verse ranges",
+                    "target": "无法提取圣经文本 - 没有经文范围"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
