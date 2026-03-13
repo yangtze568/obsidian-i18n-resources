@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "unit-converter",
+        "version": "1.0.0",
+        "title": "Unit Converter",
+        "description": "Unit Converter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting descriptive name:",
+                    "target": "获取描述性名称时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Conversion error:",
+                    "target": "转换错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display full unit names (e.g., \"kilometers\" instead of \"km\")",
+                    "target": "显示完整单位名称（例如，用“kilometers”而不是“km”）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable autosuggest for destination units",
+                    "target": "启用或禁用目标单位的自动建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to display the original entered value in addition to the converted one",
+                    "target": "启用后在转换值之外显示原始输入值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use descriptive unit names",
+                    "target": "使用描述性单位名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "To Unit Autosuggest",
+                    "target": "目标单位自动建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Original Units",
+                    "target": "显示原始单位"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "From Unit",
+                    "target": "起始单位"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "To Unit",
+                    "target": "目标单位"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter a number",
+                    "target": "输入数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert units",
+                    "target": "单位转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Convert units",
+                    "target": "单位转换"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
