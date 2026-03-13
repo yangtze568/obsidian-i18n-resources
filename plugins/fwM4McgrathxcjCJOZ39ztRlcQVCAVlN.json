@@ -1,0 +1,487 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "misskey-connector",
+        "version": "1.0.0",
+        "title": "Misskey Connector",
+        "description": "Misskey Connector Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的配置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 完成后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: 未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next 已经初始化。你只应调用 init 一次！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next 未初始化"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "アクセストークンが設定されていません。設定画面から設定してください。",
+                    "target": "未设置访问令牌。请在设置页面进行设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the account you want to use.",
+                    "target": "选择你要使用的账户。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, images are converted to WebP format and uploaded. At the same time, the image quality is reduced, so you can expect to save drive space.",
+                    "target": "启用后，图片会转换为 WebP 格式并上传。同时图像质量会降低，因此可节省存储空间。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The character used as a separator when posting multiple lines of text to Misskey. Use \\n to represent a line break.",
+                    "target": "向 Misskey 发布多行文本时用作分隔符的字符。使用 \\n 表示换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add a new account.",
+                    "target": "添加新账户。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "You are currently using this account",
+                    "target": "你当前正在使用此账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use this account for posting.",
+                    "target": "使用此账户发帖。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Please enter your Misskey domain. This is the part of `https://misskey.io/@username` that is `misskey.io`.",
+                    "target": "请输入你的 Misskey 域名。这是 `https://misskey.io/@username` 中的 `misskey.io` 部分。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enter the text to add before posting. Use \\n to represent a line break.",
+                    "target": "输入发帖前要添加的文本。使用 \\n 表示换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enter the text to add after posting. Use \\n to represent a line break.",
+                    "target": "输入发帖后要添加的文本。使用 \\n 表示换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When turned on, the file name displayed in Misskey will be the time of posting, so you can hide the Vault file name. It does not affect the Vault file name.",
+                    "target": "开启后，Misskey 中显示的文件名将为发帖时间，从而隐藏 Vault 文件名。不会影响 Vault 文件名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the visibility of the post. Direct is not supported.",
+                    "target": "选择帖子的可见性。不支持 Direct。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enter a list of files allowed to be uploaded separated by commas.",
+                    "target": "输入允许上传的文件列表，用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use this when you first start up or accidentally delete your API key. Do not press this button if the setting is complete.",
+                    "target": "在首次启动或意外删除 API 密钥时使用此项。设置完成后请勿点击此按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When executed, all settings of the account registered in Obsidian will be deleted. No effect on Misskey",
+                    "target": "执行后，将删除在 Obsidian 中注册的账户的所有设置。对 Misskey 无影响"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "投稿するアカウントを選択してください。",
+                    "target": "请选择要投稿的账号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると画像をWebP形式に変換してアップロードします。同時に画像の品質も落とすためドライブ容量の節約が期待できます。",
+                    "target": "启用后会将图片转换为 WebP 格式并上传。同时也会降低图片质量，因此可期待节省驱动器容量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "複数行のテキストをMisskeyに投稿する際の区切り文字に使う文字。改行は\\nで表してください。",
+                    "target": "将多行文本投稿到 Misskey 时用作分隔符的字符。换行请用\\n表示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アカウントを追加する",
+                    "target": "添加账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "現在このアカウントを使用しています",
+                    "target": "当前正在使用此账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "このアカウントを使用して投稿します。",
+                    "target": "使用此账号投稿。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "プログラムからは使いません。アカウントがなんのアカウントかをメモしておくための項目です。",
+                    "target": "程序不会使用此项。这是用于备注该账号是什么账号的项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Misskeyのドメインを入力してください。`https://misskey.io/@username`の`misskey.io`の部分です。",
+                    "target": "请输入 Misskey 的域名。是 `https://misskey.io/@username` 中的 `misskey.io` 部分。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "投稿の前部分に追加する文章を入力してください。改行は \\n で表してください。",
+                    "target": "请输入要添加到投稿前部的文字。换行请用 \\n 表示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "投稿の後部分に追加する文章を入力してください。改行は \\n で表してください。",
+                    "target": "请输入要追加在投稿后面的文字。换行请用 \\n 表示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "オンにするとMisskeyで表示されるファイル名が投稿時の時間になるため、Vaultのファイル名を隠せます。Vaultのファイル名には影響しません。",
+                    "target": "开启后，Misskey 上显示的文件名会变为投稿时间，因此可以隐藏 Vault 的文件名。不影响 Vault 的文件名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "投稿の公開範囲を選択してください。ダイレクトはサポートされていません。",
+                    "target": "请选择投稿的公开范围。不支持私信。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アップロードを許可するファイルのリストをカンマ(,)で区切って入力してください。",
+                    "target": "请输入允许上传的文件列表，用逗号(,)分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "投稿の埋め込みにHTMLを使うのが嫌な方はMarkdown形式を選択することができます。Markdown形式は動画などのプレビューが効きません。",
+                    "target": "如果不想在投稿嵌入中使用 HTML，可以选择 Markdown 格式。Markdown 格式无法预览视频等内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "初回起動時、もしくはAPIキーを誤って削除してしまった場合に使用します。設定が完了している場合は押さないでください。",
+                    "target": "用于首次启动时，或误删 API 密钥时。如果已完成设置，请勿点击。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "実行するとObsidianに登録されたアカウントの設定が全て消えます。Misskeyには影響しません。",
+                    "target": "执行后，Obsidian 中已注册账号的设置会全部清除。不影响 Misskey。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select Account",
+                    "target": "选择账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert images to WebP",
+                    "target": "将图片转换为 WebP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Separator character for multi-line posting",
+                    "target": "多行投稿的分隔字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Account",
+                    "target": "添加账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use this account",
+                    "target": "使用此账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text to add before posting",
+                    "target": "发布前添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text to add after posting",
+                    "target": "发布后添加的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide file name",
+                    "target": "隐藏文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List of files allowed to be uploaded",
+                    "target": "允许上传的文件列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate (or regenerate) access token",
+                    "target": "生成（或重新生成）访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete Account from Obsidian",
+                    "target": "从 Obsidian 删除账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アカウントを選択",
+                    "target": "选择账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "画像をWebPに変換する",
+                    "target": "将图片转换为 WebP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "複数行投稿の際に使用する区切り文字",
+                    "target": "多行投稿时使用的分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アカウントを追加",
+                    "target": "添加账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アカウント",
+                    "target": "账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "このアカウントを使用",
+                    "target": "使用此账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "メモ",
+                    "target": "备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ドメイン",
+                    "target": "域名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "投稿の前部分",
+                    "target": "投稿前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "投稿の後部分",
+                    "target": "投稿后缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ファイル名を秘密にする",
+                    "target": "隐藏文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "公開範囲",
+                    "target": "公开范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アップロードを許可するファイルのリスト",
+                    "target": "允许上传的文件列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "埋め込み形式",
+                    "target": "嵌入格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アクセストークンを(再)生成する",
+                    "target": "(重新)生成访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obsidianからアカウントを削除",
+                    "target": "从 Obsidian 删除账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Post the current line to Misskey",
+                    "target": "将当前行发布到 Misskey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Post the current section to Misskey",
+                    "target": "将当前段落发布到 Misskey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g. \\n\\n",
+                    "target": "例如 \\n\\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g. Account I usually use",
+                    "target": "例如 我常用的账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g. misskey.io",
+                    "target": "例如 misskey.io"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g. Posting from Obsidian\\n",
+                    "target": "例如 从 Obsidian 发布\\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g. \\nPosted from Obsidian.",
+                    "target": "例如 \\n由 Obsidian 发布。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g. png, jpg, jpeg",
+                    "target": "例如 png, jpg, jpeg"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例) \\n\\n",
+                    "target": "例) \\n\\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例) 普段使ってるアカウント",
+                    "target": "例) 常用账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例) misskey.io",
+                    "target": "例) misskey.io"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例) #メモ\\n",
+                    "target": "例) #备忘\\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例) \\n以上Obsidianから投稿しました。",
+                    "target": "例) \\n以上由 Obsidian 发布。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例) png, jpg, jpeg",
+                    "target": "例) png, jpg, jpeg"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
