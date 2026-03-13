@@ -1,0 +1,223 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "emacs-text-editor",
+        "version": "1.0.0",
+        "title": "Emacs text editor",
+        "description": "Emacs text editor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Key move function error:",
+                    "target": "按键移动功能错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Key repeat interval error:",
+                    "target": "按键重复间隔错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable key repeat",
+                    "target": "启用按键重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initial delay",
+                    "target": "初始延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repeat interval",
+                    "target": "重复间隔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Forward char",
+                    "target": "向前字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backward char",
+                    "target": "向后字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next line",
+                    "target": "下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Previous line",
+                    "target": "上一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Forward word",
+                    "target": "向前单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backward word",
+                    "target": "向后一个词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move end of line",
+                    "target": "移到行尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor to beginning of line",
+                    "target": "移动光标到行首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beginning of buffer",
+                    "target": "缓冲区开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "End of buffer",
+                    "target": "缓冲区末尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kill line",
+                    "target": "剪切行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete char",
+                    "target": "删除字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kill word",
+                    "target": "剪切单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backward kill word",
+                    "target": "向后剪切单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kill ring save",
+                    "target": "保存到剪切环"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kill region",
+                    "target": "删除区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set mark command",
+                    "target": "设置标记命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Forward paragraph",
+                    "target": "前进段落"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backward paragraph",
+                    "target": "后退段落"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upcase word",
+                    "target": "单词大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Downcase word",
+                    "target": "单词小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Capitalize word",
+                    "target": "单词首字母大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upcase region",
+                    "target": "区域大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Downcase region",
+                    "target": "区域小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Capitalize region",
+                    "target": "区域首字母大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upcase dwim",
+                    "target": "智能转大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Downcase dwim",
+                    "target": "智能转小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Capitalize dwim",
+                    "target": "智能转首字母大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quick Presets",
+                    "target": "快速预设"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
