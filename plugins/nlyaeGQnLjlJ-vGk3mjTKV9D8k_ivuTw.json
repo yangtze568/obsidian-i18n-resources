@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "source-scanner",
+        "version": "1.0.0",
+        "title": "Source Scanner",
+        "description": "Source Scanner Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": "Sample Editor Command",
+                    "target": "示例编辑器命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "SELECT APPLICATION PATH",
+                    "target": "选择应用程序路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "SELECT UNIT TEST PATH",
+                    "target": "选择单元测试路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Please shutdown the scanner before updating the settings",
+                    "target": "更新设置前请关闭扫描器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to document workspace relative from vault",
+                    "target": "相对于存储库的文档工作区路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Type of application",
+                    "target": "应用程序类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Activation interval in ms",
+                    "target": "激活间隔（毫秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of source files to process at a time",
+                    "target": "每次处理的源文件数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scanner is running",
+                    "target": "扫描器正在运行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Application Path",
+                    "target": "应用程序路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Test Path",
+                    "target": "测试路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Documentation Path",
+                    "target": "文档路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Application type",
+                    "target": "应用类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Activation interval",
+                    "target": "激活间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of source files to process",
+                    "target": "要处理的源文件数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the documentation path",
+                    "target": "输入文档路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the activation interval",
+                    "target": "输入激活间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the source file processing count",
+                    "target": "输入源文件处理数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Comment scanner OFF",
+                    "target": "注释扫描器 关"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Comment scanner ON",
+                    "target": "注释扫描器 开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Status Bar Text",
+                    "target": "状态栏文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Woah!",
+                    "target": "哇哦！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please configure solution scanner portion before using it.",
+                    "target": "请在使用前配置解决方案扫描器部分。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create solution files",
+                    "target": "创建解决方案文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create marker table",
+                    "target": "创建标记表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sample editor command",
+                    "target": "示例编辑器命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open sample modal (complex)",
+                    "target": "打开示例模态框（复杂）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
