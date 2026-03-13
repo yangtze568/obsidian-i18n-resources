@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "global-markdown-encrypt",
+        "version": "1.0.0",
+        "title": "Global Markdown Encryption",
+        "description": "Global Markdown Encryption Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Salt for PBKDF2: restart to take effect",
+                    "target": "PBKDF2 的盐值：重启后生效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "IE <= 10 uses insecure random generator. Please consider to use IE11 or another modern browser",
+                    "target": "IE <= 10 使用不安全的随机生成器。请考虑使用 IE11 或其他现代浏览器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "unsupported: reading or unencrypted mode",
+                    "target": "不支持：读取或未加密模式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "unsupported: reading mode",
+                    "target": "不支持：读取模式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "unsupported: 1 file with multiple tabs",
+                    "target": "不支持：一个文件含多个标签页"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "decryption failed: invalid password",
+                    "target": "解密失败：密码无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "note encryption password",
+                    "target": "记录加密密码"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
