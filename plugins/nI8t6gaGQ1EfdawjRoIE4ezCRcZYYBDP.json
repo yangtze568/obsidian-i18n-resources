@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "data-entry",
+        "version": "1.0.0",
+        "title": "Data Entry",
+        "description": "Data Entry Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "9.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Data Entry",
+                    "target": "数据录入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，参见 addKeyword 文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "将 keywords 选项作为 map 已弃用，请传数组"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File has been saved!",
+                    "target": "文件已保存！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "pagination navigation",
+                    "target": "分页导航"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Clear input field",
+                    "target": "清空输入字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to constant",
+                    "target": "必须等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to one of the allowed values",
+                    "target": "必须等于允许值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "property name must be valid",
+                    "target": "属性名必须有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have additional properties",
+                    "target": "不得有额外属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT be valid",
+                    "target": "必须无效"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
