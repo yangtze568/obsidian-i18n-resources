@@ -1,0 +1,49 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "emoji-shortcodes",
+        "version": "1.0.0",
+        "title": "Emoji Shortcodes",
+        "description": "Emoji Shortcodes Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "outerHTML",
+                    "source": "<a href=\"https://ko-fi.com/phibr0\"><img src=\"https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11e22d8ff4a5b4a1b3346_Supportbutton-1.png\"></a>",
+                    "target": "<a href=\"https://ko-fi.com/phibr0\"><img src=\"https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11e22d8ff4a5b4a1b3346_Supportbutton-1.png\"></a>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you like this Plugin, consider donating to support continued development:",
+                    "target": "如果你喜欢这个插件，请考虑捐助以支持持续开发："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use History Priority",
+                    "target": "使用历史优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "History Limit",
+                    "target": "历史记录限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear History",
+                    "target": "清除历史记录"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
