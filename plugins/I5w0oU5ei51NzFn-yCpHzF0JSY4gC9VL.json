@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quail",
+        "version": "1.0.0",
+        "title": "Quaily",
+        "description": "Quaily Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.15",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[quailjs.request] client error",
+                    "target": "[quailjs.request] 客户端错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "quaily.loadActions: no actions found",
+                    "target": "quaily.loadActions: 未找到操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "quaily.login: oauth flow error:",
+                    "target": "quaily.login: oauth 流程错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "quaily.refreshToken: refresh token flow error:",
+                    "target": "quaily.refreshToken: 刷新令牌流程错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.replaceImageUrls: the number of old and new urls do not match, return original content",
+                    "target": "quaily.replaceImageUrls: 旧 URL 与新 URL 数量不匹配，返回原内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.replaceImageUrls: ignore image",
+                    "target": "quaily.replaceImageUrls: 忽略图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.replaceImageUrls:ignore image",
+                    "target": "quaily.replaceImageUrls:忽略图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.upload image error: ",
+                    "target": "quaily.upload image error: 上传图片错误: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.upload cover error: ",
+                    "target": "quaily.upload cover error: 上传封面错误: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "- headers",
+                    "target": "- 头信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "- body",
+                    "target": "- 正文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.login: oauth flow start",
+                    "target": "quaily.login: oauth 流程开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.login: token expiry:",
+                    "target": "quaily.login: token 过期时间："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.refreshToken: refresh flow start",
+                    "target": "quaily.refreshToken: 刷新流程开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.refreshToken: access token expiry:",
+                    "target": "quaily.refreshToken: access token 过期时间："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.clearTokens: clear tokens",
+                    "target": "quaily.clearTokens: 清除 tokens"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.updateToken: token expired, clear tokens",
+                    "target": "quaily.updateToken: token 已过期，清除 tokens"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.updateToken: token expired, refresh token",
+                    "target": "quaily.updateToken: token 已过期，刷新 token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.updateToken: token is still valid, nothing to do",
+                    "target": "quaily.updateToken: token 仍然有效，无需操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "quaily.updateToken: no token found, clear tokens",
+                    "target": "quaily.updateToken: 未找到 token，清除 tokens"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "expire token",
+                    "target": "令牌过期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dialog Test",
+                    "target": "对话框测试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file",
+                    "target": "没有活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save post or get post details",
+                    "target": "保存文章或获取文章详情失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Save, publish, delivery notes via Quaily.com as newsletters and blogs.",
+                    "target": "通过 Quaily.com 保存、发布并投递说明为新闻简报和博客。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "This is a test message.",
+                    "target": "这是一条测试消息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your settings here...",
+                    "target": "在此输入你的设置..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "This is a test summary. The gray fox jumps over the lazy dog.",
+                    "target": "这是测试摘要。灰色的狐狸跳过了懒狗。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "This is a test title",
+                    "target": "这是测试标题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
