@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-plugin-prettier",
+        "version": "1.0.0",
+        "title": "Prettier Format",
+        "description": "Prettier Format Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Load Prettier Format plugin",
+                    "target": "加载 Prettier Format 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, format the current note when you save the file via hotkey",
+                    "target": "启用后，通过热键保存文件时格式化当前笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, format the code block(just support js, html)",
+                    "target": "启用后，格式化代码块（仅支持 js、html）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Format on Save",
+                    "target": "保存时格式化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Format code block",
+                    "target": "格式化代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No parser and no filepath given, using 'babel' the parser now but this will throw an error in the future. Please specify a parser or a filepath so one can be inferred.",
+                    "target": "未提供解析器和文件路径，现使用“babel”解析器，但未来将报错。请指定解析器或文件路径以便推断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Prettier is an opinionated code formatter",
+                    "target": "Prettier 是一款有明确风格主张的代码格式化工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which end of line characters to apply.",
+                    "target": "应用哪种行尾字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Line Feed only (\\n), common on Linux and macOS as well as inside git repos",
+                    "target": "仅换行符（\\n），常见于 Linux 和 macOS，以及 git 仓库中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return + Line Feed characters (\\r\\n), common on Windows",
+                    "target": "回车符 + 换行符（\\r\\n），常见于 Windows"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return character only (\\r), used very rarely",
+                    "target": "仅回车字符（\\r），很少使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Specify the input filepath. This will be used to do parser inference.",
+                    "target": "指定输入文件路径。这将用于解析器推断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Insert @format pragma into file's first docblock comment.",
+                    "target": "将 @format 指示符插入到文件的第一个文档块注释中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which parser to use.",
+                    "target": "使用哪个解析器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web Components"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add a plugin. Multiple plugins can be passed as separate `--plugin`s.",
+                    "target": "添加插件。可通过多个独立的 `--plugin` 传入多个插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The line length where Prettier will try wrap.",
+                    "target": "Prettier 尝试换行的行长度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number of spaces per indentation level.",
+                    "target": "每级缩进的空格数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent with tabs instead of spaces.",
+                    "target": "使用制表符缩进而不是空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print spaces between brackets.",
+                    "target": "在括号之间输出空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes instead of double quotes.",
+                    "target": "使用单引号代替双引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to wrap prose.",
+                    "target": "如何换行文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose if it exceeds the print width.",
+                    "target": "当文本超过打印宽度时换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not wrap prose.",
+                    "target": "不对文本换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose as-is.",
+                    "target": "按原样对文本换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Include parentheses around a sole arrow function parameter.",
+                    "target": "为唯一的箭头函数参数添加括号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Always include parens. Example: `(x) => x`",
+                    "target": "始终包含括号。示例：`(x) => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Omit parens when possible. Example: `x => x`",
+                    "target": "尽可能省略括号。示例：`x => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > on the last line instead of at a new line.",
+                    "target": "将 > 放在最后一行，而不是另起一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes in JSX.",
+                    "target": "在 JSX 中使用单引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Change when properties in objects are quoted.",
+                    "target": "更改对象属性何时加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Only add quotes around object properties where required.",
+                    "target": "仅在需要时为对象属性加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If at least one property in an object requires quotes, quote all properties.",
+                    "target": "如果对象中至少一个属性需要引号，则为所有属性加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the input use of quotes in object properties.",
+                    "target": "遵循输入中对象属性引号的用法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print trailing commas wherever possible when multi-line.",
+                    "target": "多行时尽可能输出尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas where valid in ES5 (objects, arrays, etc.)",
+                    "target": "在 ES5 允许的地方使用尾随逗号（对象、数组等）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No trailing commas.",
+                    "target": "不使用尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas wherever possible (including function arguments).",
+                    "target": "尽可能使用尾随逗号（包括函数参数）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to handle whitespaces in HTML.",
+                    "target": "如何处理 HTML 中的空白。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the default value of CSS display property.",
+                    "target": "遵循 CSS display 属性的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered sensitive.",
+                    "target": "空白字符被视为敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered insensitive.",
+                    "target": "空白字符被视为不敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent script and style tags in Vue files.",
+                    "target": "在 Vue 文件中缩进 script 和 style 标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JSON with Comments",
+                    "target": "带注释的 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web 组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format the entire note",
+                    "target": "格式化整个笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format the just the selection in the note",
+                    "target": "仅格式化笔记中的选定内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Prettier Format - Settings",
+                    "target": "Prettier 格式化 - 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
