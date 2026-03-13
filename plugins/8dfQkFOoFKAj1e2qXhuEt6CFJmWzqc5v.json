@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-enhancing-export",
+        "version": "1.0.0",
+        "title": "Enhancing Export",
+        "description": "Enhancing Export Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.11.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[obsidian-enhancing-export] saveSettings",
+                    "target": "[obsidian-enhancing-export] saveSettings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown (Hugo)",
+                    "target": "Markdown (Hugo)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Word (.docx)",
+                    "target": "Word (.docx)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Media Wiki",
+                    "target": "Media Wiki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PowerPoint (.pptx)",
+                    "target": "PowerPoint (.pptx)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Название",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "导出设置",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Export Settings",
+                    "target": "导出设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
