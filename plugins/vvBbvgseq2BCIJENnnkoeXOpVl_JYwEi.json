@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsnippets",
+        "version": "1.0.0",
+        "title": "Snippetsaurus",
+        "description": "Snippetsaurus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loaded snippets:",
+                    "target": "已加载片段："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Name of snippet",
+                    "target": "片段名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Type of snippet",
+                    "target": "片段类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Snippet content",
+                    "target": "片段内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Code language",
+                    "target": "代码语言"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please fill in all required fields!",
+                    "target": "请填写所有必填字段！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create a snippet",
+                    "target": "创建片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert in note and manage snippets",
+                    "target": "在笔记中插入并管理片段"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
