@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "imdone-obsidian-plugin",
+        "version": "1.0.0",
+        "title": "Open cards in imdone",
+        "description": "Open cards in imdone Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Editor not found",
+                    "target": "未找到编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening file or setting cursor:",
+                    "target": "打开文件或设置光标时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching tags:",
+                    "target": "获取标签时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error reading line",
+                    "target": "读取行时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Imdone Companion Plugin",
+                    "target": "正在加载 Imdone Companion 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Imdone Companion Plugin",
+                    "target": "正在卸载 Imdone Companion 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sync call",
+                    "target": "同步调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid action or path:",
+                    "target": "无效的操作或路径："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active markdown file.",
+                    "target": "没有活动的 Markdown 文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "apex class",
+                    "target": "Apex 类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "apex trigger",
+                    "target": "Apex 触发器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "visualforce page",
+                    "target": "Visualforce 页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "visualforce component",
+                    "target": "Visualforce 组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "lightning component",
+                    "target": "Lightning 组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "vue component",
+                    "target": "Vue 组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "yarn lock",
+                    "target": "Yarn 锁定文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Imdone Card",
+                    "target": "打开 Imdone 卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh TODO Sections",
+                    "target": "刷新 TODO 区块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
