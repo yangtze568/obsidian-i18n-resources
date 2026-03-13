@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-filename-heading-sync",
+        "version": "1.0.0",
+        "title": "Filename Heading Sync",
+        "description": "Filename Heading Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.11.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Characters or strings to strip from the heading when generating the filename. Separated by commas. This input is space sensitive.",
+                    "target": "生成文件名时要从标题中剔除的字符或字符串。用逗号分隔。此输入区分空格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ignore rule in RegEx format. All files listed below will get ignored by this plugin.",
+                    "target": "以正则表达式格式设置忽略规则。以下列出的所有文件都会被此插件忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether this plugin should trigger when a file is opened, and not just on save. Disable this when you notice conflicts with other plugins that also act on file open.",
+                    "target": "是否在打开文件时触发该插件，而不仅在保存时触发。当你发现与其他也在打开文件时起作用的插件冲突时，请禁用此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether this plugin should trigger when a file is saved. Disable this when you want to trigger sync only manually.",
+                    "target": "是否在保存文件时触发该插件。当你只想手动触发同步时，请禁用此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which Markdown heading style to use when creating new headings: Prefix (\"# Heading\") or Underline (\"Heading\\n===\").",
+                    "target": "创建新标题时使用哪种 Markdown 标题样式：前缀（\"# Heading\"）或下划线（\"Heading\\n===\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether this plugin should replace existing heading styles when updating headings.",
+                    "target": "更新标题时该插件是否应替换现有的标题样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The string to use when insert Underline-style headings; should be some number of \"=\"s.",
+                    "target": "插入下划线样式标题时使用的字符串；应为若干个\"=\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Delay in milliseconds before renaming the file after typing stops. This prevents frequent renames while typing. Default is 1000ms (2 seconds).",
+                    "target": "停止输入后重命名文件前的延迟（毫秒）。这可防止输入时频繁重命名。默认值为 1000ms（2 秒）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Illegal Characters/Strings",
+                    "target": "自定义非法字符/字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore Regex Rule",
+                    "target": "忽略正则规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use File Open Hook",
+                    "target": "使用文件打开钩子"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use File Save Hook",
+                    "target": "使用文件保存钩子"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert Heading If Missing",
+                    "target": "缺少时插入标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New Heading Style",
+                    "target": "新标题样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Replace Heading Style",
+                    "target": "替换标题样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Underline String",
+                    "target": "下划线字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Rename Debounce Timeout",
+                    "target": "重命名防抖超时时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "-, _,  ---",
+                    "target": "-, _,  ---"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ignore current file",
+                    "target": "忽略当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Filename to Heading",
+                    "target": "将文件名同步到标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Heading to Filename",
+                    "target": "将标题同步到文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Filename Heading Sync",
+                    "target": "文件名标题同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This plugin will overwrite the first heading found in a file with the filename.",
+                    "target": "此插件会用文件名覆盖文件中找到的第一个标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If no header is found, will insert a new one at the first line (after frontmatter).",
+                    "target": "如果未找到标题，将在第一行（frontmatter 之后）插入一个新的标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ignored Files By Regex",
+                    "target": "按正则表达式忽略的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All files matching the above RegEx will get listed here",
+                    "target": "所有匹配上述正则表达式的文件都会列在此处"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manually Ignored Files",
+                    "target": "手动忽略的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can ignore files from this plugin by using the \"ignore this file\" command",
+                    "target": "你可以使用“忽略此文件”命令让此插件忽略文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
