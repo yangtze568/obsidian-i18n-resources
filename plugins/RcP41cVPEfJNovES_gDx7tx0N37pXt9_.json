@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "qmd-as-md-obsidian",
+        "version": "1.0.0",
+        "title": "qmd as md",
+        "description": "qmd as md Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading plugin:",
+                    "target": "加载插件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to start Quarto preview:",
+                    "target": "无法启动 Quarto 预览："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Plugin is loading...",
+                    "target": "插件正在加载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings loaded:",
+                    "target": "设置已加载："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings tab added successfully",
+                    "target": "设置选项卡添加成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Ribbon icon added",
+                    "target": "已添加功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Commands added",
+                    "target": "已添加命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Plugin is unloading...",
+                    "target": "插件正在卸载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Registering .qmd as markdown...",
+                    "target": "正在将 .qmd 注册为 markdown..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Rendering settings tab...",
+                    "target": "正在渲染设置选项卡..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings tab rendered successfully",
+                    "target": "设置选项卡已成功渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to Quarto executable (e.g., quarto, /usr/local/bin/quarto)",
+                    "target": "Quarto 可执行文件路径（例如：quarto、/usr/local/bin/quarto）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default, plugin allows editing .qmd files. Disable this feature if there is a conflict with .qmd editing enabled by another plugin",
+                    "target": "默认情况下，插件允许编辑 .qmd 文件。如果与其他插件启用的 .qmd 编辑功能冲突，请禁用此功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quarto Path",
+                    "target": "Quarto 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Editing Quarto Files",
+                    "target": "启用编辑 Quarto 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "QUARTO_TYPST Variable",
+                    "target": "QUARTO_TYPST 变量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., typst_path",
+                    "target": "例如：typst_path"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Current file is not a Quarto document",
+                    "target": "当前文件不是 Quarto 文档"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to load QmdAsMdPlugin. Check the developer console for details.",
+                    "target": "加载 QmdAsMdPlugin 失败。请查看开发者控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quarto preview started",
+                    "target": "Quarto 预览已启动"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to start Quarto preview",
+                    "target": "无法启动 Quarto 预览"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quarto preview stopped",
+                    "target": "Quarto 预览已停止"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All Quarto previews stopped",
+                    "target": "所有 Quarto 预览已停止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Quarto Preview",
+                    "target": "切换 Quarto 预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quarto Preview Settings",
+                    "target": "Quarto 预览设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
