@@ -1,0 +1,991 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "modules",
+        "version": "1.0.0",
+        "title": "Modules",
+        "description": "Modules Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "could not download file",
+                    "target": "无法下载文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Last ten effects were: ",
+                    "target": "最近十个效果为： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "不支持 Intl，请使用 Intl polyfill！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugins were requested but not running in environment that supports 'require'. Nothing will be loaded",
+                    "target": "请求了插件，但未在支持 'require' 的环境中运行。将不会加载任何内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugin validation succeeded",
+                    "target": "插件验证成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No types map provided; using the default",
+                    "target": "未提供类型映射；使用默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Open files: ",
+                    "target": "打开的文件： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Format host information updated",
+                    "target": "格式化主机信息已更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Host file extension mappings updated",
+                    "target": "主机文件扩展名映射已更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "reload projects.",
+                    "target": "重新加载项目。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "After reloading projects..",
+                    "target": "重新加载项目后.."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Before ensureProjectForOpenFiles:",
+                    "target": "在 ensureProjectForOpenFiles 之前："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "After ensureProjectForOpenFiles:",
+                    "target": "在 ensureProjectForOpenFiles 之后："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": " =>",
+                    "target": " =>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": " = ",
+                    "target": " = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": "/** @type {Promise<void>} */(",
+                    "target": "/** @type {Promise<void>} */("
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": "export ",
+                    "target": "export "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Using addListener() without 'await' is deprecated.",
+                    "target": "在未使用 'await' 的情况下使用 addListener() 已被弃用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "db blocked",
+                    "target": "db 被阻止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Deprecated: Expected third argument to be a object",
+                    "target": "已弃用：第三个参数应为对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问一个对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的设置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前访问了 t 函数。请等待回调或 Promise 解析后再访问它！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已初始化。你应只调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Since Acorn 8.0.0, options.ecmaVersion is required.\nDefaulting to 2020, but this will stop working in the future.",
+                    "target": "自 Acorn 8.0.0 起，options.ecmaVersion 为必需。\n默认为 2020，但这在未来将不再生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Selection is not an import declaration.",
+                    "target": "所选内容不是导入声明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not determine a project root path.",
+                    "target": "无法确定项目根路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Projects in scope",
+                    "target": "范围内的项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert default export to named export",
+                    "target": "将默认导出转换为命名导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named export to default export",
+                    "target": "将命名导出转换为默认导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert namespace import to named imports",
+                    "target": "将命名空间导入转换为命名导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named imports to namespace import",
+                    "target": "将命名导入转换为命名空间导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named imports to default import",
+                    "target": "将命名导入转换为默认导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to type alias",
+                    "target": "提取为类型别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to interface",
+                    "target": "提取为接口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to typedef",
+                    "target": "提取为类型定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move to file",
+                    "target": "移动到文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add braces to arrow function",
+                    "target": "为箭头函数添加花括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to anonymous function",
+                    "target": "转换为匿名函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to named function",
+                    "target": "转换为命名函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to arrow function",
+                    "target": "转换为箭头函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Constant",
+                    "target": "提取常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Function",
+                    "target": "提取函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n                var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n                if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n                else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n                return c > 3 && r && Object.defineProperty(target, key, r), r;\n            };",
+                    "target": "\n            var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n                var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n                if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n                else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n                return c > 3 && r && Object.defineProperty(target, key, r), r;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __metadata = (this && this.__metadata) || function (k, v) {\n                if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\n            };",
+                    "target": "\n            var __metadata = (this && this.__metadata) || function (k, v) {\n                if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __param = (this && this.__param) || function (paramIndex, decorator) {\n                return function (target, key) { decorator(target, key, paramIndex); }\n            };",
+                    "target": "\n            var __param = (this && this.__param) || function (paramIndex, decorator) {\n                return function (target, key) { decorator(target, key, paramIndex); }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __esDecorate = (this && this.__esDecorate) || function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {\n            function accept(f) { if (f !== void 0 && typeof f !== \"function\") throw new TypeError(\"Function expected\"); return f; }\n            var kind = contextIn.kind, key = kind === \"getter\" ? \"get\" : kind === \"setter\" ? \"set\" : \"value\";\n            var target = !descriptorIn && ctor ? contextIn[\"static\"] ? ctor : ctor.prototype : null;\n            var descriptor = descriptorIn || (target ? Object.getOwnPropertyDescriptor(target, contextIn.name) : {});\n            var _, done = false;\n            for (var i = decorators.length - 1; i >= 0; i--) {\n                var context = {};\n                for (var p in contextIn) context[p] = p === \"access\" ? {} : contextIn[p];\n                for (var p in contextIn.access) context.access[p] = contextIn.access[p];\n                context.addInitializer = function (f) { if (done) throw new TypeError(\"Cannot add initializers after decoration has completed\"); extraInitializers.push(accept(f || null)); };\n                var result = (0, decorators[i])(kind === \"accessor\" ? { get: descriptor.get, set: descriptor.set } : descriptor[key], context);\n                if (kind === \"accessor\") {\n                    if (result === void 0) continue;\n                    if (result === null || typeof result !== \"object\") throw new TypeError(\"Object expected\");\n                    if (_ = accept(result.get)) descriptor.get = _;\n                    if (_ = accept(result.set)) descriptor.set = _;\n                    if (_ = accept(result.init)) initializers.unshift(_);\n                }\n                else if (_ = accept(result)) {\n                    if (kind === \"field\") initializers.unshift(_);\n                    else descriptor[key] = _;\n                }\n            }\n            if (target) Object.defineProperty(target, contextIn.name, descriptor);\n            done = true;\n        };",
+                    "target": "\n        var __esDecorate = (this && this.__esDecorate) || function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {\n            function accept(f) { if (f !== void 0 && typeof f !== \"function\") throw new TypeError(\"Function expected\"); return f; }\n            var kind = contextIn.kind, key = kind === \"getter\" ? \"get\" : kind === \"setter\" ? \"set\" : \"value\";\n            var target = !descriptorIn && ctor ? contextIn[\"static\"] ? ctor : ctor.prototype : null;\n            var descriptor = descriptorIn || (target ? Object.getOwnPropertyDescriptor(target, contextIn.name) : {});\n            var _, done = false;\n            for (var i = decorators.length - 1; i >= 0; i--) {\n                var context = {};\n                for (var p in contextIn) context[p] = p === \"access\" ? {} : contextIn[p];\n                for (var p in contextIn.access) context.access[p] = contextIn.access[p];\n                context.addInitializer = function (f) { if (done) throw new TypeError(\"Cannot add initializers after decoration has completed\"); extraInitializers.push(accept(f || null)); };\n                var result = (0, decorators[i])(kind === \"accessor\" ? { get: descriptor.get, set: descriptor.set } : descriptor[key], context);\n                if (kind === \"accessor\") {\n                    if (result === void 0) continue;\n                    if (result === null || typeof result !== \"object\") throw new TypeError(\"Object expected\");\n                    if (_ = accept(result.get)) descriptor.get = _;\n                    if (_ = accept(result.set)) descriptor.set = _;\n                    if (_ = accept(result.init)) initializers.unshift(_);\n                }\n                else if (_ = accept(result)) {\n                    if (kind === \"field\") initializers.unshift(_);\n                    else descriptor[key] = _;\n                }\n            }\n            if (target) Object.defineProperty(target, contextIn.name, descriptor);\n            done = true;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __runInitializers = (this && this.__runInitializers) || function (thisArg, initializers, value) {\n            var useValue = arguments.length > 2;\n            for (var i = 0; i < initializers.length; i++) {\n                value = useValue ? initializers[i].call(thisArg, value) : initializers[i].call(thisArg);\n            }\n            return useValue ? value : void 0;\n        };",
+                    "target": "\n        var __runInitializers = (this && this.__runInitializers) || function (thisArg, initializers, value) {\n            var useValue = arguments.length > 2;\n            for (var i = 0; i < initializers.length; i++) {\n                value = useValue ? initializers[i].call(thisArg, value) : initializers[i].call(thisArg);\n            }\n            return useValue ? value : void 0;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __assign = (this && this.__assign) || function () {\n                __assign = Object.assign || function(t) {\n                    for (var s, i = 1, n = arguments.length; i < n; i++) {\n                        s = arguments[i];\n                        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                            t[p] = s[p];\n                    }\n                    return t;\n                };\n                return __assign.apply(this, arguments);\n            };",
+                    "target": "\n            var __assign = (this && this.__assign) || function () {\n                __assign = Object.assign || function(t) {\n                    for (var s, i = 1, n = arguments.length; i < n; i++) {\n                        s = arguments[i];\n                        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                            t[p] = s[p];\n                    }\n                    return t;\n                };\n                return __assign.apply(this, arguments);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __await = (this && this.__await) || function (v) { return this instanceof __await ? (this.v = v, this) : new __await(v); }",
+                    "target": "\n            var __await = (this && this.__await) || function (v) { return this instanceof __await ? (this.v = v, this) : new __await(v); }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _arguments, generator) {\n            if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n            var g = generator.apply(thisArg, _arguments || []), i, q = [];\n            return i = Object.create((typeof AsyncIterator === \"function\" ? AsyncIterator : Object).prototype), verb(\"next\"), verb(\"throw\"), verb(\"return\", awaitReturn), i[Symbol.asyncIterator] = function () { return this; }, i;\n            function awaitReturn(f) { return function (v) { return Promise.resolve(v).then(f, reject); }; }\n            function verb(n, f) { if (g[n]) { i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; if (f) i[n] = f(i[n]); } }\n            function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }\n            function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }\n            function fulfill(value) { resume(\"next\", value); }\n            function reject(value) { resume(\"throw\", value); }\n            function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }\n        };",
+                    "target": "\n        var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _arguments, generator) {\n            if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n            var g = generator.apply(thisArg, _arguments || []), i, q = [];\n            return i = Object.create((typeof AsyncIterator === \"function\" ? AsyncIterator : Object).prototype), verb(\"next\"), verb(\"throw\"), verb(\"return\", awaitReturn), i[Symbol.asyncIterator] = function () { return this; }, i;\n            function awaitReturn(f) { return function (v) { return Promise.resolve(v).then(f, reject); }; }\n            function verb(n, f) { if (g[n]) { i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; if (f) i[n] = f(i[n]); } }\n            function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }\n            function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }\n            function fulfill(value) { resume(\"next\", value); }\n            function reject(value) { resume(\"throw\", value); }\n            function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __asyncDelegator = (this && this.__asyncDelegator) || function (o) {\n                var i, p;\n                return i = {}, verb(\"next\"), verb(\"throw\", function (e) { throw e; }), verb(\"return\"), i[Symbol.iterator] = function () { return this; }, i;\n                function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: false } : f ? f(v) : v; } : f; }\n            };",
+                    "target": "\n            var __asyncDelegator = (this && this.__asyncDelegator) || function (o) {\n                var i, p;\n                return i = {}, verb(\"next\"), verb(\"throw\", function (e) { throw e; }), verb(\"return\"), i[Symbol.iterator] = function () { return this; }, i;\n                function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: false } : f ? f(v) : v; } : f; }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __asyncValues = (this && this.__asyncValues) || function (o) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var m = o[Symbol.asyncIterator], i;\n                return m ? m.call(o) : (o = typeof __values === \"function\" ? __values(o) : o[Symbol.iterator](), i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i);\n                function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }\n                function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }\n            };",
+                    "target": "\n            var __asyncValues = (this && this.__asyncValues) || function (o) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var m = o[Symbol.asyncIterator], i;\n                return m ? m.call(o) : (o = typeof __values === \"function\" ? __values(o) : o[Symbol.iterator](), i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i);\n                function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }\n                function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __rest = (this && this.__rest) || function (s, e) {\n                var t = {};\n                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n                    t[p] = s[p];\n                if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n                    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n                        if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n                            t[p[i]] = s[p[i]];\n                    }\n                return t;\n            };",
+                    "target": "\n            var __rest = (this && this.__rest) || function (s, e) {\n                var t = {};\n                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n                    t[p] = s[p];\n                if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n                    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n                        if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n                            t[p[i]] = s[p[i]];\n                    }\n                return t;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\n                function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n                return new (P || (P = Promise))(function (resolve, reject) {\n                    function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n                    function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n                    function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n                    step((generator = generator.apply(thisArg, _arguments || [])).next());\n                });\n            };",
+                    "target": "\n            var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\n                function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n                return new (P || (P = Promise))(function (resolve, reject) {\n                    function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n                    function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n                    function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n                    step((generator = generator.apply(thisArg, _arguments || [])).next());\n                });\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __extends = (this && this.__extends) || (function () {\n                var extendStatics = function (d, b) {\n                    extendStatics = Object.setPrototypeOf ||\n                        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n                        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };\n                    return extendStatics(d, b);\n                };\n\n                return function (d, b) {\n                    if (typeof b !== \"function\" && b !== null)\n                        throw new TypeError(\"Class extends value \" + String(b) + \" is not a constructor or null\");\n                    extendStatics(d, b);\n                    function __() { this.constructor = d; }\n                    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n                };\n            })();",
+                    "target": "\n            var __extends = (this && this.__extends) || (function () {\n                var extendStatics = function (d, b) {\n                    extendStatics = Object.setPrototypeOf ||\n                        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n                        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };\n                    return extendStatics(d, b);\n                };\n\n                return function (d, b) {\n                    if (typeof b !== \"function\" && b !== null)\n                        throw new TypeError(\"Class extends value \" + String(b) + \" is not a constructor or null\");\n                    extendStatics(d, b);\n                    function __() { this.constructor = d; }\n                    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n                };\n            })();"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __read = (this && this.__read) || function (o, n) {\n                var m = typeof Symbol === \"function\" && o[Symbol.iterator];\n                if (!m) return o;\n                var i = m.call(o), r, ar = [], e;\n                try {\n                    while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);\n                }\n                catch (error) { e = { error: error }; }\n                finally {\n                    try {\n                        if (r && !r.done && (m = i[\"return\"])) m.call(i);\n                    }\n                    finally { if (e) throw e.error; }\n                }\n                return ar;\n            };",
+                    "target": "\n            var __read = (this && this.__read) || function (o, n) {\n                var m = typeof Symbol === \"function\" && o[Symbol.iterator];\n                if (!m) return o;\n                var i = m.call(o), r, ar = [], e;\n                try {\n                    while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);\n                }\n                catch (error) { e = { error: error }; }\n                finally {\n                    try {\n                        if (r && !r.done && (m = i[\"return\"])) m.call(i);\n                    }\n                    finally { if (e) throw e.error; }\n                }\n                return ar;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {\n                if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {\n                    if (ar || !(i in from)) {\n                        if (!ar) ar = Array.prototype.slice.call(from, 0, i);\n                        ar[i] = from[i];\n                    }\n                }\n                return to.concat(ar || Array.prototype.slice.call(from));\n            };",
+                    "target": "\n            var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {\n                if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {\n                    if (ar || !(i in from)) {\n                        if (!ar) ar = Array.prototype.slice.call(from, 0, i);\n                        ar[i] = from[i];\n                    }\n                }\n                return to.concat(ar || Array.prototype.slice.call(from));\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __propKey = (this && this.__propKey) || function (x) {\n            return typeof x === \"symbol\" ? x : \"\".concat(x);\n        };",
+                    "target": "\n        var __propKey = (this && this.__propKey) || function (x) {\n            return typeof x === \"symbol\" ? x : \"\".concat(x);\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __setFunctionName = (this && this.__setFunctionName) || function (f, name, prefix) {\n            if (typeof name === \"symbol\") name = name.description ? \"[\".concat(name.description, \"]\") : \"\";\n            return Object.defineProperty(f, \"name\", { configurable: true, value: prefix ? \"\".concat(prefix, \" \", name) : name });\n        };",
+                    "target": "\n        var __setFunctionName = (this && this.__setFunctionName) || function (f, name, prefix) {\n            if (typeof name === \"symbol\") name = name.description ? \"[\".concat(name.description, \"]\") : \"\";\n            return Object.defineProperty(f, \"name\", { configurable: true, value: prefix ? \"\".concat(prefix, \" \", name) : name });\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __values = (this && this.__values) || function(o) {\n                var s = typeof Symbol === \"function\" && Symbol.iterator, m = s && o[s], i = 0;\n                if (m) return m.call(o);\n                if (o && typeof o.length === \"number\") return {\n                    next: function () {\n                        if (o && i >= o.length) o = void 0;\n                        return { value: o && o[i++], done: !o };\n                    }\n                };\n                throw new TypeError(s ? \"Object is not iterable.\" : \"Symbol.iterator is not defined.\");\n            };",
+                    "target": "\n            var __values = (this && this.__values) || function(o) {\n                var s = typeof Symbol === \"function\" && Symbol.iterator, m = s && o[s], i = 0;\n                if (m) return m.call(o);\n                if (o && typeof o.length === \"number\") return {\n                    next: function () {\n                        if (o && i >= o.length) o = void 0;\n                        return { value: o && o[i++], done: !o };\n                    }\n                };\n                throw new TypeError(s ? \"Object is not iterable.\" : \"Symbol.iterator is not defined.\");\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __generator = (this && this.__generator) || function (thisArg, body) {\n                var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === \"function\" ? Iterator : Object).prototype);\n                return g.next = verb(0), g[\"throw\"] = verb(1), g[\"return\"] = verb(2), typeof Symbol === \"function\" && (g[Symbol.iterator] = function() { return this; }), g;\n                function verb(n) { return function (v) { return step([n, v]); }; }\n                function step(op) {\n                    if (f) throw new TypeError(\"Generator is already executing.\");\n                    while (g && (g = 0, op[0] && (_ = 0)), _) try {\n                        if (f = 1, y && (t = op[0] & 2 ? y[\"return\"] : op[0] ? y[\"throw\"] || ((t = y[\"return\"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;\n                        if (y = 0, t) op = [op[0] & 2, t.value];\n                        switch (op[0]) {\n                            case 0: case 1: t = op; break;\n                            case 4: _.label++; return { value: op[1], done: false };\n                            case 5: _.label++; y = op[1]; op = [0]; continue;\n                            case 7: op = _.ops.pop(); _.trys.pop(); continue;\n                            default:\n                                if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }\n                                if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }\n                                if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }\n                                if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }\n                                if (t[2]) _.ops.pop();\n                                _.trys.pop(); continue;\n                        }\n                        op = body.call(thisArg, _);\n                    } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }\n                    if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };\n                }\n            };",
+                    "target": "\n            var __generator = (this && this.__generator) || function (thisArg, body) {\n                var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === \"function\" ? Iterator : Object).prototype);\n                return g.next = verb(0), g[\"throw\"] = verb(1), g[\"return\"] = verb(2), typeof Symbol === \"function\" && (g[Symbol.iterator] = function() { return this; }), g;\n                function verb(n) { return function (v) { return step([n, v]); }; }\n                function step(op) {\n                    if (f) throw new TypeError(\"Generator is already executing.\");\n                    while (g && (g = 0, op[0] && (_ = 0)), _) try {\n                        if (f = 1, y && (t = op[0] & 2 ? y[\"return\"] : op[0] ? y[\"throw\"] || ((t = y[\"return\"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;\n                        if (y = 0, t) op = [op[0] & 2, t.value];\n                        switch (op[0]) {\n                            case 0: case 1: t = op; break;\n                            case 4: _.label++; return { value: op[1], done: false };\n                            case 5: _.label++; y = op[1]; op = [0]; continue;\n                            case 7: op = _.ops.pop(); _.trys.pop(); continue;\n                            default:\n                                if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }\n                                if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }\n                                if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }\n                                if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }\n                                if (t[2]) _.ops.pop();\n                                _.trys.pop(); continue;\n                        }\n                        op = body.call(thisArg, _);\n                    } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }\n                    if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };\n                }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                var desc = Object.getOwnPropertyDescriptor(m, k);\n                if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\n                  desc = { enumerable: true, get: function() { return m[k]; } };\n                }\n                Object.defineProperty(o, k2, desc);\n            }) : (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                o[k2] = m[k];\n            }));",
+                    "target": "\n            var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                var desc = Object.getOwnPropertyDescriptor(m, k);\n                if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\n                  desc = { enumerable: true, get: function() { return m[k]; } };\n                }\n                Object.defineProperty(o, k2, desc);\n            }) : (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                o[k2] = m[k];\n            }));"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\n                Object.defineProperty(o, \"default\", { enumerable: true, value: v });\n            }) : function(o, v) {\n                o[\"default\"] = v;\n            });",
+                    "target": "\n            var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\n                Object.defineProperty(o, \"default\", { enumerable: true, value: v });\n            }) : function(o, v) {\n                o[\"default\"] = v;\n            });"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __importStar = (this && this.__importStar) || (function () {\n                var ownKeys = function(o) {\n                    ownKeys = Object.getOwnPropertyNames || function (o) {\n                        var ar = [];\n                        for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;\n                        return ar;\n                    };\n                    return ownKeys(o);\n                };\n                return function (mod) {\n                    if (mod && mod.__esModule) return mod;\n                    var result = {};\n                    if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== \"default\") __createBinding(result, mod, k[i]);\n                    __setModuleDefault(result, mod);\n                    return result;\n                };\n            })();",
+                    "target": "\n            var __importStar = (this && this.__importStar) || (function () {\n                var ownKeys = function(o) {\n                    ownKeys = Object.getOwnPropertyNames || function (o) {\n                        var ar = [];\n                        for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;\n                        return ar;\n                    };\n                    return ownKeys(o);\n                };\n                return function (mod) {\n                    if (mod && mod.__esModule) return mod;\n                    var result = {};\n                    if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== \"default\") __createBinding(result, mod, k[i]);\n                    __setModuleDefault(result, mod);\n                    return result;\n                };\n            })();"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __importDefault = (this && this.__importDefault) || function (mod) {\n                return (mod && mod.__esModule) ? mod : { \"default\": mod };\n            };",
+                    "target": "\n            var __importDefault = (this && this.__importDefault) || function (mod) {\n                return (mod && mod.__esModule) ? mod : { \"default\": mod };\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __exportStar = (this && this.__exportStar) || function(m, exports) {\n                for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n            };",
+                    "target": "\n            var __exportStar = (this && this.__exportStar) || function(m, exports) {\n                for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __classPrivateFieldIn = (this && this.__classPrivateFieldIn) || function(state, receiver) {\n                if (receiver === null || (typeof receiver !== \"object\" && typeof receiver !== \"function\")) throw new TypeError(\"Cannot use 'in' operator on non-object\");\n                return typeof state === \"function\" ? receiver === state : state.has(receiver);\n            };",
+                    "target": "\n            var __classPrivateFieldIn = (this && this.__classPrivateFieldIn) || function(state, receiver) {\n                if (receiver === null || (typeof receiver !== \"object\" && typeof receiver !== \"function\")) throw new TypeError(\"Cannot use 'in' operator on non-object\");\n                return typeof state === \"function\" ? receiver === state : state.has(receiver);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __addDisposableResource = (this && this.__addDisposableResource) || function (env, value, async) {\n            if (value !== null && value !== void 0) {\n                if (typeof value !== \"object\" && typeof value !== \"function\") throw new TypeError(\"Object expected.\");\n                var dispose, inner;\n                if (async) {\n                    if (!Symbol.asyncDispose) throw new TypeError(\"Symbol.asyncDispose is not defined.\");\n                    dispose = value[Symbol.asyncDispose];\n                }\n                if (dispose === void 0) {\n                    if (!Symbol.dispose) throw new TypeError(\"Symbol.dispose is not defined.\");\n                    dispose = value[Symbol.dispose];\n                    if (async) inner = dispose;\n                }\n                if (typeof dispose !== \"function\") throw new TypeError(\"Object not disposable.\");\n                if (inner) dispose = function() { try { inner.call(this); } catch (e) { return Promise.reject(e); } };\n                env.stack.push({ value: value, dispose: dispose, async: async });\n            }\n            else if (async) {\n                env.stack.push({ async: true });\n            }\n            return value;\n        };",
+                    "target": "\n        var __addDisposableResource = (this && this.__addDisposableResource) || function (env, value, async) {\n            if (value !== null && value !== void 0) {\n                if (typeof value !== \"object\" && typeof value !== \"function\") throw new TypeError(\"Object expected.\");\n                var dispose, inner;\n                if (async) {\n                    if (!Symbol.asyncDispose) throw new TypeError(\"Symbol.asyncDispose is not defined.\");\n                    dispose = value[Symbol.asyncDispose];\n                }\n                if (dispose === void 0) {\n                    if (!Symbol.dispose) throw new TypeError(\"Symbol.dispose is not defined.\");\n                    dispose = value[Symbol.dispose];\n                    if (async) inner = dispose;\n                }\n                if (typeof dispose !== \"function\") throw new TypeError(\"Object not disposable.\");\n                if (inner) dispose = function() { try { inner.call(this); } catch (e) { return Promise.reject(e); } };\n                env.stack.push({ value: value, dispose: dispose, async: async });\n            }\n            else if (async) {\n                env.stack.push({ async: true });\n            }\n            return value;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __disposeResources = (this && this.__disposeResources) || (function (SuppressedError) {\n            return function (env) {\n                function fail(e) {\n                    env.error = env.hasError ? new SuppressedError(e, env.error, \"An error was suppressed during disposal.\") : e;\n                    env.hasError = true;\n                }\n                var r, s = 0;\n                function next() {\n                    while (r = env.stack.pop()) {\n                        try {\n                            if (!r.async && s === 1) return s = 0, env.stack.push(r), Promise.resolve().then(next);\n                            if (r.dispose) {\n                                var result = r.dispose.call(r.value);\n                                if (r.async) return s |= 2, Promise.resolve(result).then(next, function(e) { fail(e); return next(); });\n                            }\n                            else s |= 1;\n                        }\n                        catch (e) {\n                            fail(e);\n                        }\n                    }\n                    if (s === 1) return env.hasError ? Promise.reject(env.error) : Promise.resolve();\n                    if (env.hasError) throw env.error;\n                }\n                return next();\n            };\n        })(typeof SuppressedError === \"function\" ? SuppressedError : function (error, suppressed, message) {\n            var e = new Error(message);\n            return e.name = \"SuppressedError\", e.error = error, e.suppressed = suppressed, e;\n        });",
+                    "target": "\n        var __disposeResources = (this && this.__disposeResources) || (function (SuppressedError) {\n            return function (env) {\n                function fail(e) {\n                    env.error = env.hasError ? new SuppressedError(e, env.error, \"An error was suppressed during disposal.\") : e;\n                    env.hasError = true;\n                }\n                var r, s = 0;\n                function next() {\n                    while (r = env.stack.pop()) {\n                        try {\n                            if (!r.async && s === 1) return s = 0, env.stack.push(r), Promise.resolve().then(next);\n                            if (r.dispose) {\n                                var result = r.dispose.call(r.value);\n                                if (r.async) return s |= 2, Promise.resolve(result).then(next, function(e) { fail(e); return next(); });\n                            }\n                            else s |= 1;\n                        }\n                        catch (e) {\n                            fail(e);\n                        }\n                    }\n                    if (s === 1) return env.hasError ? Promise.reject(env.error) : Promise.resolve();\n                    if (env.hasError) throw env.error;\n                }\n                return next();\n            };\n        })(typeof SuppressedError === \"function\" ? SuppressedError : function (error, suppressed, message) {\n            var e = new Error(message);\n            return e.name = \"SuppressedError\", e.error = error, e.suppressed = suppressed, e;\n        });"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n        var __rewriteRelativeImportExtension = (this && this.__rewriteRelativeImportExtension) || function (path, preserveJsx) {\n            if (typeof path === \"string\" && /^\\\\.\\\\.?\\\\//.test(path)) {\n                return path.replace(/\\\\.(tsx)$|((?:\\\\.d)?)((?:\\\\.[^./]+?)?)\\\\.([cm]?)ts$/i, function (m, tsx, d, ext, cm) {\n                    return tsx ? preserveJsx ? \".jsx\" : \".js\" : d && (!ext || !cm) ? m : (d + ext + \".\" + cm.toLowerCase() + \"js\");\n                });\n            }\n            return path;\n        };",
+                    "target": "\n        var __rewriteRelativeImportExtension = (this && this.__rewriteRelativeImportExtension) || function (path, preserveJsx) {\n            if (typeof path === \"string\" && /^\\\\.\\\\.?\\\\//.test(path)) {\n                return path.replace(/\\\\.(tsx)$|((?:\\\\.d)?)((?:\\\\.[^./]+?)?)\\\\.([cm]?)ts$/i, function (m, tsx, d, ext, cm) {\n                    return tsx ? preserveJsx ? \".jsx\" : \".js\" : d && (!ext || !cm) ? m : (d + ext + \".\" + cm.toLowerCase() + \"js\");\n                });\n            }\n            return path;\n        };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __syncRequire = typeof module === \"object\" && typeof module.exports === \"object\";",
+                    "target": "\n            var __syncRequire = typeof module === \"object\" && typeof module.exports === \"object\";"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "asserts ",
+                    "target": "asserts "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " is ",
+                    "target": " is "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " extends ",
+                    "target": " extends "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " = ",
+                    "target": " = "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "new ",
+                    "target": "new "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " => ",
+                    "target": " => "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "typeof ",
+                    "target": "typeof "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " ? ",
+                    "target": " ? "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " : ",
+                    "target": " : "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "infer ",
+                    "target": "infer "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{ ",
+                    "target": "{ "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "readonly ",
+                    "target": "readonly "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " as ",
+                    "target": " as "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "; }",
+                    "target": "; }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": ", { assert: ",
+                    "target": ", { assert: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " }",
+                    "target": " }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es5\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es5\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ndeclare type ClassDecorator=<TFunction extends Function>(target:TFunction)=>TFunction|void;declare type PropertyDecorator=(target:Object,propertyKey:string|symbol)=>void;declare type MethodDecorator=<T>(target:Object,propertyKey:string|symbol,descriptor:TypedPropertyDescriptor<T>)=>TypedPropertyDescriptor<T>|void;declare type ParameterDecorator=(target:Object,propertyKey:string|symbol|undefined,parameterIndex:number)=>void;",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ndeclare type ClassDecorator=<TFunction extends Function>(target:TFunction)=>TFunction|void;declare type PropertyDecorator=(target:Object,propertyKey:string|symbol)=>void;declare type MethodDecorator=<T>(target:Object,propertyKey:string|symbol,descriptor:TypedPropertyDescriptor<T>)=>TypedPropertyDescriptor<T>|void;declare type ParameterDecorator=(target:Object,propertyKey:string|symbol|undefined,parameterIndex:number)=>void;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface Map<K,V>{clear():void;delete(key:K):boolean;forEach(callbackfn:(value:V,key:K,map:Map<K,V>)=>void,thisArg?:any):void;get(key:K):V|undefined;has(key:K):boolean;set(key:K,value:V):this;readonly size:number;}interface MapConstructor{new():Map<any,any>;new<K,V>(entries?:readonly(readonly[K,V])[]|null):Map<K,V>;readonly prototype:Map<any,any>;}declare var Map:MapConstructor;interface ReadonlyMap<K,V>{forEach(callbackfn:(value:V,key:K,map:ReadonlyMap<K,V>)=>void,thisArg?:any):void;get(key:K):V|undefined;has(key:K):boolean;readonly size:number;}interface WeakMap<K extends WeakKey,V>{delete(key:K):boolean;get(key:K):V|undefined;has(key:K):boolean;set(key:K,value:V):this;}interface WeakMapConstructor{new<K extends WeakKey=WeakKey,V=any>(entries?:readonly(readonly[K,V])[]|null):WeakMap<K,V>;readonly prototype:WeakMap<WeakKey,any>;}declare var WeakMap:WeakMapConstructor;interface Set<T>{add(value:T):this;clear():void;delete(value:T):boolean;forEach(callbackfn:(value:T,value2:T,set:Set<T>)=>void,thisArg?:any):void;has(value:T):boolean;readonly size:number;}interface SetConstructor{new<T=any>(values?:readonly T[]|null):Set<T>;readonly prototype:Set<any>;}declare var Set:SetConstructor;interface ReadonlySet<T>{forEach(callbackfn:(value:T,value2:T,set:ReadonlySet<T>)=>void,thisArg?:any):void;has(value:T):boolean;readonly size:number;}interface WeakSet<T extends WeakKey>{add(value:T):this;delete(value:T):boolean;has(value:T):boolean;}interface WeakSetConstructor{new<T extends WeakKey=WeakKey>(values?:readonly T[]|null):WeakSet<T>;readonly prototype:WeakSet<WeakKey>;}declare var WeakSet:WeakSetConstructor;",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface Map<K,V>{clear():void;delete(key:K):boolean;forEach(callbackfn:(value:V,key:K,map:Map<K,V>)=>void,thisArg?:any):void;get(key:K):V|undefined;has(key:K):boolean;set(key:K,value:V):this;readonly size:number;}interface MapConstructor{new():Map<any,any>;new<K,V>(entries?:readonly(readonly[K,V])[]|null):Map<K,V>;readonly prototype:Map<any,any>;}declare var Map:MapConstructor;interface ReadonlyMap<K,V>{forEach(callbackfn:(value:V,key:K,map:ReadonlyMap<K,V>)=>void,thisArg?:any):void;get(key:K):V|undefined;has(key:K):boolean;readonly size:number;}interface WeakMap<K extends WeakKey,V>{delete(key:K):boolean;get(key:K):V|undefined;has(key:K):boolean;set(key:K,value:V):this;}interface WeakMapConstructor{new<K extends WeakKey=WeakKey,V=any>(entries?:readonly(readonly[K,V])[]|null):WeakMap<K,V>;readonly prototype:WeakMap<WeakKey,any>;}declare var WeakMap:WeakMapConstructor;interface Set<T>{add(value:T):this;clear():void;delete(value:T):boolean;forEach(callbackfn:(value:T,value2:T,set:Set<T>)=>void,thisArg?:any):void;has(value:T):boolean;readonly size:number;}interface SetConstructor{new<T=any>(values?:readonly T[]|null):Set<T>;readonly prototype:Set<any>;}declare var Set:SetConstructor;interface ReadonlySet<T>{forEach(callbackfn:(value:T,value2:T,set:ReadonlySet<T>)=>void,thisArg?:any):void;has(value:T):boolean;readonly size:number;}interface WeakSet<T extends WeakKey>{add(value:T):this;delete(value:T):boolean;has(value:T):boolean;}interface WeakSetConstructor{new<T extends WeakKey=WeakKey>(values?:readonly T[]|null):WeakSet<T>;readonly prototype:WeakSet<WeakKey>;}declare var WeakSet:WeakSetConstructor;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es5\" />\n/// <reference lib=\"es2015.core\" />\n/// <reference lib=\"es2015.collection\" />\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2015.generator\" />\n/// <reference lib=\"es2015.promise\" />\n/// <reference lib=\"es2015.proxy\" />\n/// <reference lib=\"es2015.reflect\" />\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"es2015.symbol.wellknown\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es5\" />\n/// <reference lib=\"es2015.core\" />\n/// <reference lib=\"es2015.collection\" />\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2015.generator\" />\n/// <reference lib=\"es2015.promise\" />\n/// <reference lib=\"es2015.proxy\" />\n/// <reference lib=\"es2015.reflect\" />\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"es2015.symbol.wellknown\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\ninterface Generator<T=unknown,TReturn=any,TNext=any>extends IteratorObject<T,TReturn,TNext>{next(...[value]:[]|[TNext]):IteratorResult<T,TReturn>;return(value:TReturn):IteratorResult<T,TReturn>;throw(e:any):IteratorResult<T,TReturn>;[Symbol.iterator]():Generator<T,TReturn,TNext>;}interface GeneratorFunction{new(...args:any[]):Generator;(...args:any[]):Generator;readonly length:number;readonly name:string;readonly prototype:Generator;}interface GeneratorFunctionConstructor{new(...args:string[]):GeneratorFunction;(...args:string[]):GeneratorFunction;readonly length:number;readonly name:string;readonly prototype:GeneratorFunction;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\ninterface Generator<T=unknown,TReturn=any,TNext=any>extends IteratorObject<T,TReturn,TNext>{next(...[value]:[]|[TNext]):IteratorResult<T,TReturn>;return(value:TReturn):IteratorResult<T,TReturn>;throw(e:any):IteratorResult<T,TReturn>;[Symbol.iterator]():Generator<T,TReturn,TNext>;}interface GeneratorFunction{new(...args:any[]):Generator;(...args:any[]):Generator;readonly length:number;readonly name:string;readonly prototype:Generator;}interface GeneratorFunctionConstructor{new(...args:string[]):GeneratorFunction;(...args:string[]):GeneratorFunction;readonly length:number;readonly name:string;readonly prototype:GeneratorFunction;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface PromiseConstructor{readonly prototype:Promise<any>;new<T>(executor:(resolve:(value:T|PromiseLike<T>)=>void,reject:(reason?:any)=>void)=>void):Promise<T>;all<T extends readonly unknown[]|[]>(values:T):Promise<{-readonly[P in keyof T]:Awaited<T[P]>;}>;race<T extends readonly unknown[]|[]>(values:T):Promise<Awaited<T[number]>>;reject<T=never>(reason?:any):Promise<T>;resolve():Promise<void>;resolve<T>(value:T):Promise<Awaited<T>>;resolve<T>(value:T|PromiseLike<T>):Promise<Awaited<T>>;}declare var Promise:PromiseConstructor;",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface PromiseConstructor{readonly prototype:Promise<any>;new<T>(executor:(resolve:(value:T|PromiseLike<T>)=>void,reject:(reason?:any)=>void)=>void):Promise<T>;all<T extends readonly unknown[]|[]>(values:T):Promise<{-readonly[P in keyof T]:Awaited<T[P]>;}>;race<T extends readonly unknown[]|[]>(values:T):Promise<Awaited<T[number]>>;reject<T=never>(reason?:any):Promise<T>;resolve():Promise<void>;resolve<T>(value:T):Promise<Awaited<T>>;resolve<T>(value:T|PromiseLike<T>):Promise<Awaited<T>>;}declare var Promise:PromiseConstructor;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface ProxyHandler<T extends object>{apply?(target:T,thisArg:any,argArray:any[]):any;construct?(target:T,argArray:any[],newTarget:Function):object;defineProperty?(target:T,property:string|symbol,attributes:PropertyDescriptor):boolean;deleteProperty?(target:T,p:string|symbol):boolean;get?(target:T,p:string|symbol,receiver:any):any;getOwnPropertyDescriptor?(target:T,p:string|symbol):PropertyDescriptor|undefined;getPrototypeOf?(target:T):object|null;has?(target:T,p:string|symbol):boolean;isExtensible?(target:T):boolean;ownKeys?(target:T):ArrayLike<string|symbol>;preventExtensions?(target:T):boolean;set?(target:T,p:string|symbol,newValue:any,receiver:any):boolean;setPrototypeOf?(target:T,v:object|null):boolean;}interface ProxyConstructor{revocable<T extends object>(target:T,handler:ProxyHandler<T>):{proxy:T;revoke:()=>void;};new<T extends object>(target:T,handler:ProxyHandler<T>):T;}declare var Proxy:ProxyConstructor;",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface ProxyHandler<T extends object>{apply?(target:T,thisArg:any,argArray:any[]):any;construct?(target:T,argArray:any[],newTarget:Function):object;defineProperty?(target:T,property:string|symbol,attributes:PropertyDescriptor):boolean;deleteProperty?(target:T,p:string|symbol):boolean;get?(target:T,p:string|symbol,receiver:any):any;getOwnPropertyDescriptor?(target:T,p:string|symbol):PropertyDescriptor|undefined;getPrototypeOf?(target:T):object|null;has?(target:T,p:string|symbol):boolean;isExtensible?(target:T):boolean;ownKeys?(target:T):ArrayLike<string|symbol>;preventExtensions?(target:T):boolean;set?(target:T,p:string|symbol,newValue:any,receiver:any):boolean;setPrototypeOf?(target:T,v:object|null):boolean;}interface ProxyConstructor{revocable<T extends object>(target:T,handler:ProxyHandler<T>):{proxy:T;revoke:()=>void;};new<T extends object>(target:T,handler:ProxyHandler<T>):T;}declare var Proxy:ProxyConstructor;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Reflect{function apply<T,A extends readonly any[],R>(target:(this:T,...args:A)=>R,thisArgument:T,argumentsList:Readonly<A>,):R;function apply(target:Function,thisArgument:any,argumentsList:ArrayLike<any>):any;function construct<A extends readonly any[],R>(target:new(...args:A)=>R,argumentsList:Readonly<A>,newTarget?:new(...args:any)=>any,):R;function construct(target:Function,argumentsList:ArrayLike<any>,newTarget?:Function):any;function defineProperty(target:object,propertyKey:PropertyKey,attributes:PropertyDescriptor&ThisType<any>):boolean;function deleteProperty(target:object,propertyKey:PropertyKey):boolean;function get<T extends object,P extends PropertyKey>(target:T,propertyKey:P,receiver?:unknown,):P extends keyof T?T[P]:any;function getOwnPropertyDescriptor<T extends object,P extends PropertyKey>(target:T,propertyKey:P,):TypedPropertyDescriptor<P extends keyof T?T[P]:any>|undefined;function getPrototypeOf(target:object):object|null;function has(target:object,propertyKey:PropertyKey):boolean;function isExtensible(target:object):boolean;function ownKeys(target:object):(string|symbol)[];function preventExtensions(target:object):boolean;function set<T extends object,P extends PropertyKey>(target:T,propertyKey:P,value:P extends keyof T?T[P]:any,receiver?:any,):boolean;function set(target:object,propertyKey:PropertyKey,value:any,receiver?:any):boolean;function setPrototypeOf(target:object,proto:object|null):boolean;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Reflect{function apply<T,A extends readonly any[],R>(target:(this:T,...args:A)=>R,thisArgument:T,argumentsList:Readonly<A>,):R;function apply(target:Function,thisArgument:any,argumentsList:ArrayLike<any>):any;function construct<A extends readonly any[],R>(target:new(...args:A)=>R,argumentsList:Readonly<A>,newTarget?:new(...args:any)=>any,):R;function construct(target:Function,argumentsList:ArrayLike<any>,newTarget?:Function):any;function defineProperty(target:object,propertyKey:PropertyKey,attributes:PropertyDescriptor&ThisType<any>):boolean;function deleteProperty(target:object,propertyKey:PropertyKey):boolean;function get<T extends object,P extends PropertyKey>(target:T,propertyKey:P,receiver?:unknown,):P extends keyof T?T[P]:any;function getOwnPropertyDescriptor<T extends object,P extends PropertyKey>(target:T,propertyKey:P,):TypedPropertyDescriptor<P extends keyof T?T[P]:any>|undefined;function getPrototypeOf(target:object):object|null;function has(target:object,propertyKey:PropertyKey):boolean;function isExtensible(target:object):boolean;function ownKeys(target:object):(string|symbol)[];function preventExtensions(target:object):boolean;function set<T extends object,P extends PropertyKey>(target:T,propertyKey:P,value:P extends keyof T?T[P]:any,receiver?:any,):boolean;function set(target:object,propertyKey:PropertyKey,value:any,receiver?:any):boolean;function setPrototypeOf(target:object,proto:object|null):boolean;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface SymbolConstructor{readonly prototype:Symbol;(description?:string|number):symbol;for(key:string):symbol;keyFor(sym:symbol):string|undefined;}declare var Symbol:SymbolConstructor;",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface SymbolConstructor{readonly prototype:Symbol;(description?:string|number):symbol;for(key:string):symbol;keyFor(sym:symbol):string|undefined;}declare var Symbol:SymbolConstructor;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\ninterface SymbolConstructor{readonly hasInstance:unique symbol;readonly isConcatSpreadable:unique symbol;readonly match:unique symbol;readonly replace:unique symbol;readonly search:unique symbol;readonly species:unique symbol;readonly split:unique symbol;readonly toPrimitive:unique symbol;readonly toStringTag:unique symbol;readonly unscopables:unique symbol;}interface Symbol{[Symbol.toPrimitive](hint:string):symbol;readonly[Symbol.toStringTag]:string;}interface Array<T>{readonly[Symbol.unscopables]:{[K in keyof any[]]?:boolean;};}interface ReadonlyArray<T>{readonly[Symbol.unscopables]:{[K in keyof readonly any[]]?:boolean;};}interface Date{[Symbol.toPrimitive](hint:\"default\"):string;[Symbol.toPrimitive](hint:\"string\"):string;[Symbol.toPrimitive](hint:\"number\"):number;[Symbol.toPrimitive](hint:string):string|number;}interface Map<K,V>{readonly[Symbol.toStringTag]:string;}interface WeakMap<K extends WeakKey,V>{readonly[Symbol.toStringTag]:string;}interface Set<T>{readonly[Symbol.toStringTag]:string;}interface WeakSet<T extends WeakKey>{readonly[Symbol.toStringTag]:string;}interface JSON{readonly[Symbol.toStringTag]:string;}interface Function{[Symbol.hasInstance](value:any):boolean;}interface GeneratorFunction{readonly[Symbol.toStringTag]:string;}interface Math{readonly[Symbol.toStringTag]:string;}interface Promise<T>{readonly[Symbol.toStringTag]:string;}interface PromiseConstructor{readonly[Symbol.species]:PromiseConstructor;}interface RegExp{[Symbol.match](string:string):RegExpMatchArray|null;[Symbol.replace](string:string,replaceValue:string):string;[Symbol.replace](string:string,replacer:(substring:string,...args:any[])=>string):string;[Symbol.search](string:string):number;[Symbol.split](string:string,limit?:number):string[];}interface RegExpConstructor{readonly[Symbol.species]:RegExpConstructor;}interface String{match(matcher:{[Symbol.match](string:string):RegExpMatchArray|null;}):RegExpMatchArray|null;replace(searchValue:{[Symbol.replace](string:string,replaceValue:string):string;},replaceValue:string):string;replace(searchValue:{[Symbol.replace](string:string,replacer:(substring:string,...args:any[])=>string):string;},replacer:(substring:string,...args:any[])=>string):string;search(searcher:{[Symbol.search](string:string):number;}):number;split(splitter:{[Symbol.split](string:string,limit?:number):string[];},limit?:number):string[];}interface ArrayBuffer{readonly[Symbol.toStringTag]:string;}interface DataView<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:string;}interface Int8Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Int8Array\";}interface Uint8Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint8Array\";}interface Uint8ClampedArray<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint8ClampedArray\";}interface Int16Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Int16Array\";}interface Uint16Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint16Array\";}interface Int32Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Int32Array\";}interface Uint32Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint32Array\";}interface Float32Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Float32Array\";}interface Float64Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Float64Array\";}interface ArrayConstructor{readonly[Symbol.species]:ArrayConstructor;}interface MapConstructor{readonly[Symbol.species]:MapConstructor;}interface SetConstructor{readonly[Symbol.species]:SetConstructor;}interface ArrayBufferConstructor{readonly[Symbol.species]:ArrayBufferConstructor;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\ninterface SymbolConstructor{readonly hasInstance:unique symbol;readonly isConcatSpreadable:unique symbol;readonly match:unique symbol;readonly replace:unique symbol;readonly search:unique symbol;readonly species:unique symbol;readonly split:unique symbol;readonly toPrimitive:unique symbol;readonly toStringTag:unique symbol;readonly unscopables:unique symbol;}interface Symbol{[Symbol.toPrimitive](hint:string):symbol;readonly[Symbol.toStringTag]:string;}interface Array<T>{readonly[Symbol.unscopables]:{[K in keyof any[]]?:boolean;};}interface ReadonlyArray<T>{readonly[Symbol.unscopables]:{[K in keyof readonly any[]]?:boolean;};}interface Date{[Symbol.toPrimitive](hint:\"default\"):string;[Symbol.toPrimitive](hint:\"string\"):string;[Symbol.toPrimitive](hint:\"number\"):number;[Symbol.toPrimitive](hint:string):string|number;}interface Map<K,V>{readonly[Symbol.toStringTag]:string;}interface WeakMap<K extends WeakKey,V>{readonly[Symbol.toStringTag]:string;}interface Set<T>{readonly[Symbol.toStringTag]:string;}interface WeakSet<T extends WeakKey>{readonly[Symbol.toStringTag]:string;}interface JSON{readonly[Symbol.toStringTag]:string;}interface Function{[Symbol.hasInstance](value:any):boolean;}interface GeneratorFunction{readonly[Symbol.toStringTag]:string;}interface Math{readonly[Symbol.toStringTag]:string;}interface Promise<T>{readonly[Symbol.toStringTag]:string;}interface PromiseConstructor{readonly[Symbol.species]:PromiseConstructor;}interface RegExp{[Symbol.match](string:string):RegExpMatchArray|null;[Symbol.replace](string:string,replaceValue:string):string;[Symbol.replace](string:string,replacer:(substring:string,...args:any[])=>string):string;[Symbol.search](string:string):number;[Symbol.split](string:string,limit?:number):string[];}interface RegExpConstructor{readonly[Symbol.species]:RegExpConstructor;}interface String{match(matcher:{[Symbol.match](string:string):RegExpMatchArray|null;}):RegExpMatchArray|null;replace(searchValue:{[Symbol.replace](string:string,replaceValue:string):string;},replaceValue:string):string;replace(searchValue:{[Symbol.replace](string:string,replacer:(substring:string,...args:any[])=>string):string;},replacer:(substring:string,...args:any[])=>string):string;search(searcher:{[Symbol.search](string:string):number;}):number;split(splitter:{[Symbol.split](string:string,limit?:number):string[];},limit?:number):string[];}interface ArrayBuffer{readonly[Symbol.toStringTag]:string;}interface DataView<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:string;}interface Int8Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Int8Array\";}interface Uint8Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint8Array\";}interface Uint8ClampedArray<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint8ClampedArray\";}interface Int16Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Int16Array\";}interface Uint16Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint16Array\";}interface Int32Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Int32Array\";}interface Uint32Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Uint32Array\";}interface Float32Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Float32Array\";}interface Float64Array<TArrayBuffer extends ArrayBufferLike>{readonly[Symbol.toStringTag]:\"Float64Array\";}interface ArrayConstructor{readonly[Symbol.species]:ArrayConstructor;}interface MapConstructor{readonly[Symbol.species]:MapConstructor;}interface SetConstructor{readonly[Symbol.species]:SetConstructor;}interface ArrayBufferConstructor{readonly[Symbol.species]:ArrayBufferConstructor;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015\" />\n/// <reference lib=\"es2016.array.include\" />\n/// <reference lib=\"es2016.intl\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015\" />\n/// <reference lib=\"es2016.array.include\" />\n/// <reference lib=\"es2016.intl\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2016\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2016\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{function getCanonicalLocales(locale?:string|readonly string[]):string[];}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{function getCanonicalLocales(locale?:string|readonly string[]):string[];}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface ArrayBufferConstructor{new():ArrayBuffer;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface ArrayBufferConstructor{new():ArrayBuffer;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface DateConstructor{UTC(year:number,monthIndex?:number,date?:number,hours?:number,minutes?:number,seconds?:number,ms?:number):number;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface DateConstructor{UTC(year:number,monthIndex?:number,date?:number,hours?:number,minutes?:number,seconds?:number,ms?:number):number;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2017\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2017\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{interface DateTimeFormatPartTypesRegistry{day:any;dayPeriod:any;era:any;hour:any;literal:any;minute:any;month:any;second:any;timeZoneName:any;weekday:any;year:any;}type DateTimeFormatPartTypes=keyof DateTimeFormatPartTypesRegistry;interface DateTimeFormatPart{type:DateTimeFormatPartTypes;value:string;}interface DateTimeFormat{formatToParts(date?:Date|number):DateTimeFormatPart[];}}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{interface DateTimeFormatPartTypesRegistry{day:any;dayPeriod:any;era:any;hour:any;literal:any;minute:any;month:any;second:any;timeZoneName:any;weekday:any;year:any;}type DateTimeFormatPartTypes=keyof DateTimeFormatPartTypesRegistry;interface DateTimeFormatPart{type:DateTimeFormatPartTypes;value:string;}interface DateTimeFormat{formatToParts(date?:Date|number):DateTimeFormatPart[];}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface ObjectConstructor{values<T>(o:{[s:string]:T;}|ArrayLike<T>):T[];values(o:{}):any[];entries<T>(o:{[s:string]:T;}|ArrayLike<T>):[string,T][];entries(o:{}):[string,any][];getOwnPropertyDescriptors<T>(o:T):{[P in keyof T]:TypedPropertyDescriptor<T[P]>;}&{[x:string]:PropertyDescriptor;};}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface ObjectConstructor{values<T>(o:{[s:string]:T;}|ArrayLike<T>):T[];values(o:{}):any[];entries<T>(o:{[s:string]:T;}|ArrayLike<T>):[string,T][];entries(o:{}):[string,any][];getOwnPropertyDescriptors<T>(o:T):{[P in keyof T]:TypedPropertyDescriptor<T[P]>;}&{[x:string]:PropertyDescriptor;};}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface String{padStart(maxLength:number,fillString?:string):string;padEnd(maxLength:number,fillString?:string):string;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface String{padStart(maxLength:number,fillString?:string):string;padEnd(maxLength:number,fillString?:string):string;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface Int8ArrayConstructor{new():Int8Array<ArrayBuffer>;}interface Uint8ArrayConstructor{new():Uint8Array<ArrayBuffer>;}interface Uint8ClampedArrayConstructor{new():Uint8ClampedArray<ArrayBuffer>;}interface Int16ArrayConstructor{new():Int16Array<ArrayBuffer>;}interface Uint16ArrayConstructor{new():Uint16Array<ArrayBuffer>;}interface Int32ArrayConstructor{new():Int32Array<ArrayBuffer>;}interface Uint32ArrayConstructor{new():Uint32Array<ArrayBuffer>;}interface Float32ArrayConstructor{new():Float32Array<ArrayBuffer>;}interface Float64ArrayConstructor{new():Float64Array<ArrayBuffer>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface Int8ArrayConstructor{new():Int8Array<ArrayBuffer>;}interface Uint8ArrayConstructor{new():Uint8Array<ArrayBuffer>;}interface Uint8ClampedArrayConstructor{new():Uint8ClampedArray<ArrayBuffer>;}interface Int16ArrayConstructor{new():Int16Array<ArrayBuffer>;}interface Uint16ArrayConstructor{new():Uint16Array<ArrayBuffer>;}interface Int32ArrayConstructor{new():Int32Array<ArrayBuffer>;}interface Uint32ArrayConstructor{new():Uint32Array<ArrayBuffer>;}interface Float32ArrayConstructor{new():Float32Array<ArrayBuffer>;}interface Float64ArrayConstructor{new():Float64Array<ArrayBuffer>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2018.asynciterable\" />\ninterface AsyncGenerator<T=unknown,TReturn=any,TNext=any>extends AsyncIteratorObject<T,TReturn,TNext>{next(...[value]:[]|[TNext]):Promise<IteratorResult<T,TReturn>>;return(value:TReturn|PromiseLike<TReturn>):Promise<IteratorResult<T,TReturn>>;throw(e:any):Promise<IteratorResult<T,TReturn>>;[Symbol.asyncIterator]():AsyncGenerator<T,TReturn,TNext>;}interface AsyncGeneratorFunction{new(...args:any[]):AsyncGenerator;(...args:any[]):AsyncGenerator;readonly length:number;readonly name:string;readonly prototype:AsyncGenerator;}interface AsyncGeneratorFunctionConstructor{new(...args:string[]):AsyncGeneratorFunction;(...args:string[]):AsyncGeneratorFunction;readonly length:number;readonly name:string;readonly prototype:AsyncGeneratorFunction;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2018.asynciterable\" />\ninterface AsyncGenerator<T=unknown,TReturn=any,TNext=any>extends AsyncIteratorObject<T,TReturn,TNext>{next(...[value]:[]|[TNext]):Promise<IteratorResult<T,TReturn>>;return(value:TReturn|PromiseLike<TReturn>):Promise<IteratorResult<T,TReturn>>;throw(e:any):Promise<IteratorResult<T,TReturn>>;[Symbol.asyncIterator]():AsyncGenerator<T,TReturn,TNext>;}interface AsyncGeneratorFunction{new(...args:any[]):AsyncGenerator;(...args:any[]):AsyncGenerator;readonly length:number;readonly name:string;readonly prototype:AsyncGenerator;}interface AsyncGeneratorFunctionConstructor{new(...args:string[]):AsyncGeneratorFunction;(...args:string[]):AsyncGeneratorFunction;readonly length:number;readonly name:string;readonly prototype:AsyncGeneratorFunction;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"es2015.iterable\" />\ninterface SymbolConstructor{readonly asyncIterator:unique symbol;}interface AsyncIterator<T,TReturn=any,TNext=any>{next(...[value]:[]|[TNext]):Promise<IteratorResult<T,TReturn>>;return?(value?:TReturn|PromiseLike<TReturn>):Promise<IteratorResult<T,TReturn>>;throw?(e?:any):Promise<IteratorResult<T,TReturn>>;}interface AsyncIterable<T,TReturn=any,TNext=any>{[Symbol.asyncIterator]():AsyncIterator<T,TReturn,TNext>;}interface AsyncIterableIterator<T,TReturn=any,TNext=any>extends AsyncIterator<T,TReturn,TNext>{[Symbol.asyncIterator]():AsyncIterableIterator<T,TReturn,TNext>;}interface AsyncIteratorObject<T,TReturn=unknown,TNext=unknown>extends AsyncIterator<T,TReturn,TNext>{[Symbol.asyncIterator]():AsyncIteratorObject<T,TReturn,TNext>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"es2015.iterable\" />\ninterface SymbolConstructor{readonly asyncIterator:unique symbol;}interface AsyncIterator<T,TReturn=any,TNext=any>{next(...[value]:[]|[TNext]):Promise<IteratorResult<T,TReturn>>;return?(value?:TReturn|PromiseLike<TReturn>):Promise<IteratorResult<T,TReturn>>;throw?(e?:any):Promise<IteratorResult<T,TReturn>>;}interface AsyncIterable<T,TReturn=any,TNext=any>{[Symbol.asyncIterator]():AsyncIterator<T,TReturn,TNext>;}interface AsyncIterableIterator<T,TReturn=any,TNext=any>extends AsyncIterator<T,TReturn,TNext>{[Symbol.asyncIterator]():AsyncIterableIterator<T,TReturn,TNext>;}interface AsyncIteratorObject<T,TReturn=unknown,TNext=unknown>extends AsyncIterator<T,TReturn,TNext>{[Symbol.asyncIterator]():AsyncIteratorObject<T,TReturn,TNext>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2017\" />\n/// <reference lib=\"es2018.asynciterable\" />\n/// <reference lib=\"es2018.asyncgenerator\" />\n/// <reference lib=\"es2018.promise\" />\n/// <reference lib=\"es2018.regexp\" />\n/// <reference lib=\"es2018.intl\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2017\" />\n/// <reference lib=\"es2018.asynciterable\" />\n/// <reference lib=\"es2018.asyncgenerator\" />\n/// <reference lib=\"es2018.promise\" />\n/// <reference lib=\"es2018.regexp\" />\n/// <reference lib=\"es2018.intl\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2018\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2018\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface Promise<T>{finally(onfinally?:(()=>void)|undefined|null):Promise<T>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface Promise<T>{finally(onfinally?:(()=>void)|undefined|null):Promise<T>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface RegExpMatchArray{groups?:{[key:string]:string;};}interface RegExpExecArray{groups?:{[key:string]:string;};}interface RegExp{readonly dotAll:boolean;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface RegExpMatchArray{groups?:{[key:string]:string;};}interface RegExpExecArray{groups?:{[key:string]:string;};}interface RegExp{readonly dotAll:boolean;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ntype FlatArray<Arr,Depth extends number>={done:Arr;recur:Arr extends ReadonlyArray<infer InnerArr>?FlatArray<InnerArr,[-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20][Depth]>:Arr;}[Depth extends-1?\"done\":\"recur\"];interface ReadonlyArray<T>{flatMap<U,This=undefined>(callback:(this:This,value:T,index:number,array:T[])=>U|ReadonlyArray<U>,thisArg?:This,):U[];flat<A,D extends number=1>(this:A,depth?:D,):FlatArray<A,D>[];}interface Array<T>{flatMap<U,This=undefined>(callback:(this:This,value:T,index:number,array:T[])=>U|ReadonlyArray<U>,thisArg?:This,):U[];flat<A,D extends number=1>(this:A,depth?:D,):FlatArray<A,D>[];}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ntype FlatArray<Arr,Depth extends number>={done:Arr;recur:Arr extends ReadonlyArray<infer InnerArr>?FlatArray<InnerArr,[-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20][Depth]>:Arr;}[Depth extends-1?\"done\":\"recur\"];interface ReadonlyArray<T>{flatMap<U,This=undefined>(callback:(this:This,value:T,index:number,array:T[])=>U|ReadonlyArray<U>,thisArg?:This,):U[];flat<A,D extends number=1>(this:A,depth?:D,):FlatArray<A,D>[];}interface Array<T>{flatMap<U,This=undefined>(callback:(this:This,value:T,index:number,array:T[])=>U|ReadonlyArray<U>,thisArg?:This,):U[];flat<A,D extends number=1>(this:A,depth?:D,):FlatArray<A,D>[];}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2018\" />\n/// <reference lib=\"es2019.array\" />\n/// <reference lib=\"es2019.object\" />\n/// <reference lib=\"es2019.string\" />\n/// <reference lib=\"es2019.symbol\" />\n/// <reference lib=\"es2019.intl\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2018\" />\n/// <reference lib=\"es2019.array\" />\n/// <reference lib=\"es2019.object\" />\n/// <reference lib=\"es2019.string\" />\n/// <reference lib=\"es2019.symbol\" />\n/// <reference lib=\"es2019.intl\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2019\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2019\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{interface DateTimeFormatPartTypesRegistry{unknown:never;}}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{interface DateTimeFormatPartTypesRegistry{unknown:never;}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\ninterface ObjectConstructor{fromEntries<T=any>(entries:Iterable<readonly[PropertyKey,T]>):{[k:string]:T;};fromEntries(entries:Iterable<readonly any[]>):any;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\ninterface ObjectConstructor{fromEntries<T=any>(entries:Iterable<readonly[PropertyKey,T]>):{[k:string]:T;};fromEntries(entries:Iterable<readonly any[]>):any;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface String{trimEnd():string;trimStart():string;trimLeft():string;trimRight():string;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface String{trimEnd():string;trimStart():string;trimLeft():string;trimRight():string;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface Symbol{readonly description:string|undefined;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface Symbol{readonly description:string|undefined;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020.intl\" />\ninterface Date{toLocaleString(locales?:Intl.LocalesArgument,options?:Intl.DateTimeFormatOptions):string;toLocaleDateString(locales?:Intl.LocalesArgument,options?:Intl.DateTimeFormatOptions):string;toLocaleTimeString(locales?:Intl.LocalesArgument,options?:Intl.DateTimeFormatOptions):string;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020.intl\" />\ninterface Date{toLocaleString(locales?:Intl.LocalesArgument,options?:Intl.DateTimeFormatOptions):string;toLocaleDateString(locales?:Intl.LocalesArgument,options?:Intl.DateTimeFormatOptions):string;toLocaleTimeString(locales?:Intl.LocalesArgument,options?:Intl.DateTimeFormatOptions):string;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020.intl\" />\ninterface Number{toLocaleString(locales?:Intl.LocalesArgument,options?:Intl.NumberFormatOptions):string;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020.intl\" />\ninterface Number{toLocaleString(locales?:Intl.LocalesArgument,options?:Intl.NumberFormatOptions):string;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface PromiseFulfilledResult<T>{status:\"fulfilled\";value:T;}interface PromiseRejectedResult{status:\"rejected\";reason:any;}type PromiseSettledResult<T>=PromiseFulfilledResult<T>|PromiseRejectedResult;interface PromiseConstructor{allSettled<T extends readonly unknown[]|[]>(values:T):Promise<{-readonly[P in keyof T]:PromiseSettledResult<Awaited<T[P]>>;}>;allSettled<T>(values:Iterable<T|PromiseLike<T>>):Promise<PromiseSettledResult<Awaited<T>>[]>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface PromiseFulfilledResult<T>{status:\"fulfilled\";value:T;}interface PromiseRejectedResult{status:\"rejected\";reason:any;}type PromiseSettledResult<T>=PromiseFulfilledResult<T>|PromiseRejectedResult;interface PromiseConstructor{allSettled<T extends readonly unknown[]|[]>(values:T):Promise<{-readonly[P in keyof T]:PromiseSettledResult<Awaited<T[P]>>;}>;allSettled<T>(values:Iterable<T|PromiseLike<T>>):Promise<PromiseSettledResult<Awaited<T>>[]>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2020.intl\" />\n/// <reference lib=\"es2020.symbol.wellknown\" />\ninterface String{matchAll(regexp:RegExp):RegExpStringIterator<RegExpExecArray>;toLocaleLowerCase(locales?:Intl.LocalesArgument):string;toLocaleUpperCase(locales?:Intl.LocalesArgument):string;localeCompare(that:string,locales?:Intl.LocalesArgument,options?:Intl.CollatorOptions):number;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2020.intl\" />\n/// <reference lib=\"es2020.symbol.wellknown\" />\ninterface String{matchAll(regexp:RegExp):RegExpStringIterator<RegExpExecArray>;toLocaleLowerCase(locales?:Intl.LocalesArgument):string;toLocaleUpperCase(locales?:Intl.LocalesArgument):string;localeCompare(that:string,locales?:Intl.LocalesArgument,options?:Intl.CollatorOptions):number;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2015.symbol\" />\ninterface SymbolConstructor{readonly matchAll:unique symbol;}interface RegExpStringIterator<T>extends IteratorObject<T,BuiltinIteratorReturn,unknown>{[Symbol.iterator]():RegExpStringIterator<T>;}interface RegExp{[Symbol.matchAll](str:string):RegExpStringIterator<RegExpMatchArray>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2015.symbol\" />\ninterface SymbolConstructor{readonly matchAll:unique symbol;}interface RegExpStringIterator<T>extends IteratorObject<T,BuiltinIteratorReturn,unknown>{[Symbol.iterator]():RegExpStringIterator<T>;}interface RegExp{[Symbol.matchAll](str:string):RegExpStringIterator<RegExpMatchArray>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020\" />\n/// <reference lib=\"es2021.promise\" />\n/// <reference lib=\"es2021.string\" />\n/// <reference lib=\"es2021.weakref\" />\n/// <reference lib=\"es2021.intl\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020\" />\n/// <reference lib=\"es2021.promise\" />\n/// <reference lib=\"es2021.string\" />\n/// <reference lib=\"es2021.weakref\" />\n/// <reference lib=\"es2021.intl\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2021\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2021\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface AggregateError extends Error{errors:any[];}interface AggregateErrorConstructor{new(errors:Iterable<any>,message?:string):AggregateError;(errors:Iterable<any>,message?:string):AggregateError;readonly prototype:AggregateError;}declare var AggregateError:AggregateErrorConstructor;interface PromiseConstructor{any<T extends readonly unknown[]|[]>(values:T):Promise<Awaited<T[number]>>;any<T>(values:Iterable<T|PromiseLike<T>>):Promise<Awaited<T>>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface AggregateError extends Error{errors:any[];}interface AggregateErrorConstructor{new(errors:Iterable<any>,message?:string):AggregateError;(errors:Iterable<any>,message?:string):AggregateError;readonly prototype:AggregateError;}declare var AggregateError:AggregateErrorConstructor;interface PromiseConstructor{any<T extends readonly unknown[]|[]>(values:T):Promise<Awaited<T[number]>>;any<T>(values:Iterable<T|PromiseLike<T>>):Promise<Awaited<T>>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface String{replaceAll(searchValue:string|RegExp,replaceValue:string):string;replaceAll(searchValue:string|RegExp,replacer:(substring:string,...args:any[])=>string):string;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface String{replaceAll(searchValue:string|RegExp,replaceValue:string):string;replaceAll(searchValue:string|RegExp,replacer:(substring:string,...args:any[])=>string):string;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol.wellknown\" />\ninterface WeakRef<T extends WeakKey>{readonly[Symbol.toStringTag]:\"WeakRef\";deref():T|undefined;}interface WeakRefConstructor{readonly prototype:WeakRef<any>;new<T extends WeakKey>(target:T):WeakRef<T>;}declare var WeakRef:WeakRefConstructor;interface FinalizationRegistry<T>{readonly[Symbol.toStringTag]:\"FinalizationRegistry\";register(target:WeakKey,heldValue:T,unregisterToken?:WeakKey):void;unregister(unregisterToken:WeakKey):boolean;}interface FinalizationRegistryConstructor{readonly prototype:FinalizationRegistry<any>;new<T>(cleanupCallback:(heldValue:T)=>void):FinalizationRegistry<T>;}declare var FinalizationRegistry:FinalizationRegistryConstructor;",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol.wellknown\" />\ninterface WeakRef<T extends WeakKey>{readonly[Symbol.toStringTag]:\"WeakRef\";deref():T|undefined;}interface WeakRefConstructor{readonly prototype:WeakRef<any>;new<T extends WeakKey>(target:T):WeakRef<T>;}declare var WeakRef:WeakRefConstructor;interface FinalizationRegistry<T>{readonly[Symbol.toStringTag]:\"FinalizationRegistry\";register(target:WeakKey,heldValue:T,unregisterToken?:WeakKey):void;unregister(unregisterToken:WeakKey):boolean;}interface FinalizationRegistryConstructor{readonly prototype:FinalizationRegistry<any>;new<T>(cleanupCallback:(heldValue:T)=>void):FinalizationRegistry<T>;}declare var FinalizationRegistry:FinalizationRegistryConstructor;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface Array<T>{at(index:number):T|undefined;}interface ReadonlyArray<T>{at(index:number):T|undefined;}interface Int8Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint8Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint8ClampedArray<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Int16Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint16Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Int32Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint32Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Float32Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Float64Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface BigInt64Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):bigint|undefined;}interface BigUint64Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):bigint|undefined;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface Array<T>{at(index:number):T|undefined;}interface ReadonlyArray<T>{at(index:number):T|undefined;}interface Int8Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint8Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint8ClampedArray<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Int16Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint16Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Int32Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Uint32Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Float32Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface Float64Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):number|undefined;}interface BigInt64Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):bigint|undefined;}interface BigUint64Array<TArrayBuffer extends ArrayBufferLike>{at(index:number):bigint|undefined;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2021\" />\n/// <reference lib=\"es2022.array\" />\n/// <reference lib=\"es2022.error\" />\n/// <reference lib=\"es2022.intl\" />\n/// <reference lib=\"es2022.object\" />\n/// <reference lib=\"es2022.regexp\" />\n/// <reference lib=\"es2022.string\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2021\" />\n/// <reference lib=\"es2022.array\" />\n/// <reference lib=\"es2022.error\" />\n/// <reference lib=\"es2022.intl\" />\n/// <reference lib=\"es2022.object\" />\n/// <reference lib=\"es2022.regexp\" />\n/// <reference lib=\"es2022.string\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2021.promise\" />\ninterface ErrorOptions{cause?:unknown;}interface Error{cause?:unknown;}interface ErrorConstructor{new(message?:string,options?:ErrorOptions):Error;(message?:string,options?:ErrorOptions):Error;}interface EvalErrorConstructor{new(message?:string,options?:ErrorOptions):EvalError;(message?:string,options?:ErrorOptions):EvalError;}interface RangeErrorConstructor{new(message?:string,options?:ErrorOptions):RangeError;(message?:string,options?:ErrorOptions):RangeError;}interface ReferenceErrorConstructor{new(message?:string,options?:ErrorOptions):ReferenceError;(message?:string,options?:ErrorOptions):ReferenceError;}interface SyntaxErrorConstructor{new(message?:string,options?:ErrorOptions):SyntaxError;(message?:string,options?:ErrorOptions):SyntaxError;}interface TypeErrorConstructor{new(message?:string,options?:ErrorOptions):TypeError;(message?:string,options?:ErrorOptions):TypeError;}interface URIErrorConstructor{new(message?:string,options?:ErrorOptions):URIError;(message?:string,options?:ErrorOptions):URIError;}interface AggregateErrorConstructor{new(errors:Iterable<any>,message?:string,options?:ErrorOptions,):AggregateError;(errors:Iterable<any>,message?:string,options?:ErrorOptions,):AggregateError;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2021.promise\" />\ninterface ErrorOptions{cause?:unknown;}interface Error{cause?:unknown;}interface ErrorConstructor{new(message?:string,options?:ErrorOptions):Error;(message?:string,options?:ErrorOptions):Error;}interface EvalErrorConstructor{new(message?:string,options?:ErrorOptions):EvalError;(message?:string,options?:ErrorOptions):EvalError;}interface RangeErrorConstructor{new(message?:string,options?:ErrorOptions):RangeError;(message?:string,options?:ErrorOptions):RangeError;}interface ReferenceErrorConstructor{new(message?:string,options?:ErrorOptions):ReferenceError;(message?:string,options?:ErrorOptions):ReferenceError;}interface SyntaxErrorConstructor{new(message?:string,options?:ErrorOptions):SyntaxError;(message?:string,options?:ErrorOptions):SyntaxError;}interface TypeErrorConstructor{new(message?:string,options?:ErrorOptions):TypeError;(message?:string,options?:ErrorOptions):TypeError;}interface URIErrorConstructor{new(message?:string,options?:ErrorOptions):URIError;(message?:string,options?:ErrorOptions):URIError;}interface AggregateErrorConstructor{new(errors:Iterable<any>,message?:string,options?:ErrorOptions,):AggregateError;(errors:Iterable<any>,message?:string,options?:ErrorOptions,):AggregateError;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2022\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2022\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface ObjectConstructor{hasOwn(o:object,v:PropertyKey):boolean;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface ObjectConstructor{hasOwn(o:object,v:PropertyKey):boolean;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface RegExpMatchArray{indices?:RegExpIndicesArray;}interface RegExpExecArray{indices?:RegExpIndicesArray;}interface RegExpIndicesArray extends Array<[number,number]>{groups?:{[key:string]:[number,number];};}interface RegExp{readonly hasIndices:boolean;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface RegExpMatchArray{indices?:RegExpIndicesArray;}interface RegExpExecArray{indices?:RegExpIndicesArray;}interface RegExpIndicesArray extends Array<[number,number]>{groups?:{[key:string]:[number,number];};}interface RegExp{readonly hasIndices:boolean;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface String{at(index:number):string|undefined;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface String{at(index:number):string|undefined;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface WeakKeyTypes{symbol:symbol;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface WeakKeyTypes{symbol:symbol;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2022\" />\n/// <reference lib=\"es2023.array\" />\n/// <reference lib=\"es2023.collection\" />\n/// <reference lib=\"es2023.intl\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2022\" />\n/// <reference lib=\"es2023.array\" />\n/// <reference lib=\"es2023.collection\" />\n/// <reference lib=\"es2023.intl\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2023\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2023\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface ArrayBuffer{get maxByteLength():number;get resizable():boolean;resize(newByteLength?:number):void;get detached():boolean;transfer(newByteLength?:number):ArrayBuffer;transferToFixedLength(newByteLength?:number):ArrayBuffer;}interface ArrayBufferConstructor{new(byteLength:number,options?:{maxByteLength?:number;}):ArrayBuffer;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface ArrayBuffer{get maxByteLength():number;get resizable():boolean;resize(newByteLength?:number):void;get detached():boolean;transfer(newByteLength?:number):ArrayBuffer;transferToFixedLength(newByteLength?:number):ArrayBuffer;}interface ArrayBufferConstructor{new(byteLength:number,options?:{maxByteLength?:number;}):ArrayBuffer;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2024\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2024\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface PromiseWithResolvers<T>{promise:Promise<T>;resolve:(value:T|PromiseLike<T>)=>void;reject:(reason?:any)=>void;}interface PromiseConstructor{withResolvers<T>():PromiseWithResolvers<T>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface PromiseWithResolvers<T>{promise:Promise<T>;resolve:(value:T|PromiseLike<T>)=>void;reject:(reason?:any)=>void;}interface PromiseConstructor{withResolvers<T>():PromiseWithResolvers<T>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface RegExp{readonly unicodeSets:boolean;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface RegExp{readonly unicodeSets:boolean;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020.bigint\" />\ninterface Atomics{waitAsync(typedArray:Int32Array,index:number,value:number,timeout?:number):{async:false;value:\"not-equal\"|\"timed-out\";}|{async:true;value:Promise<\"ok\"|\"timed-out\">;};waitAsync(typedArray:BigInt64Array,index:number,value:bigint,timeout?:number):{async:false;value:\"not-equal\"|\"timed-out\";}|{async:true;value:Promise<\"ok\"|\"timed-out\">;};}interface SharedArrayBuffer{get growable():boolean;get maxByteLength():number;grow(newByteLength?:number):void;}interface SharedArrayBufferConstructor{new(byteLength:number,options?:{maxByteLength?:number;}):SharedArrayBuffer;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2020.bigint\" />\ninterface Atomics{waitAsync(typedArray:Int32Array,index:number,value:number,timeout?:number):{async:false;value:\"not-equal\"|\"timed-out\";}|{async:true;value:Promise<\"ok\"|\"timed-out\">;};waitAsync(typedArray:BigInt64Array,index:number,value:bigint,timeout?:number):{async:false;value:\"not-equal\"|\"timed-out\";}|{async:true;value:Promise<\"ok\"|\"timed-out\">;};}interface SharedArrayBuffer{get growable():boolean;get maxByteLength():number;grow(newByteLength?:number):void;}interface SharedArrayBufferConstructor{new(byteLength:number,options?:{maxByteLength?:number;}):SharedArrayBuffer;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface String{isWellFormed():boolean;toWellFormed():string;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface String{isWellFormed():boolean;toWellFormed():string;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ninterface ArrayConstructor{fromAsync<T>(iterableOrArrayLike:AsyncIterable<T>|Iterable<T|PromiseLike<T>>|ArrayLike<T|PromiseLike<T>>):Promise<T[]>;fromAsync<T,U>(iterableOrArrayLike:AsyncIterable<T>|Iterable<T>|ArrayLike<T>,mapFn:(value:Awaited<T>,index:number)=>U,thisArg?:any):Promise<Awaited<U>[]>;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ninterface ArrayConstructor{fromAsync<T>(iterableOrArrayLike:AsyncIterable<T>|Iterable<T|PromiseLike<T>>|ArrayLike<T|PromiseLike<T>>):Promise<T[]>;fromAsync<T,U>(iterableOrArrayLike:AsyncIterable<T>|Iterable<T>|ArrayLike<T>,mapFn:(value:Awaited<T>,index:number)=>U,thisArg?:any):Promise<Awaited<U>[]>;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2024.collection\" />\ninterface ReadonlySetLike<T>{keys():Iterator<T>;has(value:T):boolean;readonly size:number;}interface Set<T>{union<U>(other:ReadonlySetLike<U>):Set<T|U>;intersection<U>(other:ReadonlySetLike<U>):Set<T&U>;difference<U>(other:ReadonlySetLike<U>):Set<T>;symmetricDifference<U>(other:ReadonlySetLike<U>):Set<T|U>;isSubsetOf(other:ReadonlySetLike<unknown>):boolean;isSupersetOf(other:ReadonlySetLike<unknown>):boolean;isDisjointFrom(other:ReadonlySetLike<unknown>):boolean;}interface ReadonlySet<T>{union<U>(other:ReadonlySetLike<U>):Set<T|U>;intersection<U>(other:ReadonlySetLike<U>):Set<T&U>;difference<U>(other:ReadonlySetLike<U>):Set<T>;symmetricDifference<U>(other:ReadonlySetLike<U>):Set<T|U>;isSubsetOf(other:ReadonlySetLike<unknown>):boolean;isSupersetOf(other:ReadonlySetLike<unknown>):boolean;isDisjointFrom(other:ReadonlySetLike<unknown>):boolean;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2024.collection\" />\ninterface ReadonlySetLike<T>{keys():Iterator<T>;has(value:T):boolean;readonly size:number;}interface Set<T>{union<U>(other:ReadonlySetLike<U>):Set<T|U>;intersection<U>(other:ReadonlySetLike<U>):Set<T&U>;difference<U>(other:ReadonlySetLike<U>):Set<T>;symmetricDifference<U>(other:ReadonlySetLike<U>):Set<T|U>;isSubsetOf(other:ReadonlySetLike<unknown>):boolean;isSupersetOf(other:ReadonlySetLike<unknown>):boolean;isDisjointFrom(other:ReadonlySetLike<unknown>):boolean;}interface ReadonlySet<T>{union<U>(other:ReadonlySetLike<U>):Set<T|U>;intersection<U>(other:ReadonlySetLike<U>):Set<T&U>;difference<U>(other:ReadonlySetLike<U>):Set<T>;symmetricDifference<U>(other:ReadonlySetLike<U>):Set<T|U>;isSubsetOf(other:ReadonlySetLike<unknown>):boolean;isSupersetOf(other:ReadonlySetLike<unknown>):boolean;isDisjointFrom(other:ReadonlySetLike<unknown>):boolean;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2024\" />\n/// <reference lib=\"esnext.intl\" />\n/// <reference lib=\"esnext.decorators\" />\n/// <reference lib=\"esnext.disposable\" />\n/// <reference lib=\"esnext.collection\" />\n/// <reference lib=\"esnext.array\" />\n/// <reference lib=\"esnext.iterator\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2024\" />\n/// <reference lib=\"esnext.intl\" />\n/// <reference lib=\"esnext.decorators\" />\n/// <reference lib=\"esnext.disposable\" />\n/// <reference lib=\"esnext.collection\" />\n/// <reference lib=\"esnext.array\" />\n/// <reference lib=\"esnext.iterator\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"decorators\" />\ninterface SymbolConstructor{readonly metadata:unique symbol;}interface Function{[Symbol.metadata]:DecoratorMetadata|null;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"decorators\" />\ninterface SymbolConstructor{readonly metadata:unique symbol;}interface Function{[Symbol.metadata]:DecoratorMetadata|null;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2018.asynciterable\" />\ninterface SymbolConstructor{readonly dispose:unique symbol;readonly asyncDispose:unique symbol;}interface Disposable{[Symbol.dispose]():void;}interface AsyncDisposable{[Symbol.asyncDispose]():PromiseLike<void>;}interface SuppressedError extends Error{error:any;suppressed:any;}interface SuppressedErrorConstructor{new(error:any,suppressed:any,message?:string):SuppressedError;(error:any,suppressed:any,message?:string):SuppressedError;readonly prototype:SuppressedError;}declare var SuppressedError:SuppressedErrorConstructor;interface DisposableStack{readonly disposed:boolean;dispose():void;use<T extends Disposable|null|undefined>(value:T):T;adopt<T>(value:T,onDispose:(value:T)=>void):T;defer(onDispose:()=>void):void;move():DisposableStack;[Symbol.dispose]():void;readonly[Symbol.toStringTag]:string;}interface DisposableStackConstructor{new():DisposableStack;readonly prototype:DisposableStack;}declare var DisposableStack:DisposableStackConstructor;interface AsyncDisposableStack{readonly disposed:boolean;disposeAsync():Promise<void>;use<T extends AsyncDisposable|Disposable|null|undefined>(value:T):T;adopt<T>(value:T,onDisposeAsync:(value:T)=>PromiseLike<void>|void):T;defer(onDisposeAsync:()=>PromiseLike<void>|void):void;move():AsyncDisposableStack;[Symbol.asyncDispose]():Promise<void>;readonly[Symbol.toStringTag]:string;}interface AsyncDisposableStackConstructor{new():AsyncDisposableStack;readonly prototype:AsyncDisposableStack;}declare var AsyncDisposableStack:AsyncDisposableStackConstructor;interface IteratorObject<T,TReturn,TNext>extends Disposable{}interface AsyncIteratorObject<T,TReturn,TNext>extends AsyncDisposable{}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.symbol\" />\n/// <reference lib=\"es2015.iterable\" />\n/// <reference lib=\"es2018.asynciterable\" />\ninterface SymbolConstructor{readonly dispose:unique symbol;readonly asyncDispose:unique symbol;}interface Disposable{[Symbol.dispose]():void;}interface AsyncDisposable{[Symbol.asyncDispose]():PromiseLike<void>;}interface SuppressedError extends Error{error:any;suppressed:any;}interface SuppressedErrorConstructor{new(error:any,suppressed:any,message?:string):SuppressedError;(error:any,suppressed:any,message?:string):SuppressedError;readonly prototype:SuppressedError;}declare var SuppressedError:SuppressedErrorConstructor;interface DisposableStack{readonly disposed:boolean;dispose():void;use<T extends Disposable|null|undefined>(value:T):T;adopt<T>(value:T,onDispose:(value:T)=>void):T;defer(onDispose:()=>void):void;move():DisposableStack;[Symbol.dispose]():void;readonly[Symbol.toStringTag]:string;}interface DisposableStackConstructor{new():DisposableStack;readonly prototype:DisposableStack;}declare var DisposableStack:DisposableStackConstructor;interface AsyncDisposableStack{readonly disposed:boolean;disposeAsync():Promise<void>;use<T extends AsyncDisposable|Disposable|null|undefined>(value:T):T;adopt<T>(value:T,onDisposeAsync:(value:T)=>PromiseLike<void>|void):T;defer(onDisposeAsync:()=>PromiseLike<void>|void):void;move():AsyncDisposableStack;[Symbol.asyncDispose]():Promise<void>;readonly[Symbol.toStringTag]:string;}interface AsyncDisposableStackConstructor{new():AsyncDisposableStack;readonly prototype:AsyncDisposableStack;}declare var AsyncDisposableStack:AsyncDisposableStackConstructor;interface IteratorObject<T,TReturn,TNext>extends Disposable{}interface AsyncIteratorObject<T,TReturn,TNext>extends AsyncDisposable{}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"esnext\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"esnext\" />\n/// <reference lib=\"dom\" />\n/// <reference lib=\"webworker.importscripts\" />\n/// <reference lib=\"scripthost\" />\n/// <reference lib=\"dom.iterable\" />\n/// <reference lib=\"dom.asynciterable\" />\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ndeclare namespace Intl{}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\nexport{};declare abstract class Iterator<T,TResult=undefined,TNext=unknown>{abstract next(value?:TNext):IteratorResult<T,TResult>;}interface Iterator<T,TResult,TNext>extends globalThis.IteratorObject<T,TResult,TNext>{}type IteratorObjectConstructor=typeof Iterator;declare global{interface IteratorObject<T,TReturn,TNext>{[Symbol.iterator]():IteratorObject<T,TReturn,TNext>;map<U>(callbackfn:(value:T,index:number)=>U):IteratorObject<U,undefined,unknown>;filter<S extends T>(predicate:(value:T,index:number)=>value is S):IteratorObject<S,undefined,unknown>;filter(predicate:(value:T,index:number)=>unknown):IteratorObject<T,undefined,unknown>;take(limit:number):IteratorObject<T,undefined,unknown>;drop(count:number):IteratorObject<T,undefined,unknown>;flatMap<U>(callback:(value:T,index:number)=>Iterator<U,unknown,undefined>|Iterable<U,unknown,undefined>):IteratorObject<U,undefined,unknown>;reduce(callbackfn:(previousValue:T,currentValue:T,currentIndex:number)=>T):T;reduce(callbackfn:(previousValue:T,currentValue:T,currentIndex:number)=>T,initialValue:T):T;reduce<U>(callbackfn:(previousValue:U,currentValue:T,currentIndex:number)=>U,initialValue:U):U;toArray():T[];forEach(callbackfn:(value:T,index:number)=>void):void;some(predicate:(value:T,index:number)=>unknown):boolean;every(predicate:(value:T,index:number)=>unknown):boolean;find<S extends T>(predicate:(value:T,index:number)=>value is S):S|undefined;find(predicate:(value:T,index:number)=>unknown):T|undefined;readonly[Symbol.toStringTag]:string;}interface IteratorConstructor extends IteratorObjectConstructor{from<T>(value:Iterator<T,unknown,undefined>|Iterable<T,unknown,undefined>):IteratorObject<T,undefined,unknown>;}var Iterator:IteratorConstructor;}",
+                    "target": "/// <reference no-default-lib=\"true\"/>\n/// <reference lib=\"es2015.iterable\" />\nexport{};declare abstract class Iterator<T,TResult=undefined,TNext=unknown>{abstract next(value?:TNext):IteratorResult<T,TResult>;}interface Iterator<T,TResult,TNext>extends globalThis.IteratorObject<T,TResult,TNext>{}type IteratorObjectConstructor=typeof Iterator;declare global{interface IteratorObject<T,TReturn,TNext>{[Symbol.iterator]():IteratorObject<T,TReturn,TNext>;map<U>(callbackfn:(value:T,index:number)=>U):IteratorObject<U,undefined,unknown>;filter<S extends T>(predicate:(value:T,index:number)=>value is S):IteratorObject<S,undefined,unknown>;filter(predicate:(value:T,index:number)=>unknown):IteratorObject<T,undefined,unknown>;take(limit:number):IteratorObject<T,undefined,unknown>;drop(count:number):IteratorObject<T,undefined,unknown>;flatMap<U>(callback:(value:T,index:number)=>Iterator<U,unknown,undefined>|Iterable<U,unknown,undefined>):IteratorObject<U,undefined,unknown>;reduce(callbackfn:(previousValue:T,currentValue:T,currentIndex:number)=>T):T;reduce(callbackfn:(previousValue:T,currentValue:T,currentIndex:number)=>T,initialValue:T):T;reduce<U>(callbackfn:(previousValue:U,currentValue:T,currentIndex:number)=>U,initialValue:U):U;toArray():T[];forEach(callbackfn:(value:T,index:number)=>void):void;some(predicate:(value:T,index:number)=>unknown):boolean;every(predicate:(value:T,index:number)=>unknown):boolean;find<S extends T>(predicate:(value:T,index:number)=>value is S):S|undefined;find(predicate:(value:T,index:number)=>unknown):T|undefined;readonly[Symbol.toStringTag]:string;}interface IteratorConstructor extends IteratorObjectConstructor{from<T>(value:Iterator<T,unknown,undefined>|Iterable<T,unknown,undefined>):IteratorObject<T,undefined,unknown>;}var Iterator:IteratorConstructor;}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "/// <reference no-default-lib=\"true\"/>\ndeclare function importScripts(...urls:string[]):void;",
+                    "target": "/// <reference no-default-lib=\"true\"/>\ndeclare function importScripts(...urls:string[]):void;"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
