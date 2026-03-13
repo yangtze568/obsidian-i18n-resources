@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "qiniu-image-uploader",
+        "version": "1.0.0",
+        "title": "Qiniu Image Uploader",
+        "description": "Qiniu Image Uploader Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Iconv-lite warning: decode()-ing strings is deprecated. Refer to https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding",
+                    "target": "Iconv-lite 警告：对字符串进行 decode() 已弃用。请参见 https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "iconv-lite warning: javascript files use encoding different from utf-8. See https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings for more info.",
+                    "target": "iconv-lite 警告：javascript 文件使用了不同于 utf-8 的编码。更多信息请参见 https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings: ",
+                    "target": "设置： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fs-extra: Using the preserveTimestamps option in 32-bit node is not recommended;\n\n    see https://github.com/jprichardson/node-fs-extra/issues/269",
+                    "target": "fs-extra：在 32 位 node 中不建议使用 preserveTimestamps 选项；\n\n    参见 https://github.com/jprichardson/node-fs-extra/issues/269"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Since Acorn 8.0.0, options.ecmaVersion is required.\nDefaulting to 2020, but this will stop working in the future.",
+                    "target": "自 Acorn 8.0.0 起，必须设置 options.ecmaVersion。\n当前默认使用 2020，但未来将不再生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[urllib:warn] [%s] [%s] [worker:%s] %s %s callback twice!!!",
+                    "target": "[urllib:warn] [%s] [%s] [worker:%s] %s %s 回调两次!!!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[urllib:warn] [%s] [%s] [worker:%s] %s: %s\nstack: %s",
+                    "target": "[urllib:warn] [%s] [%s] [worker:%s] %s: %s\n堆栈: %s"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "修改为 HTTPS",
+                    "target": "修改为 HTTPS"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "修改为 HTTP",
+                    "target": "修改为 HTTP"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ Please open a file.",
+                    "target": "⚠️ 请打开一个文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ Please configure Qiniu Image Uploader or disable it",
+                    "target": "⚠️ 请配置七牛图片上传器或将其禁用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Node wrapper for Qiniu Resource (Cloud) Storage API",
+                    "target": "七牛资源（云）存储 API 的 Node 封装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ECMAScript JS AST traversal functions",
+                    "target": "ECMAScript JS AST 遍历函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ECMAScript code generator",
+                    "target": "ECMAScript 代码生成器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.",
+                    "target": "帮助在复杂环境中打开 URL（主要是 HTTP）——基本与摘要认证、重定向、Cookie 等。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Xu Shiwei",
+                    "target": "Xu Shiwei"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yusuke Suzuki",
+                    "target": "Yusuke Suzuki"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
