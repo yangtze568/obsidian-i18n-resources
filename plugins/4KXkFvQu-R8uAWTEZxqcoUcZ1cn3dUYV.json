@@ -1,0 +1,427 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "file-share",
+        "version": "1.0.0",
+        "title": "File Share",
+        "description": "File Share Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Waiting for response...",
+                    "target": "等待响应..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Request accepted",
+                    "target": "请求已接受"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Transfer completed",
+                    "target": "传输完成"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Transfer failed",
+                    "target": "传输失败"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Request rejected",
+                    "target": "请求已拒绝"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to generate a new key pair? Your current key will be lost.",
+                    "target": "确定要生成新的密钥对吗？当前密钥将会丢失。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to activate this option?.",
+                    "target": "确定要启用此选项吗？."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebSocket is not open. ReadyState:",
+                    "target": "WebSocket 未打开。ReadyState:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebSocket error:",
+                    "target": "WebSocket 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving received file:",
+                    "target": "保存接收文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error sending the file:",
+                    "target": "发送文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch release notes:",
+                    "target": "获取发布说明失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching release notes:",
+                    "target": "获取发布说明出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking for updates:",
+                    "target": "检查更新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File Share: Migrated friend hotkey settings to new format",
+                    "target": "文件分享：已将好友快捷键设置迁移到新格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open documentation",
+                    "target": "打开文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable a direct send command for this friend. After enabling, you can assign a hotkey in Obsidian's hotkey settings.",
+                    "target": "为此好友启用直接发送命令。启用后，你可以在 Obsidian 的快捷键设置中分配快捷键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is your key. Share it with your friends.",
+                    "target": "这是你的密钥。将其分享给你的好友。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the folder where received files will be saved.",
+                    "target": "选择接收文件的保存文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When receiving files that were sent from a folder, recreate the folder structure in your receive folder. If disabled, all files will be saved directly to the receive folder.",
+                    "target": "接收从文件夹发送的文件时，在接收文件夹中重建文件夹结构。若禁用，所有文件将直接保存到接收文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Feel free to explore the documentation for comprehensive guidance and support.",
+                    "target": "欢迎查阅文档以获取全面的指导和支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "⚠️ Only change these settings if you know what you are doing.",
+                    "target": "⚠️ 仅在了解操作后更改这些设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Size of each chunk when sending files. Smaller chunks are more reliable for unstable connections, larger chunks are faster. Range: 64KB - 1024KB (1MB).",
+                    "target": "发送文件时每个分块的大小。较小分块在不稳定连接下更可靠，较大分块更快。范围：64KB - 1024KB（1MB）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to automatically accept incoming files. Attention: There is a potential security risk to do that.",
+                    "target": "启用后将自动接收传入文件。注意：这样做存在潜在安全风险。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Socket URL to exchange files end-to-end encrypted. Only SSL supported.",
+                    "target": "用于端到端加密交换文件的 Socket URL。仅支持 SSL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable hotkey",
+                    "target": "启用快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your key",
+                    "target": "你的按键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Receive folder",
+                    "target": "接收文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preserve folder structure",
+                    "target": "保留文件夹结构"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Need any help?",
+                    "target": "需要帮助吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Friend",
+                    "target": "添加好友"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chunk size (KB)",
+                    "target": "分块大小 (KB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-accept incoming files",
+                    "target": "自动接受传入文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Socket URL",
+                    "target": "Socket URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Send to ...",
+                    "target": "发送到 ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Send folder to ...",
+                    "target": "发送文件夹到 ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy to clipboard",
+                    "target": "复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Generate new key pair",
+                    "target": "生成新的密钥对"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Enable hotkey",
+                    "target": "启用快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open hotkey settings",
+                    "target": "打开快捷键设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show/hide advanced settings",
+                    "target": "显示/隐藏高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Use custom",
+                    "target": "使用自定义"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You are not connected to the FileShare server. Please connect first.",
+                    "target": "您未连接到 FileShare 服务器。请先连接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No files found in folder",
+                    "target": "文件夹中未找到文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please fill out all fields.",
+                    "target": "请填写所有字段。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A friend with this username is already set.",
+                    "target": "已设置此用户名的好友。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Key copied to clipboard",
+                    "target": "密钥已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Socket URL could not be validated for SSL. Reverting to default socket server...",
+                    "target": "无法验证 Socket URL 的 SSL。正在恢复为默认 Socket 服务器..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file selected",
+                    "target": "未选择文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot send message: Not connected to FileShare server.",
+                    "target": "无法发送消息：未连接到 FileShare 服务器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Socket URL could not be validated for SSL. Using default socket server...",
+                    "target": "Socket URL 无法通过 SSL 验证。正在使用默认 socket 服务器..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Closing connection...",
+                    "target": "正在关闭连接..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Trying to connect...",
+                    "target": "正在尝试连接..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "FileShare connection opened.",
+                    "target": "FileShare 连接已打开。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "FileShare connection closed.",
+                    "target": "FileShare 连接已关闭。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "WebSocket error occurred. Check console for details.",
+                    "target": "发生 WebSocket 错误。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not read file",
+                    "target": "无法读取文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to encrypt file",
+                    "target": "文件加密失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sender not found",
+                    "target": "未找到发送者"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Signature verification failed. File not saved.",
+                    "target": "签名验证失败。文件未保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save the received file.",
+                    "target": "保存接收到的文件失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Received chunk for unknown file",
+                    "target": "收到未知文件的分块"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fetch release notes from GitHub.",
+                    "target": "从 GitHub 获取发布说明失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Could not read file statistics",
+                    "target": "无法读取文件统计信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Send current file to...",
+                    "target": "将当前文件发送到..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "FileShare - Update Notes",
+                    "target": "FileShare - 更新说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No release notes available.",
+                    "target": "无可用发布说明。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
