@@ -1,0 +1,211 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-tasks",
+        "version": "1.0.0",
+        "title": "Auto Tasks",
+        "description": "Auto Tasks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义的每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义的每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义的每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义的每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义的每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "No periodic notes settings are enabled. You must turn on either the daily or weekly notes within the Periodic Notes plugin settings to be able to configure automatic tasks.",
+                    "target": "未启用任何周期性笔记设置。您必须在 Periodic Notes 插件设置中开启每日或每周笔记，才能配置自动任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download and enable the Tasks plugin to enable due date functionality within your tasks and TODOs.",
+                    "target": "下载并启用 Tasks 插件，以在任务和待办事项中启用截止日期功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The prefix to add to any carried over tasks, e.g. \"[>]\".",
+                    "target": "为任何结转的任务添加的前缀，例如 \"[>]\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the header to be added to the top of the tasks section within new notes - include any markdown to set the heading style.",
+                    "target": "设置要添加到新笔记任务区顶部的标题——可包含任何 Markdown 以设置标题样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of headings within the notes to search and include any carry over tasks from. Leave this blank to search the entire note.",
+                    "target": "以逗号分隔的笔记内标题列表，用于搜索并包含其中的结转任务。留空则搜索整篇笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Any newly discovered tasks will be added into the Kanban board you choose.",
+                    "target": "任何新发现的任务都会添加到你选择的看板中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is the Kanban board that will have tasks automatically added.",
+                    "target": "这是将自动添加任务的看板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select folders to ignore reading tasks from when syncing to the Kanban board.",
+                    "target": "选择在同步到看板时忽略读取任务的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter task names to ignore when syncing to the Kanban board. You can enter regular expression patterns, e.g. \"^Meeting:\"",
+                    "target": "输入在同步到看板时要忽略的任务名称。你可以输入正则表达式模式，例如 \"^Meeting:\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download and enable the Kanban plugin to automatically sync tasks into your chosen Kanban board.",
+                    "target": "下载并启用看板插件，将任务自动同步到你选择的看板中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "No periodic notes enabled",
+                    "target": "未启用周期性笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tasks due date support",
+                    "target": "任务截止日期支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "All tasks",
+                    "target": "所有任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prefix for carried over tasks",
+                    "target": "结转任务前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add due tasks",
+                    "target": "添加到期任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Heading(s) to search for tasks",
+                    "target": "用于搜索任务的标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Kanban board",
+                    "target": "看板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatically synchronise tasks to Kanban board",
+                    "target": "自动将任务同步到看板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Primary Kanban board",
+                    "target": "主看板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder(s) to ignore",
+                    "target": "要忽略的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task name(s) to ignore",
+                    "target": "要忽略的任务名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Kanban support",
+                    "target": "看板支持"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The Periodic Notes plugin must be installed and available for Auto Tasks to work.",
+                    "target": "必须安装并启用 Periodic Notes 插件，Auto Tasks 才能正常工作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "## TODOs",
+                    "target": "## 待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add entry",
+                    "target": "添加条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add folder",
+                    "target": "添加文件夹"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
