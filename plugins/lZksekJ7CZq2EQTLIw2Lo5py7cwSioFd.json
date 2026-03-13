@@ -1,0 +1,655 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "draw-steel-elements",
+        "version": "1.0.0",
+        "title": "Draw Steel Elements",
+        "description": "Draw Steel Elements Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "5.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Customize Condition",
+                    "target": "自定义条件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Toggle to mark turn taken",
+                    "target": "切换以标记已行动回合"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Add Condition",
+                    "target": "添加条件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Check Motivations that have already been appealed to.",
+                    "target": "勾选已被诉诸的动机。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Resolve the Argument using the current state of motivations, pitfalls, etc. \nRequires Power Roll tier to be selected.",
+                    "target": "根据当前动机、陷阱等状态裁决论证。\n需要选择力量检定等级。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "If the Heroes mention a Pitfall: Argument fails and the NPC may warn Heroes.",
+                    "target": "如果英雄提到一个陷阱：论证失败，NPC可能会警告英雄。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "If the NPC catches a lie: Arguments that fail to increase Interest will lose an additional Interest.",
+                    "target": "如果NPC识破谎言：未能提高兴趣的论证将额外失去1点兴趣。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "If the Heroes try to use the same Argument (w/o Motivation): Test automatically gets tier-1 result.",
+                    "target": "如果英雄试图使用相同论证（无动机）：检定自动获得等级-1结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing frontmatter:",
+                    "target": "解析 frontmatter 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "DSE Compendium asset download failed:",
+                    "target": "DSE Compendium 资源下载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error downloading DSE Compendium release:",
+                    "target": "下载 DSE 汇编发布版本时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to find canvas associated with markdown context.  Change NOT saved.",
+                    "target": "未找到与 Markdown 上下文关联的画布。更改未保存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Directory within your vault to extract the Compendium contents to.  THIS DIRECTORY WILL BE WIPED CLEAN!",
+                    "target": "在你的库中用于解压汇编内容的目录。此目录将被彻底清空！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default image to use for creatures in the initiative tracker if not specified",
+                    "target": "在先攻追踪器中未指定时用于生物的默认图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Release Tag (Optional)",
+                    "target": "发布标签（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Destination Directory",
+                    "target": "目标目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Creature Image Path",
+                    "target": "默认生物图片路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reset Negotiation",
+                    "target": "重置协商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，请参阅 addKeyword 的文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "将 keywords 选项作为 map 已弃用，请传入数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unexpected line in effect block, skipping:",
+                    "target": "效果块中出现意外行，已跳过："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to find the file to update.",
+                    "target": "无法找到要更新的文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Root or manually mounted instance modified. Full reload required.",
+                    "target": "[HMR] 根实例或手动挂载的实例已修改。需要完全重新加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Something went wrong during Vue component hot-reload. Full reload required.",
+                    "target": "[HMR] Vue 组件热重载过程中发生错误。需要完全重新加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Negotiation reset to initial state",
+                    "target": "谈判已重置为初始状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The title or description of the feature",
+                    "target": "特性的标题或描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The icon of the feature (ex: \"🏹\")",
+                    "target": "特性的图标（例如：“🏹”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Must always be 'feature'",
+                    "target": "必须始终为“feature”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The type of the feature (ability or trait)",
+                    "target": "特性的类型（能力或特质）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Usage (e.g., \"Action\", \"Maneuver\", \"Triggered Action\", \"Villain Action 1\")",
+                    "target": "用途（例如：“Action”、“Maneuver”、“Triggered Action”、“Villain Action 1”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cost to use the feature (e.g., \"5 Essence\", \"Signature\", \"2 Malice\")",
+                    "target": "使用该特性的消耗（例如，“5 Essence”“Signature”“2 Malice”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Type of the ability (Signature or Heroic)",
+                    "target": "能力类型（Signature 或 Heroic）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Keywords associated with the feature (e.g., [\"Magic\",\"Earth\",\"Melee\"])",
+                    "target": "与该特性相关的关键词（例如，[\"Magic\",\"Earth\",\"Melee\"]）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Distance or area (e.g., \"Ranged 5\", \"2 burst\", \"Melee 1\")",
+                    "target": "距离或范围（例如，“Ranged 5”“2 burst”“Melee 1”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trigger condition for triggered actions",
+                    "target": "触发动作的触发条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Flavor text of the feature",
+                    "target": "特性的风味文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Metadata for the feature, to be converted to frontmatter in markdown. This field contains key-value pairs that will be rendered as YAML frontmatter.",
+                    "target": "该特性的元数据，将在 Markdown 中转换为 frontmatter。此字段包含将渲染为 YAML frontmatter 的键值对。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List of effects (flexible formats)",
+                    "target": "效果列表（格式灵活）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Name of the effect",
+                    "target": "效果名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cost to trigger this effect",
+                    "target": "触发此效果的消耗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Effect expression (e.g., \"All targets make a Might test.\")",
+                    "target": "效果表达式（例如：“所有目标进行一次力量检定。”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Power Roll expression (e.g., \"2d10 + 3\")",
+                    "target": "力量掷骰表达式（例如：“2d10 + 3”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List of features granted by the effect",
+                    "target": "该效果授予的特性列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A creature statblock for a Draw Steel.",
+                    "target": "Draw Steel 的生物属性块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The name of the creature.",
+                    "target": "生物的名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Must always be 'statblock'",
+                    "target": "必须始终为 'statblock'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The creature's level.",
+                    "target": "生物的等级。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Roles assigned to the creature (e.g., Boss, Minion).",
+                    "target": "分配给该生物的角色（例如：Boss、Minion）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ancestries or types the creature belongs to (e.g., Human, Humanoid).",
+                    "target": "该生物所属的种族或类型（例如：Human、Humanoid）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Encounter Value (EV) of the creature.",
+                    "target": "该生物的遭遇值（EV）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The creature's max stamina.",
+                    "target": "生物的最大耐力。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List of immunities (e.g., Magic 2, Psionic 2).",
+                    "target": "免疫列表（例如：Magic 2、Psionic 2）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List of weaknesses (e.g., acid 3, holy 1).",
+                    "target": "弱点列表（例如：acid 3、holy 1）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Size category (e.g., 1M for medium).",
+                    "target": "体型类别（例如：1M 表示中型）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stability value of the creature.",
+                    "target": "生物的稳定值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The free strike value.",
+                    "target": "免费打击值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Might modifier.",
+                    "target": "Might 修正值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Agility modifier.",
+                    "target": "Agility 修正值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Reason modifier.",
+                    "target": "Reason 修正值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Intuition modifier.",
+                    "target": "Intuition 修正值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Presence modifier.",
+                    "target": "存在修正器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Effect when a captain is present.",
+                    "target": "当有船长在场时的效果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to constant",
+                    "target": "必须等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to one of the allowed values",
+                    "target": "必须等于允许值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "property name must be valid",
+                    "target": "属性名称必须有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have additional properties",
+                    "target": "不得有额外属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT be valid",
+                    "target": "必须无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have unevaluated properties",
+                    "target": "不得有未评估的属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected block-seq-ind on same line with key",
+                    "target": "同一行的键出现了意外的 block-seq-ind"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "handle animals",
+                    "target": "处理动物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "read person",
+                    "target": "读心术"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "conceal object",
+                    "target": "隐藏物品"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "escape artist",
+                    "target": "脱逃大师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pick lock",
+                    "target": "撬锁"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pick pocket",
+                    "target": "扒窃"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "criminal underworld",
+                    "target": "地下犯罪世界"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download Compendium",
+                    "target": "下载宝典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Draw Steel Compendium Downloader",
+                    "target": "Draw Steel 宝典下载器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Important: The Compendium will download to a specific directory in your vault and delete any files in that directory",
+                    "target": "重要：宝典将下载到你保险库中的特定目录，并删除该目录中的所有文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Download Compendium",
+                    "target": "下载宝典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Initiative Tracker",
+                    "target": "先攻追踪器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Full Heal",
+                    "target": "完全治疗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Spend Recovery",
+                    "target": "消耗恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Customize Condition",
+                    "target": "自定义状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Color: ",
+                    "target": "颜色： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Effect: ",
+                    "target": "效果： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Conditions",
+                    "target": "添加状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm Encounter Reset",
+                    "target": "确认重置遭遇"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to reset the encounter data?  All state will be lost including current stamina, conditions, turn tracker, and villain power.",
+                    "target": "确定要重置遭遇数据吗？  所有状态将丢失，包括当前耐力、状态、回合追踪器和反派能量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Yes, Reset",
+                    "target": "是的，重置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "damage to",
+                    "target": "对...的伤害"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Apply Damage",
+                    "target": "应用伤害"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reset Round",
+                    "target": "重置回合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reset Encounter State",
+                    "target": "重置遭遇状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Trigger: ",
+                    "target": "触发： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "≤11",
+                    "target": "≤11"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Appeals to Motivation",
+                    "target": "诉诸动机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mentions Pitfall",
+                    "target": "提及陷阱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reuses a Motivation that has already been appealed to",
+                    "target": "重复使用已被诉诸的动机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "NPC caught a lie and is offended",
+                    "target": "NPC 识破了谎言并感到被冒犯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Argument has already been made (w/o Motivation)",
+                    "target": "已提出论点（无动机）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Power Roll + Reason, Intuition, or Presence",
+                    "target": "力量掷骰 + 理性、直觉或气场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If the heroes want to learn one of the NPC’s motivations or pitfalls, a hero can make the following test while interacting with the NPC during the negotiation. After this test is made, the heroes can’t make another test to determine the same NPC’s motivations or pitfalls until they make an argument to the NPC or the negotiation ends.",
+                    "target": "如果英雄想了解某个NPC的动机或弱点之一，英雄可以在谈判中与NPC互动时进行以下检定。进行该检定后，英雄在向该NPC提出论点或谈判结束之前，不能再次进行检定来判定该NPC的相同动机或弱点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Free Strike",
+                    "target": "免费打击"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Steel Compendium Feature",
+                    "target": "《钢铁》汇编特性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Draw Steel Statblock",
+                    "target": "《钢铁》数据块"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
