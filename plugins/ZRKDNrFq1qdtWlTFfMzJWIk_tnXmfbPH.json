@@ -1,0 +1,1435 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note-toolbar",
+        "version": "1.0.0",
+        "title": "Note Toolbar",
+        "description": "Note Toolbar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.29.24",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Definiere, was passiert, wenn Toolbars in Callouts umgewandelt werden.",
+                    "target": "定义当工具栏转换为标注时会发生什么。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aktivieren Sie Toolbars in Canvases, PDFs, Videos und anderen Dateitypen.",
+                    "target": "在画布、PDF、视频和其他文件类型中启用工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Erstelle kontextabhängige Toolbars für deine Notizen.",
+                    "target": "为你的笔记创建上下文相关的工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Notizen in den unten aufgeführten Ordnern zeigen die zugewiesene Toolbar an. Die Reihenfolge wird von oben nach unten priorisiert.",
+                    "target": "下面列出的文件夹中的笔记会显示分配的工具栏。顺序按从上到下优先。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dieser Toolbar einen eindeutigen Namen geben.",
+                    "target": "为此工具栏指定唯一名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wenn aktiviert, werden Debug-Meldungen in der Konsole angezeigt. Dies kann für Entwickler und zur Fehlerbehebung nützlich sein.",
+                    "target": "启用后，将在控制台显示调试消息。这对开发者和故障排查可能有用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Legt das Symbol für die schwebende Schaltfläche und die Navigationsleiste (mobil) fest. Erfordert einen Neustart.",
+                    "target": "设置浮动按钮和导航栏（移动端）的图标。需要重启。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Behält den Sichtbarkeitsstatus von Eigenschaften in Notizen bei, wenn Sie die Optionen der Notiz-Toolbar zum Umschalten der Eigenschaften verwenden. Wenn diese Option aktiviert ist, müssen Sie die Option „Notizeigenschaften anzeigen“ der Notiz-Toolbar verwenden, um die Eigenschaften wieder anzuzeigen.",
+                    "target": "当你使用笔记工具栏选项切换属性时，保留笔记中属性的可见性状态。启用此选项后，你必须使用笔记工具栏的“显示笔记属性”选项才能再次显示属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wenn Sie Plugin-Einstellungen geräteübergreifend synchronisieren, aktivieren Sie diese Option, um Toolbar-Updates automatisch zu laden. Andernfalls müssen Sie Obsidian neu starten, um Änderungen auf anderen Geräten zu sehen.",
+                    "target": "如果你在设备间同步插件设置，启用此选项可自动加载工具栏更新。否则，你需要重启 Obsidian 才能看到其他设备上的更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Notiz Toolbar-Callouts werden beim Klicken nicht zur Bearbeitung erweitert. Wenn diese Option aktiviert ist, können Sie Änderungen über die Option „Bearbeiten“ im Callout-Menü vornehmen.",
+                    "target": "点击时，笔记工具栏标注不会展开以进行编辑。启用此选项后，你可以通过标注菜单中的“编辑”选项进行更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aktion, die ausgeführt wird, wenn das Ribbon-Icon (auf Mobilgeräten) verwendet wird.",
+                    "target": "在移动设备上使用 Ribbon 图标时执行的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Positionierung der Toolbar",
+                    "target": "工具栏的位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Regeln, die festlegen, für welche Notizen Symbolleisten angezeigt werden sollen.",
+                    "target": "确定应为哪些笔记显示工具栏的规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Liste der Stile, die auf die Symbolleiste angewendet werden sollen.",
+                    "target": "要应用到工具栏的样式列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Diese Toolbar wird verwendet in: ",
+                    "target": "此工具栏用于："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Define what happens when toolbars are converted to callouts.",
+                    "target": "定义当工具栏转换为标注时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable toolbars in canvases, PDFs, video, and other file types.",
+                    "target": "在画布、PDF、视频及其他文件类型中启用工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Define where toolbars are shown across the app.",
+                    "target": "定义在应用中显示工具栏的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the action to take when the ribbon button in the navigation bar (on phones) is used.",
+                    "target": "设置在手机导航栏中使用 Ribbon 按钮时要执行的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Define which notes to display toolbars on.",
+                    "target": "定义在哪些笔记上显示工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Notes in folders below will display the toolbar mapped to it. Precedence is top to bottom.",
+                    "target": "以下文件夹中的笔记将显示映射到它的工具栏。优先级从上到下。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Give this toolbar a unique name.",
+                    "target": "为此工具栏指定唯一名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add a command that opens this toolbar.",
+                    "target": "添加一个打开此工具栏的命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sets the icon for Note Toolbar when used in the tab bar, floating button, and navigation bar (on phone). Requires restart.",
+                    "target": "设置笔记工具栏在标签栏、浮动按钮和导航栏（手机上）中使用的图标。需要重启。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maintains the visibility state of Properties in notes, if you use Note Toolbar's options to toggle properties. If enabled, you will have to use Note Toolbar's \"Show note properties\" to show properties again.",
+                    "target": "如果你使用笔记工具栏的选项来切换属性，将保留笔记中“属性”的可见状态。启用后，你需要使用笔记工具栏的“显示笔记属性”才能再次显示属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If you’re syncing plugin settings across devices, turn this on to automatically load toolbar updates. If not, you’ll need to restart Obsidian to see changes from other devices.",
+                    "target": "如果你在设备间同步插件设置，开启此项以自动加载工具栏更新。否则，你需要重启 Obsidian 才能看到来自其他设备的更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Note Toolbar Callouts will not be expanded for editing on click. If enabled, use the Edit option in the callout menu to make changes.",
+                    "target": "点击时不会展开笔记工具栏提示框以进行编辑。启用后，请使用提示框菜单中的“编辑”选项进行更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hides actions in Obsidian's phone navigation bar.",
+                    "target": "隐藏 Obsidian 手机导航栏中的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Where to position this toolbar.",
+                    "target": "此工具栏的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Rules that define which notes to display toolbars on.",
+                    "target": "定义在哪些笔记上显示工具栏的规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List of styles to apply to the toolbar.",
+                    "target": "要应用于工具栏的样式列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This toolbar is used in: ",
+                    "target": "此工具栏用于："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ツールバーをコールアウトに変換するときの動作を定義します。",
+                    "target": "定义将工具栏转换为标注时的行为。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "この操作は元に戻せません。",
+                    "target": "此操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "キャンバス、PDF、ビデオ、その他のファイルタイプでツールバーを有効にします。",
+                    "target": "在画布、PDF、视频和其他文件类型中启用工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "アプリ全体でツールバーを表示する場所を定義します。",
+                    "target": "定义在整个应用中显示工具栏的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "リボンアイコン（スマートフォン）を使用したときのアクションを設定します。",
+                    "target": "设置使用功能区图标（智能手机）时的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "プロパティ、マッピング、またはその両方を使用して、ツールバーを表示するノートを定義します。",
+                    "target": "使用属性、映射或两者来定义要显示工具栏的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ノートのためのコンテキスト対応ツールバー。",
+                    "target": "适用于笔记的上下文工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ツールバーにアイテムを順番に追加します。",
+                    "target": "按顺序将项目添加到工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "以下のフォルダ内のノートに、マッピングされたツールバーが表示されます。優先順位は上から下です。",
+                    "target": "以下文件夹中的笔记将显示映射的工具栏。优先级从上到下。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "このツールバーに一意の名前を付けます。",
+                    "target": "为此工具栏命名一个唯一名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "クイックツールウィンドウでこのツールバーを開くコマンドを追加します。",
+                    "target": "在快速工具窗口中添加打开此工具栏的命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "有効にすると、デバッグメッセージがコンソールに表示されます。これは開発者や問題のトラブルシューティングに役立つ場合があります。",
+                    "target": "启用后，调试消息会显示在控制台中。这可能有助于开发者或问题排查。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Note Toolbarがタブバー、フローティングボタン、ナビゲーションバー（電話）で使用されるときのアイコンを設定します。再起動が必要です。",
+                    "target": "设置 Note Toolbar 在标签栏、浮动按钮和导航栏（手机）中使用时的图标。需要重启。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Note Toolbarのオプションでプロパティの表示・非表示を切り替えた場合に、ノート内のプロパティの表示状態を維持します。有効にすると、再度プロパティを表示するにはNote Toolbarの「ノートのプロパティを表示」を使用する必要があります。",
+                    "target": "当在 Note Toolbar 选项中切换属性的显示/隐藏时，保持笔记中属性的显示状态。启用后，要再次显示属性需使用 Note Toolbar 的“显示笔记属性”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "プラグイン設定を複数のデバイスで同期している場合、これをオンにするとツールバーの更新が自動的に読み込まれます。そうでない場合は、他のデバイスからの変更を反映するためにObsidianを再起動する必要があります。",
+                    "target": "如果在多个设备间同步插件设置，开启此项会自动加载工具栏更新。否则，需要重启 Obsidian 才能反映其他设备的更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Note Toolbarのコールアウトはクリックしても編集のために展開されません。有効にすると、変更するにはコールアウトメニューの編集オプションを使用してください。",
+                    "target": "Note Toolbar 的标注不会在点击时展开以编辑。启用后，请使用标注菜单中的编辑选项进行更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hides actions in Obsidian's mobile navigation bar.",
+                    "target": "隐藏 Obsidian 移动端导航栏中的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "便利なように、メニューとして表示されるツールバーにツールバー設定にアクセスするアイテムを追加します。",
+                    "target": "为方便起见，在作为菜单显示的工具栏中添加访问工具栏设置的项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "このツールバーを配置する位置。",
+                    "target": "放置此工具栏的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ツールバーを表示するノートを定義するルール。",
+                    "target": "定义显示工具栏的笔记规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ツールバーに適用するスタイルのリスト。",
+                    "target": "应用于工具栏的样式列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "このツールバーは以下で使用されています: ",
+                    "target": "此工具栏用于以下位置："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Налаштувати дії при перетворенні панелі як текст виноски.",
+                    "target": "设置将面板转换为标注文本时的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Цю дію не можна скасувати.",
+                    "target": "此操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкнути панель у полотнах, новому вигляді вкладки та інших типів файлів.",
+                    "target": "在画布、新选项卡视图和其他文件类型中启用面板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Параметри відображення панелей у нотатках, використовуючи: Властивість, Зіставлені теки, або обидва засоби.",
+                    "target": "使用以下方式在笔记中显示面板的选项：属性、匹配文件夹，或两者。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Створення контекстно-орієнтованих панелей у нотатках.",
+                    "target": "在笔记中创建上下文感知面板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Додавайте до панелі елементи по черзі",
+                    "target": "逐个向面板添加元素。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "У нотатках з вказаних нижче тек буде відображена відповідна панель. Пріоритет зверху донизу.",
+                    "target": "在以下指定的标签中，将显示相应面板。优先级从上到下。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Вкажіть унікальне ім'я панелі.",
+                    "target": "指定面板的唯一名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Додає команду відкриття панелі до Меню команд.",
+                    "target": "将打开面板的命令添加到命令菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Якщо увімкнено, повідомлення налагодження відображатимуться у консолі. Це може бути корисно для розробників та усунення неполадок.",
+                    "target": "启用后，调试消息将显示在控制台中。这对开发人员和故障排查很有帮助。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Іконка плаваючої кнопки на мобільном. Потребує перезавантаження.",
+                    "target": "移动端浮动按钮图标。需要重载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Зберігає стан відображення властивостей у нотатках, якщо використовується опція перемикання властивостей Note Toolbar. Якщо увімкнено, то доведеться скористатися \"Показати властивості нотатки\" у Note Toolbar, щоб знову показати властивості.",
+                    "target": "在使用 Note Toolbar 的属性切换选项时，保留笔记中属性的显示状态。启用后，需要在 Note Toolbar 中使用“显示笔记属性”来再次显示属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Увімкніть цю опцію, якщо синхронізуєте налаштування додатка на різних пристроях, для автоматичного завантажування оновлень. Якщо вимкнено - доведеться перезапустити Obsidian, щоб побачити зміни на інших пристроях.",
+                    "target": "如果你在不同设备间同步插件设置，请启用此选项以自动下载更新。若关闭，则需要重启 Obsidian 才能看到其他设备上的更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Дія натискання у стрічковому меню (мобільний).",
+                    "target": "功能区菜单中的点击操作（移动端）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Додає пункт швидкого переходу до налаштування панелі, який буде додан внизу меню.",
+                    "target": "添加一个快速跳转到面板设置的条目，将显示在菜单底部。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Параметри розташовування панелі.",
+                    "target": "面板位置选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Параметри застосування стилів до цієї панелі.",
+                    "target": "将样式应用到此面板的参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ця панель використовується у: ",
+                    "target": "此面板用于："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "定义将工具栏转换为标注时的行为",
+                    "target": "定义将工具栏转换为标注时的行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "此操作无法撤销。",
+                    "target": "此操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "允许在 Canvas（画布）、新标签页和其他文件类型中显示工具栏。",
+                    "target": "允许在 Canvas（画布）、新标签页和其他文件类型中显示工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "定义工具栏在应用中的显示位置。",
+                    "target": "定义工具栏在应用中的显示位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置在手机上使用功能区图标时要执行的操作。",
+                    "target": "设置在手机上使用功能区图标时要执行的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "定义在哪些特定笔记上显示工具栏。",
+                    "target": "定义在哪些特定笔记上显示工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "为您的笔记创建上下文感知的工具栏。",
+                    "target": "为您的笔记创建上下文感知的工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "按顺序向工具栏添加项目。",
+                    "target": "按顺序向工具栏添加项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "下列文件夹中的笔记将显示映射到该文件夹的工具栏，优先级从上到下。",
+                    "target": "下列文件夹中的笔记将显示映射到该文件夹的工具栏，优先级从上到下。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "为此工具栏指定唯一名称。",
+                    "target": "为此工具栏指定唯一名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "添加命令以便在「快速工具」窗口中打开工具栏",
+                    "target": "添加命令以便在「快速工具」窗口中打开工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\u542F\\u7528\\u540E\\uFF0C\\u5C06\\u4F1A\\u5728\\u63A7\\u5236\\u53F0\\u4E2D\\u663E\\u793A\\u8C03\\u8BD5\\u6D88\\u606F\\u3002\n\\u8FD9\\u5BF9\\u4E8E\\u5F00\\u53D1\\u4EBA\\u5458\\u548C\\u6545\\u969C\\u6392\\u9664\\u53EF\\u80FD\\u4F1A\\u5F88\\u6709\\u5E2E\\u52A9\\u3002",
+                    "target": "\\u542F\\u7528\\u540E\\uFF0C\\u5C06\\u4F1A\\u5728\\u63A7\\u5236\\u53F0\\u4E2D\\u663E\\u793A\\u8C03\\u8BD5\\u6D88\\u606F\\u3002\n\\u8FD9\\u5BF9\\u4E8E\\u5F00\\u53D1\\u4EBA\\u5458\\u548C\\u6545\\u969C\\u6392\\u9664\\u53EF\\u80FD\\u4F1A\\u5F88\\u6709\\u5E2E\\u52A9\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置浮动按钮和导航栏（移动端）的图标，需要重启。",
+                    "target": "设置浮动按钮和导航栏（移动端）的图标，需要重启。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\u5982\\u679C\\u60A8\\u4F7F\\u7528 Note Toolbar \\u7684\\u9009\\u9879\\u6765\\u5207\\u6362\\u5C5E\\u6027\\uFF0C\\u5219\\u5C06\\u4FDD\\u6301\\u7B14\\u8BB0\\u4E2D\\u7684\\u5C5E\\u6027\\u533A\\u663E\\u793A\\u72B6\\u6001\\u3002\n\\u542F\\u7528\\u65F6\\uFF0C\\u60A8\\u5FC5\\u987B\\u4F7F\\u7528\\u672C\\u63D2\\u4EF6\\u7684\\u201C\\u663E\\u793A\\u7B14\\u8BB0\\u5C5E\\u6027\\u201D\\u547D\\u4EE4\\u6765\\u91CD\\u65B0\\u663E\\u793A\\u5C5E\\u6027\\u3002",
+                    "target": "\\u5982\\u679C\\u60A8\\u4F7F\\u7528 Note Toolbar \\u7684\\u9009\\u9879\\u6765\\u5207\\u6362\\u5C5E\\u6027\\uFF0C\\u5219\\u5C06\\u4FDD\\u6301\\u7B14\\u8BB0\\u4E2D\\u7684\\u5C5E\\u6027\\u533A\\u663E\\u793A\\u72B6\\u6001\\u3002\n\\u542F\\u7528\\u65F6\\uFF0C\\u60A8\\u5FC5\\u987B\\u4F7F\\u7528\\u672C\\u63D2\\u4EF6\\u7684\\u201C\\u663E\\u793A\\u7B14\\u8BB0\\u5C5E\\u6027\\u201D\\u547D\\u4EE4\\u6765\\u91CD\\u65B0\\u663E\\u793A\\u5C5E\\u6027\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\u542F\\u7528\\u540E\\uFF0C\\u5C06\\u5728\\u8BBE\\u7F6E\\u53D1\\u751F\\u6539\\u52A8\\u540E\\u7ACB\\u5373\\u751F\\u6548\\u3002\n\\u5426\\u5219\\uFF0C\\u9700\\u8981\\u91CD\\u65B0\\u542F\\u52A8 Obsidian \\u624D\\u80FD\\u8BA9\\u6539\\u52A8\\u751F\\u6548\\u3002",
+                    "target": "\\u542F\\u7528\\u540E\\uFF0C\\u5C06\\u5728\\u8BBE\\u7F6E\\u53D1\\u751F\\u6539\\u52A8\\u540E\\u7ACB\\u5373\\u751F\\u6548\\u3002\n\\u5426\\u5219\\uFF0C\\u9700\\u8981\\u91CD\\u65B0\\u542F\\u52A8 Obsidian \\u624D\\u80FD\\u8BA9\\u6539\\u52A8\\u751F\\u6548\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\u542F\\u7528\\u540E\\uFF0C\\u5355\\u51FB\\u7B14\\u8BB0\\u5DE5\\u5177\\u680F\\u6807\\u6CE8\\u65F6\\u4E0D\\u4F1A\\u5C55\\u5F00\\u8FDB\\u5165\\u7F16\\u8F91\\u72B6\\u6001\\u3002\n\\u6B64\\u65F6\\uFF0C\\u8BF7\\u4F7F\\u7528\\u6807\\u6CE8\\u53F3\\u952E\\u83DC\\u5355\\u4E2D\\u7684\\u201C\\u7F16\\u8F91\\u201D\\u9009\\u9879\\u8FDB\\u884C\\u66F4\\u6539\\u3002",
+                    "target": "\\u542F\\u7528\\u540E\\uFF0C\\u5355\\u51FB\\u7B14\\u8BB0\\u5DE5\\u5177\\u680F\\u6807\\u6CE8\\u65F6\\u4E0D\\u4F1A\\u5C55\\u5F00\\u8FDB\\u5165\\u7F16\\u8F91\\u72B6\\u6001\\u3002\n\\u6B64\\u65F6\\uFF0C\\u8BF7\\u4F7F\\u7528\\u6807\\u6CE8\\u53F3\\u952E\\u83DC\\u5355\\u4E2D\\u7684\\u201C\\u7F16\\u8F91\\u201D\\u9009\\u9879\\u8FDB\\u884C\\u66F4\\u6539\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "使用移动端的 ribbon 图标时进行的操作",
+                    "target": "使用移动端的 ribbon 图标时进行的操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "在工具栏菜单中添加一个项目，以快速访问工具栏的设置。",
+                    "target": "在工具栏菜单中添加一个项目，以快速访问工具栏的设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "配置当前工具栏的显示位置",
+                    "target": "配置当前工具栏的显示位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "决定笔记如何显示工具栏的规则",
+                    "target": "决定笔记如何显示工具栏的规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "应用于工具栏的样式列表。",
+                    "target": "应用于工具栏的样式列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Hilfe zur Verwendung der Toolbar",
+                    "target": "使用工具栏的帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Help using Note Toolbar",
+                    "target": "使用 Note Toolbar 的帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Note Toolbarのヘルプ",
+                    "target": "Note Toolbar 帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Довідка та корисне Note Toolbar",
+                    "target": "Note Toolbar 帮助与实用信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "使用笔记工具栏的帮助",
+                    "target": "使用笔记工具栏的帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diese Toolbar löschen",
+                    "target": "删除此工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Datentypen und Ansichten",
+                    "target": "数据类型与视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toolbar-Befehl hinzufügen",
+                    "target": "添加工具栏命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zustand der Eigenschaften beibehalten",
+                    "target": "保持属性状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Einstellungsänderungen laden",
+                    "target": "加载设置更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notiz Toolbar-Callouts sperren",
+                    "target": "锁定笔记工具栏标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aktion des Ribbon-Icons 📱",
+                    "target": "功能区图标操作 📱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zeige 'Toolbar bearbeiten' in Toolbar-Menüs",
+                    "target": "在工具栏菜单中显示“编辑工具栏”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete this toolbar",
+                    "target": "删除此工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File types",
+                    "target": "文件类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toolbars within the app",
+                    "target": "应用内工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigation bar 📱",
+                    "target": "导航栏 📱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display rules",
+                    "target": "显示规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folder mappings",
+                    "target": "文件夹映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add toolbar command",
+                    "target": "添加工具栏命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keep properties view state",
+                    "target": "保留属性视图状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Load settings changes",
+                    "target": "加载设置更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lock Note Toolbar Callouts",
+                    "target": "锁定笔记工具栏标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Edit toolbar\" in toolbar menus",
+                    "target": "在工具栏菜单中显示“编辑工具栏”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "このツールバーを削除",
+                    "target": "删除此工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ファイルタイプ",
+                    "target": "文件类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アプリ内のツールバー",
+                    "target": "应用内工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "リボン 📱",
+                    "target": "功能区 📱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "表示ルール",
+                    "target": "显示规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アイテム",
+                    "target": "项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "フォルダマッピング",
+                    "target": "文件夹映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名前",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ツールバーコマンドを追加",
+                    "target": "添加工具栏命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "デバッグ",
+                    "target": "调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アイコン",
+                    "target": "图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "プロパティの表示状態を維持",
+                    "target": "保持属性显示状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "設定変更を読み込む",
+                    "target": "加载设置更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note Toolbarのコールアウトをロック",
+                    "target": "锁定 Note Toolbar 的标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "その他",
+                    "target": "其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "スクリプティング",
+                    "target": "脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ツールバーメニューに「ツールバーを編集」を表示",
+                    "target": "在工具栏菜单中显示“编辑工具栏”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "位置",
+                    "target": "位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ルール",
+                    "target": "规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "スタイル",
+                    "target": "样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ツールバー",
+                    "target": "工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用状況",
+                    "target": "使用情况"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Видалення панелі",
+                    "target": "删除面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Типи файлів та подання",
+                    "target": "文件类型与视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Правила відображення",
+                    "target": "显示规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Елементи панелі",
+                    "target": "面板元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Зіставленні теки",
+                    "target": "文件夹映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Назва панелі",
+                    "target": "面板名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Додати панель до Команд",
+                    "target": "将面板添加到命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Налагодження",
+                    "target": "调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Іконка",
+                    "target": "图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Зберігати стан властивостей",
+                    "target": "保存属性状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Завантажувати зміни налаштувань",
+                    "target": "加载设置更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Інше",
+                    "target": "其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Іконка Стрічкового меню 📱",
+                    "target": "带状菜单图标 📱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Скриптування",
+                    "target": "脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Відображати \"Редагувати панель\" у меню",
+                    "target": "在菜单中显示“编辑面板”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Розташування",
+                    "target": "位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Стилі",
+                    "target": "样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Панелі",
+                    "target": "面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Використання",
+                    "target": "使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note Toolbar 笔记工具栏",
+                    "target": "笔记工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "删除此工具栏",
+                    "target": "删除此工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在其他文件和视图中显示工具栏",
+                    "target": "在其他文件和视图中显示工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "应用内的工具栏",
+                    "target": "应用内的工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "功能区 📱",
+                    "target": "功能区 📱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "特定笔记显示规则",
+                    "target": "特定笔记显示规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "项目",
+                    "target": "项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文件夹映射",
+                    "target": "文件夹映射"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "增加工具栏命令",
+                    "target": "增加工具栏命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试",
+                    "target": "调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图标",
+                    "target": "图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "保持属性区可见状态",
+                    "target": "保持属性区可见状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "加载设置变动",
+                    "target": "加载设置变动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "锁定笔记工具栏标注",
+                    "target": "锁定笔记工具栏标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "其他",
+                    "target": "其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ribbon 图标的行为 📱",
+                    "target": "Ribbon 图标的行为 📱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "脚本",
+                    "target": "脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在工具栏菜单中显示'编辑工具栏'的链接",
+                    "target": "在工具栏菜单中显示'编辑工具栏'的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "规则",
+                    "target": "规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "样式",
+                    "target": "样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "工具栏",
+                    "target": "工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用情况",
+                    "target": "使用情况"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Symbol suchen...",
+                    "target": "搜索符号..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Nach einer Toolbar suchen",
+                    "target": "搜索工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search for a command...",
+                    "target": "搜索命令..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search for an icon...",
+                    "target": "搜索图标..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search for a toolbar...",
+                    "target": "搜索工具栏..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "コマンドを検索...",
+                    "target": "搜索命令..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "アイコンを検索...",
+                    "target": "搜索图标..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "追加するアイテムを検索...",
+                    "target": "搜索要添加的项目..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ツールバーを検索...",
+                    "target": "搜索工具栏..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Пошуку команди...",
+                    "target": "搜索命令..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Пошук іконки...",
+                    "target": "搜索图标..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Пошук елемента...",
+                    "target": "搜索项目..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Пошук панелей...",
+                    "target": "搜索面板..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索命令…",
+                    "target": "搜索命令…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索图标…",
+                    "target": "搜索图标…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索项目…",
+                    "target": "搜索项目…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索工具栏…",
+                    "target": "搜索工具栏…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbar Galerie",
+                    "target": "笔记工具栏画廊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Als Hinweis kopieren",
+                    "target": "复制为提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Toolbar löschen: {{toolbar}}",
+                    "target": "删除工具栏：{{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Hilfe zur Verwendung der Note Toolbar 🛟",
+                    "target": "Note Toolbar 使用帮助 🛟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Stil Toolbar: {{toolbar}}",
+                    "target": "样式工具栏：{{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Was gibt es Neues in Note Toolbar?",
+                    "target": "Note Toolbar 有哪些新内容？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbar Gallery",
+                    "target": "Note Toolbar 画廊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Copy as callout",
+                    "target": "复制为标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete toolbar: {{toolbar}}",
+                    "target": "删除工具栏：{{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbar Help",
+                    "target": "Note Toolbar 帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Style toolbar: {{toolbar}}",
+                    "target": "样式工具栏：{{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "What's new in Note Toolbar?",
+                    "target": "Note Toolbar 有哪些新内容？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbarギャラリー",
+                    "target": "Note Toolbar图库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "コールアウトとしてコピー",
+                    "target": "复制为标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "ツールバーを削除: {{toolbar}}",
+                    "target": "删除工具栏: {{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbarヘルプ",
+                    "target": "Note Toolbar帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "ツールバーアイテムを編集",
+                    "target": "编辑工具栏项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "ツールバーのスタイル: {{toolbar}}",
+                    "target": "工具栏样式: {{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbarの新機能",
+                    "target": "Note Toolbar新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Галерея Note Toolbar",
+                    "target": "Note Toolbar图库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Скопіювати як виноску",
+                    "target": "复制为标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Видалення: {{toolbar}}",
+                    "target": "删除: {{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Довідка Note Toolbar 🛟",
+                    "target": "Note Toolbar 帮助 🛟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Редагування елемента",
+                    "target": "编辑元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Стиль панелі: {{toolbar}}",
+                    "target": "面板样式：{{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Що нового у Note Toolbar?",
+                    "target": "Note Toolbar 有什么新内容？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbar 示例库",
+                    "target": "Note Toolbar 示例库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "复制为标注",
+                    "target": "复制为标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除工具栏：{{toolbar}}",
+                    "target": "删除工具栏：{{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "笔记工具栏的帮助🛟",
+                    "target": "笔记工具栏的帮助🛟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "编辑项目",
+                    "target": "编辑项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "工具栏样式：{{toolbar}}",
+                    "target": "工具栏样式：{{toolbar}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Toolbar 更新内容",
+                    "target": "笔记工具栏更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Symbol wählen",
+                    "target": "选择符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Select icon",
+                    "target": "选择图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "アイコンを選択",
+                    "target": "选择图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Обрати іконку",
+                    "target": "选择图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "选择图标",
+                    "target": "选择图标"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
