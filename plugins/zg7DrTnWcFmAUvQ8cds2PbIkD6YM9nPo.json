@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "orgmode-cm6",
+        "version": "1.0.0",
+        "title": "Orgmode (cm6)",
+        "description": "Orgmode (cm6) Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.11.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Error: 'Dynamic block javascript definition file' is not set in the Orgmode (cm6) plugin settings",
+                    "target": "错误：在 Orgmode (cm6) 插件设置中未设置 'Dynamic block javascript definition file'"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Error: No params provided after '#+BEGIN:'",
+                    "target": "错误：在 '#+BEGIN:' 之后未提供参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "previous word matched priority",
+                    "target": "上一个词匹配了 priority"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "previous word matched todokeyword",
+                    "target": "上一个词匹配了 todokeyword"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "case 1",
+                    "target": "情况 1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "case 2",
+                    "target": "情况 2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "case 3",
+                    "target": "情况 3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "skipping regularLink inside markup",
+                    "target": "跳过标记内的 regularLink"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Filepath of the javascript file which contains the custom functions executed in orgmode dynamic blocks",
+                    "target": "包含在 orgmode 动态块中执行的自定义函数的 javascript 文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keywords for active (todo) tasks",
+                    "target": "活动（todo）任务的关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keywords for completed (done) tasks",
+                    "target": "已完成（done）任务的关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default priority",
+                    "target": "默认优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide heading stars",
+                    "target": "隐藏标题星号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dynamic block javascript definition file",
+                    "target": "动态块 JavaScript 定义文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "comma-separated values",
+                    "target": "逗号分隔的值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "priority cookie like 'B'",
+                    "target": "类似“B”的优先级标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Can't export parameterized rules",
+                    "target": "无法导出参数化规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Can't export inline rule",
+                    "target": "无法导出内联规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "(JavaScript regexp)",
+                    "target": "（JavaScript 正则表达式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your search did not match any notes",
+                    "target": "您的搜索未匹配到任何笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
