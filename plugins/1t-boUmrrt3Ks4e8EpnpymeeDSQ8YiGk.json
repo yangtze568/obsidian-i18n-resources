@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "shukuchi",
+        "version": "1.0.0",
+        "title": "Shukuchi",
+        "description": "Shukuchi Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Interval to wait before applying explicit editor focus. This feature prevents the editor from losing focus in certain cases, such as when navigating from an internal link inside a table. If set to 0, this feature is disabled.",
+                    "target": "在应用显式编辑器焦点前的等待间隔。此功能可在某些情况下防止编辑器失去焦点，例如从表格内的内部链接进行导航时。如果设置为 0，则禁用此功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Direction of possible teleportation",
+                    "target": "可能的跳转方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delay focus interval",
+                    "target": "延迟聚焦间隔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link",
+                    "target": "打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link in new tab",
+                    "target": "在新标签页中打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link in new tab group",
+                    "target": "在新标签组中打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link in new tab group horizontally",
+                    "target": "在新标签组中水平打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link in new window",
+                    "target": "在新窗口中打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move to next link",
+                    "target": "移动到下一个链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move to previous link",
+                    "target": "移动到上一个链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
