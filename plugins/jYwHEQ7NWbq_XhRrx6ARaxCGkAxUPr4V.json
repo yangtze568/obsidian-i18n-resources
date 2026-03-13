@@ -1,0 +1,2701 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "radial-timeline",
+        "version": "1.0.0",
+        "title": "Radial timeline",
+        "description": "Radial timeline Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "5.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-archive-restore\"><rect width=\"20\" height=\"5\" x=\"2\" y=\"3\" rx=\"1\"/><path d=\"M4 8v11a2 2 0 0 0 2 2h2\"/><path d=\"M20 8v11a2 2 0 0 1-2 2h-2\"/><path d=\"m9 15 3-3 3 3\"/><path d=\"M12 12v9\"/></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-archive-restore\"><rect width=\"20\" height=\"5\" x=\"2\" y=\"3\" rx=\"1\"/><path d=\"M4 8v11a2 2 0 0 0 2 2h2\"/><path d=\"M20 8v11a2 2 0 0 1-2 2h-2\"/><path d=\"m9 15 3-3 3 3\"/><path d=\"M12 12v9\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<rect width=\"20\" height=\"5\" x=\"2\" y=\"3\" rx=\"1\"/><path d=\"M4 8v11a2 2 0 0 0 2 2h2\"/><path d=\"M20 8v11a2 2 0 0 1-2 2h-2\"/><path d=\"m9 15 3-3 3 3\"/><path d=\"M12 12v9\"/>",
+                    "target": "<rect width=\"20\" height=\"5\" x=\"2\" y=\"3\" rx=\"1\"/><path d=\"M4 8v11a2 2 0 0 0 2 2h2\"/><path d=\"M20 8v11a2 2 0 0 1-2 2h-2\"/><path d=\"m9 15 3-3 3 3\"/><path d=\"M12 12v9\"/>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Beat name",
+                    "target": "节拍名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Comma-separated values",
+                    "target": "用逗号分隔的值"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter your AI context prompt here...",
+                    "target": "在此输入你的 AI 上下文提示..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "↑ SHIFT",
+                    "target": "↑ SHIFT"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Loading timeline...",
+                    "target": "正在加载时间线..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": ", ",
+                    "target": ", "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Your Anthropic API key for using Claude AI features. ",
+                    "target": "用于使用 Claude AI 功能的 Anthropic API 密钥。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Get key",
+                    "target": "获取密钥"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Your OpenAI API key for using ChatGPT AI features. ",
+                    "target": "用于使用 ChatGPT AI 功能的 OpenAI API 密钥。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Click to view progress",
+                    "target": "点击查看进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Longest observed duration (auto)",
+                    "target": "最长观测时长（自动）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Custom (User defined beat structure)",
+                    "target": "自定义（用户定义的节拍结构）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Story Grid",
+                    "target": "故事网格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Story Grid (5 Commandments)",
+                    "target": "故事网格（五戒律）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Hero's Journey",
+                    "target": "英雄之旅"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Hero's Journey (12 beats)",
+                    "target": "英雄之旅（12 节拍）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Save The Cat",
+                    "target": "救猫咪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Save The Cat (15 beats)",
+                    "target": "救猫咪（15 节拍）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "— Make a selection —",
+                    "target": "— 请选择 —"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "All Subplots",
+                    "target": "所有子情节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Discard changes?",
+                    "target": "放弃更改？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Gossamer] Failed to paste from clipboard:",
+                    "target": "[Gossamer] 从剪贴板粘贴失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Gossamer] Failed to save scores:",
+                    "target": "[Gossamer] 保存评分失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Gossamer] Failed to delete all scores:",
+                    "target": "[Gossamer] 删除所有评分失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Gossamer AI] Processing error:",
+                    "target": "[Gossamer AI] 处理错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Gossamer AI]",
+                    "target": "[Gossamer AI]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Gossamer AI Pre-check]",
+                    "target": "[Gossamer AI Pre-check]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[updateSceneBeats] Error updating file:",
+                    "target": "[updateSceneBeats] 更新文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[markPulseProcessed] Error updating pulse flag:",
+                    "target": "[markPulseProcessed] 更新脉冲标志时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[parseJsonBeatsResponse] Error parsing JSON beats response:",
+                    "target": "[parseJsonBeatsResponse] 解析 JSON 节拍响应时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[parseGptResult] Error parsing beats response:",
+                    "target": "[parseGptResult] 解析节拍响应时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[API Beats][processBySubplotOrder] Error during processing:",
+                    "target": "[API Beats][processBySubplotOrder] 处理过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[updateSceneFile] Error updating file:",
+                    "target": "[updateSceneFile] 更新文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during YAML update test:",
+                    "target": "YAML 更新测试时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[purgeBeatsByManuscriptOrder] Error:",
+                    "target": "[purgeBeatsByManuscriptOrder] 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Radial Timeline] Error accessing workspace layout:",
+                    "target": "[Radial Timeline] 访问工作区布局时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing SVG content:",
+                    "target": "解析 SVG 内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "All SVG parsing approaches failed:",
+                    "target": "所有 SVG 解析方法均失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error accessing workspace layout:",
+                    "target": "访问工作区布局时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load timeline data",
+                    "target": "加载时间轴数据失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Gossamer] Failed to initialize on load:",
+                    "target": "[Gossamer] 加载时初始化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering timeline:",
+                    "target": "渲染时间轴时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SceneDOMUpdater] Failed to update scene colors:",
+                    "target": "[SceneDOMUpdater] 更新场景颜色失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[NumberSquareDOMUpdater] Failed to update number squares:",
+                    "target": "[NumberSquareDOMUpdater] 更新数字方块失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SynopsisDOMUpdater] Failed to update synopsis:",
+                    "target": "[SynopsisDOMUpdater] 更新概要失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SubplotLabelDOMUpdater] Failed to update subplot labels:",
+                    "target": "[SubplotLabelDOMUpdater] 更新子情节标签失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Settings] Failed to load scenes for discontinuity threshold:",
+                    "target": "[Settings] 加载断续阈值的场景失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Settings] Error calculating threshold:",
+                    "target": "[Settings] 计算阈值时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh release notes from GitHub:",
+                    "target": "从 GitHub 刷新发行说明失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load subplots",
+                    "target": "加载子情节失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error running manuscript order beat update:",
+                    "target": "运行稿件顺序节拍更新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Radial Timeline] Error during migration:",
+                    "target": "[Radial Timeline] 迁移过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "apply updates",
+                    "target": "应用更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "drag move",
+                    "target": "拖动移动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Paste scores",
+                    "target": "粘贴评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Normalize history",
+                    "target": "规范化历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save scores",
+                    "target": "保存评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete scores",
+                    "target": "删除评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete all scores",
+                    "target": "删除所有评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Begin Analysis",
+                    "target": "开始分析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Start processing",
+                    "target": "开始处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Purge all pulse",
+                    "target": "清除所有脉冲"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Abort processing",
+                    "target": "中止处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Purge beats",
+                    "target": "清除节拍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create Book",
+                    "target": "创建书籍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Book Designer",
+                    "target": "书籍设计器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add New Mapping",
+                    "target": "添加新映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset to default",
+                    "target": "重置为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create copy",
+                    "target": "创建副本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save changes",
+                    "target": "保存更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Set as active & close",
+                    "target": "设为激活并关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Process flagged scenes",
+                    "target": "处理已标记的场景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Process entire subplot",
+                    "target": "处理整个子情节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a short, unique name.",
+                    "target": "选择一个简短且唯一的名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used for numbering distribution (e.g. 10, 20, 30...)",
+                    "target": "用于编号分配（例如 10、20、30...）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter one subplot per line.",
+                    "target": "每行输入一个子情节。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter one character per line.",
+                    "target": "每行输入一个角色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a saved layout (acts, subplots, assignments, metadata).",
+                    "target": "选择已保存的布局（幕、子情节、分配、元数据）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the root folder containing your manuscript scene files.",
+                    "target": "指定包含手稿场景文件的根文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the source folder name as the title of your work. When off, displays \"Work in Progress\" instead.",
+                    "target": "将源文件夹名称显示为作品标题。关闭时改为显示“Work in Progress”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a target date for project completion (YYYY-MM-DD). This will be shown on the timeline.",
+                    "target": "设置项目完成目标日期（YYYY-MM-DD）。这将在时间轴上显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Intercept clicks on scenes with Publish Stage = Zero and Status = Complete to capture Pending Edits without opening the scene.",
+                    "target": "拦截对 Publish Stage = Zero 且 Status = Complete 的场景点击，以便在不打开场景的情况下捕获 Pending Edits。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Map your custom frontmatter keys to Radial Timeline keys. Useful for pre-existing vaults.",
+                    "target": "将自定义 frontmatter 键映射到 Radial Timeline 键。对已有库很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Applies to Narrative, Subplot, and Gossamer modes. Scene and Beats YAML. (Minimum 3)",
+                    "target": "适用于 Narrative、Subplot 和 Gossamer 模式。Scene 和 Beats YAML。（最少 3）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When off, acts show numbers only.",
+                    "target": "关闭时，幕仅显示数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, scene hover metadata include the AI pulse for the previous and next scenes. Turn off to display only the current scene for a more compact view.",
+                    "target": "启用后，场景悬停元数据包含前后场景的 AI pulse。关闭则仅显示当前场景以获得更紧凑的视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pick preferred model for advanced writing analysis. Models marked \"Latest\" auto-update to the newest version.",
+                    "target": "选择用于高级写作分析的首选模型。标记为“Latest”的模型会自动更新到最新版本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The API endpoint. For Ollama, use \"http://localhost:11434/v1\". For LM Studio, use \"http://localhost:1234/v1\".",
+                    "target": "API 端点。Ollama 使用“http://localhost:11434/v1”。LM Studio 使用“http://localhost:1234/v1”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The exact model name your server expects (e.g., \"llama3\", \"mistral-7b\", \"local-model\").",
+                    "target": "服务器所期望的准确模型名称（例如“llama3”“mistral-7b”“local-model”）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Additional instructions added to the start of the prompt. Useful for fine-tuning local model behavior.",
+                    "target": "添加到提示开头的附加指令。用于微调本地模型行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is enabled. Local LLM triplet pulse analysis skips writing to the scene note and saves the results in the RAW AI log report instead. Recommended for local models.",
+                    "target": "默认启用。本地 LLM 三元组脉冲分析会跳过写入场景笔记，改为将结果保存到 RAW AI 日志报告中。推荐用于本地模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Required by some servers. For local tools like Ollama, this is usually ignored.",
+                    "target": "某些服务器需要。对 Ollama 等本地工具通常会忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, create a new note in the \"AI\" folder for each AI API request/response.",
+                    "target": "启用后，为每次 AI API 请求/响应在“AI”文件夹中创建一条新笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a default mode to apply. Scene level POV will override this global setting.",
+                    "target": "选择要应用的默认模式。场景级 POV 会覆盖此全局设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Values you can use for YAML field `POV:` first, second, third, omni, objective, or a number such as two, four, count, or all to designate more than one character is carrying the scene POV. If two, for example, then the first two characters in `Character:` YAML list will get a POV mark.",
+                    "target": "YAML 字段 `POV:` 可使用的值：first、second、third、omni、objective，或使用诸如 two、four、count、all 等数字来表示有多于一个角色承担场景 POV。例如使用 two 时，`Character:` YAML 列表中的前两个角色会获得 POV 标记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keep Earth as the planning source, use the profile label to match your planet or setting calendar. Set epoch offset to align Year 1 to a story milestone, and combine with the backdrop notes for complete context.",
+                    "target": "以地球作为规划来源，使用配置文件标签匹配你的行星或设定日历。设置纪元偏移以将第 1 年对齐到故事里程碑，并与背景备注结合以获得完整上下文。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional. Determines how the year is divided. Provide names to set the month count (e.g. 4 names = 4 months). Leave blank for 12 numbered months.",
+                    "target": "可选。决定一年如何划分。提供名称以设置月数（例如 4 个名称 = 4 个月）。留空则为 12 个编号月份。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional. Sets weekday labels; leave blank for numbered weekdays.",
+                    "target": "可选。设置星期标签；留空则为编号星期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scenes to generate",
+                    "target": "要生成的场景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target book length",
+                    "target": "目标书籍长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Source path",
+                    "target": "源路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show source path as title",
+                    "target": "将源路径显示为标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Publication and progress",
+                    "target": "发布与进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target completion date",
+                    "target": "目标完成日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Zero draft mode",
+                    "target": "零草稿模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chronologue mode settings",
+                    "target": "编年史模式设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chronologue duration arc cap",
+                    "target": "编年史时长弧上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Discontinuity gap threshold",
+                    "target": "不连续间隔阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Metadata Mapping",
+                    "target": "自定义元数据映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Act count",
+                    "target": "幕数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Act labels (optional)",
+                    "target": "幕标签（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show act labels",
+                    "target": "显示幕标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced YAML editor",
+                    "target": "高级 YAML 编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Publishing stage colors",
+                    "target": "发布阶段颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Subplot ring colors",
+                    "target": "子情节环颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI LLM for scene analysis",
+                    "target": "用于场景分析的 AI 大语言模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable AI LLM features",
+                    "target": "启用 AI 大语言模型功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show previous and next scene analysis",
+                    "target": "显示前一与后一场景分析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Anthropic API key",
+                    "target": "Anthropic API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Local LLM Base URL",
+                    "target": "本地大语言模型基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model ID",
+                    "target": "模型 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Instructions",
+                    "target": "自定义指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bypass scene hover metadata yaml writes",
+                    "target": "跳过场景悬停元数据 YAML 写入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key (Optional)",
+                    "target": "API 密钥（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log AI interactions to file including sent and received payloads",
+                    "target": "将 AI 交互记录到文件，包括发送和接收的负载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Point of view",
+                    "target": "视角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Global POV",
+                    "target": "全局视角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scene level YAML overrides",
+                    "target": "场景级 YAML 覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter search term (min 3 letters)",
+                    "target": "输入搜索词（至少 3 个字母）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Thriller / 3-Act Balanced",
+                    "target": "例如：惊悚 / 三幕式平衡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "1 day",
+                    "target": "1 天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: Book 1",
+                    "target": "示例：书籍 1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Calculating…",
+                    "target": "计算中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Your Key (e.g. StoryLine)",
+                    "target": "你的键（例如 StoryLine）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Your Key (required to save)",
+                    "target": "你的键（保存所需）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your Anthropic API key",
+                    "target": "输入你的 Anthropic API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. Maintain strict JSON formatting...",
+                    "target": "例如：保持严格的 JSON 格式..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Enter momentum scores (0-100) for each beat. Previous scores will be saved as history.",
+                    "target": "为每个节拍输入动量分数（0-100）。之前的分数将保存为历史记录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Gathering manuscript details...",
+                    "target": "正在收集稿件详情..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Waiting to send...",
+                    "target": "等待发送..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "\\u2717 API call failed",
+                    "target": "\\u2717\\u0020\\u0041\\u0050\\u0049\\u0020\\u8C03\\u7528\\u5931\\u8D25"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Errors encountered:",
+                    "target": "遇到的错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "⚠️ Rate limited",
+                    "target": "⚠️ 触发速率限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Zero draft mode is enabled. This scene has Publish Stage = Zero and Status = Complete. You can turn this off in Settings → Zero draft mode.",
+                    "target": "零草稿模式已启用。此场景的发布阶段 = Zero，状态 = Complete。你可以在 设置 → 零草稿模式 中关闭此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Large batch processing may take significant time and API costs.",
+                    "target": "大批量处理可能需要较长时间并产生 API 成本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Initializing… preparing first scene (0%)",
+                    "target": "初始化中…正在准备第一个场景（0%）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Initializing pipeline...",
+                    "target": "正在初始化流程..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Triplets animate as the AI advances - starts, endings, and missing scenes handled automatically.",
+                    "target": "随着 AI 推进，三连点会动画显示——开头、结尾和缺失场景会自动处理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Aborting... Please wait.",
+                    "target": "正在中止... 请稍候。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Issues encountered:",
+                    "target": "遇到的问题："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Processing stopped due to error",
+                    "target": "因错误已停止处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Are you sure you want to proceed?",
+                    "target": "确定要继续吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Prompt:",
+                    "target": "提示："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Select a model to see guidance on when to use it.",
+                    "target": "选择一个模型以查看其适用场景的指导。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Release notes are not available in this build. ",
+                    "target": "此版本中不提供发行说明。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "What's New",
+                    "target": "更新内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Active Subplots",
+                    "target": "活动子情节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy beat names in AI-ready format",
+                    "target": "以 AI 可用格式复制节拍名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to auto-calculated threshold",
+                    "target": "重置为自动计算的阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete Mapping",
+                    "target": "删除映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Discard Draft",
+                    "target": "丢弃草稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Detect installed models and auto-fill this field",
+                    "target": "检测已安装的模型并自动填充此字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy YAML",
+                    "target": "复制 YAML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[VersionCheck] Failed to fetch latest release:",
+                    "target": "[VersionCheck] 获取最新发布失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[VersionCheck] Error checking for updates:",
+                    "target": "[VersionCheck] 检查更新出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to build synopsis for scene:",
+                    "target": "为场景生成概要失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to fetch release notes bundle:",
+                    "target": "无法获取发行说明包："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[RadialTimeline] Version check failed on startup:",
+                    "target": "[RadialTimeline] 启动时版本检查失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No fragmented scores detected.",
+                    "target": "未检测到碎片化评分。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No beats available to copy. Add Beat notes with the selected Beat Model first.",
+                    "target": "没有可复制的节拍。请先使用所选节拍模型添加节拍注释。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No scores found in clipboard. Expected format: \"1: 15, 2: 25\" or \"Beat Name: 42\"",
+                    "target": "剪贴板中未找到分数。期望格式：“1: 15, 2: 25”或“Beat Name: 42”"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read clipboard.",
+                    "target": "读取剪贴板失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No changes to save.",
+                    "target": "没有可保存的更改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save scores. Check console for details.",
+                    "target": "保存分数失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Gossamer scores found to delete.",
+                    "target": "未找到可删除的 Gossamer 分数。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to delete all scores. Check console for details.",
+                    "target": "删除所有分数失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Analysis continues in background.",
+                    "target": "分析在后台继续进行。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No story beats found. Create notes with frontmatter \"Class: Beat\" (or \"Class: Plot\" deprecated).",
+                    "target": "未找到故事节拍。请创建带有 frontmatter“Class: Beat”的笔记（或已弃用的“Class: Plot”）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot enter Gossamer mode: No story beats found. Create notes with frontmatter \"Class: Beat\" (or \"Class: Plot\" for backward compatibility).",
+                    "target": "无法进入 Gossamer 模式：未找到故事节拍。请创建带有 frontmatter“Class: Beat”的笔记（或用于向后兼容的“Class: Plot”）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Gossamer scores found. Showing ideal ranges and spokes. Add scores using \"Gossamer enter momentum scores\" command.",
+                    "target": "未找到 Gossamer 分数。显示理想范围和辐条。使用“Gossamer enter momentum scores”命令添加分数。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No story beats found. Create notes with frontmatter \"Class: Beat\".",
+                    "target": "未找到故事节拍。请创建带有 frontmatter“Class: Beat”的笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No scenes found in source path.",
+                    "target": "源路径中未找到场景。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processing continues in background. Use command palette to reopen progress window.",
+                    "target": "处理在后台继续进行。使用命令面板重新打开进度窗口。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No scenes to process with the selected mode.",
+                    "target": "所选模式下没有可处理的场景。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processing aborted by user",
+                    "target": "处理已被用户中止"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processing Subplot: Getting scene data...",
+                    "target": "正在处理副情节：获取场景数据..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid scenes found in the specified source path.",
+                    "target": "在指定源路径中未找到有效场景。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No scenes with subplots found.",
+                    "target": "未找到包含副情节的场景。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error processing subplots. Check console for details.",
+                    "target": "处理副情节时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Failed to parse dummy API response data.",
+                    "target": "错误：无法解析虚拟 API 响应数据。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error during YAML update test. Check console.",
+                    "target": "YAML 更新测试时出错。请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No scenes found in manuscript.",
+                    "target": "稿件中未找到场景。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Purging beats from all scenes...",
+                    "target": "正在从所有场景中清除节拍..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error purging beats. Check console for details.",
+                    "target": "清除节拍时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reopening active processing session...",
+                    "target": "正在重新打开活动处理会话..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter at least 3 letters to search",
+                    "target": "请输入至少 3 个字母进行搜索"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot enter Gossamer mode: No story beats found. Create notes with frontmatter \"Class: Beat\".",
+                    "target": "无法进入 Gossamer 模式：未找到故事节拍。请创建带有 frontmatter \"Class: Beat\" 的笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Layout reset to defaults with auto distribution.",
+                    "target": "布局已重置为默认并自动分配。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Target date must be in the future.",
+                    "target": "目标日期必须在未来。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid gap threshold format. Examples: \"4 days\", \"1 week\", \"2 months\"",
+                    "target": "间隔阈值格式无效。示例：“4 days”、“1 week”、“2 months”"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Discontinuity threshold reset to auto-calculated value",
+                    "target": "不连续阈值已重置为自动计算的值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No custom beats defined. Add beats in the list above.",
+                    "target": "未定义自定义节拍。请在上方列表中添加节拍。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folder path cannot contain the characters < > : \" | ? *",
+                    "target": "文件夹路径不能包含字符 < > : \" | ? *"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This does not look like an OpenAI secret key. Keys start with \"sk-\".",
+                    "target": "这不像是 OpenAI 的密钥。密钥以 \"sk-\" 开头。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select \"Local / OpenAI Compatible\" above to detect models.",
+                    "target": "在上方选择“Local / OpenAI Compatible”以检测模型。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Set the Local LLM Base URL first.",
+                    "target": "请先设置本地 LLM Base URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No models reported by the local server.",
+                    "target": "本地服务器未报告任何模型。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot delete Main Plot.",
+                    "target": "无法删除主线剧情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to open Gossamer score entry.",
+                    "target": "打开 Gossamer 评分条目失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Add a planetary profile in Settings first.",
+                    "target": "请先在设置中添加行星档案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Warning: Duplicate title. Please wait 1 minute then try again.",
+                    "target": "警告：标题重复。请等待 1 分钟后再试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No beats were updated.",
+                    "target": "未更新任何节拍。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error during manuscript order update.",
+                    "target": "更新手稿顺序时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Local AI provider requires Base URL and Model ID.",
+                    "target": "本地 AI 提供商需要 Base URL 和 Model ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Read more in the Wiki",
+                    "target": "在 Wiki 中了解更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Add beat",
+                    "target": "添加节拍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Start of range",
+                    "target": "范围开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "End of range",
+                    "target": "范围结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Specify the root folder containing your manuscript scene files.",
+                    "target": "指定包含手稿场景文件的根文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display the source folder name as the title of your work. When off, displays \"Work in Progress\" instead.",
+                    "target": "将源文件夹名称显示为作品标题。关闭时则显示“Work in Progress”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose a default mode to apply. Scene level POV will override this global setting.",
+                    "target": "选择要应用的默认模式。场景级 POV 将覆盖此全局设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Values you can use for `POV:` first, second, third, omni, objective, or a number such as two, four, count, or all to designate more than one character is carrying the scene POV. If two, for example, then the first two characters in `Character:` YAML list will get a POV mark for scene synopsis.",
+                    "target": "可用于 `POV:` 的值：first, second, third, omni, objective，或数字如 two, four, count, 或 all，用于表示多个角色承载场景 POV。例如 two，则 `Character:` YAML 列表中的前两位角色会在场景摘要中标记 POV。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Folder where AI logs and generated files (manuscripts, local LLM reports) are saved. Uses your vault folder structure.",
+                    "target": "保存 AI 日志和生成文件（稿件、本地 LLM 报告）的文件夹。使用你的 vault 文件夹结构。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When hovering over a scene, automatically expand it if the title text is clipped. Disable this if you prefer to quickly slide through scenes and read titles from the synopsis instead.",
+                    "target": "悬停在场景上时，如果标题文本被裁剪则自动展开。若你更喜欢快速滑过场景并从摘要读取标题，请禁用此项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose a curated font sizing profile for timeline text. Large is tuned for low-res or low-vision viewing; Normal works for standard and high-dpi layouts.",
+                    "target": "为时间线文本选择预设字号配置。Large 适合低分辨率或低视力观看；Normal 适用于标准和高 DPI 布局。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display a tick mark and label on the timeline for the estimated completion date. Tip: When you complete a scene, in addition to setting the Status to Complete, also set the Due date to the same day the scene was completed to improve the estimate.",
+                    "target": "在时间线上为预计完成日期显示刻度和标签。提示：完成场景时，除了将 Status 设为 Complete，还应将 Due date 设为场景完成当天以改进估算。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Delay before refreshing the timeline after YAML frontmatter changes. Increase if your vault is large and updates feel too frequent.",
+                    "target": "YAML frontmatter 更改后刷新时间线的延迟。若 vault 很大且更新感觉过于频繁，可提高该值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Clear all saved subplot color dominance preferences for scenes that appear in multiple subplots. This resets to the default ordering (outermost to innermost rings based on subplot scene population).",
+                    "target": "清除出现在多个子情节中的场景所保存的子情节颜色主导偏好。这将重置为默认排序（根据子情节场景数量从最外环到最内环）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Under consideration. Sort scenes chronologically by When date instead of manuscript order for all modes.",
+                    "target": "仍在考虑中。所有模式下按 When 日期而非稿件顺序对场景进行时间顺序排序。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Turns on the converter modal, Chronologue Alt/Option tooltip, and synopsis line for the active profile.",
+                    "target": "为活动配置启用转换器模态窗口、Chronologue Alt/Option 工具提示和摘要行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Pick which planet or setting profile is used for conversions.",
+                    "target": "选择用于转换的行星或设定配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "原稿シーンファイルを含むルートフォルダを指定します。",
+                    "target": "指定包含原稿场景文件的根文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ソースフォルダ名を作品のタイトルとして表示します。オフの場合、「進行中の作品」と表示されます。",
+                    "target": "将源文件夹名称显示为作品标题。关闭时显示“进行中的作品”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "オプション。適用するデフォルトモードを選択します。シーンレベルのPOVはこのグローバル設定を上書きします。",
+                    "target": "可选。选择要应用的默认模式。场景级 POV 会覆盖此全局设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "AIログや生成ファイル（原稿、レポートなど）を保存するフォルダです。ボールト内のフォルダを指定してください。",
+                    "target": "保存 AI 日志和生成文件（原稿、报告等）的文件夹。请指定 vault 内的文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "シーンにホバーしたとき、タイトルテキストがクリップされている場合は自動的に展開します。",
+                    "target": "悬停在场景上时，如果标题文本被裁剪则自动展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "タイムラインテキストのフォントサイズプロファイルを選択します。",
+                    "target": "选择时间线文本的字号配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "コマンドパレットオプションとUIシーン分析の色とホバーシノプシスを表示します。",
+                    "target": "显示命令面板选项以及 UI 场景分析的颜色和悬停摘要。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The first impression of your story. A snapshot of the protagonist's life before the journey begins. This 'before' picture sets up the world and establishes what will change by the end. Show the protagonist in their everyday life, revealing the flaw or gap that will be addressed.",
+                    "target": "故事的第一印象。旅程开始前主人公生活的快照。这张“之前”的图景建立世界观，并确立最终会改变的内容。展示主人公的日常生活，揭示将被解决的缺陷或缺口。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A moment of reflection and wallowing in defeat. The protagonist processes the loss, questions everything, and confronts their deepest fears. This quiet, internal moment allows both character and audience to feel the full weight of All Is Lost before the final push begins.",
+                    "target": "反思并沉溺于失败的时刻。主人公消化失去的结果，质疑一切，直面最深的恐惧。这个安静的内心时刻让角色和观众在最终冲刺前充分感受“全盘皆失”的重量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The hero's normal life before the adventure begins. Establish who they are, what they believe, their relationships, and their routine. Show what's lacking or incomplete in their life. This familiar world will be contrasted with the Special World they're about to enter.",
+                    "target": "冒险开始前英雄的正常生活。确立他们是谁、信念、关系与日常。展示生活中缺失或不完整之处。这个熟悉的世界将与即将进入的特殊世界形成对比。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The hero leaves the Ordinary World and enters the Special World of the adventure. This is the point of no return where they commit fully to the journey. The rules change, stakes rise, and the hero must adapt to this new and unfamiliar environment.",
+                    "target": "英雄离开普通世界，进入冒险的特殊世界。这是不归点，他们完全承诺踏上旅程。规则改变，风险升高，英雄必须适应这个新的陌生环境。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Having survived the Ordeal, the hero claims their reward—knowledge, power, treasure, reconciliation, or love. They take possession of what they came for, though often it's different from what they originally sought. Success brings new understanding and confidence.",
+                    "target": "在渡过磨难后，英雄获得奖励——知识、力量、财富、和解或爱情。他们占有为之而来的东西，但往往与最初寻求的不同。成功带来新的理解与信心。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The hero begins the journey home but faces consequences or pursuit from their actions in the Special World. New complications arise, and forces may try to prevent their return. The hero must choose to complete the journey and bring their reward back to the Ordinary World.",
+                    "target": "英雄开始回程，却要面对在特殊世界行动带来的后果或追击。新的复杂情况出现，力量可能阻止他们归来。英雄必须选择完成旅程，将奖励带回普通世界。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The climactic final test where the hero must use everything they've learned. This is a last purification or rebirth before returning home. The stakes are highest here—often involving life and death for more than just the hero. They must prove their transformation is complete.",
+                    "target": "终局性的最终考验，英雄必须运用所学的一切。这是回家前最后的净化或重生。这里的赌注最高——常涉及不止英雄的生死。他们必须证明自己的蜕变已完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The hero returns to the Ordinary World transformed and bearing something (knowledge, treasure, wisdom, or experience) that benefits their community. The journey is complete, the hero has grown, and life is better than before. The story comes full circle with meaningful change.",
+                    "target": "英雄带着转变回到平凡世界，并带回某种能惠及社区的东西（知识、宝藏、智慧或经验）。旅程圆满结束，英雄已成长，生活比以前更好。故事以有意义的变化回到原点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Escalating obstacles that worsen the situation. Each complication raises stakes and limits options; no repetition—pressure increases.",
+                    "target": "不断升级、使局势恶化的障碍。每个复杂情节都会提高风险并限制选择；不重复——压力加剧。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Binary choice: best bad option vs worst bad option. Forces the protagonist to risk what they value most.",
+                    "target": "二选一：最不坏的选项 vs 最坏的选项。迫使主人公冒险赌上最珍视的东西。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Action taken to answer the Crisis question. Irreversible, value-charged decision.",
+                    "target": "为回答危机问题而采取的行动。不可逆、价值取向强烈的决定。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Momentum analysis for each story beat",
+                    "target": "每个故事节拍的动量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Name of the beat",
+                    "target": "节拍名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Narrative momentum score 0-100",
+                    "target": "叙事动量评分 0-100"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ideal momentum range for this beat",
+                    "target": "该节拍的理想动量范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "True if momentum score is within ideal range",
+                    "target": "若动量评分在理想范围内则为 True"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Brief justification for the score (one sentence)",
+                    "target": "评分的简要理由（一句话）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Overall manuscript assessment",
+                    "target": "整体稿件评估"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Brief summary of overall momentum (max 30 words)",
+                    "target": "整体动量的简要总结（最多 30 个词）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List of 2-3 strengths",
+                    "target": "2-3 个优势列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "View all scenes across all subplots in manuscript order with subplot coloring",
+                    "target": "按稿件顺序查看所有子情节的全部场景，并以子情节着色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "View Main Plot scenes with publish stage coloring, other subplots in inner rings",
+                    "target": "查看主线情节场景并按发布阶段着色，其他子情节显示在内圈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gossamer score analysis overlay with beat tracking and historical data",
+                    "target": "带有节拍跟踪和历史数据的 Gossamer 评分分析叠加层"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "View scenes in chronological story order based on When field",
+                    "target": "根据 When 字段按故事时间顺序查看场景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Scene number",
+                    "target": "场景编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Short analysis title",
+                    "target": "简短分析标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Connection strength",
+                    "target": "关联强度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Editorial comment (max 10 words)",
+                    "target": "编辑评论（最多 10 个词）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Grade or connection strength",
+                    "target": "评分或关联强度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use markdown-linked TOC for Obsidian-friendly navigation, or plain TOC for AI processing. All orderings support custom ranges with the draggable selector.",
+                    "target": "使用带 Markdown 链接的目录以便在 Obsidian 中导航，或使用纯目录供 AI 处理。所有排序都支持通过可拖拽选择器自定义范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Add a profile to start configuring planetary time.",
+                    "target": "添加配置档案以开始设置行星时间。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Response exceeded maximum token limit. The output was truncated before completion. Try reducing the manuscript size or increasing maxOutputTokens.",
+                    "target": "响应超过最大 token 限制。输出在完成前被截断。请尝试减少稿件大小或提高 maxOutputTokens。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Response blocked due to recitation concerns.",
+                    "target": "由于复述风险，响应已被阻止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Anthropic API key not configured.",
+                    "target": "未配置 Anthropic API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Anthropic model ID not configured.",
+                    "target": "未配置 Anthropic 模型 ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid response structure from Anthropic.",
+                    "target": "来自 Anthropic 的响应结构无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "OpenAI API key not configured.",
+                    "target": "未配置 OpenAI API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "OpenAI Model ID not configured.",
+                    "target": "未配置 OpenAI 模型 ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid response structure from OpenAI.",
+                    "target": "来自 OpenAI 的响应结构无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please enter a non-negative number.",
+                    "target": "请输入非负数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "エラー",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Point of view",
+                    "target": "视角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "AI LLM for scene analysis",
+                    "target": "用于场景分析的 AI LLM"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Publication & Progress",
+                    "target": "发布与进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Chronologue Mode",
+                    "target": "纪事模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Story Beats & Gossamer",
+                    "target": "故事节拍与薄纱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Quick preview (Earth → local)",
+                    "target": "快速预览（地球 → 本地）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "視点",
+                    "target": "视角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "詳細設定",
+                    "target": "详细设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "シーン分析用AI LLM",
+                    "target": "用于场景分析的 AI LLM"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Latest Run",
+                    "target": "最新运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Base (Minimal)",
+                    "target": "基础（最简）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GPT-5.2 (Latest)",
+                    "target": "GPT-5.2（最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Claude Opus 4.5",
+                    "target": "Claude Opus 4.5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Claude Sonnet 4.5",
+                    "target": "Claude Sonnet 4.5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Local / OpenAI Compatible",
+                    "target": "本地 / OpenAI 兼容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "New planet",
+                    "target": "新行星"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Anthropic API key not configured.",
+                    "target": "未配置 Anthropic API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Anthropic model ID not configured.",
+                    "target": "未配置 Anthropic 模型 ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "API key not configured.",
+                    "target": "未配置 API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Model ID not configured.",
+                    "target": "未配置模型 ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Save The Cat",
+                    "target": "救猫咪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opening Image",
+                    "target": "开场画面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Break into 2",
+                    "target": "进入第二幕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "B Story",
+                    "target": "B 线故事"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fun and Games",
+                    "target": "趣味与游戏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bad Guys Close In",
+                    "target": "反派步步紧逼"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All Is Lost",
+                    "target": "一切皆失"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dark Night of the Soul",
+                    "target": "灵魂的黑夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Break into 3",
+                    "target": "进入第三幕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Final Image",
+                    "target": "终幕画面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hero's Journey",
+                    "target": "英雄之旅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ordinary World",
+                    "target": "平凡世界"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Call to Adventure",
+                    "target": "冒险的召唤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refusal of the Call",
+                    "target": "拒绝召唤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Meeting the Mentor",
+                    "target": "遇见导师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crossing the Threshold",
+                    "target": "跨越门槛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Approach to the Inmost Cave",
+                    "target": "逼近洞穴深处"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reward (Seizing the Sword)",
+                    "target": "回报（夺剑）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Road Back",
+                    "target": "归途"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Return with the Elixir",
+                    "target": "携灵药归来"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Story Grid",
+                    "target": "故事网格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inciting Incident",
+                    "target": "引发事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Progressive Complications",
+                    "target": "递进式复杂化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generic Editor",
+                    "target": "通用编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commercial Genre Fiction (Balanced Depth)",
+                    "target": "商业类型小说（深度均衡）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Literary / Character-Driven Fiction",
+                    "target": "文学／人物驱动小说"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Young Adult / Coming-of-Age",
+                    "target": "青少年／成长小说"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Epic or Hard Science Fiction / World-Building Focus",
+                    "target": "史诗或硬科幻／世界观构建为主"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mystery / Thriller / Suspense",
+                    "target": "推理／惊悚／悬疑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Source path",
+                    "target": "源路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show source path as title",
+                    "target": "将源路径显示为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Global POV",
+                    "target": "全局 POV"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scene level YAML overrides",
+                    "target": "场景级 YAML 覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Logs & generated files output folder",
+                    "target": "日志与生成文件输出文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-expand clipped scene titles",
+                    "target": "自动展开被截断的场景标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Readability size",
+                    "target": "可读性大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show estimated completion date",
+                    "target": "显示预计完成日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Metadata refresh debounce (ms)",
+                    "target": "元数据刷新防抖（毫秒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset subplot color dominance",
+                    "target": "重置子剧情颜色主导度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scene ordering based on When date",
+                    "target": "基于 When 日期的场景排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable AI LLM features",
+                    "target": "启用 AI LLM 功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable planetary conversions",
+                    "target": "启用行星单位转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Active profile",
+                    "target": "活动配置文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ソースパス",
+                    "target": "源路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ソースパスをタイトルとして表示",
+                    "target": "将源路径显示为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "グローバルPOV",
+                    "target": "全局 POV"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AI出力フォルダ",
+                    "target": "AI输出文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "クリップされたシーンタイトルを自動展開",
+                    "target": "自动展开剪辑的场景标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "可読性サイズ",
+                    "target": "可读性大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AI LLM機能を有効にする",
+                    "target": "启用AI LLM功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search timeline",
+                    "target": "搜索时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear search",
+                    "target": "清除搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manage subplots",
+                    "target": "管理子情节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create basic scene note",
+                    "target": "创建基础场景笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create advanced scene note",
+                    "target": "创建高级场景笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create backdrop note",
+                    "target": "创建背景说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Book designer",
+                    "target": "图书设计器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gossamer enter momentum scores",
+                    "target": "Gossamer输入动量评分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate manuscript",
+                    "target": "生成稿件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Planetary time converter",
+                    "target": "行星时间转换器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scene pulse analysis (manuscript order)",
+                    "target": "场景脉动分析（稿件顺序）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scene pulse analysis (subplot order)",
+                    "target": "场景脉动分析（子情节顺序）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Example: Manuscript/Scenes",
+                    "target": "示例：稿件/场景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., 10000",
+                    "target": "例如，10000"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例: 原稿/シーン",
+                    "target": "示例：稿件/场景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "New beat",
+                    "target": "新节拍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "New key",
+                    "target": "新调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "No scenes provided.",
+                    "target": "未提供场景。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Current View: Showing latest scores (up to Gossamer30).",
+                    "target": "当前视图：显示最新评分（最多到 Gossamer30）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Gossamer momentum",
+                    "target": "Gossamer 动量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter score",
+                    "target": "输入分数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete all Gossamer scores",
+                    "target": "删除所有 Gossamer 分数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This action cannot be undone.",
+                    "target": "此操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will permanently delete ALL Gossamer scores (Gossamer1-30) and their justifications from ALL Beat notes.",
+                    "target": "这将永久删除所有 Beat 备注中的全部 Gossamer 分数（Gossamer1-30）及其理由。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Normalize Gossamer history?",
+                    "target": "规范化 Gossamer 历史记录？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Beats to normalize",
+                    "target": "要规范化的 Beat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to proceed?",
+                    "target": "确定要继续吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Gossamer momentum analysis",
+                    "target": "Gossamer 动量分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manuscript Information",
+                    "target": "稿件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "API Activity",
+                    "target": "API 活动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm reorder",
+                    "target": "确认重新排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Zero Draft",
+                    "target": "零草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter Pending Edits below, or click Override to open the note directly.",
+                    "target": "在下方输入待处理的编辑，或点击“覆盖”直接打开备注。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm action",
+                    "target": "确认操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Queue builds once eligible scenes are found...",
+                    "target": "找到符合条件的场景后将排队构建..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Scenes to process: ",
+                    "target": "要处理的场景："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Estimated time: ",
+                    "target": "预计时间："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Scene queue",
+                    "target": "场景队列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Processing details",
+                    "target": "处理详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Logs: ",
+                    "target": "日志："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm purge beats",
+                    "target": "确认清除 Beat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will permanently delete:",
+                    "target": "这将永久删除："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search timeline",
+                    "target": "搜索时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search scenes by title, synopsis, characters, dates, and more.",
+                    "target": "按标题、概要、角色、日期等搜索场景。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name this layout so you can reuse it later.",
+                    "target": "为此布局命名，以便稍后复用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Book designer",
+                    "target": "图书设计器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto mode",
+                    "target": "自动模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Location & Structure",
+                    "target": "位置与结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Acts to distribute scenes across",
+                    "target": "用于分配场景的章节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Content Configuration",
+                    "target": "内容配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto distribution",
+                    "target": "自动分配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Radial Timeline is a visual map of your story in a concise radial format, revealing structure, status, and meta. It works in four focused modes, each answering a different creative question.",
+                    "target": "径向时间轴以简洁的径向格式呈现你的故事视觉地图，揭示结构、状态和元信息。它有四种专注模式，每种都回答不同的创作问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Bug reporting & Get Help buttons in the bottom corners of the Radial Timeline window are always available. The Book Designer can help you begin by setting up a starter set of scenes.",
+                    "target": "径向时间轴窗口底部角落的“报告问题”和“获取帮助”按钮始终可用。图书设计器可以通过设置一组起始场景来帮助你开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Protect Your Work: ",
+                    "target": "保护你的工作："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It is strongly recommended for you to ",
+                    "target": "强烈建议你"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "automate backups",
+                    "target": "自动备份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Sync",
+                    "target": "Obsidian Sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " service and community favorite ",
+                    "target": "服务以及社区喜爱的"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Git",
+                    "target": "Obsidian Git"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " are excellent choices.",
+                    "target": "都是很好的选择。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Conflicts: ",
+                    "target": "同步冲突："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Avoid mixing sync services. If using iCloud on macOS alongside another sync tool, append ",
+                    "target": "避免混用同步服务。如果在 macOS 上使用 iCloud 并同时使用另一个同步工具，请在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " to the folder name to stop iCloud from syncing the vault. ",
+                    "target": "添加到文件夹名称中，以阻止 iCloud 同步库。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Read the Obsidian Sync Guide.",
+                    "target": "阅读 Obsidian Sync 指南。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Loading timeline data...",
+                    "target": "正在加载时间轴数据..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error rendering timeline. Check console for details.",
+                    "target": "渲染时间轴时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Each beat note will have the following YAML structure:",
+                    "target": "每个节拍笔记将具有以下 YAML 结构："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to reset? This cannot be undone.",
+                    "target": "确定要重置吗？此操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Used for completed scenes, stage matrix, act labels and more.",
+                    "target": "用于已完成的场景、阶段矩阵、章节标签等。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Subplot ring colors used for rings 1 through 16 moving inward.",
+                    "target": "子剧情环颜色用于从外向内的第 1 到第 16 环。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Define context prepended to AI prompts and Gossamer scoring.",
+                    "target": "定义在 AI 提示词和 Gossamer 评分前添加的上下文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advisory Note",
+                    "target": "提示说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What's New",
+                    "target": "更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View releases on GitHub.",
+                    "target": "在 GitHub 上查看发布版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Protect Your Work",
+                    "target": "保护你的作品"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Latest release",
+                    "target": "最新发布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View full changelog",
+                    "target": "查看完整更新日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Scroll to explore the rest of the updates",
+                    "target": "滚动查看其余更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Subplots",
+                    "target": "管理子情节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Loading stats...",
+                    "target": "正在加载统计数据..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Scenes in only this subplot will be moved to Main Plot",
+                    "target": "仅在此子情节中的场景将移至主剧情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rename Subplot",
+                    "target": "重命名子情节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Subplot filter",
+                    "target": "子情节筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Process subplot scenes",
+                    "target": "处理子情节场景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose a subplot and run pulse updates just for that arc.",
+                    "target": "选择一个子情节，仅为该情节线运行 pulse 更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pick a subplot to process",
+                    "target": "选择要处理的子情节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Generate manuscript",
+                    "target": "生成手稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Planetary time converter",
+                    "target": "行星时间转换器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Switch to Subplot mode",
+                    "target": "切换到子情节模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Switch to Narrative mode",
+                    "target": "切换到叙事模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Switch to Gossamer mode",
+                    "target": "切换到 Gossamer 模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Switch to Chronologue mode",
+                    "target": "切换到 Chronologue 模式"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
