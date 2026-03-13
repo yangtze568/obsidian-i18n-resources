@@ -1,0 +1,2647 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "block-link-plus",
+        "version": "1.0.0",
+        "title": "Block Link Plus",
+        "description": "Block Link Plus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Add block",
+                    "target": "添加块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "InlineEditEngine: failed to patch commands.executeCommand",
+                    "target": "InlineEditEngine: 无法补丁 commands.executeCommand"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "InlineEditEngine: failed to patch workspace.getActiveViewOfType",
+                    "target": "InlineEditEngine: 无法补丁 workspace.getActiveViewOfType"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "InlineEditEngine: failed to patch workspace.activeLeaf",
+                    "target": "InlineEditEngine: 无法补丁 workspace.activeLeaf"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BLP Outliner] editor command gate failed",
+                    "target": "[BLP Outliner] 编辑器命令门禁失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "FileOutliner: failed to patch commands.executeCommand for editor command bridge",
+                    "target": "FileOutliner: 无法补丁 commands.executeCommand（用于编辑器命令桥接）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Block Link Plus blp-view Error:",
+                    "target": "Block Link Plus blp-view 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "🔧 Debug mode enabled. Access via window.debug",
+                    "target": "🔧 调试模式已启用。通过 window.debug 访问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Block Link Plus: Error detecting Dataview status:",
+                    "target": "Block Link Plus：检测 Dataview 状态时出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Obsidian URI copied to clipboard",
+                    "target": "Obsidian URI 已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Block link copied to clipboard",
+                    "target": "块链接已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Selection cannot contain headings",
+                    "target": "所选内容不能包含标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Define how multi-line selections generate block ids.",
+                    "target": "定义多行选择如何生成块 ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Link: [[file#block_id]]",
+                    "target": "链接：[[file#block_id]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose how to generate aliases for block links. For heading blocks, alias will always be the heading text unless 'No alias' is selected.",
+                    "target": "选择如何为块链接生成别名。对于标题块，除非选择“无别名”，否则别名始终为标题文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the length of the alias (1-100). Only used when alias style is 'First X chars'.",
+                    "target": "设置别名长度（1-100）。仅在别名样式为“First X chars”时使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Place block ID in new line when selecting a single heading line only",
+                    "target": "仅在选择单个标题行时将块 ID 放在新行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Link: ![[file#block_id]]",
+                    "target": "链接：![[file#block_id]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled, ![[file]] may become editable in Live Preview.",
+                    "target": "启用后，![[file]] 可能在实时预览中可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled, ![[file#Heading]] may become editable in Live Preview.",
+                    "target": "启用后，![[file#Heading]] 可能在实时预览中可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled, ![[file#^id]] and ![[file#^id-id]] may become editable in Live Preview.",
+                    "target": "启用后，![[file#^id]] 和 ![[file#^id-id]] 可能在实时预览中可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Link: obsidian://open?vault=${vault}&file=${filePath}${encodedBlockId}",
+                    "target": "链接：obsidian://open?vault=${vault}&file=${filePath}${encodedBlockId}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Custom block_id",
+                    "target": "自定义 block_id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the maximum number of characters for a block id.",
+                    "target": "设置 block id 的最大字符数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Block id will be: prefix-random_str",
+                    "target": "Block id 将为：prefix-random_str"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Outliner view (Logseq-like) for scoped files. Tail lines use Dataview inline fields + `^id` so `[[file#^id]]` works even without the plugin.",
+                    "target": "用于作用域文件的大纲视图（类似 Logseq）。尾行使用 Dataview 内联字段 + `^id`，因此即使没有插件，`[[file#^id]]` 也能工作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "One per row. Files under these folders will open in the outliner view.",
+                    "target": "每行一个。这些文件夹下的文件将以大纲视图打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "One per row. Use this when you only want specific files.",
+                    "target": "每行一个。仅需特定文件时使用此项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Per-file: `blp_outliner: true/false`.",
+                    "target": "按文件：`blp_outliner: true/false`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, scoped files open in the outliner view instead of the native Markdown editor.",
+                    "target": "启用后，作用域文件将以大纲视图打开，而不是原生 Markdown 编辑器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Hide outliner protocol tail lines in Reading mode when `[blp_sys:: 1]` is present.",
+                    "target": "在阅读模式中检测到 `[blp_sys:: 1]` 时隐藏大纲协议尾行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Drag the bullet to move blocks and their subtrees.",
+                    "target": "拖动项目符号以移动块及其子树。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Click the bullet to zoom into a block subtree.",
+                    "target": "点击项目符号以缩放进入块的子树。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace the outliner editor right-click menu with a BLP-owned menu (supports plugin allowlist injection).",
+                    "target": "将大纲编辑器右键菜单替换为 BLP 自有菜单（支持插件白名单注入）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable core editor shortcuts (Ctrl+B, etc.) and allowlisted plugin editor commands while editing blocks in Outliner. Note: CM6-injection plugins are not supported.",
+                    "target": "在大纲中编辑块时启用核心编辑器快捷键（Ctrl+B 等）及白名单插件的编辑器命令。注意：不支持 CM6 注入插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "One plugin id per row. Only allowlisted plugins may run editor commands in Outliner. Add `core` to include core editor commands.",
+                    "target": "每行一个插件 id。仅白名单插件可在大纲中运行编辑器命令。添加 `core` 以包含核心编辑器命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Copy the editor menu allowlist into the editor command allowlist. Tip: include `core` if you want core formatting shortcuts in Outliner.",
+                    "target": "将编辑器菜单白名单复制到编辑器命令白名单。提示：若要在大纲中使用核心格式化快捷键，请包含 `core`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose what happens to children when splitting a block with Enter.",
+                    "target": "选择在按 Enter 拆分块时子块的处理方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When pasting multiple lines into a block, either split into blocks or keep as multiline.",
+                    "target": "将多行粘贴到块中时，可选择拆分为多个块或保留为多行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose whether Backspace merges with previous (default) or outdents the block when it has children.",
+                    "target": "选择 Backspace 在有子块时是与上一块合并（默认）还是提升该块的缩进级别。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Task blocks use Obsidian-native `- [ ]` / `- [x]` on disk. Commands: \"${toggleTaskStatus}\" (Mod+Enter) and \"${toggleTaskMarker}\" (Mod+Shift+Enter). Configure hotkeys in Settings -> Hotkeys.",
+                    "target": "任务块在磁盘上使用 Obsidian 原生 `- [ ]` / `- [x]`。命令：\"${toggleTaskStatus}\"（Mod+Enter）和 \"${toggleTaskMarker}\"（Mod+Shift+Enter）。在 设置 -> 热键 中配置快捷键。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Log internal outliner errors to the DevTools console.",
+                    "target": "将大纲内部错误记录到 DevTools 控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "One folder path per line (vault-relative). Markdown files under these folders are enabled.",
+                    "target": "每行一个文件夹路径（相对于库）。这些文件夹下的 Markdown 文件将启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "One file path per line (vault-relative). These Markdown files are enabled.",
+                    "target": "每行一个文件路径（相对于库）。这些 Markdown 文件将启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Render unordered list markers as a handle in Live Preview (enabled files only) to make drag/fold interactions easier to discover.",
+                    "target": "在实时预览中将无序列表标记渲染为把手（仅启用的文件），以便更容易发现拖拽/折叠交互。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable click-to-fold and a right-click handle menu for unordered list handles in Live Preview (enabled files only).",
+                    "target": "在实时预览中为无序列表句柄启用点击折叠和右键句柄菜单（仅限已启用文件）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose what a left-click on the list handle does. Right-click always opens the handle menu.",
+                    "target": "选择左键点击列表句柄时的操作。右键始终打开句柄菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Hide the built-in fold triangle shown near list bullets in Live Preview (enabled files only). This reduces accidental fold/unfold when using drag-and-drop.",
+                    "target": "在实时预览中隐藏列表项目符号旁的内置折叠三角形（仅限已启用文件）。这可减少使用拖放时的误折叠/展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, typing `((` opens the Block Reference picker and replaces `((` with a standard `[[file#^id]]` reference. Recommended to keep off unless you prefer Roam/Logseq-style triggers.",
+                    "target": "启用后，输入 `((` 会打开块引用选择器，并将 `((` 替换为标准的 `[[file#^id]]` 引用。除非你偏好 Roam/Logseq 风格触发器，否则建议保持关闭。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable Block Peek UI affordances (handle menu + blp-view peek button) for `[[file#^id]]` blocks.",
+                    "target": "为 `[[file#^id]]` 块启用块预览的 UI 交互（句柄菜单 + blp-view 预览按钮）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How many spaces a leading tab expands to during normalization. Default: 2.",
+                    "target": "规范化时，开头的制表符展开为多少个空格。默认：2。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Guardrails for blp-view execution (requires Dataview).",
+                    "target": "blp-view 执行的安全限制（需要 Dataview）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If disabled, blp-view blocks with render.mode=materialize will show an error and won't modify the file.",
+                    "target": "若禁用，render.mode=materialize 的 blp-view 块将显示错误且不会修改文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "0 = unlimited. If the view needs to scan more files, it will stop with an error.",
+                    "target": "0 = 不限。如果视图需要扫描更多文件，将以错误停止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show counts and timing info under the rendered output.",
+                    "target": "在渲染输出下方显示计数和耗时信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Zoom in/out to the current list subtree. Conflicts with third-party plugin: obsidian-zoom.",
+                    "target": "对当前列表子树进行放大/缩小。与第三方插件 obsidian-zoom 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Move the current list subtree up/down among siblings (current file only). Conflicts with obsidian-outliner.",
+                    "target": "在同级项之间上下移动当前列表子树（仅当前文件）。与 obsidian-outliner 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Indent/outdent the current list subtree (toggleable). Conflicts with obsidian-outliner.",
+                    "target": "缩进/取消缩进当前列表子树（可切换）。与 obsidian-outliner 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Drag-and-drop list subtrees within the current file (no cross-file). Conflicts with obsidian-outliner.",
+                    "target": "在当前文件内拖放列表子树（不跨文件）。与 obsidian-outliner 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Highlight the active list block path (current block + ancestors). Conflicts with obsidian-outliner.",
+                    "target": "高亮活动列表块路径（当前块 + 祖先）。与 obsidian-outliner 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "定义多行选择如何生成块 ID。'默认' 将它们视为单行处理。",
+                    "target": "定义多行选择如何生成块 ID。'默认' 将它们视为单行处理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "链接格式：[[文件#块id]]",
+                    "target": "链接格式：[[文件#块id]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择如何为块链接生成别名。对于标题块，除非选择'无别名'，否则别名始终是标题文本。",
+                    "target": "选择如何为块链接生成别名。对于标题块，除非选择'无别名'，否则别名始终是标题文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置别名的长度(1-100) 仅在别名样式为'前 X 个字符'时使用。",
+                    "target": "设置别名的长度(1-100) 仅在别名样式为'前 X 个字符'时使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "仅选择单个标题行时，将块 ID 放在新行中",
+                    "target": "仅选择单个标题行时，将块 ID 放在新行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "链接格式：![[文件#块id]]",
+                    "target": "链接格式：![[文件#块id]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "控制 Live Preview 下哪些 ![[...]] 嵌入允许就地编辑。",
+                    "target": "控制 Live Preview 下哪些 ![[...]] 嵌入允许就地编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，支持的 ![[...]] 嵌入在 Live Preview 中可能可编辑。",
+                    "target": "启用后，支持的 ![[...]] 嵌入在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，![[file]] 在 Live Preview 中可能可编辑。",
+                    "target": "启用后，![[file]] 在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，![[file#Heading]] 在 Live Preview 中可能可编辑。",
+                    "target": "启用后，![[file#Heading]] 在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，![[file#^id]] 与 ![[file#^id-id]] 在 Live Preview 中可能可编辑。",
+                    "target": "启用后，![[file#^id]] 与 ![[file#^id-id]] 在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "链接格式: obsidian://open?vault=${vault}&file=${filePath}${encodedBlockId}",
+                    "target": "链接格式: obsidian://open?vault=${vault}&file=${filePath}${encodedBlockId}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自定义块id",
+                    "target": "自定义块id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置块 ID 的最大字符数。",
+                    "target": "设置块 ID 的最大字符数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "块 ID 将是：前缀-随机字符串",
+                    "target": "块 ID 将是：前缀-随机字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Outliner 视图（类 Logseq）。协议尾行使用 Dataview inline fields + `^id`，保证即使不安装插件，`[[file#^id]]` 也能跳转。",
+                    "target": "Outliner 视图（类 Logseq）。协议尾行使用 Dataview inline fields + `^id`，保证即使不安装插件，`[[file#^id]]` 也能跳转。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每项一个路径。位于这些文件夹下的文件将使用 Outliner 视图打开。",
+                    "target": "每项一个路径。位于这些文件夹下的文件将使用 Outliner 视图打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每项一个路径。用于只对少量指定文件启用。",
+                    "target": "每项一个路径。用于只对少量指定文件启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每文件：`blp_outliner: true/false`。",
+                    "target": "每文件：`blp_outliner: true/false`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，范围内的文件将打开 Outliner 视图，而不是原生 Markdown 编辑器。",
+                    "target": "启用后，范围内的文件将打开 Outliner 视图，而不是原生 Markdown 编辑器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "当存在 `[blp_sys:: 1]` 时，在阅读模式隐藏 Outliner 协议尾行。",
+                    "target": "当存在 `[blp_sys:: 1]` 时，在阅读模式隐藏 Outliner 协议尾行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "拖拽圆点以移动块及其子树。",
+                    "target": "拖拽圆点以移动块及其子树。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "点击圆点以 Zoom 进入块的子树视图。",
+                    "target": "点击圆点以 Zoom 进入块的子树视图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "强调当前块左侧的连接线。关闭后保持为弱化颜色。",
+                    "target": "强调当前块左侧的连接线。关闭后保持为弱化颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Outliner 编辑模式中使用 BLP 的右键菜单（支持按插件 ID 白名单注入）。",
+                    "target": "在 Outliner 编辑模式中使用 BLP 的右键菜单（支持按插件 ID 白名单注入）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每项一个插件 ID。只有白名单内插件可向 Outliner 编辑菜单添加项。添加 `core` 以包含核心菜单项。",
+                    "target": "每项一个插件 ID。只有白名单内插件可向 Outliner 编辑菜单添加项。添加 `core` 以包含核心菜单项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Outliner 编辑块时启用 core 编辑器快捷键（Ctrl+B 等）和白名单插件的编辑器命令。注意：依赖 CM6 注入的插件不支持。",
+                    "target": "在 Outliner 编辑块时启用 core 编辑器快捷键（Ctrl+B 等）和白名单插件的编辑器命令。注意：依赖 CM6 注入的插件不支持。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每项一个插件 ID。只有白名单内插件可以在 Outliner 中执行编辑器命令。添加 `core` 以包含 core 编辑器命令。",
+                    "target": "每项一个插件 ID。只有白名单内插件可以在 Outliner 中执行编辑器命令。添加 `core` 以包含 core 编辑器命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将“编辑器菜单白名单”复制到“编辑器命令白名单”。提示：想要 Ctrl+B 等格式化快捷键，请确保包含 `core`。",
+                    "target": "将“编辑器菜单白名单”复制到“编辑器命令白名单”。提示：想要 Ctrl+B 等格式化快捷键，请确保包含 `core`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "使用 Enter 拆分块时，选择子块保留在原块或移动到新块。",
+                    "target": "使用 Enter 拆分块时，选择子块保留在原块或移动到新块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在块内粘贴多行文本时，选择拆分为多个块还是保留为单块多行文本。",
+                    "target": "在块内粘贴多行文本时，选择拆分为多个块还是保留为单块多行文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "当块有子块时，选择 Backspace 与上一块合并（默认）或优先 Outdent。",
+                    "target": "当块有子块时，选择 Backspace 与上一块合并（默认）或优先 Outdent。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "任务块在磁盘上使用 Obsidian 原生的 `- [ ]` / `- [x]` 语法。命令：\"${toggleTaskStatus}\"（Mod+Enter）与 \"${toggleTaskMarker}\"（Mod+Shift+Enter）。可在 设置 -> 快捷键 中配置。",
+                    "target": "任务块在磁盘上使用 Obsidian 原生的 `- [ ]` / `- [x]` 语法。命令：\"${toggleTaskStatus}\"（Mod+Enter）与 \"${toggleTaskMarker}\"（Mod+Shift+Enter）。可在 设置 -> 快捷键 中配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将 Outliner 内部错误输出到 DevTools 控制台。",
+                    "target": "将 Outliner 内部错误输出到 DevTools 控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "配置增强 List Blocks 的启用范围（blp-view、系统行隐藏、重复 ^id 修复仅在启用文件内生效）。满足任一条件即启用：位于启用文件夹/启用文件列表，或文件 frontmatter 含 `blp_enhanced_list: true`。",
+                    "target": "配置增强 List Blocks 的启用范围（blp-view、系统行隐藏、重复 ^id 修复仅在启用文件内生效）。满足任一条件即启用：位于启用文件夹/启用文件列表，或文件 frontmatter 含 `blp_enhanced_list: true`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每行一个文件夹路径（相对 vault 根目录）。该文件夹下的 Markdown 文件启用。",
+                    "target": "每行一个文件夹路径（相对 vault 根目录）。该文件夹下的 Markdown 文件启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每行一个文件路径（相对 vault 根目录）。这些 Markdown 文件启用。",
+                    "target": "每行一个文件路径（相对 vault 根目录）。这些 Markdown 文件启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 与 Reading mode 下隐藏系统行（`[date:: ...] ^id`）。关闭后显示系统行（用于调试）。",
+                    "target": "在 Live Preview 与 Reading mode 下隐藏系统行（`[date:: ...] ^id`）。关闭后显示系统行（用于调试）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview（仅启用文件）中隐藏列表项目旁边的折叠小三角，减少拖拽时误触折叠/展开。",
+                    "target": "在 Live Preview（仅启用文件）中隐藏列表项目旁边的折叠小三角，减少拖拽时误触折叠/展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "当块选择模式激活时，Copy/Cut/Paste 以列表项子树（块树）为单位，而不是纯文本。",
+                    "target": "当块选择模式激活时，Copy/Cut/Paste 以列表项子树（块树）为单位，而不是纯文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，输入 `((` 会打开块引用选择器，并将 `((` 替换为标准 `[[file#^id]]` 引用。不习惯 Roam/Logseq 风格可保持关闭。",
+                    "target": "开启后，输入 `((` 会打开块引用选择器，并将 `((` 替换为标准 `[[file#^id]]` 引用。不习惯 Roam/Logseq 风格可保持关闭。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为 `[[file#^id]]` 块提供 Block Peek 入口（手柄菜单 + blp-view peek 按钮）。",
+                    "target": "为 `[[file#^id]]` 块提供 Block Peek 入口（手柄菜单 + blp-view peek 按钮）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 中将无序列表符号渲染为手柄（仅对启用文件生效），便于发现拖拽/折叠等交互。",
+                    "target": "在 Live Preview 中将无序列表符号渲染为手柄（仅对启用文件生效），便于发现拖拽/折叠等交互。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 中启用无序列表手柄的点击折叠与右键手柄菜单（仅对启用文件生效）。",
+                    "target": "在 Live Preview 中启用无序列表手柄的点击折叠与右键手柄菜单（仅对启用文件生效）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择左键点击列表手柄时执行的动作。右键始终打开手柄菜单。",
+                    "target": "选择左键点击列表手柄时执行的动作。右键始终打开手柄菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 中将列表项内的围栏代码块按层级缩进显示（仅对启用文件生效），不修改文件内容。",
+                    "target": "在 Live Preview 中将列表项内的围栏代码块按层级缩进显示（仅对启用文件生效），不修改文件内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后：删除父列表项会一并删除其子列表（Logseq/Roam 风格）。关闭后：子项保留，仅删除系统行。",
+                    "target": "开启后：删除父列表项会一并删除其子列表（Logseq/Roam 风格）。关闭后：子项保留，仅删除系统行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "仅在保存时生效（仅对启用文件）。只对上次保存后你编辑过的列表项应用规则；输入时不改动。",
+                    "target": "仅在保存时生效（仅对启用文件）。只对上次保存后你编辑过的列表项应用规则；输入时不改动。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将行首缩进的 Tab 转为空格（tab 宽度可配置）。为避免改变列表层级，当需要时会回退到 Markdown 的 tab 缩进语义。例（tab=2）：`\\t- a` -> `  - a`。",
+                    "target": "将行首缩进的 Tab 转为空格（tab 宽度可配置）。为避免改变列表层级，当需要时会回退到 Markdown 的 tab 缩进语义。例（tab=2）：`\\t- a` -> `  - a`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "标准化时，把行首 Tab 展开为多少个空格。默认：2。",
+                    "target": "标准化时，把行首 Tab 展开为多少个空格。默认：2。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "删除已编辑列表项中的多余系统行（保留第一条），并删除列表项正上方的孤儿系统行。例：`  [date:: ...] ^a` + `  [date:: ...] ^b` -> 仅保留一条。",
+                    "target": "删除已编辑列表项中的多余系统行（保留第一条），并删除列表项正上方的孤儿系统行。例：`  [date:: ...] ^a` + `  [date:: ...] ^b` -> 仅保留一条。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "把两行系统行合并为一行。例：`  [date:: 2026-01-26T16:01:21]` + `  ^7fp1` -> `  [date:: 2026-01-26T16:01:21] ^7fp1`。",
+                    "target": "把两行系统行合并为一行。例：`  [date:: 2026-01-26T16:01:21]` + `  ^7fp1` -> `  [date:: 2026-01-26T16:01:21] ^7fp1`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "把系统行缩进强制修正为 continuation indent（与 `- ` / 复选框后的内容列对齐）。例：`- a` + `[date:: ...] ^id` -> `- a` + `  [date:: ...] ^id`。",
+                    "target": "把系统行缩进强制修正为 continuation indent（与 `- ` / 复选框后的内容列对齐）。例：`- a` + `[date:: ...] ^id` -> `- a` + `  [date:: ...] ^id`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果已编辑的列表项缺少系统行，保存时自动插入（必要时移动到子列表之前）。",
+                    "target": "如果已编辑的列表项缺少系统行，保存时自动插入（必要时移动到子列表之前）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "blp-view 执行护栏设置（需要 Dataview）。",
+                    "target": "blp-view 执行护栏设置（需要 Dataview）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "关闭后，包含 `render.mode: materialize` 的 blp-view 将报错并且不会修改文件。",
+                    "target": "关闭后，包含 `render.mode: materialize` 的 blp-view 将报错并且不会修改文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "0 表示不限制；如果一次 view 需要扫描超过该数量的文件，将停止执行并提示报错。",
+                    "target": "0 表示不限制；如果一次 view 需要扫描超过该数量的文件，将停止执行并提示报错。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "0 表示不限制；如果匹配结果超过该数量，将截断输出并提示“已截断”。",
+                    "target": "0 表示不限制；如果匹配结果超过该数量，将截断输出并提示“已截断”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在输出下方显示扫描数量、匹配数量与耗时等信息。",
+                    "target": "在输出下方显示扫描数量、匹配数量与耗时等信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Zoom in/out 到当前 list 子树。与第三方插件 `obsidian-zoom` 冲突，不可同时启用。",
+                    "target": "Zoom in/out 到当前 list 子树。与第三方插件 `obsidian-zoom` 冲突，不可同时启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在当前文件内，将当前 list 子树在兄弟节点之间上移/下移。与 `obsidian-outliner` 冲突。",
+                    "target": "在当前文件内，将当前 list 子树在兄弟节点之间上移/下移。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "缩进/反缩进当前 list 子树（可开关）。与 `obsidian-outliner` 冲突。",
+                    "target": "缩进/反缩进当前 list 子树（可开关）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在当前文件内拖拽 list 子树进行排序/改变层级（不支持跨文件）。与 `obsidian-outliner` 冲突。",
+                    "target": "在当前文件内拖拽 list 子树进行排序/改变层级（不支持跨文件）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 下渲染缩进导引线（受主题影响，best-effort）。与 `obsidian-outliner` 冲突。",
+                    "target": "在 Live Preview 下渲染缩进导引线（受主题影响，尽力而为）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "高亮当前 list block 及其祖先路径（active path）。与 `obsidian-outliner` 冲突。",
+                    "target": "高亮当前 list block 及其祖先路径（活动路径）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "定義多行選擇如何產生區塊 ID。'預設' 將它們視為單行處理。",
+                    "target": "定义多行选择如何生成区块 ID。'默认' 将它们视为单行处理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "連結格式：[[檔案#區塊_id]]",
+                    "target": "链接格式：[[文件#区块_id]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "選擇如何為塊連結產生別名. 對於標題塊, 除非選擇'無別名', 否則別名始終是標題文字.",
+                    "target": "选择如何为块链接生成别名. 对于标题块，除非选择'无别名'，否则别名始终是标题文字。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定別名的長度(1-100). 僅在別名樣式為'前 X 個字元'時使用.",
+                    "target": "设置别名的长度(1-100). 仅在别名样式为'前 X 个字符'时使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "僅選擇單個標題行時，將區塊 ID 放在新行中",
+                    "target": "仅选择单个标题行时，将区块 ID 放在新行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "連結格式：![[檔案#區塊_id]]",
+                    "target": "链接格式：![[文件#区块_id]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "控制 Live Preview 下哪些 ![[...]] 嵌入允許就地編輯。",
+                    "target": "控制 Live Preview 下哪些 ![[...]] 嵌入允许就地编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用後，支援的 ![[...]] 嵌入在 Live Preview 中可能可編輯。",
+                    "target": "启用后，支持的 ![[...]] 嵌入在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用後，![[file]] 在 Live Preview 中可能可編輯。",
+                    "target": "启用后，![[file]] 在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用後，![[file#Heading]] 在 Live Preview 中可能可編輯。",
+                    "target": "启用后，![[file#Heading]] 在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用後，![[file#^id]] 與 ![[file#^id-id]] 在 Live Preview 中可能可編輯。",
+                    "target": "启用后，![[file#^id]] 与 ![[file#^id-id]] 在 Live Preview 中可能可编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "連結格式: obsidian://open?vault=${vault}&file=${filePath}${encodedBlockId}",
+                    "target": "链接格式: obsidian://open?vault=${vault}&file=${filePath}${encodedBlockId}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自訂區塊_id",
+                    "target": "自定义区块_id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定區塊 ID 的最大字元數。",
+                    "target": "设置区块 ID 的最大字符数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "區塊 ID 將是：前綴-隨機字串",
+                    "target": "区块 ID 将是：前缀-随机字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Outliner 檢視（類 Logseq）。協議尾行使用 Dataview inline fields + `^id`，確保即使不安裝插件，`[[file#^id]]` 也能跳轉。",
+                    "target": "Outliner 视图（类 Logseq）。协议尾行使用 Dataview inline fields + `^id`，确保即使不安装插件，`[[file#^id]]` 也能跳转。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每項一個路徑。位於這些資料夾下的檔案將以 Outliner 檢視開啟。",
+                    "target": "每项一个路径。位于这些文件夹下的文件将以 Outliner 视图打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每項一個路徑。用於只對少量指定檔案啟用。",
+                    "target": "每项一个路径。用于只对少量指定文件启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每檔案：`blp_outliner: true/false`。",
+                    "target": "每文件：`blp_outliner: true/false`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用後，範圍內的檔案會開啟 Outliner 檢視，而不是原生 Markdown 編輯器。",
+                    "target": "启用后，范围内的文件会打开 Outliner 视图，而不是原生 Markdown 编辑器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "當存在 `[blp_sys:: 1]` 時，在閱讀模式隱藏 Outliner 協議尾行。",
+                    "target": "当存在 `[blp_sys:: 1]` 时，在阅读模式隐藏 Outliner 协议尾行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "拖曳圓點以移動區塊及其子樹。",
+                    "target": "拖拽圆点以移动区块及其子树。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "點擊圓點以 Zoom 進入區塊的子樹檢視。",
+                    "target": "点击圆点以 Zoom 进入区块的子树视图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "強調目前區塊左側的連接線。關閉後保持為弱化顏色。",
+                    "target": "强调当前区块左侧的连接线。关闭后保持为弱化颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Outliner 編輯模式中使用 BLP 的右鍵選單（支援按外掛 ID 白名單注入）。",
+                    "target": "在 Outliner 编辑模式中使用 BLP 的右键菜单（支持按外挂 ID 白名单注入）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每項一個外掛 ID。只有白名單內外掛可向 Outliner 編輯選單新增項目。加入 `core` 以包含核心選單項目。",
+                    "target": "每项一个外挂 ID。只有白名单内外挂可向 Outliner 编辑菜单新增项目。加入 `core` 以包含核心菜单项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Outliner 編輯區塊時啟用 core 編輯器快捷鍵（Ctrl+B 等）和白名單外掛的編輯器命令。注意：依賴 CM6 注入的外掛不支援。",
+                    "target": "在 Outliner 编辑区块时启用 core 编辑器快捷键（Ctrl+B 等）和白名单外挂的编辑器命令。注意：依赖 CM6 注入的外挂不支持。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每項一個外掛 ID。只有白名單內外掛可以在 Outliner 中執行編輯器命令。加入 `core` 以包含 core 編輯器命令。",
+                    "target": "每项一个外挂 ID。只有白名单内外挂可以在 Outliner 中执行编辑器命令。加入 `core` 以包含 core 编辑器命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將「編輯器選單白名單」複製到「編輯器命令白名單」。提示：想要 Ctrl+B 等格式化快捷鍵，請確保包含 `core`。",
+                    "target": "将「编辑器菜单白名单」复制到「编辑器命令白名单」。提示：想要 Ctrl+B 等格式化快捷键，请确保包含 `core`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "使用 Enter 拆分區塊時，選擇子塊保留在原區塊或移動到新區塊。",
+                    "target": "使用 Enter 拆分区块时，选择子块保留在原区块或移动到新区块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在區塊內貼上多行文字時，選擇拆分為多個區塊或保留為單區塊多行文字。",
+                    "target": "在区块内贴上多行文字时，选择拆分为多个区块或保留为单区块多行文字。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "當區塊有子塊時，選擇 Backspace 與上一區塊合併（預設）或優先 Outdent。",
+                    "target": "当区块有子块时，选择 Backspace 与上一块合并（默认）或优先 Outdent。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "任務區塊在磁碟上使用 Obsidian 原生的 `- [ ]` / `- [x]` 語法。命令：\"${toggleTaskStatus}\"（Mod+Enter）與 \"${toggleTaskMarker}\"（Mod+Shift+Enter）。可在 設定 -> 快捷鍵 中設定。",
+                    "target": "任务区块在磁盘上使用 Obsidian 原生的 `- [ ]` / `- [x]` 语法。命令：\"${toggleTaskStatus}\"（Mod+Enter）与 \"${toggleTaskMarker}\"（Mod+Shift+Enter）。可在 设置 -> 快捷键 中设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將 Outliner 內部錯誤輸出到 DevTools 主控台。",
+                    "target": "将 Outliner 内部错误输出到 DevTools 控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定增強 List Blocks 的啟用範圍（blp-view、系統行隱藏、重複 ^id 修復僅在啟用檔案內生效）。滿足任一條件即啟用：位於啟用資料夾/啟用檔案清單，或檔案 frontmatter 含 `blp_enhanced_list: true`。",
+                    "target": "设置增强 List Blocks 的启用范围（blp-view、系统行隐藏、重复 ^id 修复仅在启用文件内生效）。满足任一条件即启用：位于启用文件夹/启用文件清单，或文件 frontmatter 含 `blp_enhanced_list: true`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每行一個資料夾路徑（相對 vault 根目錄）。該資料夾下的 Markdown 檔案啟用。",
+                    "target": "每行一个文件夹路径（相对 vault 根目录）。该文件夹下的 Markdown 文件启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每行一個檔案路徑（相對 vault 根目錄）。這些 Markdown 檔案啟用。",
+                    "target": "每行一个文件路径（相对 vault 根目录）。这些 Markdown 文件启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 與 Reading mode 下隱藏系統行（`[date:: ...] ^id`）。關閉後顯示系統行（用於除錯）。",
+                    "target": "在 Live Preview 与 Reading mode 下隐藏系统行（`[date:: ...] ^id`）。关闭后显示系统行（用于调试）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview（僅啟用檔案）中隱藏列表項目旁的折疊小三角，降低拖曳時誤觸折疊/展開。",
+                    "target": "在 Live Preview（仅启用文件）中隐藏列表项目旁的折叠小三角，降低拖拽时误触折叠/展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "當區塊選擇模式啟用時，Copy/Cut/Paste 以列表項子樹（區塊樹語意）為單位，而非純文字。",
+                    "target": "当区块选择模式启用时，Copy/Cut/Paste 以列表项子树（区块树语义）为单位，而非纯文字。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用後，輸入 `((` 會開啟區塊引用選擇器，並將 `((` 替換為標準 `[[file#^id]]` 引用。不習慣 Roam/Logseq 風格可保持關閉。",
+                    "target": "启用后，输入 `((` 会打开区块引用选择器，并将 `((` 替换为标准 `[[file#^id]]` 引用。不习惯 Roam/Logseq 风格可保持关闭。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "為 `[[file#^id]]` 區塊提供 Block Peek 入口（把手選單 + blp-view peek 按鈕）。",
+                    "target": "为 `[[file#^id]]` 区块提供 Block Peek 入口（把手菜单 + blp-view peek 按钮）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 中將無序列表符號渲染為把手（僅對啟用檔案生效），方便發現拖曳/折疊等互動。",
+                    "target": "在 Live Preview 中将无序列表符号渲染为把手（仅对启用文件生效），方便发现拖拽/折叠等交互。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 中啟用無序清單把手的點擊折疊與右鍵把手選單（僅對啟用檔案生效）。",
+                    "target": "在 Live Preview 中启用无序清单把手的点击折叠与右键把手菜单（仅对启用文件生效）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "選擇左鍵點擊列表把手時執行的動作。右鍵一律開啟把手選單。",
+                    "target": "选择左键点击列表把手时执行的动作。右键一律打开把手菜单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 中將清單項內的圍欄程式碼區塊依層級縮進顯示（僅對啟用檔案生效），不修改檔案內容。",
+                    "target": "在 Live Preview 中将清单项内的围栏代码块按层级缩进显示（仅对启用文件生效），不修改文件内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "開啟後：刪除父列表項會一併刪除其子列表（Logseq/Roam 風格）。關閉後：子項保留，僅刪除系統行。",
+                    "target": "开启后：删除父列表项会一并删除其子列表（Logseq/Roam 风格）。关闭后：子项保留，仅删除系统行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "僅在儲存時生效（僅對啟用檔案）。只對上次儲存後你編輯過的清單項套用規則；輸入時不改動。",
+                    "target": "仅在保存时生效（仅对启用文件）。只对上次保存后你编辑过的清单项应用规则；输入时不改动。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將行首縮排的 Tab 轉為空格（tab 寬度可設定）。為避免改變列表層級，必要時會回退到 Markdown 的 tab 縮排語義。例（tab=2）：`\\t- a` -> `  - a`。",
+                    "target": "将行首缩进的 Tab 转为空格（tab 宽度可设置）。为避免改变列表层级，必要时会回退到 Markdown 的 tab 缩进语义。例（tab=2）：`\\t- a` -> `  - a`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "標準化時，將行首 Tab 展開為多少個空格。預設：2。",
+                    "target": "标准化时，将行首 Tab 展开为多少个空格。默认：2。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "刪除已編輯清單項中的多餘系統行（保留第一條），並刪除清單項正上方的孤兒系統行。例：`  [date:: ...] ^a` + `  [date:: ...] ^b` -> 僅保留一條。",
+                    "target": "删除已编辑清单项中的多余系统行（保留第一条），并删除清单项正上方的孤儿系统行。例：`  [date:: ...] ^a` + `  [date:: ...] ^b` -> 仅保留一条。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "把兩行系統行合併為一行。例：`  [date:: 2026-01-26T16:01:21]` + `  ^7fp1` -> `  [date:: 2026-01-26T16:01:21] ^7fp1`。",
+                    "target": "把两行系统行合并为一行。例：`  [date:: 2026-01-26T16:01:21]` + `  ^7fp1` -> `  [date:: 2026-01-26T16:01:21] ^7fp1`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "把系統行縮排強制修正為 continuation indent（與 `- ` / 核取方塊後的內容欄對齊）。例：`- a` + `[date:: ...] ^id` -> `- a` + `  [date:: ...] ^id`。",
+                    "target": "把系统行缩进强制修正为 continuation indent（与 `- ` / 核取方块后的内容栏对齐）。例：`- a` + `[date:: ...] ^id` -> `- a` + `  [date:: ...] ^id`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "若已編輯的清單項缺少系統行，儲存時自動插入（必要時移動到子清單之前）。",
+                    "target": "若已编辑的清单项缺少系统行，保存时自动插入（必要时移动到子清单之前）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "blp-view 執行護欄設定（需要 Dataview）。",
+                    "target": "blp-view 执行护栏设置（需要 Dataview）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "關閉後，包含 `render.mode: materialize` 的 blp-view 將報錯且不會修改檔案。",
+                    "target": "关闭后，包含 `render.mode: materialize` 的 blp-view 将报错且不会修改文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "0 表示不限制；若一次 view 需要掃描超過此數量的檔案，將停止執行並提示錯誤。",
+                    "target": "0 表示不限制；若一次 view 需要扫描超过此数量的文件，将停止执行并提示错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "0 表示不限制；若匹配結果超過此數量，將截斷輸出並提示「已截斷」。",
+                    "target": "0 表示不限制；若匹配结果超过此数量，将截断输出并提示「已截断」。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在輸出下方顯示掃描數量、匹配數量與耗時等資訊。",
+                    "target": "在输出下方显示扫描数量、匹配数量与耗时等信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Zoom in/out 到當前 list 子樹。與第三方插件 `obsidian-zoom` 衝突，不可同時啟用。",
+                    "target": "缩放到当前 list 子树。与第三方插件 `obsidian-zoom` 冲突，不可同时启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在當前檔案內，將當前 list 子樹在兄弟節點之間上移/下移。與 `obsidian-outliner` 衝突。",
+                    "target": "在当前文件内，将当前 list 子树在兄弟节点之间上移/下移。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "縮排/反縮排當前 list 子樹（可開關）。與 `obsidian-outliner` 衝突。",
+                    "target": "缩进/反缩进当前 list 子树（可开关）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在當前檔案內拖曳 list 子樹進行排序/改變層級（不支援跨檔案）。與 `obsidian-outliner` 衝突。",
+                    "target": "在当前文件内拖拽 list 子树进行排序/改变层级（不支持跨文件）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在 Live Preview 下渲染縮排導引線（受主題影響，best-effort）。與 `obsidian-outliner` 衝突。",
+                    "target": "在 Live Preview 下渲染缩进导引线（受主题影响，best-effort）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "高亮當前 list block 及其祖先路徑（active path）。與 `obsidian-outliner` 衝突。",
+                    "target": "高亮当前 list block 及其祖先路径（active path）。与 `obsidian-outliner` 冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "链接",
+                    "target": "链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "連結",
+                    "target": "链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Selection must span multiple lines",
+                    "target": "选区必须跨多行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Selection cannot include frontmatter",
+                    "target": "选区不能包含 frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Selection is invalid",
+                    "target": "选区无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Start line already has a block ID",
+                    "target": "起始行已具有块 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "End line already has a block ID",
+                    "target": "结束行已具有块 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to create multiline block",
+                    "target": "创建多行块失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Inline Edit",
+                    "target": "切换行内编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multi-line block behavior",
+                    "target": "多行块行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable block link in right click menu",
+                    "target": "在右键菜单中启用块链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show notification when block link is copied",
+                    "target": "复制块链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alias style",
+                    "target": "别名样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alias length",
+                    "target": "别名长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Experimental: Heading block ID style",
+                    "target": "实验性：标题块 ID 样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable inline edit",
+                    "target": "启用行内编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Obsidian URI link in right click menu",
+                    "target": "在右键菜单中启用 Obsidian URI 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show notification when URI link is copied",
+                    "target": "复制 URI 链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max block id Length",
+                    "target": "最大块 ID 长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom id prefix",
+                    "target": "自定义 ID 前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Block id prefix",
+                    "target": "块 ID 前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enabled folders (vault-relative)",
+                    "target": "启用的文件夹（相对于仓库）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enabled files (vault-relative)",
+                    "target": "启用的文件（相对于仓库）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter override",
+                    "target": "Frontmatter 覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Outliner",
+                    "target": "启用 Outliner"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable drag & drop",
+                    "target": "启用拖放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable zoom",
+                    "target": "启用缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Editor context menu",
+                    "target": "编辑器上下文菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Editor menu plugin allowlist",
+                    "target": "编辑器菜单插件允许列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Editor command bridge (shortcuts)",
+                    "target": "编辑器命令桥接（快捷键）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Editor command plugin allowlist",
+                    "target": "编辑器命令插件允许列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync allowlists",
+                    "target": "同步允许列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enter split: children behavior",
+                    "target": "Enter 拆分：子级行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste multiline",
+                    "target": "粘贴多行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backspace at start (block has children)",
+                    "target": "在开头退格（块有子块）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug logging",
+                    "target": "调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enabled folders",
+                    "target": "启用的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enabled files",
+                    "target": "启用的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show list handle affordance",
+                    "target": "显示列表手柄提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable list handle actions",
+                    "target": "启用列表手柄操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Handle left-click action",
+                    "target": "手柄左键点击操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indent nested fenced code blocks",
+                    "target": "缩进嵌套的围栏代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide Obsidian's built-in fold indicator",
+                    "target": "隐藏 Obsidian 内置折叠指示器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable subtree clipboard (copy/cut/paste block-tree)",
+                    "target": "启用子树剪贴板（复制/剪切/粘贴块树）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable `((` trigger for block reference insertion",
+                    "target": "启用 `((` 触发块引用插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Block Peek (context)",
+                    "target": "启用块预览（上下文）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Normalize list format on save",
+                    "target": "保存时规范化列表格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert leading tabs to spaces",
+                    "target": "将行首 Tab 转为空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tab width (spaces)",
+                    "target": "制表符宽度（空格）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Allow materialize writeback",
+                    "target": "允许物化回写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max source files per view",
+                    "target": "每个视图的最大源文件数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max rendered results",
+                    "target": "最大渲染结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show blp-view diagnostics",
+                    "target": "显示 blp-view 诊断信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable zoom (Live Preview)",
+                    "target": "启用缩放（实时预览）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable move subtree up/down",
+                    "target": "启用上/下移动子树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable indent/outdent subtree",
+                    "target": "启用子树缩进/取消缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable drag-and-drop subtree",
+                    "target": "启用子树拖放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable vertical indentation lines",
+                    "target": "启用垂直缩进线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable bullet threading",
+                    "target": "启用项目符号穿线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "多行块行为",
+                    "target": "多行块行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在右键菜单中启用块链接",
+                    "target": "在右键菜单中启用块链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "复制块链接时显示通知",
+                    "target": "复制块链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "别名样式",
+                    "target": "别名样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "别名长度",
+                    "target": "别名长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "实验性：标题块 ID 样式",
+                    "target": "实验性：标题块 ID 样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在右键菜单中启用嵌入链接",
+                    "target": "在右键菜单中启用嵌入链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "复制嵌入链接时显示通知",
+                    "target": "复制嵌入链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用内联编辑",
+                    "target": "启用内联编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允许文件嵌入 (![[file]])",
+                    "target": "允许文件嵌入 (![[file]])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允许标题嵌入 (![[file#Heading]])",
+                    "target": "允许标题嵌入 (![[file#Heading]])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允许块嵌入 (![[file#^id]] / ![[file#^id-id]])",
+                    "target": "允许块嵌入 (![[file#^id]] / ![[file#^id-id]])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在右键菜单中启用 Obsidian URI 链接",
+                    "target": "在右键菜单中启用 Obsidian URI 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "复制 URI 链接时显示通知",
+                    "target": "复制 URI 链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大块 ID 长度",
+                    "target": "最大块 ID 长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义 ID 前缀",
+                    "target": "自定义 ID 前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "块 ID 前缀",
+                    "target": "块 ID 前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用文件夹（vault 相对路径）",
+                    "target": "启用文件夹（vault 相对路径）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用文件（vault 相对路径）",
+                    "target": "启用文件（vault 相对路径）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter 覆盖",
+                    "target": "Frontmatter 覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用 Outliner",
+                    "target": "启用 Outliner"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隐藏系统尾行",
+                    "target": "隐藏系统尾行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用拖拽移动",
+                    "target": "启用拖拽移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用 Zoom",
+                    "target": "启用 Zoom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用强调线（左侧）",
+                    "target": "启用强调线（左侧）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "编辑器右键菜单",
+                    "target": "编辑器右键菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允许注入的插件 ID",
+                    "target": "允许注入的插件 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "编辑器命令桥接（快捷键）",
+                    "target": "编辑器命令桥接（快捷键）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "编辑器命令插件白名单",
+                    "target": "编辑器命令插件白名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步白名单",
+                    "target": "同步白名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enter 拆分：子块处理",
+                    "target": "Enter 拆分：子块处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "粘贴多行文本",
+                    "target": "粘贴多行文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "行首 Backspace（有子块）",
+                    "target": "行首 Backspace（有子块）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务",
+                    "target": "任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试日志",
+                    "target": "调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用文件夹",
+                    "target": "启用文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用文件",
+                    "target": "启用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隐藏系统行",
+                    "target": "隐藏系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隐藏 Obsidian 自带折叠指示器",
+                    "target": "隐藏 Obsidian 自带折叠指示器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用子树剪贴板（按块树 copy/cut/paste）",
+                    "target": "启用子树剪贴板（按块树 copy/cut/paste）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用 `((` 触发块引用插入",
+                    "target": "启用 `((` 触发块引用插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用 Block Peek（上下文）",
+                    "target": "启用 Block Peek（上下文）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示列表手柄",
+                    "target": "显示列表手柄"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用列表手柄动作",
+                    "target": "启用列表手柄动作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "手柄左键动作",
+                    "target": "手柄左键动作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩进嵌套代码块",
+                    "target": "缩进嵌套代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "删除列表项时删除子项",
+                    "target": "删除列表项时删除子项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "保存时标准化列表格式",
+                    "target": "保存时标准化列表格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "将行首 Tab 转为空格",
+                    "target": "将行首 Tab 转为空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tab 宽度（空格）",
+                    "target": "Tab 宽度（空格）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "清理无效/多余系统行",
+                    "target": "清理无效/多余系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "合并拆分的系统行",
+                    "target": "合并拆分的系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "修正系统行缩进",
+                    "target": "修正系统行缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "为已编辑的列表项补齐系统行",
+                    "target": "为已编辑的列表项补齐系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允许 materialize 写回",
+                    "target": "允许 materialize 写回"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大扫描文件数",
+                    "target": "最大扫描文件数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大输出结果数",
+                    "target": "最大输出结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示 blp-view 诊断信息",
+                    "target": "显示 blp-view 诊断信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用 Zoom（Live Preview）",
+                    "target": "启用 Zoom（Live Preview）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用子树上移/下移",
+                    "target": "启用子树上移/下移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用子树缩进/反缩进",
+                    "target": "启用子树缩进/反缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用拖拽（Drag & Drop）",
+                    "target": "启用拖拽（Drag & Drop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用垂直缩进线",
+                    "target": "启用垂直缩进线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用 Bullet Threading",
+                    "target": "启用 Bullet Threading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "多行塊行為",
+                    "target": "多行块行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在右鍵選單中啟用塊連結",
+                    "target": "在右键菜单中启用块链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "複製塊連結時顯示通知",
+                    "target": "复制块链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "別名樣式",
+                    "target": "别名样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "別名長度",
+                    "target": "别名长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "實驗性：標題區塊 ID 樣式",
+                    "target": "实验性：标题区块 ID 样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在右鍵選單中啟用嵌入連結",
+                    "target": "在右键菜单中启用嵌入链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "複製嵌入連結時顯示通知",
+                    "target": "复制嵌入链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用內聯編輯",
+                    "target": "启用内联编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允許檔案嵌入 (![[file]])",
+                    "target": "允许文件嵌入 (![[file]])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允許標題嵌入 (![[file#Heading]])",
+                    "target": "允许标题嵌入 (![[file#Heading]])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允許區塊嵌入 (![[file#^id]] / ![[file#^id-id]])",
+                    "target": "允许区块嵌入 (![[file#^id]] / ![[file#^id-id]])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在右鍵選單中啟用 Obsidian URI 連結",
+                    "target": "在右键菜单中启用 Obsidian URI 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "複製 URI 連結時顯示通知",
+                    "target": "复制 URI 链接时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大區塊 ID 長度",
+                    "target": "最大区块 ID 长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自訂 ID 前綴",
+                    "target": "自定义 ID 前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "區塊 ID 前綴",
+                    "target": "区块 ID 前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用資料夾（vault 相對路徑）",
+                    "target": "启用文件夹（vault 相对路径）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用檔案（vault 相對路徑）",
+                    "target": "启用文件（vault 相对路径）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter 覆蓋",
+                    "target": "Frontmatter 覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用 Outliner",
+                    "target": "启用 Outliner"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隱藏系統尾行",
+                    "target": "隐藏系统尾行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用拖曳移動",
+                    "target": "启用拖拽移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用 Zoom",
+                    "target": "启用 Zoom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用強調線（左側）",
+                    "target": "启用强调线（左侧）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "編輯器右鍵選單",
+                    "target": "编辑器右键菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允許注入的外掛 ID",
+                    "target": "允许注入的插件 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "編輯器命令橋接（快捷鍵）",
+                    "target": "编辑器命令桥接（快捷键）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "編輯器命令外掛白名單",
+                    "target": "编辑器命令插件白名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步白名單",
+                    "target": "同步白名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enter 拆分：子塊處理",
+                    "target": "Enter 拆分：子块处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "貼上多行文字",
+                    "target": "粘贴多行文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "行首 Backspace（有子塊）",
+                    "target": "行首 Backspace（有子块）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任務",
+                    "target": "任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "除錯記錄",
+                    "target": "调试记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用資料夾",
+                    "target": "启用文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用檔案",
+                    "target": "启用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隱藏系統行",
+                    "target": "隐藏系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隱藏 Obsidian 內建折疊指示器",
+                    "target": "隐藏 Obsidian 内置折叠指示器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用子樹剪貼簿（以區塊樹 copy/cut/paste）",
+                    "target": "启用子树剪贴板（以区块树 copy/cut/paste）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用 `((` 觸發區塊引用插入",
+                    "target": "启用 `((` 触发区块引用插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用 Block Peek（上下文）",
+                    "target": "启用 Block Peek（上下文）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示列表把手",
+                    "target": "显示列表把手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用列表把手動作",
+                    "target": "启用列表把手动作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "把手左鍵動作",
+                    "target": "把手左键动作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "縮進巢狀程式碼區塊",
+                    "target": "缩进嵌套代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "刪除列表項時刪除子項",
+                    "target": "删除列表项时删除子项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "儲存時標準化清單格式",
+                    "target": "保存时标准化列表格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "將行首 Tab 轉為空格",
+                    "target": "将行首 Tab 转为空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tab 寬度（空格）",
+                    "target": "Tab 宽度（空格）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "清理無效/多餘系統行",
+                    "target": "清理无效/多余系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "合併拆分的系統行",
+                    "target": "合并拆分的系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "修正系統行縮排",
+                    "target": "修正系统行缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "為已編輯的清單項補齊系統行",
+                    "target": "为已编辑的列表项补齐系统行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允許 materialize 寫回",
+                    "target": "允许 materialize 写回"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大掃描檔案數",
+                    "target": "最大扫描文件数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大輸出結果數",
+                    "target": "最大输出结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示 blp-view 診斷資訊",
+                    "target": "显示 blp-view 诊断信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用 Zoom（Live Preview）",
+                    "target": "启用 Zoom（Live Preview）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用子樹上移/下移",
+                    "target": "启用子树上移/下移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用子樹縮排/反縮排",
+                    "target": "启用子树缩进/反缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用拖曳（Drag & Drop）",
+                    "target": "启用拖拽（Drag & Drop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用垂直縮排線",
+                    "target": "启用垂直缩进线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用 Bullet Threading",
+                    "target": "启用 Bullet Threading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy Block Link",
+                    "target": "复制块链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy Block as Obsidian URI",
+                    "target": "将块复制为 Obsidian URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type ${1} to open the Flow Menu",
+                    "target": "输入 ${1} 打开流程菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入 ${1} 打开流程菜单",
+                    "target": "输入 ${1} 打开流程菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "輸入 ${1} 開啟流程選單",
+                    "target": "输入 ${1} 打开流程菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error: Dataview plugin is not installed or enabled.",
+                    "target": "错误：未安装或未启用 Dataview 插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error: render.mode=materialize is disabled in settings.",
+                    "target": "错误：render.mode=materialize 在设置中已禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error: render.mode=materialize requires the current file to be enabled.",
+                    "target": "错误：render.mode=materialize 需要启用当前文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "blp-view output is materialized below.",
+                    "target": "blp-view 输出已在下方生成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "blp-view requires Dataview plugin.",
+                    "target": "blp-view 需要 Dataview 插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Block link",
+                    "target": "块链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Inline edit",
+                    "target": "内联编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Obsidian URI link",
+                    "target": "Obsidian URI 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Block Id",
+                    "target": "块 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Display & interactions",
+                    "target": "显示与交互"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Enhanced List",
+                    "target": "增强列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Scope & Behavior",
+                    "target": "范围与行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Enable scope",
+                    "target": "启用范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Block mode",
+                    "target": "块模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "blp-view (Query/View)",
+                    "target": "blp-view（查询/视图）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Enhanced List Blocks Ops",
+                    "target": "增强列表块操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "块链接",
+                    "target": "块链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "嵌入链接",
+                    "target": "嵌入链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "内联编辑",
+                    "target": "内联编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Obsidian URI 链接",
+                    "target": "Obsidian URI 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "块 ID",
+                    "target": "块 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "范围",
+                    "target": "范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "路由",
+                    "target": "路由"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "显示与交互",
+                    "target": "显示与交互"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "交互",
+                    "target": "交互"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "编辑",
+                    "target": "编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "集成",
+                    "target": "集成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "调试",
+                    "target": "调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "行为",
+                    "target": "行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "增强 List Blocks",
+                    "target": "增强 List Blocks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "启用范围与行为",
+                    "target": "启用范围与行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "启用范围",
+                    "target": "启用范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "块模式",
+                    "target": "块模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标准化",
+                    "target": "标准化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "blp-view（Query/View）",
+                    "target": "blp-view（Query/View）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "增强 List Blocks 操作",
+                    "target": "增强 List Blocks 操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "塊連結",
+                    "target": "块链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "嵌入連結",
+                    "target": "嵌入链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "內聯編輯",
+                    "target": "内联编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Obsidian URI 連結",
+                    "target": "Obsidian URI 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "區塊 ID",
+                    "target": "区块 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "範圍",
+                    "target": "范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "顯示與互動",
+                    "target": "显示与交互"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "互動",
+                    "target": "交互"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "編輯",
+                    "target": "编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "整合",
+                    "target": "整合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "除錯",
+                    "target": "调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "行為",
+                    "target": "行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "增強 List Blocks",
+                    "target": "增强 List Blocks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "啟用範圍與行為",
+                    "target": "启用范围与行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "啟用範圍",
+                    "target": "启用范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "區塊模式",
+                    "target": "区块模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "標準化",
+                    "target": "标准化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "增強 List Blocks 操作",
+                    "target": "增强 List Blocks 操作"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
