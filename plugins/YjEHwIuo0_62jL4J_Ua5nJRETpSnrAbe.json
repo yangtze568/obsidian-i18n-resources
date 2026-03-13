@@ -1,0 +1,1447 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "initiative-tracker",
+        "version": "1.0.0",
+        "title": "Initiative Tracker",
+        "description": "Initiative Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "13.0.18",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<h4 class=\"svelte-s37km9\">No Players</h4>",
+                    "target": "<h4 class=\"svelte-s37km9\">没有玩家</h4>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<p>Add a creature to get started!</p> <small>Players may be created in settings.</small>",
+                    "target": "<p>添加一个生物以开始！</p> <small>可在设置中创建玩家。</small>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<small>An encounter by that name already exists. Are you sure?</small>",
+                    "target": "<small>名为该名称的遭遇已存在。确定吗？</small>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<small>Organize your headers here. Headers can be drag-and-dropped!</small>",
+                    "target": "<small>在此整理标题。标题可拖放！</small>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class=\"handle svelte-r6lzam\"></div>",
+                    "target": "<div class=\"handle svelte-r6lzam\"></div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": " (",
+                    "target": " ("
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No creatures",
+                    "target": "没有生物"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Save encounter as:",
+                    "target": "将遭遇保存为："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Load An Encounter",
+                    "target": "加载遭遇"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Set AC",
+                    "target": "设置 AC"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Apply status effect to creatures that fail their\n                            saving throw",
+                    "target": "对未通过豁免的生物施加状态效果\n                            "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Static Initiative",
+                    "target": "固定先攻值"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Display Name",
+                    "target": "显示名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hit Dice",
+                    "target": "生命骰"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add a creature.",
+                    "target": "添加生物。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Roll for HP",
+                    "target": "掷生命值"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "per page",
+                    "target": "每页"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "abc def ghi jkl mno pqr stu",
+                    "target": "abc def ghi jkl mno pqr stu"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No fields",
+                    "target": "无字段"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add some creatures to get started!",
+                    "target": "添加一些生物以开始！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add to current HP",
+                    "target": "添加到当前HP"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Player first",
+                    "target": "玩家优先"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "NPC first",
+                    "target": "NPC优先"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "initiative-tracker-player headers",
+                    "target": "initiative-tracker-player headers"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": " has already been added to the options for this filter.",
+                    "target": " 已经添加到此筛选器的选项中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "waiting-for-bestiary inline",
+                    "target": "waiting-for-bestiary inline"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MultiSelect received no options",
+                    "target": "MultiSelect 未收到任何选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "## Players",
+                    "target": "## 玩家"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "| Player | Initiative | HP | Statuses |",
+                    "target": "| 玩家 | 先攻 | HP | 状态 |"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "| --- | :-: | :-: | :-: |",
+                    "target": "| --- | :-: | :-: | :-: |"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "## Creatures",
+                    "target": "## 生物"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "| Creature | Initiative  | HP | Statuses |",
+                    "target": "| 生物 | 先攻  | HP | 状态 |"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\n\n## Combat Log",
+                    "target": "\n\n## 战斗日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\n### Round 1",
+                    "target": "\n### 第1回合"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Initiative Tracker unloaded",
+                    "target": "先攻追踪器已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display instructions in the initiative tracker, helping you get used to the workflow.",
+                    "target": "在先攻追踪器中显示说明，帮助你熟悉流程。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display encounter difficulty based on creature CR and player level. Creatures without CR or level will not be considered in the calculation.",
+                    "target": "根据生物 CR 和玩家等级显示遭遇难度。没有 CR 或等级的生物不参与计算。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Equivalent creatures (same Name and AC) will roll the same initiative by default.",
+                    "target": "等同的生物（相同名称和 AC）默认将掷出相同的先攻。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When a creature takes damage that would reduce its HP below 0, its HP is set to 0 instead.",
+                    "target": "当生物受到的伤害会使其 HP 低于 0 时，其 HP 将改为设为 0。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set what happens to healing which goes above creatures' max HP threshold.",
+                    "target": "设置治疗超过生物最大 HP 上限时的处理方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When a creature takes damage that would reduce its HP below 0, it gains the \"Unconscious\" status effect.",
+                    "target": "当生物受到伤害将其生命值降至 0 以下时，它会获得“昏迷”状态效果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If turned off, player health will display as 'Healthy', 'Hurt', etc.",
+                    "target": "关闭后，玩家生命值将显示为“健康”“受伤”等。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Actions taken during battle will be logged to the specified log folder.",
+                    "target": "战斗中的行动将记录到指定的日志文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define what happens if two creatures have the same initiative.",
+                    "target": "定义两个生物先攻相同时的处理方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Players added here will be available to add to a party. If you do not have a party created, all players will be added to a new encounter.",
+                    "target": "此处添加的玩家可加入队伍。如果尚未创建队伍，所有玩家将被添加到新遭遇中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A sidebar shortcut will be added to open the Encounter Builder.",
+                    "target": "侧边栏将添加一个快捷方式以打开遭遇构建器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The tracker will load this party to encounters by default.",
+                    "target": "追踪器将默认把该队伍加载到遭遇中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a different status to be used as the default Unconscious status.",
+                    "target": "选择一个不同的状态作为默认的“昏迷”状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "These statuses will be available to apply to creatures.",
+                    "target": "这些状态将可用于应用到生物。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Link player to a note in your vault.",
+                    "target": "将玩家链接到你库中的笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Player name. Must be unique!",
+                    "target": "玩家名称。必须唯一！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Player level.",
+                    "target": "玩家等级。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will be added to randomly-rolled initiatives.",
+                    "target": "这将被添加到随机掷出的先攻值中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This status has an amount that can be increased or decreased during combat.",
+                    "target": "该状态有一个数值，可在战斗中增加或减少。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The status will default to this amount when added.",
+                    "target": "添加该状态时将默认设置为此数值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This determines how the field is sorted. Use the appropriate type for the data type of the field.",
+                    "target": "这决定字段的排序方式。请使用与字段数据类型相匹配的类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reset table headers to defaults.",
+                    "target": "重置表头为默认值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Basic Settings",
+                    "target": "基本设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Beginner Tips",
+                    "target": "显示新手提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Encounter Difficulty",
+                    "target": "显示遭遇难度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Roll Equivalent Creatures Together",
+                    "target": "将等同生物一起掷骰"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clamp Minimum HP",
+                    "target": "限制最低生命值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Overflow Healing",
+                    "target": "溢出治疗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic Unconscious Status Application",
+                    "target": "自动应用昏迷状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Player HP in Player View",
+                    "target": "在玩家视图中显示玩家生命值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Roll HP for Creatures",
+                    "target": "为生物掷生命值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log Battles",
+                    "target": "记录战斗日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log Folder",
+                    "target": "日志文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Resolve Initiative Ties",
+                    "target": "处理先攻平局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Player",
+                    "target": "添加新玩家"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Sidebar Shortcut",
+                    "target": "添加侧边栏快捷方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Saved Encounters",
+                    "target": "已保存的遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Party",
+                    "target": "默认队伍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Party",
+                    "target": "添加新队伍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Unconscious Status",
+                    "target": "昏迷状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Status",
+                    "target": "添加新状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugin Integrations",
+                    "target": "插件集成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync Monsters from Fantasy Statblocks",
+                    "target": "从 Fantasy Statblocks 同步怪物"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initiative Formula",
+                    "target": "先攻公式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to Note",
+                    "target": "链接到笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max Hit Points",
+                    "target": "最大生命值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Armor Class",
+                    "target": "护甲等级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initiative Modifier",
+                    "target": "先攻修正值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Has Amount",
+                    "target": "拥有数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Starting Amount",
+                    "target": "起始数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Player to Party",
+                    "target": "将玩家加入队伍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Text",
+                    "target": "显示文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Linked Property",
+                    "target": "关联属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sort Type",
+                    "target": "排序类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Sorting Function",
+                    "target": "自定义排序函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Header",
+                    "target": "添加标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset Headers",
+                    "target": "重置标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Restore Default Layout",
+                    "target": "恢复默认布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Filter",
+                    "target": "添加新筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter Type",
+                    "target": "筛选器类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Derive Options",
+                    "target": "派生选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Encounter Name",
+                    "target": "就诊名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select a party",
+                    "target": "选择参与方"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No match found",
+                    "target": "未找到匹配项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit Headers",
+                    "target": "编辑标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit Filters",
+                    "target": "编辑筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit Filter",
+                    "target": "编辑筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Save Encounter",
+                    "target": "保存遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Are you sure?",
+                    "target": "确定吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No creatures found.",
+                    "target": "未找到生物。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New Encounter",
+                    "target": "新建遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add Creatures",
+                    "target": "添加生物"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reset HP / Status",
+                    "target": "重置生命值/状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Re-roll Initiatives",
+                    "target": "重新掷先攻"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Switch Party",
+                    "target": "切换队伍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Party Rolling Behavior",
+                    "target": "队伍投掷行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Always Roll",
+                    "target": "始终投掷"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Never Roll",
+                    "target": "从不投掷"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Set to Zero",
+                    "target": "设为零"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Load Encounter",
+                    "target": "加载遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Save Encounter",
+                    "target": "保存遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Set Health/Status",
+                    "target": "设置生命值/状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reset AC",
+                    "target": "重置 AC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit Headers",
+                    "target": "编辑表头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit Filters",
+                    "target": "编辑筛选条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Begin Encounter",
+                    "target": "开始遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add Player",
+                    "target": "添加玩家"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add Party",
+                    "target": "添加队伍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add Status",
+                    "target": "添加状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Re-add Default Statuses",
+                    "target": "重新添加默认状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Load Encounter",
+                    "target": "加载遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete Encounter",
+                    "target": "删除遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add Creature",
+                    "target": "添加生物"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Roll Initiative",
+                    "target": "掷先攻"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy Initiative Order",
+                    "target": "复制先攻顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Close Statblock",
+                    "target": "关闭属性块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear Encounter",
+                    "target": "清除遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Start Encounter",
+                    "target": "开始遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy Encounter Block",
+                    "target": "复制遭遇块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，请参阅 addKeyword 的文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "作为 map 的 keywords 选项已弃用，请传入数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dndzone will ignore unknown options",
+                    "target": "dndzone 将忽略未知选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Initiative Tracker: Non-parseable modifier provided to creature.",
+                    "target": "先攻跟踪器：为生物提供了无法解析的修正值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Initiative Tracker: Non-numeric modifier provided to creature.",
+                    "target": "先攻跟踪器：为生物提供了非数值修正值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Don't combine parseLabelsAsHtml and allowUserOptions. It's susceptible to XSS attacks!",
+                    "target": "不要同时使用 parseLabelsAsHtml 和 allowUserOptions。这样容易受到 XSS 攻击！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "MultiSelect's sortSelected and selectedOptionsDraggable should not be combined as any user re-orderings of selected options will be undone by sortSelected on component re-renders.",
+                    "target": "MultiSelect 的 sortSelected 和 selectedOptionsDraggable 不应组合使用，因为用户对已选选项的任何重新排序都会在组件重新渲染时被 sortSelected 撤销。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an error displaying the settings tab for Obsidian Initiative Tracker.",
+                    "target": "显示 Obsidian Initiative Tracker 的设置选项卡时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fix errors before saving.",
+                    "target": "保存前请修复错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "That player is already in this party!",
+                    "target": "该玩家已在队伍中！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enter a valid initiative.",
+                    "target": "请输入有效的先攻值。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enter a name!",
+                    "target": "请输入名称！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Initiative order copied to clipboard.",
+                    "target": "先攻顺序已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Initiative order could not be copied to clipboard.",
+                    "target": "无法将先攻顺序复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue parsing the file as JSON.",
+                    "target": "将文件解析为 JSON 时出现问题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue saving the encounter.",
+                    "target": "保存遭遇时出现问题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Encounter saved to clipboard",
+                    "target": "遭遇已保存到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not save encounter, please check console for errors",
+                    "target": "无法保存遭遇，请检查控制台错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please update Dice Roller to the latest version to use with Initiative Tracker.",
+                    "target": "请将掷骰器更新到最新版本以配合先攻追踪器使用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find the Initiative Tracker. Try reloading the note!",
+                    "target": "未找到先攻追踪器。请尝试重新加载笔记！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Max HP",
+                    "target": "最大生命值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Armor Class",
+                    "target": "护甲等级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Initiative Modifier",
+                    "target": "先攻修正"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Imported from Fantasy Statblocks",
+                    "target": "从 Fantasy Statblocks 导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Reset Each Round",
+                    "target": "每轮重置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Has Amount",
+                    "target": "有数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\"···\"",
+                    "target": "\"···\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'ƒ'",
+                    "target": "'ƒ'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'○'",
+                    "target": "'○'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'◌'",
+                    "target": "'◌'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝑥'",
+                    "target": "'𝑥'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝐶'",
+                    "target": "'𝐶'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝑡'",
+                    "target": "'𝑡'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'∪'",
+                    "target": "'∪'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'□'",
+                    "target": "'□'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'🔑︎'",
+                    "target": "'🔑︎'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'▢'",
+                    "target": "'▢'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A blinded creature can\\u2019t see and automatically fails any ability check that requires sight.\nAttack rolls against the creature have advantage, and the creature\\u2019s Attack rolls have disadvantage.",
+                    "target": "目盲的生物无法看见，并会自动失败任何需要视力的属性检定。\n对该生物的攻击检定具有优势，而该生物的攻击检定具有劣势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A charmed creature can\\u2019t Attack the charmer or target the charmer with harmful Abilities or magical Effects.\nThe charmer has advantage on any ability check to interact socially with the creature.",
+                    "target": "被魅惑的生物无法攻击魅惑者，也不能以有害的能力或魔法效果针对魅惑者。\n魅惑者在与该生物进行社交互动的任何属性检定上具有优势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\nA creature loses concentration when: it casts another spell that requires concentration, is incapacitated, or dies.\nWhen a creature takes damage, it must make a constitution saving throw with a DC of 10 or half the damage it took, whichever is higher. On a failure, concentration is lost.",
+                    "target": "某些法术需要你维持专注以保持其魔法生效。若你失去专注，此类法术结束。\n生物在以下情况会失去专注：施放另一个需要专注的法术、陷入无力行动，或死亡。\n当生物受到伤害时，它必须进行一次体质豁免检定，DC为10或其受到伤害的一半，取较高者。若失败，则失去专注。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A deafened creature can’t hear and automatically fails any ability check that requires hearing.",
+                    "target": "耳聋的生物无法听见，并会自动失败任何需要听力的属性检定。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.\nThe creature can\\u2019t willingly move closer to the source of its fear.",
+                    "target": "处于恐惧状态的生物在其恐惧来源位于视线内时，属性检定和攻击检定具有劣势。\n该生物不能自愿靠近其恐惧来源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "An incapacitated creature can’t take Actions or Reactions.",
+                    "target": "无力行动的生物无法进行动作或反应。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature\\u2019s Location can be detected by any noise it makes or any tracks it leaves.\nAttack rolls against the creature have disadvantage, and the creature\\u2019s Attack rolls have advantage.",
+                    "target": "隐形的生物在没有魔法或特殊感知的帮助下无法被看见。就躲藏目的而言，该生物处于重度遮蔽。该生物的位置可通过其发出的任何噪声或留下的任何踪迹被察觉。\n对该生物的攻击检定具有劣势，而该生物的攻击检定具有优势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A paralyzed creature is incapacitated and can\\u2019t move or speak.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+                    "target": "麻痹的生物处于无力行动状态，且无法移动或说话。\n该生物自动失败力量和敏捷豁免检定。\n对该生物的攻击检定具有优势。\n若攻击者在该生物5英尺内，任何命中该生物的攻击都为重击。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A poisoned creature has disadvantage on Attack rolls and Ability Checks.",
+                    "target": "中毒的生物在攻击检定和属性检定上具有劣势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A creature, unless otherwise specified, gets one reaction per round of combat.\nA reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else\\u2019s.\nA reaction can be spent to make an opportunity attack, do a readied action, or use an ability that requires a reaction.\nA creature that has already reacted cannot use a reaction until the start of its turn.",
+                    "target": "除非另有说明，生物在每个战斗回合获得一次反应。\n反应是对某种触发条件的即时回应，可以发生在你的回合或他人\\u2019s的回合。\n反应可用于进行借机攻击、执行准备动作，或使用需要反应的能力。\n已经进行过反应的生物在其回合开始前不能再次使用反应。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A restrained creature\\u2019s speed becomes 0, and it can\\u2019t benefit from any bonus to its speed.\nAttack rolls against the creature have advantage, and the creature\\u2019s Attack rolls have disadvantage.\nThe creature has disadvantage on Dexterity Saving Throws.",
+                    "target": "被束缚生物\\u2019s的速度变为0，且无法从任何速度加值中获益。\n对该生物的攻击掷骰具有优势，而该生物\\u2019s的攻击掷骰具有劣势。\n该生物在敏捷豁免检定上具有劣势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A stunned creature is incapacitated, can\\u2019t move, and can speak only falteringly.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.",
+                    "target": "被震慑的生物处于失能状态，无法移动，只能断断续续地说话。\n该生物自动失败力量和敏捷豁免检定。\n对该生物的攻击掷骰具有优势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "An unconscious creature is incapacitated, can\\u2019t move or speak, and is unaware of its surroundings.\nThe creature drops whatever it\\u2019s holding and falls prone.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+                    "target": "昏迷的生物处于失能状态，无法移动或说话，并对周围环境毫无知觉。\n该生物会丢下手中所持物品并倒地。\n该生物自动失败力量和敏捷豁免检定。\n对该生物的攻击掷骰具有优势。\n若攻击者在该生物5英尺内，任何命中该生物的攻击均为重击。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Total XP",
+                    "target": "总经验值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Daily Encounter Points",
+                    "target": "每日遭遇点数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Creature CR Cap",
+                    "target": "生物CR上限"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to constant",
+                    "target": "必须等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to one of the allowed values",
+                    "target": "必须等于允许的值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "property name must be valid",
+                    "target": "属性名必须有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have additional properties",
+                    "target": "不得包含额外属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT be valid",
+                    "target": "不得有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Initiative Tracker",
+                    "target": "打开先攻追踪器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Encounter Builder",
+                    "target": "打开遭遇构建器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Encounter",
+                    "target": "切换遭遇"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next Combatant",
+                    "target": "下一个参战者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Previous Combatant",
+                    "target": "上一个参战者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No encounters created. Please check your syntax and try again.",
+                    "target": "未创建任何遭遇。请检查语法并重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Initiative Tracker Settings",
+                    "target": "先攻追踪器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Creatures added to encounters will automatically roll for HP if the ",
+                    "target": "加入遭遇的生物将在以下条件下自动掷生命值（HP），如果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " property is set for the creature.",
+                    "target": " 已为该生物设置该属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A new note will be created in this folder for each battle.",
+                    "target": "每场战斗都会在此文件夹中创建一条新笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Current: ",
+                    "target": "当前："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This folder does not exist and will be created when a log file is written for the first time.",
+                    "target": "此文件夹不存在，将在首次写入日志文件时创建。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No saved players! Create one to see it here.",
+                    "target": "没有已保存的玩家！创建一个即可在此查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The encounter builder allows you to quickly create encounters that can be saved for later use or immediately launched into a battle.",
+                    "target": "遭遇构建器允许你快速创建遭遇，可保存以备后用或立即投入战斗。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It can be opened using the sidebar shortcut (if enabled) or by using the Open Encounter Builder command.",
+                    "target": "可通过侧边栏快捷方式（若启用）或使用“打开遭遇构建器”命令来打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No saved encounters! Create one to see it here.",
+                    "target": "没有已保存的遭遇！创建一个即可在此查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can set a default party for encounters to use, or specify the party for the encounter in the encounter block. While running an encounter in the tracker, you can change the active party, allowing you to quickly switch which players are in combat.",
+                    "target": "你可以为遭遇设置一个默认队伍，或在遭遇区块中指定该遭遇使用的队伍。在追踪器中运行遭遇时，你可以更改当前队伍，从而快速切换参与战斗的玩家。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No saved parties! Create one to see it here.",
+                    "target": "没有已保存的队伍！创建一个即可在此查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Homebrew creatures saved to the Fantasy Statblocks plugin will be available to use.",
+                    "target": "保存到 Fantasy Statblocks 插件的自制生物将可供使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Install and enable the ",
+                    "target": "安装并启用 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fantasy Statblocks",
+                    "target": "Fantasy Statblocks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " plugin to use homebrew creatures.",
+                    "target": " 插件以使用自制生物。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Initiative formula to use when calculating initiative. Use ",
+                    "target": "计算先攻时使用的公式。使用 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " for the modifier placeholder.",
+                    "target": " 作为修正值占位符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Requires the ",
+                    "target": "需要 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dice Roller",
+                    "target": "Dice Roller"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " plugin to modify.",
+                    "target": " 插件才能修改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A status by this name already exists and will be overwritten.",
+                    "target": "已存在同名状态，将被覆盖。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A party by this name already exists and will be overwritten.",
+                    "target": "已存在同名队伍，将被覆盖。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add a player to the party to see it here.",
+                    "target": "将玩家添加到队伍后即可在此查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a creature to view it here.",
+                    "target": "选择一个生物以在此查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Install the TTRPG Statblocks plugin or add a statblock-link to your monster to use this feature!",
+                    "target": "安装 TTRPG Statblocks 插件或为你的怪物添加 statblock-link 以使用此功能！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New Filter",
+                    "target": "新筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Specify a custom sorting JavaScript function.",
+                    "target": "指定一个自定义排序 JavaScript 函数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This function receives two monster objects, ",
+                    "target": "此函数接收两个怪物对象，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " and ",
+                    "target": " 和 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": ", and must return a number. The number determines sort order.",
+                    "target": "，且必须返回一个数字。该数字决定排序顺序。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The field ",
+                    "target": "字段 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will overwrite an existing encounter. Are you sure?",
+                    "target": "这将覆盖现有的遭遇。确定吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Waiting for Fantasy Statblocks Bestiary...",
+                    "target": "正在等待 Fantasy Statblocks Bestiary..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Loading Bestiary...",
+                    "target": "正在加载怪物图鉴..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Total XP",
+                    "target": "总 XP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Adjusted XP",
+                    "target": "调整后 XP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Total CR",
+                    "target": "总 CR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Total Creature Power",
+                    "target": "总生物威力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Total Creature CR",
+                    "target": "总生物 CR"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
