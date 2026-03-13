@@ -1,0 +1,763 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "verse-of-the-day",
+        "version": "1.0.0",
+        "title": "Verse of the Day",
+        "description": "Verse of the Day Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Central Kurdish (Sorani)",
+                    "target": "中库尔德语（索拉尼）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Persian (Farsi)",
+                    "target": "波斯语（法尔西）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Haitian Creole",
+                    "target": "海地克里奥尔语"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "King James Version (KJV)",
+                    "target": "詹姆斯王钦定版（KJV）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New International Version (NIV)",
+                    "target": "新国际版（NIV）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English Standard Version (ESV)",
+                    "target": "英语标准版（ESV）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "World English Bible (WEB)",
+                    "target": "世界英语圣经（WEB）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New American Standard Bible (NASB)",
+                    "target": "新美国标准版圣经（NASB）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New King James Version (NKJV)",
+                    "target": "新詹姆斯王版（NKJV）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New Living Translation (NLT)",
+                    "target": "新生活译本（NLT）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Afrikaans 1983",
+                    "target": "南非荷兰语 1983"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nuewe Lewende Vertaling",
+                    "target": "新活译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Die Bybel 2020-vertaling",
+                    "target": "圣经 2020译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Die Boodskap",
+                    "target": "信息版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "አዲሱ መደበኛ ትርጒም",
+                    "target": "新标准译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "አማርኛ 2005",
+                    "target": "阿姆哈拉语 2005"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "አማርኛ 1962",
+                    "target": "阿姆哈拉语 1962"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "المُبَسَّطَةُ",
+                    "target": "简明本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "كتاب الحياة",
+                    "target": "生命之书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "الكتاب المقدس",
+                    "target": "圣经"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Біблія (пераклад В. Сёмухі)",
+                    "target": "Біблія (пераклад В. Сёмухі)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ревизиран",
+                    "target": "Ревизиран"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bíblia Catalana, Traducción Interconfesional (BCI)",
+                    "target": "Bíblia Catalana, Traducción Interconfesional (BCI)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "كوردی سۆرانی ستانده‌رد",
+                    "target": "كوردی سۆرانی ستانده‌رد"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bible 21 (B21)",
+                    "target": "圣经21 (B21)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Beibl Cymraeg Newydd Diwygiedig 2004 (BCND)",
+                    "target": "Beibl Cymraeg Newydd Diwygiedig 2004 (BCND)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bibelen på Hverdagsdansk (BPH)",
+                    "target": "Bibelen på Hverdagsdansk (BPH)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Hoffnung für alle (HFA)",
+                    "target": "Hoffnung für alle (HFA)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Schlachter (SCH2000)",
+                    "target": "Schlachter (SCH2000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Lutherbibel 192 (DELUT)",
+                    "target": "Lutherbibel 192 (DELUT)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Elberfelder Bibel (ELB)",
+                    "target": "Elberfelder Bibel (ELB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Η Αγία Γραφή (Παλαιά και Καινή Διαθήκη)(TGV)",
+                    "target": "Η Αγία Γραφή (Παλαιά και Καινή Διαθήκη)(TGV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Reina Valera (RVR1960)",
+                    "target": "Reina Valera (RVR1960)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nueva Traducción Viviente (NTV)",
+                    "target": "Nueva Traducción Viviente (NTV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": " Nueva Versión Internacional (NVI)",
+                    "target": " Nueva Versión Internacional (NVI)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Traducción en Lenguaje Actual (TLA)",
+                    "target": "Traducción en Lenguaje Actual (TLA)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "هزارۀ نو",
+                    "target": "هزارۀ نو"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Kirkkoraamattu 1992 (FB92)",
+                    "target": "Kirkkoraamattu 1992 (FB92)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Parole de Vie 2017 (PDV2017)",
+                    "target": "Parole de Vie 2017 (PDV2017)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "La Sainte Bible par Louis Segond 1910 (LSG)",
+                    "target": "La Sainte Bible par Louis Segond 1910 (LSG)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Habrit Hakhadasha/Haderekh (HD)",
+                    "target": "Habrit Hakhadasha/Haderekh (HD)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "सरल हिन्दी बाइबल (HSS)",
+                    "target": "सरल हिन्दी बाइबल (HSS)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1998 Haïtienne (HAT98)",
+                    "target": "1998 Haïtienne (HAT98)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Revised Hungarian Bible (RÚF)",
+                    "target": "匈牙利修订版圣经 (RÚF)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Karoli Bible 1908 (HUNK)",
+                    "target": "1908年卡罗利圣经 (HUNK)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Magyar Bibliatársulat új fordítású Bibliája (HUNB)",
+                    "target": "Magyar Bibliatársulat új fordítású Bibliája (HUNB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Նոր վերանայված Արարատ Աստվածաշունչ (ՆՎԱԱ)",
+                    "target": "Նոր վերանայված Արարատ Աստվածաշունչ (ՆՎԱԱ)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Alkitab dalam Bahasa Indonesia Masa Kini (BIMK)",
+                    "target": "Alkitab dalam Bahasa Indonesia Masa Kini (BIMK)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Firman Allah Yang Hidup (FAYH)",
+                    "target": "Firman Allah Yang Hidup (FAYH)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Baịbụlụ Nsọ nʼIgbo Ndị Ugbu a (TB)",
+                    "target": "Baịbụlụ Nsọ nʼIgbo Ndị Ugbu a (TB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nuova Riveduta 2006 (NR06)",
+                    "target": "新修订版2006 (NR06)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "リビングバイブル (JCB)",
+                    "target": "生活圣经 (JCB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ព្រះគម្ពីរភាសាខ្មែរបច្ចុប្បន្ន ២០០៥ (គខប)",
+                    "target": "高棉语当代译本2005 (គខប)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "현대인의 성경 (KLB)",
+                    "target": "现代人的圣经 (KLB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "A. Rubšio ir Č. Kavaliausko vertimas su Antrojo Kanono knygomis (LBD-EKU)",
+                    "target": "A. Rubšio和Č. Kavaliausko译本（含次经书卷）(LBD-EKU)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1965. gada Bībeles izdevuma revidētais teksts (RT65)",
+                    "target": "1965年圣经版修订文本 (RT65)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Свето Писмо: Стандардна Библија 2006 (66 книги) (MK2006)",
+                    "target": "圣经：标准版2006（66卷）(MK2006)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "സമകാലിക മലയാളവിവർത്തനം (MCV)",
+                    "target": "马拉雅拉姆语当代译本 (MCV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ариун Библи 2013 (АБ2013)",
+                    "target": "圣经2013版 (АБ2013)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "पवित्रशास्त्र, मराठी समकालीन आवृत्ती (MRCV",
+                    "target": "圣经，马拉地语当代版 (MRCV"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Alkitab Berita Baik (ABB)",
+                    "target": "好消息圣经 (ABB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Judson Bible (JBMLE)",
+                    "target": "约德森圣经 (JBMLE)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "नेपाली नयाँ संशोधित संस्करण (NNRV)",
+                    "target": "尼泊尔语新修订版 (NNRV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "सरल नेपाली पवित्र बाइबल (सरल नेपाली)",
+                    "target": "简易尼泊尔语圣经 (सरल नेपाली)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "पवित्र बाइबल (NERV)",
+                    "target": "圣经 (NERV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "पवित्र बाइबल, नेपाली समकालीन संस्करण (NCV)",
+                    "target": "圣经，尼泊尔语当代版 (NCV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Herziene Statenvertaling (HSV)",
+                    "target": "修订《国定译本》 (HSV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "NBG-vertaling 1951 (NBG51)",
+                    "target": "NBG译本 1951 (NBG51)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Het Boek (HET)",
+                    "target": "《书》 (HET)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Statenvertaling (Importantia edition) (STV)",
+                    "target": "《国定译本》（Importantia 版） (STV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Norsk Bibel 88/07 (NB)",
+                    "target": "挪威圣经 88/07 (NB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Biblia, to jest Pismo Święte Starego i Nowego Przymierza Wydanie pierwsze 2018 (SNP)",
+                    "target": "《圣经》，即旧约与新约圣经 2018年第一版 (SNP)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "UWSPÓŁCZEŚNIONA BIBLIA GDAŃSKA (UBG)",
+                    "target": "现代化的格但斯克圣经 (UBG)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nowa Biblia Gdańska (NBG)",
+                    "target": "新格但斯克圣经 (NBG)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Biblia Warszawska 1975 (BW1975)",
+                    "target": "华沙圣经 1975 (BW1975)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Almeida Revista e Atualizada (ARA)",
+                    "target": "阿尔梅达修订及更新版 (ARA)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nova Versão Internacional - Português (NVI)",
+                    "target": "新国际版 - 葡萄牙语 (NVI)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bíblia Sagrada, Nova Versão Transformadora (NVT)",
+                    "target": "圣经，新变革版 (NVT)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Almeida Revista e Corrigida (ARC)",
+                    "target": "阿尔梅达修订及更正版 (ARC)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Biblia sau Sfânta Scriptură cu Trimiteri 1924, Dumitru Cornilescu (VDC)",
+                    "target": "《圣经》或《圣经经文》含引注 1924，杜米特鲁·科尔尼列斯库 (VDC)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Noua Traducere Românească (NTR)",
+                    "target": "罗马尼亚新译本 (NTR)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Biblia în Versiune Actualizată 2018 (BVA)",
+                    "target": "2018 更新版圣经 (BVA)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Biblia Traducerea Fidela 2015 (BTF2015)",
+                    "target": "2015 忠实译本圣经 (BTF2015)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Новый русский перевод (НРП)",
+                    "target": "俄语新译本 (НРП)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nádej pre kazdého (NPK)",
+                    "target": "给每个人的盼望 (NPK)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bhaibheri Dzvene MuChiShona Chanhasi (BDSC)",
+                    "target": "现代齐绍纳语圣经 (BDSC)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Shona Bible 1949, revised 2002 (SNA2002)",
+                    "target": "1949 年绍纳语圣经，2002 年修订 (SNA2002)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bhaibhiri Idzva rechiShona (SCLB)",
+                    "target": "绍纳语新圣经 (SCLB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bibla Shqip \"Së bashku\" 2020 (me DK) (AL1)",
+                    "target": "2020 年阿尔巴尼亚语“同心”版圣经（含次经）(AL1)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Novi srpski prevod (NSPL)",
+                    "target": "塞尔维亚语新译本 (NSPL)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Svenska Folkbibeln 2015 (SFB15)",
+                    "target": "Svenska Folkbibeln 2015 (SFB15)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bible 2000 (B2000)",
+                    "target": "Bible 2000 (B2000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "nuBibeln (NUB)",
+                    "target": "nuBibeln (NUB)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Maandiko Matakatifu ya Mungu Yaitwayo Biblia (SUV)",
+                    "target": "Maandiko Matakatifu ya Mungu Yaitwayo Biblia (SUV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Neno: Bibilia Takatifu 2025 (NENO)",
+                    "target": "Neno: Bibilia Takatifu 2025 (NENO)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Swahili Revised Union Version (SRUV)",
+                    "target": "Swahili Revised Union Version (SRUV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "இந்திய சமகால தமிழ் மொழிப்பெயர்ப்பு 2022 (TCV)",
+                    "target": "இந்திய சமகால தமிழ் மொழிப்பெயர்ப்பு 2022 (TCV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "పరిశుద్ధ గ్రంథము O.V. Bible (TELUBSI)",
+                    "target": "పరిశుద్ధ గ్రంథము O.V. Bible (TELUBSI)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ฉบับมาตรฐาน (THSV11)",
+                    "target": "ฉบับมาตรฐาน (THSV11)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "พระคัมภีร์ไทย ฉบับ 1971 (THB1971)",
+                    "target": "พระคัมภีร์ไทย ฉบับ 1971 (THB1971)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "พระคริสตธรรมคัมภีร์ไทย ฉบับอมตธรรมร่วมสมัย (TNCV)",
+                    "target": "泰语当代新译圣经 (TNCV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "พระคริสตธรรมคัมภีร์: ฉบับอ่านเข้าใจง่าย (THA-ERV)",
+                    "target": "泰语圣经：易读本 (THA-ERV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Magandang Balita Bible (Revised) (RTPV05)",
+                    "target": "好消息圣经（修订版） (RTPV05)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ang Salita ng Diyos (ASD)",
+                    "target": "上帝的话语 (ASD)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ang Biblia (1905/1982) (ABTAG)",
+                    "target": "圣经 (1905/1982) (ABTAG)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ang Biblia, 2001 (ABTAG01)",
+                    "target": "圣经，2001 (ABTAG01)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Новий Переклад Українською (НПУ)",
+                    "target": "乌克兰语新译本 (НПУ)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Kinh Thánh Hiện Đại (KTHD)",
+                    "target": "现代圣经 (KTHD)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bíbélì Mímọ́ ní Èdè Yorùbá Òde-Òní (BOMY)",
+                    "target": "当代约鲁巴语圣经 (BOMY)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bibeli Mimọ (YBCV)",
+                    "target": "圣经 (YBCV)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Yoruba Bible (YCE)",
+                    "target": "Yoruba Bible (YCE)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "IBHAYIBHELI ELINGCWELE (ZUL59)",
+                    "target": "IBHAYIBHELI ELINGCWELE (ZUL59)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "IsiZulu 2020 (ZUL20)",
+                    "target": "IsiZulu 2020 (ZUL20)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch verse data",
+                    "target": "获取经文数据失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred during the version request:",
+                    "target": "版本请求期间发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error:",
+                    "target": "错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "loading Verse of the Day plugin",
+                    "target": "正在加载每日经文插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Getting verse of the day",
+                    "target": "正在获取每日经文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "One or more required pieces of data failed to match.",
+                    "target": "一个或多个必需数据未能匹配。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Language of the verse",
+                    "target": "经文语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the Bible translation to use",
+                    "target": "选择要使用的圣经译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adds a outgoing link to the header that leads to another file inside your vault, for example [[John]]",
+                    "target": "在页眉中添加一个指向库中另一个文件的外部链接，例如 [[John]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Outgoing link",
+                    "target": "外部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Daily Verse",
+                    "target": "插入每日经文"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
