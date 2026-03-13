@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "code-emitter",
+        "version": "1.0.0",
+        "title": "Code Emitter",
+        "description": "Code Emitter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "typescript loaded.",
+                    "target": "已加载 typescript。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "python loaded.",
+                    "target": "已加载 python。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "wenyan:",
+                    "target": "wenyan："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "wenyan loaded.",
+                    "target": "已加载 wenyan。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
