@@ -1,0 +1,1423 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "noor",
+        "version": "1.0.0",
+        "title": "Noor",
+        "description": "Noor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "where to create the Dhikr note",
+                    "target": "在哪里创建Dhikr笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which reciter voice to use",
+                    "target": "使用哪位诵读者的声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show quran translation in another language",
+                    "target": "以另一种语言显示古兰经翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which translation language to use",
+                    "target": "使用哪种翻译语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which translation to use",
+                    "target": "使用哪种译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which hadith language to use",
+                    "target": "使用哪种圣训语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dhikr file path",
+                    "target": "Dhikr文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show translation",
+                    "target": "显示翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translation language",
+                    "target": "翻译语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translation options",
+                    "target": "翻译选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hadith language",
+                    "target": "圣训语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "عبد الباسط عبد الصمد المرتل",
+                    "target": "عبد الباسط عبد الصمد المرتل"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "عبد الله بصفر",
+                    "target": "عبد الله بصفر"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "عبدالرحمن السديس",
+                    "target": "عبدالرحمن السديس"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "عبدالباسط عبدالصمد",
+                    "target": "عبدالباسط عبدالصمد"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "أبو بكر الشاطري",
+                    "target": "أبو بكر الشاطري"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "أحمد بن علي العجمي",
+                    "target": "أحمد بن علي العجمي"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "مشاري العفاسي",
+                    "target": "مشاري العفاسي"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "هاني الرفاعي",
+                    "target": "هاني الرفاعي"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمود خليل الحصري",
+                    "target": "محمود خليل الحصري"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمود خليل الحصري (المجود)",
+                    "target": "马哈穆德·哈利勒·胡斯里（慢诵）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "علي بن عبدالرحمن الحذيفي",
+                    "target": "阿里·本·阿卜杜勒拉赫曼·胡宰菲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إبراهيم الأخضر",
+                    "target": "易卜拉欣·阿赫达尔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ماهر المعيقلي",
+                    "target": "马希尔·穆艾格利"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمد صديق المنشاوي",
+                    "target": "穆罕默德·萨迪克·明沙维"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمد صديق المنشاوي (المجود)",
+                    "target": "穆罕默德·萨迪克·明沙维（慢诵）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمد أيوب",
+                    "target": "穆罕默德·阿尤卜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمد جبريل",
+                    "target": "穆罕默德·吉卜里勒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سعود الشريم",
+                    "target": "萨乌德·沙里姆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "شهریار پرهیزگار",
+                    "target": "沙赫里亚尔·帕尔希兹加尔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "أيمن سويد",
+                    "target": "أيمن سويد"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Məmmədəliyev & Bünyadov",
+                    "target": "Məmmədəliyev & Bünyadov"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "মুহিউদ্দীন খান",
+                    "target": "মুহিউদ্দীন খান"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abu Rida",
+                    "target": "Abu Rida"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bubenheim & Elyas",
+                    "target": "Bubenheim & Elyas"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ދިވެހި",
+                    "target": "ދިވެހި"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ahmed Ali",
+                    "target": "Ahmed Ali"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ahmed Raza Khan",
+                    "target": "Ahmed Raza Khan"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hilali & Khan",
+                    "target": "Hilali & Khan"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Qaribullah & Darwish",
+                    "target": "Qaribullah & Darwish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saheeh International",
+                    "target": "Saheeh International"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yusuf Ali",
+                    "target": "Yusuf Ali"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "آیتی",
+                    "target": "آیتی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "فولادوند",
+                    "target": "فولادوند"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الهی قمشهای",
+                    "target": "الهی قمشهای"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "مکارم شیرازی",
+                    "target": "مکارم شیرازی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "फ़ारूक़ ख़ान & नदवी",
+                    "target": "फ़ारूक़ ख़ान & नदवी"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bahasa Indonesia",
+                    "target": "Bahasa Indonesia"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "تهفسیری ئاسان",
+                    "target": "تهفسیری ئاسان"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "അബ്ദുല് ഹമീദ് & പറപ്പൂര്",
+                    "target": "അബ്ദുല് ഹമീദ് & പറപ്പൂര്"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Einar Berg",
+                    "target": "Einar Berg"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Кулиев",
+                    "target": "Кулиев"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Османов",
+                    "target": "Османов"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Порохова",
+                    "target": "Порохова"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "امروٽي",
+                    "target": "امروٽي"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sherif Ahmeti",
+                    "target": "Sherif Ahmeti"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Feti Mehdiu",
+                    "target": "Feti Mehdiu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Efendi Nahi",
+                    "target": "Efendi Nahi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bernström",
+                    "target": "Bernström"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ஜான் டிரஸ்ட்",
+                    "target": "ஜான் டிரஸ்ட்"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Оятӣ",
+                    "target": "Оятӣ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ภาษาไทย",
+                    "target": "ภาษาไทย"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Süleyman Ateş",
+                    "target": "Süleyman Ateş"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alİ Bulaç",
+                    "target": "Alİ Bulaç"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diyanet İşleri",
+                    "target": "Diyanet İşleri"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abdulbakî Gölpınarlı",
+                    "target": "Abdulbakî Gölpınarlı"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Öztürk",
+                    "target": "Öztürk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diyanet Vakfı",
+                    "target": "Diyanet Vakfı"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Elmalılı Hamdi Yazır",
+                    "target": "Elmalılı Hamdi Yazır"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suat Yıldırım",
+                    "target": "Suat Yıldırım"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edip Yüksel",
+                    "target": "Edip Yüksel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yakub Ibn Nugman",
+                    "target": "Yakub Ibn Nugman"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمد صالح",
+                    "target": "محمد صالح"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "احمد علی",
+                    "target": "احمد علی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "جالندہری",
+                    "target": "جالندہری"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "علامہ جوادی",
+                    "target": "علامہ جوادی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "احمد رضا خان",
+                    "target": "احمد رضا خان"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "طاہر القادری",
+                    "target": "طاہر القادری"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Мухаммад Содик",
+                    "target": "Мухаммад Содик"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "انصاریان",
+                    "target": "انصاریان"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Теофанов",
+                    "target": "Теофанов"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "بهرام پور",
+                    "target": "بهرام پور"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "خرمشاهی",
+                    "target": "خرمشاهی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "مجتبوی",
+                    "target": "مجتبوی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "फ़ारूक़ ख़ान & अहमद",
+                    "target": "फ़ारूक़ ख़ान & अहमد"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quraish Shihab",
+                    "target": "Quraish Shihab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Абу Адель",
+                    "target": "Абу Адель"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Крачковский",
+                    "target": "Крачковский"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Аль-Мунтахаб",
+                    "target": "Аль-Мунтахаб"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Саблуков",
+                    "target": "Саблуков"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمد جوناگڑھی",
+                    "target": "محمد جوناگڑھی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ابوالاعلی مودودی",
+                    "target": "ابوالاعلی مودودی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ma Jian",
+                    "target": "Ma Jian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ma Jian (Traditional)",
+                    "target": "Ma Jian (Traditional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "خرمدل",
+                    "target": "خرمدل"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "معزی",
+                    "target": "معزی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ma Zhong Gang",
+                    "target": "Ma Zhong Gang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear Qur'an - Talal Itani",
+                    "target": "Clear Qur'an - Talal Itani"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ghazi Muhammed Hashim",
+                    "target": "Ghazi Muhammed Hashim"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ሳዲቅ & ሳኒ ሐቢብ",
+                    "target": "ሳዲቅ & ሳኒ ሐቢብ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "At Mensur",
+                    "target": "At Mensur"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "জহুরুল হক",
+                    "target": "জহুরুল হক"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wahiduddin Khan",
+                    "target": "Wahiduddin Khan"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "محمد حسین نجفی",
+                    "target": "محمد حسین نجفی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "قرائتی",
+                    "target": "قرائتی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "صادقی تهرانی",
+                    "target": "صادقی تهرانی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "صفوی",
+                    "target": "صفوی"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tafsir Jalalayn",
+                    "target": "Tafsir Jalalayn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "കാരകുന്ന് & എളയാവൂര്",
+                    "target": "കാരകുന്ന് & എളയാവൂര്"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "عبدالولي",
+                    "target": "عبدالولي"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Кулиев + ас-Саади",
+                    "target": "库利耶夫 + 阿萨阿迪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ ٱلْفَاتِحَةِ",
+                    "target": "开端章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ البَقَرَةِ",
+                    "target": "黄牛章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ آلِ عِمۡرَانَ",
+                    "target": "仪姆兰的家属章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النِّسَاءِ",
+                    "target": "妇女章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المَائـِدَةِ",
+                    "target": "筵席章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الأَنۡعَامِ",
+                    "target": "牲畜章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الأَعۡرَافِ",
+                    "target": "高处章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الأَنفَالِ",
+                    "target": "战利品章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ التَّوۡبَةِ",
+                    "target": "忏悔章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ يُونُسَ",
+                    "target": "优努斯章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ هُودٍ",
+                    "target": "胡德章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ يُوسُفَ",
+                    "target": "优素福章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الرَّعۡدِ",
+                    "target": "雷霆章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ إِبۡرَاهِيمَ",
+                    "target": "易卜拉欣章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الحِجۡرِ",
+                    "target": "石谷章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النَّحۡلِ",
+                    "target": "蜜蜂章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الإِسۡرَاءِ",
+                    "target": "夜行章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الكَهۡفِ",
+                    "target": "山洞章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ مَرۡيَمَ",
+                    "target": "麦尔彦章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ طه",
+                    "target": "《塔哈》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الأَنبِيَاءِ",
+                    "target": "《众先知》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الحَجِّ",
+                    "target": "《朝觐》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُؤۡمِنُونَ",
+                    "target": "《信士》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النُّورِ",
+                    "target": "《光明》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الفُرۡقَانِ",
+                    "target": "《准则》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الشُّعَرَاءِ",
+                    "target": "《诗人》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النَّمۡلِ",
+                    "target": "《蚂蚁》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ القَصَصِ",
+                    "target": "《故事》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ العَنكَبُوتِ",
+                    "target": "《蜘蛛》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الرُّومِ",
+                    "target": "苏拉·罗马"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ لُقۡمَانَ",
+                    "target": "苏拉·鲁格曼"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ السَّجۡدَةِ",
+                    "target": "苏拉·叩头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الأَحۡزَابِ",
+                    "target": "苏拉·同盟军"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ سَبَإٍ",
+                    "target": "苏拉·赛巴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ فَاطِرٍ",
+                    "target": "苏拉·创造者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ يسٓ",
+                    "target": "苏拉·雅辛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الصَّافَّاتِ",
+                    "target": "苏拉·列队者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ صٓ",
+                    "target": "苏拉·萨德"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الزُّمَرِ",
+                    "target": "苏拉·队伍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ غَافِرٍ",
+                    "target": "赦宥章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ فُصِّلَتۡ",
+                    "target": "奉详解章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الشُّورَىٰ",
+                    "target": "协商章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الزُّخۡرُفِ",
+                    "target": "金饰章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الدُّخَانِ",
+                    "target": "烟雾章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الجَاثِيَةِ",
+                    "target": "屈膝章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الأَحۡقَافِ",
+                    "target": "沙丘章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ مُحَمَّدٍ",
+                    "target": "穆罕默德章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الفَتۡحِ",
+                    "target": "胜利章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الحُجُرَاتِ",
+                    "target": "寝室章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ قٓ",
+                    "target": "《戛弗》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الذَّارِيَاتِ",
+                    "target": "《播种者》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الطُّورِ",
+                    "target": "《山岳》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النَّجۡمِ",
+                    "target": "《星宿》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ القَمَرِ",
+                    "target": "《月亮》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الرَّحۡمَٰن",
+                    "target": "《至仁主》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الوَاقِعَةِ",
+                    "target": "《大事》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الحَدِيدِ",
+                    "target": "《铁》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُجَادلَةِ",
+                    "target": "《辩论》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الحَشۡرِ",
+                    "target": "《放逐》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُمۡتَحنَةِ",
+                    "target": "考验章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الصَّفِّ",
+                    "target": "列阵章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الجُمُعَةِ",
+                    "target": "聚礼章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُنَافِقُونَ",
+                    "target": "伪信士章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ التَّغَابُنِ",
+                    "target": "相欺章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الطَّلَاقِ",
+                    "target": "离婚章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ التَّحۡرِيمِ",
+                    "target": "禁戒章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُلۡكِ",
+                    "target": "国权章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ القَلَمِ",
+                    "target": "笔章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الحَاقَّةِ",
+                    "target": "真实章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المَعَارِجِ",
+                    "target": "高升章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ نُوحٍ",
+                    "target": "努哈章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الجِنِّ",
+                    "target": "精灵章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُزَّمِّلِ",
+                    "target": "披衣者章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُدَّثِّرِ",
+                    "target": "裹衣者章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ القِيَامَةِ",
+                    "target": "复活章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الإِنسَانِ",
+                    "target": "人章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُرۡسَلَاتِ",
+                    "target": "奉派章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النَّبَإِ",
+                    "target": "消息章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النَّازِعَاتِ",
+                    "target": "急掣章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ عَبَسَ",
+                    "target": "皱眉章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ التَّكۡوِيرِ",
+                    "target": "缠裹章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الانفِطَارِ",
+                    "target": "破裂章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المُطَفِّفِينَ",
+                    "target": "克扣者章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الانشِقَاقِ",
+                    "target": "裂开章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ البُرُوجِ",
+                    "target": "星宿章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الطَّارِقِ",
+                    "target": "夜行星章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الأَعۡلَىٰ",
+                    "target": "至高章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الغَاشِيَةِ",
+                    "target": "笼罩者章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الفَجۡرِ",
+                    "target": "黎明章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ البَلَدِ",
+                    "target": "苏拉·城市"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الشَّمۡسِ",
+                    "target": "苏拉·太阳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ اللَّيۡلِ",
+                    "target": "苏拉·黑夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الضُّحَىٰ",
+                    "target": "苏拉·晨光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الشَّرۡحِ",
+                    "target": "苏拉·开拓"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ التِّينِ",
+                    "target": "苏拉·无花果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ العَلَقِ",
+                    "target": "苏拉·血块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ القَدۡرِ",
+                    "target": "苏拉·前定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ البَيِّنَةِ",
+                    "target": "苏拉·明证"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الزَّلۡزَلَةِ",
+                    "target": "苏拉·地震"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ العَادِيَاتِ",
+                    "target": "马队"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ القَارِعَةِ",
+                    "target": "大难"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ التَّكَاثُرِ",
+                    "target": "竞赛富庶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ العَصۡرِ",
+                    "target": "时光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الهُمَزَةِ",
+                    "target": "诽谤者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الفِيلِ",
+                    "target": "象"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ قُرَيۡشٍ",
+                    "target": "古莱氏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المَاعُونِ",
+                    "target": "什物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الكَوۡثَرِ",
+                    "target": "多福"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الكَافِرُونَ",
+                    "target": "不信道者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النَّصۡرِ",
+                    "target": "援助章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ المَسَدِ",
+                    "target": "火焰章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الإِخۡلَاصِ",
+                    "target": "忠诚章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ الفَلَقِ",
+                    "target": "破晓章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سُورَةُ النَّاسِ",
+                    "target": "世人章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random Quran quote",
+                    "target": "随机《古兰经》语录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quran quote by code",
+                    "target": "按编号的《古兰经》语录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random Hadith quote",
+                    "target": "随机圣训语录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hadith quote by code",
+                    "target": "按编号的圣训语录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Dhikr file",
+                    "target": "打开 Dhikr 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Dhikr file popup",
+                    "target": "打开 Dhikr 文件弹窗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General Settings",
+                    "target": "常规设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quran Settings",
+                    "target": "古兰经设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hadith Settings",
+                    "target": "圣训设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
