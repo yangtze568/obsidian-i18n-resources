@@ -1,0 +1,613 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "bible-sidecar",
+        "version": "1.0.0",
+        "title": "Bible sidecar",
+        "description": "Bible sidecar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English | English",
+                    "target": "英语 | English"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Spanish | Español",
+                    "target": "西班牙语 | Español"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "French | Français",
+                    "target": "法语 | Français"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "German | Deutsch",
+                    "target": "德语 | Deutsch"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Portuguese | Português",
+                    "target": "葡萄牙语 | Português"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Italian | Italiano",
+                    "target": "意大利语 | Italiano"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Dutch | Nederlands",
+                    "target": "荷兰语 | Nederlands"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Arabic | العربية",
+                    "target": "阿拉伯语 | العربية"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Russian | Русский",
+                    "target": "俄语 | Русский"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Indonesian | Bahasa Indonesia",
+                    "target": "印度尼西亚语 | Bahasa Indonesia"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Young's Literal Translation (1898)",
+                    "target": "杨氏直译本（1898）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "King James Version 1769 with Apocrypha",
+                    "target": "钦定版1769（含次经）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New King James Version, 1982",
+                    "target": "新钦定版，1982"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "World English Bible",
+                    "target": "世界英语圣经"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Revised Standard Version (1952)",
+                    "target": "修订标准版（1952）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "The Complete Jewish Bible (1998)",
+                    "target": "完整犹太圣经（1998）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "The Scriptures 2009",
+                    "target": "经文译本 2009"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English version of the Septuagint Bible, 1851",
+                    "target": "七十士译本圣经英文版，1851"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tree of Life Version",
+                    "target": "生命之树版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "The Legacy Standard Bible",
+                    "target": "传承标准圣经"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New American Standard Bible (1995)",
+                    "target": "新美国标准版圣经（1995）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English Standard Version 2001, 2016",
+                    "target": "英语标准版圣经 2001，2016"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Geneva Bible (1599)",
+                    "target": "日内瓦圣经（1599）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Douay Rheims Bible",
+                    "target": "杜埃-兰斯圣经"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New International Version, 2011",
+                    "target": "新国际版，2011"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New International Version, 1984",
+                    "target": "新国际版，1984"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New Living Translation, 2015",
+                    "target": "新生命译本，2015"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New Revised Standard Version Catholic Edition, 1993",
+                    "target": "新修订标准版天主教版，1993"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New English Translation, 2007",
+                    "target": "新英语译本，2007"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Samaritan Pentateuch in English, 2013",
+                    "target": "英文撒玛利亚五经，2013"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Aramaic Of The Peshitta: Lamsa, 1933",
+                    "target": "佩西塔亚兰文：Lamsa，1933"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Amplified Bible, 2015",
+                    "target": "扩展版圣经，2015"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "The Message, 2002",
+                    "target": "信息版，2002"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Literal Standard Version",
+                    "target": "直译标准版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "The Holy Bible, Berean Standard Bible",
+                    "target": "圣经，庇哩亚标准版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Menge Bibel",
+                    "target": "门格圣经"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Elberfelder Bibel 1871",
+                    "target": "埃尔伯费尔德圣经 1871"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Schlachter 1951",
+                    "target": "施拉赫特 1951"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Lutherbibel 1912",
+                    "target": "路德圣经 1912"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nouvelle Bible Segond 2002",
+                    "target": "新赛贡圣经 2002"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Biblia Textual 3ra Edicion",
+                    "target": "文本圣经 第3版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Reina-Valera 2004",
+                    "target": "雷纳-瓦莱拉 2004"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Palabra de Dios para Todos",
+                    "target": "给所有人的上帝之言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nueva Versión Internacional",
+                    "target": "新国际版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nueva Traducción Viviente 2009",
+                    "target": "新生活译本 2009"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "La Biblia de las Américas 1997",
+                    "target": "美洲圣经 1997"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Almeida Revista e Atualizada 1993",
+                    "target": "阿尔梅达修订更新版 1993"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Novo Testamento Judaico",
+                    "target": "犹太新约"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nova Versão Internacional",
+                    "target": "新国际版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "O Livro",
+                    "target": "书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nova Versão Transformadora 2016",
+                    "target": "新变革版 2016"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "King James Atualizada",
+                    "target": "钦定本更新版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bíblia Sagrada Versão Fácil de Ler",
+                    "target": "圣经·易读版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nova Almeida Atualizada 2017",
+                    "target": "新阿尔梅达更新版 2017"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bíblia CNBB (Nova Capa) 2002",
+                    "target": "CNBB圣经（新封面）2002"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nova Bíblia Viva 2007",
+                    "target": "新活圣经 2007"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bíblia Almeida Século 21",
+                    "target": "阿尔梅达圣经·21世纪版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Almeida Revista e Corrigida 2009",
+                    "target": "阿尔梅达修订校正版 2009"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nuova Riveduta 2006",
+                    "target": "新修订版 2006"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "De Heilige Schrift, Canisiusvertaling 1939",
+                    "target": "圣经，加尼修斯译本 1939"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Statenvertaling met Stong's 1619",
+                    "target": "1619年斯泰滕译本（含Stong's）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Statenvertaling Jongbloed-editie 1995",
+                    "target": "1995年Jongbloed版斯泰滕译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Herziene Statenvertaling 2017",
+                    "target": "2017年修订斯泰滕译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Иудейская Новый Завет",
+                    "target": "犹太新约"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Новый Русский Перевод",
+                    "target": "新俄语译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Синодальный перевод",
+                    "target": "俄文主教会议译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Невиим и Ктувим",
+                    "target": "先知书与圣录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Русский Синодальный перевод 2015",
+                    "target": "2015年俄文主教会议译本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Библия Тихого Океана 2015",
+                    "target": "2015年太平洋圣经"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Smith & Van Dyke",
+                    "target": "史密斯与范戴克"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Plain text",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "- ",
+                    "target": "- "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "List (-)",
+                    "target": "列表 (-)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Callout (>)",
+                    "target": "标注 (>)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "-- ",
+                    "target": "-- "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Double Dash (--)",
+                    "target": "双破折号 (--)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tilde (~)",
+                    "target": "波浪号 (~)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Full (e.g. John 3:16)",
+                    "target": "完整（例如：John 3:16）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Short (e.g. 1:1)",
+                    "target": "简短（例如：1:1）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Bible view already open",
+                    "target": "圣经视图已打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Saved settings",
+                    "target": "已保存设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your preferred Bible language",
+                    "target": "选择你偏好的圣经语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your preferred Bible version",
+                    "target": "选择你偏好的圣经版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how you want the Bible text to be copied",
+                    "target": "选择你希望复制圣经文本的方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include the verse reference when copying (recommended)",
+                    "target": "复制时包含经文引用（推荐）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the style of the verse reference",
+                    "target": "选择经文引用的样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the format of the verse reference",
+                    "target": "选择经文引用的格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bible language",
+                    "target": "圣经语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default bible version",
+                    "target": "默认圣经版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Copy format",
+                    "target": "复制格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reference format",
+                    "target": "参考格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verse reference format",
+                    "target": "经文引用格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable internal linking eg. [[John]]",
+                    "target": "启用内部链接，例如 [[John]]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Bible Sidecar",
+                    "target": "打开圣经侧栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Old Testament",
+                    "target": "旧约"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New Testament",
+                    "target": "新约"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Back to books",
+                    "target": "返回书卷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Previous chapter",
+                    "target": "上一章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Next chapter",
+                    "target": "下一章"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
