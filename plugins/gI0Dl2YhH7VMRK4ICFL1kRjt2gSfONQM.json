@@ -1,0 +1,541 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hardcover",
+        "version": "1.0.0",
+        "title": "Hardcover",
+        "description": "Hardcover Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.9.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "⚠️ No statuses selected: sync will do nothing",
+                    "target": "⚠️ 未选择任何状态：同步将不会执行任何操作"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "✓ Syncing all statuses",
+                    "target": "✓ 正在同步所有状态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": " *",
+                    "target": " *"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "✅ API key loaded from .env file (takes priority over SecretStorage)",
+                    "target": "✅ 已从 .env 文件加载 API 密钥（优先于 SecretStorage）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Author → Series",
+                    "target": "作者 → 系列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use fallback folder",
+                    "target": "使用备用文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use fallback priority (Writer → Editor → first contributor)",
+                    "target": "使用备用优先级（Writer → Editor → first contributor）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use collections folder",
+                    "target": "使用集合文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use first author",
+                    "target": "使用第一作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Get your API key from ",
+                    "target": "从此处获取你的 API 密钥 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Store your API key in SecretStorage (recommended), or add it to a .env file in your vault root: HARDCOVER_API_KEY=your_key_here",
+                    "target": "将你的 API 密钥存储在 SecretStorage 中（推荐），或将其添加到仓库根目录的 .env 文件中：HARDCOVER_API_KEY=your_key_here"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Sync failed:",
+                    "target": "同步失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing book:",
+                    "target": "处理书籍时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error syncing library:",
+                    "target": "同步书库时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error extracting year from release date:",
+                    "target": "从发布日期提取年份时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating note:",
+                    "target": "创建笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating note:",
+                    "target": "更新笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select which reading statuses to sync. Uncheck to exclude. All statuses synced by default.",
+                    "target": "选择要同步的阅读状态。取消勾选以排除。默认同步所有状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keep any user-added frontmatter properties when syncing. Turn off to let Hardcover overwrite the entire frontmatter.",
+                    "target": "同步时保留用户添加的 frontmatter 属性。关闭后让 Hardcover 覆盖整个 frontmatter。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how quotes are displayed in your notes",
+                    "target": "选择在笔记中显示引用的方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pattern used to generate filenames. Available variables: ${title}, ${authors}, ${year}. Note: The variables ${authors} and ${year} will only work if you've enabled the Authors and Release Date fields in the settings below.",
+                    "target": "用于生成文件名的模式。可用变量：${title}、${authors}、${year}。注意：变量 ${authors} 和 ${year} 只有在你在下方设置中启用了“作者”和“发布日期”字段后才会生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Group your book notes into subdirectories for better organization",
+                    "target": "将你的读书笔记分组到子目录中以便更好地整理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to organize your books into directories",
+                    "target": "选择如何将你的图书组织到目录中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "(default is First Name Last Name)",
+                    "target": "（默认是 名 字）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to organize books with no 'Author' role",
+                    "target": "如何整理没有“作者”角色的图书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name for books with missing authors",
+                    "target": "用于作者缺失的图书名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to organize books with multiple 'Author' roles",
+                    "target": "如何整理有多个“作者”角色的图书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name for books with multiple 'Author' roles",
+                    "target": "用于有多个“作者”角色的图书名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Last sync timestamp",
+                    "target": "上次同步时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter by reading status",
+                    "target": "按阅读状态筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hardcover API key",
+                    "target": "Hardcover API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Configure the data to include in your book notes",
+                    "target": "配置要包含在读书笔记中的数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preserve custom frontmatter",
+                    "target": "保留自定义 frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Property name",
+                    "target": "属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Format as wikilinks",
+                    "target": "格式化为维基链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Section heading",
+                    "target": "章节标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quote format",
+                    "target": "引用格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Data source",
+                    "target": "数据源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target folder",
+                    "target": "目标文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group into subfolders",
+                    "target": "分组到子文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group by",
+                    "target": "分组依据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use 'Last Name, First Name' format for author folders",
+                    "target": "作者文件夹使用“姓，名”格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Missing author handling",
+                    "target": "缺少作者处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fallback folder name",
+                    "target": "备用文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Multiple authors handling",
+                    "target": "多作者处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Collections folder name",
+                    "target": "合集文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-organize notes",
+                    "target": "自动整理笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset timestamp (will force full sync)",
+                    "target": "重置时间戳（将强制完整同步）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error parsing date:",
+                    "target": "解析日期出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No reading statuses selected. Please select at least one status in settings, or select all to sync your entire library.",
+                    "target": "未选择阅读状态。请在设置中选择至少一种状态，或全选以同步整个书库。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please specify a subfolder for your Hardcover books. Using the vault root is not supported.",
+                    "target": "请为你的 Hardcover 图书指定一个子文件夹。不支持使用库根目录。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No books found in your Hardcover library.",
+                    "target": "在你的 Hardcover 库中未找到任何图书。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Syncing Hardcover library...",
+                    "target": "正在同步 Hardcover 库..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error syncing Hardcover library. Check console for details.",
+                    "target": "同步 Hardcover 库时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings reset to defaults",
+                    "target": "设置已重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Book title",
+                    "target": "书名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Book description",
+                    "target": "图书简介"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Book cover image",
+                    "target": "图书封面图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Publication date",
+                    "target": "出版日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Series information",
+                    "target": "系列信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Book authors",
+                    "target": "图书作者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Other contributors (translators, narrators, etc.)",
+                    "target": "其他贡献者（译者、朗读者等）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Publisher name",
+                    "target": "出版社名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hardcover URL",
+                    "target": "精装版 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Book genres",
+                    "target": "图书类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User lists",
+                    "target": "用户列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Reading status",
+                    "target": "阅读状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your rating",
+                    "target": "你的评分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your review of the book",
+                    "target": "你对这本书的评论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Quotes from reading journal",
+                    "target": "阅读日志中的引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Start and end date of first read",
+                    "target": "首次阅读的开始和结束日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Start and end date of last read",
+                    "target": "最后一次阅读的开始和结束日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Times read",
+                    "target": "阅读次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List of years when the book was read",
+                    "target": "阅读该书的年份列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sync your Hardcover books to your notes. For testing, you can sync a limited number of books in the Debug section below.",
+                    "target": "将你的 Hardcover 书籍同步到你的笔记中。用于测试时，你可以在下方的调试部分同步有限数量的书籍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Test sync",
+                    "target": "测试同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Release date",
+                    "target": "发布日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "First read",
+                    "target": "首次阅读"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Last read",
+                    "target": "最后一次阅读"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Total reads",
+                    "target": "阅读总次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Read years",
+                    "target": "阅读年份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Hardcover library",
+                    "target": "同步 Hardcover 书库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync library",
+                    "target": "同步书库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ℹ️ For large libraries (500+ books), sync may take several minutes due to Hardcover's API rate limits (60 requests/minute). The plugin will automatically pace requests to respect these limits.",
+                    "target": "ℹ️ 对于大型书库（500+ 本书），由于 Hardcover 的 API 速率限制（每分钟 60 次请求），同步可能需要几分钟。插件会自动控制请求节奏以遵守这些限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Customize how Hardcover statuses appear in your notes.",
+                    "target": "自定义 Hardcover 状态在笔记中的显示方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "👩🏻‍💻 Source code",
+                    "target": "👩🏻‍💻 源代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🐛 Report issue",
+                    "target": "🐛 报告问题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
