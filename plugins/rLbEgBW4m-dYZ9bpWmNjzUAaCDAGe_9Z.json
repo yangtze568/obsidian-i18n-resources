@@ -1,0 +1,151 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "banyan",
+        "version": "1.0.0",
+        "title": "Banyan",
+        "description": "Banyan Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个介于 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建占位文件失败",
+                    "target": "创建占位文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "迁移失败",
+                    "target": "迁移失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "移除ID失败",
+                    "target": "移除ID失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析 AppData 失败，将重新初始化",
+                    "target": "解析 AppData 失败，将重新初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "视图初始化失败或类型不正确",
+                    "target": "视图初始化失败或类型不正确"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "打开文件失败",
+                    "target": "打开文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "占位文件",
+                    "target": "占位文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "创建",
+                    "target": "创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "占位文件创建后",
+                    "target": "占位文件创建后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "formated file name:",
+                    "target": "格式化后的文件名："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "formated illegal:",
+                    "target": "格式化后的非法内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "移除旧的占位文件",
+                    "target": "移除旧的占位文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "旧的占位文件不存在，无需移除",
+                    "target": "旧的占位文件不存在，无需移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Detected legacy settings, migrated to appData",
+                    "target": "检测到旧版设置，已迁移到 appData"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[react-tooltip] Do not change `disableStyleInjection` dynamically.",
+                    "target": "[react-tooltip] 请勿动态更改 `disableStyleInjection`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[react-tooltip] Do not set `style.border`. Use `border` prop instead.",
+                    "target": "[react-tooltip] 请勿设置 `style.border`。请使用 `border` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[react-tooltip] Do not set `style.opacity`. Use `opacity` prop instead.",
+                    "target": "[react-tooltip] 请勿设置 `style.opacity`。请使用 `opacity` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "添加笔记编辑区初始化失败",
+                    "target": "添加笔记编辑区初始化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "打开占位文件失败",
+                    "target": "打开占位文件失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
