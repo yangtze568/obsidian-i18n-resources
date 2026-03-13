@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "github-sync",
+        "version": "1.0.0",
+        "title": "GitHub Sync",
+        "description": "GitHub Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Failed %o",
+                    "target": "失败 %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A fatal exception occurred in a previous task, the queue has been purged: %o",
+                    "target": "之前的任务发生致命异常，队列已被清空：%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "exitCode=%s handling with custom error handler",
+                    "target": "exitCode=%s 由自定义错误处理器处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "custom error handler treated as success",
+                    "target": "自定义错误处理器视为成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "handling as error: exitCode=%s stdErr=%s rejection=%o",
+                    "target": "按错误处理：exitCode=%s stdErr=%s rejection=%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "retrieving task output complete",
+                    "target": "获取任务输出完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "%s %o",
+                    "target": "%s %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "checking %s",
+                    "target": "检查 %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[OK] path represents a file",
+                    "target": "[OK] 路径表示一个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[OK] path represents a directory",
+                    "target": "[OK] 路径表示一个目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FAIL] path represents something other than a file or directory",
+                    "target": "[FAIL] 路径表示的不是文件或目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FAIL] path is not accessible: %o",
+                    "target": "[FAIL] 路径无法访问：%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FATAL] %o",
+                    "target": "[FATAL] %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "git binary location",
+                    "target": "git 可执行文件位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Check status on startup",
+                    "target": "启动时检查状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto sync on startup",
+                    "target": "启动时自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto sync at interval",
+                    "target": "按间隔自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "simple-git deprecation notice: git.silent: logging should be configured using the `debug` library / `DEBUG` environment variable, this will be an error in version 3",
+                    "target": "simple-git 弃用提示：git.silent：应使用 `debug` 库 / `DEBUG` 环境变量配置日志，这将在第 3 版中变为错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault is not a Git repo or git binary cannot be found.",
+                    "target": "Vault 不是 Git 仓库，或找不到 git 可执行文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Working branch clean",
+                    "target": "工作分支干净"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto sync enabled",
+                    "target": "已启用自动同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How to use this plugin",
+                    "target": "如何使用此插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Grab your GitHub repository's HTTPS or SSH url and paste it into the settings here. If you're not authenticated, the first sync with this plugin should prompt you to authenticate. If you've already setup SSH on your device with GitHub, you won't need to authenticate - just paste your repo's SSH url into the settings here.",
+                    "target": "复制你的 GitHub 仓库的 HTTPS 或 SSH url，并将其粘贴到此处的设置中。如果你尚未完成身份验证，首次使用此插件同步时会提示你进行验证。如果你已在设备上为 GitHub 配置了 SSH，则无需验证——只需将仓库的 SSH url 粘贴到此处的设置中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "See the ",
+                    "target": "查看"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " for more information and troubleshooting.",
+                    "target": "以获取更多信息和故障排查。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
