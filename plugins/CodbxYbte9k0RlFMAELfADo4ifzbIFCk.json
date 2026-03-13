@@ -1,0 +1,2107 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-bible-reference",
+        "version": "1.0.0",
+        "title": "Bible Reference",
+        "description": "Bible Reference Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "26.02.01",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n        <iframe src=\"https://github.com/sponsors/tim-hub/button\" title=\"Sponsor Obsidian Bible Reference\" width=\"116\" height=\"32px\" class=\"sponsor-button\"/>\n    ",
+                    "target": "\n        <iframe src=\"https://github.com/sponsors/tim-hub/button\" title=\"赞助 Obsidian Bible Reference\" width=\"116\" height=\"32px\" class=\"sponsor-button\"/>\n    "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n         If you trade stocks and want to support us, please consider use \n         <a href=\"https://tradeinsight.info?ref=obsidian-bible-reference\">\n            <img src=\"https://tradeinsight.info/_next/static/media/pelosi_trade_logo.ce6c1779.svg\" alt=\"Antioch Tech logo\" class=\"logo\"> TradeInsight.info\n        </a>, \n        it is another project from us.\n    ",
+                    "target": "\n         如果你交易股票并想支持我们，请考虑使用 \n         <a href=\"https://tradeinsight.info?ref=obsidian-bible-reference\">\n            <img src=\"https://tradeinsight.info/_next/static/media/pelosi_trade_logo.ce6c1779.svg\" alt=\"Antioch Tech 标志\" class=\"logo\"> TradeInsight.info\n        </a>, \n        这是我们的另一个项目。\n    "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "[[Book Chapter.Verse|Verse]]",
+                    "target": "[[书卷 章.节|节]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "[[John 1.1|1]]",
+                    "target": "[[John 1.1|1]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "[[Book Chapter#Verse|Verse]]",
+                    "target": "[[书卷 章#节|节]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "[[John 1#1|1]]",
+                    "target": "[[John 1#1|1]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "[[Book Chapter#^Verse|Verse]]",
+                    "target": "[[书卷 章#^节|节]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "[[John 1#^1|1]]",
+                    "target": "[[John 1#^1|1]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Original (API Provider)",
+                    "target": "原始（API 提供方）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Blue Letter Bible (BLB)",
+                    "target": "蓝字圣经（BLB）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bible Gateway",
+                    "target": "Bible Gateway"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while querying",
+                    "target": "查询时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No verses found",
+                    "target": "未找到经文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating BLB URL:",
+                    "target": "生成 BLB URL 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating Bible Gateway URL:",
+                    "target": "生成 Bible Gateway URL 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating Logos URL:",
+                    "target": "生成 Logos URL 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "could not find through query",
+                    "target": "通过查询未找到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid Bible reference:",
+                    "target": "无效的圣经引用："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a hidden book tag at bottom, for example #John",
+                    "target": "在底部添加隐藏的书卷标签，例如 #John"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a hidden chapter tag at bottom, for example #John1",
+                    "target": "在底部添加隐藏的章节标签，例如 #John1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Makes an outgoing link for the book, for example [[John]]",
+                    "target": "为书卷创建外部链接，例如 [[John]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Makes an outgoing link for the chapter, for example [[John1]] ",
+                    "target": "为章节创建外部链接，例如 [[John1]] "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to display verses that span multiple chapters (e.g., John 1:1-2:5)",
+                    "target": "选择如何显示跨多个章节的经文（例如 John 1:1-2:5）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the Bible version you prefer",
+                    "target": "选择你偏好的圣经版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the Bible version to use for Logos links when your selected version is not supported by Logos",
+                    "target": "当你选择的版本不受 Logos 支持时，选择用于 Logos 链接的圣经版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The way of display the selected Bible Version at status bar",
+                    "target": "在状态栏显示所选圣经版本的方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to put the reference link of the Bible",
+                    "target": "将圣经参考链接放置在何处"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets how to format the verses in Obsidian, either line by line or in 1 paragraph",
+                    "target": "设置在 Obsidian 中经文的格式，是逐行显示还是合并为一段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show or hide the verse translation in verses reference",
+                    "target": "在经文引用中显示或隐藏经文译文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable hyperlinking in the verses reference",
+                    "target": "在经文引用中启用或禁用超链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the source for verse reference links: Original (API provider), Blue Letter Bible, Bible Gateway, or Logos",
+                    "target": "选择经文引用链接的来源：原始（API 提供商）、Blue Letter Bible、Bible Gateway 或 Logos"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets how to format the verse numbers in Obsidian",
+                    "target": "设置在 Obsidian 中经文编号的格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When using a chapter separator, include the chapter number (e.g., \"--- 2 ---\")",
+                    "target": "使用章节分隔符时，包含章节编号（例如 \"--- 2 ---\"）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to display non-contiguous verses (e.g., John 3:16, 19)",
+                    "target": "选择如何显示不连续的经文（例如 John 3:16, 19）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When this is true, it will render a Bible icon in Obsidian, disable this if you want to hide it or use standard Markdown. (This will disable the Collapsible option below)",
+                    "target": "启用后，会在 Obsidian 中渲染一个圣经图标；如果要隐藏它或使用标准 Markdown，请禁用此项。（这将禁用下面的可折叠选项）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make the rendered verses collapsible, (This option will be disabled if Bible Icon Prefix option above is disabled)",
+                    "target": "使渲染的经文可折叠（如果上面的“圣经图标前缀”选项被禁用，此选项将被禁用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When verses are collapsible, set the default state to open or closed ((This option will be disabled if Make Verses Collapsible option above is disabled))",
+                    "target": "当经文可折叠时，将默认状态设为展开或折叠（如果上面的“使经文可折叠”选项被禁用，此选项将被禁用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display or Hide Expert Settings, such as Tagging, Linking, Events Logging settings",
+                    "target": "显示或隐藏专家设置，例如标签、链接、事件日志设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add a Book Tag",
+                    "target": "添加书卷标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add a Chapter Tag",
+                    "target": "添加章节标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add a Book Outgoing Link",
+                    "target": "添加书卷外链"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add a Chapter Outgoing Links",
+                    "target": "添加章节外链"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Internal Linking to the Verse Numbers",
+                    "target": "为经节编号添加内部链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Multi-Chapter Separator",
+                    "target": "多章节分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Bible Version",
+                    "target": "默认圣经版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Logos Fallback Version",
+                    "target": "Logos 备用版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Selected Version at Status Bar",
+                    "target": "在状态栏显示所选版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verse Reference Position",
+                    "target": "经节引用位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verse Formatting Options",
+                    "target": "经节格式选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Verse Translation",
+                    "target": "显示经节翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Hyperlinking",
+                    "target": "启用超链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reference Link Source",
+                    "target": "参考链接源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verse Number Formatting Options",
+                    "target": "经文编号格式选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Chapter Number in Separator",
+                    "target": "在分隔符中显示章号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verse Segment Separator",
+                    "target": "经文段落分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Bible Icon Prefix \"[!Bible]\" *",
+                    "target": "显示圣经图标前缀 \"[!Bible]\" *"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Make Verses Collapsible *",
+                    "target": "使经文可折叠 *"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Collapsed *",
+                    "target": "默认折叠 *"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Expert Settings",
+                    "target": "专家设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search Bible translations...",
+                    "target": "搜索圣经译本..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "This will show the verse translation verse text after the verse number",
+                    "target": "这将在节号后显示该节的译文文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "This will make the verse number clickable and will open the passage for viewing.",
+                    "target": "这将使节号可点击，并打开经文进行查看。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Select which service to use for generating verse reference links. This only applies when hyperlinking is enabled.",
+                    "target": "选择用于生成经文引用链接的服务。此设置仅在启用超链接时适用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "This will set the default state of the collapsible verses, when you open a note, the verses will be open or closed by default",
+                    "target": "这将设置可折叠经文的默认状态，打开笔记时，经文默认展开或折叠。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "This option is disabled because collapsible is off",
+                    "target": "此选项已禁用，因为折叠功能已关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Some chapters could not be loaded. Showing partial results.",
+                    "target": "部分章节无法加载。显示部分结果。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Internal Linking Format Updated",
+                    "target": "内部链接格式已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Multi-Chapter Separator Settings Updated",
+                    "target": "多章节分隔符设置已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Logos Fallback Version Updated",
+                    "target": "Logos 备用版本已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Bible Reference Settings Updated ",
+                    "target": "圣经引用设置已更新 "
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Bible Verse Format Settings Updated",
+                    "target": "经文格式设置已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reference Link Source Updated",
+                    "target": "引用链接来源已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Bible Verse Format Number Settings Updated",
+                    "target": "经文格式编号设置已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Verse Segment Separator Settings Updated",
+                    "target": "经文段落分隔符设置已更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hide (Clean and Simple)",
+                    "target": "隐藏（简洁清爽）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Header (Bible Verse Header)",
+                    "target": "顶部（经文标题）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bottom (Bottom of Bible Verse Content)",
+                    "target": "底部（经文内容底部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Both Header and Bottom",
+                    "target": "顶部和底部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Single Line",
+                    "target": "单行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "1. ",
+                    "target": "1. "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "1.) ",
+                    "target": "1.) "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "1) ",
+                    "target": "1) "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "1 - ",
+                    "target": "1 - "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "1 ",
+                    "target": "1 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "^1 (superscript)",
+                    "target": "^1（上标）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "**^1** (bolded superscript)",
+                    "target": "**^1**（加粗上标）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "*^1* (italic superscript)",
+                    "target": "*^1*（斜体上标）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "**1** (bold)",
+                    "target": "**1**（加粗）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "*1* (italic)",
+                    "target": "*1*（斜体）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Chapter Separator (Add divider between chapters)",
+                    "target": "章节分隔符（在章节之间添加分隔线）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Single Block (No divider)",
+                    "target": "单个区块（无分隔符）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Verse Separator (Add divider between non-contiguous verses)",
+                    "target": "经文分隔符（在不连续的经文之间添加分隔符）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Song of Solomon",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Giosuè",
+                    "target": "约书亚记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cantico dei Cantici",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Atti degli Apostoli",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "創世記",
+                    "target": "创世记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "出エジプト記",
+                    "target": "出埃及记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "レビ記",
+                    "target": "利未记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "民数記",
+                    "target": "民数记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "申命記",
+                    "target": "申命记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨシュア記",
+                    "target": "约书亚记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "士師記",
+                    "target": "士师记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ルツ記",
+                    "target": "路得记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "サムエル記上",
+                    "target": "撒母耳记上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "サムエル記下",
+                    "target": "撒母耳记下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列王記上",
+                    "target": "列王记上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列王記下",
+                    "target": "列王记下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "歴代誌上",
+                    "target": "历代志上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "歴代誌下",
+                    "target": "历代志下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "エズラ記",
+                    "target": "以斯拉记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ネヘミヤ記",
+                    "target": "尼希米记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "エステル記",
+                    "target": "以斯帖记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨブ記",
+                    "target": "约伯记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "詩篇",
+                    "target": "诗篇"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "箴言",
+                    "target": "箴言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "伝道者の書",
+                    "target": "传道书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "雅歌",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "イザヤ書",
+                    "target": "以赛亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "エレミヤ書",
+                    "target": "耶利米书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "哀歌",
+                    "target": "哀歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "エゼキエル書",
+                    "target": "以西结书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ダニエル書",
+                    "target": "但以理书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ホセア書",
+                    "target": "何西阿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨエル書",
+                    "target": "约珥书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アモス書",
+                    "target": "阿摩司书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "オバデヤ書",
+                    "target": "俄巴底亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨナ書",
+                    "target": "约拿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ミカ書",
+                    "target": "弥迦书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ナホム書",
+                    "target": "那鸿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ハバクク書",
+                    "target": "哈巴谷书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ゼパニヤ書",
+                    "target": "西番雅书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ハガイ書",
+                    "target": "哈该书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ゼカリヤ書",
+                    "target": "撒迦利亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "マラキ書",
+                    "target": "玛拉基书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "マタイの福音書",
+                    "target": "马太福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "マルコの福音書",
+                    "target": "马可福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ルカの福音書",
+                    "target": "路加福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨハネの福音書",
+                    "target": "约翰福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使徒行伝",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ローマ書",
+                    "target": "罗马书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "コリントの信徒への手紙一",
+                    "target": "哥林多前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "コリントの信徒への手紙二",
+                    "target": "哥林多后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ガラテヤの信徒への手紙",
+                    "target": "加拉太书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "エペソの信徒への手紙",
+                    "target": "以弗所书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "フィリピの信徒への手紙",
+                    "target": "腓立比书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "コロサイの信徒への手紙",
+                    "target": "歌罗西书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "テサロニケの信徒への手紙一",
+                    "target": "帖撒罗尼迦前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "テサロニケの信徒への手紙二",
+                    "target": "帖撒罗尼迦后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "テモテへの手紙一",
+                    "target": "提摩太前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "テモテへの手紙二",
+                    "target": "提摩太后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "テトスへの手紙",
+                    "target": "提多书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "フィレモンへの手紙",
+                    "target": "腓利门书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヘブライ人への手紙",
+                    "target": "希伯来书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヤコブの手紙",
+                    "target": "雅各书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ペテロの手紙一",
+                    "target": "彼得前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ペテロの手紙二",
+                    "target": "彼得后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨハネの手紙一",
+                    "target": "约翰一书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨハネの手紙二",
+                    "target": "约翰二书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ヨハネの手紙三",
+                    "target": "约翰三书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ユダの手紙",
+                    "target": "犹大书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "黙示録",
+                    "target": "启示录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Génesis",
+                    "target": "创世记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Éxodo",
+                    "target": "出埃及记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Levítico",
+                    "target": "利未记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Números",
+                    "target": "民数记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Josué",
+                    "target": "约书亚记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crónicas",
+                    "target": "历代志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eclesiastés",
+                    "target": "传道书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cantar de los Cantares",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Isaías",
+                    "target": "以赛亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amós",
+                    "target": "阿摩司书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abdías",
+                    "target": "俄巴底亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jonás",
+                    "target": "约拿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nahúm",
+                    "target": "那鸿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sofonías",
+                    "target": "西番雅书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zaccarías",
+                    "target": "撒迦利亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Malaquías",
+                    "target": "玛拉基书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hechos de los Apóstoles",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gálatas",
+                    "target": "加拉太书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ruths Bog",
+                    "target": "路得记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Krønikebog",
+                    "target": "历代志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ezras Bog",
+                    "target": "以斯拉记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Esters Bog",
+                    "target": "以斯帖记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jobs Bog",
+                    "target": "约伯记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Salmernes Bog",
+                    "target": "诗篇"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ordsprogenes Bog",
+                    "target": "箴言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prædikerens Bog",
+                    "target": "传道书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Højsangen",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Esajas' Bog",
+                    "target": "以赛亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ezekiels Bog",
+                    "target": "以西结的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Daniels Bog",
+                    "target": "但以理的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hoseas' Bog",
+                    "target": "何西阿的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Joels Bog",
+                    "target": "约珥的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amos' Bog",
+                    "target": "阿摩司的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obadias' Bog",
+                    "target": "俄巴底亚的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jonas' Bog",
+                    "target": "约拿的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mikas Bog",
+                    "target": "弥迦的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nahums Bog",
+                    "target": "那鸿的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Habakkuks Bog",
+                    "target": "哈巴谷的沼泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sefanias' Bog",
+                    "target": "西番雅书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Haggajs Bog",
+                    "target": "哈该书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zakarias' Bog",
+                    "target": "撒迦利亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Malakias' Bog",
+                    "target": "玛拉基书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Matthæusevangeliet",
+                    "target": "马太福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apostlenes Gerninger",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hebræerbrevet",
+                    "target": "希伯来书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Johannes' Åbenbaring",
+                    "target": "启示录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Könige",
+                    "target": "列王纪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sprüche",
+                    "target": "箴言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Matthäus",
+                    "target": "马太福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Römer",
+                    "target": "罗马书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hebräer",
+                    "target": "希伯来书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Genèse",
+                    "target": "创世记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lévitique",
+                    "target": "利未记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deutéronome",
+                    "target": "申命记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nehémie",
+                    "target": "尼希米记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ecclésiaste",
+                    "target": "传道书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cantique des cantiques",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ésaïe",
+                    "target": "以赛亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jérémie",
+                    "target": "耶利米"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ézéchiel",
+                    "target": "以西结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Osée",
+                    "target": "何西阿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Joël",
+                    "target": "约珥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Michée",
+                    "target": "弥迦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aggée",
+                    "target": "哈该"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Actes des apôtres",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Éphésiens",
+                    "target": "以弗所书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timothée",
+                    "target": "提摩太"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Philémon",
+                    "target": "腓利门"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hébreux",
+                    "target": "希伯来书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gênesis",
+                    "target": "创世记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exôdo",
+                    "target": "出埃及记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deuteronômio",
+                    "target": "申命记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crônicas",
+                    "target": "历代志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jó",
+                    "target": "约伯记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Provérbios",
+                    "target": "箴言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cânticos de Salomão",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lamentações",
+                    "target": "耶利米哀歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "João",
+                    "target": "约翰福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Atos dos Apóstolos",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Coríntios",
+                    "target": "哥林多书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Efésios",
+                    "target": "以弗所书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timóteo",
+                    "target": "提摩太书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Judecători",
+                    "target": "士师记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Împărați",
+                    "target": "列王记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cântarea Cântărilor",
+                    "target": "雅歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Țefania",
+                    "target": "西番雅书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Faptele Apostolilor",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "创世纪",
+                    "target": "创世纪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "出埃及记",
+                    "target": "出埃及记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "利未记",
+                    "target": "利未记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "民数记",
+                    "target": "民数记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "申命记",
+                    "target": "申命记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约书亚记",
+                    "target": "约书亚记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "士师记",
+                    "target": "士师记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "路得记",
+                    "target": "路得记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "撒母耳记上",
+                    "target": "撒母耳记上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "撒母耳记下",
+                    "target": "撒母耳记下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列王纪上",
+                    "target": "列王纪上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "列王记下",
+                    "target": "列王记下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "历代志上",
+                    "target": "历代志上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "历代志下",
+                    "target": "历代志下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "以斯拉记",
+                    "target": "以斯拉记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "尼希米记",
+                    "target": "尼希米记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "以斯帖记",
+                    "target": "以斯帖记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约伯记",
+                    "target": "约伯记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "诗篇",
+                    "target": "诗篇"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "传道书",
+                    "target": "传道书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "以赛亚书",
+                    "target": "以赛亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "耶利米书",
+                    "target": "耶利米书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "耶利米哀歌",
+                    "target": "耶利米哀歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "以西结书",
+                    "target": "以西结书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "但以理书",
+                    "target": "但以理书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "何西阿书",
+                    "target": "何西阿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约珥书",
+                    "target": "约珥书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "阿摩司书",
+                    "target": "阿摩司书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "俄巴底亚书",
+                    "target": "俄巴底亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约拿书",
+                    "target": "约拿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "弥迦书",
+                    "target": "弥迦书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "那鸿书",
+                    "target": "那鸿书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "哈巴谷书",
+                    "target": "哈巴谷书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "西番雅书",
+                    "target": "西番雅书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "哈该书",
+                    "target": "哈该书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "撒迦利亚书",
+                    "target": "撒迦利亚书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "玛拉基书",
+                    "target": "玛拉基书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "马太福音",
+                    "target": "马太福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "马可福音",
+                    "target": "马可福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "路加福音",
+                    "target": "路加福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约翰福音",
+                    "target": "约翰福音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使徒行传",
+                    "target": "使徒行传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "罗马书",
+                    "target": "罗马书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "哥林多前书",
+                    "target": "哥林多前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "哥林多后书",
+                    "target": "哥林多后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "加拉太书",
+                    "target": "加拉太书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "以弗所书",
+                    "target": "以弗所书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "腓立比书",
+                    "target": "腓立比书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "歌罗西书",
+                    "target": "歌罗西书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "帖撒罗尼迦前书",
+                    "target": "帖撒罗尼迦前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "帖撒罗尼迦后书",
+                    "target": "帖撒罗尼迦后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "提摩太前书",
+                    "target": "提摩太前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "提摩太后书",
+                    "target": "提摩太后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "提多书",
+                    "target": "提多书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "腓利门书",
+                    "target": "腓利门书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "希伯来书",
+                    "target": "希伯来书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "雅各书",
+                    "target": "雅各书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "彼得前书",
+                    "target": "彼得前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "彼得后书",
+                    "target": "彼得后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约翰一书",
+                    "target": "约翰一书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约翰二书",
+                    "target": "约翰二书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "约翰三书",
+                    "target": "约翰三书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "犹大书",
+                    "target": "犹大书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启示录",
+                    "target": "启示录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bible API",
+                    "target": "Bible API"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bolls Life",
+                    "target": "Bolls Life"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Single Line",
+                    "target": "单行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1. ",
+                    "target": "1. "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1.) ",
+                    "target": "1.) "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1) ",
+                    "target": "1) "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 - ",
+                    "target": "1 - "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 ",
+                    "target": "1 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chapter Separator",
+                    "target": "章节分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Single Block",
+                    "target": "单段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verse Separator",
+                    "target": "经节分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 Samuel",
+                    "target": "撒母耳记上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 Samuel",
+                    "target": "撒母耳记下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 Kings",
+                    "target": "列王纪上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 Kings",
+                    "target": "列王纪下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 Chronicles",
+                    "target": "历代志上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 Chronicles",
+                    "target": "历代志下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 Corinthians",
+                    "target": "哥林多前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 Corinthians",
+                    "target": "哥林多后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 Thessalonians",
+                    "target": "帖撒罗尼迦前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 Thessalonians",
+                    "target": "帖撒罗尼迦后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 Timothy",
+                    "target": "提摩太前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 Timothy",
+                    "target": "提摩太后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 Peter",
+                    "target": "彼得前书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 Peter",
+                    "target": "彼得后书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "1 John",
+                    "target": "约翰一书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 John",
+                    "target": "约翰二书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "3 John",
+                    "target": "约翰三书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verse Lookup",
+                    "target": "经文查找"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verse Of The Day - Notice (10 Seconds)",
+                    "target": "每日经文 - 通知（10秒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verse Of The Day - Insert To Current Note",
+                    "target": "每日经文 - 插入到当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch Bible Translation",
+                    "target": "切换圣经译本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch to Default Translation",
+                    "target": "切换到默认译本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Verses Rendering",
+                    "target": "经文渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Expert Settings",
+                    "target": "专家设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
