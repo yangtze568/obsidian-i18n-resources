@@ -1,0 +1,229 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "copy-document-as-html",
+        "version": "1.0.0",
+        "title": "Copy document as HTML",
+        "description": "Copy document as HTML Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Display and link",
+                    "target": "显示并链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Display only",
+                    "target": "仅显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Leave as is",
+                    "target": "保持原样"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Link to HTML",
+                    "target": "链接到 HTML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Open with Obsidian",
+                    "target": "用 Obsidian 打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Don't link",
+                    "target": "不链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error calling onload()",
+                    "target": "调用 onload() 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No editor in active view, nothing to copy",
+                    "target": "当前视图中没有编辑器，无可复制内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No file in active view, nothing to copy",
+                    "target": "当前视图中没有文件，无可复制内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "copy failed",
+                    "target": "复制失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "could not load data uri",
+                    "target": "无法加载数据 URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Document is already being copied",
+                    "target": "文档已在复制中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Nothing to copy: No active markdown view",
+                    "target": "无内容可复制：没有活动的 Markdown 视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Copied to clipboard as HTML",
+                    "target": "已以 HTML 形式复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If checked, SVG files are converted to bitmap. This makes the copied documents heavier but improves compatibility (eg. with gmail).",
+                    "target": "勾选后，SVG 文件将转换为位图。这会使复制的文档更大，但可提高兼容性（如 Gmail）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If checked code blocks are rendered as tables, which makes pasting into Google docs somewhat prettier.",
+                    "target": "勾选后，代码块会渲染为表格，使粘贴到 Google 文档时更美观。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If checked callouts are rendered as tables, which makes pasting into Google docs somewhat prettier.",
+                    "target": "勾选后，标注会渲染为表格，使粘贴到 Google 文档时更美观。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If checked, the filename is inserted as a level 1 header. (only if an entire document is copied)",
+                    "target": "勾选后，文件名会作为一级标题插入。（仅在复制整篇文档时）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If checked, only generate a HTML fragment and not a full HTML document. This excludes the header, and effectively disables all styling.",
+                    "target": "勾选后，仅生成 HTML 片段而非完整 HTML 文档。这会排除头部，并实质上禁用所有样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Convert SVG files to bitmap",
+                    "target": "将 SVG 文件转换为位图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Render code with tables",
+                    "target": "渲染包含表格的代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Render callouts with tables",
+                    "target": "渲染包含表格的提示块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include filename as header",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Copy HTML fragment only",
+                    "target": "仅复制HTML片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Footnote handling",
+                    "target": "脚注处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link handling",
+                    "target": "链接处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Provide a custom stylesheet",
+                    "target": "提供自定义样式表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Copying to clipboard",
+                    "target": "正在复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as HTML",
+                    "target": "复制为HTML"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard as HTML",
+                    "target": "已作为HTML复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy selection or document to clipboard",
+                    "target": "将所选内容或文档复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy entire document to clipboard",
+                    "target": "将整个文档复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy current selection to clipboard",
+                    "target": "将当前所选内容复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy document as HTML Settings",
+                    "target": "将文档复制为 HTML 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Exotic / Developer options",
+                    "target": "高级 / 开发者选项"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
