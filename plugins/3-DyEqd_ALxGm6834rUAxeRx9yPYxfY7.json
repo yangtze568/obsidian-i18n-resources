@@ -1,0 +1,481 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-admonition",
+        "version": "1.0.0",
+        "title": "Admonition",
+        "description": "Admonition Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "10.3.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "callout-content admonition-content",
+                    "target": "callout-content admonition-content"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "callout-icon admonition-title-icon",
+                    "target": "callout-icon admonition-title-icon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "callout-title-inner admonition-title-content",
+                    "target": "callout-title-inner admonition-title-content"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Obsidian Admonition loaded",
+                    "target": "Obsidian Admonition 已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Obsidian Admonition unloaded",
+                    "target": "Obsidian Admonition 已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export Selected",
+                    "target": "导出所选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Select All",
+                    "target": "全选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Deselect All",
+                    "target": "取消全选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Download All",
+                    "target": "下载全部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Select & Download",
+                    "target": "选择并下载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Choose Files",
+                    "target": "选择文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Leave blank to render without a title.",
+                    "target": "留空则渲染为无标题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Export a CSS snippet for custom callout types.",
+                    "target": "为自定义标注类型导出 CSS 代码片段。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose custom types to export as a JSON file that you can then share with other users.",
+                    "target": "选择要导出的自定义类型为 JSON 文件，以便与其他用户共享。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Instead of managing it internally, Admonitions will maintain a CSS snippet to enable your custom types for callouts.",
+                    "target": "Admonitions 将维护一段 CSS 代码片段来为标注启用自定义类型，而不是在内部管理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a new Admonition type. All custom Admonitions will also be usable as callouts.",
+                    "target": "添加新的 Admonition 类型。所有自定义 Admonition 也可用作标注。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import admonitions from a JSON definition.",
+                    "target": "从 JSON 定义导入 admonitions。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A drop shadow will be added to admonitions.",
+                    "target": "为 admonitions 添加投影。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Collapsible admonitions & callouts will be either opened or closed.",
+                    "target": "可折叠的 admonitions 与标注将处于展开或折叠状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a 'copy content' button to admonitions & callouts.",
+                    "target": "为 admonitions 与标注添加“复制内容”按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disable this setting to turn off admonition coloring by default. Can be overridden in the admonition definition.",
+                    "target": "禁用此设置将默认关闭提示框着色。可在提示框定义中覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Any admonition that does not have content inside it will be hidden.",
+                    "target": "没有内容的提示框将被隐藏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Load an additional icon pack. This requires an internet connection.",
+                    "target": "加载额外的图标包。这需要互联网连接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Icon to display next to the title.",
+                    "target": "显示在标题旁边的图标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Admonition Type",
+                    "target": "提示框类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Admonition Title",
+                    "target": "提示框标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Make Collapsible",
+                    "target": "设为可折叠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export Custom Types as CSS",
+                    "target": "将自定义类型导出为 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export Custom Types as JSON",
+                    "target": "将自定义类型导出为 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use CSS Snippet for Custom Callouts",
+                    "target": "为自定义提示框使用 CSS 片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import Admonition(s)",
+                    "target": "导入 Admonition"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Admonitions & Callouts",
+                    "target": "Admonition 与 Callout"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Drop Shadow",
+                    "target": "添加投影"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set Admonition Colors",
+                    "target": "设置 Admonition 颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon Packs",
+                    "target": "图标包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Font Awesome Icons",
+                    "target": "使用 Font Awesome 图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Load Additional Icons",
+                    "target": "加载附加图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional Syntaxes",
+                    "target": "附加语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Convert MSDoc Admonitions to Callouts",
+                    "target": "将 MSDoc Admonition 转换为 Callout"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Convert Codeblock Admonitions to Callouts",
+                    "target": "将 Codeblock Admonition 转换为 Callout"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Admonition Type",
+                    "target": "告诫类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No match found",
+                    "target": "未找到匹配项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Export Admonitions",
+                    "target": "导出告诫"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An admonition must have a title if it is collapsible.",
+                    "target": "如果告诫可折叠，则必须有标题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No admonition type by that name exists.",
+                    "target": "不存在该名称的告诫类型。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "At least one admonition must be chosen to export.",
+                    "target": "导出时必须选择至少一个告诫。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an error parsing the image.",
+                    "target": "解析图片时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fix errors before saving.",
+                    "target": "请先修复错误再保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not download icon pack",
+                    "target": "无法下载图标包"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Callout content copied to clipboard.",
+                    "target": "标注内容已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Admonition content copied to clipboard.",
+                    "target": "提示内容已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue inserting the admonition.",
+                    "target": "插入提示时出现问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Admonition titles can only be strings.",
+                    "target": "提示标题只能是字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "That Admonition type already exists.",
+                    "target": "该提示类型已存在。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collapse Admonitions in Note",
+                    "target": "在笔记中折叠提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Admonitions in Note",
+                    "target": "在笔记中展开提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Admonition",
+                    "target": "插入提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Callout",
+                    "target": "插入标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import one or more admonition definitions as a JSON array. An admonition definition should look as follows at minimum:",
+                    "target": "以 JSON 数组导入一个或多个提示定义。提示定义至少应如下所示："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "See the plugin ReadMe for more information.",
+                    "target": "请查看插件 ReadMe 了解更多信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All admonitions & callouts will be collapsible by default. Use ",
+                    "target": "所有警示框和提示框默认都可折叠。使用 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "collapse: none",
+                    "target": "collapse: none"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian 0.14 has introduced Callout boxes to its core functionality using the same syntax as the Microsoft Document callouts.",
+                    "target": "Obsidian 0.14 已将提示框引入核心功能，并使用与 Microsoft Document 提示框相同的语法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This has rendered the Microsoft Document syntax for Admonitions obsolete, but Admonitions can still be used to create and manage your custom callout types.",
+                    "target": "这使 Microsoft Document 的警示框语法已过时，但仍可使用 Admonitions 来创建和管理自定义提示框类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your existing code block Admonitions will always work!",
+                    "target": "你现有的代码块 Admonitions 将始终可用！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This ",
+                    "target": "此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " modify notes. Use at your own risk and please make backups.",
+                    "target": " 会修改笔记。风险自负，并请做好备份。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "With large vaults, this could take awhile!",
+                    "target": "对于大型库，这可能需要一些时间！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Converting MS-doc admonitions...",
+                    "target": "正在转换 MS-doc 警示框..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Converting Codeblock admonitions...",
+                    "target": "正在转换代码块 Admonitions..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This is used to create the admonition (e.g.,  ",
+                    "target": "这用于创建 Admonition（例如，  "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " or ",
+                    "target": " 或 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A copy button will be added to the admonition & callout.",
+                    "target": "将为 Admonition 和标注添加一个复制按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Admonitions: Obsidian now has native support for callouts! Check out the ",
+                    "target": "Admonitions：Obsidian 现在已原生支持标注！查看"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Admonitions ReadMe",
+                    "target": "Admonitions 自述文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " for what that means for Admonitions going forward.",
+                    "target": "以了解这对未来的 Admonitions 意味着什么。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
