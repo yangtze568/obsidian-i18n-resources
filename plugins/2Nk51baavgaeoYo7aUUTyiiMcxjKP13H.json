@@ -1,0 +1,265 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tick-tones",
+        "version": "1.0.0",
+        "title": "Tick Tones",
+        "description": "Tick Tones Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.6.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open GitHub",
+                    "target": "打开 GitHub"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Play sound",
+                    "target": "播放声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reload sounds",
+                    "target": "重新加载声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You're just some small steps away from unlocking the plugin's full potential.",
+                    "target": "只需几步即可解锁该插件的全部潜力。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add your own sound files to the plugin's sounds folder.",
+                    "target": "将你自己的音频文件添加到插件的声音文件夹中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reload the plugin or use the Reload button below once you've added sounds.",
+                    "target": "添加声音后重新加载插件，或使用下方的重新加载按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize your settings and enjoy!",
+                    "target": "自定义你的设置并尽情享受！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "See the GitHub page for instructions & examples.",
+                    "target": "查看 GitHub 页面获取说明和示例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle if a sound should be played when a checkbox is ticked.",
+                    "target": "切换是否在勾选复选框时播放声音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Play a random sound from a list when checkbox is ticked.",
+                    "target": "勾选复选框时从列表中随机播放一个声音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a sound to play when a checkbox is ticked.",
+                    "target": "选择在勾选复选框时播放的声音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust the volume of the sound when a checkbox is ticked.",
+                    "target": "调整勾选复选框时播放声音的音量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click to test out your checkbox tick sound configuration.",
+                    "target": "点击测试你的复选框勾选声音配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle if a sound should be played when a checkbox is unticked.",
+                    "target": "切换是否在取消勾选复选框时播放声音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Play a random sound from a list when checkbox is unticked.",
+                    "target": "取消勾选复选框时从列表中随机播放一个声音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a sound to be played when a checkbox is unticked.",
+                    "target": "选择在取消勾选复选框时播放的声音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust the volume of the sound when a checkbox is unticked.",
+                    "target": "调整取消勾选复选框时播放声音的音量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click to test out your checkbox untick sound configuration.",
+                    "target": "点击测试你的复选框取消勾选声音配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click to reload the available sounds.",
+                    "target": "点击重新加载可用声音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "🎉 Welcome to Tick Tones!",
+                    "target": "🎉 欢迎使用 Tick Tones！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Thank you for installing Tick Tones!",
+                    "target": "感谢安装 Tick Tones！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "To get started",
+                    "target": "开始使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add your own sound files",
+                    "target": "添加你自己的音频文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reload the plugin",
+                    "target": "重新加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize your settings",
+                    "target": "自定义设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Need help?",
+                    "target": "需要帮助？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tick sound",
+                    "target": "滴答声"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tick sound enabled",
+                    "target": "已启用滴答声"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use random tick sound",
+                    "target": "使用随机滴答声"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Random tick sounds",
+                    "target": "随机滴答声"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Selected sounds",
+                    "target": "已选声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "⚠️ No sounds selected",
+                    "target": "⚠️ 未选择声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tick sound volume",
+                    "target": "勾选音量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Test tick sound",
+                    "target": "测试勾选声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Untick sound",
+                    "target": "取消勾选声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Untick sound enabled",
+                    "target": "启用取消勾选声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use random untick sound",
+                    "target": "使用随机取消勾选声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Random untick sounds",
+                    "target": "随机取消勾选声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Untick sound volume",
+                    "target": "取消勾选音量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Test untick sound",
+                    "target": "测试取消勾选声音"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No random sound available, please check your settings and select sound(s).",
+                    "target": "没有可用的随机声音，请检查您的设置并选择声音。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
