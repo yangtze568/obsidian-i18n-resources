@@ -1,0 +1,343 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cubox-sync",
+        "version": "1.0.0",
+        "title": "Cubox",
+        "description": "Cubox Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "cubox.cc (international)",
+                    "target": "cubox.cc（国际）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Choose region",
+                    "target": "选择地区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取文章列表失败:",
+                    "target": "获取文章列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取 Cubox 文件夹列表失败:",
+                    "target": "获取 Cubox 文件夹列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取 Cubox 标签列表失败:",
+                    "target": "获取 Cubox 标签列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error formatting date:",
+                    "target": "日期格式化错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "模板渲染失败:",
+                    "target": "模板渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取文件夹列表失败:",
+                    "target": "获取文件夹列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取标签列表失败:",
+                    "target": "获取标签列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步 Cubox 数据失败:",
+                    "target": "同步 Cubox 数据失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Loading folders...",
+                    "target": "正在加载文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Loading tags...",
+                    "target": "正在加载标签..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the correct domain name of the Cubox you are using.",
+                    "target": "选择你正在使用的 Cubox 正确域名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Please select a region first",
+                    "target": "请先选择地区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manage Cubox folders to be synced",
+                    "target": "管理要同步的 Cubox 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manage Cubox tags to be synced",
+                    "target": "管理要同步的 Cubox 标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manage Cubox content types to be synced",
+                    "target": "管理要同步的 Cubox 内容类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manage Cubox content status to be synced",
+                    "target": "管理要同步的 Cubox 内容状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the folder you'd like to sync to",
+                    "target": "选择你要同步到的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "No tags",
+                    "target": "无标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cubox server domain",
+                    "target": "Cubox 服务器域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your Cubox API key",
+                    "target": "你的 Cubox API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder filter",
+                    "target": "文件夹筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag filter",
+                    "target": "标签筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Type filter",
+                    "target": "类型筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Status filter",
+                    "target": "状态筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync interval",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Metadata variables",
+                    "target": "元数据变量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the interval",
+                    "target": "请输入间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter target folder path",
+                    "target": "请输入目标文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter front matter variables",
+                    "target": "请输入 front matter 变量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter date format",
+                    "target": "请输入日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select at least one option.",
+                    "target": "请至少选择一个选项。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid API key",
+                    "target": "无效的 API 密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter the API key first",
+                    "target": "请先输入 API 密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to get Cubox folders",
+                    "target": "获取 Cubox 文件夹失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to get Cubox tags",
+                    "target": "获取 Cubox 标签失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Frequency must be a positive integer",
+                    "target": "频率必须是正整数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Syncing your Cubox…",
+                    "target": "正在同步你的 Cubox…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync is in progress, please wait.",
+                    "target": "同步进行中，请稍候。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select the filter first",
+                    "target": "请先选择筛选器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cubox sync failed. Please check settings or network.",
+                    "target": "Cubox 同步失败。请检查设置或网络。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync now",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Cubox folders to be synced",
+                    "target": "管理要同步的 Cubox 文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Cubox tags to be synced",
+                    "target": "管理要同步的 Cubox 标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Cubox content status to be synced",
+                    "target": "管理要同步的 Cubox 内容状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Cubox content types to be synced",
+                    "target": "管理要同步的 Cubox 内容类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can create a key in the ",
+                    "target": "你可以在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extension settings",
+                    "target": "扩展设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " of Cubox web app.",
+                    "target": " Cubox 网页应用中创建密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "For more, refer to ",
+                    "target": "更多信息，请参阅"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
