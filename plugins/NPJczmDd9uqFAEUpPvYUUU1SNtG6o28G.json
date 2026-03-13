@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-paste-png-to-jpeg",
+        "version": "1.0.0",
+        "title": "Paste image Png to Jpeg",
+        "description": "Paste image Png to Jpeg Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The smaller the Quality, the greater the compression ratio.",
+                    "target": "质量越小，压缩比越大。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically names the image with the name of the previous note +'-'+ the current timestamp + '.' + file type, for example, the image in test.md will be named test-1652261724173.jpeg",
+                    "target": "使用上一条笔记的名称 +'-'+ 当前时间戳 + '.' + 文件类型自动命名图片，例如，test.md 中的图片将被命名为 test-1652261724173.jpeg"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically move images to the image directory,If you do not set the default directory for attachments, then it will be stored directly under the image/ folder in the same directory as the notes, if there is a default directory, then it will be stored under the image/ folder in the Magician directory",
+                    "target": "自动将图片移动到 image 目录。如果未设置附件的默认目录，则会直接存储在与笔记同目录的 image/ 文件夹下；如果设置了默认目录，则会存储在 Magician 目录下的 image/ 文件夹中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Png to Jpeg",
+                    "target": "Png 转 Jpeg"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Rename",
+                    "target": "自动重命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Move Image",
+                    "target": "自动移动图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: No active file found.",
+                    "target": "错误：未找到活动文件。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
