@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hidden-folder-obsidian",
+        "version": "1.0.0",
+        "title": "Hidden Folder",
+        "description": "Hidden Folder Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
