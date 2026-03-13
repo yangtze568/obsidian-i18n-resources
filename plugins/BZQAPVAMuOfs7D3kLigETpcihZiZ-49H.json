@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-list-callouts",
+        "version": "1.0.0",
+        "title": "List Callouts",
+        "description": "List Callouts Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "See the Style Settings plugin for additional configuration options.",
+                    "target": "参见 Style Settings 插件以获取更多配置选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Set Icon",
+                    "target": "设置图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear Icon",
+                    "target": "清除图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create a new Callout",
+                    "target": "创建新的提示块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create additional list callout styles.",
+                    "target": "创建更多列表提示块样式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " Sed eu nisl rhoncus, consectetur mi quis, scelerisque enim.",
+                    "target": " Sed eu nisl rhoncus, consectetur mi quis, scelerisque enim."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note: Using +, *, -, >, or # as the callout character can disrupt reading mode.",
+                    "target": "注意：使用 +、*、-、> 或 # 作为提示块字符可能会干扰阅读模式。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
