@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "reading-progress-desktop",
+        "version": "1.0.0",
+        "title": "Reading progress desktop",
+        "description": "Reading progress desktop Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
