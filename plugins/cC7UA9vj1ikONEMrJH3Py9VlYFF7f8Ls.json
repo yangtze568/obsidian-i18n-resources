@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "checkbox-sounds",
+        "version": "1.0.0",
+        "title": "Checkbox Sounds",
+        "description": "Checkbox Sounds Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "kaching!",
+                    "target": "叮当！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An array of source files must be passed with any new Howl.",
+                    "target": "创建新的 Howl 时必须传入源文件数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a sound to play when checkbox is ticked (more sounds coming soon!)",
+                    "target": "选择勾选复选框时播放的声音（更多声音即将推出！）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose checkbox sound",
+                    "target": "选择复选框声音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "HTML5 Audio pool exhausted, returning potentially locked audio object.",
+                    "target": "HTML5 音频池已耗尽，返回可能被锁定的音频对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No file extension was found. Consider using the \"format\" property or specify an extension.",
+                    "target": "未找到文件扩展名。请考虑使用 \"format\" 属性或指定扩展名。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
