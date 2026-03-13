@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mrj-jump-to-link",
+        "version": "1.0.0",
+        "title": "Jump to link",
+        "description": "Jump to link Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.15",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading jump to links plugin",
+                    "target": "正在卸载跳转到链接插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The characters placed next to each link after enter link-hint mode.",
+                    "target": "进入链接提示模式后，每个链接旁显示的字符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Regex based navigating in editor mode",
+                    "target": "编辑器模式下基于正则的导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the regex for matching will be case sensitive.",
+                    "target": "启用后，用于匹配的正则将区分大小写。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, auto jump to link if there is only one link in page",
+                    "target": "启用后，若页面仅有一个链接则自动跳转。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, lightspeed jumps will only target characters occuring at the start of words.",
+                    "target": "启用后，Lightspeed 跳转仅定位到单词开头的字符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how many characters you need to type to perform a Lightspeed jump.",
+                    "target": "决定执行 Lightspeed 跳转需要输入的字符数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Characters used for link hints",
+                    "target": "链接提示使用的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Jump To Anywhere",
+                    "target": "随处跳转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Lightspeed regex case sensitivity",
+                    "target": "Lightspeed 正则区分大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Jump to Link If Only One Link In Page",
+                    "target": "页面仅有一个链接时跳转到该链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Lightspeed only jumps to start of words",
+                    "target": "Lightspeed 仅跳转到单词开头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of characters for Lightspeed jump",
+                    "target": "Lightspeed 跳转的字符数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Custom Regex",
+                    "target": "自定义正则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to Link",
+                    "target": "跳转到链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to Anywhere Regex",
+                    "target": "任意位置跳转正则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightspeed Jump",
+                    "target": "Lightspeed 跳转"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Jump To Link.",
+                    "target": "跳转到链接的设置。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
