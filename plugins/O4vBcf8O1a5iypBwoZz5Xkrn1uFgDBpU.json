@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "time-saver",
+        "version": "1.0.0",
+        "title": "TimeSaver",
+        "description": "TimeSaver Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "中文",
+                    "target": "中文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": "- [ ] ",
+                    "target": "- [ ] "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": "- [x] ",
+                    "target": "- [x] "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the plugin language",
+                    "target": "选择插件语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable auto computation of task times",
+                    "target": "启用或禁用任务时间的自动计算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Compute",
+                    "target": "自动计算"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
