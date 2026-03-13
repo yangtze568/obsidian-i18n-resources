@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sync-config-folder-to-common-folder",
+        "version": "1.0.0",
+        "title": "Sync config folder to common folder",
+        "description": "Sync config folder to common folder Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the path filled in ConfigFolder, which needs to be consistent with the one in Files and links->Override config folder (自定义填入 ConfigFolder 的路径，需要和 文件与链接->切换配置文件夹 中的保持一致)",
+                    "target": "自定义填写 ConfigFolder 的路径，需要与 文件与链接->切换配置文件夹 中的一致（自定义填入 ConfigFolder 的路径，需要和 文件与链接->切换配置文件夹 中的保持一致）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the path to be filled in ConfigFolder for synchronization. The relative path needs to start with ./ or ../ (自定义填入 ConfigFolder 同步的路径，相对路径需要以 ./ 或者 ../ 开头)",
+                    "target": "自定义填写 ConfigFolder 的同步路径。相对路径需要以 ./ 或 ../ 开头（自定义填入 ConfigFolder 同步的路径，相对路径需要以 ./ 或者 ../ 开头）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the auto save time interval in seconds, 0 means off (自定义自动保存的时间间隔，单位是秒，0 代表关闭). Need to be restarted to take effect (修改都需要重启生)",
+                    "target": "自定义自动保存时间间隔（单位秒），0 表示关闭（自定义自动保存的时间间隔，单位是秒，0 代表关闭）。需要重启后生效（修改都需要重启生）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Config folder path",
+                    "target": "配置文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Common folder path",
+                    "target": "通用文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto save interval",
+                    "target": "自动保存间隔"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
