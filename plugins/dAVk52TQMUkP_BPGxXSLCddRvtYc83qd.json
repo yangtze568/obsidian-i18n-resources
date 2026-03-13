@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-toggle-case",
+        "version": "1.0.0",
+        "title": "Toggle Case",
+        "description": "Toggle Case Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When there are multiple selections, apply the same case transformation to all.",
+                    "target": "当有多个选择时，将相同的大小写转换应用于全部。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync case multi-cursor",
+                    "target": "同步多光标大小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Case",
+                    "target": "切换大小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for my awesome plugin.",
+                    "target": "我的超赞插件的设置。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
