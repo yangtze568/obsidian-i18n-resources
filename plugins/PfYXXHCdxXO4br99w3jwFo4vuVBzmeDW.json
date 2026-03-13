@@ -1,0 +1,295 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-citations",
+        "version": "1.0.0",
+        "title": "Simple Citations",
+        "description": "Simple Citations Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Add literature notes completed.",
+                    "target": "添加文献笔记完成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Better CSL JSON",
+                    "target": "更好的 CSL JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to save literature notes. Default: root folder.",
+                    "target": "保存文献笔记的文件夹。默认：根文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, execute add commands automatically when the bibliography file is updated.",
+                    "target": "启用后，在书目文件更新时自动执行添加命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, automatically updates citation notes when opened.",
+                    "target": "启用后，打开时自动更新引文笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, adds a tag with the first author's name.",
+                    "target": "启用后，添加首位作者姓名标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, adds a tag with the journal name.",
+                    "target": "启用后，添加期刊名称标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set optional fields from JSON. (Separate by line breaks, 1st level only)",
+                    "target": "从 JSON 设置可选字段。（按换行分隔，仅一级）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, adds the abstract to the top of each literature note.",
+                    "target": "启用后，将摘要添加到每条文献笔记顶部。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On Mac/Linux use the output of `which pandoc` in terminal; on Windows use the output of `where pandoc` in cmd.",
+                    "target": "在 Mac/Linux 上使用终端中 `which pandoc` 的输出；在 Windows 上使用 cmd 中 `where pandoc` 的输出。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Absolute path to an export folder.",
+                    "target": "导出文件夹的绝对路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add extra command line arguments for pandoc. Absolute path only. New lines are turned into spaces. Citeproc and bibliography are automatically added.",
+                    "target": "为 pandoc 添加额外命令行参数。仅限绝对路径。换行将转换为空格。Citeproc 和参考文献将自动添加。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set bibliography file path",
+                    "target": "设置参考文献文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set literature note folder path",
+                    "target": "设置文献笔记文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto add citations",
+                    "target": "自动添加引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto update citations",
+                    "target": "自动更新引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include author tag",
+                    "target": "包含作者标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include journal tag",
+                    "target": "包含期刊标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Optional fields",
+                    "target": "可选字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include abstract to content",
+                    "target": "将摘要包含到内容中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pandoc path",
+                    "target": "Pandoc 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export folder",
+                    "target": "导出文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extra Pandoc arguments",
+                    "target": "额外的 Pandoc 参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter Relative Path",
+                    "target": "输入相对路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "key\npdf",
+                    "target": "键\npdf"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Same as target",
+                    "target": "与目标相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: -f markdown+hard_line_breaks",
+                    "target": "示例：-f markdown+hard_line_breaks"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "0 file(s) updated.",
+                    "target": "已更新 0 个文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file.",
+                    "target": "没有活动文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active file is not a citation note.",
+                    "target": "活动文件不是引文笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active file is not in the configured literature notes folder.",
+                    "target": "当前文件不在配置的文献笔记文件夹中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active file updated.",
+                    "target": "当前文件已更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pandoc execution completed successfully.",
+                    "target": "Pandoc 执行成功完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Converted to Pandoc format.",
+                    "target": "已转换为 Pandoc 格式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No missing notes found.",
+                    "target": "未发现缺失的笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied missing note links to clipboard!",
+                    "target": "已将缺失笔记链接复制到剪贴板！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update literature notes",
+                    "target": "更新文献笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update literature note (active file)",
+                    "target": "更新文献笔记（当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add literature notes",
+                    "target": "添加文献笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pandoc Citeproc Execution (docx)",
+                    "target": "Pandoc Citeproc 执行（docx）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to Pandoc format",
+                    "target": "转换为 Pandoc 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy missing note links not included in json file",
+                    "target": "复制未包含在 json 文件中的缺失笔记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Basic Settings",
+                    "target": "基本设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Additional Properties",
+                    "target": "附加属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Additional Content",
+                    "target": "附加内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pandoc Settings",
+                    "target": "Pandoc 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
