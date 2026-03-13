@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "linkshelf",
+        "version": "1.0.0",
+        "title": "LinkStowr",
+        "description": "LinkStowr Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[LinkStowr] Got response: ",
+                    "target": "[LinkStowr] 收到响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to the folder to save the links to (relative to your vault). Make sure the folder exists",
+                    "target": "用于保存链接的文件夹路径（相对于你的库）。请确保该文件夹已存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your Access Token",
+                    "target": "输入你的访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Run the Sync command when Obsidian loads",
+                    "target": "在 Obsidian 加载时运行同步命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add this if you are self-hosting LinkStowr and would like to use a custom server. Make sure the URL does not end in a `/` e.g. https://www.myserver.com",
+                    "target": "如果你自行托管 LinkStowr 并想使用自定义服务器，请添加此项。确保 URL 不以 `/` 结尾，例如 https://www.myserver.com"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Links folder path",
+                    "target": "链接文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access Token",
+                    "target": "访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync on load",
+                    "target": "加载时同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom server URL",
+                    "target": "自定义服务器 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "LinkStowr Sync successful!",
+                    "target": "LinkStowr 同步成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "LinkStowr Sync failed",
+                    "target": "LinkStowr 同步失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync links",
+                    "target": "同步链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
