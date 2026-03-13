@@ -1,0 +1,157 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "performosu",
+        "version": "1.0.0",
+        "title": "Performium",
+        "description": "Performium Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "There's something wrong while parsing or reading the JSON file:",
+                    "target": "解析或读取 JSON 文件时出现问题："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading/parsing pp-entries.json:",
+                    "target": "读取/解析 pp-entries.json 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "The calculated value is 0pp or negative... Setting it to 0pp...",
+                    "target": "计算值为 0pp 或负数……将其设置为 0pp……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "The calculated value is not a number... Setting it to 0pp...",
+                    "target": "计算值不是数字……将其设置为 0pp……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "The calculated value is an infinite number, setting it to 0pp..",
+                    "target": "计算值为无穷大，将其设置为 0pp.."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "See how much time you've spent on reading or writing your notes",
+                    "target": "查看你在阅读或撰写笔记上花了多少时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Codename: Kinetisphere",
+                    "target": "代号：Kinetisphere"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Total focus time",
+                    "target": "总专注时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Did you know?",
+                    "target": "你知道吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Performium v1.7.0",
+                    "target": "Performium v1.7.0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Performance values comparison",
+                    "target": "性能数值对比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Calculated performance points:",
+                    "target": "已计算的性能点："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This feature is no longer available, thank you for using the plugin!",
+                    "target": "此功能已不可用，感谢使用该插件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Performance points calculation has started",
+                    "target": "性能点计算已开始"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Performance points comparison has started",
+                    "target": "性能点对比已开始"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This feature is in the works and will be released very soon!",
+                    "target": "此功能正在开发中，将很快发布！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Performance calculation successfully finished!",
+                    "target": "性能计算已成功完成！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calculate performance points",
+                    "target": "计算性能点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Compare performance points",
+                    "target": "对比性能点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display top performance entries",
+                    "target": "显示性能排名条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Current performance value:",
+                    "target": "当前绩效值："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Compared performance value:",
+                    "target": "对比绩效值："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Difference:",
+                    "target": "差异："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
