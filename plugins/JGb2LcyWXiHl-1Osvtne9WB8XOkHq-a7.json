@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sentence-rhythm",
+        "version": "1.0.0",
+        "title": "Sentence Rhythm",
+        "description": "Sentence Rhythm Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can also toggle on and off from the command palette",
+                    "target": "你也可以从命令面板中切换开启或关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Less than or equal to",
+                    "target": "小于或等于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disabled by default. When disabled lines require a distinct end-of-sentence punctuation character to be highlighted",
+                    "target": "默认禁用。禁用时，行需要明确的句末标点符号才能高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable highlighting",
+                    "target": "启用高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Treat line break as sentence boundary",
+                    "target": "将换行视为句子边界"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle highlighting",
+                    "target": "切换高亮"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
