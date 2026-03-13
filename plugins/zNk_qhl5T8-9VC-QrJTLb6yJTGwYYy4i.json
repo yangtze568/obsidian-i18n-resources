@@ -1,0 +1,2023 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "everyday-classical-music",
+        "version": "1.0.0",
+        "title": "Everyday Classical Music",
+        "description": "Everyday Classical Music Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, backfill all existing daily notes with classical music suggestions",
+                    "target": "启用后，将为所有现有的日记补充古典音乐建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backfill existing notes",
+                    "target": "补充现有日记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid date in YYYY-MM-DD format",
+                    "target": "请输入有效的日期，格式为 YYYY-MM-DD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphonic Études, op. 13",
+                    "target": "交响练习曲，作品13"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\"Triple\" Concerto for violin, cello, and piano in C, op. 56",
+                    "target": "C大调小提琴、大提琴与钢琴“三重”协奏曲，作品56"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #23 in A, K. 488",
+                    "target": "A大调第23号钢琴协奏曲，K. 488"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #16 in F, op. 135",
+                    "target": "F大调第16号弦乐四重奏，作品135"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "L'estro Armonico, op. 3",
+                    "target": "《和谐灵感》，作品3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Concerto Grosso #1",
+                    "target": "第1号大协奏曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto in E minor, op. 64",
+                    "target": "E小调小提琴协奏曲，作品64"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clarinet Concerto in A, K. 622",
+                    "target": "A大调单簧管协奏曲，K. 622"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Planets, op. 32",
+                    "target": "行星组曲，op. 32"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #8 in F, op. 93",
+                    "target": "F大调第8交响曲，op. 93"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #2 in D, op. 43",
+                    "target": "D大调第2交响曲，op. 43"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Madama Butterfly",
+                    "target": "蝴蝶夫人"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #40 in G minor, K. 550",
+                    "target": "G小调第40交响曲，K. 550"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cello Concerto #1 in C, Hob. VIIb/1",
+                    "target": "C大调第1大提琴协奏曲，Hob. VIIb/1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet in F minor, op. 34",
+                    "target": "F小调钢琴五重奏，op. 34"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3 in C, op. 52",
+                    "target": "C大调第3交响曲，op. 52"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #28 in A, op. 101",
+                    "target": "A大调第28钢琴奏鸣曲，op. 101"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Die Zauberflöte (The Magic Flute), K. 620",
+                    "target": "魔笛（The Magic Flute），K. 620"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #14 in C-sharp minor, op. 131",
+                    "target": "C♯小调第14号弦乐四重奏，作品131"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hebrides Overture, op. 26 \"Fingal's Cave\"",
+                    "target": "赫布里底群岛序曲，作品26《芬加尔洞窟》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cello Concerto in A minor, op. 129",
+                    "target": "A小调大提琴协奏曲，作品129"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #15 in D, op. 28 \"Pastoral\"",
+                    "target": "D大调第15号钢琴奏鸣曲，作品28《田园》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "L'Oiseau de Feu",
+                    "target": "火鸟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quartet #2 in A, op. 26",
+                    "target": "A大调第2号钢琴四重奏，作品26"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Concerto for Two Violins in D minor, BWV 1043",
+                    "target": "D小调双小提琴协奏曲，BWV 1043"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Also Sprach Zarathustra, op. 30",
+                    "target": "查拉图斯特拉如是说，作品30"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Winterreise, D. 911",
+                    "target": "冬之旅，D. 911"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in E minor, op. 98",
+                    "target": "e小调第4交响曲，作品98"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Matthäus-Passion ('St. Matthew Passion'), BWV 244",
+                    "target": "《马太受难曲》（《圣马太受难曲》），BWV 244"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #2 in E minor, op. 27",
+                    "target": "e小调第2交响曲，作品27"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #2 in D",
+                    "target": "D大调第2弦乐四重奏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in A minor, op. 63",
+                    "target": "a小调第4交响曲，作品63"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alto Rhapsody, op. 53",
+                    "target": "女中音狂想曲，作品53"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quintet #1 in F, op. 88",
+                    "target": "F大调第1弦乐五重奏，作品88"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #9 in E-flat, op. 70",
+                    "target": "降E大调第9交响曲，作品70"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Missa Pange lingua",
+                    "target": "《Pange lingua》弥撒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cello Suites, BWV 1007-1012",
+                    "target": "大提琴组曲，BWV 1007-1012"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #45 in F-sharp minor \"Farewell\"",
+                    "target": "F升小调第45号交响曲《告别》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Die Jahreszeiten (The Seasons), Hob. XXI/3",
+                    "target": "《四季》（The Seasons），Hob. XXI/3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet in E-flat, op. 44",
+                    "target": "降E大调钢琴五重奏，op. 44"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Salome, op. 54",
+                    "target": "《沙罗美》，op. 54"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #9",
+                    "target": "第9号交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto in D, op. 77",
+                    "target": "D大调小提琴协奏曲，op. 77"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #1 in C minor, op. 68",
+                    "target": "c小调第1号交响曲，op. 68"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #21 in C, op. 53 'Waldstein'",
+                    "target": "C大调第21号钢琴奏鸣曲，op. 53 《瓦尔德斯坦》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #21 in B-flat, D. 960",
+                    "target": "降B大调第21号钢琴奏鸣曲，D. 960"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #7 in C, op. 105",
+                    "target": "C大调第7号交响曲，op. 105"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horn Concertos",
+                    "target": "圆号协奏曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #6 in A minor",
+                    "target": "A小调第6交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pictures at an Exhibition",
+                    "target": "展览会之画"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Sonata #1 in G, op. 78",
+                    "target": "G大调第1号小提琴奏鸣曲，作品78"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #20 in A, D. 959",
+                    "target": "A大调第20号钢琴奏鸣曲，D. 959"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #1 in G minor, op. 25",
+                    "target": "g小调第1号钢琴协奏曲，作品25"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #7 in E, WAB 107",
+                    "target": "E大调第7交响曲，WAB 107"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suite Bergamasque, L 75, including 'Clair de lune'",
+                    "target": "贝加莫组曲，L 75，包含《月光》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #2 in G, Sz. 95, BB 101",
+                    "target": "G大调第2号钢琴协奏曲，Sz. 95，BB 101"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in E-flat \"Romantic\", WAB 104",
+                    "target": "降E大调第4交响曲“浪漫”，WAB 104"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Messe de Nostre Dame",
+                    "target": "巴黎圣母院弥撒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Trio #7 in B-flat, op. 97 \"Archduke\"",
+                    "target": "降B大调第7号钢琴三重奏，作品97 \"大公\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Musikalisches Opfer (A Musical Offering), BWV 1079",
+                    "target": "《音乐的奉献》（A Musical Offering），BWV 1079"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #2 in G minor, op. 16",
+                    "target": "g小调第2号钢琴协奏曲，作品16"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Images pour orchestre, L 122",
+                    "target": "《管弦乐的意象》，L 122"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Don Giovanni",
+                    "target": "唐璜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cantata #147 \"Herz und Mund und Tat und Leben\"",
+                    "target": "第147号康塔塔 \"Herz und Mund und Tat und Leben\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quartet #1 in G minor, op. 25",
+                    "target": "g小调第1号钢琴四重奏，作品25"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in G",
+                    "target": "G大调第4号交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tenebrae Responsories",
+                    "target": "暗祷答唱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #15 in A minor, op. 132",
+                    "target": "a小调第15号弦乐四重奏，作品132"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Madrigals, Book 8: Madrigali guerrieri, et amorosi",
+                    "target": "牧歌集第8册：战争与爱情牧歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dichterliebe (A Poet’s Love), op. 48",
+                    "target": "《诗人之恋》（诗人的爱情），作品48"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\"Double\" Concerto for Violin and Cello in A minor, op. 102",
+                    "target": "a小调《双协奏曲》—小提琴与大提琴，作品102"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto for the Left Hand in D",
+                    "target": "D调左手钢琴协奏曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto in D minor, op. 47",
+                    "target": "d小调小提琴协奏曲，作品47"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #41 in C, K. 551 'Jupiter'",
+                    "target": "C大调第41号交响曲，K. 551《朱庇特》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clarinet Sonatas, op. 120",
+                    "target": "单簧管奏鸣曲，作品120"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in B-flat, op. 60",
+                    "target": "降B大调第4号交响曲，作品60"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lyric Symphony, op. 18",
+                    "target": "抒情交响曲，作品18"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #8 in C minor, op. 13 \"Pathetique\"",
+                    "target": "c小调第8钢琴奏鸣曲，作品13“悲怆”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Die Schöpfung (The Creation), Hob.XXI/2",
+                    "target": "《创世纪》（The Creation），Hob.XXI/2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clarinet Quintet in A, K. 581",
+                    "target": "A大调单簧管五重奏，K. 581"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #3 in C, op. 26",
+                    "target": "C大调第3钢琴协奏曲，作品26"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #5, Sz. 102",
+                    "target": "第5弦乐四重奏，Sz. 102"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wanderer Fantasy in C, D. 760",
+                    "target": "C大调《流浪者幻想曲》，D. 760"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Trio #2 in E minor, op. 67",
+                    "target": "e小调第2钢琴三重奏，作品67"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alexander Nevsky, op. 78",
+                    "target": "《亚历山大·涅夫斯基》，作品78"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto #2 in E, BWV 1042",
+                    "target": "E大调第2小提琴协奏曲，BWV 1042"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #32 in C minor, op. 111",
+                    "target": "c小调第32钢琴奏鸣曲，作品111"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lyric Pieces",
+                    "target": "抒情小品集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quintet #4 in G minor, K. 516",
+                    "target": "g小调第4号弦乐五重奏，K. 516"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Music for Strings, Percussion, and Celesta, Sz. 106",
+                    "target": "弦乐、打击乐与钢片琴音乐，Sz. 106"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ma mère l'oye",
+                    "target": "鹅妈妈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tabula Rasa",
+                    "target": "白板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #1 in D, op. 25 \"Classical\"",
+                    "target": "D大调第1号交响曲，作品25《古典》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Water Music, HWV 348-350",
+                    "target": "水上音乐，HWV 348-350"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #3, Sz. 85",
+                    "target": "第3号弦乐四重奏，Sz. 85"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto, op. 14",
+                    "target": "小提琴协奏曲，作品14"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rhapsody in Blue",
+                    "target": "蓝色狂想曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fantasie in C, op. 17",
+                    "target": "C大调幻想曲，作品17"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto #2 in G minor, op. 63",
+                    "target": "g小调第二小提琴协奏曲，作品63"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "An American in Paris",
+                    "target": "一个美国人在巴黎"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "A Midsummer Night's Dream, op. 61; including the Overture, op. 21",
+                    "target": "《仲夏夜之梦》，作品61；包括序曲，作品21"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4",
+                    "target": "第四交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3 in E-flat, op. 55 'Eroica'",
+                    "target": "降E大调第三交响曲，作品55《英雄》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tristan und Isolde",
+                    "target": "《特里斯坦与伊索尔德》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3 in E-flat, op. 97 \"Rhenish\"",
+                    "target": "降E大调第三交响曲，作品97《莱茵》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Il cimento dell'armonia e dell'inventione, including Le quattro stagioni (The Four Seasons)",
+                    "target": "《和声与创意的较量》，包括《四季》（The Four Seasons）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3, op. 27 \"Sinfonia Espansiva\"",
+                    "target": "第三交响曲，作品27《扩展交响曲》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #27 in B-flat, K. 595",
+                    "target": "降B大调第27号钢琴协奏曲，K. 595"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Concerto for Orchestra, Sz. 116",
+                    "target": "管弦乐协奏曲，Sz. 116"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Concierto de Aranjuez",
+                    "target": "阿兰胡埃斯协奏曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Der Erlkönig, D. 328",
+                    "target": "魔王，D. 328"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5 in B-flat, op. 100",
+                    "target": "降B大调第五交响曲，作品100号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Trio in A minor, op. 67",
+                    "target": "a小调钢琴三重奏，作品67号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Der Ring des Nibelungen (The Ring of the Nibelung)",
+                    "target": "尼伯龙根的指环（尼伯龙根之戒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Trio #4 in E minor, op. 90 \"Dumky\"",
+                    "target": "e小调第四钢琴三重奏，作品90号“杜姆基”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tout un monde lointain",
+                    "target": "遥远的世界"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prélude à l'après-midi d'un faune (Prelude to the Afternoon of a Faun)",
+                    "target": "牧神午后前奏曲（牧神午后前奏曲）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sinfonia concertante in E-flat, K. 364/320d",
+                    "target": "降E大调交响协奏曲，K. 364/320d"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fantasía para un Gentilhombre",
+                    "target": "为绅士而作的幻想曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clarinet Quintet in B minor, op. 115",
+                    "target": "B小调单簧管五重奏，作品115"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ordo Virtutum",
+                    "target": "美德的秩序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #6, Sz. 114",
+                    "target": "第6号弦乐四重奏，Sz. 114"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Missa L'homme armé super voces musicales",
+                    "target": "《武装的人》弥撒（在音乐声部之上）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Missa Prolationum",
+                    "target": "比例弥撒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony of Psalms",
+                    "target": "诗篇交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sonata for Solo Cello, op. 8",
+                    "target": "无伴奏大提琴奏鸣曲，作品8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5 in D minor, op. 47",
+                    "target": "D小调第5交响曲，作品47"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brandenburg Concertos, BWV 1046-1051",
+                    "target": "勃兰登堡协奏曲，BWV 1046-1051"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diabelli Variations, op. 120",
+                    "target": "迪亚贝利变奏曲，op. 120"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #2 \"A London Symphony\"",
+                    "target": "第二交响曲《伦敦交响曲》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #4, Sz. 91",
+                    "target": "第四弦乐四重奏，Sz. 91"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vespro della Beata Vergine 1610",
+                    "target": "《圣母晚祷》1610"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preludes, op. 28",
+                    "target": "前奏曲，op. 28"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #104 in D \"London\"",
+                    "target": "D大调第104交响曲《伦敦》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #9 in D minor, op. 125 \"Choral\"",
+                    "target": "d小调第九交响曲，op. 125《合唱》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Russian Easter Festival Overture, op. 36",
+                    "target": "俄罗斯复活节节日序曲，op. 36"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #1 in D 'Titan'",
+                    "target": "D大调第一交响曲《泰坦》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #38 in D, K. 504 \"Prague\"",
+                    "target": "D大调第38号交响曲，K. 504“布拉格”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #30 in E, op. 109",
+                    "target": "E大调第30号钢琴奏鸣曲，作品109"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in F minor, op. 36",
+                    "target": "f小调第4号交响曲，作品36"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Concerti Grossi (12), op. 6",
+                    "target": "大协奏曲（12首），作品6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sonatas and Interludes for Prepared Piano",
+                    "target": "预置钢琴奏鸣曲与间奏曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cello Concerto in B minor, op. 104",
+                    "target": "b小调大提琴协奏曲，作品104"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fantasia in F minor for piano four-hands, D. 940",
+                    "target": "f小调四手联弹钢琴幻想曲，D. 940"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Slavonic Dances, opp. 46 & 72",
+                    "target": "斯拉夫舞曲，作品46与72"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #19 in C minor, D. 958",
+                    "target": "c小调第19号钢琴奏鸣曲，D. 958"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Das Lied von der Erde",
+                    "target": "大地之歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preludes and Fugues (24), op. 87",
+                    "target": "前奏曲与赋格（24首），作品87"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mystery (Rosary) Sonatas",
+                    "target": "神秘（玫瑰经）奏鸣曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lieder ohne Worte (Songs Without Words)",
+                    "target": "无词歌（Songs Without Words）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #12 in E-flat, op. 127",
+                    "target": "降E大调第12弦乐四重奏，作品127"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in C-sharp minor, op. 21",
+                    "target": "升C小调第4交响曲，作品21"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Christmas Oratorio, BWV 248",
+                    "target": "圣诞清唱剧，BWV 248"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #6 in D minor, op. 104",
+                    "target": "D小调第6交响曲，作品104"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chants d'Auvergne",
+                    "target": "奥弗涅之歌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Great Mass in C minor, K. 427",
+                    "target": "C小调大弥撒，K. 427"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #7 in B-flat, op. 83",
+                    "target": "降B大调第7钢琴奏鸣曲，作品83"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata in B minor, S.178",
+                    "target": "B小调钢琴奏鸣曲，S.178"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "La Mer, L 109",
+                    "target": "大海，L 109"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Danse Macabre, op. 40",
+                    "target": "死之舞，op. 40"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #2 in D, op. 73",
+                    "target": "D大调第二交响曲，op. 73"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cello Sonata #1 in E minor, op. 38",
+                    "target": "E小调第一大提琴奏鸣曲，op. 38"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horn Trio in E-flat, op. 40",
+                    "target": "降E大调圆号三重奏，op. 40"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #29 in B-flat, op. 106 'Hammerklavier'",
+                    "target": "降B大调第29钢琴奏鸣曲，op. 106“锤子键盘”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gaspard de la nuit",
+                    "target": "夜之幽灵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet #2 in A, op. 81",
+                    "target": "A大调第二钢琴五重奏，op. 81"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #8 in C minor, op. 110",
+                    "target": "C小调第八弦乐四重奏，op. 110"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #7 in C, op. 60 \"Leningrad\"",
+                    "target": "C大调第7交响曲，作品60号“列宁格勒”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "La traviata",
+                    "target": "茶花女"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #1 in B-flat minor, op. 23",
+                    "target": "降B小调第1钢琴协奏曲，作品23号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vier letzte Lieder (Four Last Songs)",
+                    "target": "四首最后的歌曲（四首最后的歌）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Octet for Strings in E-flat, op. 20",
+                    "target": "降E大调弦乐八重奏，作品20号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Le nozze di Figaro (The Marriage of Figaro), K. 492",
+                    "target": "费加罗的婚礼，K. 492"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5 in E-flat, op. 82",
+                    "target": "降E大调第5交响曲，作品82号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet #2 in E-flat minor, op. 26",
+                    "target": "降E小调第2钢琴五重奏，作品26号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet in G minor, op. 57",
+                    "target": "G小调钢琴五重奏，作品57号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #13 in B-flat, op. 130 and the Große Fuge, op. 133",
+                    "target": "降B大调第13弦乐四重奏，作品130号与《大赋格》，作品133号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Sextet #1 in B-flat, op. 18",
+                    "target": "降B大调弦乐六重奏第1号，作品18"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Missa Papae Marcelli",
+                    "target": "马切利教皇弥撒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Knoxville, Summer of 1915, op. 24",
+                    "target": "《1915年夏天的诺克斯维尔》，作品24"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in C minor, op. 43",
+                    "target": "C小调第4交响曲，作品43"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "La Bohème",
+                    "target": "波希米亚人"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quintet #2 in G, op. 111",
+                    "target": "G大调弦乐五重奏第2号，作品111"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Passacaglia and Fugue in C minor, BWV 582",
+                    "target": "C小调帕萨卡利亚与赋格，BWV 582"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pierrot Lunaire, op. 21",
+                    "target": "《月光小丑》，作品21"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Sonata #2 in A, op. 100",
+                    "target": "A大调小提琴奏鸣曲第2号，作品100"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #8 in C minor, op. 65",
+                    "target": "C小调第8交响曲，作品65"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Romeo and Juliet Fantasy-Overture",
+                    "target": "《罗密欧与朱丽叶》幻想序曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Romeo and Juliet, op. 64",
+                    "target": "《罗密欧与朱丽叶》作品64"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #2 in G minor, op. 22",
+                    "target": "g小调第二钢琴协奏曲，作品22"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #24 in C minor, K. 491",
+                    "target": "c小调第二十四钢琴协奏曲，K. 491"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "St. John's Night on Bare Mountain (Night on Bald Mountain)",
+                    "target": "圣约翰之夜在荒山上（秃山之夜）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartets, op. 76 'Erdödy'",
+                    "target": "弦乐四重奏，作品76《埃尔德迪》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto #1 in A minor, BWV 1041",
+                    "target": "a小调第一小提琴协奏曲，BWV 1041"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Black Angels (Thirteen Images from the Dark Land)",
+                    "target": "《黑天使》（黑暗之地的十三幅图景）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Goldberg Variations, BWV 988",
+                    "target": "《哥德堡变奏曲》，BWV 988"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #9 in C, D. 944 'Great'",
+                    "target": "C大调第九交响曲，D. 944《伟大》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tapiola, op. 112",
+                    "target": "《塔皮奥拉》，作品112"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kinderszenen, op. 15",
+                    "target": "《童年情景》，作品15"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Sonata in A",
+                    "target": "A大调小提琴奏鸣曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toccata and Fugue in D minor, BWV 565",
+                    "target": "d小调托卡塔与赋格，BWV 565"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Partitas for Keyboard #1-6, BWV 825-830 (Clavier-Übung I)",
+                    "target": "键盘帕蒂塔第1-6号，BWV 825-830（《键盘练习曲集》I）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5 in B-flat, D. 485",
+                    "target": "降B大调第五交响曲，D. 485"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet #1 in D minor, op. 89",
+                    "target": "d小调第一钢琴五重奏，作品89"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Impromptus, D. 899 & 935",
+                    "target": "即兴曲，D. 899与935"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Le Tombeau de Couperin",
+                    "target": "《库普兰之墓》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Images pour piano, L 110 & 111",
+                    "target": "《钢琴意象》，L 110与111"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto in D, op. 61",
+                    "target": "D大调小提琴协奏曲，作品61"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3 in F, op. 90",
+                    "target": "F大调第3号交响曲，作品90"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto in A minor, op. 54",
+                    "target": "a小调钢琴协奏曲，作品54"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Appalachian Spring",
+                    "target": "阿巴拉契亚之春"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartets, op. 20 \"Sun\"",
+                    "target": "弦乐四重奏，作品20“太阳”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "From Me Flows What You Call Time",
+                    "target": "从我而出的是你称之为时间的流逝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #6 'Pastoral' in F, op. 68",
+                    "target": "F大调第6号交响曲“田园”，作品68"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3 in A minor, op. 56 'Scottish'",
+                    "target": "a小调第3号交响曲“苏格兰”，作品56"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Harp Concerto \"Lyra Angelica\"",
+                    "target": "竖琴协奏曲“天使之琴”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #7 in D minor, op. 70",
+                    "target": "d小调第7号交响曲，作品70"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet in G minor, L 85",
+                    "target": "g小调弦乐四重奏，L 85"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scheherazade, op. 35",
+                    "target": "舍赫拉查德，作品35"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet #2 in C minor, op. 115",
+                    "target": "c小调第二钢琴五重奏，作品115"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Finlandia, op. 26",
+                    "target": "芬兰颂，作品26"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "English Suites, BWV 806-811",
+                    "target": "英国组曲，BWV 806-811"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5 in C minor, op. 67",
+                    "target": "c小调第五交响曲，作品67"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto in G",
+                    "target": "G大调钢琴协奏曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Magnificat in D, BWV 243",
+                    "target": "D大调尊主颂，BWV 243"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #18 in G, D 894",
+                    "target": "G大调第十八钢琴奏鸣曲，D 894"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #1 in D minor, op. 15",
+                    "target": "d小调第一钢琴协奏曲，作品15"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #14 in C-sharp minor, op. 27/2 \"Moonlight\"",
+                    "target": "C♯小调第14号钢琴奏鸣曲，作品27/2《月光》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mass in B minor, BWV 232",
+                    "target": "b小调弥撒，BWV 232"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Concerto for Violin, Piano, and String Quartet in D, op. 21",
+                    "target": "D大调小提琴、钢琴与弦乐四重奏协奏曲，作品21"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5, op. 50",
+                    "target": "第5号交响曲，作品50"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #8 in C minor, WAB 108",
+                    "target": "c小调第8号交响曲，WAB 108"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cello Concerto in E minor, op. 85",
+                    "target": "e小调大提琴协奏曲，作品85"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #103 in E-flat \"Drumroll\"",
+                    "target": "降E大调第103号交响曲《鼓声》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Má Vlast (My Country), including Vltava (The Moldau)",
+                    "target": "《我的祖国》（Má Vlast），包括《伏尔塔瓦河》（Vltava，又名《摩尔道河》）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Trio #1 in D minor, op. 49",
+                    "target": "d小调第1号钢琴三重奏，作品49"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #94 in G \"Surprise\"",
+                    "target": "G大调第94号交响曲《惊愕》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cello Concerto #1 in E-flat, op. 107",
+                    "target": "降E大调大提琴协奏曲第1号，作品107"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sonatas and Partitas for Solo Violin, BWV 1001-1006",
+                    "target": "无伴奏小提琴奏鸣曲与组曲，BWV 1001-1006"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Des Canyons aux étoiles",
+                    "target": "从峡谷到群星"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quartet #2 in G minor, op. 45",
+                    "target": "G小调钢琴四重奏第2号，作品45"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto #2 in G, Sz. 112, BB 117",
+                    "target": "G大调小提琴协奏曲第2号，Sz. 112，BB 117"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #20 in D minor, K. 466",
+                    "target": "D小调钢琴协奏曲第20号，K. 466"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #2 in C minor, op. 18",
+                    "target": "C小调钢琴协奏曲第2号，作品18"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #23 in F minor, op. 57 'Appassionata'",
+                    "target": "F小调钢琴奏鸣曲第23号，作品57“热情”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #21 in C, K. 467",
+                    "target": "C大调钢琴协奏曲第21号，K. 467"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5",
+                    "target": "第5交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3 in C minor, op. 78 'Organ'",
+                    "target": "C小调第3交响曲，作品78《管风琴》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3 \"Symphony of Sorrowful Songs,\" op. 36",
+                    "target": "第3交响曲《悲怆之歌》，作品36"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto #1 in A minor, op. 77",
+                    "target": "A小调第一小提琴协奏曲，作品77"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartets, op. 33 \"Russian\"",
+                    "target": "弦乐四重奏，作品33《俄罗斯》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #2 \"Resurrection\"",
+                    "target": "第2交响曲《复活》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "On an Overgrown Path",
+                    "target": "在杂草丛生的小径上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #39 in E-flat, K. 543",
+                    "target": "降E大调第39交响曲，K. 543"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Nutcracker, op. 71",
+                    "target": "《胡桃夹子》，作品71"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Giulio Cesare in Egitto, HWV 17",
+                    "target": "《埃及的凯撒》，HWV 17"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #15 in G, D. 887",
+                    "target": "G大调第15弦乐四重奏，D. 887"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Johannes-Passion, BWV 245",
+                    "target": "《约翰受难曲》BWV 245"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #6 'Pathétique' in B minor, op. 74",
+                    "target": "B小调第6交响曲《悲怆》，作品74"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Orchestral Suites, BWV 1066-1069",
+                    "target": "管弦组曲，BWV 1066-1069"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Holberg Suite, op. 40",
+                    "target": "《霍尔堡组曲》，作品40"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #26 in E-flat, op. 81a \"Les Adieux\"",
+                    "target": "降E大调第26钢琴奏鸣曲，作品81a《告别》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in D minor, op. 120",
+                    "target": "D小调第4交响曲，作品120"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Madrigals, Book 6",
+                    "target": "《牧歌集》第6卷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quartet #3 in C minor, op. 60 'Werther'",
+                    "target": "C小调第3钢琴四重奏，作品60《维特》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #3",
+                    "target": "第3交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet in A, D. 667 \"The Trout\"",
+                    "target": "A大调钢琴五重奏，D. 667《鳟鱼》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Daphnis et Chloé (ballet and orchestral suites)",
+                    "target": "达芙妮与克洛埃（芭蕾与管弦组曲）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Trio #2 in E-flat, D. 929",
+                    "target": "降E大调第二钢琴三重奏，D. 929"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #13 in B-flat minor, op. 113 \"Babi Yar\"",
+                    "target": "降B小调第十三交响曲，作品113《巴比亚尔》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Serenade for Strings in E, op. 22",
+                    "target": "E大调弦乐小夜曲，作品22"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto #1 in G minor, op. 26",
+                    "target": "G小调第一小提琴协奏曲，作品26"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lachrimae, or Seaven Teares",
+                    "target": "《泪》（或《七滴眼泪》）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Die Meistersinger von Nürnberg",
+                    "target": "《纽伦堡的名歌手》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphonie fantastique, op. 14",
+                    "target": "《幻想交响曲》，作品14"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quintet in C, D. 956",
+                    "target": "C大调弦乐五重奏，D. 956"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quintet for Piano and Winds in E-flat, K. 452",
+                    "target": "降E大调钢琴与管乐五重奏，K. 452"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quartet #1 in C minor, op. 15",
+                    "target": "C小调第一钢琴四重奏，作品15"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphonie Espagnole in D minor, op. 21",
+                    "target": "D小调《西班牙交响曲》，作品21"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Turangalîla-Symphonie",
+                    "target": "《图兰加利拉交响曲》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #4 in A, op. 90 'Italian'",
+                    "target": "A大调第四交响曲，作品90《意大利》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #25 in C, K. 503",
+                    "target": "C大调第25钢琴协奏曲，K.503"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #9 in E minor, op. 95 'From the New World'",
+                    "target": "e小调第9交响曲，作品95《自新大陆》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pavane pour une infante défunte",
+                    "target": "《死去公主的帕凡舞曲》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pini di Roma",
+                    "target": "《罗马的松树》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cantata #82 'Ich habe genug'",
+                    "target": "第82号清唱曲《我已满足》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #8 in G, op. 88",
+                    "target": "G大调第8交响曲，作品88"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Sextet #2 in G, op. 36",
+                    "target": "G大调弦乐六重奏第2号，作品36"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto in D, op. 35",
+                    "target": "D大调小提琴协奏曲，作品35"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #1 in E minor \"From My Life\"",
+                    "target": "E小调弦乐四重奏第1号“来自我的生活”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chromatic Fantasia and Fugue in D minor, BWV 903",
+                    "target": "D小调半音阶幻想曲与赋格，BWV 903"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Serenade #10 \"Gran Partita\" for winds in B-flat, K. 361/370a",
+                    "target": "降B大调第10号管乐小夜曲“格兰·帕尔蒂塔”，K. 361/370a"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #13 in A minor, D. 804 \"Rosamunde\"",
+                    "target": "A小调弦乐四重奏第13号，D. 804“罗莎蒙德”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Die Kunst der Fuge (The Art of Fugue), BWV 1080",
+                    "target": "《赋格的艺术》（The Art of Fugue），BWV 1080"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Concerto",
+                    "target": "小提琴协奏曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #8 in B minor, D. 759 'Unfinished'",
+                    "target": "B小调第8号交响曲，D. 759“未完成”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #7 in A, op. 92",
+                    "target": "A大调第7号交响曲，作品92"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Études pour piano, Books 1-3",
+                    "target": "钢琴练习曲，第1-3册"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eine Alpensinfonie, op. 64",
+                    "target": "阿尔卑斯交响曲，op. 64"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #10 in E minor, op. 93",
+                    "target": "e小调第10交响曲，op. 93"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Klavierstücke (Piano Pieces, 6), op. 118",
+                    "target": "钢琴小品（6首），op. 118"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Harpsichord Concerto #1 in D minor, BWV 1052",
+                    "target": "d小调第一羽管键琴协奏曲，BWV 1052"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #9 in D minor",
+                    "target": "d小调第九交响曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verklärte Nacht, op. 4",
+                    "target": "升华之夜，op. 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nocturnes, L 91",
+                    "target": "夜曲，L 91"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Sonata #31 in A-flat, op. 110",
+                    "target": "降A大调第31钢琴奏鸣曲，op. 110"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #4 in G, op. 58",
+                    "target": "G大调第四钢琴协奏曲，op. 58"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #2 in B-flat, op. 83",
+                    "target": "降B大调钢琴协奏曲第2号，作品83"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet in F",
+                    "target": "F大调弦乐四重奏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #1 in G minor, op. 13 \"Winter Daydreams\"",
+                    "target": "g小调第1交响曲，作品13《冬日幻想》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Trio #1 in B, op. 8",
+                    "target": "B大调第1钢琴三重奏，作品8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto in A minor, op. 16",
+                    "target": "a小调钢琴协奏曲，作品16"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #1 in B-flat, op. 38 \"Spring\"",
+                    "target": "降B大调第1交响曲，作品38《春》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #3 in C minor, op. 37",
+                    "target": "c小调第3钢琴协奏曲，作品37"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kreisleriana, op. 16",
+                    "target": "克莱斯勒里亚纳，作品16"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Noches en los Jardines de España (Nights in the Gardens of Spain)",
+                    "target": "西班牙花园之夜（西班牙花园中的夜晚）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #12 in F, op. 96 'American'",
+                    "target": "F大调第12弦乐四重奏，作品96《美国》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Symphony #5 in E minor, op. 64",
+                    "target": "E小调第五交响曲，作品64"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cantata #140 'Wachet auf, ruft uns die Stimme'",
+                    "target": "第140号康塔塔《醒来吧，呼唤我们的是那声音》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #1 in E minor, op. 11",
+                    "target": "E小调第一钢琴协奏曲，作品11"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clarinet Trio in A minor, op. 114",
+                    "target": "A小调单簧管三重奏，作品114"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stabat Mater, op. 53",
+                    "target": "《圣母悼歌》，作品53"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Concerto #3 in D minor, op. 30",
+                    "target": "D小调第三钢琴协奏曲，作品30"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Violin Sonata #9, op. 47 \"Kreutzer\"",
+                    "target": "第九小提琴奏鸣曲，作品47《克鲁采》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Peer Gynt, op. 23 (including the suites, #1, op. 46; and #2, op. 55)",
+                    "target": "《培尔·金特》，作品23（包括组曲：第1号，作品46；第2号，作品55）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Préludes for piano, Books I & II, L 117 & 123",
+                    "target": "钢琴前奏曲，第一与第二册，L 117与123"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Messiah, HWV 56",
+                    "target": "《弥赛亚》，HWV 56"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rückert Lieder",
+                    "target": "吕克特歌曲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "String Quartet #14 in D minor, D. 810 'Death and the Maiden'",
+                    "target": "D小调第14号弦乐四重奏，D. 810《死神与少女》"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Piano Quintet",
+                    "target": "钢琴五重奏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Feed the Markhor 🦌🪽",
+                    "target": "喂食马克霍尔羚🦌🪽"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
