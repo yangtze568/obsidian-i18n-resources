@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "double-row-toolbar",
+        "version": "1.0.0",
+        "title": "Double row toolbar",
+        "description": "Double row toolbar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "'Double row toolbar' plugin is not supported on desktop devices.",
+                    "target": "桌面设备不支持“Double row toolbar”插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete current line",
+                    "target": "删除当前行"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
