@@ -1,0 +1,229 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "combo-colors",
+        "version": "1.0.0",
+        "title": "Combo Colors",
+        "description": "Combo Colors Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "[ No notation profile in frontmatter ]",
+                    "target": "[ frontmatter 中没有记谱配置 ]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "To use this profile, add ",
+                    "target": "要使用此配置，请添加 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " to the file's frontmatter",
+                    "target": " 到文件的 frontmatter 中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add input",
+                    "target": "添加输入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create profile",
+                    "target": "创建配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Edit inputs",
+                    "target": "编辑输入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Case sensitive",
+                    "target": "区分大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used when resetting",
+                    "target": "重置时使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Shown in the profile dropdown menu",
+                    "target": "显示在配置下拉菜单中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Unique identifier used by cc_profile",
+                    "target": "cc_profile 使用的唯一标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the size of notation icons",
+                    "target": "设置标注图标的大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the colors for notation text and icons",
+                    "target": "自定义标注文本和图标的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Applies to all inputs below",
+                    "target": "适用于以下所有输入项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default color",
+                    "target": "默认颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display name",
+                    "target": "显示名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter ID",
+                    "target": "Frontmatter ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notation profile",
+                    "target": "标注配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon size",
+                    "target": "图标大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color settings",
+                    "target": "颜色设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text color",
+                    "target": "文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Light punch",
+                    "target": "轻拳"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please fill in all input fields",
+                    "target": "请填写所有输入框"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please fill in all fields",
+                    "target": "请填写所有字段"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile not found",
+                    "target": "未找到配置文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile ID already exists",
+                    "target": "配置文件 ID 已存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Custom profile created",
+                    "target": "自定义配置文件已创建"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Custom profile deleted",
+                    "target": "自定义配置文件已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ASW Standard",
+                    "target": "ASW 标准"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modern Alt",
+                    "target": "现代替代版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle notation icons",
+                    "target": "切换记谱图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit inputs",
+                    "target": "编辑输入项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create profile",
+                    "target": "创建配置文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete profile",
+                    "target": "删除配置文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Icon notation",
+                    "target": "图标记谱"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
