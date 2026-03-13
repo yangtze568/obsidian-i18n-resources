@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sync-contacts-macos",
+        "version": "1.0.0",
+        "title": "Sync Contacts on macOS",
+        "description": "Sync Contacts on macOS Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the folder in which your contacts will stored",
+                    "target": "选择存储联系人所在的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the name of the group (\"Smart List\") in which your contacts are stored in the MacOS Contacts app",
+                    "target": "输入 MacOS 通讯录应用中存储联系人所在的分组名称（“智能列表”）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "To update the shown contact fields, re-sync your contacts",
+                    "target": "要更新显示的联系人字段，请重新同步联系人"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Contacts folder",
+                    "target": "联系人文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Contacts group",
+                    "target": "联系人分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Configure the shown contact fields below",
+                    "target": "配置下方显示的联系人字段"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: This plugin only works on MacOS",
+                    "target": "错误：此插件仅适用于 MacOS"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error syncing contacts!",
+                    "target": "同步联系人时出错！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync contacts",
+                    "target": "同步联系人"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
