@@ -1,0 +1,367 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "transcription-audio",
+        "version": "1.0.0",
+        "title": "Transcription Audio",
+        "description": "Transcription Audio Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg class=\"transcription-audio-spinner\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>",
+                    "target": "<svg class=\"transcription-audio-spinner\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 12a9 9 0 1 1-6.219-8.56\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>",
+                    "target": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/></svg>",
+                    "target": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/></svg>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write transcript to target file:",
+                    "target": "无法将转写写入目标文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Transcription failed:",
+                    "target": "转写失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[progressBus] handler error",
+                    "target": "[progressBus] 处理程序错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[TranscriptionController] error",
+                    "target": "[TranscriptionController] 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[readBinary] error",
+                    "target": "[readBinary] 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a secret key name from Obsidian SecretStorage",
+                    "target": "从 Obsidian SecretStorage 中选择一个密钥名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Legacy plain-text API key. Used only as fallback.",
+                    "target": "旧版明文 API 密钥。仅用作备用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how output instructions are provided.",
+                    "target": "选择提供输出指令的方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the model to use for note-generation",
+                    "target": "选择用于生成笔记的模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prompt that will be sent to the AI right before adding your transcribed audio",
+                    "target": "在添加转写音频之前发送给 AI 的提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key (SecretStorage, recommended)",
+                    "target": "API 密钥（SecretStorage，推荐）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key (deprecated, not recommended)",
+                    "target": "API 密钥（已弃用，不推荐）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transcription mode",
+                    "target": "转写模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom transcription-to-notes prompt",
+                    "target": "自定义转录到笔记的提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Update Obsidian to enable SecretStorage",
+                    "target": "更新 Obsidian 以启用 SecretStorage"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "File detected",
+                    "target": "检测到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Preparing audio",
+                    "target": "正在准备音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Transcribing chunk",
+                    "target": "正在转录片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Uploading file",
+                    "target": "正在上传文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Requesting API",
+                    "target": "正在请求 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Retrying API",
+                    "target": "正在重试 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "API done",
+                    "target": "API 完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning text from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning data from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning function calls from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的函数调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning executable code from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的可执行代码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning code execution result from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的代码执行结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: extraBody provided but current request body is a Blob. extraBody will be ignored as merging is not supported for Blob bodies.",
+                    "target": "includeExtraBodyToRequestInit：已提供 extraBody，但当前请求体是 Blob。由于 Blob 请求体不支持合并，extraBody 将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is valid JSON but not a non-array object. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit：原始请求体是有效的 JSON，但不是非数组对象。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is not valid JSON. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit：原始请求体不是有效的 JSON。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Live music generation is experimental and may change in future versions.",
+                    "target": "实时音乐生成是实验性功能，未来版本可能会更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting `LiveConnectConfig.generation_config` is deprecated, please set the fields on `LiveConnectConfig` directly. This will become an error in a future version (not before Q3 2025).",
+                    "target": "设置 `LiveConnectConfig.generation_config` 已弃用，请直接在 `LiveConnectConfig` 上设置字段。此操作将在未来版本中变为错误（不早于 2025 年第三季度）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "GoogleGenAI.interactions: Interactions usage is experimental and may change in future versions.",
+                    "target": "GoogleGenAI.interactions: Interactions 功能为实验性，可能会在未来版本中更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "GoogleGenAI.interactions: Client level httpOptions.extraBody is not supported by the interactions client and will be ignored.",
+                    "target": "GoogleGenAI.interactions: 交互客户端不支持客户端级别的 httpOptions.extraBody，将被忽略。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error writing transcript to target file.",
+                    "target": "将转录内容写入目标文件时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file found",
+                    "target": "未找到活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No audio file found",
+                    "target": "未找到音频文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generator is already in progress.",
+                    "target": "生成器已在运行中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API Key is not configured. Please set it in the plugin settings.",
+                    "target": "API Key 未配置。请在插件设置中进行设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Transcription cancelled",
+                    "target": "转录已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Transcription failed",
+                    "target": "转录失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Basic mode prompt reset to default.",
+                    "target": "基础模式提示词已重置为默认。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Transcribe audio",
+                    "target": "转写音频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File: ",
+                    "target": "文件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Size: ",
+                    "target": "大小："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Status: ",
+                    "target": "状态："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Target: ",
+                    "target": "目标："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Model: ",
+                    "target": "模型："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Log start",
+                    "target": "日志开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chunk: -",
+                    "target": "块：-"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
