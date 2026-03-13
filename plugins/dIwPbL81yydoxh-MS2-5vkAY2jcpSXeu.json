@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "daily-note-structure",
+        "version": "1.0.0",
+        "title": "Daily Note Structure",
+        "description": "Daily Note Structure Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Von: ",
+                    "target": "来自："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Repository: ",
+                    "target": "仓库："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
