@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "exmemo-client",
+        "version": "1.0.0",
+        "title": "ExMemo Client",
+        "description": "ExMemo Client Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Login error:",
+                    "target": "登录错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to check async support:",
+                    "target": "检查异步支持失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload group failed:",
+                    "target": "上传组失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Progress polling failed:",
+                    "target": "进度轮询失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to terminate task:",
+                    "target": "终止任务失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Read local file failed:",
+                    "target": "读取本地文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Copy failed:",
+                    "target": "复制失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No local file to open",
+                    "target": "没有可打开的本地文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open local file:",
+                    "target": "打开本地文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "upload file return",
+                    "target": "上传文件返回"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== Search Leaf Debug Info ===",
+                    "target": "=== 搜索叶子调试信息 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Search leaf structure:",
+                    "target": "搜索叶子结构："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Leaf keys:",
+                    "target": "叶子键："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DOM structure:",
+                    "target": "DOM 结构："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "vChildren:",
+                    "target": "vChildren："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "View structure:",
+                    "target": "视图结构："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "View keys:",
+                    "target": "视图键："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Search query:",
+                    "target": "搜索查询："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "getQuery() result:",
+                    "target": "getQuery() 结果："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== End Debug Info ===",
+                    "target": "=== 调试信息结束 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "dir1, dir2, ... default is all",
+                    "target": "dir1, dir2, ... 默认为全部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "dir1, *_xxx.md default is null",
+                    "target": "dir1, *_xxx.md 默认值为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "interrupt sync",
+                    "target": "中断同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "no vault files, wait for next update",
+                    "target": "没有 vault 文件，等待下一次更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
