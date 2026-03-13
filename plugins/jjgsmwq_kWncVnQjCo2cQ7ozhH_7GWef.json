@@ -1,0 +1,157 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "image2latex",
+        "version": "1.0.0",
+        "title": "Image2LaTEX",
+        "description": "Image2LaTEX Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "alert",
+                    "source": "Simple TEX not working properly, see logs.",
+                    "target": "Simple TEX 无法正常工作，请查看日志。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "alert",
+                    "source": "No image found in clipboard, please copy an image then run command again.",
+                    "target": "剪贴板中未找到图片，请复制一张图片后再运行命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "alert",
+                    "source": "No markdown view found, please open a markdown file.",
+                    "target": "未找到 Markdown 视图，请打开一个 Markdown 文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "alert",
+                    "source": "Error while fetching latex, please check the console for more information.",
+                    "target": "获取 LaTeX 时出错，请查看控制台获取更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Simpletext response",
+                    "target": "Simpletext 响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Simple tex response",
+                    "target": "Simple tex 响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Simple tex data",
+                    "target": "Simple tex 数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The URL for the API endpoint, only active when self-hosted is enabled.",
+                    "target": "API 端点的 URL，仅在启用自托管时生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your username for authentication. If you use self-hosted and a basic auth proxy before the container.",
+                    "target": "用于认证的用户名。如果你使用自托管并在容器前使用基本认证代理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your password for authentication. If you use self-hosted and a basic auth proxy before the container.",
+                    "target": "用于认证的密码。如果你使用自托管并在容器前使用基本认证代理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which provider to use for OCR and Latex conversion",
+                    "target": "选择用于 OCR 和 LaTeX 转换的提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your SimpleTexToken, see README.md for more info.",
+                    "target": "你的 SimpleTexToken，更多信息请参阅 README.md。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Username (self-hosted optional)",
+                    "target": "用户名（自托管可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Password (self-hosted optional)",
+                    "target": "密码（自托管可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Latex provider",
+                    "target": "LaTeX 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your URL",
+                    "target": "输入你的 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your username",
+                    "target": "输入你的用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your password",
+                    "target": "输入你的密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter token...",
+                    "target": "输入令牌…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate multiline LaTeX from last image to clipboard",
+                    "target": "从上一张图像生成多行 LaTeX 到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate inline LaTeX from last image to clipboard",
+                    "target": "从上一张图片生成内联 LaTeX 到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate markdown from last image to clipboard using Texify",
+                    "target": "使用 Texify 从上一张图片生成 Markdown 到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please see the README.md for info on how to configure the extension",
+                    "target": "有关如何配置扩展的信息，请查看 README.md"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
