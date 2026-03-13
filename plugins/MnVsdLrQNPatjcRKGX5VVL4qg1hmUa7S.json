@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "touchbar-macros",
+        "version": "1.0.0",
+        "title": "Touch Bar Macros",
+        "description": "Touch Bar Macros Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Background Color",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This is how you press a key, where `KEYCODE` is the name of the key you want pressed. Keycodes can be found <a >here</a>.",
+                    "target": "这是按键的方法，其中 `KEYCODE` 是你要按下的键名。键码可在 <a >此处</a> 找到。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": ", is used to add a delay between key presses where `DELAY` is the amount in ms.",
+                    "target": ", 用于在按键之间添加延迟，其中 `DELAY` 为毫秒数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\" is used to type text where `TEXT` is the text you want typed",
+                    "target": "\" 用于输入文本，其中 `TEXT` 是你要输入的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "# is used to add a comment where `COMMENT` is the comment you want to add.",
+                    "target": "# 用于添加注释，其中 `COMMENT` 是你要添加的注释。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\ is used to escape a character where `CHAR` is the character you want to escape.",
+                    "target": "\\ 用于转义字符，其中 `CHAR` 是你要转义的字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "{}() is used to repeat a sequence of keys where `REPEAT` is the sequence you want to repeat.",
+                    "target": "{}() 用于重复一串按键，其中 `REPEAT` 是你要重复的序列。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "List of available keycodes",
+                    "target": "可用键码列表"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
