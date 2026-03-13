@@ -1,0 +1,49 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "footlinks",
+        "version": "1.0.0",
+        "title": "Footlinks",
+        "description": "Footlinks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Seperates the footlinks area from main body",
+                    "target": "将页脚链接区域与主体分隔开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Footlinks seperator",
+                    "target": "页脚链接分隔器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show icon in left side menu",
+                    "target": "在左侧菜单中显示图标"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No legal links found on this page.",
+                    "target": "此页面未找到合法链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refactor current page",
+                    "target": "重构当前页面"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
