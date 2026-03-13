@@ -1,0 +1,145 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quick-tagger",
+        "version": "1.0.0",
+        "title": "Quick Tagger",
+        "description": "Quick Tagger Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ADDING TAGS",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If disabled, only Starred Tags will be shown in the tag selection dialog.",
+                    "target": "如果禁用，标签选择对话框将只显示加星标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use all tags",
+                    "target": "使用所有标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preferred tag case",
+                    "target": "首选标签大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a tag",
+                    "target": "选择一个标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Starred tags get special treatment. Click or hover over these buttons for more details 👉",
+                    "target": "加星标签会获得特殊待遇。点击或悬停这些按钮了解更多详情 👉"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Tag file with...",
+                    "target": "为文件添加标签..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add a starred tag",
+                    "target": "添加加星标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show first in tag selection dialog",
+                    "target": "在标签选择对话框中优先显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add command for this tag",
+                    "target": "为此标签添加命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add button to status bar",
+                    "target": "将按钮添加到状态栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add context menu entry",
+                    "target": "添加上下文菜单项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move Starred tag up",
+                    "target": "将加星标签上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move Starred tag down",
+                    "target": "将加星标签下移"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Could not find tags!",
+                    "target": "错误：找不到标签！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file open!",
+                    "target": "未打开文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file tags to change!",
+                    "target": "没有可更改的文件标签！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ERROR: No recent tag, please assign a tag with Quick Tagger before using this command",
+                    "target": "错误：没有最近使用的标签，请先使用 Quick Tagger 分配一个标签再使用此命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add tag",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle recently used tag (none)",
+                    "target": "切换最近使用的标签（无）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Starred tags",
+                    "target": "已加星标的标签"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
