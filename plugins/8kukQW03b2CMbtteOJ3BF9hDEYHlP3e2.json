@@ -1,0 +1,421 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "smart-second-brain",
+        "version": "1.0.0",
+        "title": "Smart Second Brain",
+        "description": "Smart Second Brain Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<input type=\"checkbox\" tabindex=\"0\"/>",
+                    "target": "<input type=\"checkbox\" tabindex=\"0\"/>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "There was an error pulling the recommended model",
+                    "target": "拉取推荐模型时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Caught error in getAllPluginsByHook:",
+                    "target": "在 getAllPluginsByHook 中捕获到错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to preventDefault inside passive event listener invocation.",
+                    "target": "无法在被动事件监听器调用中执行 preventDefault。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Restored recordManager from backup",
+                    "target": "已从备份恢复 recordManager"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Restored vectorstore from backup",
+                    "target": "已从备份恢复 vectorstore"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Running RAG... Input:",
+                    "target": "正在运行 RAG… 输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Stopping run...",
+                    "target": "正在停止运行…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pulling model from Ollama",
+                    "target": "正在从 Ollama 拉取模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Initializing second brain",
+                    "target": "正在初始化第二大脑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "\nGen Model: ",
+                    "target": "\n生成模型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Saved vector store data",
+                    "target": "已保存向量存储数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unloading plugin",
+                    "target": "正在卸载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已被弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已被弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tokenizer not initialized properly!",
+                    "target": "分词器未正确初始化！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LLaMA Tokenizer tests passed successfully.",
+                    "target": "LLaMA 分词器测试已成功通过。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[agentkeepalive:deprecated] %s",
+                    "target": "[agentkeepalive:deprecated] %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[WARNING]: Received non-string content from OpenAI. This is currently not supported.",
+                    "target": "[WARNING]: 收到来自 OpenAI 的非字符串内容。当前不支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Need to reopen db",
+                    "target": "Dexie：需要重新打开数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Workaround for Chrome UnknownError on open()",
+                    "target": "Dexie：针对 Chrome 在 open() 上的 UnknownError 的变通方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to calculate number of tokens, falling back to approximate count",
+                    "target": "无法计算 token 数量，改用近似计数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Supprimer un modèle installé de votre système",
+                    "target": "从系统中移除已安装的模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "从系统中移除已安装的模型",
+                    "target": "从系统中移除已安装的模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "시스템에서 설치된 모델 제거하기",
+                    "target": "从系统中移除已安装的模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Are you sure you want to run via third-parties? Your personal data will be shared with third-party services like OpenAI.",
+                    "target": "确定要通过第三方运行吗？您的个人数据将与 OpenAI 等第三方服务共享。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "¿Estás seguro de que quieres ejecutar mediante servicios de terceros? Tus datos personales serán compartidos con servicios de terceros como OpenAI.",
+                    "target": "确定要通过第三方服务运行吗？您的个人数据将与 OpenAI 等第三方服务共享。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Êtes-vous sûr de vouloir exécuter via des tiers ? Vos données personnelles seront partagées avec des services tiers comme OpenAI.",
+                    "target": "确定要通过第三方运行吗？您的个人数据将与 OpenAI 等第三方服务共享。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Êtes-vous sûr de vouloir supprimer les données du plugin ? Notez que seules les données du plugin et les données du magasin vectoriel seront supprimées. Tous les fichiers de discussion dans votre coffre ne seront pas affectés.",
+                    "target": "您确定要删除插件数据吗？请注意，只有插件数据和向量存储数据会被删除。您保险库中的所有聊天文件不会受到影响。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "您确定要使用第三方服务吗？您的个人数据将与 OpenAI 等第三方服务共享。",
+                    "target": "您确定要使用第三方服务吗？您的个人数据将与 OpenAI 等第三方服务共享。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "您确定要删除插件数据吗？请注意，只有插件数据和向量存储数据将被移除。仓库中的所有聊天记录文件将不受影响。",
+                    "target": "您确定要删除插件数据吗？请注意，只有插件数据和向量存储数据将被移除。仓库中的所有聊天记录文件将不受影响。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "타사를 통해 실행하시겠습니까? 귀하의 개인 데이터가 OpenAI와 같은 타사 서비스와 공유됩니다.",
+                    "target": "您确定要通过第三方运行吗？您的个人数据将与 OpenAI 等第三方服务共享。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "플러그인 데이터를 정말 삭제하시겠습니까? 플러그인 데이터와 벡터 저장소 데이터만 제거된다는 점을 참고하세요. 귀하의 보관함 내 모든 채팅 파일은 영향을 받지 않습니다.",
+                    "target": "您确定要删除插件数据吗？请注意，仅会移除插件数据和向量存储数据。您保管库中的所有聊天文件不会受到影响。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Malformed args.",
+                    "target": "参数格式错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "An error occured. Please wait for the error to resolve.",
+                    "target": "发生错误。请等待错误解决。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Error al eliminar el modelo. El modelo podría no estar instalado",
+                    "target": "删除模型时出错。模型可能未安装。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Ocurrió un error. Por favor, espera a que se resuelva el error.",
+                    "target": "发生错误。请等待错误解决。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Model kaldırılamadı. Model kurulu olmayabilir",
+                    "target": "无法删除模型。模型可能未安装。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Bir hata oluştu. Lütfen hatanın düzelmesini bekleyin.",
+                    "target": "发生错误。请等待错误修复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Échec de la suppression du modèle. Le modèle n'est peut-être pas installé",
+                    "target": "删除模型失败。模型可能未安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Une erreur est survenue. Veuillez attendre que l'erreur soit résolue.",
+                    "target": "发生错误。请等待错误解决。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "移除模型失败，模型可能未安装",
+                    "target": "移除模型失败，模型可能未安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "发生错误。请等待错误解决。",
+                    "target": "发生错误。请等待错误解决。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "모델 제거 실패. 모델이 설치되지 않았을 수 있음",
+                    "target": "删除模型失败。模型可能未安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "오류가 발생했습니다. 오류가 해결될 때까지 기다려 주세요.",
+                    "target": "发生错误。请等待错误解决。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eliminar Modelo Ollama",
+                    "target": "删除 Ollama 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ollama Modelini Kaldır",
+                    "target": "删除 Ollama 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Supprimer le modèle Ollama",
+                    "target": "删除 Ollama 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "移除 Ollama 模型",
+                    "target": "移除 Ollama 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ollama 모델 제거하기",
+                    "target": "移除 Ollama 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Modelo eliminado con éxito",
+                    "target": "模型删除成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Model başarıyla kaldırıldı",
+                    "target": "模型移除成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Modèle supprimé avec succès",
+                    "target": "模型删除成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "模型已成功移除",
+                    "target": "模型已成功移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "모델이 성공적으로 제거됨",
+                    "target": "模型移除成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Run via Third-Party Services",
+                    "target": "通过第三方服务运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Clear Plugin Data",
+                    "target": "清除插件数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ejecutar mediante Servicios de Terceros",
+                    "target": "通过第三方服务运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Üçüncü Parti Hizmetler Üzerinden Çalıştır",
+                    "target": "通过第三方服务运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Exécuter via des services tiers",
+                    "target": "通过第三方服务运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Effacer les données du plugin",
+                    "target": "清除插件数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "通过第三方服务运行",
+                    "target": "通过第三方服务运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "清除插件数据",
+                    "target": "清除插件数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "타사 서비스를 통해 실행",
+                    "target": "通过第三方服务运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "플러그인 데이터 삭제",
+                    "target": "清除插件数据"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
