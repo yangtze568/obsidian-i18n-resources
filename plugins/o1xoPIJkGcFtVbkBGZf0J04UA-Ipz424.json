@@ -1,0 +1,961 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "personal-assistant",
+        "version": "1.0.0",
+        "title": "Personal Assistant",
+        "description": "Personal Assistant Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "File format which is like Diary setting.\nFor more syntax details, ",
+                    "target": "类似日记设置的文件格式。\n更多语法细节，"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "please check moment format.",
+                    "target": "请查看 moment 格式。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Auto updating metadata in frontmatter when file is modified.\nTimestamp format follows `moment.js` and syntax details, ",
+                    "target": "文件修改时自动更新 frontmatter 中的元数据。\n时间戳格式遵循 `moment.js`，语法细节，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1 Regular String",
+                    "target": "1 普通字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "2 Timestamp",
+                    "target": "2 时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Daily Statistcs",
+                    "target": "每日统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Total Statistics",
+                    "target": "总计统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Qwen (通义千问)",
+                    "target": "Qwen (通义千问)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ollama (Local)",
+                    "target": "Ollama（本地）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error exporting batch:",
+                    "target": "导出批次出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing function arguments",
+                    "target": "解析函数参数时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing chunk:",
+                    "target": "解析分块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not copy text: ",
+                    "target": "无法复制文本："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not copy text:",
+                    "target": "无法复制文本："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error polling task:",
+                    "target": "轮询任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to parse error response as JSON",
+                    "target": "无法将错误响应解析为 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Getting text from response",
+                    "target": "正在从响应获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to get text from error response",
+                    "target": "无法从错误响应获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[WARNING]: Received non-string content from OpenAI. This is currently not supported.",
+                    "target": "[WARNING]: 收到来自 OpenAI 的非字符串内容。当前不支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error loading VSS dirty journal:",
+                    "target": "加载 VSS 脏日志时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "adding new color",
+                    "target": "正在添加新颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "adding new frontmatter",
+                    "target": "正在添加新的 frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "changing statistics type",
+                    "target": "正在更改统计类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "changing AI provider",
+                    "target": "正在更改 AI 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "iterating hovers...",
+                    "target": "正在遍历悬停项..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "setting hover editor attribute...",
+                    "target": "正在设置悬停编辑器属性..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "view state",
+                    "target": "视图状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "setting colors",
+                    "target": "正在设置颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "fail to find notice DocumentFragment",
+                    "target": "未能找到提示 DocumentFragment"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error in getCommunityPlugins",
+                    "target": "getCommunityPlugins 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "fail to get commnity plugin json file from jsdelivr",
+                    "target": "无法从 jsdelivr 获取社区插件 json 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "repo is null",
+                    "target": "repo 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "the input JSON for getLatestTag is null",
+                    "target": "getLatestTag 的输入 JSON 为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error in grabReleaseFileFromRepository",
+                    "target": "grabReleaseFileFromRepository 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "All async plugin updating completed",
+                    "target": "所有异步插件更新已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "startup new RecordList",
+                    "target": "启动新的 RecordList"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "invoking LLM",
+                    "target": "调用 LLM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "logging settings...",
+                    "target": "记录设置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "creating directory path: ",
+                    "target": "创建目录路径： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "creating file: ",
+                    "target": "创建文件： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Migrating settings from old version",
+                    "target": "从旧版本迁移设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings migration completed",
+                    "target": "设置迁移完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error during settings migration:",
+                    "target": "设置迁移期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Change Color",
+                    "target": "更改颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Color",
+                    "target": "添加颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Target directory to do recording",
+                    "target": "用于录制的目标目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "File numbers to preview",
+                    "target": "预览的文件数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Type of hover",
+                    "target": "悬停类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Depth of link jumps",
+                    "target": "链接跳转深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show tags in local graph view",
+                    "target": "在本地图表视图中显示标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show attachments in local graph view",
+                    "target": "在本地图表视图中显示附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show neighbors in local graph view",
+                    "target": "在本地图表视图中显示邻居"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Collapse local graph view setting",
+                    "target": "折叠本地图表视图设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically set colors of local graph view.",
+                    "target": "自动设置本地图表视图的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use personal assistant set colors of graph view.",
+                    "target": "使用个人助手设置图表视图颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will be the Color used in the graph view.",
+                    "target": "这将是图形视图中使用的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Value now only upport formatted timestamp and regular string.",
+                    "target": "值现在仅支持格式化时间戳和普通字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude files in the directory to update metadata",
+                    "target": "排除目录中的文件以更新元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show statistics in the status bar",
+                    "target": "在状态栏显示统计信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reload required for change to take effect. The location of the vault statistics file, relative to the vault root.",
+                    "target": "更改生效需要重新加载。Vault 统计文件的位置，相对于 vault 根目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the AI service provider",
+                    "target": "选择 AI 服务提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "API base URL for the selected provider",
+                    "target": "所选提供商的 API 基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name of the chat model to use",
+                    "target": "要使用的聊天模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The number of images to generate when using AI Featured Image Helper.",
+                    "target": "使用 AI 特色图片助手时生成的图片数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude files in the directory to cache vector store",
+                    "target": "排除目录中的文件以缓存向量存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target Path",
+                    "target": "目标路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File Format",
+                    "target": "文件格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preview Number",
+                    "target": "预览数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Tags",
+                    "target": "显示标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Attachment",
+                    "target": "显示附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Neighbor",
+                    "target": "显示邻居"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Local Graph Colors",
+                    "target": "自动本地图颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Graph Colors",
+                    "target": "启用图谱颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Updating Metadata",
+                    "target": "启用更新元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Key:Value in frontmatter",
+                    "target": "在 frontmatter 中添加键:值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Meta Updating Exclude Path",
+                    "target": "元数据更新排除路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Statistics",
+                    "target": "显示统计信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault Stats File Path",
+                    "target": "Vault统计文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI Provider",
+                    "target": "AI 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Base URL",
+                    "target": "基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chat Model Name",
+                    "target": "聊天模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Token",
+                    "target": "API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI Featured Image Path",
+                    "target": "AI 特色图片路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI Featured Images Generating Number",
+                    "target": "AI 特色图片生成数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "VSS Exclude Path",
+                    "target": "VSS 排除路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type plugin name to find it",
+                    "target": "输入插件名称以查找它"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Open GitHub repository",
+                    "target": "打开 GitHub 仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You have enabled OTEL export via the `OTEL_ENABLED` or `LANGSMITH_OTEL_ENABLED` environment variable, but have not initialized the required OTEL instances. Please add:\n```\nimport { initializeOTEL } from \"langsmith/experimental/otel/setup\";\ninitializeOTEL();\n```\nat the beginning of your code.",
+                    "target": "您已通过 `OTEL_ENABLED` 或 `LANGSMITH_OTEL_ENABLED` 环境变量启用 OTEL 导出，但尚未初始化所需的 OTEL 实例。请在代码开头添加：\n```\nimport { initializeOTEL } from \"langsmith/experimental/otel/setup\";\ninitializeOTEL();\n```\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARNING]: When tracing in manual flush mode, you must call `await client.flush()` manually to submit trace batches.",
+                    "target": "[WARNING]: 在手动 flush 模式下进行跟踪时，必须手动调用 `await client.flush()` 以提交跟踪批次。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid LANGSMITH_RUNS_ENDPOINTS – must be valid JSON array of objects with api_url and api_key properties, or object mapping url->apiKey",
+                    "target": "无效的 LANGSMITH_RUNS_ENDPOINTS – 必须是包含 api_url 和 api_key 属性的对象 JSON 数组，或 url->apiKey 的对象映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "在未启用 'Filler' 插件的情况下尝试使用 'fill' 选项。请导入并注册 'Filler' 插件，并确保它未在选项中被禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to calculate number of tokens, falling back to approximate count",
+                    "target": "无法计算 token 数量，回退为近似计数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid json: ",
+                    "target": "无效的 json： "
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generation cancelled",
+                    "target": "生成已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Message deleted",
+                    "target": "消息已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Chat cleared",
+                    "target": "聊天已清空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a markdown file first",
+                    "target": "请先打开一个 Markdown 文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Added response to editor",
+                    "target": "已将回复添加到编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI is not available.",
+                    "target": "AI 不可用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Featured image generation is only supported with Qwen provider.",
+                    "target": "特色图片生成仅支持 Qwen 提供方。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI feautured image generation failed.",
+                    "target": "AI 特色图片生成失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please wait for the vector store to be loaded.",
+                    "target": "请等待向量存储加载完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to get image: Task did not succeed or timed out.",
+                    "target": "获取图片失败：任务未成功或超时。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "hover local graph failed",
+                    "target": "悬停本地图形失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "got some network issue when accessing github.com",
+                    "target": "访问 github.com 时出现网络问题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tips: please switch to edit mode to insert",
+                    "target": "提示：请切换到编辑模式以插入"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: not a editable markdown file",
+                    "target": "错误：不是可编辑的 Markdown 文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "starting obsidian assistant",
+                    "target": "正在启动 obsidian assistant"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "update metadata command is not enabled in setting tab",
+                    "target": "更新元数据命令未在设置选项卡中启用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prepare LLM failed!",
+                    "target": "准备 LLM 失败！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Copy message",
+                    "target": "复制消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Delete message",
+                    "target": "删除消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "*Generation cancelled*",
+                    "target": "*生成已取消*"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Malformed args.",
+                    "target": "参数格式错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "String does not match pattern.",
+                    "target": "字符串不匹配模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Daily Words",
+                    "target": "每日字数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Daily Pages",
+                    "target": "每日页数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Total Files",
+                    "target": "文件总数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Total Pages",
+                    "target": "总页数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open specific note to record",
+                    "target": "打开指定笔记以记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hover local graph",
+                    "target": "悬停本地图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "switch on/off plugin according to its status",
+                    "target": "根据状态切换插件开启/关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch switch on/off plugins according to their status",
+                    "target": "根据状态批量切换插件开启/关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set graph view colors",
+                    "target": "设置图谱视图颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update plugins with one command",
+                    "target": "一条命令更新插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update metadata with one command",
+                    "target": "一条命令更新元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List callout for quickly insert",
+                    "target": "用于快速插入的列表标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preview records that are created by `startup-recording` command",
+                    "target": "预览由 `startup-recording` 命令创建的记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show statistics",
+                    "target": "显示统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AI Summary",
+                    "target": "AI 摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AI Featured Images",
+                    "target": "AI 特色图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Init Vector Store Cache of Current Obisidna Vault",
+                    "target": "初始化当前 Obisidna Vault 的向量存储缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Chat in Sidebar",
+                    "target": "在侧边栏打开聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "show current note grah view",
+                    "target": "显示当前笔记的图表视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type your message here...",
+                    "target": "在此输入你的消息..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clear Chat",
+                    "target": "清空聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add to Editor",
+                    "target": "添加到编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Statistics of Obsidian Vault",
+                    "target": "Obsidian Vault 统计信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "words of vault named as Anthelion",
+                    "target": "名为 Anthelion 的 vault 的字数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Obsidian Assistant",
+                    "target": "Obsidian Assistant 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Assistant by Shadow Walker, ",
+                    "target": "Obsidian Assistant by Shadow Walker, "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Record",
+                    "target": "记录设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Hover Local Graph",
+                    "target": "悬停本地图设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Graph Resize",
+                    "target": "图谱缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Graph Colors",
+                    "target": "图谱颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vault Statistics",
+                    "target": "库统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI Assistant",
+                    "target": "AI 助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI Helper supports Qwen, OpenAI, and Ollama models",
+                    "target": "AI 助手支持 Qwen、OpenAI 和 Ollama 模型"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
