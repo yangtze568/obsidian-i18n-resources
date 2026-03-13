@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-smart-links",
+        "version": "1.0.0",
+        "title": "Smart Links",
+        "description": "Smart Links Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Regular expression",
+                    "target": "正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Smart Links",
+                    "target": "智能链接设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
