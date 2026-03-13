@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "modal-opener",
+        "version": "1.0.0",
+        "title": "Modal Opener",
+        "description": "Modal Opener Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error disabling dark mode: ",
+                    "target": "禁用深色模式时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get background color: ",
+                    "target": "获取背景颜色失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "createExcalidrawFile failed:",
+                    "target": "createExcalidrawFile 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "createTldrFile failed:",
+                    "target": "createTldrFile 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "createExcelFile failed:",
+                    "target": "createExcelFile 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Sheet Plus",
+                    "target": "Sheet Plus"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Code File",
+                    "target": "代码文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Simple Mind Map",
+                    "target": "简易思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle background blur",
+                    "target": "切换背景模糊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open current tab content in modal",
+                    "target": "在模态框中打开当前标签内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open modal content in new tab",
+                    "target": "在新标签页打开弹窗内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "untitled code file",
+                    "target": "未命名的代码文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "目录",
+                    "target": "目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No headings found",
+                    "target": "未找到标题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
