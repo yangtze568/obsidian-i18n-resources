@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "node-factor",
+        "version": "1.0.0",
+        "title": "Node Factor",
+        "description": "Node Factor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Multiplier for forward links weight (0 to diable).",
+                    "target": "正向链接权重的倍数（0 为 diable）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Travel forward tree to calcuate node size.",
+                    "target": "遍历正向树以计算节点大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Multiplier for backward links weight (0 to diable).",
+                    "target": "反向链接权重的倍数（0 为 diable）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add 1 weight to node size per no of given Character (0 to disable).",
+                    "target": "每给定字符数量为节点大小增加 1 权重（0 为禁用）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Forward link weight multiplier",
+                    "target": "正向链接权重倍数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Travel forward tree",
+                    "target": "遍历正向树"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backward link weight multiplier",
+                    "target": "反向链接权重倍数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Character per weight",
+                    "target": "每权重字符数"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
