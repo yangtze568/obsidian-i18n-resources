@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "newledge",
+        "version": "1.0.0",
+        "title": "新枝Newledge",
+        "description": "新枝Newledge Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "24小时",
+                    "target": "24小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "12小时",
+                    "target": "12小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1小时",
+                    "target": "1小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "解绑",
+                    "target": "解绑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "立即重试",
+                    "target": "立即重试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重试中...",
+                    "target": "重试中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "个人页 > 数据联动 > 同步到 Obsidian 桌面端",
+                    "target": "个人页 > 数据联动 > 同步到 Obsidian 桌面端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "30天内重新绑定不会同步已同步过的数据",
+                    "target": "30天内重新绑定不会同步已同步过的数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每隔一段时间从新枝同步数据到 Obsidian 中",
+                    "target": "每隔一段时间从新枝同步数据到 Obsidian 中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "立即从新枝同步数据到 Obsidian 中",
+                    "target": "立即从新枝同步数据到 Obsidian 中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "扫描二维码绑定新枝账户",
+                    "target": "扫描二维码绑定新枝账户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "定时同步",
+                    "target": "定时同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "重试",
+                    "target": "重试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "二维码已过期\n点击刷新",
+                    "target": "二维码已过期\n点击刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to set escapeXML.toString (is the Function prototype frozen?)",
+                    "target": "无法设置 escapeXML.toString（Function 原型是否被冻结？）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 服务异常",
+                    "target": "新枝: 服务异常"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 出错啦, 请稍后重试",
+                    "target": "新枝: 出错啦, 请稍后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 正在同步中...",
+                    "target": "新枝: 正在同步中..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 正在同步中, 将在本次同步完成后重试失败内容",
+                    "target": "新枝: 正在同步中, 将在本次同步完成后重试失败内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 同步开始",
+                    "target": "新枝: 同步开始"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 插件已禁用, 不再同步",
+                    "target": "新枝: 插件已禁用, 不再同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 已解除绑定, 不再同步",
+                    "target": "新枝: 已解除绑定, 不再同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 暂无数据需要同步",
+                    "target": "新枝: 暂无数据需要同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新枝: 同步失败, 请稍后重试",
+                    "target": "新枝: 同步失败, 请稍后重试"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
