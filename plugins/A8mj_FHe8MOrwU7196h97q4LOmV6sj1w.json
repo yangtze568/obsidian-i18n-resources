@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-account-linker",
+        "version": "1.0.0",
+        "title": "Account Linker",
+        "description": "Account Linker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n<div class=\"frontmatter-section\">\n    <span class=\"frontmatter-section-label\">Accounts</span>\n    <div class=\"frontmatter-section-accounts\">\n    </div>\n</div>\n",
+                    "target": "\n<div class=\"frontmatter-section\">\n    <span class=\"frontmatter-section-label\">账户</span>\n    <div class=\"frontmatter-section-accounts\">\n    </div>\n</div>\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Website Config",
+                    "target": "网站配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Website name",
+                    "target": "网站名称"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
