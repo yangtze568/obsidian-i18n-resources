@@ -1,0 +1,355 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note_uid_generator",
+        "version": "1.0.0",
+        "title": "Note UID Generator",
+        "description": "Note UID Generator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Specific Folder",
+                    "target": "指定文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Entire Vault",
+                    "target": "整个资料库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[UIDGenerator] Error triggering bulk UID generation:",
+                    "target": "[UIDGenerator] 触发批量 UID 生成时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[UIDGenerator] Error during bulk UID clearing process:",
+                    "target": "[UIDGenerator] 批量 UID 清除过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[UIDGenerator] Error copying UID:",
+                    "target": "[UIDGenerator] 复制 UID 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[UIDGenerator] Error copying title + UID:",
+                    "target": "[UIDGenerator] 复制标题 + UID 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading UID Generator Plugin v7 (files-menu)",
+                    "target": "正在加载 UID Generator 插件 v7（files-menu）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading UID Generator Plugin v7 (files-menu)",
+                    "target": "正在卸载 UID Generator 插件 v7（files-menu）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Confirm Deletion",
+                    "target": "确认删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage Exclusions",
+                    "target": "管理排除项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate Missing UIDs",
+                    "target": "生成缺失的 UID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear UIDs Now",
+                    "target": "立即清除 UID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the key for the UID in frontmatter (e.g., \"uid\", \"id\"). No spaces.",
+                    "target": "frontmatter 中 UID 的键名（如 \"uid\"、\"id\"）。不含空格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Generate UIDs only for notes in this folder (and subfolders).",
+                    "target": "仅为此文件夹（及子文件夹）中的笔记生成 UID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folders excluded from automatic UID generation. Click button to manage.",
+                    "target": "从自动 UID 生成中排除的文件夹。点击按钮进行管理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format string used when copying title and UID, and the UID exists.",
+                    "target": "复制标题和 UID 且 UID 存在时使用的格式字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format string used when copying, but the note has no UID.",
+                    "target": "复制时但笔记没有 UID 时使用的格式字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UID Metadata Key",
+                    "target": "UID 元数据键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Automatic UID Generation",
+                    "target": "启用自动 UID 生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Generation Scope",
+                    "target": "生成范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target Folder for Auto-Generation",
+                    "target": "自动生成的目标文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded Folders",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Format (UID exists)",
+                    "target": "格式（UID 已存在）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Format (UID missing)",
+                    "target": "格式（UID 缺失）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder to clear UIDs from",
+                    "target": "要清除 UID 的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear UIDs in Folder",
+                    "target": "清除文件夹中的 UID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Default: uid",
+                    "target": "默认：uid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: Notes/Inbox",
+                    "target": "示例：Notes/Inbox"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: Folder/Subfolder",
+                    "target": "示例：Folder/Subfolder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Scan and add missing UIDs respecting scope/exclusions",
+                    "target": "按范围/排除项扫描并添加缺失的 UID"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to start bulk generation. See console.",
+                    "target": "无法开始批量生成。请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please specify a folder path in the 'Folder to clear UIDs from' setting above first.",
+                    "target": "请先在上方“要清除 UID 的文件夹”设置中指定文件夹路径。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An unexpected error occurred during UID clearing. Check console.",
+                    "target": "清除 UID 时发生意外错误。请检查控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Automatic UID generation was disabled. You can re-enable it in settings if desired.",
+                    "target": "已禁用自动 UID 生成。如需可在设置中重新启用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown file selected.",
+                    "target": "未选择活动的 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file.",
+                    "target": "没有活动文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error copying UID to clipboard.",
+                    "target": "复制 UID 到剪贴板时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active/specified file found.",
+                    "target": "未找到活动/指定的文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error copying to clipboard.",
+                    "target": "复制到剪贴板时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy to clipboard. See console.",
+                    "target": "复制到剪贴板失败。请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Markdown files found in selection.",
+                    "target": "选择中未找到 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file explorer with selected files found.",
+                    "target": "未找到包含所选文件的活动文件资源管理器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No files selected in the file explorer.",
+                    "target": "文件资源管理器中未选择任何文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No *Markdown* files selected.",
+                    "target": "未选择任何 *Markdown* 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Markdown files found in the vault.",
+                    "target": "仓库中未找到 Markdown 文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search folders...",
+                    "target": "搜索文件夹..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm UID Deletion",
+                    "target": "确认删除 UID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This action cannot be undone.",
+                    "target": "此操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Excluded Folders",
+                    "target": "管理排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No matching folders found.",
+                    "target": "未找到匹配的文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UID Generator Settings",
+                    "target": "UID 生成器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Automatic UID Generation",
+                    "target": "自动 UID 生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No folders excluded.",
+                    "target": "未排除任何文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy Format",
+                    "target": "复制格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Define the format for copied text using placeholders: {title}, {uid}, {uidKey}.",
+                    "target": "使用占位符定义复制文本的格式：{title}、{uid}、{uidKey}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manual UID Clearing",
+                    "target": "手动清除 UID"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
