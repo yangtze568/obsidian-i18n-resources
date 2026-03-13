@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "whatsapp-export-note",
+        "version": "1.0.0",
+        "title": "WhatsApp export note",
+        "description": "WhatsApp export note Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Exportar nota",
+                    "target": "导出笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Abra uma nota para que ela possa ser exportada!",
+                    "target": "打开一条笔记以便导出！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Nota exportada com sucesso, copie o conteúdo dela e envie para o whatsapp",
+                    "target": "笔记导出成功，请复制其内容并发送到 WhatsApp"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exportar nota",
+                    "target": "导出笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
