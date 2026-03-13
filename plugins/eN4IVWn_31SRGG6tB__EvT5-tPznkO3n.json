@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "canvas-llm-extender",
+        "version": "1.0.0",
+        "title": "Canvas LLM Extender",
+        "description": "Canvas LLM Extender Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "API key for OpenAI",
+                    "target": "OpenAI 的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Model from OpenAI to use for text generation",
+                    "target": "用于文本生成的 OpenAI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prompt before graph data is provided",
+                    "target": "在提供图数据之前的提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI model",
+                    "target": "OpenAI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI base URL",
+                    "target": "OpenAI 基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "LLM Extend",
+                    "target": "LLM 扩展"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
