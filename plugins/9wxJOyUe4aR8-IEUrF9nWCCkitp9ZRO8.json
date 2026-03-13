@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "insta-toc",
+        "version": "1.0.0",
+        "title": "Insta TOC",
+        "description": "Insta TOC Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "6.4.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Table of Contents",
+                    "target": "目录"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Table of Contents,Introduction,Side Note",
+                    "target": "目录,简介,侧注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Insta TOC Plugin",
+                    "target": "正在加载 Insta TOC 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Insta TOC Plugin Unloaded.",
+                    "target": "Insta TOC 插件已卸载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the global list bullet type.",
+                    "target": "选择全局列表项目符号类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the global indentation size.",
+                    "target": "选择全局缩进大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The delay for each ToC update.",
+                    "target": "每次目录更新的延迟。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The global title for the Table of Contents.",
+                    "target": "目录的全局标题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of headings to exclude globally within the Table of Contents.",
+                    "target": "在目录中全局排除的标题列表（逗号分隔）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of heading levels to exclude globally within the Table of Contents.",
+                    "target": "在目录中全局排除的标题级别列表（逗号分隔）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Globally excluded heading characters.",
+                    "target": "全局排除的标题字符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insta ToC Global Settings",
+                    "target": "Insta ToC 全局设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "List bullet style",
+                    "target": "列表项目符号样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Indentation width",
+                    "target": "缩进宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update delay",
+                    "target": "更新延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ToC Title",
+                    "target": "目录标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded heading text",
+                    "target": "排除的标题文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded heading levels",
+                    "target": "排除的标题级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded characters",
+                    "target": "排除的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Valid values are 1-6.",
+                    "target": "有效值为 1-6。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
