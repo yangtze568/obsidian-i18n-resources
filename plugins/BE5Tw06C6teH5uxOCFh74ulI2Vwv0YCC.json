@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "dust-calendar",
+        "version": "1.0.0",
+        "title": "Dust Calendar",
+        "description": "Dust Calendar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "middlewares were provided, but middleware enhancer was not included in final enhancers - make sure to call `getDefaultEnhancers`",
+                    "target": "已提供 middlewares，但最终 enhancers 中未包含 middleware enhancer - 请确保调用 `getDefaultEnhancers`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭后不再显示农历月份、日期、节气、节日。",
+                    "target": "关闭后不再显示农历月份、日期、节气、节日。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭后不再显示调休信息。",
+                    "target": "关闭后不再显示调休信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭后不再弹窗提示创建新笔记的信息。",
+                    "target": "关闭后不再弹窗提示创建新笔记的信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "是否显示农历信息",
+                    "target": "是否显示农历信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "是否显示调休信息",
+                    "target": "是否显示调休信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建新笔记之前是否需要确认",
+                    "target": "创建新笔记之前是否需要确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aborted due to condition callback returning false.",
+                    "target": "由于条件回调返回 false 而中止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开日历视图",
+                    "target": "打开日历视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开/创建每日笔记",
+                    "target": "打开/创建每日笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开/创建每周笔记",
+                    "target": "打开/创建每周笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开/创建每月笔记",
+                    "target": "打开/创建每月笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开/创建季度笔记",
+                    "target": "打开/创建季度笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开/创建年度笔记",
+                    "target": "打开/创建年度笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "创建新笔记",
+                    "target": "创建新笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
