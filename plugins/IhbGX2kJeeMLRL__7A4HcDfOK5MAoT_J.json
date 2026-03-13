@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "leader-hotkeys-obsidian",
+        "version": "1.0.0",
+        "title": "Leader Hotkeys",
+        "description": "Leader Hotkeys Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "New Keymap",
+                    "target": "新建按键映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Adding keymap for command ",
+                    "target": "正在为命令添加按键映射 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Waiting for keyboard input.",
+                    "target": "等待键盘输入。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Leader Hotkeys: pick a command to create a keymap.",
+                    "target": "Leader Hotkeys：选择一个命令来创建按键映射。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete shortcut",
+                    "target": "删除快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Register Modal",
+                    "target": "打开注册弹窗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Leader Hotkeys Plugin - Settings",
+                    "target": "Leader Hotkeys 插件 - 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Existing Hotkeys",
+                    "target": "现有快捷键"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
