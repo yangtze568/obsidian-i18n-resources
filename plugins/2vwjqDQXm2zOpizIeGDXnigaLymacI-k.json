@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "metadata-icon",
+        "version": "1.0.0",
+        "title": "Metadata Icon",
+        "description": "Metadata Icon Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.16",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "top offset",
+                    "target": "顶部偏移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "left offset",
+                    "target": "左侧偏移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add new icon",
+                    "target": "添加新图标"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid opacity value, please enter a number between 0 and 1",
+                    "target": "无效的不透明度值，请输入 0 到 1 之间的数字"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
