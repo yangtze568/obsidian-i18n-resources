@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sync-to-xlog",
+        "version": "1.0.0",
+        "title": "sync-to-xlog",
+        "description": "sync-to-xlog Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "匹配失败",
+                    "target": "匹配失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "未尽事宜",
+                    "target": "未尽事宜"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "创建的 noteID 是",
+                    "target": "创建的 noteID 是"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "上传此文件到 xlog",
+                    "target": "上传此文件到 xlog"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Write operation failed: computed value is readonly",
+                    "target": "写入操作失败：计算值为只读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Root or manually mounted instance modified. Full reload required.",
+                    "target": "[HMR] 根实例或手动挂载的实例已修改。需要完全重新加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Something went wrong during Vue component hot-reload. Full reload required.",
+                    "target": "[HMR] Vue 组件热重载期间出现问题。需要完全重新加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "保存成功",
+                    "target": "保存成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "token 不能为空",
+                    "target": "token 不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "连接成功，请在下方 Charactor ID 中进行角色选择",
+                    "target": "连接成功，请在下方 Charactor ID 中进行角色选择"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "xlog 上传插件未配置用户信息",
+                    "target": "xlog 上传插件未配置用户信息"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "xlog 上传插件未启用",
+                    "target": "xlog 上传插件未启用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "上传成功",
+                    "target": "上传成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "上传失败",
+                    "target": "上传失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "更新成功",
+                    "target": "更新成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "更新失败",
+                    "target": "更新失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在上传中",
+                    "target": "正在上传中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "请输入 token",
+                    "target": "请输入 token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "建议通过连接测试自动填写",
+                    "target": "建议通过连接测试自动填写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空表示默认标题",
+                    "target": "留空表示默认标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空表示默认",
+                    "target": "留空表示默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空表示当前时间",
+                    "target": "留空表示当前时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空表示创建",
+                    "target": "留空表示创建"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
