@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "archwiki-reader",
+        "version": "1.0.0",
+        "title": "ArchWiki Reader",
+        "description": "ArchWiki Reader Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where should downloaded ArchWiki pages be stored",
+                    "target": "下载的 ArchWiki 页面应存放在哪里"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ArchWiki page directory",
+                    "target": "ArchWiki 页面目录"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create page file. Try running the command 'archwiki-rs sync-wiki' manually.",
+                    "target": "无法创建页面文件。请尝试手动运行命令 'archwiki-rs sync-wiki'。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Finished fetching pages from the ArchWiki",
+                    "target": "已完成从 ArchWiki 获取页面"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to get ArchWiki pages",
+                    "target": "无法获取 ArchWiki 页面"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching list of pages from the ArchWiki. This will take some time...",
+                    "target": "正在从 ArchWiki 获取页面列表。这将花费一些时间..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Read ArchWiki page",
+                    "target": "阅读 ArchWiki 页面"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
