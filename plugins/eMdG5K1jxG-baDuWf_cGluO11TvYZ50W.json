@@ -1,0 +1,355 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "conditional-properties",
+        "version": "1.0.0",
+        "title": "Conditional Properties",
+        "description": "Conditional Properties Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.16.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Latest Created notes",
+                    "target": "最新创建的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Latest Modified notes",
+                    "target": "最新修改的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Entire vault",
+                    "target": "整个库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "First level heading",
+                    "target": "一级标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Change property",
+                    "target": "更改属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Change title",
+                    "target": "更改标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add value",
+                    "target": "添加值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Overwrite all values with",
+                    "target": "将所有值覆盖为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete property",
+                    "target": "删除属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Rename property to",
+                    "target": "将属性重命名为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add prefix",
+                    "target": "添加前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add suffix",
+                    "target": "添加后缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Overwrite to",
+                    "target": "覆盖为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ConditionalProperties scheduler error",
+                    "target": "ConditionalProperties 调度器错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting file creation date:",
+                    "target": "获取文件创建日期出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error formatting date:",
+                    "target": "格式化日期出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting filename:",
+                    "target": "获取文件名出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error exporting settings:",
+                    "target": "导出设置出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing settings file:",
+                    "target": "解析设置文件出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error importing settings:",
+                    "target": "导入设置出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in display():",
+                    "target": "display() 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating value field state:",
+                    "target": "更新值字段状态时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export settings",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Import settings",
+                    "target": "导入设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Run now",
+                    "target": "立即运行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Minimum 5 minutes",
+                    "target": "最少 5 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which notes to scan",
+                    "target": "选择要扫描的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of notes to scan (applies to Latest Created or Latest Modified scope, 1-1000)",
+                    "target": "要扫描的笔记数量（适用于“最新创建”或“最新修改”范围，1-1000）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Export or import your plugin settings",
+                    "target": "导出或导入你的插件设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Execute all rules across selected scope",
+                    "target": "在所选范围内执行所有规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scan interval (minutes)",
+                    "target": "扫描间隔（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scan scope",
+                    "target": "扫描范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes to scan",
+                    "target": "要扫描的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backup and restore",
+                    "target": "备份与恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Run now",
+                    "target": "立即运行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "heading text",
+                    "target": "标题文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "property name",
+                    "target": "属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "new property name",
+                    "target": "新属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "value (use commas to separate multiple values)",
+                    "target": "值（使用逗号分隔多个值）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Text (use {date}, {date:FORMAT}, or {filename})",
+                    "target": "文本（使用 {date}、{date:FORMAT} 或 {filename}）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file.",
+                    "target": "没有活动文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings exported successfully!",
+                    "target": "设置已成功导出！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings imported successfully! The plugin will now reload.",
+                    "target": "设置已成功导入！插件将立即重新加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to parse settings file. Please check the file format.",
+                    "target": "无法解析设置文件。请检查文件格式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error reading file",
+                    "target": "读取文件出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Interval updated. Restart Obsidian to apply immediately.",
+                    "target": "间隔已更新。重启 Obsidian 以立即生效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred while loading the settings. Check the console for details.",
+                    "target": "加载设置时出错。请查看控制台了解详细信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "exactly match",
+                    "target": "完全匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "does not contain",
+                    "target": "不包含"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "does not exist",
+                    "target": "不存在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Run conditional rules on vault",
+                    "target": "在保管库上运行条件规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Run conditional rules on current file",
+                    "target": "在当前文件上运行条件规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add rule",
+                    "target": "添加规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Then:",
+                    "target": "然后："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add action",
+                    "target": "添加操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Run this rule",
+                    "target": "运行此规则"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
