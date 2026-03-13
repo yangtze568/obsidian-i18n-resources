@@ -1,0 +1,355 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-md-to-jira",
+        "version": "1.0.0",
+        "title": "Markdown to Jira Converter",
+        "description": "Markdown to Jira Converter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Auto-upload to ImgBB",
+                    "target": "自动上传到 ImgBB"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Manual (drag & drop)",
+                    "target": "手动（拖放）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ImgbbUploader] Upload error:",
+                    "target": "[ImgbbUploader] 上传错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ImgbbUploader] Error details:",
+                    "target": "[ImgbbUploader] 错误详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[ImgbbUploader] Response body:",
+                    "target": "[ImgbbUploader] 响应正文："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[ImgbbUploader] Response JSON:",
+                    "target": "[ImgbbUploader] 响应 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[MTJPlugin] Detected old settings format, migrating...",
+                    "target": "[MTJPlugin] 检测到旧设置格式，正在迁移..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[MTJPlugin] Migrated imageUpload settings to new format",
+                    "target": "[MTJPlugin] 已将 imageUpload 设置迁移到新格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[MTJPlugin] Changed upload method from jira-api to manual",
+                    "target": "[MTJPlugin] 已将上传方式从 jira-api 更改为手动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[MTJPlugin] Migrating task list visualization to new defaults",
+                    "target": "[MTJPlugin] 正在将任务列表可视化迁移到新默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[MTJPlugin] Settings migration completed and saved",
+                    "target": "[MTJPlugin] 设置迁移已完成并保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add custom mapping",
+                    "target": "添加自定义映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "We are in the process of developing an enhanced converter that aims to support all previous formatting options. However, there might still be some features that are not fully functional. If you encounter any issues, you can use this toggle to switch back to the previous converter.",
+                    "target": "我们正在开发增强版转换器，目标是支持所有之前的格式选项。不过，仍可能有一些功能未完全可用。如果遇到问题，你可以使用此开关切换回旧版转换器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Transforms the metadata at the top of an Obsidian note, enclosed by ---, into a Jira-compatible format, resulting in a list of key-value pairs labeled as 'Metadata'. Only works with the new converter!",
+                    "target": "将 Obsidian 笔记顶部由 --- 包裹的元数据转换为兼容 Jira 的格式，生成标记为“Metadata”的键值对列表。仅适用于新版转换器！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add your own custom checkbox states (e.g., [!], [?], [*])",
+                    "target": "添加自定义复选框状态（例如：[!], [?], [*]）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to handle local images when converting to Jira markup. Manual: show warning to drag & drop manually. ImgBB: auto-upload to ImgBB (free API key required).",
+                    "target": "选择在转换为 Jira 标记时如何处理本地图片。手动：显示警告并手动拖放。ImgBB：自动上传到 ImgBB（需要免费 API 密钥）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Get your free API key by creating an account at https://imgbb.com and visiting https://api.imgbb.com. ImgBB supports images up to 32 MB with unlimited uploads.",
+                    "target": "在 https://imgbb.com 创建账户并访问 https://api.imgbb.com 获取免费的 API 密钥。ImgBB 支持最大 32 MB 的图片，上传次数不限。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Legacy Converter",
+                    "target": "使用旧版转换器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Render metadata",
+                    "target": "渲染元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable task list visualization",
+                    "target": "启用任务列表可视化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task state mappings",
+                    "target": "任务状态映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom task state mappings",
+                    "target": "自定义任务状态映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom mapping",
+                    "target": "自定义映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add callout configuration",
+                    "target": "添加标注配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose title icon",
+                    "target": "选择标题图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose title text color:",
+                    "target": "选择标题文字颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose title background color:",
+                    "target": "选择标题背景颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose content text color:",
+                    "target": "选择内容文字颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose content background color:",
+                    "target": "选择内容背景颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose content border color:",
+                    "target": "选择内容边框颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image upload method",
+                    "target": "图片上传方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ImgBB API Key",
+                    "target": "ImgBB API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter API Key",
+                    "target": "输入 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Could not load release notes. Please visit the GitHub releases page for details.",
+                    "target": "无法加载发布说明。请访问 GitHub 发布页面了解详情。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error loading release notes. Please check your internet connection or visit the GitHub releases page.",
+                    "target": "加载发布说明出错。请检查您的网络连接或访问 GitHub 发布页面。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete mapping",
+                    "target": "删除映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "restore default color",
+                    "target": "恢复默认颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "marked(): The async option was set to true by an extension. The async: false option sent to parse will be ignored.",
+                    "target": "marked(): 某个扩展将 async 选项设置为 true。传给 parse 的 async: false 选项将被忽略。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "First select a callout type to add!",
+                    "target": "请先选择要添加的标注类型！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This callout configuration already exists!",
+                    "target": "该标注配置已存在！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "ImgBB API key not configured",
+                    "target": "ImgBB API 密钥未配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Unchecked (incomplete)",
+                    "target": "未勾选（未完成）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Checked (complete)",
+                    "target": "已勾选（已完成）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Checked (complete, uppercase)",
+                    "target": "已勾选（已完成，大写）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "In progress / forwarded",
+                    "target": "进行中 / 已转发"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Partially complete",
+                    "target": "部分完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note to Jira markup (clipboard)",
+                    "target": "笔记转 Jira 标记（剪贴板）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Selection to Jira markup (clipboard)",
+                    "target": "选中内容转 Jira 标记（剪贴板）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jira markup (clipboard) to markdown note",
+                    "target": "Jira 标记（剪贴板）转 Markdown 笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Task Lists",
+                    "target": "任务列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Image Handling",
+                    "target": "图片处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Important Privacy Notice",
+                    "target": "⚠️ 重要隐私提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Images uploaded to ImgBB are publicly accessible. Anyone with the URL can view your images.",
+                    "target": "上传到 ImgBB 的图片为公开可访问。任何拥有该 URL 的人都可以查看你的图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "By using ImgBB, you agree to their Terms of Service and Privacy Policy (available at imgbb.com). This plugin is not affiliated with or responsible for ImgBB's service.",
+                    "target": "使用 ImgBB 即表示你同意其服务条款和隐私政策（可在 imgbb.com 查看）。此插件与 ImgBB 的服务无关联，亦不对其服务负责。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Loading release notes...",
+                    "target": "正在加载发布说明..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View all releases on GitHub",
+                    "target": "在 GitHub 上查看所有版本"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
