@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-dynbedded",
+        "version": "1.0.0",
+        "title": "Dynbedded",
+        "description": "Dynbedded Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Debug Logging",
+                    "target": "调试日志记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Plugin",
+                    "target": "正在加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Plugin",
+                    "target": "正在卸载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings loaded",
+                    "target": "设置已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings saved",
+                    "target": "设置已保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Dynbedded-Error: ",
+                    "target": "Dynbedded-错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If this is enabled, more things are printed to the console.",
+                    "target": "启用后，将在控制台输出更多内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Debug Logging",
+                    "target": "启用调试日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Plugin Documentation",
+                    "target": "插件文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Developer Settings",
+                    "target": "开发者设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
