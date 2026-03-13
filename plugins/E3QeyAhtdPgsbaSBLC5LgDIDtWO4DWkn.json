@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "convert-url-to-iframe",
+        "version": "1.0.0",
+        "title": "Convert url to preview (iframe)",
+        "description": "Convert url to preview (iframe) Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Aspect Ratio: ",
+                    "target": "宽高比： "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "This is how the link is going to look",
+                    "target": "链接将如下所示"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Match the note width (reset the size)",
+                    "target": "匹配笔记宽度（重置大小）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Set ratio",
+                    "target": "设置比例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading obsidian-convert-url-to-iframe",
+                    "target": "正在加载 obsidian-convert-url-to-iframe"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Url to Preview/Iframe",
+                    "target": "URL 预览/Iframe"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback value for",
+                    "target": "备用值用于"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select a URL to convert to an preview/iframe.",
+                    "target": "选择要转换为预览/Iframe 的 URL。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "URL to Preview/Iframe",
+                    "target": "URL 预览/Iframe"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
