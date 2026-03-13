@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "generate-timeline",
+        "version": "1.0.0",
+        "title": "Generate Timeline",
+        "description": "Generate Timeline Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "中文",
+                    "target": "中文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating timeline from metadata:",
+                    "target": "从元数据生成时间轴时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "生成文件夹时间轴视图时出错:",
+                    "target": "生成文件夹时间轴视图时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "生成文件夹时间轴文件时出错:",
+                    "target": "生成文件夹时间轴文件时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "生成标签时间轴视图时出错:",
+                    "target": "生成标签时间轴视图时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "生成标签时间轴文件时出错:",
+                    "target": "生成标签时间轴文件时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "从文件链接生成时间轴视图时出错:",
+                    "target": "从文件链接生成时间轴视图时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "从文件链接生成时间轴文件时出错:",
+                    "target": "从文件链接生成时间轴文件时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "从元数据生成时间轴视图时出错:",
+                    "target": "从元数据生成时间轴视图时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "从元数据生成时间轴文件时出错:",
+                    "target": "从元数据生成时间轴文件时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "插件加载时出错:",
+                    "target": "插件加载时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "可用的标签:",
+                    "target": "可用的标签:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "选择的标签:",
+                    "target": "选择的标签:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "加载 Timeline 插件",
+                    "target": "加载 Timeline 插件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "生成时间轴失败",
+                    "target": "生成时间轴失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建时间轴视图：请检查侧边栏空间",
+                    "target": "无法创建时间轴视图：请检查侧边栏空间"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
