@@ -1,0 +1,1501 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "featured-image",
+        "version": "1.0.0",
+        "title": "Featured Image",
+        "description": "Featured Image Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Re-render all resized thumbnails",
+                    "target": "重新渲染所有已调整大小的缩略图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "This will re-render all resized thumbnails based on your current settings (size, alignment, etc.). This operation may take some time depending on the number of images. Proceed?",
+                    "target": "这将根据你当前的设置（大小、对齐等）重新渲染所有已调整大小的缩略图。此操作可能会根据图像数量耗时。继续吗？"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Scanning for unused images...",
+                    "target": "正在扫描未使用的图像..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No unused images found.",
+                    "target": "未找到未使用的图像。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cleanup cancelled.",
+                    "target": "清理已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error during image cleanup. Check console for details.",
+                    "target": "清理图像时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Resized thumbnails are not enabled in settings.",
+                    "target": "设置中未启用缩略图调整大小。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file is currently active",
+                    "target": "当前没有活动文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The name of the frontmatter property to update with the featured image",
+                    "target": "用于更新特色图像的 frontmatter 属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Folder for downloaded thumbnails and resized images. Subfolders will be created automatically for different image types.",
+                    "target": "用于存放下载的缩略图和调整大小后的图像的文件夹。将自动为不同图像类型创建子文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Comma separated list of folders to exclude from the featured image plugin.",
+                    "target": "要从特色图片插件中排除的文件夹的逗号分隔列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Resize feature image for better performance in scrolling lists.",
+                    "target": "调整特色图片大小以提升滚动列表中的性能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The name of the frontmatter property to store the resized thumbnail path.",
+                    "target": "用于存储调整后缩略图路径的 frontmatter 属性名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Maximum width of the resized thumbnail in pixels. Use 0 for no width restriction.",
+                    "target": "调整后缩略图的最大宽度（像素）。使用 0 表示不限制宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Maximum height of the resized thumbnail in pixels. Use 0 for no height restriction.",
+                    "target": "调整后缩略图的最大高度（像素）。使用 0 表示不限制高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, resized thumbnails will be exactly the size specified by max width and height, maintaining aspect ratio and cropping to fill the dimensions.",
+                    "target": "启用后，调整后的缩略图将严格为最大宽度和高度指定的尺寸，保持纵横比并裁剪以填充尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose the vertical alignment for cropped images.",
+                    "target": "选择裁剪图片的垂直对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose the horizontal alignment for cropped images.",
+                    "target": "选择裁剪图片的水平对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose how to format the featured image property in frontmatter.",
+                    "target": "选择如何在 frontmatter 中格式化特色图片属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Comma-separated list of frontmatter properties to check for image paths/URLs before scanning the document. Supports strings and YAML lists.",
+                    "target": "在扫描文档前用于检查图片路径/URL 的 frontmatter 属性的逗号分隔列表。支持字符串和 YAML 列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable this to only update the frontmatter property if it already exists.",
+                    "target": "启用此项仅在 frontmatter 属性已存在时才更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled, only YouTube links prefixed with an exclamation mark will be considered for thumbnail download.",
+                    "target": "启用后，仅考虑以感叹号开头的 YouTube 链接用于缩略图下载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Store YouTube thumbnails locally. Disable to skip YouTube links when selecting a featured image.",
+                    "target": "将 YouTube 缩略图存储在本地。禁用后，在选择特色图片时跳过 YouTube 链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable debug mode to log detailed information to the console.",
+                    "target": "启用调试模式以将详细信息记录到控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable dry run to prevent any changes from being made to your files.",
+                    "target": "启用演练模式以防止对文件进行任何更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Benachrichtigungen anzeigen, wenn das Featured Image gesetzt, aktualisiert oder entfernt wird.",
+                    "target": "当特色图片被设置、更新或移除时显示通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ordner für heruntergeladene Vorschaubilder und verkleinerte Bilder. Unterordner werden automatisch für verschiedene Bildtypen erstellt.",
+                    "target": "用于存放下载的缩略图和缩小图片的文件夹。会为不同的图片类型自动创建子文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Kommagetrennte Liste von Ordnern, die vom Featured Image Plugin ausgeschlossen werden sollen.",
+                    "target": "要从特色图片插件中排除的文件夹的逗号分隔列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Feature-Bild für bessere Leistung in scrollenden Listen verkleinern.",
+                    "target": "缩小特色图片以提升滚动列表中的性能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Der Name der Frontmatter-Eigenschaft zum Speichern des verkleinerten Vorschaubild-Pfads.",
+                    "target": "用于存储缩小缩略图路径的 frontmatter 属性名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Maximale Breite des verkleinerten Vorschaubilds in Pixeln. 0 für keine Breitenbeschränkung verwenden.",
+                    "target": "缩略预览图的最大宽度（像素）。0 表示不限制宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Maximale Höhe des verkleinerten Vorschaubilds in Pixeln. 0 für keine Höhenbeschränkung verwenden.",
+                    "target": "缩略预览图的最大高度（像素）。0 表示不限制高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, haben verkleinerte Vorschaubilder genau die durch maximale Breite und Höhe angegebene Größe, wobei das Seitenverhältnis beibehalten und zum Ausfüllen der Dimensionen zugeschnitten wird.",
+                    "target": "启用后，缩略预览图将严格按最大宽度和高度设置的尺寸生成，保持纵横比并裁剪以填满尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wählen Sie die vertikale Ausrichtung für zugeschnittene Bilder.",
+                    "target": "选择裁剪图片的垂直对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wählen Sie die horizontale Ausrichtung für zugeschnittene Bilder.",
+                    "target": "选择裁剪图片的水平对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wählen Sie, wie die Featured Image Eigenschaft im Frontmatter formatiert werden soll.",
+                    "target": "选择 Frontmatter 中 Featured Image 属性的格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Aktivieren Sie dies, um die Frontmatter-Eigenschaft nur zu aktualisieren, wenn sie bereits existiert.",
+                    "target": "启用此项，仅在 Frontmatter 属性已存在时才更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, wird die Frontmatter-Eigenschaft beibehalten, aber auf einen leeren String gesetzt, wenn kein Featured Image gefunden wird. Wenn deaktiviert, wird die Eigenschaft entfernt.",
+                    "target": "启用后，保留 Frontmatter 属性，但在未找到 Featured Image 时将其设为空字符串。禁用后将移除该属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, wird die bestehende Featured Image Eigenschaft beibehalten, wenn kein Bild im Dokument gefunden wird. Wenn deaktiviert, wird die Eigenschaft gelöscht oder entfernt, wenn kein Bild erkannt wird (abhängig von der Einstellung \"Leere Eigenschaft beibehalten\").",
+                    "target": "启用后，若文档中未找到图片，将保留现有的 Featured Image 属性。禁用后，若未检测到图片，将删除或移除该属性（取决于“保留空属性”的设置）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Externe Bildlinks lokal speichern. Deaktivieren, um entfernte Bilder bei der Auswahl eines Featured Image zu überspringen.",
+                    "target": "将外部图片链接本地保存。禁用后，在选择 Featured Image 时跳过远程图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "YouTube-Vorschaubilder lokal speichern. Deaktivieren, um YouTube-Links bei der Auswahl eines Featured Image zu überspringen.",
+                    "target": "将 YouTube 预览图本地保存。禁用以在选择特色图片时跳过 YouTube 链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Debug-Modus aktivieren, um detaillierte Informationen in der Konsole zu protokollieren.",
+                    "target": "启用调试模式以在控制台记录详细信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Testlauf aktivieren, um zu verhindern, dass Änderungen an Ihren Dateien vorgenommen werden.",
+                    "target": "启用试运行以防止对文件进行更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sieh dir die neuesten Änderungen und Verbesserungen an.",
+                    "target": "查看最新更改和改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar notificaciones cuando la imagen destacada se establece, actualiza o elimina.",
+                    "target": "当特色图片被设置、更新或删除时显示通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "El nombre de la propiedad de frontmatter para actualizar con la imagen destacada",
+                    "target": "用于随特色图片更新的 frontmatter 属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Carpeta para miniaturas descargadas e imágenes redimensionadas. Se crearán automáticamente subcarpetas para diferentes tipos de imágenes.",
+                    "target": "用于下载的缩略图和调整大小后的图像的文件夹。将为不同类型的图像自动创建子文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lista separada por comas de carpetas a excluir del plugin de imagen destacada.",
+                    "target": "要从特色图片插件中排除的文件夹逗号分隔列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Redimensionar imagen destacada para mejor rendimiento en listas desplazables.",
+                    "target": "调整特色图片大小以提升可滚动列表中的性能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "El nombre de la propiedad de frontmatter para almacenar la ruta de la miniatura redimensionada.",
+                    "target": "用于存储调整后缩略图路径的 frontmatter 属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ancho máximo de la miniatura redimensionada en píxeles. Use 0 para sin restricción de ancho.",
+                    "target": "调整后缩略图的最大宽度（像素）。使用 0 表示不限制宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Altura máxima de la miniatura redimensionada en píxeles. Use 0 para sin restricción de altura.",
+                    "target": "调整后缩略图的最大高度（像素）。使用 0 表示不限制高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Cuando está habilitado, las miniaturas redimensionadas tendrán exactamente el tamaño especificado por el ancho y la altura máximos, manteniendo la relación de aspecto y recortando para llenar las dimensiones.",
+                    "target": "启用后，调整后的缩略图将严格按照最大宽度和高度的尺寸，保持纵横比并通过裁剪填满尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Elija la alineación vertical para imágenes recortadas.",
+                    "target": "选择裁剪图像的垂直对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Elija la alineación horizontal para imágenes recortadas.",
+                    "target": "选择裁剪图像的水平对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Elija cómo formatear la propiedad de imagen destacada en el frontmatter.",
+                    "target": "选择在 frontmatter 中如何格式化特色图像属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lista separada por comas de propiedades de frontmatter para buscar rutas/URLs de imágenes antes de escanear el documento. Admite cadenas y listas YAML.",
+                    "target": "以逗号分隔的 frontmatter 属性列表，用于在扫描文档前查找图像路径/URL。支持字符串和 YAML 列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Habilite esto para actualizar solo la propiedad de frontmatter si ya existe.",
+                    "target": "启用此项，仅在 frontmatter 属性已存在时更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Cuando está habilitado, la propiedad de frontmatter se mantendrá pero se establecerá en una cadena vacía si no se encuentra una imagen destacada. Cuando está deshabilitado, la propiedad se eliminará.",
+                    "target": "启用后，frontmatter 属性会保留，但在未找到特色图像时设为空字符串。禁用后，将删除该属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Cuando está habilitado, mantiene la propiedad de imagen destacada existente si no se encuentra ninguna imagen en el documento. Cuando está deshabilitado, borra o elimina la propiedad cuando no se detecta ninguna imagen (dependiendo de la configuración \"Mantener propiedad vacía\").",
+                    "target": "启用后，若文档中未找到任何图像，将保留现有的特色图像属性。禁用后，当未检测到图像时将清空或删除该属性（取决于“保留空属性”设置）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Si está habilitado, solo los enlaces de YouTube con prefijo de signo de exclamación se considerarán para la descarga de miniaturas.",
+                    "target": "启用后，仅带感叹号前缀的 YouTube 链接会被用于下载缩略图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Almacenar miniaturas de YouTube localmente. Deshabilite para omitir enlaces de YouTube al seleccionar la imagen destacada.",
+                    "target": "在本地存储 YouTube 缩略图。禁用后，在选择特色图片时将跳过 YouTube 链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Habilitar el modo de depuración para registrar información detallada en la consola.",
+                    "target": "启用调试模式以在控制台记录详细信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Habilitar la ejecución de prueba para evitar que se realicen cambios en sus archivos.",
+                    "target": "启用试运行以避免对文件进行更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Consulta los últimos cambios y mejoras.",
+                    "target": "查看最新更改与改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les notifications lorsque l'image vedette est définie, mise à jour ou supprimée.",
+                    "target": "当特色图片设置、更新或删除时显示通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Le nom de la propriété frontmatter à mettre à jour avec l'image vedette",
+                    "target": "要用特色图片更新的 frontmatter 属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Liste de dossiers séparés par des virgules à exclure du plugin d'image vedette.",
+                    "target": "要从特色图片插件中排除的以逗号分隔的文件夹列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Redimensionner l'image vedette pour de meilleures performances dans les listes défilantes.",
+                    "target": "调整特色图片大小以提升滚动列表中的性能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Largeur maximale de la miniature redimensionnée en pixels. Utilisez 0 pour aucune restriction de largeur.",
+                    "target": "调整后的缩略图最大宽度（像素）。使用 0 表示不限制宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Hauteur maximale de la miniature redimensionnée en pixels. Utilisez 0 pour aucune restriction de hauteur.",
+                    "target": "调整后缩略图的最大高度（像素）。使用 0 表示不限制高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choisissez comment formater la propriété d'image vedette dans le frontmatter.",
+                    "target": "选择如何在 frontmatter 中格式化特色图片属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lorsque activé, la propriété frontmatter sera conservée mais définie sur une chaîne vide si aucune image vedette n'est trouvée. Lorsque désactivé, la propriété sera supprimée.",
+                    "target": "启用时，frontmatter 属性将被保留，但如果未找到特色图片则设为空字符串。禁用时，该属性将被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lorsque activ\\xE9, conserve la propri\\xE9t\\xE9 d'image vedette existante si aucune image n'est trouv\\xE9e dans le document. Lorsque d\\xE9sactiv\\xE9, efface ou supprime la propri\\xE9t\\xE9 lorsqu'aucune image n'est d\\xE9tect\\xE9e (selon le param\\xE8tre \"Conserver la propri\\xE9t\\xE9 vide\").",
+                    "target": "启用时，如果文档中未找到任何图片，则保留现有的特色图片属性。禁用时，当未检测到图片时会清空或删除该属性（取决于“保留空属性”设置）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Activer le mode débogage pour enregistrer des informations détaillées dans la console.",
+                    "target": "启用调试模式以在控制台记录详细信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Voir les dernières modifications et améliorations.",
+                    "target": "查看最新的更改和改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アイキャッチ画像が設定、更新、削除されたときに通知を表示します。",
+                    "target": "当特色图片被设置、更新或删除时显示通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アイキャッチ画像で更新するフロントマタープロパティの名前",
+                    "target": "用于通过特色图片更新的 frontmatter 属性名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ダウンロードしたサムネイルとリサイズした画像用のフォルダ。異なる画像タイプ用のサブフォルダが自動的に作成されます。",
+                    "target": "用于下载的缩略图和调整大小后的图片的文件夹。会自动创建用于不同图片类型的子文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アイキャッチ画像プラグインから除外するフォルダのカンマ区切りリスト。",
+                    "target": "从特色图片插件中排除的文件夹的逗号分隔列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "スクロールリストでのパフォーマンス向上のため、アイキャッチ画像をリサイズします。",
+                    "target": "为提升滚动列表的性能，调整特色图片的尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "リサイズされたサムネイルパスを保存するフロントマタープロパティの名前。",
+                    "target": "保存调整后缩略图路径的 Front Matter 属性名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "リサイズされたサムネイルの最大幅（ピクセル）。幅制限なしの場合は0を使用。",
+                    "target": "调整后缩略图的最大宽度（像素）。不限制宽度时使用 0。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "リサイズされたサムネイルの最大高さ（ピクセル）。高さ制限なしの場合は0を使用。",
+                    "target": "调整后缩略图的最大高度（像素）。不限制高度时使用 0。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、リサイズされたサムネイルは最大幅と高さで指定されたサイズになり、アスペクト比を維持し、寸法を満たすようにトリミングされます。",
+                    "target": "启用后，调整后的缩略图将按最大宽度和高度指定的尺寸生成，保持纵横比，并裁剪以满足尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "トリミングされた画像の垂直方向の配置を選択します。",
+                    "target": "选择裁剪后图像的垂直对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "トリミングされた画像の水平方向の配置を選択します。",
+                    "target": "选择裁剪后图像的水平对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "フロントマターでアイキャッチ画像プロパティをフォーマットする方法を選択します。",
+                    "target": "选择在 Front Matter 中格式化特色图片属性的方法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ドキュメントをスキャンする前に、画像パス/URL をチェックするフロントマタープロパティ名（カンマ区切り）。文字列と YAML リストに対応。",
+                    "target": "在扫描文档之前用于检查图片路径/URL 的 Front Matter 属性名（逗号分隔）。支持字符串和 YAML 列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "これを有効にすると、フロントマタープロパティが既に存在する場合のみ更新されます。",
+                    "target": "启用后，仅在 Front Matter 属性已存在时更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、アイキャッチ画像が見つからない場合、フロントマタープロパティは保持されますが空の文字列に設定されます。無効にすると、プロパティは削除されます。",
+                    "target": "启用后，如果未找到特色图片，frontmatter 属性会保留但设为空字符串。禁用后，该属性将被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、ドキュメントに画像が見つからない場合、既存のアイキャッチ画像プロパティを保持します。無効にすると、画像が検出されない場合、プロパティをクリアまたは削除します（「空のプロパティを保持」設定に依存）。",
+                    "target": "启用后，当文档中未找到图片时，会保留现有的特色图片属性。禁用后，当未检测到图片时，将清空或删除属性（取决于“保留空属性”设置）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、感嘆符が前に付いたYouTubeリンクのみがサムネイルダウンロードの対象となります。",
+                    "target": "启用后，只有前面带感叹号的 YouTube 链接才会被用于下载缩略图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "外部画像リンクをローカルに保存します。無効にすると、アイキャッチ画像の選択時にリモート画像をスキップします。",
+                    "target": "将外部图片链接保存到本地。禁用后，在选择特色图片时会跳过远程图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "YouTubeサムネイルをローカルに保存します。無効にすると、アイキャッチ画像の選択時にYouTubeリンクをスキップします。",
+                    "target": "将 YouTube 缩略图保存到本地。禁用后，在选择特色图片时会跳过 YouTube 链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "デバッグモードを有効にして、コンソールに詳細情報をログ出力します。",
+                    "target": "启用调试模式，在控制台输出详细日志信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ドライランを有効にして、ファイルへの変更を防ぎます。",
+                    "target": "启用试运行，防止对文件进行更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "最新の変更点と改善点を確認します。",
+                    "target": "查看最新的更改和改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "当特色图片被设置、更新或删除时显示通知。",
+                    "target": "当特色图片被设置、更新或删除时显示通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用特色图片更新的 frontmatter 属性名称",
+                    "target": "用于使用特色图片更新的 frontmatter 属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用于下载的缩略图和调整大小的图片的文件夹。将自动为不同的图片类型创建子文件夹。",
+                    "target": "用于下载的缩略图和调整大小的图片的文件夹。将自动为不同的图片类型创建子文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "要从特色图片插件中排除的文件夹的逗号分隔列表。",
+                    "target": "要从特色图片插件中排除的文件夹的逗号分隔列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "调整特色图片大小以获得更好的滚动列表性能。",
+                    "target": "调整特色图片大小以获得更好的滚动列表性能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用于存储调整大小的缩略图路径的 frontmatter 属性名称。",
+                    "target": "用于存储调整大小的缩略图路径的 frontmatter 属性名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "调整大小的缩略图的最大宽度（像素）。使用 0 表示无宽度限制。",
+                    "target": "调整大小的缩略图的最大宽度（像素）。使用 0 表示无宽度限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "调整大小的缩略图的最大高度（像素）。使用 0 表示无高度限制。",
+                    "target": "调整大小的缩略图的最大高度（像素）。使用 0 表示无高度限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，调整大小的缩略图将完全符合最大宽度和高度指定的大小，保持纵横比并裁剪以填充尺寸。",
+                    "target": "启用后，调整大小的缩略图将完全符合最大宽度和高度指定的大小，保持纵横比并裁剪以填充尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择裁剪图片的垂直对齐方式。",
+                    "target": "选择裁剪图片的垂直对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择裁剪图片的水平对齐方式。",
+                    "target": "选择裁剪图片的水平对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择如何在 frontmatter 中格式化特色图片属性。",
+                    "target": "选择如何在 frontmatter 中格式化特色图片属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在扫描文档之前，用于检查图片路径/URL 的 frontmatter 属性名称（逗号分隔）。支持字符串和 YAML 列表。",
+                    "target": "在扫描文档之前，用于检查图片路径/URL 的 frontmatter 属性名称（逗号分隔）。支持字符串和 YAML 列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用此选项以仅在 frontmatter 属性已存在时更新它。",
+                    "target": "启用此选项以仅在 frontmatter 属性已存在时更新它。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，如果找不到特色图片，frontmatter 属性将被保留但设置为空字符串。禁用后，属性将被删除。",
+                    "target": "启用后，如果找不到特色图片，frontmatter 属性将被保留但设置为空字符串。禁用后，属性将被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，如果在文档中找不到图片，则保留现有的特色图片属性。禁用后，当未检测到图片时清除或删除属性（取决于\"保留空属性\"设置）。",
+                    "target": "启用后，如果在文档中找不到图片，则保留现有的特色图片属性。禁用后，当未检测到图片时清除或删除属性（取决于\"保留空属性\"设置）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果启用，只有带有感叹号前缀的 YouTube 链接才会被考虑用于缩略图下载。",
+                    "target": "如果启用，只有带有感叹号前缀的 YouTube 链接才会被考虑用于缩略图下载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将外部图片链接存储在本地。禁用后，在选择特色图片时跳过远程图片。",
+                    "target": "将外部图片链接存储在本地。禁用后，在选择特色图片时跳过远程图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将 YouTube 缩略图存储在本地。禁用后，在选择特色图片时跳过 YouTube 链接。",
+                    "target": "将 YouTube 缩略图存储在本地。禁用后，在选择特色图片时跳过 YouTube 链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用调试模式以在控制台中记录详细信息。",
+                    "target": "启用调试模式以在控制台中记录详细信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用试运行以防止对文件进行任何更改。",
+                    "target": "启用试运行以防止对文件进行任何更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "查看最新的变更和改进。",
+                    "target": "查看最新的变更和改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show notifications",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter property",
+                    "target": "Frontmatter 属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thumbnails folder",
+                    "target": "缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excluded folders",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resize feature image",
+                    "target": "调整特色图片大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resized thumbnail property name",
+                    "target": "调整后缩略图属性名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max resized width",
+                    "target": "调整后的最大宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max resized height",
+                    "target": "调整后的最大高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fill resized dimensions",
+                    "target": "填充调整后的尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vertical alignment",
+                    "target": "垂直对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horizontal alignment",
+                    "target": "水平对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Media link format",
+                    "target": "媒体链接格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter image source properties",
+                    "target": "Frontmatter 图像源属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Only update if frontmatter property exists",
+                    "target": "仅在 frontmatter 属性存在时更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Don't clear existing property",
+                    "target": "不要清除现有属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Require exclamation mark for YouTube thumbnails",
+                    "target": "YouTube 缩略图需加感叹号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download external images to thumbnails folder",
+                    "target": "将外部图像下载到 thumbnails 文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download YouTube thumbnails",
+                    "target": "下载 YouTube 缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dry run",
+                    "target": "试运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "What's new in Featured Image {version}",
+                    "target": "特色图片 {version} 更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Benachrichtigungen anzeigen",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ausgeschlossene Ordner",
+                    "target": "已排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Feature-Bild verkleinern",
+                    "target": "缩小特色图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name der verkleinerten Vorschaubild-Eigenschaft",
+                    "target": "缩略预览图属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximale verkleinerte Breite",
+                    "target": "最大缩小宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximale verkleinerte Höhe",
+                    "target": "最大缩小高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verkleinerte Dimensionen ausfüllen",
+                    "target": "填充缩小尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vertikale Ausrichtung",
+                    "target": "垂直对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horizontale Ausrichtung",
+                    "target": "水平对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nur aktualisieren, wenn Frontmatter-Eigenschaft existiert",
+                    "target": "仅在 Frontmatter 属性存在时更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leere Eigenschaft beibehalten",
+                    "target": "保留空属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bestehende Eigenschaft nicht löschen",
+                    "target": "不要删除现有属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ausrufezeichen für YouTube-Vorschaubilder erforderlich",
+                    "target": "YouTube 缩略图需要感叹号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Externe Bilder in den Vorschaubilder-Ordner herunterladen",
+                    "target": "将外部图片下载到缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "YouTube-Vorschaubilder herunterladen",
+                    "target": "下载 YouTube 缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Was ist neu in Featured Image {version}",
+                    "target": "Featured Image {version} 有什么新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar notificaciones",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Propiedad de frontmatter",
+                    "target": "Frontmatter 属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Carpeta de miniaturas",
+                    "target": "缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Carpetas excluidas",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Redimensionar imagen destacada",
+                    "target": "调整特色图像大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nombre de propiedad de miniatura redimensionada",
+                    "target": "调整后缩略图属性名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ancho máximo redimensionado",
+                    "target": "调整后最大宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Altura máxima redimensionada",
+                    "target": "调整后最大高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Llenar dimensiones redimensionadas",
+                    "target": "填充调整后尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alineación vertical",
+                    "target": "垂直对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alineación horizontal",
+                    "target": "水平对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Formato de enlace de medios",
+                    "target": "媒体链接格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Propiedades de origen de imagen en frontmatter",
+                    "target": "frontmatter 中的图像来源属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Solo actualizar si existe la propiedad de frontmatter",
+                    "target": "仅在存在 frontmatter 属性时更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mantener propiedad vacía",
+                    "target": "保持属性为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "No borrar propiedad existente",
+                    "target": "不删除现有属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Requerir signo de exclamación para miniaturas de YouTube",
+                    "target": "YouTube 缩略图需要感叹号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Descargar imágenes externas en la carpeta de miniaturas",
+                    "target": "将外部图片下载到缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Descargar miniaturas de YouTube",
+                    "target": "下载 YouTube 缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modo de depuración",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ejecución de prueba",
+                    "target": "试运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Novedades en Featured Image {version}",
+                    "target": "Featured Image {version} 新增内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les notifications",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Propriété frontmatter",
+                    "target": "frontmatter 属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dossier des miniatures",
+                    "target": "缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dossiers exclus",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Redimensionner l'image vedette",
+                    "target": "调整特色图像大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nom de la propriété de miniature redimensionnée",
+                    "target": "调整后缩略图属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Largeur maximale redimensionnée",
+                    "target": "调整后最大宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hauteur maximale redimensionnée",
+                    "target": "调整后最大高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format de lien média",
+                    "target": "媒体链接格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Propriétés source d'image (frontmatter)",
+                    "target": "图像源属性（frontmatter）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Conserver la propriété vide",
+                    "target": "保留空属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ne pas effacer la propriété existante",
+                    "target": "不要删除现有属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exiger un point d'exclamation pour les miniatures YouTube",
+                    "target": "要求 YouTube 缩略图包含感叹号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Télécharger les images externes dans le dossier des miniatures",
+                    "target": "将外部图片下载到缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Télécharger les miniatures YouTube",
+                    "target": "下载 YouTube 缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mode débogage",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exécution à blanc",
+                    "target": "空运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nouveautés de Featured Image {version}",
+                    "target": "Featured Image {version} 更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通知を表示",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "フロントマタープロパティ",
+                    "target": "前置属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "サムネイルフォルダ",
+                    "target": "缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "除外フォルダ",
+                    "target": "排除文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アイキャッチ画像をリサイズ",
+                    "target": "调整题图大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "リサイズされたサムネイルプロパティ名",
+                    "target": "调整后的缩略图属性名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大リサイズ幅",
+                    "target": "最大调整宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大リサイズ高さ",
+                    "target": "最大调整高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "リサイズ寸法を満たす",
+                    "target": "满足调整尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "垂直方向の配置",
+                    "target": "垂直对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "水平方向の配置",
+                    "target": "水平对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "メディアリンク形式",
+                    "target": "媒体链接格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "フロントマター画像ソースプロパティ",
+                    "target": "Front Matter 图像源属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "フロントマタープロパティが存在する場合のみ更新",
+                    "target": "仅在存在前置元数据属性时更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "空のプロパティを保持",
+                    "target": "保留空属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "既存のプロパティをクリアしない",
+                    "target": "不清除现有属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "YouTubeサムネイルに感嘆符が必要",
+                    "target": "YouTube缩略图需要感叹号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部画像をサムネイルフォルダにダウンロード",
+                    "target": "将外部图片下载到缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "YouTubeサムネイルをダウンロード",
+                    "target": "下载YouTube缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "デバッグモード",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ドライラン",
+                    "target": "试运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Featured Image {version} の更新内容",
+                    "target": "Featured Image {version} 的更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示通知",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter 属性",
+                    "target": "Frontmatter 属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩略图文件夹",
+                    "target": "缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排除的文件夹",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调整特色图片大小",
+                    "target": "调整特色图片大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调整大小的缩略图属性名称",
+                    "target": "调整大小的缩略图属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大调整宽度",
+                    "target": "最大调整宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大调整高度",
+                    "target": "最大调整高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "填充调整后的尺寸",
+                    "target": "填充调整后的尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "垂直对齐",
+                    "target": "垂直对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "水平对齐",
+                    "target": "水平对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "媒体链接格式",
+                    "target": "媒体链接格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter 图片来源属性",
+                    "target": "Frontmatter 图片来源属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "仅在 frontmatter 属性存在时更新",
+                    "target": "仅在 frontmatter 属性存在时更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "保留空属性",
+                    "target": "保留空属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "不清除现有属性",
+                    "target": "不清除现有属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "YouTube 缩略图需要感叹号",
+                    "target": "YouTube 缩略图需要感叹号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "将外部图片下载到缩略图文件夹",
+                    "target": "将外部图片下载到缩略图文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下载 YouTube 缩略图",
+                    "target": "下载 YouTube 缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "试运行",
+                    "target": "试运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Featured Image {version} 更新内容",
+                    "target": "Featured Image {version} 更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "What's new in Featured Image",
+                    "target": "Featured Image 的更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Was ist neu in Featured Image",
+                    "target": "Featured Image 的更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Novedades en Featured Image",
+                    "target": "Featured Image 的更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nouveautés de Featured Image",
+                    "target": "Featured Image 的更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Featured Image の更新内容",
+                    "target": "Featured Image 的更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Featured Image 更新内容",
+                    "target": "Featured Image 更新内容"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
