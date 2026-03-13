@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "accounting-journal-ledger",
+        "version": "1.0.0",
+        "title": "Accounting Journal and Ledger",
+        "description": "Accounting Journal and Ledger Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating accounting journal entries: ",
+                    "target": "生成会计日记账分录时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating accounting ledger entries: ",
+                    "target": "生成会计总分类账分录时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing account equivalence CSV file:",
+                    "target": "解析账户对等CSV文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting account equivalence from frontmatter:",
+                    "target": "从frontmatter获取账户对等信息时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, numbers will use a comma (e.g. 1.103,14) instead of a dot (e.g. 1,103.14) as the decimal separator. This only applies to output formatting; for input, both formats are supported.\nThis setting can be overridden by the frontmatter property: acj-commaAsDecimal",
+                    "target": "启用后，数字将使用逗号（例如 1.103,14）而不是点号（例如 1,103.14）作为小数分隔符。此项仅影响输出格式；输入时两种格式均支持。\n该设置可由frontmatter属性覆盖：acj-commaAsDecimal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Character used to separate the credit and debit columns in the journal. This is used to format the journal entries.\nThis setting can be overridden by the frontmatter property: acj-journalSeparator",
+                    "target": "用于分隔日记账中贷方与借方列的字符。用于格式化日记账分录。\n该设置可由frontmatter属性覆盖：acj-journalSeparator"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to the CSV file in your vault used to resolve account name equivalents.\nThis setting can be overridden by the frontmatter property: acj-accountEquivalence",
+                    "target": "用于解析账户名称对等项的库中CSV文件路径。\n该设置可由frontmatter属性覆盖：acj-accountEquivalence"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Journal separator",
+                    "target": "日记账分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default account equivalence file",
+                    "target": "默认账户对等文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file to fix accounting entries.",
+                    "target": "没有可用于修正会计分录的活动文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error getting account equivalence from frontmatter. Using default settings.",
+                    "target": "从 frontmatter 获取账户等价项时出错。使用默认设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fix accounting entries",
+                    "target": "修复会计分录"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
