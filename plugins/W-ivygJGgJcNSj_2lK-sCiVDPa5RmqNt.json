@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "syncread",
+        "version": "1.0.0",
+        "title": "syncread-assistant",
+        "description": "syncread-assistant Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "api key",
+                    "target": "api key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文章文件夹",
+                    "target": "文章文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标注文件夹",
+                    "target": "标注文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入api key",
+                    "target": "请输入api key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入文件夹路径",
+                    "target": "请输入文件夹路径"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请填写api key",
+                    "target": "请填写api key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步文章失败",
+                    "target": "同步文章失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步标注失败",
+                    "target": "同步标注失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步标注完成",
+                    "target": "同步标注完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步文章完成",
+                    "target": "同步文章完成"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
