@@ -1,0 +1,451 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "language-translator",
+        "version": "1.0.0",
+        "title": "Language Translator",
+        "description": "Language Translator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the translation target language (automatically detects source language)",
+                    "target": "设置翻译目标语言（自动检测源语言）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set preferred API",
+                    "target": "设置首选 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set regions",
+                    "target": "设置区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target Language",
+                    "target": "目标语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translator API Type",
+                    "target": "翻译器 API 类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Azure Translator Region",
+                    "target": "Azure 翻译器区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Url",
+                    "target": "API 地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Token",
+                    "target": "API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter url",
+                    "target": "输入地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter token",
+                    "target": "输入令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert translation",
+                    "target": "插入翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Bosnian (Latin)",
+                    "target": "波斯尼亚语（拉丁）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cantonese (Traditional)",
+                    "target": "粤语（繁体）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chinese (Literary)",
+                    "target": "中文（文言）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chinese Simplified",
+                    "target": "简体中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chinese Traditional",
+                    "target": "繁体中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "French (Canada)",
+                    "target": "法语（加拿大）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Haitian Creole",
+                    "target": "海地克里奥尔语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hmong Daw",
+                    "target": "苗语白话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Klingon (plqaD)",
+                    "target": "克林贡语（plqaD）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Kurdish (Central)",
+                    "target": "库尔德语（中部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Kurdish (Northern)",
+                    "target": "库尔德语（北部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mongolian (Cyrillic)",
+                    "target": "蒙古语（西里尔文）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mongolian (Traditional)",
+                    "target": "蒙古语（传统）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Portuguese (Brazil)",
+                    "target": "葡萄牙语（巴西）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Portuguese (Portugal)",
+                    "target": "葡萄牙语（葡萄牙）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Queretaro Otomi",
+                    "target": "克雷塔罗奥托米语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Serbian (Cyrillic)",
+                    "target": "塞尔维亚语（西里尔文）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Serbian (Latin)",
+                    "target": "塞尔维亚语（拉丁文）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Uzbek (Latin)",
+                    "target": "乌兹别克语（拉丁文）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Yucatec Maya",
+                    "target": "尤卡坦玛雅语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "East Asia",
+                    "target": "东亚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Southeast Asia",
+                    "target": "东南亚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Central US",
+                    "target": "美国中部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "East US",
+                    "target": "美国东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "East US 2",
+                    "target": "美国东部 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West US",
+                    "target": "美国西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "North Central US",
+                    "target": "美国中北部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South Central US",
+                    "target": "美国中南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "North Europe",
+                    "target": "北欧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West Europe",
+                    "target": "西欧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Japan West",
+                    "target": "日本西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Japan East",
+                    "target": "日本东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Brazil South",
+                    "target": "巴西南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia East",
+                    "target": "澳大利亚东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia Southeast",
+                    "target": "澳大利亚东南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South India",
+                    "target": "印度南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Central India",
+                    "target": "印度中部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West India",
+                    "target": "印度西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Canada Central",
+                    "target": "加拿大中部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Canada East",
+                    "target": "加拿大东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UK South",
+                    "target": "英国南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UK West",
+                    "target": "英国西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West Central US",
+                    "target": "美国中西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West US 2",
+                    "target": "美国西部 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Korea Central",
+                    "target": "韩国中部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Korea South",
+                    "target": "韩国南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "France Central",
+                    "target": "法国中部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "France South",
+                    "target": "法国南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia Central",
+                    "target": "澳大利亚中部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia Central 2",
+                    "target": "澳大利亚中部 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UAE Central",
+                    "target": "阿联酋中部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UAE North",
+                    "target": "阿联酋北部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South Africa North",
+                    "target": "南非北部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South Africa West",
+                    "target": "南非西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Switzerland North",
+                    "target": "瑞士北部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Switzerland West",
+                    "target": "瑞士西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Germany North",
+                    "target": "德国北部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Germany West Central",
+                    "target": "德国中西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Norway West",
+                    "target": "挪威西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Norway East",
+                    "target": "挪威东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Language Translator Settings",
+                    "target": "语言翻译器设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
