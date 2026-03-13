@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "inline-checkbox-groups",
+        "version": "1.0.0",
+        "title": "Inline Checkbox Groups",
+        "description": "Inline Checkbox Groups Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Character used to separate checkboxes in a group",
+                    "target": "用于分隔组内复选框的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cross out text when all checkboxes in a group are checked",
+                    "target": "当组内所有复选框被选中时划掉文本"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
