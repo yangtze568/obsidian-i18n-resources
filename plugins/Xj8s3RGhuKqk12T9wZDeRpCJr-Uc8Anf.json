@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-to-notion",
+        "version": "1.0.0",
+        "title": "Obsidian shared to Notion",
+        "description": "Obsidian shared to Notion Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It's a secret",
+                    "target": "这是秘密"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your notion ID(optional),share link likes:https://username.notion.site/,your notion id is [username]",
+                    "target": "你的 notion ID（可选），分享链接类似：https://username.notion.site/，你的 notion id 是 [username]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Transfer the Obsidian tags to the Notion table. It requires the column with the name 'Tags'",
+                    "target": "将 Obsidian 标签转移到 Notion 表格。需要名为“Tags”的列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notion API Token",
+                    "target": "Notion API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Database ID",
+                    "target": "数据库 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banner url(optional)",
+                    "target": "横幅 URL（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notion ID(optional)",
+                    "target": "Notion ID（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Convert tags(optional)",
+                    "target": "转换标签（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your Notion API Token",
+                    "target": "输入你的 Notion API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your Database ID",
+                    "target": "输入你的数据库 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter banner pic url: ",
+                    "target": "输入横幅图片URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter notion ID(options) ",
+                    "target": "输入 Notion ID（可选）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set up the notion API and database ID in the settings tab.",
+                    "target": "请在设置选项卡中配置 Notion API 和数据库 ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "share to notion",
+                    "target": "分享到 Notion"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for obsidian to notion plugin.",
+                    "target": "Obsidian 到 Notion 插件的设置。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
