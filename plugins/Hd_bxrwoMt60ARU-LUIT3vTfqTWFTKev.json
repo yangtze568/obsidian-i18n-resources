@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tag-group-manager",
+        "version": "1.0.0",
+        "title": "Tag Group Manager",
+        "description": "Tag Group Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error setting up search box listener:",
+                    "target": "设置搜索框监听器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save settings and refresh display:",
+                    "target": "保存设置并刷新显示失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save settings:",
+                    "target": "保存设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[TGM Debug] Tag clicked, MarkdownView editor:",
+                    "target": "[TGM Debug] 标签已点击，MarkdownView 编辑器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[TGM Debug] activeEditor:",
+                    "target": "[TGM Debug] activeEditor："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[TGM Debug] recentLeaf viewType:",
+                    "target": "[TGM Debug] recentLeaf viewType："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[TGM Debug] Got editor from recentLeaf markdown view:",
+                    "target": "[TGM Debug] 从 recentLeaf 的 markdown 视图获取编辑器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "🔄",
+                    "target": "🔄"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save settings.",
+                    "target": "保存设置失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No changelog loaded.",
+                    "target": "未加载更新日志。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tag Group Manager settings",
+                    "target": "标签组管理器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tag overview",
+                    "target": "标签概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tag group sets",
+                    "target": "标签组集管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签组管理器设置",
+                    "target": "标签组管理器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签概览",
+                    "target": "标签概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签组集管理",
+                    "target": "标签组集管理"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
