@@ -1,0 +1,145 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "restore-tab-key",
+        "version": "1.0.0",
+        "title": "Restore Tab Key",
+        "description": "Restore Tab Key Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.18.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tab key event triggered",
+                    "target": "Tab 键事件已触发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to execute: Outliner recursive call blocked",
+                    "target": "执行失败：Outliner 递归调用被阻止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to execute: Cannot get editor view",
+                    "target": "执行失败：无法获取编辑器视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not execute: Inline code environment not activated",
+                    "target": "未执行：行内代码环境未激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not execute: Code block environment not activated",
+                    "target": "未执行：代码块环境未激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not execute: List environment not activated",
+                    "target": "未执行：列表环境未激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not execute: Other environments not activated",
+                    "target": "未执行：其他环境未激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Trying Outliner indent",
+                    "target": "正在尝试 Outliner 缩进"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not execute: Handled by Outliner",
+                    "target": "未执行：已由 Outliner 处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Table environment in Live Preview mode",
+                    "target": "Live Preview 模式下的表格环境"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not execute: Handled by Obsidian Table Editor",
+                    "target": "未执行：由 Obsidian Table Editor 处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Table environment in Source mode",
+                    "target": "源代码模式下的表格环境"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not execute: Handled by Advanced Table",
+                    "target": "未执行：由 Advanced Table 处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Indented (regex exception)",
+                    "target": "已缩进（正则表达式例外）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tab inserted",
+                    "target": "已插入制表符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Enter key event triggered",
+                    "target": "已触发回车键事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Code Auto Indent: Brace detected",
+                    "target": "代码自动缩进：检测到大括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Pressed enter without closing pair to the right of the cursor",
+                    "target": "按下回车时光标右侧没有闭合对"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Closing pair or whatever was to the right of the cursor is still here, entering one more time",
+                    "target": "闭合对或光标右侧的内容仍在此处，再次回车"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Closing pair was automatically moved one extra line down",
+                    "target": "闭合对已自动下移一行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "json array of regexes",
+                    "target": "正则表达式的 JSON 数组"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
