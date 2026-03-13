@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "contact-cards",
+        "version": "1.0.0",
+        "title": "Contact Cards",
+        "description": "Contact Cards Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify your country code for phone number formatting.",
+                    "target": "指定您的国家/地区代码以进行电话号码格式化。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default country code",
+                    "target": "默认国家/地区代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "John Doe",
+                    "target": "张三"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "The Everyman",
+                    "target": "普通人"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Search on LinkedIn",
+                    "target": "在领英上搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "View website",
+                    "target": "查看网站"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Call number",
+                    "target": "拨打号码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "View on map",
+                    "target": "在地图上查看"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
