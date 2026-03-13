@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ascii-tree-generator",
+        "version": "1.0.0",
+        "title": "ASCII Tree Generator",
+        "description": "ASCII Tree Generator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert selection to tree code block",
+                    "target": "将所选内容转换为树代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert tree block back to text",
+                    "target": "将树代码块转换回文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle tree block for selection",
+                    "target": "切换所选内容的树代码块"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
