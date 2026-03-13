@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tor2e-statblocks",
+        "version": "1.0.0",
+        "title": "The One Ring 2E Statblocks",
+        "description": "The One Ring 2E Statblocks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Combat Proficiencies",
+                    "target": "战斗熟练项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fell Abilities",
+                    "target": "邪恶能力"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
