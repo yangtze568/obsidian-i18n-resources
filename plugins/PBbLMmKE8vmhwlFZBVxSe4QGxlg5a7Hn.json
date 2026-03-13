@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-screwdriver",
+        "version": "1.0.0",
+        "title": "Screwdriver",
+        "description": "Screwdriver Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Frontmatter was not found",
+                    "target": "未找到 Frontmatter"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folder Create Error",
+                    "target": "文件夹创建错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Frontmatter was not found.",
+                    "target": "未找到 Frontmatter。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Target folders or urls are not specified.",
+                    "target": "未指定目标文件夹或 URL。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add target directory",
+                    "target": "添加目标目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export specified files and store into the active file",
+                    "target": "导出指定文件并存入当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Restore exported files from the active file",
+                    "target": "从当前文件恢复已导出文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
