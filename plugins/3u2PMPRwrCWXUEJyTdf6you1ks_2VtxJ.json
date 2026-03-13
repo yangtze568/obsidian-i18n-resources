@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "shortcut-edit-mode",
+        "version": "1.0.0",
+        "title": "Edit mode switch",
+        "description": "Edit mode switch Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "下移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "{{- showViewHeader}} is disabled.",
+                    "target": "{{- showViewHeader}} 已禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Include preview mode in the switch. You can change the order in the settings below.",
+                    "target": "在切换中包含预览模式。你可以在下面的设置中更改顺序。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display the next mode button in place of the current one.",
+                    "target": "用下一个模式按钮替换当前按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "{{- showViewHeader}} est désactivé.",
+                    "target": "{{- showViewHeader}} 已禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Inclure le mode lecture dans le bouton. Vous pouvez changer l'ordre dans les paramètres ci-dessous.",
+                    "target": "在按钮中包含预览模式。你可以在下面的设置中更改顺序。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Affiche le bouton du prochain mode à la place de l'actuel.",
+                    "target": "用下一个模式按钮替换当前按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch mode",
+                    "target": "切换模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Include preview mode",
+                    "target": "包含预览模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reverse button icons",
+                    "target": "反转按钮图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Inclure le mode lecture",
+                    "target": "包含阅读模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Inverser les icones des boutons",
+                    "target": "反转按钮图标"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
