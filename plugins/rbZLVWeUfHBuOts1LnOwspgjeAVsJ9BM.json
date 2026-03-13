@@ -1,0 +1,937 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "calctex",
+        "version": "1.0.0",
+        "title": "Calctex",
+        "description": "Calctex Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected end of input",
+                    "target": "意外的输入结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Optional arguments must come after required arguments",
+                    "target": "可选参数必须在必需参数之后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Optional arguments cannot be followed by a rest argument",
+                    "target": "可选参数后不能跟随剩余参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The rest argument indicator is placed before the type, not the name",
+                    "target": "剩余参数指示符应放在类型之前，而不是名称之前"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected \":\" after rest argument. Use \"x: ...number\"",
+                    "target": "剩余参数后出现意外的“:”。使用“x: ...number”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The rest argument must be the last argument",
+                    "target": "剩余参数必须是最后一个参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The rest argument must have a valid type",
+                    "target": "剩余参数必须具有有效的类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Optional arguments cannot be followed by required arguments",
+                    "target": "可选参数后不能跟随必需参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected \")\" to close the argument list",
+                    "target": "应为“) ”以结束参数列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected an argument",
+                    "target": "应为一个参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Named arguments must be enclosed in parentheses",
+                    "target": "命名参数必须用括号括起来"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a return type.",
+                    "target": "需要返回类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `any` for any type, `nothing` for no return value, or `never` for a function that never returns",
+                    "target": "任意类型使用 `any`，无返回值使用 `nothing`，或函数永不返回使用 `never`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a positive integer literal or `?`.",
+                    "target": "需要正整数字面量或 `?`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example : `matrix<integer^2x3>` or `matrix<integer^?x?>`",
+                    "target": "例如：`matrix<integer^2x3>` 或 `matrix<integer^?x?>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected \")\".",
+                    "target": "需要 \")\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `matrix<integer^(2x3)>`",
+                    "target": "例如 `matrix<integer^(2x3)>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected \">\".",
+                    "target": "需要 \">\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `list<2x3>`",
+                    "target": "例如 `list<2x3>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected dimensions after `^`.",
+                    "target": "需要在 `^` 后指定维度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `list<number^2x3>`",
+                    "target": "例如 `list<number^2x3>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `list<number>`",
+                    "target": "例如 `list<number>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `list<type>` instead of `list(type)`.",
+                    "target": "使用 `list<type>` 代替 `list(type)`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a positive integer literal.",
+                    "target": "应为正整数文字量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `vector<3>`",
+                    "target": "例如 `vector<3>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `vector` for a vector of unknown size",
+                    "target": "未知大小的向量请使用 `vector`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected \">\"",
+                    "target": "应为 \">\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `vector<integer>`",
+                    "target": "例如 `vector<integer>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `vector<...>` instead of `vector(...)`.",
+                    "target": "使用 `vector<...>` 代替 `vector(...)`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `vector<3>` or `vector<integer^3>`",
+                    "target": "例如 `vector<3>` 或 `vector<integer^3>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected dimensions",
+                    "target": "预期维度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `matrix<number^2x3>`",
+                    "target": "例如 `matrix<number^2x3>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `matrix` for a matrix of unknown size",
+                    "target": "对于未知大小的矩阵使用 `matrix`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `matrix<integer>`",
+                    "target": "例如 `matrix<integer>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `matrix<...>` instead of `matrix(...)`.",
+                    "target": "使用 `matrix<...>` 而不是 `matrix(...)`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `matrix<3x2>` or `matrix<integer^3x2>`",
+                    "target": "例如 `matrix<3x2>` 或 `matrix<integer^3x2>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `tensor<number>`",
+                    "target": "例如 `tensor<number>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a type. Use \"[any]\" for a collection of any type",
+                    "target": "预期类型。使用 \"[any]\" 表示任意类型的集合"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Optional qualifier must come after the type",
+                    "target": "可选限定符必须位于类型之后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected closing backtick",
+                    "target": "预期结束反引号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Single named argument must be enclosed in parentheses",
+                    "target": "单个命名参数必须用括号括起来"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a type or unexpected comma",
+                    "target": "需要一个类型或出现了意外的逗号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `tuple<type>` instead of `tuple(type)`.",
+                    "target": "请使用 `tuple<type>` 而不是 `tuple(type)`."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `tuple<number, boolean>` or `tuple<x: integer, y: integer>`",
+                    "target": "例如 `tuple<number, boolean>` 或 `tuple<x: integer, y: integer>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `set<type>` instead of `set(type)`.",
+                    "target": "请使用 `set<type>` 而不是 `set(type)`."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `set<number>`",
+                    "target": "例如 `set<number>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a type.",
+                    "target": "需要一个类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `set<number>` for a set of numbers",
+                    "target": "请使用 `set<number>` 表示数字集合"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected `>`.",
+                    "target": "需要 `>`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a name for the key.",
+                    "target": "需要为键指定名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `map<key: string>`.",
+                    "target": "例如 `map<key: string>`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use backticks for special characters.",
+                    "target": "特殊字符请使用反引号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `map<`key with space`: string>`",
+                    "target": "例如 `map<`key with space`: string>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a type separated by a `:` after the key.",
+                    "target": "应在键后使用 `:` 分隔类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a type for the value. Use `any` for any type.",
+                    "target": "值需要指定类型。任意类型请使用 `any`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Keys in a map must be unique.",
+                    "target": "映射中的键必须唯一。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `map<key: type>` instead of `map(key: type)\".",
+                    "target": "请使用 `map<key: type>`，而不是 `map(key: type)\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `map<key: string>`",
+                    "target": "例如 `map<key: string>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a closing `>`.",
+                    "target": "需要一个结束的 `>`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `collection<type>` instead of `collection(type)`.",
+                    "target": "请使用 `collection<type>`，而不是 `collection(type)`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For example `collection<number>`",
+                    "target": "例如 `collection<number>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `collection<number>` for a collection of numbers",
+                    "target": "对数字集合使用 `collection<number>`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected return type",
+                    "target": "预期的返回类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use `any` for any type, `nothing` for no return value or `never` for a function that never returns",
+                    "target": "任意类型使用 `any`，无返回值使用 `nothing`，或对永不返回的函数使用 `never`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected type",
+                    "target": "预期的类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Syntax error. The type was not recognized.",
+                    "target": "语法错误。无法识别该类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected character. Could be some mismatched parentheses.",
+                    "target": "意外字符。可能存在括号不匹配。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected closing quote",
+                    "target": "预期的结束引号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unterminated escape sequence in string",
+                    "target": "字符串中的转义序列未终止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unterminated string literal",
+                    "target": "未终止的字符串字面量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unterminated multi-line comment",
+                    "target": "未终止的多行注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "hash BoxedNumber ",
+                    "target": "哈希 BoxedNumber "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The string that triggers calculation.",
+                    "target": "触发计算的字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The string that triggers approximation.",
+                    "target": "触发近似计算的字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The precision used when approximating (-1 for max).",
+                    "target": "近似计算时使用的精度（-1 表示最大）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The key that triggers completion.",
+                    "target": "触发补全的键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The symbol used for multiplication (e.g. * or \\times).",
+                    "target": "用于乘法的符号（例如 * 或 \\times）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The symbol used for grouping numbers (e.g. ' or ,).",
+                    "target": "用于数字分组的符号（例如 ' 或 ,）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The symbol used for defining where the decimal point is (e.g. , or .)",
+                    "target": "用于定义小数点位置的符号（例如 , 或 .）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Calculation Trigger String",
+                    "target": "计算触发字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Approximation Trigger String",
+                    "target": "近似触发字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Approximation Precision",
+                    "target": "近似精度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Completion Trigger Key",
+                    "target": "补全触发键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Multiplication Symbol",
+                    "target": "乘号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group Separator",
+                    "target": "分组分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Decimal Separator",
+                    "target": "小数分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type a string here",
+                    "target": "在此输入字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type a number here",
+                    "target": "在此输入数字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type name of a key here",
+                    "target": "在此输入键名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type a symbol here",
+                    "target": "在此输入符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A set of real numbers between two endpoints. The endpoints may or may not be included.",
+                    "target": "两个端点之间的一组实数。端点可能包含也可能不包含。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A key/value pair",
+                    "target": "键/值对"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Rounds a number up to the next largest integer",
+                    "target": "将数字向上舍入到下一个最大整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Factorial function: the product of all positive integers less than or equal to n",
+                    "target": "阶乘函数：所有小于或等于 n 的正整数的乘积"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Double Factorial Function",
+                    "target": "双阶乘函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Natural Logarithm",
+                    "target": "自然对数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Log(z, b = 10) = Logarithm of base b",
+                    "target": "Log(z, b = 10) = 以 b 为底的对数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Base-2 Logarithm",
+                    "target": "以 2 为底的对数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Base-10 Logarithm",
+                    "target": "以 10 为底的对数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Additive Inverse",
+                    "target": "加法逆元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Plus or Minus",
+                    "target": "正负号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Square Root",
+                    "target": "平方根"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`IsPrime(n)` returns `True` if `n` is a prime number",
+                    "target": "如果 `n` 是质数，`IsPrime(n)` 返回 `True`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`IsComposite(n)` returns `True` if `n` is not a prime number",
+                    "target": "如果 `n` 不是质数，`IsComposite(n)` 返回 `True`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`IsOdd(n)` returns `True` if `n` is an odd number",
+                    "target": "如果 `n` 是奇数，`IsOdd(n)` 返回 `True`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odd Number",
+                    "target": "奇数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Greatest Common Divisor",
+                    "target": "最大公约数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Least Common Multiple",
+                    "target": "最小公倍数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Numerator of an expression",
+                    "target": "表达式的分子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Denominator of an expression",
+                    "target": "表达式的分母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sequence of Numerator and Denominator of an expression",
+                    "target": "表达式的分子和分母序列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum of two or more numbers",
+                    "target": "两个或多个数的最大值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Minimum of two or more numbers",
+                    "target": "两个或多个数的最小值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Like Max, but defined for open sets",
+                    "target": "类似 Max，但定义于开集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Like Min, but defined for open sets",
+                    "target": "类似 Min，但定义于开集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`Product(f, a, b)` computes the product of `f` from `a` to `b`",
+                    "target": "`Product(f, a, b)` 计算 `f` 从 `a` 到 `b` 的乘积"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`Sum(f, a, b)` computes the sum of `f` from `a` to `b`",
+                    "target": "`Sum(f, a, b)` 计算 `f` 从 `a` 到 `b` 的和"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`BaseForm(expr, base=10)`",
+                    "target": "`BaseForm(expr, base=10)`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`FromDigits(s, base=10)`       return an integer representation of the string `s` in base `base`.",
+                    "target": "`FromDigits(s, base=10)`       返回字符串 `s` 在基数 `base` 下的整数表示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`IntegerString(n, base=10)`       return a string representation of the integer `n` in base `base`.",
+                    "target": "`IntegerString(n, base=10)`       返回整数 `n` 在基数 `base` 下的字符串表示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit of a function",
+                    "target": "函数的极限"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Numerical approximation of the limit of a function",
+                    "target": "函数极限的数值近似"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Prevent an expression from being evaluated",
+                    "target": "防止表达式被求值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hold an expression, preventing it from being canonicalized or evaluated until `ReleaseHold` is applied to it",
+                    "target": "保持一个表达式，防止其被规范化或求值，直到对其应用 `ReleaseHold`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Release an expression held by `Hold`",
+                    "target": "释放由 `Hold` 保持的表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return information about an expression",
+                    "target": "返回表达式的信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return the head of an expression, the name of the operator",
+                    "target": "返回表达式的头部，即运算符名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return the tail of an expression, the operands of the expression",
+                    "target": "返回表达式的尾部，即表达式的操作数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return the argument unchanged",
+                    "target": "原样返回参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Apply a function to a list of arguments",
+                    "target": "将函数应用于参数列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assign a value to a symbol",
+                    "target": "为符号赋值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assume a type for a symbol",
+                    "target": "为符号假定类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Numerically evaluate an expression",
+                    "target": "对表达式进行数值求值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Construct a new symbol with a name formed by concatenating the arguments",
+                    "target": "通过连接参数构造一个新符号名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "`Timing(expr)` evaluates `expr` and return a `Pair` of the number of second elapsed for the evaluation, and the value of the evaluation",
+                    "target": "`Timing(expr)` 会计算 `expr` 并返回一个 `Pair`，其中包含求值耗费的秒数和求值结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Value preserving type conversion/tag indicating the string is a LaTeX string",
+                    "target": "保留值的类型转换/标签，表示该字符串为 LaTeX 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Serialize an expression to LaTeX",
+                    "target": "将表达式序列化为 LaTeX"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Parse a LaTeX string and evaluate to a corresponding expression",
+                    "target": "解析 LaTeX 字符串并求值得到相应表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The length of the shape of the expression. Note this is not the matrix rank (the number of linearly independent rows or columns in the matrix)",
+                    "target": "表达式形状的长度。注意这不是矩阵秩（矩阵中线性无关的行或列的数量）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return 1 if the arguments are equal, 0 otherwise",
+                    "target": "若参数相等返回 1，否则返回 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return 1 if the argument is true, 0 otherwise. Also known as the Iverson bracket",
+                    "target": "如果参数为真则返回 1，否则返回 0。也称为艾弗森括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Expand out products and positive integer powers",
+                    "target": "展开乘积和正整数幂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Recursively expand out products and positive integer powers",
+                    "target": "递归展开乘积和正整数幂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Factors an algebraic expression into a product of irreducible factors",
+                    "target": "将代数表达式因式分解为不可约因子的乘积"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Combine rational expressions into a single fraction",
+                    "target": "将有理表达式合并为一个分式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Distribute multiplication over addition",
+                    "target": "对加法分配乘法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indicate that two expressions are congruent modulo a number",
+                    "target": "表示两个表达式在某个数的模意义下同余"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Compare two expressions for structural equality",
+                    "target": "比较两个表达式的结构相等性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indicate isomorphism, congruence and homotopic equivalence",
+                    "target": "表示同构、同余和同伦等价"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Approximately or asymptotically equal",
+                    "target": "近似或渐近相等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sample Standard Deviation of a collection of numbers.",
+                    "target": "一组数字的样本标准差。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Population Standard Deviation of a collection of numbers.",
+                    "target": "一组数字的总体标准差。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vaccum permeability",
+                    "target": "真空磁导率"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
