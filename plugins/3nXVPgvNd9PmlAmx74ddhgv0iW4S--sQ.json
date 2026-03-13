@@ -1,0 +1,3337 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-mathjax",
+        "version": "1.0.0",
+        "title": "Better MathJax",
+        "description": "Better MathJax Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Longest common subsequence",
+                    "target": "最长公共子序列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Damerau-Levenshtein distance",
+                    "target": "Damerau-Levenshtein 距离"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering mathjax",
+                    "target": "渲染 Mathjax 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "User defined file reload failed",
+                    "target": "用户定义文件重新加载失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "User defined symbols file not found",
+                    "target": "未找到用户定义符号文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "BetterMathjax Debug Log Enabled:",
+                    "target": "BetterMathjax 调试日志已启用："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Inserting superscript",
+                    "target": "插入上标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Loaded Mathjax symbols. Size: ",
+                    "target": "已加载 Mathjax 符号。大小："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Startup finished",
+                    "target": "启动完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "lineNumber:",
+                    "target": "行号："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "currentLineNumber:",
+                    "target": "当前行号："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "pos.ch:",
+                    "target": "pos.ch："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Placeholder found",
+                    "target": "找到占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "End bracket found",
+                    "target": "找到结束括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "User defined file successful reloaded",
+                    "target": "用户定义文件重新加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "description: ",
+                    "target": "描述："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "User Defined Symbols Loading:",
+                    "target": "正在加载用户定义符号："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "New symbol loaded: ",
+                    "target": "已加载新符号："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "INFO:",
+                    "target": "信息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ERROR: ",
+                    "target": "错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Snippet will always be used for autocompletion instead of the symbol name unless the snippet is not provided.",
+                    "target": "除非未提供片段，否则自动补全将始终使用片段而不是符号名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum number of suggestions to show",
+                    "target": "显示的最大建议数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Always show example even when not provided, this may lead to mathjax rendering issues",
+                    "target": "即使未提供也始终显示示例，这可能导致 Mathjax 渲染问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable the autocompletion automatically when inside $ (inline) or $$ (multiple lines)",
+                    "target": "在 $（行内）或 $$（多行）内时自动启用自动补全"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Always enable the autocompletion (even when not inside $ or $$)",
+                    "target": "始终启用自动补全（即使不在 $ 或 $$ 内）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Match the super script when typing",
+                    "target": "输入时匹配上标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Match the sub script when typing",
+                    "target": "输入时匹配下标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The file that contains the user defined symbols (must be markdown file)",
+                    "target": "包含用户定义符号的文件（必须是 markdown 文件）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the fuzzy search algorithm",
+                    "target": "选择模糊搜索算法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debug mode to see the console log",
+                    "target": "启用调试模式以查看控制台日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use snippet first",
+                    "target": "优先使用片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max suggestion number",
+                    "target": "最大建议数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always show examples",
+                    "target": "始终显示示例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto enabling",
+                    "target": "自动启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Force enabling",
+                    "target": "强制启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Matching super script",
+                    "target": "匹配上标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Matching sub script",
+                    "target": "匹配下标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User defined symbols filepath",
+                    "target": "用户定义符号文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fuzzy search type",
+                    "target": "模糊搜索类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "User defined file reloaded",
+                    "target": "用户定义文件已重新加载"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error rendering mathjax",
+                    "target": "渲染 Mathjax 出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating default user defined symbols",
+                    "target": "正在生成默认用户定义符号"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "User defined symbols already exists, if you still want the sample code, delete the file",
+                    "target": "用户定义符号已存在，如仍需示例代码，请删除该文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create the file, make sure the path is correct.",
+                    "target": "创建文件失败，请确认路径正确。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The file does not exist",
+                    "target": "文件不存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reloaded user defined symbols",
+                    "target": "已重新加载用户定义符号"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "User defined file successful reloaded",
+                    "target": "用户定义文件重新加载成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "User defined file reload failed, check your format!!",
+                    "target": "用户定义文件重新加载失败，请检查格式！！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "User defined symbols saved",
+                    "target": "用户定义符号已保存"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "User defined symbols file not found",
+                    "target": "未找到用户定义的符号文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "negative thin space;  i.e., it ‘back ups’ a thin space amount",
+                    "target": "负细空格；即“回退”一个细空格的距离"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\,thin space (normally $\\frac 16 = \\frac{3}{18}$ of a quad)\n\\:medium space (normally $\\frac 29 = \\frac{4}{18}$ of a quad)\n\\>alternate medium space\n\\;thick space (normally $\\frac 5{18}$ of a quad)",
+                    "target": "\\,细空格（通常为一个四分空格的 $\\frac 16 = \\frac{3}{18}$）\n\\:中等空格（通常为一个四分空格的 $\\frac 29 = \\frac{4}{18}$）\n\\>替代中等空格\n\\;粗空格（通常为一个四分空格的 $\\frac 5{18}$）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "control space;\n$\\rm\\TeX$ often ignores spaces, or collapses multiple spaces to a single space.\nA control space is used to force $\\rm\\TeX$ to typeset a space.\n\nclass ORD",
+                    "target": "控制空格；\n$\\rm\\TeX$ 经常忽略空格，或将多个空格合并为一个空格。\n控制空格用于强制 $\\rm\\TeX$ 排印一个空格。\n\nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "In $\\rm\\TeX$ this is a non-breaking space—i.e.,\na blank space where $\\rm\\TeX$ is not allowed to break between lines.\nMathJax (unlike $\\rm\\TeX$) doesn't do any automatic breaking of lines,\nso MathJax will not break at any space.\nThe tilde is useful to force a space where MathJax would otherwise collapse or ignore spaces,\nas illustrated in the",
+                    "target": "在 $\\rm\\TeX$ 中这是一个不换行空格——即\n$\\rm\\TeX$ 不允许在行间断开的空白。\nMathJax（不同于 $\\rm\\TeX$）不会自动断行，\n因此 MathJax 不会在任何空格处断行。\n波浪号可用于强制一个空格，否则 MathJax 会合并或忽略空格，\n如图所示在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "literal number sign; literal pound sign;\nneeded since   #   is used to indicate arguments in definitions\n\n&#x0023;   class ORD",
+                    "target": "字面数字符号；字面井号；\n因为   #   用于在定义中指示参数，所以需要该符号\n\n&#x0023;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "literal percent sign;\nneeded since   %   is used to begin a single-line comment\n\n&#x0025;   class ORD",
+                    "target": "字面百分号；\n因为   %   用于开始单行注释，所以需要该符号\n\n&#x0025;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "literal ampersand;\nneeded since ampersands are used as separators in alignment environments\nand for HTML entity references inside math mode\n\n&#x0026;   class ORD",
+                    "target": "字面与号；\n因为与号用于对齐环境中的分隔符，\n并用于数学模式中的 HTML 实体引用\n\n&#x0026;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "line separator in alignment modes and environments",
+                    "target": "对齐模式与环境中的行分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "literal underscore;\nneeded since underscores are used for subscripts\n\n&#x005F;   class ORD",
+                    "target": "字面下划线；\n因为下划线用于下标，所以需要该符号\n\n&#x005F;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "literal braces;\nneeded since braces are used for grouping in math mode;\nnon-stretchy when used alone; stretchy when used with   \\left   or   \\right\n\n\\{ is class OPEN\n\\} is class CLOSE",
+                    "target": "字面花括号；\n因为花括号用于数学模式中的分组，所以需要该符号；\n单独使用时不伸展；与   \\left   或   \\right   一起使用时可伸展\n\n\\{ is class OPEN\n\\} is class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "pipe character; vertical bar; absolute value;\nnon-stretchy when used alone; stretchy when used with   \\left   or   \\right\n\nclass ORD",
+                    "target": "管道符；竖线；绝对值；\n单独使用时不伸展；与   \\left   或   \\right   一起使用时可伸展\n\nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "double pipe character; double vertical bar; norm;\nnon-stretchy when used alone; stretchy when used with   \\left   or   \\right\n\n&#x2225;   class ORD",
+                    "target": "双管道符；双竖线；范数；\n单独使用时不伸展；与   \\left   或   \\right   一起使用时可伸展\n\n&#x2225;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "parentheses;\nnon-stretchy when used alone; stretchy when used with   \\left   or   \\right\n\n( is class OPEN;\n) is class CLOSE",
+                    "target": "圆括号；\n单独使用时不伸展；与   \\left   或   \\right   一起使用时可伸展\n\n( is class OPEN;\n) is class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "period; decimal point\n\nclass PUNCT\n\nIn some math environments (but not all):\n\nWith numbers on either side, there is no surrounding space:\n\n3.14\nyields\n$3.14$\n\nWith non-numeric characters, there is a slight amount of space on right:\na.b\nyields\n$a.b$\n\nTo suppress this space, enclose the ‘.’ in braces:\na{.}b\nyields\n$a{.}b$",
+                    "target": "句点；小数点\n\nclass PUNCT\n\n在某些数学环境中（但并非全部）：\n\n两侧为数字时，周围不留空格：\n\n3.14\nyields\n$3.14$\n\n两侧为非数字字符时，右侧会有少量空格：\na.b\nyields\n$a.b$\n\n要抑制此空格，将“.”用花括号括起来：\na{.}b\nyields\n$a{.}b$"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "forward slash;\ncan be used to denote division\n\nclass ORD",
+                    "target": "正斜杠；\n可用于表示除法\n\nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "plus symbol;\ne.g., used for addition\n\nclass BIN",
+                    "target": "加号；\n例如，用于加法\n\nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "minus symbol;\ne.g., used for subtraction\n\nclass BIN",
+                    "target": "减号；\n例如，用于减法\n\nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "(square) brackets;\nnon-stretchy when used alone; stretchy when used with   \\left   or   \\right\n\n[ is class OPEN;\n] is class CLOSE",
+                    "target": "（方）括号；\n单独使用时不伸展；与   \\left   或   \\right   一起使用时可伸展\n\n[ is class OPEN;\n] is class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "equal; equals\n\nclass REL",
+                    "target": "等号；等于\n\nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "prime symbol\n\nclass ORD",
+                    "target": "撇号符号\n\nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "general command for making fractions;\ngives control over thickness of horizontal fraction bar\n{ <subformula1> \\above <dimen> <subformula2> }\nCreates a fraction:\nnumerator:   subformula1\ndenominator:   subformula2\nfraction bar has thickness:   dimen\n\nThere are separate local groups for  subformula1  and  subformula2 ;\nif these local groups are not explicit, then unexpected results may occur, as illustrated in the\nchoose discussion.",
+                    "target": "用于生成分数的通用命令；\n可控制水平分数线的粗细\n{ <subformula1> \\above <dimen> <subformula2> }\n创建一个分数：\n分子：   subformula1\n分母：   subformula2\n分数线厚度：   dimen\n\nsubformula1 和 subformula2 各自有独立的本地分组；\n如果这些本地分组不明确，则可能出现意外结果，如在\nchoose 讨论中所示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x02CA;\nacute accent\n\\acute #1\nUsually, #1 is a single letter;  otherwise, accent is centered over argument.",
+                    "target": "&#x02CA;\n尖音符\n\\acute #1\n通常，#1 是单个字母；否则，重音居中于参数上方。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hebrew letter aleph;\ncommonly used for the cardinality of the real numbers\n\n&#x2135;   class ORD",
+                    "target": "希伯来字母 aleph；\n常用于表示实数集的基数\n\n&#x2135;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter alpha\n\n&#x03B1;   class ORD",
+                    "target": "希腊小写字母 alpha\n\n&#x03B1;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "this symbol is often used for co-products\n\n&#x2A3F;   class BIN",
+                    "target": "该符号常用于余积\n\n&#x2A3F;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ampersand\n\n&#x0026;   class ORD",
+                    "target": "与号\n\n&#x0026;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2220;   class ORD",
+                    "target": "&#x2220;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2248;   class REL",
+                    "target": "&#x2248;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x224A;   class REL",
+                    "target": "&#x224A;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a synonym for  \\matrix \n\\array{ <math> & <math> ... \\cr <repeat as needed> }\nalignment occurs at the ampersands;\na double-backslash can be used in place of the  \\cr ;\nthe final   \\\\   or   \\cr   is optional",
+                    "target": "\\matrix 的同义命令\n\\array{ <math> & <math> ... \\cr <repeat as needed> }\n在与号处对齐；\n可用双反斜杠替代   \\cr ；\n最后的   \\\\   或   \\cr   可省略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not intended for direct use;\nused internally to create stretchy delimiters\n\n&#x23D0;   class ORD",
+                    "target": "不用于直接使用；\n内部用于创建可伸展的定界符\n\n&#x23D0;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not intended for direct use;\nused internally to create stretchy delimiters\n\n&#x2016;   class PUNCT",
+                    "target": "不用于直接使用；\n内部用于创建可伸展的定界符\n\n&#x2016;   class PUNCT"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "asterisk\n\n&#x2217;   class BIN",
+                    "target": "星号\n\n&#x2217;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "asymptotic\n\n&#x224D;   class REL",
+                    "target": "渐近\n\n&#x224D;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "general command for making a fraction-like structure, but without the horizontal fraction bar\n{ <subformula1> \\atop <subformula2> }\nCreates a fraction-like structure:\n‘numerator’   subformula1\n’denominator’   subformula2\n\nThere are separate local groups for  subformula1  and  subformula2 ;\nif these local groups are not explicit, then unexpected results may occur, as illustrated in the\nchoose discussion.",
+                    "target": "用于生成类似分数结构的通用命令，但没有水平分数线\n{ <subformula1> \\atop <subformula2> }\n创建类似分数的结构：\n“分子”   subformula1\n“分母”   subformula2\n\nsubformula1 和 subformula2 各自有独立的本地分组；\n如果这些本地分组不明确，则可能出现意外结果，如在\nchoose 讨论中所示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x220D;   class REL",
+                    "target": "&#x220D;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x223D;   class REL",
+                    "target": "&#x223D;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22CD;   class REL",
+                    "target": "&#x22CD;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "bar accent (non-stretchy)\n\n&#x02C9;\n\n\\bar #1\nUsually, #1 is a single letter;  otherwise, bar is centered over argument.",
+                    "target": "横杠重音（不可伸展）\n\n&#x02C9;\n\n\\bar #1\n通常，#1 是单个字母；否则，横杠居中于参数上方。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22BC;   class BIN",
+                    "target": "&#x22BC;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "blackboard-bold for uppercase letters and lowercase ‘k’;\nif lowercase blackboard-bold letters are not available, then they are typeset in a roman font\n\nclass ORD\n\n\\Bbb #1\nWhether lower-case letters are displayed in blackboard-bold, or not, depends on the fonts being used.\nThe MathJax web-based fonts don't have lowercase blackboard-bold, but the STIX fonts do;\nso users with the STIX fonts installed will be able to display lowercase blackboard-bold letters.",
+                    "target": "用于大写字母和小写“k”的黑板粗体；\n如果没有小写黑板粗体字母，则以罗马字体排版\n\nclass ORD\n\n\\Bbb #1\n小写字母是否以黑板粗体显示取决于所用字体。\nMathJax 的网页字体不包含小写黑板粗体，但 STIX 字体包含；\n因此安装了 STIX 字体的用户可以显示小写黑板粗体字母。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "blackboard-bold lowercase k\n\n&#x006B;   class ORD",
+                    "target": "黑板粗体小写 k\n\n&#x006B;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2235;   class REL",
+                    "target": "&#x2235;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used in  \n\\begin{xxx} ... \\end{xxx}   environments",
+                    "target": "用于  \n\\begin{xxx} ... \\end{xxx}   环境"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter beta\n\n&#x03B2;   class ORD",
+                    "target": "希腊小写字母 beta\n\n&#x03B2;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hebrew letter beth\n\n&#x2136;   class ORD",
+                    "target": "希伯来字母 beth\n\n&#x2136;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x226C;   class REL",
+                    "target": "&#x226C;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on boldface;  affects uppercase and lowercase letters, and digits\n\nclass ORD\n\n{\\bf ... }",
+                    "target": "启用粗体；影响大写和小写字母以及数字\n\nclass ORD\n\n{\\bf ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to obtain various-sized delimiters;\nmay be followed by any of these Variable-Sized Delimiters",
+                    "target": "用于获得各种大小的定界符；\n后面可跟随任意这些可变大小定界符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to obtain various-sized delimiters, with a left/right/middle context;\nmay be followed by any of these Variable-Sized Delimiters.\n\nThe ‘l’ (left), ’m’ (middle), and ‘r’ (right) specifications\nmay make reading the source code more meaningful,\nespecially when there are delimiters inside delimiters.\n\nWhereas (say)  \\Bigg  produces results of class ORD, we have:\n\n \\Biggl  produces results of class OPEN\n \\Biggr  produces results of class CLOSE\n \\Biggm  produces results of class REL\n\nThe spacing for these differ (but may not always be apparent, as it depends on the class of what is next to it).\nFor example,  $x\\big| y$  ($\\,x\\big| y\\,$)\nhas less space than  $x\\bigm| y$  ($\\,x\\bigm| y\\,$).\nTherefore, these commands affect typeset results in a fundamental way;\nit is best to use the form appropriate for the position of the desired delimiter.",
+                    "target": "用于获取不同大小的定界符，并带有左/右/中间上下文；\n后面可接这些可变大小定界符中的任意一种。\n\n‘l’（left）、’m’（middle）和‘r’（right）的规格\n可以使阅读源代码更有意义，\n尤其是在定界符内部还有定界符时。\n\n而（例如） \\Bigg  产生 class ORD 的结果，我们有：\n\n \\Biggl  产生 class OPEN 的结果\n \\Biggr  产生 class CLOSE 的结果\n \\Biggm  产生 class REL 的结果\n\n这些的间距不同（但并不总是明显，因为取决于它旁边内容的类别）。\n例如， $x\\big| y$  ($\\,x\\big| y\\,$)\n比  $x\\bigm| y$  ($\\,x\\bigm| y\\,$) 的间距更小。\n因此，这些命令会从根本上影响排版结果；\n最好使用与所需定界符位置相适应的形式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25EF;   class BIN",
+                    "target": "&#x25EF;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2605;   class ORD",
+                    "target": "&#x2605;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25BD;   class BIN",
+                    "target": "&#x25BD;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25B3;   class REL",
+                    "target": "&#x25B3;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "notation commonly used for binomial coefficients\n\\binom #1 #2",
+                    "target": "常用于二项式系数的表示法\n\\binom #1 #2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x29EB;   class ORD",
+                    "target": "&#x29EB;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25A0;   class ORD",
+                    "target": "&#x25A0;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25B2;  \nclass ORD\n\n&#x25BC;  \nclass ORD",
+                    "target": "&#x25B2;  \nclass ORD\n\n&#x25BC;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25C0;  \nclass BIN\n\n&#x25B6;  \nclass BIN",
+                    "target": "&#x25C0;  \nclass BIN\n\n&#x25B6;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "properly spaced as a binary operator\n\nclass BIN",
+                    "target": "作为二元运算符进行适当间距\n\nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "as opposed to  \\bf  and  \\mathbf ,\n\\boldsymbol  applies to nearly all symbols, not just letters and numbers\n\nclass ORD\n\n\\boldsymbol #1",
+                    "target": "与  \\bf  和  \\mathbf  相比，\n\\boldsymbol  适用于几乎所有符号，不仅限于字母和数字\n\nclass ORD\n\n\\boldsymbol #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22A5;   class ORD",
+                    "target": "&#x22A5;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22C8;   class REL",
+                    "target": "&#x22C8;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25A1;   class ORD",
+                    "target": "&#x25A1;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22A1;   class BIN",
+                    "target": "&#x22A1;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "puts a box around argument; argument is in math mode\n\\boxed #1",
+                    "target": "给参数加框；参数处于数学模式\n\\boxed #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x229F;  \nclass BIN\n\n&#x229E;  \nclass BIN\n\n&#x22A0;  \nclass BIN",
+                    "target": "&#x229F;  \nclass BIN\n\n&#x229E;  \nclass BIN\n\n&#x22A0;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "creates a braced structure\n{ <subformula1> \\brace <subformula2> }",
+                    "target": "创建花括号结构\n{ <subformula1> \\brace <subformula2> }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not intended for direct use;\nused internally to create stretchy delimiters\n\n&#x23AA;   class ORD",
+                    "target": "不用于直接使用；\n在内部用于创建可伸缩定界符\n\n&#x23AA;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "creates a bracketed structure\n{ <subformula1> \\brack <subformula2> }",
+                    "target": "创建方括号结构\n{ <subformula1> \\brack <subformula2> }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "breve accent\n\n&#x02D8;\n\n\\breve #1\nUsually, #1 is a single letter;  otherwise, accent is centered over argument.",
+                    "target": "短音符号\n\n&#x02D8;\n\n\\breve #1\n通常 #1 是单个字母； 否则，重音位于参数的正中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\buildrel <subformula1> \\over #1\nThe result is of class  REL  (binary relation), so it has the\nspacing of a relation.",
+                    "target": "\\buildrel <subformula1> \\over #1\n结果属于 class  REL （二元关系），因此具有\n关系符的间距。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2219;   class BIN",
+                    "target": "&#x2219;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x224E;  \nclass REL\n\n&#x224F;  \nclass REL",
+                    "target": "&#x224E;  \nclass REL\n\n&#x224F;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class ORD\nturns on calligraphic mode;  only affects uppercase letters and digits\n{\\cal ... }",
+                    "target": "class ORD\n启用书法体模式； 只影响大写字母和数字\n{\\cal ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to ‘cancel’ (strikeout).\n\n\\cancel #1\n\\bcancel #1",
+                    "target": "用于“取消”（删除线）。\n\n\\cancel #1\n\\bcancel #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D2;  \nclass BIN",
+                    "target": "&#x22D2;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2229;  \nclass BIN",
+                    "target": "&#x2229;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class OPEN\nfor piecewise-defined functions\n\\cases{ <math> & <math> \\cr <repeat as needed> }\na double-backslash can be used in place of   \\cr ;\nthe final   \\\\   or   \\cr   is optional\n\nIn $\\,\\rm\\TeX\\,$, the second column is automatically in text-mode, while in MathJax it is in math-mode.\nThis behavior will be changed to be consistent with $\\,\\rm\\TeX\\,$ in a future release of MathJax.",
+                    "target": "class OPEN\n用于分段定义的函数\n\\cases{ <math> & <math> \\cr <repeat as needed> }\n可以用双反斜杠代替   \\cr ；\n最后的   \\\\   或   \\cr   可省略\n\n在 $\\,\\rm\\TeX\\,$ 中，第二列会自动处于文本模式，而在 MathJax 中它处于数学模式。\n该行为将在 MathJax 的未来版本中改为与 $\\,\\rm\\TeX\\,$ 一致。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22C5;  \nclass BIN\ncentered dot",
+                    "target": "&#x22C5;  \nclass BIN\n居中点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22C5;  \nclass PUNCT\ncentered dot, punctuation symbol",
+                    "target": "&#x22C5;  \nclass PUNCT\n居中点，标点符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22EF;  \nclass INNER\ncentered dots;   dot dot dot",
+                    "target": "&#x22EF;  \nclass INNER\n居中点； 点点点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "use for continued fractions\n\\cfrac #1 #2",
+                    "target": "用于连分数\n\\cfrac #1 #2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x02C7;\ncheck accent\n\\check #1\nUsually, #1 is a single letter;  otherwise, accent is centered over argument.",
+                    "target": "&#x02C7;\n倒抑扬符号\n\\check #1\n通常 #1 是单个字母； 否则，重音位于参数的正中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "#x2713;  \nclass ORD",
+                    "target": "#x2713;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x03C7;  \nclass ORD\nlowercase Greek letter chi",
+                    "target": "&#x03C7;  \nclass ORD\n小写希腊字母 chi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "notation commonly used for binomial coefficients;\ndifferent versions for inline and display modes\n{ <subformula1> \\choose <subformula2> }\nThere are separate local groups for  subformula1 \nand  subformula2 ;\nif these local groups are not explicit, then unexpected results may occur,\nas illustrated next.",
+                    "target": "常用于二项式系数的表示法；\n行内和显示模式有不同版本\n{ <subformula1> \\choose <subformula2> }\n对  subformula1 \n和  subformula2  有各自独立的局部分组；\n如果这些局部分组不明确，则可能出现意外结果，\n如下所示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2218;  \nclass BIN",
+                    "target": "&#x2218;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2257;  \nclass REL",
+                    "target": "&#x2257;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21BA;\ncounterclockwise\nclass REL\n\n&#x21BB;\nclockwise\nclass REL",
+                    "target": "&#x21BA;\n逆时针\nclass REL\n\n&#x21BB;\n顺时针\nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x229B;circled asteriskclass BIN\n&#x229A;circled circleclass BIN\n&#x229D;circled dashclass BIN",
+                    "target": "&#x229B;圈中星号class BIN\n&#x229A;圈中圆class BIN\n&#x229D;圈中短横class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x00AE;circled Rclass ORD\n&#x24C8;circled Sclass ORD",
+                    "target": "&#x00AE;圈中Rclass ORD\n&#x24C8;圈中Sclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2663;  \nclass ORD",
+                    "target": "&#x2663;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x003A;  \nclass PUNCT\n\na colon, treated as a punctuation mark (instead of a relation)",
+                    "target": "&#x003A;  \nclass PUNCT\n\n冒号，作为标点符号处理（而非关系符）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2201;   class ORD",
+                    "target": "&#x2201;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2245;  \nclass REL\n\ncongruent",
+                    "target": "&#x2245;  \nclass REL\n\n全等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2210;  \nclass OP\n\ncoproduct",
+                    "target": "&#x2210;  \nclass OP\n\n余积"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "carriage return;\nline separator in alignment modes and environments\n\nin MathJax, these are essentially the same:   \\\\,\n  \\newline",
+                    "target": "回车符；\n在对齐模式和环境中的行分隔符\n\n在 MathJax 中，这些基本等同：   \\\\,\n  \\newline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D3;  \nclass BIN",
+                    "target": "&#x22D3;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x222A;  \nclass BIN",
+                    "target": "&#x222A;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22DE;class REL\n&#x22DF;class REL",
+                    "target": "&#x22DE;class REL\n&#x22DF;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22CE;class BIN \n&#x22CF;class BIN",
+                    "target": "&#x22CE;class BIN \n&#x22CF;class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21B6;counterclockwiseclass REL\n&#x21B7;clockwiseclass REL",
+                    "target": "&#x21B6;逆时针class REL\n&#x21B7;顺时针class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2020;daggerclass BIN\n&#x2021;double daggerclass BIN",
+                    "target": "&#x2020;匕首符号class BIN\n&#x2021;双匕首符号class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2138;   class ORD \nHebrew letter daleth",
+                    "target": "&#x2138;   class ORD \n希伯来字母 daleth"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21E0;dashed left arrow; non-stretchyclass REL\n&#x21E2;dashed right arrow; non-stretchyclass REL",
+                    "target": "&#x21E0;虚线左箭头；不可伸展class REL\n&#x21E2;虚线右箭头；不可伸展class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22A3;   class REL",
+                    "target": "&#x22A3;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "notation commonly used for binomial coefficients;\ndisplay version (in both inline and display modes)\n\\dbinom #1 #2",
+                    "target": "常用于二项式系数的记号；\n显示版本（在行内和显示模式中均适用）\n\\dbinom #1 #2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x02D9;dot accent\n&#x00A8;double dot accent\ntriple dot accent\nquadruple dot accent\n\n\\dot #1\n\\ddot #1\n\\dddot #1\n\\ddddot #1\nUsually, #1 is a single letter;  otherwise, accent is centered over argument.",
+                    "target": "&#x02D9;点重音\n&#x00A8;双点重音\n三重点重音\n四重点重音\n\n\\dot #1\n\\ddot #1\n\\dddot #1\n\\ddddot #1\n通常，#1 是单个字母；否则，重音居中置于参数上方。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22F1;   class INNER\nthree diagonal dots",
+                    "target": "&#x22F1;   class INNER\n三条对角省略点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x0394;uppercase Greek letter deltaclass ORD\n&#x03B4;lowercase Greek letter deltaclass ORD",
+                    "target": "&#x0394;希腊字母大写 deltaclass ORD\n&#x03B4;希腊字母小写 deltaclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "fractions;\ndisplay version (in both inline and display modes)\n\\dfrac #1 #2",
+                    "target": "分数；\n显示版本（在行内和显示模式中均适用）\n\\dfrac #1 #2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2572;diagonal down (from left to right)class ORD\n&#x2571;diagonal up (from left to right)class ORD",
+                    "target": "&#x2572;向下对角线（从左到右）class ORD\n&#x2571;向上对角线（从左到右）class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25CA;large diamondclass ORD\n&#x22C4;small diamondclass BIN",
+                    "target": "&#x25CA;大菱形class ORD\n&#x22C4;小菱形class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2662;   class ORD",
+                    "target": "&#x2662;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x03DD;   class ORD",
+                    "target": "&#x03DD;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "to display any number of centered formulas (without any alignment)\n\\displaylines{ <math> \\cr <repeat as needed> }\na double-backslash can be used in place of the \\cr;\nthe final   \\\\   or   \\cr   is optional",
+                    "target": "用于显示任意数量居中的公式（不进行对齐）\n\\displaylines{ <math> \\cr <repeat as needed> }\n可用双反斜杠代替 \\cr；\n最后的   \\\\   或   \\cr   可选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class ORD\nused to over-ride automatic style rules and force display style;\nstays in force until the end of math mode or the braced group, or until another style is selected\n{ \\displaystyle ... }",
+                    "target": "class ORD\n用于覆盖自动样式规则并强制显示样式；\n一直生效到数学模式结束或大括号组结束，或直到选择另一种样式\n{ \\displaystyle ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x00F7;   class BIN\ndivision symbol",
+                    "target": "&#x00F7;   class BIN\n除号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22C7;   class BIN",
+                    "target": "&#x22C7;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2251;class REL\n&#x2250;class REL",
+                    "target": "&#x2251;class REL\n&#x2250;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2214;   class BIN",
+                    "target": "&#x2214;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2026;   class INNER\nlower dots;   ellipsis;   ellipses;   dot dot dot\n\nIn $\\,\\rm\\LaTeX\\,$,  \\dots  chooses either\n \\cdots  or  \\ldots \ndepending on the context;\nMathJax, however, always gives lower dots.",
+                    "target": "&#x2026;   class INNER\n下方省略点；省略号；省略点列；点点点\n\n在 $\\,\\rm\\LaTeX\\,$ 中，\\dots 会根据上下文\n选择 \\cdots 或 \\ldots；\n而 MathJax 始终给出下方省略点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22EF;\\dotsbclass INNERdots with binary operations and relations$x_1 + x_2 +\\dotsb + x_n$\n&#x2026;\\dotscclass INNERdots with commas$x_1,x_2,\\dotsc,x_n$\n&#x22EF;\\dotsiclass INNERdots with integrals$\\int_{A_1}\\int_{A_2}\\dotsi\\int_{A_n}$\n&#x22EF;\\dotsmclass INNERdots with multiplication$x_1x_2\\dotsm x_n$\n&#x2026;\\dotsoclass INNERother dots$A_1\\dotso A_n$",
+                    "target": "&#x22EF;\\dotsbclass INNER带二元运算与关系的省略点$x_1 + x_2 +\\dotsb + x_n$\n&#x2026;\\dotscclass INNER带逗号的省略点$x_1,x_2,\\dotsc,x_n$\n&#x22EF;\\dotsiclass INNER带积分的省略点$\\int_{A_1}\\int_{A_2}\\dotsi\\int_{A_n}$\n&#x22EF;\\dotsmclass INNER带乘法的省略点$x_1x_2\\dotsm x_n$\n&#x2026;\\dotsoclass INNER其他省略点$A_1\\dotso A_n$"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2A5E;   BIN",
+                    "target": "&#x2A5E;   BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D2;class BIN\n&#x22D3;class BIN",
+                    "target": "&#x22D2;class BIN\n&#x22D3;class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2193;down arrow; non-stretchyclass REL\n&#x21D3;double down arrow; non-stretchyclass REL",
+                    "target": "&#x2193;向下箭头；不可伸展class REL\n&#x21D3;双向下箭头；不可伸展class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21CA;   class REL\ndown down arrows; non-stretchy",
+                    "target": "&#x21CA;   class REL\n双向下箭头；不可伸展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21C3;down harpoon left; non-stretchyclass REL\n&#x21C2;down harpoon right; non-stretchyclass REL",
+                    "target": "&#x21C3;向下鱼叉左箭头；不可伸展class REL\n&#x21C2;向下鱼叉右箭头；不可伸展class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2113;   class ORD",
+                    "target": "&#x2113;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x03F5;   class ORD\nlowercase Greek letter epsilon",
+                    "target": "&#x03F5;   class ORD\n希腊字母小写 epsilon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "equation alignment;\nfor aligning multi-line displays at a single place\n\\eqalign{ <math> & <math> \\cr <repeat as needed> }\nthe ampersand is placed where alignment is desired;\na double-backslash can be used in place of the  \\cr ;\nthe final   \\\\   or   \\cr   is optional;\nsupports only a single \\tag, which is vertically centered",
+                    "target": "方程对齐；\n用于在同一位置对齐多行显示\n\\eqalign{ <math> & <math> \\cr <repeat as needed> }\n在需要对齐处放置 &；\n可用双反斜杠代替  \\cr ；\n最后的   \\\\   或   \\cr   可选；\n仅支持单个 \\tag，且垂直居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "equation alignment with optionally numbered (tagged) lines\n\\eqalignno{ <math> & <math> & <equation tag> \\cr <repeat as needed> }\nthe first ampersand is placed where alignment is desired;\nthe second ampersand is used just before a tag;\nif there is no tag, then the final    & <equation tag>   is omitted;\na double-backslash can be used in place of the  \\cr ;\nthe final   \\\\   or   \\cr   is optional",
+                    "target": "带可选编号（标签）行的方程对齐\n\\eqalignno{ <math> & <math> & <equation tag> \\cr <repeat as needed> }\n第一个 & 放在需要对齐的位置；\n第二个 & 用于标签之前；\n若无标签，则省略最后的    & <equation tag>   ；\n可用双反斜杠代替  \\cr ；\n最后的   \\\\   或   \\cr   可选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2256;  \nclass REL",
+                    "target": "&#x2256;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2242;  \nclass REL",
+                    "target": "&#x2242;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&##x2A96;\n\nclass REL\n\n&##x2A95;class REL",
+                    "target": "&##x2A96;\n\nclass REL\n\n&##x2A95;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2261;  \nclass REL",
+                    "target": "&#x2261;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x03B7;  \nclass ORD\nlowercase Greek letter eta",
+                    "target": "&#x03B7;  \nclass ORD\n希腊字母小写 eta"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x00F0;  \nclass ORD",
+                    "target": "&#x00F0;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2203;  \nclass ORD\nthere exists",
+                    "target": "&#x2203;  \nclass ORD\n存在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2252;  \nclass REL\nfalling dot sequence;",
+                    "target": "&#x2252;  \nclass REL\n下降点序列；"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "puts a box around argument; argument is in text mode\nequivalent to: \\boxed{\\text{#1}}\n\\fbox #1\nwhere #1 is rendered as text",
+                    "target": "在参数周围加框；参数为文本模式\n等价于：\\boxed{\\text{#1}}\n\\fbox #1\n其中 #1 以文本形式渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2132;  \nclass ORD",
+                    "target": "&#x2132;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x266D;  \nclass ORD\nmusical flat symbol",
+                    "target": "&#x266D;  \nclass ORD\n音乐降号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2200;  \nclass ORD\nuniversal quantifier; for all; for every; for each",
+                    "target": "&#x2200;  \nclass ORD\n全称量词；对所有；对每个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "fractions;\ndisplays differently in inline and display modes\n\\frac #1 #2",
+                    "target": "分数；\n在行内与显示模式下显示不同\n\\frac #1 #2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class ORD\nturns on fraktur;  affects uppercase and lowercase letters, and digits\n{\\frak ... }",
+                    "target": "class ORD\n启用花体字（Fraktur）；影响大写字母、小写字母和数字\n{\\frak ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2322;  \nclass REL",
+                    "target": "&#x2322;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2141;  \nclass ORD",
+                    "target": "&#x2141;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x0393;  \nclass ORD\nuppercase Greek letter gamma",
+                    "target": "&#x0393;  \nclass ORD\n大写希腊字母伽马"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x03B3;  \nclass ORD\nlowercase Greek letter gamma",
+                    "target": "&#x03B3;  \nclass ORD\n小写希腊字母伽马"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2265;   \\ge\n&#x2265;   \\geq\n&#x2267;   \\geqq\n&#x2A7E;   \\geqslant\n\nall class REL\ngreater than or equal to",
+                    "target": "&#x2265;   \\ge\n&#x2265;   \\geq\n&#x2267;   \\geqq\n&#x2A7E;   \\geqslant\n\n全部为 class REL\n大于或等于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2190;  \nclass REL\nleft arrow;\nnon-stretchy",
+                    "target": "&#x2190;  \nclass REL\n左箭头；\n不可伸缩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x226B;  \nclass REL",
+                    "target": "&#x226B;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D9;\n\nclass REL\n\n&#x22D9;class REL",
+                    "target": "&#x22D9;\n\nclass REL\n\n&#x22D9;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2137;  \nclass ORD\nHebrew letter gimel",
+                    "target": "&#x2137;  \nclass ORD\n希伯来字母吉梅尔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2A86;class REL\n&#x2A8A;class REL",
+                    "target": "&#x2A86;class REL\n&#x2A8A;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2A88;class REL\n&#x2269;class REL\n&#x2269;class REL",
+                    "target": "&#x2A88;class REL\n&#x2269;class REL\n&#x2269;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2273;class REL\n&#x22E7;class REL",
+                    "target": "&#x2273;class REL\n&#x22E7;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x02CB;\ngrave accent\n\\grave #1\nUsually, #1 is a single letter;  otherwise, accent is centered over argument.",
+                    "target": "&#x02CB;\n重音符\n\\grave #1\n通常，#1 是单个字母；  否则，重音符居中于参数上方。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x003E;   class REL\ngreater than",
+                    "target": "&#x003E;   class REL\n大于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D7;  \nclass REL",
+                    "target": "&#x22D7;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22DB;class REL\n&#x2A8C;class REL",
+                    "target": "&#x22DB;class REL\n&#x2A8C;class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2277;  \nclass REL",
+                    "target": "&#x2277;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x02CA;\nnon-stretchy hat accent\n\\hat #1\nUsually, #1 is a single letter;  otherwise, accent is centered over argument.",
+                    "target": "&#x02CA;\n不可伸缩的帽子重音符\n\\hat #1\n通常，#1 是单个字母；  否则，重音符居中于参数上方。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x210F;  \nclass ORD\nPlanck's constant",
+                    "target": "&#x210F;  \nclass ORD\n普朗克常数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class ORD\nhorizontal box;\ncontents are treated as text, but you can switch to math mode inside;\ntext appears in  \\rm \n\\hbox #1",
+                    "target": "class ORD\n水平盒子；\n内容按文本处理，但你可以在内部切换到数学模式；\n文本显示为  \\rm \n\\hbox #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "works in many of the environments\nto create a horizontal line (\\hline), or a horizontal dashed line (\\hdashline)\n\nPutting   \\hdashline   or   \\hline   first or last encases the entire structure\n(which is different from standard $\\,\\rm\\LaTeX\\,$ behavior):\n\n\\begin{matrix}\n\\hdashline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32}\n\\end{matrix}\n\nyields\n\n$\n\\begin{matrix}\n\\hdashline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32}\n\\end{matrix}\n$\n\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32} \\\\\n\\hline\n\\end{matrix}\n\nyields\n\n$\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32} \\\\\n\\hline\n\\end{matrix}\n$\n\nPutting   \\hdashline   or   \\hline   at the beginning of any subsequent row puts a line over that row:\n\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\n\\hline\nx_{31} & x_{32}\n\\end{matrix}\n\nyields\n\n$\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\n\\hline\nx_{31} & x_{32}\n\\end{matrix}\n$\n\nYou can combine effects, and put in struts (as desired) for additional vertical spacing:\n\n\\begin{matrix}\n\\hline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\strut \\\\\n\\hdashline\nx_{31} & x_{32} \\strut\n\\end{matrix}\n\nyields\n\n$\n\\begin{matrix}\n\\hline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\strut \\\\\n\\hdashline\nx_{31} & x_{32} \\strut\n\\end{matrix}\n$",
+                    "target": "在许多环境中可用\n用于创建水平实线 (\\hline) 或水平虚线 (\\hdashline)\n\n将   \\hdashline   或   \\hline   放在开头或结尾会包围整个结构\n（这与标准 $\\,\\rm\\LaTeX\\,$ 的行为不同）：\n\n\\begin{matrix}\n\\hdashline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32}\n\\end{matrix}\n\n得到\n\n$\n\\begin{matrix}\n\\hdashline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32}\n\\end{matrix}\n$\n\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32} \\\\\n\\hline\n\\end{matrix}\n\n得到\n\n$\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\nx_{31} & x_{32} \\\\\n\\hline\n\\end{matrix}\n$\n\n在任意后续行的开头放置   \\hdashline   或   \\hline   会在该行上方画线：\n\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\n\\hline\nx_{31} & x_{32}\n\\end{matrix}\n\n得到\n\n$\n\\begin{matrix}\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\\\\n\\hline\nx_{31} & x_{32}\n\\end{matrix}\n$\n\n你可以组合效果，并按需加入支撑条（strut）以增加额外的垂直间距：\n\n\\begin{matrix}\n\\hline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\strut \\\\\n\\hdashline\nx_{31} & x_{32} \\strut\n\\end{matrix}\n\n得到\n\n$\n\\begin{matrix}\n\\hline\nx_{11} & x_{12} \\\\\nx_{21} & x_{22} \\strut \\\\\n\\hdashline\nx_{31} & x_{32} \\strut\n\\end{matrix}\n$"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2661;  \nclass ORD",
+                    "target": "&#x2661;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "horizontal glue; horizontal fill (added in MathJax 2.5);\ncan be used to set horizontal alignment in matrices and arrays (as in old-fashioned $\\,\\TeX\\,$ layout);\nit ‘expands’ to fill available horizontal space, pushing contents on right or left to the boundary",
+                    "target": "水平胶；水平填充（在 MathJax 2.5 中新增）；\n可用于在矩阵和数组中设置水平对齐（如旧式 $\\,\\TeX\\,$ 排版）；\n它会“扩展”以填充可用的水平空间，将右侧或左侧内容推到边界"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21A9;non-stretchy\n&#x21AA;non-stretchy\n\nboth class REL",
+                    "target": "&#x21A9;不可伸缩\n&#x21AA;不可伸缩\n\n均为 class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class ORD\nhorizontal phantom\n\nSometimes you want to pretend that something is there, for spacing reasons,\nbut you don't want it to appear—you want it to be invisible—you want it to be a phantom.\n\nThe box created by   \\hphantom   has the width of its argument,\nbut its height and depth are zero (so it doesn't contribute to any vertical spacing issues).\nIn other words, \\hphantom   creates horizontal space equal to that produced by its argument,\nbut doesn't create any vertical space.\n\\hphantom #1",
+                    "target": "class ORD\n水平幻影\n\n有时你想为了间距而假装某个东西存在，\n但你不希望它出现——你希望它不可见——你希望它是幻影。\n\n由   \\hphantom   创建的盒子具有其参数的宽度，\n但其高度和深度为零（因此不会造成任何垂直间距问题）。\n换句话说，\\hphantom   创建的水平空间等同于其参数产生的空间，\n但不会创建任何垂直空间。\n\\hphantom #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to make a math object into a link\n\\href{ <url> } #1\nwhere the argument (#1) is the clickable area",
+                    "target": "用于将数学对象变成链接\n\\href{ <url> } #1\n其中参数 (#1) 是可点击区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "horizontal glue; horizontal space; horizontal skipping;\n\\hskip <dimen>",
+                    "target": "水平胶；水平空白；水平间距；\n\\hskip <dimen>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x210F;  \nclass ORD\nperhaps an alternative form of Planck's constant",
+                    "target": "&#x210F;  \nclass ORD\n可能是普朗克常数的另一种形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "horizontal glue; horizontal space; horizontal skipping\n\\hspace <dimen>",
+                    "target": "水平胶；水平空白；水平间距\n\\hspace <dimen>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "both class ORD\nturns on huge mode and an even bigger Huge mode\n\n{\\Huge ... }\n{\\huge ... }",
+                    "target": "均为 class ORD\n开启 huge 模式以及更大的 Huge 模式\n\n{\\Huge ... }\n{\\huge ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x27FA;   with a thick space on both sides\nif and only if;   is equivalent to;\nnon-stretchy",
+                    "target": "&#x27FA;   两侧带有粗空格\n当且仅当；   等价于；\n不可伸缩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x222B; (with movable limits)  \nclass OP\n\nSee the Big Operators Table for examples.",
+                    "target": "&#x222B; （带可移动上下限）  \nclass OP\n\n示例请见大运算符表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2111;  \nclass ORD",
+                    "target": "&#x2111;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x0131;  \nclass ORD\n\na dotless ‘i’;\nbetter to use when accented",
+                    "target": "&#x0131;  \nclass ORD\n\n无点的“i”；\n带重音时更好使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x27F8;   with a thick space on both sides\nnon-stretchy",
+                    "target": "&#x27F8;   两侧带有粗空格\n不可伸缩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x27F9;   with a thick space on both sides\nnon-stretchy",
+                    "target": "&#x27F9;   两侧带有粗空格\n不可伸缩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x221E;  \nclass ORD\ninfinity",
+                    "target": "&#x221E;  \nclass ORD\n无穷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22BA;  \nclass BIN",
+                    "target": "&#x22BA;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x03B9;  \nclass ORD\nlowercase Greek letter iota",
+                    "target": "&#x03B9;  \nclass ORD\n小写希腊字母艾欧塔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class ORD\nturns on math italic mode;\nto return to math italic mode if it had been turned off\n{\\it ... }",
+                    "target": "class ORD\n开启数学斜体模式；\n如果此前已关闭，则返回到数学斜体模式\n{\\it ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x0237;  \nclass ORD\na dotless ‘j’;\nbetter to use when accented",
+                    "target": "&#x0237;  \nclass ORD\n无点的“j”；\n带重音时更好使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22C8;  \nclass REL",
+                    "target": "&#x22C8;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x03BA;  \nclass ORD\n\nlowercase Greek letter kappa",
+                    "target": "&#x03BA;  \nclass ORD\n\n小写希腊字母卡帕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter lambda\n\n&#x039B;  \nclass ORD\n\nlowercase Greek letter lambda\n\n&#x03BB;  \nclass ORD",
+                    "target": "大写希腊字母兰布达\n\n&#x039B;  \nclass ORD\n\n小写希腊字母兰布达\n\n&#x03BB;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "logical AND\n\n&#x2227;  \nclass BIN",
+                    "target": "逻辑与\n\n&#x2227;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left angle bracket;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\n&#x27E8;  \nclass OPEN",
+                    "target": "左尖括号；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下文）\n\n&#x27E8;  \nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on large typestyles; affects all math\n\nall class ORD\n\n{\\LARGE ... }\n{\\Large ... }\n{\\large ... }",
+                    "target": "启用大号排版样式；影响所有数学内容\n\n全部为 class ORD\n\n{\\LARGE ... }\n{\\Large ... }\n{\\large ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "the LaTeX logo\n\nclass ORD",
+                    "target": "LaTeX 标志\n\nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left brace:\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\nclass OPEN",
+                    "target": "左花括号：\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下文）\n\nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left bracket:\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below);\n\nclass OPEN",
+                    "target": "左方括号：\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下文）；\n\nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left ceiling;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\n&#x2308;  \nclass OPEN",
+                    "target": "左上取整符；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下文）\n\n&#x2308;  \nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lower dot, punctuation symbol\n\n&#x002E;  \nclass PUNCT",
+                    "target": "下点，标点符号\n\n&#x002E;  \nclass PUNCT"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lower dots;   ellipsis;   ellipses;   dot dot dot\n\n&#x2026;  \nclass INNER",
+                    "target": "下点；   省略号；   省略号；   点点点\n\n&#x2026;  \nclass INNER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "less than or equal to&#x2264;   class REL\nless than or equal to&#x2264;   class REL\nless than or equal to&#x2266;   class REL\nless than or equal to&#x2A7D;   class REL",
+                    "target": "小于或等于&#x2264;   class REL\n小于或等于&#x2264;   class REL\n小于或等于&#x2266;   class REL\n小于或等于&#x2A7D;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21DD;  \nclass REL",
+                    "target": "&#x21DD;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used for stretchy delimiters;\nsee the Variable-Sized Delimiters Table for details",
+                    "target": "用于可伸缩分隔符；\n详见“可变大小分隔符”表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left arrow; non-stretchy\n\n&#x2190;  \nclass REL\n\nleft arrow; non-stretchy\n\n&#x21D0;  \nclass REL",
+                    "target": "左箭头；不可伸缩\n\n&#x2190;  \nclass REL\n\n左箭头；不可伸缩\n\n&#x21D0;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left arrow tail; non-stretchy\n\n&#x21A2;  \nclass REL",
+                    "target": "左箭尾；不可伸缩\n\n&#x21A2;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left harpoon arrow; non-stretchy\n\n&#x21BD;  \nclass REL\n\nleft harpoon arrow; non-stretchy\n\n&#x21BC;  \nclass REL",
+                    "target": "左鱼叉箭头；不可伸缩\n\n&#x21BD;  \nclass REL\n\n左鱼叉箭头；不可伸缩\n\n&#x21BC;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left left arrows; non-stretchy\n\n&#x21C7;  \nclass REL",
+                    "target": "双左箭头；不可伸缩\n\n&#x21C7;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left right arrow; non-stretchy\n\n&#x2194;  \nclass REL\n\nleft right arrow; non-stretchy\n\n&#x21D4;  \nclass REL",
+                    "target": "左右箭头；不可伸缩\n\n&#x2194;  \nclass REL\n\n左右箭头；不可伸缩\n\n&#x21D4;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left right arrows; non-stretchy\n\n&#x21C6;  \nclass REL",
+                    "target": "左右双箭头；不可伸缩\n\n&#x21C6;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left right harpoons; non-stretchy\n\n&#x21CB;  \nclass REL",
+                    "target": "左右鱼叉；不可伸缩\n\n&#x21CB;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left right squiqqle arrow; non-stretchy\n\n&#x21AD;  \nclass REL",
+                    "target": "左右波浪箭头；不可伸缩\n\n&#x21AD;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22CB;  \nclass BIN",
+                    "target": "&#x22CB;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D6;  \nclass REL",
+                    "target": "&#x22D6;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22DA;  \nclass REL\n\n&#x2A8B;  \nclass REL",
+                    "target": "&#x22DA;  \nclass REL\n\n&#x2A8B;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2276;  \nclass REL",
+                    "target": "&#x2276;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left floor;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right\n\n&#x230A;  \nclass OPEN",
+                    "target": "左下取整符；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩\n\n&#x230A;  \nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left group;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right\n\n&#x27EE;  \nclass OPEN",
+                    "target": "左分组符；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩\n\n&#x27EE;  \nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left-hand diamond\n\n&#x22B2;  \nclass REL",
+                    "target": "左手菱形\n\n&#x22B2;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to set limits above/below any token of class OP;\nsee the Big Operators table for more information and examples",
+                    "target": "用于在任意 class OP 的符号上方/下方设置上下限；\n更多信息和示例见“大型运算符”表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&x226A;  \nclass REL",
+                    "target": "&x226A;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left overlap\n\nclass ORD\n\n\\llap #1\n\ncreates a box of width zero;\nthe argument is then placed just to the left of this zero-width box\n(and hence will overlap whatever lies to the left);\nproper use of  \\llap  and  \\rlap  in math expressions is somewhat delicate",
+                    "target": "左重叠\n\nclass ORD\n\n\\llap #1\n\n创建一个宽度为零的盒子；\n然后将参数放在该零宽度盒子的左侧\n（因此会与左侧的内容重叠）；\n在数学表达式中正确使用  \\llap  和  \\rlap  需要较为谨慎"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n\n&#x21DA;  \nclass REL",
+                    "target": "不可伸缩\n\n&#x21DA;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D8;  \nclass REL\n\n&#x22D8;  \nclass REL",
+                    "target": "&#x22D8;  \nclass REL\n\n&#x22D8;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left moustache;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\n&#x23B0;  \nclass OPEN",
+                    "target": "左花括号；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下）\n\n&#x23B0;  \nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "logical not\n\n&#x00AC;  \nclass ORD",
+                    "target": "逻辑非\n\n&#x00AC;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n\n&#x27F5;  \nclass REL\n\nnon-stretchy\n\n&#x27F8;  \nclass REL\n\nnon-stretchy\n\n&#x27F6;  \nclass REL\n\nnon-stretchy\n\n&#x27F9;  \nclass REL",
+                    "target": "不可伸缩\n\n&#x27F5;  \nclass REL\n\n不可伸缩\n\n&#x27F8;  \nclass REL\n\n不可伸缩\n\n&#x27F6;  \nclass REL\n\n不可伸缩\n\n&#x27F9;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n\n&#x27F7;  \nclass REL\n\nnon-stretchy\n\n&#x27FA;  \nclass REL",
+                    "target": "不可伸缩\n\n&#x27F7;  \nclass REL\n\n不可伸缩\n\n&#x27FA;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "long maps to\n\n&#x27FC;   class REL",
+                    "target": "长映射到\n\n&#x27FC;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n\n&#x21AB;  \nclass REL\n\nnon-stretchy\n\n&#x21AC;  \nclass REL",
+                    "target": "不可伸缩\n\n&#x21AB;  \nclass REL\n\n不可伸缩\n\n&#x21AC;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "logical OR\n\n&#x2228;  \nclass BIN",
+                    "target": "逻辑或\n\n&#x2228;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\lower <dimen> #1\nlowers the argument by the amount specified in <dimen>;\nin actual $\\rm\\TeX$, the argument to  \\lower  (and  \\raise ) must be an\n \\hbox ,\nbut in MathJax it can be any expression (using an \\hbox is allowed, but not required)",
+                    "target": "\\lower <dimen> #1\n将参数降低 <dimen> 指定的量；\n在实际的 $\\rm\\TeX$ 中，\\lower（以及 \\raise）的参数必须是\n \\hbox ，\n但在 MathJax 中它可以是任何表达式（可以使用 \\hbox，但不是必须的）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25CA;  \nclass ORD",
+                    "target": "&#x25CA;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "left shift; non-stretchy\n\n&#x21B0;  \nclass REL",
+                    "target": "左移；不可伸缩\n\n&#x21B0;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "less than\n\n&#x003C;  \nclass REL",
+                    "target": "小于\n\n&#x003C;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "both non-stretchy when used alone;\n\n&#x2223;  \nclass OPEN\n\nstretchy when used with   \\left   or   \\right\n\n&#x2225;  \nclass OPEN",
+                    "target": "两者单独使用时都不可伸缩；\n\n&#x2223;  \nclass OPEN\n\n与   \\left   或   \\right   一起使用时可伸缩\n\n&#x2225;  \nclass OPEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2268;  \nclass REL",
+                    "target": "&#x2268;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2720;  \nclass ORD",
+                    "target": "&#x2720;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "maps to; non-stretchy math operator\n\n&#x21A6;   class REL",
+                    "target": "映射到；不可伸缩的数学运算符\n\n&#x21A6;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "blackboard-bold for uppercase letters and lowercase ‘k’;\nif lowercase blackboard-bold letters are not available, then they are typeset in a roman font\n\nclass ORD\n\n\\mathbb #1\nWhether lower-case letters are displayed in blackboard-bold, or not, depends on the fonts being used.\nThe MathJax web-based fonts don't have lowercase blackboard-bold, but the STIX fonts do;\nso users with the STIX fonts installed will be able to display lowercase blackboard-bold letters.",
+                    "target": "用于大写字母和小写“k”的黑板粗体；\n如果没有小写黑板粗体字母，则以罗马字体排版\n\nclass ORD\n\n\\mathbb #1\n小写字母是否以黑板粗体显示取决于所使用的字体。\nMathJax 的基于 Web 的字体没有小写黑板粗体，但 STIX 字体有；\n因此安装了 STIX 字体的用户将能够显示小写黑板粗体字母。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "boldface for uppercase and lowercase letters and digits\n\nclass ORD\n\n\\mathbf #1",
+                    "target": "用于大写和小写字母及数字的粗体\n\nclass ORD\n\n\\mathbf #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "calligraphic font for uppercase letters and digits\n\nclass ORD\n\n\\mathcal #1",
+                    "target": "用于大写字母和数字的花体字体\n\nclass ORD\n\n\\mathcal #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "provides content that is dependent on the current style (display, text, script, or scriptscript);\ncan be used in defining a macro for general use\n\\mathchoice #1 #2 #3 #4\nwhere:\n\n#1 is rendered when the  \\mathchoice  appears in display style\n#2 is rendered when the  \\mathchoice  appears in text style\n#3 is rendered when the  \\mathchoice  appears in script style\n#4 is rendered when the  \\mathchoice  appears in scriptscript style",
+                    "target": "提供依赖于当前样式（display、text、script 或 scriptscript）的内容；\n可用于定义通用宏\n\\mathchoice #1 #2 #3 #4\n其中：\n\n当  \\mathchoice  出现在 display 样式时渲染 #1\n当  \\mathchoice  出现在 text 样式时渲染 #2\n当  \\mathchoice  出现在 script 样式时渲染 #3\n当  \\mathchoice  出现在 scriptscript 样式时渲染 #4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "fraktur font for uppercase and lowercase letters and digits\n(and a few other characters)\n\nclass ORD\n\n\\mathfrak #1",
+                    "target": "用于大写和小写字母及数字的弗拉克体\n（以及少数字符）\n\nclass ORD\n\n\\mathfrak #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "some constructions are meant to appear ‘inside’ other formulas,\nand should be surrounded by additional space in certain circumstances;\nthis classification is forced on the argument by using \\mathinner\n\nclass INNER\n\n\\mathinner #1",
+                    "target": "某些结构旨在出现在其他公式“内部”，\n在某些情况下应被额外的空白包围；\n使用 \\mathinner 可强制将此分类应用于参数\n\nclass INNER\n\n\\mathinner #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "math italic mode\n\nclass ORD\n\n\\mathit #1",
+                    "target": "数学斜体模式\n\nclass ORD\n\n\\mathit #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2DA;\n\n\\mathring #1",
+                    "target": "&#x2DA;\n\n\\mathring #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "roman typestyle for uppercase and lowercase letters\n\nclass ORD\n\n\\mathrm #1",
+                    "target": "用于大写和小写字母的罗马字体样式\n\nclass ORD\n\n\\mathrm #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "script typestyle for uppercase letters;\nif lowercase script letters are not available, then they are typeset in a roman typestyle\n\nclass ORD\n\n\\mathscr #1\nWhether lower-case letters are displayed in script, or not, depends on the fonts being used.\nThe MathJax web-based fonts don't have lowercase script, but the STIX fonts do;\nso users with the STIX fonts installed will be able to display lowercase script letters.",
+                    "target": "用于大写字母的手写体样式；\n如果没有小写手写体字母，则以罗马字体样式排版\n\nclass ORD\n\n\\mathscr #1\n小写字母是否以手写体显示取决于所使用的字体。\nMathJax 的基于 Web 的字体没有小写手写体，但 STIX 字体有；\n因此安装了 STIX 字体的用户将能够显示小写手写体字母。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sans serif typestyle for uppercase and lowercase letters and digits;\nalso affects uppercase greek (as do the other font switches,\nlike \\rm,\n\\it,\n\\bf,\n\\mathrm,\n\\mathit,\n\\mathbf, etc).\n\nclass ORD\n\n\\mathsf #1",
+                    "target": "用于大写和小写字母及数字的无衬线字体样式；\n也会影响大写希腊字母（与其他字体切换类似，\n如 \\rm,\n\\it,\n\\bf,\n\\mathrm,\n\\mathit,\n\\mathbf 等）。\n\nclass ORD\n\n\\mathsf #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an invisible box whose width is zero;\nits height and depth are the same as a parenthesis ‘$($’;\ncan be used to achieve more uniform appearance in adjacent formulas\n\nclass ORD",
+                    "target": "宽度为零的不可见盒子；\n其高度和深度与括号‘$($’相同；\n可用于使相邻公式外观更统一\n\nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "typewriter typestyle for uppercase and lowercase letters and digits;\nalso affects uppercase Greek\n\nclass ORD\n\n\\mathtt #1",
+                    "target": "用于大写、小写字母和数字的打字机字体；\n也影响大写希腊字母\n\nclass ORD\n\n\\mathtt #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "matrix (without any delimiters)\n\\matrix{ <math> & <math> ... \\cr <repeat as needed> }\nalignment occurs at the ampersands;\na double-backslash can be used in place of the  \\cr ;\nthe final   \\\\   or   \\cr   is optional",
+                    "target": "矩阵（无任何定界符）\n\\matrix{ <math> & <math> ... \\cr <repeat as needed> }\n对齐发生在 & 符号处；\n可用双反斜杠代替  \\cr ；\n最后的   \\\\   或   \\cr   可省略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "creates a box just wide enough to hold the text in its argument;\nno linebreaks are allowed in the text;\ntext appears in  \\rm \n\nclass ORD\n\n\\mbox <text argument>",
+                    "target": "创建一个刚好能容纳其参数中文本的盒子；\n文本中不允许换行；\n文本显示为  \\rm \n\nclass ORD\n\n\\mbox <text argument>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2221;  \nclass ORD",
+                    "target": "&#x2221;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2127;  \nclass ORD",
+                    "target": "&#x2127;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "the spacing is perfect for use in set-builder notation\n\n&#x2223;  \nclass REL",
+                    "target": "该间距非常适合集合构造式记法\n\n&#x2223;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "math italic typestyle\n\nclass ORD\n\n\\mit #1",
+                    "target": "数学斜体字体\n\nclass ORD\n\n\\mit #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\mkern <dimen>\ngives horizontal space",
+                    "target": "\\mkern <dimen>\n提供水平间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "modulus operator; modulo;\nthe leading space depends on the style:   displaystyle has 18 mu,\nothers 12 mu;\n2 thinspaces of following space;\nfor things like equations modulo a number\n\\mod #1",
+                    "target": "模运算符；取模；\n前导间距取决于样式：   displaystyle 为 18 mu，\n其他为 12 mu；\n随后有 2 个细空格；\n用于类似对某数取模的方程\n\\mod #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22A8;  \nclass REL",
+                    "target": "&#x22A8;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "shifts boxes to the left or right\n\n\\moveleft <dimen> <box>\n\\moveright <dimen> <box>\n\nIn actual $\\rm\\TeX$, these require an  \\hbox  (or some\nbox) as an argument, and can only appear in vertical mode;\nMathJax is less picky: you don't need an actual box, and MathJax\ndoesn't have a vertical mode;\nthese are not really designed as user-level macros, but instead allow existing macros to work;\nthe box takes up its original space (unlike something like\n \\llap  or  \\rlap ),\nbut its contents are shifted (without affecting its\nbounding box)",
+                    "target": "将盒子向左或向右移动\n\n\\moveleft <dimen> <box>\n\\moveright <dimen> <box>\n\n在实际的 $\\rm\\TeX$ 中，它们需要一个  \\hbox （或其他\n盒子）作为参数，并且只能出现在垂直模式中；\nMathJax 没那么严格：你不需要真正的盒子，且 MathJax\n没有垂直模式；\n这些并非真正为用户级宏设计，而是为了让现有宏能工作；\n盒子占用其原始空间（不同于\n \\llap  或  \\rlap  之类），\n但其内容被移位（不影响其\n边界框）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "minus plus\n\n&#x2213;  \nclass BIN",
+                    "target": "减加号\n\n&#x2213;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\mskip <dimen>\ngives horizontal space",
+                    "target": "\\mskip <dimen>\n提供水平间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\mspace <dimen>\ngives horizontal space",
+                    "target": "\\mspace <dimen>\n提供水平间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter mu\n\n&#x03BC;  \nclass ORD",
+                    "target": "小写希腊字母 mu\n\n&#x03BC;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22B8;  \nclass REL",
+                    "target": "&#x22B8;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2207;  \nclass ORD",
+                    "target": "&#x2207;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not congruent\n\n&#x2246;  \nclass REL",
+                    "target": "不全等\n\n&#x2246;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not equal\n\n&#x2260;  \nclass REL",
+                    "target": "不等于\n\n&#x2260;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "northeast arrow; non-stretchy\n\n&#x2197;  \nclass REL",
+                    "target": "东北箭头；不可伸缩\n\n&#x2197;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "negate; negation\n\n&#x00AC;  \nclass ORD",
+                    "target": "否定；否定符\n\n&#x00AC;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "negative thin space\nnegative medium space\nnegative thick space",
+                    "target": "负薄空格\n负中等空格\n负厚空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "line separator in alignment modes and environments\n\nin MathJax, these are essentially the same:   \\cr,\n  \\\\",
+                    "target": "对齐模式和环境中的行分隔符\n\n在 MathJax 中，这些本质上相同：   \\cr,\n  \\\\"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not greater than or equal to&#x2271;   class REL\nnot greater than or equal to&#x2271;   class REL",
+                    "target": "不大于或等于&#x2271;   class REL\n不大于或等于&#x2271;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "slanted not greater than or equal to\n\n&#x2A88;  \nclass REL",
+                    "target": "斜体的不大于或等于\n\n&#x2A88;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not greater than\n\n&#x226F;  \nclass REL",
+                    "target": "不大于\n\n&#x226F;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "backwards ‘in’; contains\n\n&#x220B;  \nclass REL",
+                    "target": "反向‘in’；包含\n\n&#x220B;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x219A;   class REL\n&#x21CD;   class REL",
+                    "target": "&#x219A;   class REL\n&#x21CD;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21AE;   class REL\n&#x21CE;   class REL",
+                    "target": "&#x21AE;   class REL\n&#x21CE;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not less than or equal to&#x2270;   class REL\nnot less than or equal to&#x2270;   class REL",
+                    "target": "不小于或等于&#x2270;   class REL\n不小于或等于&#x2270;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "slanted not less than or equal to\n\n&#x2A87;   class REL",
+                    "target": "斜体的不小于或等于\n\n&#x2A87;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on normal size\n\nclass ORD\n\n{\\normalsize ... }",
+                    "target": "切换为正常字号\n\nclass ORD\n\n{\\normalsize ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to negate relations\n\n&#x002F;  \nclass REL",
+                    "target": "用于否定关系\n\n&#x002F;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "not parallel\n\n&#x2226;  \nclass REL",
+                    "target": "不平行\n\n&#x2226;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x219B;   class REL\n&#x21CF;   class REL",
+                    "target": "&#x219B;   class REL\n&#x21CF;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2288;   class REL\n&#x2288;   class REL",
+                    "target": "&#x2288;   class REL\n&#x2288;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2281;   class REL\n&#x22E1;   class REL",
+                    "target": "&#x2281;   class REL\n&#x22E1;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2289;   class REL\n&#x2289;   class REL",
+                    "target": "&#x2289;   class REL\n&#x2289;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22EA;   class REL\n&#x22EC;   class REL",
+                    "target": "&#x22EA;   class REL\n&#x22EC;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22EB;    class REL\n&#x22ED;    class REL",
+                    "target": "&#x22EB;    class REL\n&#x22ED;    class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter nu\n\n&#x03BD;  \nclass ORD",
+                    "target": "小写希腊字母 nu\n\n&#x03BD;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22AF;   class REL\n&#x22AE;   class REL\n&#x22AD;   class REL\n&#x22AC;   class REL",
+                    "target": "&#x22AF;   class REL\n&#x22AE;   class REL\n&#x22AD;   class REL\n&#x22AC;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "northwest arrow; non-stretchy\n\n&#x2196;  \nclass REL",
+                    "target": "西北箭头；不可伸缩\n\n&#x2196;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2299;   class BIN\n&#x2296;   class BIN\n&#x2295;   class BIN\n&#x2298;   class BIN\n&#x2297;   class BIN",
+                    "target": "&#x2299;   class BIN\n&#x2296;   class BIN\n&#x2295;   class BIN\n&#x2298;   class BIN\n&#x2297;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "this is intended for oldstyle numbers;\nit is a switch that turns on oldstyle mode;\nthe way it works in $\\rm\\TeX$ is to select the caligraphic font\n(which is where the oldstyle\nnumbers are stored),\nso it has the side effect of selecting\ncaligraphic upper-case letters;\nMathJax does the same for compatibility\n\nclass ORD\n\n{\\oldstyle ... }",
+                    "target": "用于旧式数字；\n这是一个开启旧式模式的开关；\n在 $\\rm\\TeX$ 中的工作方式是选择书法体字体\n（旧式数字存放于其中），\n因此会带来选择\n书法体大写字母的副作用；\nMathJax 为了兼容也这样做\n\nclass ORD\n\n{\\oldstyle ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter omega&#x03C9;   class ORD\nuppercase Greek letter omega&#x03A9;   class ORD",
+                    "target": "小写希腊字母 omega&#x03C9;   class ORD\n大写希腊字母 omega&#x03A9;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter omicron\n\n&#x03BF;   class ORD",
+                    "target": "小写希腊字母 omicron\n\n&#x03BF;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "general command for making fractions\n{ <subformula1> \\over <subformula2> }\nCreates a fraction:\nnumerator:   subformula1\ndenominator:   subformula2",
+                    "target": "用于生成分数的通用命令\n{ <subformula1> \\over <subformula2> }\n创建一个分数：\n分子：   subformula1\n分母：   subformula2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "puts a (stretchy) over-brace over the argument;\ncan use ‘^’ to place an optional superscript over the overbrace;\ncan use ‘_’ to place an optional subscript below the argument\n\\overbrace #1",
+                    "target": "在参数上方放置（可伸缩的）上括号；\n可用‘^’在上括号上方放置可选上标；\n可用‘_’在参数下方放置可选下标\n\\overbrace #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2190;stretchy over left arrow\n&#x2192;stretchy over right arrow\n&#x2194;stretchy over left right arrow\n\n\\overleftarrow #1\n\\overrightarrow #1\n\\overleftrightarrow #1",
+                    "target": "&#x2190;左箭头上方可伸缩\n&#x2192;右箭头上方可伸缩\n&#x2194;左右箭头上方可伸缩\n\n\\overleftarrow #1\n\\overrightarrow #1\n\\overleftrightarrow #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "stretchy overline\n\n&#x203E;\n\n\\overline #1",
+                    "target": "可伸缩上划线\n\n&#x203E;\n\n\\overline #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "puts a (stretchy) over-parenthesis (over-arc, frown) over the argument (new in MathJax 2.6)\n\\overparen #1",
+                    "target": "在参数上方添加（可伸缩）上括号（上弧、下凹）（MathJax 2.6 新增）\n\\overparen #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\overset #1 #2\noversets argument #1 (in scriptstyle) over argument #2",
+                    "target": "\\overset #1 #2\n将参数 #1（以 scriptstyle）置于参数 #2 上方"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "perpendicular to\n\n&#x22A5;   class REL",
+                    "target": "垂直于\n\n&#x22A5;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "phantom (both horizontal and vertical)\n\nclass ORD\n\nSometimes you want to pretend that something is there, for spacing reasons,\nbut you don't want it to appear—you want it to be invisible—you want it to be a phantom.\n\nThe box created by   \\phantom   has width, height and depth equal to its argument.\nIn other words, \\phantom   creates horizontal and vertical space equal to that of its argument,\neven though the argument isn't visible.\n\\phantom #1",
+                    "target": "占位符（水平和垂直）\n\nclass ORD\n\n有时出于排版间距的原因，你想假装那里有东西，\n但又不希望它显示——希望它不可见——这就是占位符。\n\n由   \\phantom   创建的盒子具有与其参数相同的宽度、高度和深度。\n换句话说，\\phantom   会创建与其参数相同的水平和垂直空间，\n即使该参数不可见。\n\\phantom #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter phi\n&##x03D5;   class ORD\n\nuppercase Greek letter phi\n&#x03A6;   class ORD",
+                    "target": "希腊小写字母 phi\n&##x03D5;   class ORD\n\n希腊大写字母 phi\n&#x03A6;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter pi\n&#x03C0;   class ORD\n\nuppercase Greek letter Pi\n&#x03A0;   class ORD",
+                    "target": "希腊小写字母 pi\n&#x03C0;   class ORD\n\n希腊大写字母 Pi\n&#x03A0;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D4;  \nclass REL",
+                    "target": "&#x22D4;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "plus or minus\n\n&x00B1;  \nclass BIN",
+                    "target": "加或减\n\n&x00B1;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "matrix enclosed in parentheses\n\nclass OPEN\n\n\\pmatrix{ <math> & <math> ... \\cr <repeat as needed> }\nalignment occurs at the ampersands;\na double-backslash can be used in place of the  \\cr ;\nthe final   \\\\   or   \\cr   is optional",
+                    "target": "用圆括号括起的矩阵\n\nclass OPEN\n\n\\pmatrix{ <math> & <math> ... \\cr <repeat as needed> }\n对齐发生在 & 处；\n可用双反斜杠代替  \\cr ；\n最后的   \\\\   或   \\cr   可选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "poor man's bold;\nit works by duplicating its argument slightly offset,\ngiving a bold effect (at least in the horizontal direction);\ndoesn't work well for horizontal lines, like $\\,-\\,$ or $\\,+\\,$\n\nclass ORD\n\n\\pmb #1",
+                    "target": "简易加粗；\n通过略微错位地复制参数来实现，\n产生加粗效果（至少在水平方向）；\n对水平线效果不佳，如 $\\,-\\,$ 或 $\\,+\\,$\n\nclass ORD\n\n\\pmb #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "parenthesized modulus operator; parenthesized modulo;\n18 mu of leading space before the opening parenthesis in display style;\n8 mu of leading space before the opening parenthesis in other styles;\n6 mu of space after the word  mod\n\\pmod #1",
+                    "target": "带圆括号的模运算符；带圆括号的 modulo；\n显示样式下左括号前有 18 mu 的前导空白；\n其他样式下左括号前有 8 mu 的前导空白；\n单词  mod  后有 6 mu 的空白\n\\pmod #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "parenthesized argument with leading space;\n18 mu of leading space before the opening parenthesis in display style;\n8 mu of leading space before the opening parenthesis in other styles\n\\pod #1",
+                    "target": "带前导空白的圆括号参数；\n显示样式下左括号前有 18 mu 的前导空白；\n其他样式下左括号前有 8 mu 的前导空白\n\\pod #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2AB7;   class REL\n&#x2AB9;   class REL",
+                    "target": "&#x2AB7;   class REL\n&#x2AB9;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x227C;  \nclass REL",
+                    "target": "&#x227C;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2AAF;   class REL\n&#x2AB5;   class REL",
+                    "target": "&#x2AAF;   class REL\n&#x2AB5;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x227E;   class REL\n&#x22E8;   class REL",
+                    "target": "&#x227E;   class REL\n&#x22E8;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "prime character\n\n&#x2032;  \nclass ORD",
+                    "target": "撇号\n\n&#x2032;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter psi\n&#x03C9;   class ORD\n\nuppercase Greek letter psi\n&#x03A9;   class ORD",
+                    "target": "希腊小写字母 psi\n&#x03C9;   class ORD\n\n希腊大写字母 psi\n&#x03A9;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\raise <dimen> #1\nraises the argument by the amount specified in <dimen>;\nin actual $\\rm\\TeX$, the argument to  \\raise  (and  \\lower ) must be an\n \\hbox ,\nbut in MathJax it can be any expression (using an \\hbox is allowed, but not required)",
+                    "target": "\\raise <dimen> #1\n将参数上移 <dimen> 指定的量；\n在实际的 $\\rm\\TeX$ 中， \\raise （以及  \\lower ）的参数必须是一个\n \\hbox ，\n但在 MathJax 中可以是任意表达式（允许使用 \\hbox，但不是必须）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right angle bracket;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\n&#x27E9;   class CLOSE",
+                    "target": "右尖括号；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下）\n\n&#x27E9;   class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right brace;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\nclass CLOSE",
+                    "target": "右大括号；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下）\n\nclass CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right bracket;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\nclass CLOSE",
+                    "target": "右中括号；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下）\n\nclass CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right ceiling;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\n&#x2309;   class CLOSE",
+                    "target": "右上取整符；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下）\n\n&#x2309;   class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x211C;   class ORD",
+                    "target": "&#x211C;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "equivalent to \\newcommand;\nfor clarity of code, you may choose to use   \\renewcommand  \nwhen re-defining a macro;\nthis is different from actual $\\,\\rm\\TeX\\,$,\nwhere  \\renewcommand  only allows redefining of an existing command",
+                    "target": "等同于 \\newcommand；\n为使代码更清晰，在重新定义宏时可选择使用   \\renewcommand  ；\n这与实际的 $\\,\\rm\\TeX\\,$ 不同，\n在后者中  \\renewcommand  仅允许重新定义已有命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This is a MathJax-specific macro that can be used to load MathJax $\\rm\\TeX$ extensions (like the AMSmath extension)\nfrom within math mode, rather than having to include it in the configuration.\nFor example,\n\n$\\require{AMSsymbols}$\n\nwould cause MathJax to load the\n extensions/TeX/AMSsymbols.js  file at that point.\n\nSince many people use MathJax in blogs and wikis that may not have all the extensions loaded,\nthis makes it possible to load a lesser-used extension on a particular page,\nwithout having to include it in every page.",
+                    "target": "这是一个 MathJax 特有的宏，可在数学模式中加载 MathJax $\\rm\\TeX$ 扩展（如 AMSmath 扩展），\n而无需在配置中包含它。\n例如，\n\n$\\require{AMSsymbols}$\n\n会使 MathJax 在该位置加载\n extensions/TeX/AMSsymbols.js  文件。\n\n由于很多人在博客和维基中使用 MathJax，可能并未加载所有扩展，\n这使得可以在特定页面上加载较少使用的扩展，\n而无需在每个页面中都包含它。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x21BE;   class REL",
+                    "target": "&#x21BE;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right floor;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right\n\n&#x230B;   class CLOSE",
+                    "target": "右下取整符；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩\n\n&#x230B;   class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right group;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right\n\n&#x27EE;   class CLOSE",
+                    "target": "右分组符；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩\n\n&#x27EE;   class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right-hand diamond\n\n&#x22B3;   class REL",
+                    "target": "右侧菱形\n\n&#x22B3;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter rho\n\n&#x0000;   class ORD",
+                    "target": "希腊小写字母 rho\n\n&#x0000;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used for stretchy delimiters;\nsee the Variable-Sized Delimiters Table for details\n\nCan be followed by:\n\ndelimiter:\nsample code:\nyields:\n\n(   )\n\\left( \\frac12 \\right)\n$\\left( \\frac12 \\right)$\n\n\\updownarrow\\Updownarrow\n\\left\\updownarrow \\phantom{\\frac12} \\right\\Updownarrow\n$\\left\\updownarrow \\phantom{\\frac12} \\right\\Updownarrow$",
+                    "target": "用于可伸缩定界符；\n详情见“可变大小定界符表”\n\n后可跟：\n\n定界符：\n示例代码：\n结果：\n\n(   )\n\\left( \\frac12 \\right)\n$\\left( \\frac12 \\right)$\n\n\\updownarrow\\Updownarrow\n\\left\\updownarrow \\phantom{\\frac12} \\right\\Updownarrow\n$\\left\\updownarrow \\phantom{\\frac12} \\right\\Updownarrow$"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy&#x2192;   class REL\nnon-stretchy&#x21D2;   class REL",
+                    "target": "不可伸缩&#x2192;   class REL\n不可伸缩&#x21D2;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right arrow tail; non-stretchy\n\n&#x21A3;   class REL",
+                    "target": "右箭尾；不可伸缩\n\n&#x21A3;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy&#x21C1;   class REL\nnon-stretchy&#x21C0;   class REL",
+                    "target": "不可伸缩&#x21C1;   class REL\n不可伸缩&#x21C0;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right left arrows; non-stretchy\n\n&#x21C4;   class REL",
+                    "target": "右左箭头；不可伸缩\n\n&#x21C4;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right left harpoons; non-stretchy\n\n&#x21CC;   class REL",
+                    "target": "右左鱼叉；不可伸缩\n\n&#x21CC;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right right arrows; non-stretchy\n\n&#x21C9;   class REL",
+                    "target": "右右箭头；不可伸缩\n\n&#x21C9;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right squiggle arrow; non-stretchy\n\n&#x21DD;  class REL",
+                    "target": "右波浪箭头；不可伸缩\n\n&#x21DD;  class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right three times\n\n&#x22CC;   class BIN",
+                    "target": "右三次\n\n&#x22CC;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "rising dot sequence\n\n&#x2253;   class REL",
+                    "target": "上升点序列\n\n&#x2253;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right overlap\n\nclass ORD\n\n\\rlap #1\n\ncreates a box of width zero;\nthe argument is then placed just to the right of this zero-width box\n(and hence will overlap whatever lies to the right)",
+                    "target": "右侧重叠\n\nclass ORD\n\n\\rlap #1\n\n创建一个宽度为零的盒子；\n然后将参数放在该零宽度盒子的右侧\n（因此会与右侧内容重叠）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on roman;  affects uppercase and lowercase letters, and digits;\nalso affects uppercase Greek\n\nclass ORD\n\n{\\rm ... }",
+                    "target": "启用罗马体；影响大小写字母和数字；\n也影响希腊大写字母\n\nclass ORD\n\n{\\rm ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right moustache;\nnon-stretchy when used alone;\nstretchy when used with   \\left   or   \\right   (see below)\n\n&#x23B1;   class CLOSE",
+                    "target": "右胡子括号；\n单独使用时不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩（见下）\n\n&#x23B1;   class CLOSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\root <index> \\of #1",
+                    "target": "\\root <index> \\of #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n\n&#x21DB;   class REL",
+                    "target": "不可伸缩\n\n&#x21DB;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "right shift; non-stretchy\n\n&#x21B1;   class REL",
+                    "target": "右移；不可伸缩\n\n&#x21B1;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a MathJax-specific macro giving a rule with\na specified width, height, and depth\n\n\\Rule <dimenWidth> <dimenHeight> <dimenDepth>\n\nwhere each argument is a\ndimension",
+                    "target": "一个 MathJax 特有的宏，用于生成具有指定宽度、高度和深度的线条\n\n\\Rule <dimenWidth> <dimenHeight> <dimenDepth>\n\n其中每个参数都是一个\ndimension"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2223;   class CLOSE\n\n&#x2225;   class CLOSE\n\nboth non-stretchy when used alone;\nstretchy when used with   \\left   or   \\right",
+                    "target": "&#x2223;   class CLOSE\n\n&#x2225;   class CLOSE\n\n单独使用时均不可伸缩；\n与   \\left   或   \\right   一起使用时可伸缩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "section symbol\n\n&#xA700;   class ORD",
+                    "target": "节符号\n\n&#xA700;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on script typestyle for uppercase letters;\nlowercase letters are in a roman typestyle\n\nclass ORD\n\n{ \\scr ... }",
+                    "target": "将大写字母切换为手写体样式；\n小写字母为罗马体样式\n\nclass ORD\n\n{ \\scr ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to over-ride automatic style rules and force scriptscript style;\nstays in force until the end of math mode or the braced group, or until another style is selected\n\nclass ORD\n\n{ \\scriptscriptstyle ... }",
+                    "target": "用于覆盖自动样式规则并强制使用 scriptscript 样式；\n一直生效到数学模式结束或大括号组结束，或直到选择了另一种样式\n\nclass ORD\n\n{ \\scriptscriptstyle ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on script size\n\nclass ORD\n\n{ \\scriptsize ... }",
+                    "target": "启用 script 大小\n\nclass ORD\n\n{ \\scriptsize ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to over-ride automatic style rules and force script style;\nstays in force until the end of math mode or the braced group, or until another style is selected\n\nclass ORD\n\n{ \\scriptstyle ... }",
+                    "target": "用于覆盖自动样式规则并强制使用 script 样式；\n一直生效到数学模式结束或大括号组结束，或直到选择了另一种样式\n\nclass ORD\n\n{ \\scriptstyle ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "southeast arrow; non-stretchy\n\n&#x2198;  \nclass ORD",
+                    "target": "东南箭头；不可伸缩\n\n&#x2198;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "set minus\n\n&#x2216;  \nclass BIN",
+                    "target": "集合差\n\n&#x2216;  \nclass BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on sans serif mode for uppercase and lowercase letters and digits,\nand for uppercase Greek\n\nclass ORD\n\n{ \\sf ... }",
+                    "target": "将大写/小写字母和数字设为无衬线模式，\n以及大写希腊字母\n\nclass ORD\n\n{ \\sf ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "musical sharp symbol\n\n&#x266F;  \nclass ORD",
+                    "target": "升号（音乐符号）\n\n&#x266F;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "forces flush left or flush right typesetting in a   \\multline   or   \\multline*   environment (see examples)",
+                    "target": "在   \\multline   或   \\multline*   环境中强制左对齐或右对齐排版（见示例）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used for putting symbols at the four ‘corners’ of a large operator\n(like $\\displaystyle\\sum$ or $\\displaystyle\\prod$ )\n\n\\sideset{_#1^#2}{_#3^#4} <large operator>\n\nwhere:\n\n#1 = lower left\n#2 = upper left\n#3 = lower right\n#4 = upper right",
+                    "target": "用于在大型算子四个“角”放置符号\n（如 $\\displaystyle\\sum$ 或 $\\displaystyle\\prod$）\n\n\\sideset{_#1^#2}{_#3^#4} <large operator>\n\n其中：\n\n#1 = 左下\n#2 = 左上\n#3 = 右下\n#4 = 右上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter sigma\n&#x03C3;   class ORD\n\nuppercase Greek letter sigma\n&#x03A3;   class ORD",
+                    "target": "小写希腊字母 sigma\n&#x03C3;   class ORD\n\n大写希腊字母 sigma\n&#x03A3;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x223C;   class REL\n&#x2243;   class REL",
+                    "target": "&#x223C;   class REL\n&#x2243;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to finely adjust the positioning on accents;\nparticularly useful for adjusting superaccents (accents on accents);\nusually requires trial-and-error adjustment for proper positioning\n\\skew #1 <accent>\nwhere #1 is a positive integer (the skew amount)",
+                    "target": "用于精细调整重音符号的位置；\n对调整叠加重音（重音上的重音）尤其有用；\n通常需要反复试错来得到合适位置\n\\skew #1 <accent>\n其中 #1 为正整数（偏移量）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on small size; affects all math\n\nclass ORD\n\n{\\small ... }",
+                    "target": "启用小号尺寸；影响全部数学内容\n\nclass ORD\n\n{\\small ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "small frown\n\n&#x2322;   class REL",
+                    "target": "小拱形\n\n&#x2322;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "small integral\n\n&#x222B;   class OP",
+                    "target": "小积分号\n\n&#x222B;   class OP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "small set minus\n\n&#x2216;   class BIN",
+                    "target": "小集合差\n\n&#x2216;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "small smile\n\n&#x2323;  \nclass REL",
+                    "target": "小笑脸弧\n\n&#x2323;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "smile\n\n&#x2323;  \nclass REL",
+                    "target": "笑脸弧\n\n&#x2323;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a MathJax-specific macro giving space with\na specified width, height, and depth\n\n\\Space <dimenWidth> <dimenHeight> <dimenDepth>\n\nwhere each argument is a\ndimension\n\nCompare:\n\na\\Rule{5px}{4ex}{2ex}^b_c d\nyields\n$a\\Rule{5px}{4ex}{2ex}^b_c d$\n\na\\Space{5px}{4ex}{2ex}^b_c d\nyields\n$a\\Space{5px}{4ex}{2ex}^b_c d$",
+                    "target": "MathJax 特有的宏，用于创建具有指定宽度、高度和深度的空白\n\n\\Space <dimenWidth> <dimenHeight> <dimenDepth>\n\n其中每个参数都是一个尺寸\n\n对比：\n\na\\Rule{5px}{4ex}{2ex}^b_c d\n得到\n$a\\Rule{5px}{4ex}{2ex}^b_c d$\n\na\\Space{5px}{4ex}{2ex}^b_c d\n得到\n$a\\Space{5px}{4ex}{2ex}^b_c d$"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2222;  \nclass ORD",
+                    "target": "&#x2222;  \nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "square cap&#x2293;   class BIN\nsquare cup&#x2294;   class BIN",
+                    "target": "方形交&#x2293;   class BIN\n方形并&#x2294;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "square root (and other roots)\n\nclass ORD\n\n\\sqrt #1\n\\sqrt[n]{op}   is equivalent to   \\root n \\of {op}",
+                    "target": "平方根（及其他根式）\n\nclass ORD\n\n\\sqrt #1\n\\sqrt[n]{op}   等价于   \\root n \\of {op}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "square subset&#x228F;   class REL\nsquare superset&#x2290;   class REL",
+                    "target": "方形子集&#x228F;   class REL\n方形超集&#x2290;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2291;   class REL\n&#x2292;   class REL",
+                    "target": "&#x2291;   class REL\n&#x2292;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22C6;   class BIN",
+                    "target": "&#x22C6;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an invisible box with no width, height 8.6pt and depth 3pt;\nnote that   \\mathstrut   changes with the current size, but\n  \\strut   does not",
+                    "target": "一个不可见的盒子，无宽度，高 8.6pt、深度 3pt；\n注意   \\mathstrut   会随当前大小变化，但\n  \\strut   不会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2282;   class REL",
+                    "target": "&#x2282;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D0;   class REL",
+                    "target": "&#x22D0;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2286;   class REL\n&#x228A;   class REL\n&#x2AC5;   class REL\n&#x2ACB;   class REL",
+                    "target": "&#x2286;   class REL\n&#x228A;   class REL\n&#x2AC5;   class REL\n&#x2ACB;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "use for multi-line subscripts or superscripts",
+                    "target": "用于多行下标或上标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2AB8;   class REL\n&#x2ABA;   class REL",
+                    "target": "&#x2AB8;   class REL\n&#x2ABA;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x227D;  \nclass REL",
+                    "target": "&#x227D;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2AB0;   class REL\n&#x2AB6;   class REL",
+                    "target": "&#x2AB0;   class REL\n&#x2AB6;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x227F;   class REL\n&#x22E9;   class REL",
+                    "target": "&#x227F;   class REL\n&#x22E9;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2283;  \nclass REL",
+                    "target": "&#x2283;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22D1;   class REL",
+                    "target": "&#x22D1;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2287;   class REL\n&#x228B;   class REL\n&#x2AC6;   class REL\n&#x2ACC;   class REL",
+                    "target": "&#x2287;   class REL\n&#x228B;   class REL\n&#x2AC6;   class REL\n&#x2ACC;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x221A;   class ORD",
+                    "target": "&#x221A;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "southwest arrow; non-stretchy\n\n&#x2199;  \nclass REL",
+                    "target": "西南箭头；不可伸缩\n\n&#x2199;  \nclass REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter tau\n\n&#x03C4;   class ORD",
+                    "target": "小写希腊字母 tau\n\n&#x03C4;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "notation commonly used for binomial coefficients; in textstyle\n\\tbinom #1 #2",
+                    "target": "二项式系数常用记法；在 textstyle 中\n\\tbinom #1 #2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "the TeX logo\n\nclass ORD",
+                    "target": "TeX 标志\n\nclass ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "used to over-ride automatic style rules and force text (inline) style;\nstays in force until the end of math mode or the braced group, or until another style is selected\n\nclass ORD\n\n{ \\textstyle ... }",
+                    "target": "用于覆盖自动样式规则并强制使用文本（行内）样式；\n一直生效到数学模式结束或大括号组结束，或直到选择了另一种样式\n\nclass ORD\n\n{ \\textstyle ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "textstyle fraction\n\\tfrac #1 #2",
+                    "target": "文本样式分数\n\\tfrac #1 #2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x2234   class REL",
+                    "target": "&#x2234   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter theta&#x03B8;   class ORD\nuppercase Greek letter theta&#x0398;   class ORD",
+                    "target": "小写希腊字母 theta&#x03B8;   class ORD\n大写希腊字母 theta&#x0398;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "thin space; normally $\\frac 16$ of a quad",
+                    "target": "细空格；通常为一个四分空格的 $\\frac 16$"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy tilde accent\n\n&#x02DC;\n\n\\tilde #1\nUsually, #1 is a single letter;  otherwise, accent is centered over argument.",
+                    "target": "非伸缩波浪号重音\n\n&#x02DC;\n\n\\tilde #1\n通常，#1 是单个字母；否则，重音会居中置于参数上方。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x00D7;   class BIN",
+                    "target": "&#x00D7;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on tiny; a bit smaller than \\Tiny\n\nclass ORD\n\n{\\tiny ... }",
+                    "target": "启用 tiny；比 \\Tiny 略小\n\nclass ORD\n\n{\\tiny ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on Tiny; a bit bigger than \\tiny\n\nclass ORD\n\n{\\Tiny ... }",
+                    "target": "启用 Tiny；比 \\tiny 略大\n\nclass ORD\n\n{\\Tiny ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n\n&#x2192;   class REL",
+                    "target": "非伸缩\n\n&#x2192;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tool tips are not built into MathJax,\nbut you can click here to benefit from\na posting by Davide P. Cervone (April 2011) at the\nMathJax Users Group.",
+                    "target": "MathJax 未内置工具提示，\n但你可以点击此处，参考 MathJax 用户组中\nDavide P. Cervone（2011 年 4 月）的帖子。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22A4;   class ORD",
+                    "target": "&#x22A4;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25B3;   class ORD\n&#x25BD;   class ORD",
+                    "target": "&#x25B3;   class ORD\n&#x25BD;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25C3;   class BIN\n&#x25B9;   class BIN",
+                    "target": "&#x25C3;   class BIN\n&#x25B9;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22B4;   class REL\n&#x22B5   class REL",
+                    "target": "&#x22B4;   class REL\n&#x22B5   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x225C;   class REL",
+                    "target": "&#x225C;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "turns on typewriter type\n\nclass ORD\n\n{\\tt ... }",
+                    "target": "启用打字机字体\n\nclass ORD\n\n{\\tt ... }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy &#x219E;   class REL\nnon-stretchy&#x21A0;   class REL",
+                    "target": "非伸缩 &#x219E;   class REL\n非伸缩&#x21A0;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "puts a (stretchy) under-brace under the argument;\ncan use ‘^’ to place an optional superscript over the argument;\ncan use ‘_’ to place an optional subscript below the underbrace\n\\underbrace #1",
+                    "target": "在参数下方加（可伸缩）下括号；\n可用 ‘^’ 在参数上方放置可选上标；\n可用 ‘_’ 在下括号下方放置可选下标\n\\underbrace #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "stretchy under left arrow\n&#x2190;\n\nstretchy under right arrow\n&#x2192;\n\nstretchy under left right arrow\n&#x2194;\n\n\\underleftarrow #1\n\\underrightarrow #1\n\\underleftrightarrow #1",
+                    "target": "可伸缩下左箭头\n&#x2190;\n\n可伸缩下右箭头\n&#x2192;\n\n可伸缩下左右箭头\n&#x2194;\n\n\\underleftarrow #1\n\\underrightarrow #1\n\\underleftrightarrow #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "stretchy underline\n\n&#x005F;\n\n\\underline #1",
+                    "target": "可伸缩下划线\n\n&#x005F;\n\n\\underline #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "puts a (stretchy) under-parenthesis (under-arc, smile) under the argument (new in MathJax 2.6)\n\\underparen #1",
+                    "target": "在参数下方加（可伸缩）下圆括号（下弧、微笑）（MathJax 2.6 新增）\n\\underparen #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "underlined left-hand (left-pointing) diamond\n&#x22B4;   class REL\n\nunderlined right-hand (right-pointing) diamond\n&#x22B5;   class REL",
+                    "target": "带下划线的左手（向左）菱形\n&#x22B4;   class REL\n\n带下划线的右手（向右）菱形\n&#x22B5;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n&#x2191;   class REL\n\nnon-stretchy\n&#x21D1;   class REL",
+                    "target": "非伸缩\n&#x2191;   class REL\n\n非伸缩\n&#x21D1;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n&#x2195;   class REL\n\nnon-stretchy\n&#x21D5;   class REL",
+                    "target": "非伸缩\n&#x2195;   class REL\n\n非伸缩\n&#x21D5;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n&#x21BF;   class REL\n\nnon-stretchy\n&#x21BE;   class REL",
+                    "target": "非伸缩\n&#x21BF;   class REL\n\n非伸缩\n&#x21BE;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x228E;   class BIN",
+                    "target": "&#x228E;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter upsilon\n&#x03C5;   class ORD\n\nuppercase Greek letter upsilon\n&#x03A5;   class ORD",
+                    "target": "小写希腊字母 upsilon\n&#x03C5;   class ORD\n\n大写希腊字母 upsilon\n&#x03A5;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy\n\n&#x21C8;   class REL",
+                    "target": "非伸缩\n\n&#x21C8;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter delta; variant\n\n&#x0394;   class ORD",
+                    "target": "大写希腊字母 delta；变体\n\n&#x0394;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter epsilon; variant\n\n&#x03B5;   class ORD",
+                    "target": "小写希腊字母 epsilon；变体\n\n&#x03B5;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter gamma; variant\n\n&#x0393;   class ORD",
+                    "target": "大写希腊字母 gamma；变体\n\n&#x0393;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter kappa; variant\n\n&#x03F0;   class ORD",
+                    "target": "小写希腊字母 kappa；变体\n\n&#x03F0;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter lambda; variant\n\n&#x039B;   class ORD",
+                    "target": "大写希腊字母 lambda；变体\n\n&#x039B;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter omega; variant\n\n&#x03A9;   class ORD",
+                    "target": "大写希腊字母 omega；变体\n\n&#x03A9;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter phi; variant\n\n&#x03C6;   class ORD",
+                    "target": "小写希腊字母 phi；变体\n\n&#x03C6;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter phi; variant\n\n&#x03A6;   class ORD",
+                    "target": "大写希腊字母 phi；变体\n\n&#x03A6;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter pi; variant\n\n&#x03D6;   class ORD",
+                    "target": "小写希腊字母 pi；变体\n\n&#x03D6;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter pi; variant\n\n&#x03A0;   class ORD",
+                    "target": "大写希腊字母 pi；变体\n\n&#x03A0;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "proportional to; variant\n\n&#x221D;   class REL",
+                    "target": "成比例；变体\n\n&#x221D;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter pi; variant\n\n&#x03A8;   class ORD",
+                    "target": "大写希腊字母 pi；变体\n\n&#x03A8;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter rho; variant\n\n&#x03F1;   class ORD",
+                    "target": "小写希腊字母 rho；变体\n\n&#x03F1;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter sigma; variant\n\n&#x03C2;   class ORD",
+                    "target": "小写希腊字母 sigma；变体\n\n&#x03C2;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter sigma; variant\n\n&#x03C2;   class ORD",
+                    "target": "大写希腊字母 sigma；变体\n\n&#x03C2;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x228A;   class REL\n&#x2ACB;   class REL",
+                    "target": "&#x228A;   class REL\n&#x2ACB;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x228B;   class REL\n&#x2ACC;   class REL",
+                    "target": "&#x228B;   class REL\n&#x2ACC;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter theta; variant&#x03D1;   class ORD\nuppercase Greek letter theta; variant&#x0398;   class ORD",
+                    "target": "小写希腊字母 theta；变体&#x03D1;   class ORD\n大写希腊字母 theta；变体&#x0398;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x25B3;   class REL\n&#x22B2;   class REL\n&#x22B3;   class REL",
+                    "target": "&#x25B3;   class REL\n&#x22B2;   class REL\n&#x22B3;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter upsilon; variant\n\n&#x03A5;   class ORD",
+                    "target": "大写希腊字母 upsilon；变体\n\n&#x03A5;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter xi; variant\n\n&#x039E;   class ORD",
+                    "target": "大写希腊字母 xi；变体\n\n&#x039E;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "\\vcenter #1\ncenters the argument on the ‘math axis’,\nwhich is at\nhalf the height of an ‘x’, or about the position of a minus sign;\none of the reasons for  \\vcenter  is to get stretchy delimiters to match the\ncontents better",
+                    "target": "\\vcenter #1\n将参数居中到“数学轴”上，\n该轴位于\n字母 ‘x’ 高度的一半处，或大约等于减号的位置；\n使用  \\vcenter  的原因之一是使可伸缩定界符与\n内容更好匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22A9;   class REL\n&#x22A8;   class REL",
+                    "target": "&#x22A9;   class REL\n&#x22A8;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "vertical dots\n\n&#x22EE;   class ORD",
+                    "target": "竖排省略号\n\n&#x22EE;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "non-stretchy vector symbol\n\\vec #1",
+                    "target": "非伸缩向量符号\n\\vec #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22BB;   class BIN",
+                    "target": "&#x22BB;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "verbatim mode;\nuseful for code snippets and for displaying special characters ‘as is’ (i.e., not interpreted by MathJax).\nOnly works in display mode.\nUsually, verbatim content is typeset in a sans serif font.\n\\verb $\\diamond$ <non-interpreted material> $\\diamond$\nwhere   $\\diamond$   denotes a non-letter character that does not appear in the <non-interpreted material>.\n\nTo use   \\verb  :\n\nFirst look through the material that is to be typeset ‘as is’ (verbatim).\nChoose a non-letter character that does not appear in this material.\n\nThis chosen non-letter character will mark the beginning and end of the verbatim material,\nas illustrated in the",
+                    "target": "逐字模式；\n有助于代码片段以及按原样显示特殊字符 ‘as is’（即不被 MathJax 解释）。\n仅在显示模式下有效。\n通常，逐字内容用无衬线字体排版。\n\\verb $\\diamond$ <non-interpreted material> $\\diamond$\n其中   $\\diamond$   表示一个不出现在 <non-interpreted material> 中的非字母字符。\n\n要使用   \\verb  ：\n\n先浏览需要按原样（verbatim）排版的材料。\n选择一个不出现在该材料中的非字母字符。\n\n所选的非字母字符将标记逐字材料的起始和结束，\n如图所示，在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "class ORD\n&#x2225;   class ORD\n\nboth non-stretchy when used alone; stretchy when used with   \\left   or   \\right",
+                    "target": "class ORD\n&#x2225;   class ORD\n\n单独使用时均不可伸缩；与   \\left   或   \\right   一起使用时可伸缩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "vertical phantom\n\nSometimes you want to pretend that something is there, for spacing reasons,\nbut you don't want it to appear—you want it to be invisible—you want it to be a phantom.\n\nThe box created by   \\vphantom   has the height and depth of its argument,\nbut its width is zero (so it doesn't contribute to any horizontal spacing issues).\nIn other words, \\vphantom   creates vertical space equal to that produced by its argument,\nbut doesn't create any horizontal space.\n\\vphantom #1",
+                    "target": "垂直幻影\n\n有时出于间距原因，你想假装某些东西在那里，\n但又不希望它出现——你希望它不可见——你希望它是一个幻影。\n\n由   \\vphantom   创建的盒子具有其参数的高度和深度，\n但宽度为零（因此不会导致任何水平方向的间距问题）。\n换句话说，\\vphantom   创建的垂直空间与其参数产生的空间相同，\n但不会产生任何水平空间。\n\\vphantom #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x22AA;   class REL",
+                    "target": "&#x22AA;   class REL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "stretchy hat accent\n\n&#x02C6;\n\n\\widehat #1",
+                    "target": "可伸缩的尖帽重音\n\n&#x02C6;\n\n\\widehat #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "stretchy tilde accent\n\n&#x02DC;\n\n\\widetilde #1",
+                    "target": "可伸缩的波浪重音\n\n&#x02DC;\n\n\\widetilde #1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "‘wriggly’ letter p\n\n&#x2118;   class ORD",
+                    "target": "“扭曲”的字母 p\n\n&#x2118;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "‘wriggle’ symbol;\n\n&#x2240;   class BIN",
+                    "target": "“扭曲”符号；\n\n&#x2240;   class BIN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "uppercase Greek letter xi\n\n&#x039E;   class ORD",
+                    "target": "希腊大写字母 xi\n\n&#x039E;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter xi\n\n&#x03BE;   class ORD",
+                    "target": "希腊小写字母 xi\n\n&#x03BE;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "&#x00A5;   class ORD",
+                    "target": "&#x00A5;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "lowercase Greek letter zeta\n\n&#x03B6;   class ORD",
+                    "target": "希腊小写字母 zeta\n\n&#x03B6;   class ORD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "For vertical alignment of two or more lines at one or more places:\n\nampersand(s) ‘&’ are used to indicate desired alignments (see",
+                    "target": "用于在一个或多个位置对两行或多行进行垂直对齐：\n\n使用一个或多个 ‘&’ 表示所需的对齐位置（见"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "[May 2011] same as align",
+                    "target": "[2011年5月] 同 align"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "For vertical alignment of two or more lines at one or more places;\nproduces a more horizontally-compressed display than align:\n\nthe alignat environment is started with   \\begin{alignat}{<num>} ,\nwhere   num   is a positive integer ($1,2,3,\\ldots$) that indicates the number of places\nwhere alignment is desired\n\nampersand(s) ‘&’ are used to indicate desired alignments (see",
+                    "target": "用于在一个或多个位置对两行或多行进行垂直对齐；\n显示效果比 align 更加水平紧凑：\n\nalignat 环境以   \\begin{alignat}{<num>}  开始，\n其中   num   是正整数（$1,2,3,\\ldots$），表示需要对齐的位置数量\n\n使用一个或多个 ‘&’ 表示所需的对齐位置（见"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "[May 2011] same as alignat",
+                    "target": "[2011年5月] 同 alignat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create an array (matrix),\nwhere columns can be individually left-justified,\ncentered, or right-justified.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\nthe array environment is started with   \\begin{array}{<justification info>} ,\nwhere   <justification info>   is a series of $n$ letters, one for each column:\n\n‘l’ for left-justified\n‘c’ for centered\n‘r’ for right-justified\n\npipe character(s) ‘|’ can be used in the justification information to specify\noptional separating vertical line(s) (see example below)\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows\n\nCompare these scenarios:\n\nboth columns left-justified:\n\n\\begin{array}{ll}\naaa & b\\cr\nc   & ddd\n\\end{array}\n\nyields\n$$\n\\begin{array}{ll}\naaa & b\\cr\nc   & ddd\n\\end{array}\n$$\n\nboth columns right-justified:\n\n\\begin{array}{rr}\naaa & b\\cr\nc   & ddd\n\\end{array}\n\nyields\n$$\n\\begin{array}{rr}\naaa & b\\cr\nc   & ddd\n\\end{array}\n$$\n\nboth columns centered, with separating line:\n\n\\begin{array}{c|c}\naaa & b\\cr\nc   & ddd\n\\end{array}\n\nyields\n$$\n\\begin{array}{c|c}\naaa & b\\cr\nc   & ddd\n\\end{array}\n$$\n\nfirst column left-justified; second column right-justified:\n\n\\begin{array}{lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n\nyields\n$$\n\\begin{array}{lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n$$\n\nPutting a pipe character ‘|’ at the beginning or end of\nthe justification info encloses the entire structure,\nwhich is different from standard $\\,\\rm\\TeX\\,$:\n\n\\begin{array}{|lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n\nyields\n$$\n\\begin{array}{|lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n$$",
+                    "target": "用于创建数组（矩阵），\n其中各列可分别左对齐，\n居中或右对齐。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\narray 环境以   \\begin{array}{<justification info>}  开始，\n其中   <justification info>   为由 $n$ 个字母组成的序列，每列一个：\n\n‘l’ 表示左对齐\n‘c’ 表示居中\n‘r’ 表示右对齐\n\n在对齐信息中可使用竖线 ‘|’ 指定\n可选的分隔竖线（见下例）\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行\n\n比较以下情况：\n\n两列均左对齐：\n\n\\begin{array}{ll}\naaa & b\\cr\nc   & ddd\n\\end{array}\n\n得到\n$$\n\\begin{array}{ll}\naaa & b\\cr\nc   & ddd\n\\end{array}\n$$\n\n两列均右对齐：\n\n\\begin{array}{rr}\naaa & b\\cr\nc   & ddd\n\\end{array}\n\n得到\n$$\n\\begin{array}{rr}\naaa & b\\cr\nc   & ddd\n\\end{array}\n$$\n\n两列均居中，并带分隔线：\n\n\\begin{array}{c|c}\naaa & b\\cr\nc   & ddd\n\\end{array}\n\n得到\n$$\n\\begin{array}{c|c}\naaa & b\\cr\nc   & ddd\n\\end{array}\n$$\n\n第一列左对齐；第二列右对齐：\n\n\\begin{array}{lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n\n得到\n$$\n\\begin{array}{lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n$$\n\n在对齐信息的开头或结尾放置竖线 ‘|’ 会将整个结构括起来，\n这与标准 $\\,\\rm\\TeX\\,$ 不同：\n\n\\begin{array}{|lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n\n得到\n$$\n\\begin{array}{|lr}\naaa & b\\cr\nc & ddd\n\\end{array}\n$$"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create a matrix (an array) with braces $\\{\\,,\\,\\}$ as enclosing delimiters;\ncolumns are centered.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于创建带有花括号 $\\{\\,,\\,\\}$ 作为包围定界符的矩阵（数组）；\n列居中。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create a matrix (an array) with brackets $[\\,,\\,]$ as enclosing delimiters;\ncolumns are centered.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于创建带有方括号 $[\\,,\\,]$ 作为包围定界符的矩阵（数组）；\n列居中。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used for piecewise-defined functions\n\nan ampersand ‘&’ is used to separate the function cases and their definitions\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于分段定义函数\n\n使用一个 ‘&’ 号分隔函数的各个情形及其定义\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "for ‘equation arrays’;\naligns at one or more places;\nsurround the character(s) to be aligned with ampersands, as shown below;\ncontent between alignment characters (or between alignment characters and end-of-line) is left-justified;\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于“方程数组”；\n在一个或多个位置对齐；\n如下面所示，用 ‘&’ 包围要对齐的字符；\n对齐字符之间（或对齐字符与行末之间）的内容左对齐；\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "[May 2011] same as equarray",
+                    "target": "[2011年5月] 同 equarray"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "[May 2011] ignored",
+                    "target": "[2011年5月] 忽略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "[May 2011] same as gather",
+                    "target": "[2011年5月] 同 gather"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create a matrix (an array) without any enclosing delimiters;\ncolumns are centered.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于创建不带任何包围定界符的矩阵（数组）；\n列居中。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a multi-line environment;\ntypically used for formulas/equations that don't fit on a single line\n\nthe first (or only) line is displayed left-justified\nthe last line is displayed right-justified\nany intermediate line(s) are centered\n\nThe justification of intermediate lines can be adjusted with\n\\shoveleft and \\shoveright.",
+                    "target": "一个多行环境；\n通常用于无法在一行内放下的公式/方程\n\n第一行（或唯一一行）左对齐显示\n最后一行右对齐显示\n任何中间行居中显示\n\n可使用\n\\shoveleft 和 \\shoveright 调整中间行的对齐方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "[May 2011] same as multline",
+                    "target": "[2011年5月] 同 multline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create a matrix (an array) with parentheses $(\\,,\\,)$ as enclosing delimiters;\ncolumns are centered.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于创建带有圆括号 $(\\,,\\,)$ 作为包围定界符的矩阵（数组）；\n列居中。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create a small matrix (an array);\nparticularly suited for use in text;\ncolumns are centered.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于创建小矩阵（数组）；\n特别适合在正文中使用；\n列居中。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "for single equations that are too long to ﬁt on one line, and hence must be split into multiple lines;\nallows for (optional) alignment at one or more places, using ‘&’ to mark alignment points",
+                    "target": "用于单个方程过长而无法在一行内显示、因此必须拆分为多行的情况；\n允许在一个或多个位置进行（可选的）对齐，使用 ‘&’ 标记对齐点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a more compact version of \\begin{array};\ncan be used for multi-subscripts and multi-superscripts on large operators;\ncolumns can be individually left-justified,\ncentered, or right-justified\n\nsuppose that $n$ columns are desired in the subarray;\nthen, $n-1$ ampersands are used to separate the columns\n\nthe subarray environment is started with   \\begin{subarray}{<justification info>} ,\nwhere   <justification info>   is a series of $n$ letters, one for each column:\n\n‘l’ for left-justified\n‘c’ for centered\n‘r’ for right-justified\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "更紧凑的 \\begin{array} 版本；\n可用于大型运算符的多下标和多上标；\n各列可分别左对齐，\n居中或右对齐\n\n假设 subarray 需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\nsubarray 环境以   \\begin{subarray}{<justification info>}  开始，\n其中   <justification info>   为由 $n$ 个字母组成的序列，每列一个：\n\n‘l’ 表示左对齐\n‘c’ 表示居中\n‘r’ 表示右对齐\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create a matrix (an array) with $\\|\\,,\\,\\|$ as enclosing delimiters;\ncolumns are centered.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于创建带有 $\\|\\,,\\,\\|$ 作为包围定界符的矩阵（数组）；\n列居中。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Used to create a matrix (an array) with $|\\,,\\,|$ as enclosing delimiters;\ncolumns are centered.\n\nsuppose that $n$ columns are desired in the array;\nthen, $n-1$ ampersands are used to separate the columns\n\na double backslash ‘\\\\’ or carriage return ‘\\cr’ separates rows",
+                    "target": "用于创建带有 $|\\,,\\,|$ 作为包围定界符的矩阵（数组）；\n列居中。\n\n假设数组需要 $n$ 列；\n则使用 $n-1$ 个 & 号分隔各列\n\n双反斜杠 ‘\\\\’ 或回车 ‘\\cr’ 用于分隔行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select next suggestion",
+                    "target": "选择下一条建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select previous suggestion",
+                    "target": "选择上一条建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select next placeholder",
+                    "target": "选择下一个占位符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select previous placeholder",
+                    "target": "选择上一个占位符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show mathjax helper on current selection",
+                    "target": "在当前选中内容上显示 MathJax 帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert subscript",
+                    "target": "插入下标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert superscript",
+                    "target": "插入上标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload user defined file",
+                    "target": "重新加载用户定义文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\\!",
+                    "target": "\\!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\\,",
+                    "target": "\\,"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\\ ",
+                    "target": "\\ "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\\{  \\}",
+                    "target": "\\{  \\}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "( )",
+                    "target": "( )"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "[ ]",
+                    "target": "[ ]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\\root ... \\of",
+                    "target": "\\root ... \\of"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\\style ",
+                    "target": "\\style "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "tool tips",
+                    "target": "工具提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for BetterMathjax.",
+                    "target": "BetterMathjax 的设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "See also",
+                    "target": "另请参阅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your Snippet",
+                    "target": "你的代码片段"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
