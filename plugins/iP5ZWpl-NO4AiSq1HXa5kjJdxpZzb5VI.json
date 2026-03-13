@@ -1,0 +1,373 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fuzzy-chinese-pinyin",
+        "version": "1.0.0",
+        "title": "Fuzzy Chinese Pinyin",
+        "description": "Fuzzy Chinese Pinyin Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.27.24",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重建",
+                    "target": "重建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当输入框为空时按下 Backspace 关闭搜索",
+                    "target": "当输入框为空时按下 Backspace 关闭搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "显示如图片、视频、PDF等附件文件。",
+                    "target": "显示如图片、视频、PDF等附件文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当搜索结果少于10个时搜索路径",
+                    "target": "当搜索结果少于10个时搜索路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "输入[[的时候文件连接能支持中文拼音搜索（实验性功能）",
+                    "target": "输入[[的时候文件连接能支持中文拼音搜索（实验性功能）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "输入栏为空时，空格加 asdf... 或 1234... 快速选择历史文件",
+                    "target": "输入栏为空时，空格加 asdf... 或 1234... 快速选择历史文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只显示这些后缀的附件",
+                    "target": "只显示这些后缀的附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在你未进行检索时，置顶命令将优先出现在命令面板的顶端。",
+                    "target": "在你未进行检索时，置顶命令将优先出现在命令面板的顶端。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "实验性功能",
+                    "target": "实验性功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "将索引存储到 global 以便重启时不重建索引",
+                    "target": "将索引存储到 global 以便重启时不重建索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backspace 关闭搜索",
+                    "target": "Backspace 关闭搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "繁体支持",
+                    "target": "繁体支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "双拼方案",
+                    "target": "双拼方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模糊音",
+                    "target": "模糊音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模糊音设置",
+                    "target": "模糊音设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动大小写敏感",
+                    "target": "自动大小写敏感"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示附件",
+                    "target": "显示附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示所有类型文件",
+                    "target": "显示所有类型文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示未完成链接",
+                    "target": "显示未完成链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用路径搜索",
+                    "target": "使用路径搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示 Tag",
+                    "target": "显示 Tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用双链建议",
+                    "target": "使用双链建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "附带标签搜索",
+                    "target": "附带标签搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "快速选择历史文件",
+                    "target": "快速选择历史文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "快速选择历史文件提示",
+                    "target": "快速选择历史文件提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "附件后缀",
+                    "target": "附件后缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "重置快捷键功能",
+                    "target": "重置快捷键功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示第一级标题",
+                    "target": "显示第一级标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "搜索结果缩进",
+                    "target": "搜索结果缩进"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新的置顶命令",
+                    "target": "新的置顶命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "没有置顶命令",
+                    "target": "没有置顶命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用标签建议",
+                    "target": "使用标签建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "重建索引",
+                    "target": "重建索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "dev 模式",
+                    "target": "dev 模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入以切换或创建文件……",
+                    "target": "输入以切换或创建文件……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入文件夹名称",
+                    "target": "输入文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入命令……",
+                    "target": "输入命令……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "下移"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "模糊音搜索已开启，无法切换双拼方案",
+                    "target": "模糊音搜索已开启，无法切换双拼方案"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "双拼方案不支持模糊音，无法开启模糊音搜索",
+                    "target": "双拼方案不支持模糊音，无法开启模糊音搜索"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在刷新索引中",
+                    "target": "正在刷新索引中"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "索引刷新完成",
+                    "target": "索引刷新完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "搜索文件",
+                    "target": "搜索文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "移动文件",
+                    "target": "移动文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "执行命令",
+                    "target": "执行命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "搜索标题",
+                    "target": "搜索标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入模板",
+                    "target": "插入模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重建索引",
+                    "target": "重建索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "设置",
+                    "target": "设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "全局",
+                    "target": "全局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文件搜索",
+                    "target": "文件搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "快捷键功能",
+                    "target": "快捷键功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标题搜索",
+                    "target": "标题搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "命令",
+                    "target": "命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "其他",
+                    "target": "其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "模糊音设置",
+                    "target": "模糊音设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
