@@ -1,0 +1,295 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-tikzjax",
+        "version": "1.0.0",
+        "title": "TikZJax",
+        "description": "TikZJax Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "无法将值转换为 JSON 字符串："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expect a keyword",
+                    "target": "应为关键字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expect a number",
+                    "target": "应为数字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expect an apostrophe",
+                    "target": "应为撇号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected combinator",
+                    "target": "意外的组合符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected input",
+                    "target": "意外的输入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Number sign is not allowed",
+                    "target": "不允许数字符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Integer is expected",
+                    "target": "应为整数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Number sign is expected",
+                    "target": "应有数字符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected end of input",
+                    "target": "输入意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Identifier is expected",
+                    "target": "应为标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Vertical line is expected",
+                    "target": "应为竖线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Attribute selector (=, ~=, ^=, $=, *=, |=) is expected",
+                    "target": "应为属性选择器 (=, ~=, ^=, $=, *=, |=)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Equal sign is expected",
+                    "target": "应为等号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Full stop is expected",
+                    "target": "应为句点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Identifier `deep` is expected",
+                    "target": "应为标识符 `deep`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Solidus is expected",
+                    "target": "应为斜杠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Combinator is expected",
+                    "target": "应为组合符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Number, dimension, ratio or identifier is expected",
+                    "target": "应为数字、维度、比例或标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Identifier or parenthesis is expected",
+                    "target": "应为标识符或括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsigned number is expected",
+                    "target": "应为无符号数字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Zero number is not allowed",
+                    "target": "不允许为零"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Identifier or asterisk is expected",
+                    "target": "应为标识符或星号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Too many hex digits",
+                    "target": "十六进制数字过多"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Too many question marks",
+                    "target": "问号过多"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Hex digit or question mark is expected",
+                    "target": "应为十六进制数字或问号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "U is expected",
+                    "target": "应为 U"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Plus sign is expected",
+                    "target": "应为加号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Function name must be `url`",
+                    "target": "函数名必须为 `url`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Url or Function is expected",
+                    "target": "应为 Url 或 Function"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Selector is expected",
+                    "target": "应为选择器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Hex or identifier is expected",
+                    "target": "应为十六进制或标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "String or url() is expected",
+                    "target": "应为字符串或 url()"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Condition is expected",
+                    "target": "应为条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: infinite loop while processing mergePaths plugin.",
+                    "target": "错误：处理 mergePaths 插件时出现无限循环。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Invert dark colors in diagrams (e.g. axes, arrows) when in dark mode, so that they are visible.",
+                    "target": "在深色模式下反转图表中的深色（例如坐标轴、箭头），使其可见。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "SVGs rendered with TikZJax are stored in a database, so diagrams don't have to be re-rendered from scratch every time you open a page. Use this to clear the cache and force all diagrams to be re-rendered.",
+                    "target": "由 TikZJax 渲染的 SVG 会存储在数据库中，因此每次打开页面时无需从头重新渲染图表。使用此项清除缓存并强制重新渲染所有图表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Invert dark colors in dark mode",
+                    "target": "在深色模式下反转深色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear cached SVGs",
+                    "target": "清除缓存的 SVG"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear cached SVGs",
+                    "target": "清除缓存的 SVG"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[csstree-match] BREAK after 15000 iterations",
+                    "target": "[csstree-match] 迭代 15000 次后中断"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\n\"extendDefaultPlugins\" utility is deprecated.\nUse \"preset-default\" plugin with overrides instead.\nFor example:\n{\n  name: 'preset-default',\n  params: {\n    overrides: {\n      // customize plugin options\n      convertShapeToPath: {\n        convertArcs: true\n      },\n      // disable plugins\n      convertPathData: false\n    }\n  }\n}\n",
+                    "target": "\n\"extendDefaultPlugins\" 实用工具已弃用。\n请改用带覆盖项的 \"preset-default\" 插件。\n例如：\n{\n  name: 'preset-default',\n  params: {\n    overrides: {\n      // customize plugin options\n      convertShapeToPath: {\n        convertArcs: true\n      },\n      // disable plugins\n      convertPathData: false\n    }\n  }\n}\n"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "TikZJax: Successfully cleared cached SVGs.",
+                    "target": "TikZJax：已成功清除缓存的 SVG。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Roman Dvornov",
+                    "target": "Roman Dvornov"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
