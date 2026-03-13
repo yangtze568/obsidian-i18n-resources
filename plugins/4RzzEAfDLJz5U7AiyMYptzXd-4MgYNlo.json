@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vim-im-control",
+        "version": "1.0.0",
+        "title": "Vim IM Control",
+        "description": "Vim IM Control Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to switch IM asynchronously or not",
+                    "target": "是否异步切换 IM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to show ERROR/WARN messages on Status Bar",
+                    "target": "是否在状态栏显示 ERROR/WARN 消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "PATH to IM Controller used only in the internal process",
+                    "target": "仅在内部进程中使用的 IM Controller 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The command to get current IM",
+                    "target": "获取当前 IM 的命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The command when entering insert mode (Use {{im}} as placeholder of cached IM)",
+                    "target": "进入插入模式时的命令（使用 {{im}} 作为已缓存 IM 的占位符）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The command when leaving insert mode",
+                    "target": "退出插入模式时的命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Async switch",
+                    "target": "异步切换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Status bar message",
+                    "target": "状态栏消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "PATH to IM Controller",
+                    "target": "IM Controller 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Get Current IM",
+                    "target": "获取当前 IM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "On InsertEnter",
+                    "target": "在 InsertEnter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "On InsertLeave",
+                    "target": "在 InsertLeave"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
