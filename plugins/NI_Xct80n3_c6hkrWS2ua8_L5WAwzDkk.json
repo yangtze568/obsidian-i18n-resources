@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fast-text-color",
+        "version": "1.0.0",
+        "title": "Fast Text Color",
+        "description": "Fast Text Color Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fatal: reached depth 1000 in recursion",
+                    "target": "致命错误：递归深度已达到 1000"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "outdated Settings! Trying to update.",
+                    "target": "设置已过时！正在尝试更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use interactive delimiter to change colors inside the editor.",
+                    "target": "使用交互分隔符在编辑器内更改颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled will allow you to use keybindings to activate colors from a custom colormenu.",
+                    "target": "启用后可使用快捷键从自定义颜色菜单激活颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Apply color to inline code.",
+                    "target": "为行内代码应用颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Interactive delimiters",
+                    "target": "交互分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use keybindings and colormenu",
+                    "target": "使用快捷键和颜色菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color inline code",
+                    "target": "为行内代码着色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "set keybinding",
+                    "target": "设置快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "use builtin obsidian colors",
+                    "target": "使用内置 Obsidian 颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "delete color",
+                    "target": "删除颜色"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "could not create Colormenu!",
+                    "target": "无法创建颜色菜单！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "activated color",
+                    "target": "已激活颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change text color",
+                    "target": "更改文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply latest color",
+                    "target": "应用最新颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Press any key",
+                    "target": "按任意键"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
