@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "history-today",
+        "version": "1.0.0",
+        "title": "History Today",
+        "description": "History Today Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.17",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
