@@ -1,0 +1,457 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note-mover-shortcut",
+        "version": "1.0.0",
+        "title": "NoteMover shortcut",
+        "description": "NoteMover shortcut Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "⋮⋮",
+                    "target": "⋮⋮"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Move files to folders based on criteria. First matching rule applies.",
+                    "target": "根据条件将文件移动到文件夹中。应用第一个匹配的规则。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "alert",
+                    "source": "At least one condition is required.",
+                    "target": "至少需要一个条件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Import settings will replace your current settings. Continue?",
+                    "target": "导入设置将替换当前设置。继续吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in undo button click handler:",
+                    "target": "撤销按钮点击处理程序出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in debounced handleOnEdit:",
+                    "target": "防抖的 handleOnEdit 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RuleV2 validation errors:",
+                    "target": "RuleV2 验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No files found in vault",
+                    "target": "未在库中找到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Migrating imported Rule V1 to Rule V2...",
+                    "target": "正在将导入的 Rule V1 迁移到 Rule V2..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Migrating Rule V1 to Rule V2...",
+                    "target": "正在将 Rule V1 迁移到 Rule V2..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Migrated RuleV2 triggers from ruleType to operator format",
+                    "target": "已将 RuleV2 触发器从 ruleType 迁移为 operator 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Repaired RuleV2 properties triggers with missing propertyName",
+                    "target": "已修复缺少 propertyName 的 RuleV2 属性触发器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add new filter",
+                    "target": "添加新筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ Add Condition",
+                    "target": "+ 添加条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add new rule",
+                    "target": "添加新规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ Add Rule",
+                    "target": "+ 添加规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clean up now",
+                    "target": "立即清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically check and move the edited note when a file is modified",
+                    "target": "当文件被修改时自动检查并移动已编辑的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where files matching this rule will be moved",
+                    "target": "匹配此规则的文件将被移动到的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Clears the history of moved notes",
+                    "target": "清除已移动笔记的历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Export your current settings as a JSON file",
+                    "target": "将当前设置导出为 JSON 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import settings from a JSON file",
+                    "target": "从 JSON 文件导入设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable on-edit trigger",
+                    "target": "启用编辑时触发器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter Description",
+                    "target": "筛选器描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Match Conditions",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Rule-V2 (beta)",
+                    "target": "启用 Rule-V2（测试版）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear history",
+                    "target": "清除历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clean up old entries",
+                    "target": "清理旧条目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export settings",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import settings",
+                    "target": "导入设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter rule name",
+                    "target": "输入规则名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete rule",
+                    "target": "删除规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clone rule",
+                    "target": "克隆规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit rule",
+                    "target": "编辑规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "RuleV2 validation warnings:",
+                    "target": "RuleV2 验证警告："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "tag: ",
+                    "target": "标签: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "content: ",
+                    "target": "内容: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "fileName: ",
+                    "target": "文件名: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "created_at: ",
+                    "target": "创建时间: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "path: ",
+                    "target": "路径: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "updated_at: ",
+                    "target": "updated_at: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "property: ",
+                    "target": "属性: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move active note to note folder",
+                    "target": "将当前笔记移至笔记文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move all files in vault",
+                    "target": "将保管库中的所有文件移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show history",
+                    "target": "显示历史记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show update modal",
+                    "target": "显示更新弹窗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add current file to blacklist",
+                    "target": "将当前文件添加到黑名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Rule",
+                    "target": "新建规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Property Name",
+                    "target": "属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., tag: #project",
+                    "target": "例如：标签：#project"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., Projects/",
+                    "target": "例如：Projects/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No history entries available for the selected time period.",
+                    "target": "所选时间段内没有可用的历史记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hide files",
+                    "target": "隐藏文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add to Blacklist",
+                    "target": "添加到黑名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files found to analyze.",
+                    "target": "未找到可分析的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Criteria Type",
+                    "target": "条件类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Property Name",
+                    "target": "属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Match Conditions",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Folder where files matching this rule will be moved",
+                    "target": "将匹配此规则的文件移动到的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Conditions:",
+                    "target": "条件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Destination Path",
+                    "target": "目标路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Here are the latest changes:",
+                    "target": "以下是最新更改："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No specific changelog information available.",
+                    "target": "暂无具体的更新日志信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View full changelog on GitHub",
+                    "target": "在 GitHub 上查看完整更新日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✨ New Features",
+                    "target": "✨ 新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🐛 Bug Fixes",
+                    "target": "🐛 缺陷修复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔄 Changes",
+                    "target": "🔄 更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔧 Fixes",
+                    "target": "🔧 修复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚡ Performance",
+                    "target": "⚡ 性能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Move Preview",
+                    "target": "移动预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rule Editor",
+                    "target": "规则编辑器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
