@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "track-a-lot",
+        "version": "1.0.0",
+        "title": "Track-a-Lot",
+        "description": "Track-a-Lot Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
