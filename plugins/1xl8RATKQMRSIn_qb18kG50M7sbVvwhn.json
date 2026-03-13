@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "red-pen",
+        "version": "1.0.0",
+        "title": "Red Pen",
+        "description": "Red Pen Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show red pen proofreader highlights by default when Obsidian is loaded.",
+                    "target": "默认在 Obsidian 加载时显示 Red Pen 校对高亮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Highlight weak or passive writing.",
+                    "target": "高亮薄弱或被动的写作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Highlight use of passive voice.",
+                    "target": "高亮被动语态的使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Highlight words that could be simplified.",
+                    "target": "高亮可简化的词语。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Highlight phrases that might be hard to read.",
+                    "target": "高亮可能难以阅读的短语。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the reading age when checking for readability.",
+                    "target": "设置可读性检查时的阅读年龄。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the number of algorithms that need to agree that a sentence is hard to read for the target age before it is highlighted.",
+                    "target": "设置在高亮之前需要多少算法一致认为该句子对目标年龄来说难以阅读。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show proofreader highlights by default",
+                    "target": "默认显示校对高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable intensify highlights",
+                    "target": "启用强化高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable passive highlights",
+                    "target": "启用被动语态高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable simplify highlights",
+                    "target": "启用简化高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable readability highlights",
+                    "target": "启用可读性高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Readability reading age",
+                    "target": "可读性阅读年龄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Readability algorithm threshold",
+                    "target": "可读性算法阈值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Proofreader Highlights",
+                    "target": "切换校对高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Red Pen Summary",
+                    "target": "红笔摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " phrases that could be intensified.",
+                    "target": " 可强化的短语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " phrases that use passive voice.",
+                    "target": " 使用被动语态的短语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " phrases that are difficult to read.",
+                    "target": " 难以阅读的短语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " phrases that could be simplified.",
+                    "target": " 可简化的短语。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
