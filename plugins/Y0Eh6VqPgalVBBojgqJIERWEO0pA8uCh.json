@@ -1,0 +1,151 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-tressel",
+        "version": "1.0.0",
+        "title": "Tressel Sync for Obsidian",
+        "description": "Tressel Sync for Obsidian Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error while syncing from Tressel -",
+                    "target": "从 Tressel 同步时出错 -"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Error creating Tressel sync folder - ",
+                    "target": "创建 Tressel 同步文件夹时出错 - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Loading Tressel Sync for Obsidian plugin",
+                    "target": "正在加载 Obsidian 的 Tressel Sync 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Get your unique access token from the Obsidian/Access Token page in Tressel's integration settings",
+                    "target": "在 Tressel 的集成设置中，从 Obsidian/Access Token 页面获取你的唯一访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Press this if you want to re-sync all your highlights from scratch (including ones already synced)",
+                    "target": "如果你想从头重新同步所有高亮（包括已同步的），请按此"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the folder you'd like your Tressel highlights to be stored in. If it doesn't exist, Tressel will automatically create it",
+                    "target": "选择你希望存放 Tressel 高亮的文件夹。如果不存在，Tressel 会自动创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sync into separate folders based on type. For example, Twitter threads will be saved to /Twitter/Tweet Collections. Leave this off if you want a flat file structure.",
+                    "target": "按类型同步到单独的文件夹中。例如，Twitter 线程将保存到 /Twitter/Tweet Collections。如果你想要扁平的文件结构，请关闭此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tressel Access Token",
+                    "target": "Tressel 访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder Name",
+                    "target": "文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Subfolder Organization",
+                    "target": "子文件夹组织方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to sync from Tressel - Invalid Token provided",
+                    "target": "无法从 Tressel 同步 - 提供的令牌无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting Tressel Sync",
+                    "target": "正在开始 Tressel 同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error while syncing from Tressel - check the console for logs",
+                    "target": "从 Tressel 同步时出错 - 请检查控制台日志"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to sync from Tressel - please fill out your Tressel user token before syncing",
+                    "target": "无法从 Tressel 同步 - 请在同步前填写你的 Tressel 用户令牌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Finished Tressel Sync",
+                    "target": "Tressel 同步完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tressel Settings",
+                    "target": "Tressel 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Help & Support",
+                    "target": "帮助与支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Invalid token - please enter the right token to sync your highlights from Tressel. You can find your Tressel access token in the Tressel integration settings page",
+                    "target": "令牌无效 - 请输入正确的令牌以同步你在 Tressel 的高亮。你可以在 Tressel 集成设置页面找到你的 Tressel 访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚙️ Go to integration settings",
+                    "target": "⚙️ 前往集成设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔃 Resync",
+                    "target": "🔃 重新同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔗 Go to Help Center",
+                    "target": "🔗 前往帮助中心"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
