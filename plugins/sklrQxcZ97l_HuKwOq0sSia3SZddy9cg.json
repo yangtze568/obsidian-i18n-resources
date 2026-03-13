@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pdf2img",
+        "version": "1.0.0",
+        "title": "PDF2Image",
+        "description": "PDF2Image Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No file chosen",
+                    "target": "未选择文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Batch (inserts all images at once)",
+                    "target": "批量（一次性插入所有图片）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Procedural (inserts images one by one)",
+                    "target": "逐个（逐张插入图片）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Separator line",
+                    "target": "分隔线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The quality of the images to be generated. Lower = faster and smaller file size, higher = slower and bigger file size. The default is 1x.",
+                    "target": "要生成的图片质量。更低=更快且文件更小，更高=更慢且文件更大。默认值为1x。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The format of the images to be generated. WebP loads faster and has smaller file sizes, PNG is slowest with bigger file size and better quality, and JPEG is in between.",
+                    "target": "要生成的图片格式。WebP加载更快且文件更小，PNG最慢且文件更大但质量更好，JPEG介于两者之间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how images are inserted into the editor.",
+                    "target": "选择图片如何插入到编辑器中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose what to insert after each image.",
+                    "target": "选择每张图片后插入什么。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The size of the header to be inserted above the image.",
+                    "target": "要插入到图片上方的标题大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The sensitivity of the header extraction algorithm. Increase this value if headers are not being detected. Lower this value if non-headers are being detected as headers. The default is 1.2.",
+                    "target": "标题提取算法的灵敏度。如果未检测到标题，请提高该值；如果将非标题识别为标题，请降低该值。默认值为1.2。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image Settings",
+                    "target": "图像设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image quality",
+                    "target": "图像质量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image type",
+                    "target": "图像类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insertion Settings",
+                    "target": "插入设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image insertion method",
+                    "target": "图像插入方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image separator",
+                    "target": "图像分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header Settings",
+                    "target": "标题设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert headers",
+                    "target": "插入标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header size",
+                    "target": "标题大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header extraction sensitivity",
+                    "target": "标题提取敏感度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max concurrent pages",
+                    "target": "最大并发页数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter a number",
+                    "target": "输入数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a PDF file",
+                    "target": "请选择一个PDF文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "PDF processing complete",
+                    "target": "PDF处理完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a note to insert images",
+                    "target": "请打开一条笔记以插入图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Choose PDF file to upload",
+                    "target": "选择要上传的PDF文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert PDF to images",
+                    "target": "将PDF转换为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a PDF file to convert",
+                    "target": "选择要转换的PDF文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose PDF File",
+                    "target": "选择PDF文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Image Quality",
+                    "target": "图像质量"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
