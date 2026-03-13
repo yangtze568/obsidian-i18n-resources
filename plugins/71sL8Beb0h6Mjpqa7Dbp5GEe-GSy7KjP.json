@@ -1,0 +1,463 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fight-note",
+        "version": "1.0.0",
+        "title": "Fight Note",
+        "description": "Fight Note Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Colors for action buttons.",
+                    "target": "操作按钮的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Size of input icons and special plates.",
+                    "target": "输入图标和特殊面板的大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Extend tooltips may provide additional information about notation.",
+                    "target": "扩展工具提示可提供有关标注的更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Some notations may be expanded or output as an icon.",
+                    "target": "某些标注可展开或以图标形式输出。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Wrap inputs if it exceeds frame width.",
+                    "target": "超出框架宽度时换行输入。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can define your own notations.",
+                    "target": "你可以自定义标注。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inputs size",
+                    "target": "输入尺寸"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tooltip style",
+                    "target": "工具提示样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shortcut style",
+                    "target": "快捷键样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Wrap inputs",
+                    "target": "输入换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom notations",
+                    "target": "自定义记法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wall Splat",
+                    "target": "撞墙"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wall Break",
+                    "target": "墙破坏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Floor Break",
+                    "target": "地板破坏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Balcony Break",
+                    "target": "阳台破坏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "While Standing",
+                    "target": "站立中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Instant While Standing",
+                    "target": "瞬间站立中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Back Turned",
+                    "target": "背身"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Full Crouch",
+                    "target": "完全蹲伏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crouch Cancel",
+                    "target": "取消蹲伏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Low Parry",
+                    "target": "下段格挡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Counter Hit",
+                    "target": "反击命中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "While Running",
+                    "target": "奔跑中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Side Step",
+                    "target": "侧步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Side Step Left",
+                    "target": "左侧步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Side Step Right",
+                    "target": "右侧步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dual Boot",
+                    "target": "双重启动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Destructive Form",
+                    "target": "破坏形态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leg Cutter",
+                    "target": "切腿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Slither Step",
+                    "target": "滑行步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Snake Eyes",
+                    "target": "蛇眼"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Electric Wind God Fist",
+                    "target": "电风神拳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mourning Crow",
+                    "target": "哀鸦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wind Step",
+                    "target": "风步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wind God Step",
+                    "target": "风神步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kenpo step",
+                    "target": "拳法步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shifting Clouds",
+                    "target": "移云"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left Foot Forward",
+                    "target": "左脚前出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left Flamingo",
+                    "target": "左鹤立"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Right Foot Forward",
+                    "target": "右脚前出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Right Flamingo",
+                    "target": "右火烈鸟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gamma Howl",
+                    "target": "伽马嚎叫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sit Down",
+                    "target": "坐下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jaguar Sprint/Jaguar Run",
+                    "target": "美洲豹冲刺/美洲豹奔跑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jaguar Step",
+                    "target": "美洲豹步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dynamic Entry",
+                    "target": "动态入场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dragon Charge",
+                    "target": "龙之冲锋"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fake Step",
+                    "target": "假步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hit Man Stance",
+                    "target": "刺客姿态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jin Ji Du Li",
+                    "target": "金鸡独立"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fo Bu",
+                    "target": "伏步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Glare",
+                    "target": "闪电眩光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dew Glide",
+                    "target": "露滑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deep Dive",
+                    "target": "深潜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shadow stance",
+                    "target": "影姿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Heaven's Wrath",
+                    "target": "天之怒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ducking In",
+                    "target": "内闪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flicker Stance",
+                    "target": "闪烁姿态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lion Heart",
+                    "target": "狮心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ducking Left",
+                    "target": "左闪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ducking Right",
+                    "target": "右侧闪避"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rain Dance",
+                    "target": "雨舞"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manji Dragonfly",
+                    "target": "卍字蜻蜓"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indian Stance",
+                    "target": "印第安站姿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "No Sword Stance",
+                    "target": "无剑姿态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bad Stomach",
+                    "target": "胃痛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mantis Stance",
+                    "target": "螳螂站姿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scarecrow Stance",
+                    "target": "稻草人站姿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tarantula Stance",
+                    "target": "狼蛛站姿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quarter Circle Back",
+                    "target": "四分之一圈后"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quarter Circle Forward",
+                    "target": "前四分之一圈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Half Circle Back",
+                    "target": "后半圈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Half Circle Forward",
+                    "target": "前半圈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "More details.",
+                    "target": "更多详情。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
