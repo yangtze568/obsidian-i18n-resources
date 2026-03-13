@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-pdf-plugin",
+        "version": "1.0.0",
+        "title": "Better PDF Plugin",
+        "description": "Better PDF Plugin Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "alt",
+                    "source": "[{{type}} Annotation]",
+                    "target": "[{{type}} 注释]"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "{{date}}, {{time}}",
+                    "target": "{{date}}, {{time}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Better PDF loading...",
+                    "target": "正在加载 Better PDF..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading Better PDF plugin...",
+                    "target": "正在卸载 Better PDF 插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, pages will be scaled to the view by default. Can be overridden using the 'fit' parameter",
+                    "target": "开启后，页面将默认缩放以适应视图。可使用“fit”参数覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, pages will be linked to their document by default. Can be overridden using the 'link' parameter",
+                    "target": "开启后，页面将默认链接到其文档。可使用“link”参数覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fit pages by default",
+                    "target": "默认适应页面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link pages by default",
+                    "target": "默认链接页面"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
