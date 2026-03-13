@@ -1,0 +1,505 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-chartsview-plugin",
+        "version": "1.0.0",
+        "title": "Charts View",
+        "description": "Charts View Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Web Colour Picker",
+                    "target": "网页取色器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The two vectors are unequal in length.",
+                    "target": "两个向量长度不一致。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The following error may be caused by improper layer setting, please make sure your manual layer setting does not violate the graph's structure:\n",
+                    "target": "以下错误可能由层设置不当引起，请确保手动层设置不违反图的结构：\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "G6 Error Tips: the data must be defined",
+                    "target": "G6 错误提示：必须定义数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "layout failed",
+                    "target": "布局失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "requestFullscreen error: ",
+                    "target": "requestFullscreen 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "exitFullscreen error: ",
+                    "target": "exitFullscreen 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "need dom",
+                    "target": "需要 DOM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "isMin checking",
+                    "target": "正在检查 isMin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "not scaling solution: zero size detected",
+                    "target": "不进行缩放方案：检测到尺寸为零"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loaded Charts View plugin",
+                    "target": "已加载 Charts View 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Charts View plugin",
+                    "target": "正在卸载 Charts View 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Insert Yaml!",
+                    "target": "插入 Yaml！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the background color of chart. e.g., #FFFFFF",
+                    "target": "更改图表的背景颜色。例如：#FFFFFF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the padding of chart. (Top, Right, Bottom, Left)",
+                    "target": "更改图表内边距。（上、右、下、左）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose default folder for loading chart datas.",
+                    "target": "选择用于加载图表数据的默认文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For word count, any words in the list will be ignored.",
+                    "target": "用于字数统计，列表中的任何词都会被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Background Color",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chart Padding",
+                    "target": "图表内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Data Folder",
+                    "target": "数据文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Export Button",
+                    "target": "显示导出按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Word Filter",
+                    "target": "词过滤器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chart Type",
+                    "target": "图表类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Value Number",
+                    "target": "数值数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Input field name",
+                    "target": "输入字段名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "value1, value2, value3, ...",
+                    "target": "value1, value2, value3, ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "workerEnabled option is only supported when running in web worker.",
+                    "target": "workerEnabled 选项仅在 web worker 中运行时受支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Maximum recursion depth reached in equalizeSegments",
+                    "target": "在 equalizeSegments 中达到最大递归深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Computing SVD on a matrix with more columns than rows. Consider enabling autoTranspose",
+                    "target": "在列数多于行数的矩阵上计算 SVD。请考虑启用 autoTranspose"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Duplicate headers found and renamed.",
+                    "target": "发现重复的表头并已重命名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid matrix:",
+                    "target": "无效矩阵："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[AntV G2] Web worker is not available",
+                    "target": "[AntV G2] Web worker 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sizeRatio is not in effect: Must define shape or sizeField first",
+                    "target": "sizeRatio 未生效：必须先定义 shape 或 sizeField"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sizeRatio is not in effect: It must be a number in [0,1]",
+                    "target": "sizeRatio 未生效：必须是 [0,1] 之间的数字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "off-screen group animate error!",
+                    "target": "离屏分组动画错误！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "font-size: 20px; color: red;",
+                    "target": "font-size: 20px; color: red;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "G6 Warning Tips: missing 'source' or 'target' for the edge.",
+                    "target": "G6 警告提示：边缺少 'source' 或 'target'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Update behavior failed! There is no behaviors in this mode on the graph.",
+                    "target": "更新行为失败！该模式在图上没有 behaviors。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Update behavior failed! There is no such behavior in the mode",
+                    "target": "更新行为失败！该模式中没有该 behavior"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fitview failed, ratio out of range, ratio: %f",
+                    "target": "fitview 失败，比例超出范围，比例：%f"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "graph minzoom has been used instead",
+                    "target": "已改用 graph minzoom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "graph maxzoom has been used instead",
+                    "target": "已改用 graph maxzoom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "zoom failed, ratio out of range, ratio: %f",
+                    "target": "缩放失败，比例超出范围，比例：%f"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Marched out of bounds",
+                    "target": "超出边界"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The hull type should be either round-convex, smooth-convex or bubble, round-convex is used by default.",
+                    "target": "Hull 类型应为 round-convex、smooth-convex 或 bubble，默认使用 round-convex。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Create combo failed. Please assign a unique string id for the adding combo.",
+                    "target": "创建 combo 失败。请为要添加的 combo 指定唯一的字符串 id。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to update the combo tree! The parentId points to a descendant of the combo!",
+                    "target": "更新 combo 树失败！parentId 指向了 combo 的后代！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The combo does not exist!",
+                    "target": "该 combo 不存在！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The combo to be collapsed does not exist!",
+                    "target": "要折叠的 combo 不存在！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fail to expand the combo since it's ancestor combo is collapsed.",
+                    "target": "无法展开该 combo，因为其祖先 combo 已被折叠。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "请先启用 undo & redo 功能，在实例化 Graph 时候配置 enabledStack: true !",
+                    "target": "请先启用 undo & redo 功能，在实例化 Graph 时候配置 enabledStack: true !"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Existed hull id.",
+                    "target": "已存在的 hull id。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Web worker is not supported in current browser.",
+                    "target": "当前浏览器不支持 Web worker。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "graph layout failed,",
+                    "target": "图布局失败，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Web-Worker layout error!",
+                    "target": "Web-Worker 布局错误！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "layout failed",
+                    "target": "布局失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Your browser does not support webGL or GPGPU. The layout will run in CPU.",
+                    "target": "您的浏览器不支持 WebGL 或 GPGPU。布局将使用 CPU 运行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Please call updateLayout instead of changeLayout. changeLayout will be discarded soon",
+                    "target": "请调用 updateLayout 而不是 changeLayout。changeLayout 即将废弃"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "layout cannot be null",
+                    "target": "布局不能为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Please call layout instead of refreshLayout. refreshLayout will be discarded soon",
+                    "target": "请调用 layout 而不是 refreshLayout。refreshLayout 即将废弃"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "请配置 TimeBar 组件的数据",
+                    "target": "请配置 TimeBar 组件的数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Trigger for legend filterling must be 'click' or 'mouseenter', 'click' will take effect by default.",
+                    "target": "图例过滤的触发方式必须是 'click' 或 'mouseenter'，默认使用 'click' 生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Touch original event not exist!",
+                    "target": "触摸原始事件不存在！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Behavior brush-select 的 trigger 参数不合法，请输入 'drag'、'shift'、'ctrl' 或 'alt'",
+                    "target": "Behavior brush-select 的 trigger 参数不合法，请输入 'drag'、'shift'、'ctrl' 或 'alt'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Behavior click-select 的 trigger 参数不合法，请输入 'drag'、'shift'、'ctrl' 或 'alt'",
+                    "target": "Behavior click-select 的 trigger 参数不合法，请输入 'drag'、'shift'、'ctrl' 或 'alt'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Behavior collapse-expand 的 trigger 参数不合法，请输入 'click' 或 'dblclick'",
+                    "target": "Behavior collapse-expand 的 trigger 参数不合法，请输入 'click' 或 'dblclick'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Behavior collapse-expand-group 的 trigger 参数不合法，请输入 'click' 或 'dblclick'",
+                    "target": "Behavior collapse-expand-group 的 trigger 参数不合法，请输入 'click' 或 'dblclick'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Behavior lasso-select 的 trigger 参数不合法，请输入 'drag'、'shift'、'ctrl' 或 'alt'",
+                    "target": "Behavior lasso-select 的 trigger 参数不合法，请输入 'drag'、'shift'、'ctrl' 或 'alt'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Behavior create-edge 的 trigger 参数不合法，请输入 'click'，'drag'",
+                    "target": "Behavior create-edge 的 trigger 参数不合法，请输入 'click'，'drag'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Behavior create-edge 的 key 参数不合法，请输入 'shift'，'ctrl'，'alt'，'control'，或 undefined",
+                    "target": "Behavior create-edge 的 key 参数不合法，请输入 'shift'，'ctrl'，'alt'，'control'，或 undefined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "请为 Graph 指定 width 与 height！否则将使用默认值 500 * 500",
+                    "target": "请为 Graph 指定 width 与 height！否则将使用默认值 500 * 500"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Export to PNG",
+                    "target": "导出为 PNG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "转化率",
+                    "target": "转化率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Quoted field unterminated",
+                    "target": "带引号的字段未结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trailing quote on quoted field is malformed",
+                    "target": "带引号字段末尾的引号格式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed. No node close to the dragged node.",
+                    "target": "失败。没有靠近被拖动节点的节点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed. The target node is a descendant of the dragged node.",
+                    "target": "失败。目标节点是被拖动节点的后代。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import data from external CSV file",
+                    "target": "从外部 CSV 文件导入数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Charts View Settings",
+                    "target": "Charts View 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Make a donation to support Charts View plugin development.",
+                    "target": "捐赠以支持 Charts View 插件开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chart Wizard",
+                    "target": "图表向导"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
