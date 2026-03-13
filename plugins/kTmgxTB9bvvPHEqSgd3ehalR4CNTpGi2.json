@@ -1,0 +1,133 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lskypro-auto-upload",
+        "version": "1.0.0",
+        "title": "Image To Lskypro",
+        "description": "Image To Lskypro Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading file:",
+                    "target": "读取文件出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed request: ",
+                    "target": "请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用该选项后，黏贴图片时会自动上传到lsky图床",
+                    "target": "启用该选项后，黏贴图片时会自动上传到lsky图床"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LskyPro 域名（不需要填写完整的API路径）",
+                    "target": "LskyPro 域名（不需要填写完整的API路径）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LskyPro Token",
+                    "target": "LskyPro Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LskyPro 存储策略ID（非必填）",
+                    "target": "LskyPro 存储策略ID（非必填）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "LskyPro 域名",
+                    "target": "LskyPro 域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "LskyPro Token",
+                    "target": "LskyPro Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "LskyPro Strategy id",
+                    "target": "LskyPro 策略 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入LskyPro 域名",
+                    "target": "请输入LskyPro 域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入LskyPro Token",
+                    "target": "请输入LskyPro Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入LskyPro 存储策略ID（非必填）",
+                    "target": "请输入LskyPro 存储策略ID（非必填）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "unknown uploader",
+                    "target": "未知的上传器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Get attachment folder path faild.",
+                    "target": "获取附件文件夹路径失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有打开的文件",
+                    "target": "没有打开的文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Upload error",
+                    "target": "上传错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upload all images-All images in the current file",
+                    "target": "上传所有图片-当前文件中的所有图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download all images",
+                    "target": "下载所有图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upload all images - All notes in vault (reuse)",
+                    "target": "上传所有图片 - 仓库中的所有笔记（复用）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
