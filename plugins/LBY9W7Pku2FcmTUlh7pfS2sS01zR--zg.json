@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "share-to-cubox",
+        "version": "1.0.0",
+        "title": "Share to Cubox",
+        "description": "Share to Cubox Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Successfully shared to Cubox.",
+                    "target": "已成功分享到 Cubox。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功分享到 Cubox。",
+                    "target": "成功分享到 Cubox。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
