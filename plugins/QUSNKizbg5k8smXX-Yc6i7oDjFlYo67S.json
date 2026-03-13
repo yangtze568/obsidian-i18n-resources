@@ -1,0 +1,289 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fountain",
+        "version": "1.0.0",
+        "title": "Fountain",
+        "description": "Fountain Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.26.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "A4 (210 × 297 mm)",
+                    "target": "A4（210 × 297 毫米）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Letter (8.5\" × 11\")",
+                    "target": "信纸（8.5\" × 11\"）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "decoration failed",
+                    "target": "装饰失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error parsing script",
+                    "target": "解析脚本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing fountain script:",
+                    "target": "解析 fountain 脚本时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating PDF:",
+                    "target": "生成 PDF 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in PDF generation:",
+                    "target": "PDF 生成出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating duplicate:",
+                    "target": "创建副本时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "FLATE:",
+                    "target": "FLATE："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate PDF",
+                    "target": "生成 PDF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make scene headings bold in the generated PDF",
+                    "target": "在生成的 PDF 中将场景标题加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the paper size for the PDF",
+                    "target": "选择 PDF 的纸张大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude synopsis lines from the generated PDF",
+                    "target": "在生成的 PDF 中排除概要行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude notes from the generated PDF",
+                    "target": "在生成的 PDF 中排除注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude margin marks ([[@word]]) from the generated PDF",
+                    "target": "在生成的 PDF 中排除页边标记（[[@word]]）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Creates a new file with filtered content, leaving the original untouched. Uncheck to modify current file directly (no undo in readonly mode).",
+                    "target": "创建包含筛选内容的新文件，原文件保持不变。取消勾选将直接修改当前文件（只读模式下无法撤销）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scene heading bold",
+                    "target": "场景标题加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Paper size",
+                    "target": "纸张大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide synopsis",
+                    "target": "隐藏概要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide notes",
+                    "target": "隐藏注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide margin marks",
+                    "target": "隐藏页边距标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create filtered copy (recommended)",
+                    "target": "创建筛选副本（推荐）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select All",
+                    "target": "全选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "PDF Generation Options",
+                    "target": "PDF 生成选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Stop rehearsal",
+                    "target": "停止排练"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a fountain file to generate a PDF",
+                    "target": "请打开一个 Fountain 文件以生成 PDF"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to parse fountain file",
+                    "target": "解析 Fountain 文件失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating PDF...",
+                    "target": "正在生成 PDF..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to generate PDF",
+                    "target": "生成 PDF 失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to parse fountain script",
+                    "target": "无法解析 Fountain 剧本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file is currently open",
+                    "target": "当前没有打开的文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create duplicate file",
+                    "target": "创建副本文件失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New fountain document",
+                    "target": "新建 fountain 文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate PDF",
+                    "target": "生成 PDF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add scene numbers",
+                    "target": "添加场景编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open sidebar",
+                    "target": "打开侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle spell check",
+                    "target": "切换拼写检查"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "TODO: ",
+                    "target": "待办："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Warning: This will overwrite the existing PDF file:",
+                    "target": "⚠️ 警告：这将覆盖现有的 PDF 文件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No characters found in this script.",
+                    "target": "此脚本中未找到角色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No scenes or sections found in this script.",
+                    "target": "此脚本中未找到场景或章节。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click to edit",
+                    "target": "点击编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Drop selection here to create a snippet",
+                    "target": "将选中内容拖到此处以创建片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "todos?",
+                    "target": "待办事项？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "preview?",
+                    "target": "预览？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
