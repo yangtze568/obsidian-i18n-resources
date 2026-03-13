@@ -1,0 +1,1357 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "geulo-youtube-liked-video",
+        "version": "1.0.0",
+        "title": "Geulo",
+        "description": "Geulo Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "OpenRouter (experimental)",
+                    "target": "OpenRouter（实验性）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "🔧 5 seconds (Debug)",
+                    "target": "🔧 5 秒（调试）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "🔧 1 minute (Debug)",
+                    "target": "🔧 1 分钟（调试）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "24 hours",
+                    "target": "24 小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "12 hours",
+                    "target": "12 小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "6 hours",
+                    "target": "6 小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "2 hours",
+                    "target": "2 小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1 hour",
+                    "target": "1 小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "30 minutes",
+                    "target": "30 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "10 minutes",
+                    "target": "10 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse debug config:",
+                    "target": "解析调试配置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request timeout",
+                    "target": "请求超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "API request failed:",
+                    "target": "API 请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch video categories:",
+                    "target": "获取视频分类失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load user preferences:",
+                    "target": "加载用户偏好失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save user preferences:",
+                    "target": "保存用户偏好失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset user preferences:",
+                    "target": "重置用户偏好失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error linking to daily note:",
+                    "target": "链接到每日笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add summary to note:",
+                    "target": "向笔记添加摘要失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling video note:",
+                    "target": "处理视频笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error adding to daily note:",
+                    "target": "添加到每日笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load categories:",
+                    "target": "加载分类失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load categories from cache:",
+                    "target": "从缓存加载分类失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save categories to cache:",
+                    "target": "将分类保存到缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear categories cache:",
+                    "target": "清除分类缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load default categories:",
+                    "target": "加载默认分类失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to undo unlike:",
+                    "target": "撤销取消点赞失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load videos:",
+                    "target": "加载视频失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load playlist videos:",
+                    "target": "加载播放列表视频失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to like video:",
+                    "target": "点赞视频失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to unlike video:",
+                    "target": "取消点赞视频失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load playlists:",
+                    "target": "加载播放列表失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add playlist:",
+                    "target": "添加播放列表失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SummaryStorage] Failed to read summaries.json:",
+                    "target": "[SummaryStorage] 读取 summaries.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SummaryStorage] Failed to persist:",
+                    "target": "[SummaryStorage] 持久化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Auto-fetch failed:",
+                    "target": "自动获取失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling video note automation:",
+                    "target": "处理视频笔记自动化出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize categories:",
+                    "target": "初始化分类失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Loading YouTube video categories...",
+                    "target": "正在加载 YouTube 视频分类..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Loading default categories as fallback",
+                    "target": "正在加载默认分类作为备用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Manual debug fetch triggered",
+                    "target": "已触发手动调试获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[SummaryStorage] Initializing...",
+                    "target": "[SummaryStorage] 正在初始化..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[SummaryStorage] Resources cleaned up",
+                    "target": "[SummaryStorage] 资源已清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugin loading...",
+                    "target": "插件加载中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Fetch on startup enabled, scheduling fetch in 5 seconds",
+                    "target": "已启用启动时抓取，将在 5 秒后安排抓取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugin unloading...",
+                    "target": "正在卸载插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Plugin unloaded successfully",
+                    "target": "插件卸载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Initializing video categories...",
+                    "target": "正在初始化视频分类..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Video categories initialized",
+                    "target": "视频分类已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%c🔧 Geulo Debug Mode Enabled",
+                    "target": "%c🔧 Geulo 调试模式已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: #00ff00; font-weight: bold",
+                    "target": "color: #00ff00; font-weight: bold"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Debug config:",
+                    "target": "调试配置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Geulo debug mode enabled. Reload the plugin to see debug logs.",
+                    "target": "Geulo 调试模式已启用。重新加载插件以查看调试日志。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Geulo debug mode disabled. Reload the plugin to stop debug logs.",
+                    "target": "Geulo 调试模式已禁用。重新加载插件以停止调试日志。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "openInObsidianWebViewer:",
+                    "target": "openInObsidianWebViewer:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Already loading videos, skipping duplicate call",
+                    "target": "已在加载视频，跳过重复调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "PlaylistVideosPane setState called with:",
+                    "target": "PlaylistVideosPane setState 调用参数："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Updated playlistSource to:",
+                    "target": "已更新 playlistSource 为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Updated playlistInfo to:",
+                    "target": "已更新 playlistInfo 为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "UserPlaylistsPane setting view state:",
+                    "target": "UserPlaylistsPane 设置视图状态："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset to Default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Full scan",
+                    "target": "完全扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear stored liked videos in local storage",
+                    "target": "清除本地存储中已保存的喜欢视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open Google Developer Console",
+                    "target": "打开 Google 开发者控制台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Fetch Now",
+                    "target": "立即获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Displays the quota of liked videos fetched from the YouTube Data API v3, indicating how many videos you can store (up to 5000).",
+                    "target": "显示从 YouTube Data API v3 获取的喜欢视频配额，指示你可存储的视频数量（最多 5000）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Numbers of liked videos to fetch at each time of API request. Set this up to your rate of your video consumption pattern.",
+                    "target": "每次 API 请求要获取的喜欢视频数量。根据你的视频观看频率进行设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, videos will be opened in the Obsidian web viewer instead of the OS's default browser even when its 'Open external links' option is turned off. You need to ENABLE THE \"WEB VIEWER\" CORE PLUGIN for this to work.",
+                    "target": "启用后，即使“打开外部链接”选项已关闭，视频也会在 Obsidian 网页查看器中打开，而非操作系统的默认浏览器。你需要启用“WEB VIEWER”核心插件才能生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure the video note settings",
+                    "target": "配置视频笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create subfolders for each channel (e.g., Youtube/Channel Name/video.md). Only applies when using a custom video note location.",
+                    "target": "为每个频道创建子文件夹（例如：Youtube/Channel Name/video.md）。仅在使用自定义视频笔记位置时适用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, a new note will be created for each new video fetched.",
+                    "target": "启用后，每获取一个新视频都会创建一个新笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, a link to the new video note will be added to your daily note.",
+                    "target": "启用后，新视频笔记的链接将添加到你的每日笔记中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure AI-powered features",
+                    "target": "配置 AI 功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which AI provider to use for video summaries.",
+                    "target": "选择用于视频摘要的 AI 提供商。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your OpenRouter API key. Get one from openrouter.ai/keys.",
+                    "target": "你的 OpenRouter API 密钥。前往 openrouter.ai/keys 获取。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure automatic fetching of liked videos",
+                    "target": "配置自动获取点赞视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically fetch liked videos at regular intervals",
+                    "target": "按固定间隔自动获取点赞视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often to automatically fetch videos (in minutes)",
+                    "target": "自动获取视频的频率（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically fetch videos when Obsidian starts",
+                    "target": "Obsidian 启动时自动获取视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Functions to fetch and update liked videos",
+                    "target": "获取并更新点赞视频的功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Setup the plugin",
+                    "target": "设置插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click the button below to open the Google Developer Console, where you can manage your Google APIs and credentials.",
+                    "target": "点击下方按钮打开 Google Developer Console，在那里你可以管理 Google API 和凭据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Client ID required to authenticate your Google account and access the YouTube Data API v3.",
+                    "target": "用于验证你的 Google 账号并访问 YouTube Data API v3 的客户端 ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Client secret for accessing the YouTube Data API v3",
+                    "target": "用于访问 YouTube Data API v3 的客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Login to your Google account",
+                    "target": "登录到您的 Google 账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Development mode only",
+                    "target": "仅限开发模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the verbosity of debug logs",
+                    "target": "设置调试日志详细程度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Log all API requests and responses",
+                    "target": "记录所有 API 请求和响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Log state updates and changes",
+                    "target": "记录状态更新和变化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Log automatic fetch operations",
+                    "target": "记录自动获取操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Override auto-fetch interval for testing (0 = use normal setting)",
+                    "target": "为测试覆盖自动获取间隔（0 = 使用正常设置）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Trigger an immediate fetch for testing",
+                    "target": "触发一次立即获取以进行测试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable: enableGeuloDebug() | Disable: disableGeuloDebug()",
+                    "target": "启用：enableGeuloDebug() | 禁用：disableGeuloDebug()"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch Limit",
+                    "target": "获取上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open Videos in Obsidian Web Viewer",
+                    "target": "在 Obsidian 网页查看器中打开视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Video notes",
+                    "target": "视频笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Video note location",
+                    "target": "视频笔记位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Organize by channel",
+                    "target": "按频道整理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatically create notes",
+                    "target": "自动创建笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link to daily note",
+                    "target": "链接到每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "[Experimental] AI Features",
+                    "target": "[实验性] AI 功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable AI Summary",
+                    "target": "启用 AI 总结"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI Provider",
+                    "target": "AI 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenRouter API Key",
+                    "target": "OpenRouter API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model ID",
+                    "target": "模型 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Summary Prompt",
+                    "target": "摘要提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic Fetch",
+                    "target": "自动获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable automatic fetch",
+                    "target": "启用自动获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch interval",
+                    "target": "获取间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Full fetch on every auto-fetch",
+                    "target": "每次自动获取时全量获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "⚠️ Warning",
+                    "target": "⚠️ 警告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch on startup",
+                    "target": "启动时获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Last auto-fetch",
+                    "target": "上次自动获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch all liked videos so far and add to local storage. This will override all the liked videos in local storage.",
+                    "target": "获取迄今为止所有点赞的视频并添加到本地存储。这将覆盖本地存储中的所有点赞视频。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch all liked videos so far, compare to the stored videos and filter/add the new videos to local storage",
+                    "target": "获取至今所有点赞视频，与已存储的视频对比并筛选/添加新视频到本地存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear local storage",
+                    "target": "清除本地存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open Youtube Data API Console",
+                    "target": "打开 YouTube Data API 控制台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Client ID",
+                    "target": "客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Client secret",
+                    "target": "客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Login with Google",
+                    "target": "使用 Google 登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "🔧 Debug Settings",
+                    "target": "🔧 调试设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log Level",
+                    "target": "日志级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log API Calls",
+                    "target": "记录 API 调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log State Changes",
+                    "target": "记录状态变化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log Auto-Fetch",
+                    "target": "记录自动抓取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-Fetch Interval Override (minutes)",
+                    "target": "自动抓取间隔覆盖（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Force Fetch Now",
+                    "target": "立即强制抓取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug Console Commands",
+                    "target": "调试控制台命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. Youtube, Youtube/Videos (Default is 'Youtube')",
+                    "target": "例如：Youtube、Youtube/Videos（默认是“Youtube”）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your client ID",
+                    "target": "输入你的客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your client secret",
+                    "target": "输入你的客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in external browser",
+                    "target": "在外部浏览器中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to daily note",
+                    "target": "添加到每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to current note",
+                    "target": "添加到当前笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Display video info",
+                    "target": "显示视频信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Regenerate AI summary",
+                    "target": "重新生成 AI 摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Refresh Videos",
+                    "target": "刷新视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Back to Playlists",
+                    "target": "返回播放列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Refresh Playlists",
+                    "target": "刷新播放列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clear Cache",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No categories returned from API",
+                    "target": "API 未返回分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not create custom folder, using default location:",
+                    "target": "无法创建自定义文件夹，使用默认位置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not create channel folder in default location:",
+                    "target": "无法在默认位置创建频道文件夹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No categories fetched from API, using default categories",
+                    "target": "未从 API 获取分类，使用默认分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load user playlists:",
+                    "target": "加载用户播放列表失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Full fetch mode enabled - fetching ALL liked videos. This may consume significant resources.",
+                    "target": "⚠️ 已启用完整抓取模式 - 正在获取所有点赞视频。这可能会消耗大量资源。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't use this OAuth method on this device",
+                    "target": "无法在此设备上使用此 OAuth 方法"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tokens acquired.",
+                    "target": "已获取令牌。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auth failed",
+                    "target": "认证失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Token revoked successfully.",
+                    "target": "令牌已成功撤销。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to revoke token.",
+                    "target": "撤销令牌失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Refresh token for Google API is missing or expired",
+                    "target": "Google API 的刷新令牌缺失或已过期"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Access token for Google API is missing or expired",
+                    "target": "Google API 的访问令牌缺失或已过期"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Request timeout - please try again",
+                    "target": "请求超时 - 请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to link to daily note. Check console for details.",
+                    "target": "链接到每日笔记失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Summary copied to clipboard",
+                    "target": "摘要已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to add summary to note",
+                    "target": "将摘要添加到笔记失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create/open video note. Check console for details.",
+                    "target": "创建/打开视频笔记失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI Summary already exists in this note",
+                    "target": "此笔记中已存在 AI 摘要"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Summary added to video note",
+                    "target": "摘要已添加到视频笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to add video to daily note. Check console for details.",
+                    "target": "将视频添加到每日笔记失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active note found. Please open a note first.",
+                    "target": "未找到活动笔记。请先打开一个笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ Debug mode: Using very short fetch interval!",
+                    "target": "⚠️ 调试模式：使用非常短的抓取间隔！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Liked videos have been cleared",
+                    "target": "已清除点赞的视频"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Playlist cache cleared",
+                    "target": "播放列表缓存已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "YouTube API quota exceeded. Please try again later.",
+                    "target": "YouTube API 配额已超出。请稍后再试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Authentication expired. Please refresh your login.",
+                    "target": "认证已过期。请刷新登录。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Version reset! Reload the plugin to see the intro modal.",
+                    "target": "版本已重置！重新加载插件以查看介绍弹窗。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Geulo: Please authenticate first in plugin settings.",
+                    "target": "Geulo：请先在插件设置中进行认证。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Geulo: Auto-fetching started",
+                    "target": "Geulo：自动抓取已开始"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create video note automatically. Check console for details.",
+                    "target": "自动创建视频笔记失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Open in Browser",
+                    "target": "在浏览器中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "More options",
+                    "target": "更多选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "AI Summary",
+                    "target": "AI 总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Filter by content type",
+                    "target": "按内容类型筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Filter options",
+                    "target": "筛选选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Automatic one-line summary generation after full summary, with expandable two-level view.",
+                    "target": "完整摘要后自动生成一行总结，并提供可展开的两级视图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Append AI summaries to your video notes, with context menu integration for quick access.",
+                    "target": "将 AI 总结附加到你的视频笔记，并集成到右键菜单以便快速访问。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Filter your video list to show only videos that have AI-generated notes.",
+                    "target": "筛选视频列表，仅显示包含 AI 生成笔记的视频。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No response body for streaming",
+                    "target": "流式响应没有响应体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Text completion request timed out",
+                    "target": "文本补全请求超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Rate limit exceeded. Try again later.",
+                    "target": "超过速率限制。请稍后再试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Please configure your API key in Settings > AI Features",
+                    "target": "请在“设置 > AI 功能”中配置你的 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open YouTube Liked Videos View",
+                    "target": "打开 YouTube 点赞视频视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open YouTube Playlists View",
+                    "target": "打开 YouTube 播放列表视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Feature Introduction Modal (Dev)",
+                    "target": "显示功能介绍弹窗（开发）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset Version (Dev - triggers modal on reload)",
+                    "target": "重置版本（开发 - 重新加载时触发弹窗）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Full Fetch Liked Videos",
+                    "target": "完整获取点赞视频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search by title, tags, or channel...",
+                    "target": "按标题、标签或频道搜索..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "PLDDTZzm0d6OE3op3... or full YouTube URL",
+                    "target": "PLDDTZzm0d6OE3op3... 或完整的 YouTube URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📖 Available Variables (click to expand)",
+                    "target": "📖 可用变量（点击展开）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Video Information",
+                    "target": "视频信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Confirm Unlike",
+                    "target": "确认取消点赞"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Long Video Summary Warning",
+                    "target": "长视频摘要警告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Cancel generation",
+                    "target": "取消生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add summary to video note",
+                    "target": "将摘要添加到视频笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Copy summary",
+                    "target": "复制摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Regenerate summary",
+                    "target": "重新生成摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Close summary section",
+                    "target": "关闭摘要部分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open in External Browser",
+                    "target": "在外部浏览器中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Film & Animation",
+                    "target": "电影与动画"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Autos & Vehicles",
+                    "target": "汽车与交通工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pets & Animals",
+                    "target": "宠物与动物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Short Movies",
+                    "target": "短片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Travel & Events",
+                    "target": "旅行与活动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "People & Blogs",
+                    "target": "人物与博客"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "News & Politics",
+                    "target": "新闻与政治"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Howto & Style",
+                    "target": "教程与风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Science & Technology",
+                    "target": "科学与技术"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nonprofits & Activism",
+                    "target": "非营利与公益"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Refresh videos",
+                    "target": "刷新视频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add playlist by ID",
+                    "target": "通过ID添加播放列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI Video Summaries",
+                    "target": "AI 视频摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Smart One-Liners",
+                    "target": "智能一句话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add Summary to Notes",
+                    "target": "为笔记添加摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI Note Filter",
+                    "target": "AI 笔记筛选器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
