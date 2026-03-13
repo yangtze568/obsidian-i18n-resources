@@ -1,0 +1,283 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note-navigator",
+        "version": "1.0.0",
+        "title": "Note Navigator",
+        "description": "Note Navigator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Rename Folder",
+                    "target": "重命名文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Active folder",
+                    "target": "当前文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Entire vault",
+                    "target": "整个库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Debug] Debug logging is disabled. Enable it in settings to see more debug information.",
+                    "target": "[Debug] 调试日志已禁用。请在设置中启用以查看更多调试信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Debug] === Note Navigator Debug Information ===",
+                    "target": "[Debug] === 笔记导航器调试信息 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Debug] Sorted files in the current folder:",
+                    "target": "[Debug] 当前文件夹中的排序文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Debug] === End Debug Information ===",
+                    "target": "[Debug] === 调试信息结束 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Configure hotkeys",
+                    "target": "配置快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigate through files in the entire vault or just within the active folder.",
+                    "target": "在整个库中或仅在当前文件夹内浏览文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically delete unreferenced attachments when their associated note is deleted.",
+                    "target": "当关联笔记被删除时，自动删除未引用的附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically navigate to the next file in sort order of the file-explorer after deletion. Disable to use Obsidian's default behavior.",
+                    "target": "删除后按文件资源管理器的排序顺序自动导航到下一个文件。禁用以使用 Obsidian 的默认行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a confirmation dialog before deleting files or folders.",
+                    "target": "在删除文件或文件夹之前显示确认对话框。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display a notification for each deleted file or folder.",
+                    "target": "为每个已删除的文件或文件夹显示通知。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable verbose console logging for debugging purposes.",
+                    "target": "启用详细控制台日志以便调试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reset all counters for deleted files, folders, and navigations.",
+                    "target": "重置已删除文件、文件夹和导航的所有计数器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Assign hotkeys to the plugin commands for easier use.",
+                    "target": "为插件命令分配快捷键以便更易使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-navigate after deletion",
+                    "target": "删除后自动导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parent directory traversal depth",
+                    "target": "父目录遍历深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show confirmation",
+                    "target": "显示确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show notice",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable debug logging",
+                    "target": "启用调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset statistics",
+                    "target": "重置统计信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid sort order found. Using default alphabetical sort.",
+                    "target": "发现无效的排序顺序。使用默认的字母顺序排序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No parent folder found for the current file.",
+                    "target": "未找到当前文件的父文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A file must be active to navigate.",
+                    "target": "必须有活动文件才能导航。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor to scroll.",
+                    "target": "没有可滚动的活动编辑器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error loading Note Navigator settings. Using defaults.",
+                    "target": "加载 Note Navigator 设置出错。使用默认设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error saving Note Navigator settings.",
+                    "target": "保存 Note Navigator 设置出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A file must be open in the active editor.",
+                    "target": "活动编辑器中必须打开一个文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred while navigating or deleting the file.",
+                    "target": "在导航或删除文件时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file or folder to debug sorting.",
+                    "target": "没有可用于调试排序的活动文件或文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Debug logging is disabled. Enable it in settings to see more debug information.",
+                    "target": "调试日志已禁用。请在设置中启用以查看更多调试信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Debug information logged to console. Check the developer console for details.",
+                    "target": "调试信息已记录到控制台。请查看开发者控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file or parent folder found.",
+                    "target": "未找到活动文件或父文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "promptForFileRename is not available in this version of Obsidian.",
+                    "target": "此版本的 Obsidian 不支持 promptForFileRename。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete current file and navigate to next note",
+                    "target": "删除当前文件并跳转到下一条笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigate to next file",
+                    "target": "转到下一个文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigate to previous file",
+                    "target": "转到上一个文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Log debugging messages to console",
+                    "target": "将调试消息记录到控制台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scroll past end of note",
+                    "target": "允许滚动至笔记末尾之后"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move current file and navigate to next note",
+                    "target": "移动当前文件并转到下一条笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename parent folder of current note",
+                    "target": "重命名当前笔记的父文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move parent folder and navigate to next note",
+                    "target": "移动父文件夹并转到下一条笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "support the developer",
+                    "target": "支持开发者"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
