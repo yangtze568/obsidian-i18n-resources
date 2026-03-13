@@ -1,0 +1,241 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tasks-map",
+        "version": "1.0.0",
+        "title": "Tasks Map",
+        "description": "Tasks Map Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.18.23",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制 125 fps 以上的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tasks plugin not found or API not available",
+                    "target": "未找到 Tasks 插件或 API 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing task:",
+                    "target": "处理任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete task:",
+                    "target": "删除任务失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "不支持 Intl，请使用 Intl polyfill！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙",
+                    "target": "🌐 i18next 在 Locize 的支持下维护——考虑使用托管本地化（AI、CDN、集成）为你的项目提供支持：https://locize.com 💙"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "!task.link: ",
+                    "target": "!task.link: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "!vault: ",
+                    "target": "!vault: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "!file: ",
+                    "target": "!file: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "taskLineIdx === -1: ",
+                    "target": "taskLineIdx === -1: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "!originalFile: ",
+                    "target": "!originalFile: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "!folderPath: ",
+                    "target": "!folderPath: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DEPRECATED] The `destroy` method will be unsupported in a future version. Instead use unsubscribe function returned by subscribe. Everything will be garbage-collected if store is garbage-collected.",
+                    "target": "[DEPRECATED] `destroy` 方法将在未来版本中不再受支持。请改用 subscribe 返回的 unsubscribe 函数。如果 store 被垃圾回收，所有内容也会被垃圾回收。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DEPRECATED] `project` is deprecated. Instead use `screenToFlowPosition`. There is no need to subtract the react flow bounds anymore! https://reactflow.dev/api-reference/types/react-flow-instance#screen-to-flow-position",
+                    "target": "[DEPRECATED] `project` 已弃用。请改用 `screenToFlowPosition`。不再需要减去 react flow 的边界！ https://reactflow.dev/api-reference/types/react-flow-instance#screen-to-flow-position"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Task line not found",
+                    "target": "未找到任务行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的配置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 完成后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加任何后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: 未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next 已经初始化。你只应调用 init 一次！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next 未初始化"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tasks reloaded",
+                    "target": "任务已重新加载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "React Flow attribution",
+                    "target": "React Flow 署名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Task menu",
+                    "target": "任务菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "attr(data-value) \" \"",
+                    "target": "attr(data-value) \" \""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A graph view of your tasks",
+                    "target": "任务的图形视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Een grafische weergave van je taken",
+                    "target": "任务的图形视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "任务的图形视图",
+                    "target": "任务的图形视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Nederlands (Dutch)",
+                    "target": "荷兰语（Dutch）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "简体中文 (Simplified Chinese)",
+                    "target": "简体中文（Simplified Chinese）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tasks Map",
+                    "target": "任务地图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Taken Kaart",
+                    "target": "任务地图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务地图",
+                    "target": "任务地图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type or select tag...",
+                    "target": "输入或选择标签..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tasks map",
+                    "target": "任务地图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Taken kaart",
+                    "target": "任务地图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "任务地图",
+                    "target": "任务地图"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
