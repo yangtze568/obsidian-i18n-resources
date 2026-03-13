@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-todoist-link",
+        "version": "1.0.0",
+        "title": "Todoist Link",
+        "description": "Todoist Link Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Get your api key and enter it here. From https://todoist.com/app/settings/integrations",
+                    "target": "获取你的 API Key 并在此输入。来自 https://todoist.com/app/settings/integrations"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you enable this setting then then plugin transforms the complete line to a link to Todoist.",
+                    "target": "如果启用此设置，插件会将整行转换为 Todoist 的链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Style: Transform Link to Link",
+                    "target": "样式：将链接转换为链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API Key",
+                    "target": "输入你的 API Key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Berry Red",
+                    "target": "莓红色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Olive Green",
+                    "target": "橄榄绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lime Green",
+                    "target": "青柠绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mint Green",
+                    "target": "薄荷绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sky Blue",
+                    "target": "天蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Light Blue",
+                    "target": "浅蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Todoist Project",
+                    "target": "创建 Todoist 项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Todoist Task",
+                    "target": "创建 Todoist 任务"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
