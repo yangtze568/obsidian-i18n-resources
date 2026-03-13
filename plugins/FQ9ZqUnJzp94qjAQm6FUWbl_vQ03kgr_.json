@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quick-nav",
+        "version": "1.0.0",
+        "title": "Quick Nav",
+        "description": "Quick Nav Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor up",
+                    "target": "光标上移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor down",
+                    "target": "光标下移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor left",
+                    "target": "光标左移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor right",
+                    "target": "光标右移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor page up",
+                    "target": "光标上翻页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor page down",
+                    "target": "光标下翻页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor left end",
+                    "target": "光标移到左端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor right end",
+                    "target": "光标移到右端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select cursor up",
+                    "target": "选择上移光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select cursor down",
+                    "target": "选择下移光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select cursor left",
+                    "target": "选择光标左移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select cursor right",
+                    "target": "选择光标右移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select cursor left end",
+                    "target": "选择光标左端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select cursor right end",
+                    "target": "选择光标右端"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
