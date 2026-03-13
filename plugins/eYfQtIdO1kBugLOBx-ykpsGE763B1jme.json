@@ -1,0 +1,373 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tab-selector",
+        "version": "1.0.0",
+        "title": "Tab Selector",
+        "description": "Tab Selector Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, all window's tabs is selectable. When disabled, only active window's tabs is selectable.",
+                    "target": "启用时，所有窗口的标签页都可选择。禁用时，仅活动窗口的标签页可选择。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your favorite color.",
+                    "target": "选择你喜欢的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Holding this key down keeps the modal open. When this key is released, it switches to the focused tab.",
+                    "target": "按住此键可保持模态窗口打开。释放此键时，将切换到当前焦点标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Press this key while holding down the Main modifier key moves to the previous tab.",
+                    "target": "按住 Main modifier key 的同时按下此键会移至上一个标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n\t\t\t\tWhen go to the next tab, if you want to use the same key as the Action key, choose \\u201CSub modifier key\\u201D.\n\t\t\t\tIf you want to use a different key from the Action key, choose \\u201CReverse action key\".\n\t\t\t",
+                    "target": "\n\t\t\t\t前往下一个标签页时，如果你想使用与 Action key 相同的按键，选择 \\u201C子修饰键\\u201D.\n\t\t\t\t如果你想使用不同于 Action key 的按键，选择 \\u201C反向操作键\".\n\t\t\t"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pressing the Action key while holding this key down moves to the next tab.",
+                    "target": "按住此键并按下 Action key 会移至下一个标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Press this key while holding down the Main modifier key moves to the next tab.",
+                    "target": "按住 Main modifier key 的同时按下此键会移至下一个标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, show file's aliases on button.",
+                    "target": "启用时，在按钮上显示文件的别名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, if aliases is set the file, replace the filename to aliases.",
+                    "target": "启用时，如果为文件设置了别名，则将文件名替换为别名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, show file's paths on button.",
+                    "target": "启用时，在按钮上显示文件路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, show pagination buttons on modal.",
+                    "target": "启用后，在模态框上显示分页按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, show legends on modal.",
+                    "target": "启用后，在模态框上显示图例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choice your favorite color.",
+                    "target": "选择你喜欢的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, the operation of closing tabs is enabled.",
+                    "target": "启用后，将允许关闭标签页的操作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter non-duplicate alphanumeric characters or symbols.",
+                    "target": "输入不重复的字母数字或符号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, include aliases in the search. This setting is valid when \"Show aliases\" is enabled.",
+                    "target": "启用后，在搜索中包含别名。此设置仅在启用“显示别名”时生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, include paths in the search. This setting is valid when \"Show paths\" is enabled.",
+                    "target": "启用后，在搜索中包含路径。此设置仅在启用“显示路径”时生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable multiple window",
+                    "target": "启用多窗口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color of button frame on focus",
+                    "target": "按钮获得焦点时的边框颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Main modifier key",
+                    "target": "主修饰键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Action key",
+                    "target": "动作键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose how to go to the next tab",
+                    "target": "选择前往下一个标签页的方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sub modifier key",
+                    "target": "次级修饰键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reverse action key",
+                    "target": "反向动作键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show aliases",
+                    "target": "显示别名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Replace the filename to aliases",
+                    "target": "将文件名替换为别名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show paths",
+                    "target": "显示路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show pagination buttons",
+                    "target": "显示分页按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show legends",
+                    "target": "显示图例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Characters used for button hints",
+                    "target": "用于按钮提示的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable tabs close",
+                    "target": "启用标签页关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Characters used for shortcut hints",
+                    "target": "用于快捷提示的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include aliases in the search",
+                    "target": "在搜索中包含别名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include paths in the search",
+                    "target": "在搜索中包含路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter characters",
+                    "target": "输入字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search tabs",
+                    "target": "搜索标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "For \"Go to previous/next tab\" command",
+                    "target": "用于“转到上一个/下一个标签页”命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "For \"Open tab selector\" command",
+                    "target": "用于“打开标签页选择器”命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "For \"Show tab shortcuts\" command",
+                    "target": "用于“显示标签页快捷键”命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "For \"Search tabs\" command",
+                    "target": "用于“搜索标签页”命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "How to use",
+                    "target": "使用方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "1. Configure the above settings.",
+                    "target": "1. 配置以上设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "2. Set the hotkeys to match for the following commands.",
+                    "target": "2. 为以下命令设置匹配的热键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "\"Tab Selector: Go to next tab\": ",
+                    "target": "\"Tab Selector: 转到下一个标签页\": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "\"Tab Selector: Go to previous tab\": ",
+                    "target": "\"Tab Selector: 转到上一个标签页\": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "\n\t\t\t\t\tDon't use shortcut keys reserved by the OS.\n\t\t\t\t\tOS shortcut keys take precedence and don't work properly.\n\t\t\t\t",
+                    "target": "\n\t\t\t\t\t不要使用操作系统保留的快捷键。\n\t\t\t\t\t操作系统快捷键优先级更高，可能无法正常工作。\n\t\t\t\t"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\"Tab Selector\" plugin has incorrect settings. Please review the [For \"Go to previous/next tab\" command] settings.",
+                    "target": "“Tab Selector”插件的设置不正确。请检查[用于“转到上一个/下一个标签页”命令]的设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Move focus",
+                    "target": "移动焦点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Switch pages",
+                    "target": "切换页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Switch to focused tab",
+                    "target": "切换到当前聚焦的标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Close focused tab",
+                    "target": "关闭当前聚焦的标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Quickly switch tab",
+                    "target": "快速切换标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Quickly close tab",
+                    "target": "快速关闭标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open tab selector",
+                    "target": "打开标签页选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to previous tab",
+                    "target": "转到上一个标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to next tab",
+                    "target": "转到下一个标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show tab shortcuts",
+                    "target": "显示标签页快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search tabs",
+                    "target": "搜索标签页"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
