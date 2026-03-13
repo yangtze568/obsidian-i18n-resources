@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "enhanced-annotations",
+        "version": "1.0.0",
+        "title": "Enhanced Annotations",
+        "description": "Enhanced Annotations Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "(no label)",
+                    "target": "(无标签)"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not create a block ID",
+                    "target": "无法创建块ID"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No annotations found",
+                    "target": "未找到注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "# {{note_name}}",
+                    "target": "# {{note_name}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font weight",
+                    "target": "字体粗细"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font family",
+                    "target": "字体系列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font size",
+                    "target": "字号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text opacity",
+                    "target": "文字不透明度"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
