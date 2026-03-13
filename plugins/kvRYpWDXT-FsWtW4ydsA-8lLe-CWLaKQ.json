@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "youtube-template",
+        "version": "1.0.0",
+        "title": "YouTube Template",
+        "description": "YouTube Template Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Insert (or press Enter)",
+                    "target": "插入（或按 Enter）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the folder where you want to save the notes. The default value is the root folder of your vault.",
+                    "target": "选择要保存笔记的文件夹。默认值为你的 vault 根文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on if you want to allow creation of the files those have similar files already existing in your vault.",
+                    "target": "如果希望允许创建与你的 vault 中已有类似文件的文件，请开启。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on if you want to see the debug/error messages in the console. Helpful for troubleshooting and issue reporting.",
+                    "target": "如果希望在控制台中看到调试/错误信息，请开启。对排查问题和反馈有帮助。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Google Cloud API Key",
+                    "target": "Google Cloud API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder to save the notes",
+                    "target": "保存笔记的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create folders",
+                    "target": "创建文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Allow duplicates",
+                    "target": "允许重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chapter format",
+                    "target": "章节格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hashtag format",
+                    "target": "话题标签格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "URL of the video",
+                    "target": "视频的URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的API密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please use a valid URL (should be at least 11 characters)",
+                    "target": "请使用有效的URL（至少应有11个字符）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It's a secret API key that you can get from ",
+                    "target": "这是一个你可以从以下获取的秘密API密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Google Cloud Console",
+                    "target": "Google Cloud 控制台"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
