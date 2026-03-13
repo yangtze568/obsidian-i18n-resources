@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "kv-store",
+        "version": "1.0.0",
+        "title": "KV Store",
+        "description": "KV Store Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is all your kv data. You can add, delete, and modify it here.",
+                    "target": "这是你的全部 kv 数据。你可以在这里添加、删除和修改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your kv data",
+                    "target": "你的 kv 数据"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
