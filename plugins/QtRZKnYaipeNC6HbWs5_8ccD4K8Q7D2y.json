@@ -1,0 +1,217 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ozanshare-publish",
+        "version": "1.0.0",
+        "title": "OzanShare Publish",
+        "description": "OzanShare Publish Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<h3>Related Published Files</h3>",
+                    "target": "<h3>相关已发布文件</h3>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "The plugin is only available to users, who are on Exclusive Support Level. \n                Once you are in this support level, you'll receive a token to provide below in Settings. \n                To see more details about the plugin and understand how plugin works, visit \n                <a href=\"https://ozanshare.web.app\">OzanShare Publish Web</a>",
+                    "target": "该插件仅对处于专属支持级别的用户开放。\n                一旦您达到该支持级别，您将获得一个令牌，可在下方的设置中填写。\n                要了解插件的更多详情并理解其工作方式，请访问\n                <a href=\"https://ozanshare.web.app\">OzanShare Publish Web</a>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Syntax Error in Mermaid graph",
+                    "target": "Mermaid 图表语法错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "OzanShare Publish Plugin Loaded",
+                    "target": "OzanShare Publish 插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Mermaid couldn't be loaded",
+                    "target": "Mermaid 无法加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "OzanShare Publish Unloaded",
+                    "target": "OzanShare Publish 已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Click to Verify Token",
+                    "target": "点击验证令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Click for Custom CSS",
+                    "target": "点击设置自定义 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel Support Payment",
+                    "target": "取消支持付款"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on if you want Ribbon Icon for activating the shared pages summary.",
+                    "target": "如果您希望使用功能区图标来激活共享页面摘要，请开启。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn this option on in case you want to include frontmatter keys and value to be included in your published page.",
+                    "target": "如果您希望在已发布页面中包含 frontmatter 的键和值，请开启此选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the token, which is provided by OzanShare, so that your notes can be published and linked to you",
+                    "target": "请输入由 OzanShare 提供的令牌，以便您的笔记可以发布并与您关联。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You need to verify the token before starting to publish",
+                    "target": "开始发布前需要验证令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can assign custom CSS to your account and will be applicable to all of your published notes",
+                    "target": "您可以为账户指定自定义 CSS，并将应用到所有已发布的笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click here to cancel monthly scheduled support payment on Stripe. Your access to OzanShare won't be renewed once the period you paid for ends.",
+                    "target": "点击此处取消在 Stripe 上的每月定期支持付款。您已付费的周期结束后，将不会续订对 OzanShare 的访问权限。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ribbon Icon",
+                    "target": "功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include YAML in Published Page",
+                    "target": "在已发布页面中包含 YAML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verify Token",
+                    "target": "验证令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom CSS",
+                    "target": "自定义 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cancel Support Payment",
+                    "target": "取消支持付款"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "View Published Note",
+                    "target": "查看已发布笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy Publish URL",
+                    "target": "复制发布链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Unpublish Note",
+                    "target": "取消发布笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Click here to verify token",
+                    "target": "点击此处验证令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Click here to open Custom CSS",
+                    "target": "点击此处打开自定义 CSS"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "URL is copied to clipboard",
+                    "target": "链接已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "255, 23, 68",
+                    "target": "255, 23, 68"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "0, 191, 165",
+                    "target": "0, 191, 165"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "0, 184, 212",
+                    "target": "0, 184, 212"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open OzanShare Publish Leaf",
+                    "target": "打开 OzanShare 发布叶子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "0, 200, 83",
+                    "target": "0, 200, 83"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "0, 176, 255",
+                    "target": "0, 176, 255"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "OzanShare Publish",
+                    "target": "OzanShare 发布"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
