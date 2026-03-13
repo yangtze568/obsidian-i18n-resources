@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-auto-pair-chinese-symbol",
+        "version": "1.0.0",
+        "title": "Auto pair chinese symbol",
+        "description": "Auto pair chinese symbol Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.9.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "replaceRange",
+                    "source": "“”",
+                    "target": "“”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许选中文字后在两边插入符号",
+                    "target": "允许选中文字后在两边插入符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许对下单引号和下双引号向前自动补齐",
+                    "target": "允许对下单引号和下双引号向前自动补齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "中文符号自动补齐",
+                    "target": "中文符号自动补齐"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
