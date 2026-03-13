@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ink-player",
+        "version": "1.0.0",
+        "title": "Ink Player",
+        "description": "Ink Player Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要 0 到 125 之间的正整数，不支持强制帧率高于 125 fps"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Warning: trying to write a null value",
+                    "target": "警告：尝试写入空值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Warning: trying to write a null string",
+                    "target": "警告：尝试写入空字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "State loaded from storage couldn't be migrated since no migrate function was provided",
+                    "target": "由于未提供迁移函数，无法迁移从存储加载的状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable executing regular inline Dataview queries.",
+                    "target": "启用或禁用执行常规的内联 Dataview 查询。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Audio",
+                    "target": "使用音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Image",
+                    "target": "使用图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open link in new tab",
+                    "target": "在新标签页中打开链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scroll after choice",
+                    "target": "选择后滚动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fade for line",
+                    "target": "行淡入淡出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CD Button",
+                    "target": "CD 按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Button",
+                    "target": "自动按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Save",
+                    "target": "自动保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: Version of ink used to build story doesn't match current version of engine. Non-critical, but recommend synchronising.",
+                    "target": "警告：用于构建故事的 ink 版本与当前引擎版本不匹配。虽非关键问题，但建议同步。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
