@@ -1,0 +1,151 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "api-request",
+        "version": "1.0.0",
+        "title": "APIRequest",
+        "description": "APIRequest Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "No requests saved",
+                    "target": "未保存任何请求"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No active Markdown view or file found.",
+                    "target": "未找到活动的 Markdown 视图或文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading: api-request",
+                    "target": "正在加载：api-request"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading: api-request",
+                    "target": "正在卸载：api-request"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Variable",
+                    "target": "添加变量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to show when a request is disabled",
+                    "target": "请求被禁用时显示的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show clickable status bar with request counter and navigation",
+                    "target": "显示可点击的状态栏，包含请求计数和导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color for active requests (not disabled or with auto-update)",
+                    "target": "活动请求的颜色（未禁用或启用自动更新）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color for disabled requests",
+                    "target": "已禁用请求的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text when request is Disabled",
+                    "target": "请求被禁用时的文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable interactive status bar",
+                    "target": "启用交互式状态栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Active request color",
+                    "target": "活动请求颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inactive request color",
+                    "target": "非活动请求颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "This request is disabled",
+                    "target": "此请求已禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "No req blocks found",
+                    "target": "未找到请求块"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File modified",
+                    "target": "文件已修改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active markdown view",
+                    "target": "没有活动的 Markdown 视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Global variables",
+                    "target": "全局变量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Global Variables",
+                    "target": "管理全局变量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Saved API Requests",
+                    "target": "已保存的 API 请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error: URL not found",
+                    "target": "错误：未找到 URL"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
