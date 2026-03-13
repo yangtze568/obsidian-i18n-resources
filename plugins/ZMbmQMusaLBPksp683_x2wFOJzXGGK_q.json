@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-title-index",
+        "version": "1.0.0",
+        "title": "obsidian-title-index",
+        "description": "obsidian-title-index Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
