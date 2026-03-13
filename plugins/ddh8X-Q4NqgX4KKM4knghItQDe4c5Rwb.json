@@ -1,0 +1,313 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "finnish-spellcheck",
+        "version": "1.0.0",
+        "title": "Finnish Spellcheck",
+        "description": "Finnish Spellcheck Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Voikko failed: ",
+                    "target": "Voikko失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LazyFiles on gzip forces download of the whole file when length is accessed",
+                    "target": "gzip上的LazyFiles在访问length时会强制下载整个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Voikko is ready!",
+                    "target": "Voikko已就绪！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found the following words to be incorrect: ",
+                    "target": "发现以下单词不正确："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found the following grammatical errors: ",
+                    "target": "发现以下语法错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Check current document",
+                    "target": "检查当前文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clear suggestions",
+                    "target": "清除建议"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting voikko!",
+                    "target": "正在启动voikko！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Voikko started!",
+                    "target": "voikko已启动！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to start voikko!",
+                    "target": "无法启动 voikko！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Voikko has failed to start. Try disabling and reenabling it from the community plugins page.",
+                    "target": "Voikko 启动失败。请在社区插件页面将其禁用后再重新启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about incorrect spelling of word(s).",
+                    "target": "对单词拼写错误发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about extra space between words.",
+                    "target": "对单词之间多余的空格发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about space before punctuation marks.",
+                    "target": "对标点前的空格发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about unnecessary or extra commas.",
+                    "target": "对不必要或多余的逗号发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about invalid characters at the beginning of a sentence.",
+                    "target": "对句首无效字符发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the need to change the first letter of a sentence to lower case.",
+                    "target": "对需要将句首字母改为小写的情况发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the need to change the first letter of a sentence to upper case.",
+                    "target": "对需要将句首字母改为大写的情况发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the absence of terminating punctuation at the end of a sentence.",
+                    "target": "对句末缺少终止标点的情况发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about invalid punctuation at the end of a quotation and suggest correction.",
+                    "target": "警告引号末尾的无效标点并建议更正。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the use of a foreign quotation mark and suggest correction.",
+                    "target": "警告使用外文引号并建议更正。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about misplaced closing parenthesis and suggest correction.",
+                    "target": "警告右括号位置错误并建议更正。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about mismatched negative and verb and suggest correction.",
+                    "target": "警告否定词与动词不匹配并建议更正。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the need to use infinitive ending with 'a/ä' as the second verb.",
+                    "target": "警告需要将以“a/ä”结尾的不定式用作第二个动词。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the need to use infinitive ending with 'maan/mään' as the second verb.",
+                    "target": "警告需要将以“maan/mään”结尾的不定式用作第二个动词。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the sentence ending with a conjunction.",
+                    "target": "警告句子以连词结尾。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the absence of one or more main verbs in a sentence.",
+                    "target": "警告句子中缺少一个或多个主要动词。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warn about the presence of unnecessary verbs or missing commas in a sentence.",
+                    "target": "警告句子中存在多余动词或缺少逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The word is misspelled.",
+                    "target": "该单词拼写错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add to personal dictionary",
+                    "target": "添加到个人词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ignore suggestion",
+                    "target": "忽略建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What should be classified as an error.",
+                    "target": "哪些应被归类为错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Incorrect spelling of word(s)",
+                    "target": "单词拼写错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Extra space",
+                    "target": "多余空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Space before punctuation",
+                    "target": "标点前有空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Invalid characters before sentence start",
+                    "target": "句首前有无效字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Consider changing first letter to lower case",
+                    "target": "考虑将首字母改为小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Change first letter to upper case",
+                    "target": "将首字母改为大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Terminating punctuation is missing",
+                    "target": "缺少结束标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Invalid punctuation at the end of quotation",
+                    "target": "引号末尾标点不正确"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Foreign quotation mark",
+                    "target": "外来引号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Misplaced closing parenthesis",
+                    "target": "右括号位置错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mismatched negative and verb",
+                    "target": "否定词与动词不匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "You should use infinitive ending with a/ä as the second verb",
+                    "target": "第二个动词应使用以 a/ä 结尾的不定式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "You should use infinitive ending with maan/mään as the second verb",
+                    "target": "第二个动词应使用以 maan/mään 结尾的不定式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sentence should not end with a conjunction",
+                    "target": "句子不应以连词结尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sentence should contain one or more main verbs",
+                    "target": "句子应包含一个或多个主要动词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Check if sentence contains unnecessary verbs or if a comma is missing",
+                    "target": "检查句子是否包含不必要的动词或是否缺少逗号"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
