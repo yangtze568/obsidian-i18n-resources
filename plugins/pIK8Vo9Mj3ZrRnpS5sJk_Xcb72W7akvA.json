@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "table-checkbox-renderer",
+        "version": "1.0.0",
+        "title": "Table Checkbox Renderer",
+        "description": "Table Checkbox Renderer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
