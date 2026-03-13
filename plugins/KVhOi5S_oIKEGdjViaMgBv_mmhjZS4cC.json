@@ -1,0 +1,1873 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "macros",
+        "version": "1.0.0",
+        "title": "Macros",
+        "description": "Macros Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "🔍",
+                    "target": "🔍"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "✏️",
+                    "target": "✏️"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Requesting camera access...",
+                    "target": "正在请求相机访问权限..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "⏳ Initializing...",
+                    "target": "⏳ 正在初始化..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📷 Start Camera Scan",
+                    "target": "📷 开始相机扫描"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Point camera at barcode... Hold steady for best results.",
+                    "target": "将相机对准条形码...保持稳定以获得最佳效果。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Camera scanning stopped. Choose another method or try again.",
+                    "target": "相机扫描已停止。请选择其他方式或重试。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "⏳ Scanning...",
+                    "target": "⏳ 正在扫描..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No barcode found in image. Try a different image or use manual entry.",
+                    "target": "图像中未找到条形码。请尝试其他图像或使用手动输入。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "🖼️ Upload Image",
+                    "target": "🖼️ 上传图片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "⏹️ Stop Scanning",
+                    "target": "⏹️ 停止扫描"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "No camera detected on this device",
+                    "target": "此设备未检测到相机"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error extracting serving size:",
+                    "target": "提取份量时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error initializing I18n:",
+                    "target": "初始化 I18n 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching food data:",
+                    "target": "获取食物数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "got interrupted by new loading request",
+                    "target": "被新的加载请求中断"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Trying to play video that has ended.",
+                    "target": "正在尝试播放已结束的视频。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Camera initialization failed:",
+                    "target": "相机初始化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load ZXing library:",
+                    "target": "加载 ZXing 库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No suitable decode method found on codeReader",
+                    "target": "在 codeReader 上未找到合适的解码方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during image scanning:",
+                    "target": "图像扫描时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image scan setup error:",
+                    "target": "图像扫描设置错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Barcode scan error:",
+                    "target": "条形码扫描错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Barcode search error:",
+                    "target": "条形码搜索错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving food file:",
+                    "target": "保存食物文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking file existence:",
+                    "target": "检查文件是否存在时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening live search:",
+                    "target": "打开实时搜索时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during FatSecret test connection:",
+                    "target": "FatSecret 测试连接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during USDA test connection:",
+                    "target": "USDA 测试连接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during Open Food Facts test connection:",
+                    "target": "Open Food Facts 测试连接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error initializing chart preview:",
+                    "target": "初始化图表预览时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot find preview canvas",
+                    "target": "无法找到预览画布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating preview chart:",
+                    "target": "创建预览图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error initializing button state:",
+                    "target": "初始化按钮状态时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error setting collapse state:",
+                    "target": "设置折叠状态时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error setting expand state:",
+                    "target": "设置展开状态时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating dashboard:",
+                    "target": "创建仪表板时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving comment:",
+                    "target": "保存评论时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving timestamp:",
+                    "target": "保存时间戳时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving tolerance:",
+                    "target": "保存容差时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating comment:",
+                    "target": "更新评论时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating timestamp:",
+                    "target": "更新时间戳时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating tolerance:",
+                    "target": "更新容差时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating comment target:",
+                    "target": "创建评论目标时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during delete:",
+                    "target": "删除时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating quantity:",
+                    "target": "更新数量时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing table:",
+                    "target": "刷新表格时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating macro line:",
+                    "target": "更新宏量营养素行时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering chart:",
+                    "target": "渲染图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating chart:",
+                    "target": "创建图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error destroying chart:",
+                    "target": "销毁图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in forceRefreshAllRenderers:",
+                    "target": "forceRefreshAllRenderers 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening food entry selection:",
+                    "target": "打开食物条目选择时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening live search modal:",
+                    "target": "打开实时搜索模态框时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening manual entry modal:",
+                    "target": "打开手动录入模态框时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating food file:",
+                    "target": "创建食物文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error extracting nutritional data:",
+                    "target": "提取营养数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during queued update (or update timed out):",
+                    "target": "队列更新期间出错（或更新超时）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating macros code block:",
+                    "target": "更新宏量营养素代码块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating global macro table from content:",
+                    "target": "从内容更新全局宏量营养素表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during complete refresh:",
+                    "target": "完全刷新期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing macrospc containers:",
+                    "target": "刷新 macrospc 容器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating macroscalc renderer:",
+                    "target": "更新 macroscalc 渲染器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Chart.js not available when creating pie chart",
+                    "target": "创建饼图时 Chart.js 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating pie chart:",
+                    "target": "创建饼图时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "drawMacrospc error",
+                    "target": "drawMacrospc 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No canvas context provided to createPieChart",
+                    "target": "未提供画布上下文给 createPieChart"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No data provided to createPieChart",
+                    "target": "未提供数据给 createPieChart"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Labels array length does not match data array length",
+                    "target": "标签数组长度与数据数组长度不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Colors array length does not match data array length",
+                    "target": "颜色数组长度与数据数组长度不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Chart.js not available in createPieChart",
+                    "target": "createPieChart 中 Chart.js 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Total value is zero or negative, cannot create pie chart",
+                    "target": "总值为零或负数，无法创建饼图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during Chart.js instantiation:",
+                    "target": "Chart.js 实例化期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Chart creation returned null/undefined",
+                    "target": "图表创建返回了 null/undefined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected error in createPieChart:",
+                    "target": "createPieChart 中发生意外错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in redrawAllMacrospc:",
+                    "target": "在 redrawAllMacrospc 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in redrawAllMacrocalc:",
+                    "target": "在 redrawAllMacrocalc 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during ChartManager cleanup:",
+                    "target": "ChartManager 清理期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling file rename:",
+                    "target": "处理文件重命名时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error performing rename operation:",
+                    "target": "执行重命名操作时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reverting file rename:",
+                    "target": "回滚文件重命名时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Testing OFF connection with:",
+                    "target": "正在测试 OFF 连接，使用："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "OFF test results:",
+                    "target": "OFF 测试结果："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "First result details:",
+                    "target": "第一个结果详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create backup before modifying files",
+                    "target": "修改文件前创建备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "尝试在未启用 'Filler' 插件的情况下使用 'fill' 选项。请导入并注册 'Filler' 插件，并确保在选项中未被禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Trying to play video that is already playing.",
+                    "target": "尝试播放已在播放的视频。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "It was not possible to play the video.",
+                    "target": "无法播放该视频。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "RSS Expanded reader IS NOT ready for production yet! use at your own risk.",
+                    "target": "RSS Expanded reader 尚未可用于生产环境！使用风险自担。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "addBinaryShift on SimpleToken, this simply returns a copy of this token",
+                    "target": "在 SimpleToken 上调用 addBinaryShift，这只会返回该 token 的副本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Your browser may be not fully compatible with WebRTC and/or ImageCapture specs. Torch will not be available.",
+                    "target": "您的浏览器可能与 WebRTC 和/或 ImageCapture 规范不完全兼容。手电筒将不可用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a barcode",
+                    "target": "请输入条形码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid barcode (8-14 digits)",
+                    "target": "请输入有效的条形码（8-14 位数字）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Warning: Barcode has invalid checksum, but searching anyway...",
+                    "target": "警告：条形码校验和无效，但仍将继续搜索..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Plugin context not available for barcode scanning",
+                    "target": "条形码扫描的插件上下文不可用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Plugin context not available for barcode search",
+                    "target": "条形码搜索的插件上下文不可用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a file name.",
+                    "target": "请输入文件名。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid serving size greater than 0.",
+                    "target": "请输入大于 0 的有效份量。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Update already in progress, please wait...",
+                    "target": "更新已在进行中，请稍候..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Forcing complete reload of all macros data...",
+                    "target": "正在强制完全重新加载所有宏量营养数据..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reload complete!",
+                    "target": "重新加载完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to open food entry selection. Please try again.",
+                    "target": "无法打开食物条目选择。请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to open live search. Please try again.",
+                    "target": "无法打开实时搜索。请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to open manual entry. Please try again.",
+                    "target": "无法打开手动输入。请重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Scan barcode",
+                    "target": "扫描条形码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Quick presets for different dietary approaches and official recommendations",
+                    "target": "适用于不同饮食方式和官方建议的快速预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Track foods that cause adverse reactions or intolerances. These will be highlighted in your macro tables with visual indicators.",
+                    "target": "跟踪会引起不良反应或不耐受的食物。这些将在你的宏量表中以视觉指示高亮显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configure food database APIs to enable search functionality. You can use one or multiple sources.",
+                    "target": "配置食物数据库 API 以启用搜索功能。你可以使用一个或多个来源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If you find this plugin helpful, consider supporting its development!",
+                    "target": "如果你觉得这个插件有帮助，请考虑支持其开发！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default serving is {defaultServing}g. Enter a custom serving size in grams:",
+                    "target": "默认份量为 {defaultServing}g。请输入自定义的克数份量："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Calculate nutrition totals for selected macro tables.",
+                    "target": "计算所选宏量表的营养总计。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose which metrics to display in macroscalc dashboards. Changes apply globally to all macroscalc blocks.",
+                    "target": "选择在 macroscalc 仪表板中显示哪些指标。更改将全局应用于所有 macroscalc 区块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show total and average values for the selected time period",
+                    "target": "显示所选时间段的总计和平均值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show the percentage breakdown of calories from each macronutrient",
+                    "target": "显示各宏量营养素的热量占比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show rolling averages and trends over time",
+                    "target": "显示滚动平均值和随时间的趋势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show the highest and lowest values in the dataset",
+                    "target": "显示数据集中的最高值和最低值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Track how well you're meeting your nutrition targets",
+                    "target": "跟踪你达成营养目标的情况"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Presets rápidos para diferentes enfoques dietéticos y recomendaciones oficiales",
+                    "target": "适用于不同饮食方式和官方建议的快速预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Crea plantillas de comidas reutilizables que se pueden añadir rápidamente a tu seguimiento de macros.",
+                    "target": "创建可重复使用的餐食模板，可快速添加到你的宏量追踪中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Rastrea alimentos que causan reacciones adversas o intolerancias. Estos se resaltarán en tus tablas de macros con indicadores visuales.",
+                    "target": "跟踪会引起不良反应或不耐受的食物。这些将在你的宏量表中以视觉指示高亮显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configura las APIs de bases de datos de alimentos para habilitar la funcionalidad de búsqueda. Puedes usar una o múltiples fuentes.",
+                    "target": "配置食物数据库 API 以启用搜索功能。你可以使用一个或多个来源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "¡Si encuentras útil este plugin, considera apoyar su desarrollo!",
+                    "target": "如果你觉得这个插件有帮助，请考虑支持其开发！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Elige cómo te gustaría añadir tu alimento:",
+                    "target": "选择你想如何添加你的食物："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Introduce la información nutricional de tu alimento:",
+                    "target": "输入你的食物的营养信息："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "La porción por defecto es {defaultServing}g. Introduce un tamaño de porción personalizado en gramos:",
+                    "target": "默认份量为 {defaultServing}g。请输入自定义的克数份量："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Por favor ingresa un nombre para este alimento:",
+                    "target": "请为此食物输入一个名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dale un nombre a tu plantilla de comida, luego busca y selecciona alimentos para incluir en ella.",
+                    "target": "为你的餐食模板命名，然后搜索并选择要包含的食物。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Busca y selecciona plantillas de comidas o alimentos individuales para añadir a tu tabla de macros.",
+                    "target": "搜索并选择餐食模板或单个食物，添加到你的宏表格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Calcular totales nutricionales para tablas de macros seleccionadas.",
+                    "target": "为所选宏表格计算营养总量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Elige qué métricas mostrar en los paneles macroscalc. Los cambios se aplican globalmente a todos los bloques macroscalc.",
+                    "target": "选择要在 macroscalc 面板中显示的指标。更改会全局应用到所有 macroscalc 块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mostrar valores totales y promedio para el período seleccionado",
+                    "target": "显示选定时间段的总计和平均值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mostrar el desglose porcentual de calorías de cada macronutriente",
+                    "target": "显示每种宏量营养素的热量百分比分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mostrar los valores más altos y más bajos en el conjunto de datos",
+                    "target": "显示数据集中最高值和最低值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Seguir qué tan bien estás cumpliendo tus objetivos nutricionales",
+                    "target": "跟踪你达成营养目标的情况"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "针对不同饮食方法和官方建议的快速预设",
+                    "target": "针对不同饮食方法和官方建议的快速预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "创建可复用的餐食模板，用于快速添加至你的宏营养记录",
+                    "target": "创建可复用的餐食模板，用于快速添加至你的宏营养记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "追踪引起不良反应或不耐受的食物。这些食物将在你的宏量表中用视觉指示器突出显示。",
+                    "target": "追踪引起不良反应或不耐受的食物。这些食物将在你的宏量表中用视觉指示器突出显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "配置食物数据库 API 以启用搜索功能。你可以使用一个或多个数据源。",
+                    "target": "配置食物数据库 API 以启用搜索功能。你可以使用一个或多个数据源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "如果你觉得这个插件有帮助，请考虑支持其开发！",
+                    "target": "如果你觉得这个插件有帮助，请考虑支持其开发！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "请选择添加食物的方式：",
+                    "target": "请选择添加食物的方式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "请输入该食物的营养信息：",
+                    "target": "请输入该食物的营养信息："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "默认份量为 {defaultServing}g。请输入自定义克数：",
+                    "target": "默认份量为 {defaultServing}g。请输入自定义克数："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "请为此食物输入一个名称：",
+                    "target": "请为此食物输入一个名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "为你的餐食模板命名，然后搜索并选择要包含的食物。",
+                    "target": "为你的餐食模板命名，然后搜索并选择要包含的食物。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "搜索并选择要包含在此模板中的食物。可为每项自定义份量。",
+                    "target": "搜索并选择要包含在此模板中的食物。可为每项自定义份量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "搜索并选择餐食模板或单个食物，添加到你的宏表格。",
+                    "target": "搜索并选择餐食模板或单个食物，添加到你的宏表格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "为所选宏表格计算营养总量。",
+                    "target": "为所选宏表格计算营养总量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "选择要在宏计算仪表板中显示的指标。更改会全局应用到所有宏计算块。",
+                    "target": "选择要在宏计算仪表板中显示的指标。更改会全局应用到所有宏计算块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "显示选定时间段的总计和平均值",
+                    "target": "显示选定时间段的总计和平均值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "显示每种宏量营养素的热量百分比分布",
+                    "target": "显示每种宏量营养素的热量百分比分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "显示滚动平均值和时间趋势",
+                    "target": "显示滚动平均值和时间趋势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "显示数据集中的最高值和最低值",
+                    "target": "显示数据集中的最高值和最低值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "追踪你达成营养目标的情况",
+                    "target": "追踪你达成营养目标的情况"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "配置在宏计算视图中显示的视觉元素",
+                    "target": "配置在宏计算视图中显示的视觉元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Unable to render macro chart. Please reload the page.",
+                    "target": "无法渲染宏图表。请刷新页面。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Error during rename operation: {error}",
+                    "target": "重命名操作出错：{error}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No se puede renderizar el gráfico de macros. Por favor recarga la página.",
+                    "target": "无法渲染宏图表。请刷新页面。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Error durante la operación de renombrado: {error}",
+                    "target": "重命名操作出错：{error}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "无法渲染宏图表，请刷新页面。",
+                    "target": "无法渲染宏图表，请刷新页面。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "重命名操作出错：{error}",
+                    "target": "重命名操作出错：{error}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Media devices API not supported in this environment",
+                    "target": "此环境不支持媒体设备 API"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Rename Tracking",
+                    "target": "重命名追踪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Seguimiento de Renombrado",
+                    "target": "重命名追踪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "重命名跟踪",
+                    "target": "重命名跟踪"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "Información",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "💡 Consejo: Selecciona una plantilla arriba para configurar rápidamente tus objetivos diarios, luego ajusta los valores individuales según sea necesario. Las plantillas se basan en el porcentaje de calorías totales y en las pautas dietéticas establecidas.",
+                    "target": "💡 提示：在上方选择一个模板以快速设置每日目标，然后根据需要调整各项数值。模板基于总热量的百分比和既定的饮食指南。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "信息",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "💡 提示：在上方选择一个模板以快速设置每日目标，然后根据需要调整各项数值。模板基于总热量的百分比和既定的饮食指南。",
+                    "target": "💡 提示：在上方选择一个模板以快速设置每日目标，然后根据需要调整各项数值。模板基于总热量的百分比和既定的饮食指南。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "File Name:",
+                    "target": "文件名："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Nombre del Archivo:",
+                    "target": "文件名："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "文件名：",
+                    "target": "文件名："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Totals & Averages",
+                    "target": "总计与平均值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Macro Ratios",
+                    "target": "宏量营养素比例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Adherence & Streaks",
+                    "target": "达标情况与连续记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display Options",
+                    "target": "显示选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Totales y Promedios",
+                    "target": "总计与平均值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Proporciones de Macros",
+                    "target": "宏量配比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Adherencia y Rachas",
+                    "target": "依从性与连续记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opciones de Visualización",
+                    "target": "显示选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "总计与平均值",
+                    "target": "总计与平均值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "宏量配比",
+                    "target": "宏量配比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "趋势",
+                    "target": "趋势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "极值",
+                    "target": "极值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "依从性与连续记录",
+                    "target": "依从性与连续记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示选项",
+                    "target": "显示选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chinese Simplified",
+                    "target": "简体中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chinese Traditional",
+                    "target": "繁体中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Direct image scan",
+                    "target": "直接图像扫描"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Canvas 1:1",
+                    "target": "画布 1:1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Canvas 2x scale",
+                    "target": "画布 2x 缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Canvas 0.5x scale",
+                    "target": "画布 0.5x 缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "High contrast",
+                    "target": "高对比度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brightness boost",
+                    "target": "亮度增强"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Binary threshold",
+                    "target": "二值化阈值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Food Facts",
+                    "target": "Open Food Facts"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force reload all macros",
+                    "target": "强制重新加载所有宏量营养素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search food databases (Live Search)",
+                    "target": "搜索食物数据库（实时搜索）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle debug mode",
+                    "target": "切换调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "page",
+                    "source": "Página",
+                    "target": "页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Start typing to search (e.g., Apple)",
+                    "target": "开始输入以搜索（例如：Apple）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter food name...",
+                    "target": "输入食物名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Comienza a escribir para buscar (ej. Manzana)",
+                    "target": "开始输入以搜索（例如：Manzana）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Ingresa el nombre del alimento...",
+                    "target": "输入食物名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入关键字以搜索，仅支持英文（如：Apple）",
+                    "target": "输入关键字以搜索，仅支持英文（如：Apple）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入食物名称...",
+                    "target": "输入食物名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., 1234567890123",
+                    "target": "例如：1234567890123"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., Chicken Breast",
+                    "target": "例如：Chicken Breast"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Successfully updated {count} files: {oldName} → {newName}",
+                    "target": "成功更新 {count} 个文件：{oldName} → {newName}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Éxito",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Se actualizaron exitosamente {count} archivos: {oldName} → {newName}",
+                    "target": "成功更新 {count} 个文件：{oldName} → {newName}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功更新 {count} 个文件：{oldName} → {newName}",
+                    "target": "成功更新 {count} 个文件：{oldName} → {newName}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Rename \"{oldName}\" to \"{newName}\" in macro references",
+                    "target": "在宏引用中将“{oldName}”重命名为“{newName}”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Renombrar \"{oldName}\" a \"{newName}\" en referencias de macros",
+                    "target": "在宏引用中将“{oldName}”重命名为“{newName}”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "将宏引用中的 \"{oldName}\" 重命名为 \"{newName}\"",
+                    "target": "将宏引用中的 \"{oldName}\" 重命名为 \"{newName}\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔍",
+                    "target": "🔍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Total for meal",
+                    "target": "本餐总计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Scan Barcode",
+                    "target": "扫描条形码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📱 Camera permission may be required.",
+                    "target": "📱 可能需要相机权限。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose a scanning method below",
+                    "target": "选择以下扫描方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Camera access issue detected",
+                    "target": "⚠️ 检测到相机访问问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Troubleshooting steps:",
+                    "target": "故障排除步骤："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Check Windows Privacy Settings (Camera permissions)",
+                    "target": "检查 Windows 隐私设置（相机权限）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Restart Obsidian",
+                    "target": "重新启动 Obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Try using \"Upload Image\" instead",
+                    "target": "请改用“上传图片”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Check if other apps can access your camera",
+                    "target": "检查其他应用是否可以访问你的相机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ No camera detected",
+                    "target": "⚠️ 未检测到相机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🖼️ Upload Image",
+                    "target": "🖼️ 上传图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✏️ Enter Manually",
+                    "target": "✏️ 手动输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter Barcode Manually",
+                    "target": "手动输入条形码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter the numbers from the barcode (EAN/UPC codes are typically 8-13 digits):",
+                    "target": "输入条形码上的数字（EAN/UPC 通常为 8-13 位）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "High Quality",
+                    "target": "高质量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Medium Quality",
+                    "target": "中等质量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File Name:",
+                    "target": "文件名："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default Serving Size (grams):",
+                    "target": "默认份量（克）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default Serving Size (grams)",
+                    "target": "默认份量（克）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Optional: Set a custom default serving size for when you add this food to your macros. If not set, it will use the serving size above.",
+                    "target": "可选：为将此食物添加到你的宏量营养中时设置自定义默认份量。未设置则使用上述份量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⋮⋮",
+                    "target": "⋮⋮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rename tracking uses the Storage Folder configured in the General tab.",
+                    "target": "重命名追踪使用在“常规”选项卡中配置的存储文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ID:",
+                    "target": "ID："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️",
+                    "target": "⚠️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💬",
+                    "target": "💬"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚙️",
+                    "target": "⚙️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Table ID (Date)",
+                    "target": "表格 ID（日期）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Macros Settings",
+                    "target": "宏量营养设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Daily nutrition targets",
+                    "target": "每日营养目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pie chart customization",
+                    "target": "饼图自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Food Tolerances & Intolerances",
+                    "target": "食物耐受与不耐受"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "API Configuration",
+                    "target": "API 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Developer mode",
+                    "target": "开发者模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "☕ Support the Plugin",
+                    "target": "☕ 支持插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Search for food",
+                    "target": "搜索食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Manual Food Entry",
+                    "target": "手动添加食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Custom serving size for {foodName}",
+                    "target": "{foodName} 的自定义份量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Today's Macros",
+                    "target": "今日宏量营养素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Macro Calculator",
+                    "target": "宏量营养素计算器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configure Metrics",
+                    "target": "配置指标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rename Food References",
+                    "target": "重命名食物引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configuración de Macros",
+                    "target": "宏量营养素配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Objetivos nutricionales diarios",
+                    "target": "每日营养目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Plantillas de Macros",
+                    "target": "宏量营养素模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Personalización de gráfico circular",
+                    "target": "饼图自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Plantillas de comidas",
+                    "target": "餐食模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tolerancias e Intolerancias Alimentarias",
+                    "target": "食物耐受与不耐受"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configuración de API",
+                    "target": "API 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Modo desarrollador",
+                    "target": "开发者模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "☕ Apoya el Plugin",
+                    "target": "☕ 支持插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Buscar alimento",
+                    "target": "搜索食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Añadir Alimento",
+                    "target": "添加食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Entrada Manual de Alimento",
+                    "target": "手动添加食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tamaño de porción personalizado para {foodName}",
+                    "target": "{foodName} 的自定义份量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Guardar Alimento",
+                    "target": "保存食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Crear Nueva Plantilla de Comida",
+                    "target": "创建新的餐食模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Editar Plantilla de Comida: \"{mealName}\"",
+                    "target": "编辑餐食模板：\"{mealName}\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Macros de Hoy",
+                    "target": "今日宏营养素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Calculadora de Macros",
+                    "target": "宏营养素计算器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Configurar Métricas",
+                    "target": "设置指标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Renombrar Referencias de Alimentos",
+                    "target": "重命名食物引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "宏营养素设置（三大营养素）",
+                    "target": "宏营养素设置（三大营养素）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "存储",
+                    "target": "存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "每日营养目标",
+                    "target": "每日营养目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "宏量模板",
+                    "target": "宏量模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "显示",
+                    "target": "显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "饼图自定义",
+                    "target": "饼图自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "餐食模板",
+                    "target": "餐食模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "食物耐受性与不耐受",
+                    "target": "食物耐受性与不耐受"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "API 配置",
+                    "target": "API 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "开发者模式",
+                    "target": "开发者模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "☕ 支持插件",
+                    "target": "☕ 支持插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "搜索食物",
+                    "target": "搜索食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "添加食物",
+                    "target": "添加食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "手动录入食物",
+                    "target": "手动录入食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "{foodName} 的自定义份量",
+                    "target": "{foodName} 的自定义份量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "保存食物",
+                    "target": "保存食物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "创建新餐食模板",
+                    "target": "创建新餐食模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "编辑餐食模板：\"{mealName}\"",
+                    "target": "编辑餐食模板：\"{mealName}\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "添加项目到宏营养表",
+                    "target": "添加项目到宏营养表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "今日宏营养素",
+                    "target": "今日宏营养素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "宏营养素计算器",
+                    "target": "宏营养素计算器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "配置指标",
+                    "target": "配置指标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "重命名食物引用",
+                    "target": "重命名食物引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Foundation data is the most reliable and comprehensive USDA data",
+                    "target": "Foundation 数据是最可靠、最全面的 USDA 数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "High quality Open Food Facts data",
+                    "target": "高质量的 Open Food Facts 数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Medium quality Open Food Facts data",
+                    "target": "中等质量的 Open Food Facts 数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nutri-Score nutrition grade",
+                    "target": "Nutri-Score 营养等级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "NOVA food processing classification",
+                    "target": "NOVA 食品加工分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "警告",
+                    "target": "警告"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
