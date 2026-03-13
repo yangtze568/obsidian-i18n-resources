@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "aosr",
+        "version": "1.0.0",
+        "title": "Aosr",
+        "description": "Aosr Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "🏷",
+                    "target": "🏷"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `fontSize` is required to be a number.",
+                    "target": "MUI：`fontSize` 必须是一个数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `htmlFontSize` is required to be a number.",
+                    "target": "MUI：`htmlFontSize` 必须是一个数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"props\" must be a string or Array.",
+                    "target": "MUI：参数 \"props\" 必须是字符串或数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"easing\" must be a string.",
+                    "target": "MUI：参数 \"easing\" 必须是字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"delay\" must be a number or a string.",
+                    "target": "MUI：参数 \"delay\" 必须是数字或字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: The Chip component can not handle the avatar and the icon prop at the same time. Pick one.",
+                    "target": "MUI：Chip 组件不能同时处理 avatar 和 icon 属性。请选择一个。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: The `InputAdornment` variant infers the variant prop you do not have to provide one.",
+                    "target": "MUI：`InputAdornment` 的 variant 会推断 variant 属性，你无需提供。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: You need to provide a value prop when using the determinate or buffer variant of LinearProgress .",
+                    "target": "MUI：使用 LinearProgress 的 determinate 或 buffer 变体时，需要提供 value 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: You need to provide a valueBuffer prop when using the buffer variant of LinearProgress.",
+                    "target": "MUI：使用 LinearProgress 的 buffer 变体时，需要提供 valueBuffer 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: You need to provide a `anchorPosition` prop when using <Popover anchorReference=\"anchorPosition\" />.",
+                    "target": "MUI：使用 <Popover anchorReference=\"anchorPosition\" /> 时需要提供 `anchorPosition` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: <StepContent /> is only designed for use with the vertical stepper.",
+                    "target": "MUI：<StepContent /> 仅设计用于垂直步进器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: You can not use the `centered={true}` and `variant=\"scrollable\"` properties at the same time on a `Tabs` component.",
+                    "target": "MUI：不能在 `Tabs` 组件上同时使用 `centered={true}` 和 `variant=\"scrollable\"` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `children` must be passed when using the `TextField` component with `select`.",
+                    "target": "MUI：在 `TextField` 组件上使用 `select` 时必须传入 `children`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to render markdown:",
+                    "target": "无法渲染 Markdown："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to change language:",
+                    "target": "切换语言失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Input a TTS URL to pronounce the single word in the card. Use %s to represent word.",
+                    "target": "输入一个 TTS URL 来朗读卡片中的单词。使用 %s 代表单词。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Word TTS [experiment]",
+                    "target": "单词 TTS [实验]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "::",
+                    "target": "::"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象——但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这表示你的设置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 完成后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已初始化。你只应调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You can solve the issue by sorting the options with the output of `groupBy`.",
+                    "target": "你可以用 `groupBy` 的输出对选项排序来解决此问题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "MUI: You can not use the `minRows` or `maxRows` props when the input `rows` prop is set.",
+                    "target": "MUI：当设置了输入的 `rows` 属性时，不能使用 `minRows` 或 `maxRows` 属性。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AosrPluginLoaded with debug flag",
+                    "target": "AosrPluginLoaded 已开启调试标志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "pagination navigation",
+                    "target": "分页导航"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
