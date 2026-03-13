@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note-gallery",
+        "version": "1.0.0",
+        "title": "Note Gallery",
+        "description": "Note Gallery Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.60",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "无法将值转换为 JSON 字符串："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Drop all cache and re-initialize database",
+                    "target": "清空所有缓存并重新初始化数据库"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
