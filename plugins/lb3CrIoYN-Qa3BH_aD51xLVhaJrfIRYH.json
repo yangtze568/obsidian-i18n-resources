@@ -1,0 +1,409 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fit",
+        "version": "1.0.0",
+        "title": "Fit",
+        "description": "Fit Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error:",
+                    "target": "错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Logger] Failed to write log file:",
+                    "target": "[Logger] 写入日志文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Fit] Additionally, logging to debug.log failed:",
+                    "target": "[Fit] 此外，记录到 debug.log 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Fit] Additionally, failed to show error notice:",
+                    "target": "[Fit] 此外，显示错误通知失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "You must import the full version of Bottleneck in order to use this feature.",
+                    "target": "必须导入完整版本的 Bottleneck 才能使用此功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[PathNormalization] 🔴 NORMALIZATION MISMATCH DETECTED",
+                    "target": "[PathNormalization] 🔴 检测到规范化不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Performance Warning] Slow operation detected",
+                    "target": "[Performance Warning] 检测到操作缓慢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[LocalVault] Ignored paths in local scan",
+                    "target": "[LocalVault] 本地扫描中已忽略的路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Settings] Debug logging enabled",
+                    "target": "[Settings] 已启用调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSettings] Cannot refresh fields without PAT token",
+                    "target": "[FitSettings] 没有 PAT 令牌无法刷新字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Protected path - saving to _fit/ for safety",
+                    "target": "[FitSync] 受保护路径 - 为安全起见保存到 _fit/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Skipping deletion of protected path",
+                    "target": "[FitSync] 跳过删除受保护路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Couldn't check if some paths exist locally - conservatively treating as clash",
+                    "target": "[FitSync] 无法检查部分路径是否在本地存在 - 保守地视为冲突"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Conflict detection complete",
+                    "target": "[FitSync] 冲突检测完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Updated local state with SHAs from written files",
+                    "target": "[FitSync] 已用写入文件的 SHA 更新本地状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Sync already in progress - aborting new sync request",
+                    "target": "[FitSync] 同步正在进行 - 终止新的同步请求"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Sync completed with conflicts",
+                    "target": "[FitSync] 同步完成但存在冲突"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FitSync] Skipping deletion - couldn't confirm local file actually deleted",
+                    "target": "[FitSync] 跳过删除 - 无法确认本地文件已实际删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Plugin] Sync already in progress",
+                    "target": "[Plugin] 同步正在进行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Plugin] Sync failed",
+                    "target": "[Plugin] 同步失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Plugin] Unhandled sync error",
+                    "target": "[Plugin] 未处理的同步错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Plugin] Starting plugin initialization",
+                    "target": "[Plugin] 正在开始插件初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Plugin] Plugin initialization completed successfully",
+                    "target": "[Plugin] 插件初始化成功完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Authenticate user",
+                    "target": "验证用户身份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Change conflicts",
+                    "target": "更改冲突"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "File changes",
+                    "target": "文件更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Input your personal access token below to get authenticated. Create a GitHub account here if you don't have one yet.",
+                    "target": "在下方输入你的个人访问令牌以完成身份验证。如果你还没有 GitHub 账号，请在此创建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make sure Permissions has Contents: \"Read and write\". Recommended: Limit to selected repository, adjust expiration.",
+                    "target": "请确保 Permissions 中的 Contents 为“Read and write”。建议：限制为所选仓库，并调整过期时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Refresh to retrieve the latest list of repos and branches.",
+                    "target": "刷新以获取最新的仓库和分支列表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make sure you are logged in to github on your browser.",
+                    "target": "请确保你已在浏览器中登录 GitHub。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to manually enter a repository name. Use this for repos where you have contributor access but are not the owner.",
+                    "target": "启用后可手动输入仓库名称。用于你有贡献者权限但不是所有者的仓库。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The GitHub username or organization that owns the repository.",
+                    "target": "拥有该仓库的 GitHub 用户名或组织。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the repository you have contributor access to.",
+                    "target": "你有贡献者权限的仓库名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter repository details above, then refresh to view existing branches.",
+                    "target": "在上方输入仓库详情，然后刷新以查看现有分支。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sign commit message with this device name.",
+                    "target": "使用此设备名称签署提交信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub user info",
+                    "target": "GitHub 用户信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Github personal access token",
+                    "target": "Github 个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repository info",
+                    "target": "仓库信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manual repository entry",
+                    "target": "手动输入仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Github repository name",
+                    "target": "Github 仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repository owner",
+                    "target": "仓库所有者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repository name",
+                    "target": "仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Branch name",
+                    "target": "分支名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "View your vault on GitHub",
+                    "target": "在 GitHub 上查看你的仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Local configurations",
+                    "target": "本地配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Device name",
+                    "target": "设备名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto sync",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto check interval",
+                    "target": "自动检查间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notice display",
+                    "target": "通知显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable debug logging",
+                    "target": "启用调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "GitHub personal access token",
+                    "target": "GitHub 个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Device name",
+                    "target": "设备名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Change conflicts:\n",
+                    "target": "更改冲突：\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Note:",
+                    "target": "注意："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "_fit folder is overwritten on conflict, copy needed changes outside _fit.",
+                    "target": "发生冲突时 _fit 文件夹将被覆盖，请将所需更改复制到 _fit 之外。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Protected: Paths excluded from sync by policy (.obsidian/, _fit/)",
+                    "target": "受保护：根据策略排除同步的路径（.obsidian/、_fit/）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Untracked: Could not verify local state - check logs for details",
+                    "target": "未跟踪：无法验证本地状态 - 请查看日志了解详情"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Sign up on github.com",
+                    "target": "在 github.com 注册"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Create a token",
+                    "target": "创建令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Refresh repos and branches list",
+                    "target": "刷新仓库和分支列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Create a new repository",
+                    "target": "创建新仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open on GitHub",
+                    "target": "在 GitHub 上打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Same file exists with different Unicode normalization forms",
+                    "target": "存在相同文件但 Unicode 规范化形式不同"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Local file updates:",
+                    "target": "本地文件更新："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fit Sync",
+                    "target": "Fit Sync"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
