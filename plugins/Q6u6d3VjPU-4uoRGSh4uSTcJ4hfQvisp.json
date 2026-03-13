@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "crafty",
+        "version": "1.0.0",
+        "title": "Crafty",
+        "description": "Crafty Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Editor Spell Check",
+                    "target": "编辑器拼写检查"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next node",
+                    "target": "下一个节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prev node",
+                    "target": "上一个节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Panel",
+                    "target": "显示面板"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
