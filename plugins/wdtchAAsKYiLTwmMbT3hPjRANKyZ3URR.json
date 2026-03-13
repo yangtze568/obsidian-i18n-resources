@@ -1,0 +1,547 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "line-notes-sync",
+        "version": "1.0.0",
+        "title": "LINE Notes Sync",
+        "description": "LINE Notes Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.6.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "警告: OBSIDIAN_LINE_API_URLが設定されていません。APIとの通信ができません。",
+                    "target": "警告：未设置 OBSIDIAN_LINE_API_URL。无法与 API 通信。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to register public key:",
+                    "target": "无法注册公钥："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Encryption failed:",
+                    "target": "加密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decryption failed:",
+                    "target": "解密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to decrypt message:",
+                    "target": "无法解密消息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image decryption failed:",
+                    "target": "图片解密失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize keys:",
+                    "target": "无法初始化密钥："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected E2EE error:",
+                    "target": "意外的 E2EE 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize E2EE:",
+                    "target": "无法初始化 E2EE："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize E2EE during sync:",
+                    "target": "同步期间无法初始化 E2EE："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error syncing images:",
+                    "target": "同步图片时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LINE User ID not configured. Cannot update sync status.",
+                    "target": "未配置 LINE 用户 ID。无法更新同步状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize keys after mapping:",
+                    "target": "映射后初始化密钥失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Public key registration completed successfully",
+                    "target": "公钥注册成功完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "サブスクリプション管理",
+                    "target": "订阅管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "プレミアムプランにアップグレード",
+                    "target": "升级到高级计划"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "更新",
+                    "target": "更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "更新中...",
+                    "target": "更新中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LINEメッセージが保存されるフォルダパス",
+                    "target": "保存 LINE 消息的文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "このObsidian Vault用の一意の識別子（任意のユニークなIDを作成してください）",
+                    "target": "此 Obsidian Vault 的唯一标识符（请创建任意唯一的 ID）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LINEボットとの会話で取得したユーザーIDを入力してください",
+                    "target": "请输入在与LINE机器人对话中获取的用户ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LINEメッセージを自動的に同期するかどうか",
+                    "target": "是否自动同步LINE消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LINEメッセージを同期する間隔（時間単位）",
+                    "target": "同步LINE消息的间隔（以小时为单位）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Obsidian起動時にLINEメッセージを同期するかどうか",
+                    "target": "是否在Obsidian启动时同步LINE消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "日付ごとにフォルダを作成してメッセージを整理するかどうか（注意：「Group messages by date」をオンにすると自動的にオフになりますが、手動で再度オンにすることができます）",
+                    "target": "是否按日期创建文件夹来整理消息（注意：开启「Group messages by date」后会自动关闭，但可手动再次开启）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "同じ日付のメッセージを1つのファイルにまとめるかどうか（チェックを外すとメッセージごとに個別のファイルを作成）",
+                    "target": "是否将同一天的消息合并为一个文件（取消勾选则为每条消息创建单独文件）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "日付でグループ化されたメッセージの表示テンプレート\n利用可能な変数: {time} - 時刻, {text} - メッセージ内容, {messageId} - メッセージID, {userId} - ユーザーID",
+                    "target": "按日期分组的消息显示模板\n可用变量: {time} - 时间, {text} - 消息内容, {messageId} - 消息ID, {userId} - 用户ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "日付でグループ化されたファイルのフロントマター\n利用可能な変数: {date} - 日付, {datecompact} - 日付（ハイフンなし）",
+                    "target": "按日期分组的文件Front Matter\n可用变量: {date} - 日期, {datecompact} - 日期（无连字符）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "日付ごとにまとめられたファイルの名前（「Group messages by date」がオンの場合に使用）\n利用可能な変数: {date} - 日付 (例: 2024-01-15), {datecompact} - 日付ハイフンなし (例: 20240115)",
+                    "target": "按日期汇总的文件名称（当「Group messages by date」开启时使用）\n可用变量: {date} - 日期 (例: 2024-01-15), {datecompact} - 无连字符的日期 (例: 20240115)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "個別メッセージファイルのファイル名テンプレート（「Group messages by date」がオフの場合に使用）\n利用可能な変数: {date}, {datecompact}, {time}, {datetime}, {messageId}, {userId}, {timestamp}",
+                    "target": "单条消息文件的文件名模板（当「Group messages by date」关闭时使用）\n可用变量: {date}, {datecompact}, {time}, {datetime}, {messageId}, {userId}, {timestamp}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LINEで送信した画像を同期するかどうか",
+                    "target": "是否同步通过LINE发送的图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "画像ファイルの保存先フォルダ",
+                    "target": "图片文件的保存文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "画像ファイルの命名テンプレート（拡張子は自動で付与されます）\n利用可能な変数: {date}, {datecompact}, {time}, {datetime}, {messageId}, {userId}, {timestamp}",
+                    "target": "图片文件的命名模板（扩展名将自动添加）\n可用变量: {date}, {datecompact}, {time}, {datetime}, {messageId}, {userId}, {timestamp}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "サーバーから最新のサブスクリプション状態を取得します",
+                    "target": "从服务器获取最新的订阅状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LINE UserIDとVault IDのマッピングを登録します",
+                    "target": "注册LINE UserID与Vault ID的映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LINE UserIDとVault IDのマッピングをリセットします（KV上の紐づけを削除し、再登録可能にします）",
+                    "target": "重置LINE UserID与Vault ID的映射（删除KV上的关联，使其可重新注册）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note folder path",
+                    "target": "笔记文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault ID",
+                    "target": "Vault ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "LINE user ID",
+                    "target": "LINE 用户ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto sync",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync interval",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync on startup",
+                    "target": "启动时同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Organize by date",
+                    "target": "按日期整理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ファイル整理設定",
+                    "target": "文件整理设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group messages by date",
+                    "target": "按日期分组消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "画像設定",
+                    "target": "图片设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync images",
+                    "target": "同步图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image folder path",
+                    "target": "图片文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "プレミアムプラン",
+                    "target": "高级计划"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "現在のプラン",
+                    "target": "当前计划"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "サブスクリプション状態を更新",
+                    "target": "更新订阅状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "接続設定",
+                    "target": "连接设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Register mapping",
+                    "target": "注册映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset mapping",
+                    "target": "重置映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter vault ID",
+                    "target": "输入保管库ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your LINE User ID",
+                    "target": "输入你的LINE用户ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{time}: {text}",
+                    "target": "{time}: {text}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "source: LINE\ndate: {date}",
+                    "target": "来源: LINE\n日期: {date}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unknown message format:",
+                    "target": "未知的消息格式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to fetch subscription status:",
+                    "target": "获取订阅状态失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "接続エラーが発生しました。設定を確認してください。",
+                    "target": "发生连接错误。请检查设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ネットワークエラーが発生しました。インターネット接続を確認してください。",
+                    "target": "发生网络错误。请检查网络连接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "処理中にエラーが発生しました",
+                    "target": "处理过程中发生错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault ID not configured. Please set it in plugin settings.",
+                    "target": "未配置 Vault ID。请在插件设置中进行设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Syncing LINE messages...",
+                    "target": "正在同步 LINE 消息..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "LINE UserIDとVault IDの両方を設定してください。",
+                    "target": "请同时设置 LINE UserID 和 Vault ID。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "LINE UserIDとVault IDのマッピングを登録しました。",
+                    "target": "已注册 LINE UserID 与 Vault ID 的映射。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "LINE UserIDとVault IDのマッピングをリセットしました。",
+                    "target": "已重置 LINE UserID 与 Vault ID 的映射。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "サブスクリプション状態を更新しました",
+                    "target": "已更新订阅状态"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "サブスクリプション状態の取得に失敗しました",
+                    "target": "获取订阅状态失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync LINE messages",
+                    "target": "同步 LINE 消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "マッピングをリセットしますか？",
+                    "target": "要重置映射吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "この操作により、LINE UserIDとVault IDの紐づけが削除されます。再度LINEを使用するには、マッピングの再登録が必要になります。",
+                    "target": "此操作将删除 LINE UserID 与 Vault ID 的关联。要再次使用 LINE，需要重新注册映射。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "キャンセル",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "リセットする",
+                    "target": "重置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ファイル名の使い分け：",
+                    "target": "文件名的使用方式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "• ",
+                    "target": "• "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Group messages by date がオン：",
+                    "target": "Group messages by date 为开启："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "  ※ 固定のファイル名（例：{date}を使わずに「LINE-Messages」など）を設定すると、すべてのメッセージが常に同じファイルに追記されます",
+                    "target": "  ※ 若设置固定的文件名（例如不使用 {date} 而设为“LINE-Messages”等），所有消息将始终追加到同一文件中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Group messages by date がオフ：",
+                    "target": "Group messages by date 为关闭："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "変数の説明:",
+                    "target": "变量说明:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{date}: 日付 (例: 2024-01-15)",
+                    "target": "{date}: 日期 (例: 2024-01-15)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{datecompact}: 日付（ハイフンなし） (例: 20240115)",
+                    "target": "{datecompact}: 日期（无连字符） (例: 20240115)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{time}: 時刻 (例: 103045)",
+                    "target": "{time}: 时间 (例: 103045)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{datetime}: 日時 (例: 20240115103045)",
+                    "target": "{datetime}: 日期时间 (例: 20240115103045)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{messageId}: メッセージID",
+                    "target": "{messageId}: 消息ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{userId}: ユーザーID",
+                    "target": "{userId}: 用户ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "{timestamp}: Unixタイムスタンプ",
+                    "target": "{timestamp}: Unix时间戳"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
