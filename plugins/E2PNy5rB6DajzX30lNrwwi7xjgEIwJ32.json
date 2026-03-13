@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "memodack",
+        "version": "1.0.0",
+        "title": "Memodack",
+        "description": "Memodack Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the service provider to use.",
+                    "target": "选择要使用的服务提供商。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "API key for translation and text-to-speech services.",
+                    "target": "用于翻译和文本转语音服务的 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A custom API URL for your own server.",
+                    "target": "为你自己的服务器设置自定义 API URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Check access to services by API key.",
+                    "target": "通过 API 密钥检查对服务的访问权限。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is the language you speak natively.",
+                    "target": "这是你的母语。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is the language of the document.",
+                    "target": "这是文档的语言。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The speed at which the voiceover will be performed.",
+                    "target": "配音的播放速度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will be voiced when you click on a part.",
+                    "target": "点击某一部分时会播报。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Split translation values using the \";\" symbol.",
+                    "target": "使用“;”符号拆分翻译值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cut a part of the answer in practice mode.",
+                    "target": "在练习模式下截取答案的一部分。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API URL",
+                    "target": "API URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Only in Reading Mode.",
+                    "target": "仅在阅读模式下。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No words provided.",
+                    "target": "未提供单词。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "At least 4 words required.",
+                    "target": "至少需要 4 个单词。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No API key provided.",
+                    "target": "未提供 API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No API URL provided.",
+                    "target": "未提供 API URL。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
