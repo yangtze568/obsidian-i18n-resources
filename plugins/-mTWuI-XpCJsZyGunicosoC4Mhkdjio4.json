@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-kroki",
+        "version": "1.0.0",
+        "title": "Kroki",
+        "description": "Kroki Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading plugin kroki",
+                    "target": "正在加载插件 kroki"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "kroki is not enabling:",
+                    "target": "kroki 未启用："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading plugin kroki",
+                    "target": "正在卸载插件 kroki"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Kroki Server URL",
+                    "target": "Kroki 服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Server URL",
+                    "target": "服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "!include https://raw.githubusercontent.com/....puml\n",
+                    "target": "!include https://raw.githubusercontent.com/....puml\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "block diag !!",
+                    "target": "block diag !!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nw Diag !!!",
+                    "target": "Nw Diag !!!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Diagram Type (enable and 'language')",
+                    "target": "图表类型（启用和“language”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enable each diagram type individually. If there are multiple possible processors for a given type, then you can specify an alternate name for the diagram's 'language'",
+                    "target": "单独启用每种图表类型。如果某一类型有多个可用处理器，则可为该图表的“language”指定一个备用名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "NB that any changes here will require a re-load before becoming effective.",
+                    "target": "注意：此处的任何更改都需要重新加载后才会生效。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
