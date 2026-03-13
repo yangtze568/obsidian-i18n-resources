@@ -1,0 +1,1417 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "digitalgarden",
+        "version": "1.0.0",
+        "title": "Digital Garden",
+        "description": "Digital Garden Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.72.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Differences between your local file and the published file.\n\t\t<br/>\n\t\tThe content may look a bit different from your note. This is because it shows\n\t\tthe note after being processed by the plugin.",
+                    "target": "本地文件与已发布文件之间的差异。\n\t\t<br/>\n\t\t内容可能看起来与您的笔记略有不同。这是因为它显示的是\n\t\t经过插件处理后的笔记。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<li>One rule-per line</li> <li>The format is [from_vault_path]:[to_garden_path]</li> <li>Matching will exit on first match</li>",
+                    "target": "<li>每行一条规则</li> <li>格式为 [from_vault_path]:[to_garden_path]</li> <li>匹配到第一条即停止</li>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "You&#39;ve reached your usage limit. <a href=\"https://dashboard.forestry.md/settings\" target=\"_blank\">Upgrade your plan</a> to continue publishing.",
+                    "target": "您已达到使用上限。<a href=\"https://dashboard.forestry.md/settings\" target=\"_blank\">升级您的计划</a>以继续发布。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Define regex filters to replace note content before publishing.",
+                    "target": "定义正则过滤器，在发布前替换笔记内容。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "A GitHub token with contents permissions. You can see how to generate it ",
+                    "target": "具有内容权限的 GitHub 令牌。您可以查看如何生成它"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "here!",
+                    "target": "在这里！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Publishing Notes",
+                    "target": "发布笔记"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "PUBLISH SELECTED",
+                    "target": "发布所选"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Calculating publication status",
+                    "target": "正在计算发布状态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "- PUBLISHED",
+                    "target": "- 已发布"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "- DELETED",
+                    "target": "- 已删除"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "⚠️ Warning: Issues Found",
+                    "target": "⚠️ 警告：发现问题"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Path rewrite rules",
+                    "target": "路径重写规则"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Define rules to rewrite note paths/folder structure, using following\n\t\tsyntax:",
+                    "target": "定义用于重写笔记路径/文件夹结构的规则，使用以下\n\t\t语法："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Example: If you want the vault folder \"Personal/Journal\" to be shown as\n\t\tonly \"Journal\" in the left file sidebar in the garden, add the line\n\t\t\"Personal/Journal:Journal\"",
+                    "target": "示例：如果你希望库文件夹 \"Personal/Journal\" 在花园左侧文件侧边栏中\n\t\t仅显示为 \"Journal\"，请添加如下行\n\t\t\"Personal/Journal:Journal\""
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "To define a folder as the root folder for the garden, use\n\t\t`[from_vault_path]:`",
+                    "target": "要将文件夹定义为花园的根文件夹，请使用\n\t\t`[from_vault_path]:`"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Saving will not update the garden directly, and changes will be visible\n\t\tin the publication center.",
+                    "target": "保存不会直接更新花园，变更将在\n\t\t发布中心可见。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Builds this month",
+                    "target": "本月构建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "GitHub/Self Hosted",
+                    "target": "GitHub/自托管"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not get latest release",
+                    "target": "无法获取最新版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not get latest commit",
+                    "target": "无法获取最新提交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing canvas text node:",
+                    "target": "处理画布文本节点时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading canvas PDF:",
+                    "target": "读取画布 PDF 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading canvas image:",
+                    "target": "读取画布图像时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading canvas group background:",
+                    "target": "读取画布组背景时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update favicon",
+                    "target": "更新 favicon 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update logo",
+                    "target": "更新 logo 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading style settings plugin",
+                    "target": "加载样式设置插件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to upload logo",
+                    "target": "上传 logo 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to load generateGardenSnapshot",
+                    "target": "无法加载 generateGardenSnapshot"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Getting plugin info",
+                    "target": "正在获取插件信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Deleting files",
+                    "target": "正在删除文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Updating files",
+                    "target": "正在更新文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Adding files",
+                    "target": "正在添加文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No changes to .env file",
+                    "target": ".env 文件无变化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Favicons are identical, skipping update",
+                    "target": "网站图标相同，跳过更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Logos are identical, skipping update",
+                    "target": "Logo 相同，跳过更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Developer tools enabled",
+                    "target": "已启用开发者工具"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage Rewrite Rules",
+                    "target": "管理重写规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage note settings",
+                    "target": "管理笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage UI text",
+                    "target": "管理界面文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Apply settings to site",
+                    "target": "将设置应用到站点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage appearance",
+                    "target": "管理外观"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Apply Style Settings",
+                    "target": "应用样式设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage Custom Filters",
+                    "target": "管理自定义筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Already up to date!",
+                    "target": "已是最新！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the GitHub repository",
+                    "target": "GitHub 仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your GitHub Username",
+                    "target": "你的 GitHub 用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define rules to rewrite note folder structure in the garden. See the modal for more information.",
+                    "target": "定义规则以重写花园中的笔记文件夹结构。更多信息请查看弹窗。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show detailed logs in the developer console. Useful for troubleshooting.",
+                    "target": "在开发者控制台显示详细日志。用于故障排查。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default settings for each published note. These can be overwritten per note via frontmatter.",
+                    "target": "每篇已发布笔记的默认设置。可通过 frontmatter 为每篇笔记单独覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines whether to show a link back to the homepage or not.",
+                    "target": "决定是否显示返回主页的链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, notes will show its local graph in a sidebar on desktop and at the bottom of the page on mobile.",
+                    "target": "开启后，笔记会在桌面端侧边栏显示本地关系图，在移动端显示在页面底部。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, notes will show backlinks in a sidebar on desktop and at the bottom of the page on mobile.",
+                    "target": "开启后，笔记会在桌面端侧边栏显示反向链接，在移动端显示在页面底部。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, notes will show all headers as a table of content in a sidebar on desktop. It will not be shown on mobile devices.",
+                    "target": "开启后，笔记会在桌面端侧边栏以目录形式显示所有标题。移动端不显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, the title of the note will show on top of the page.",
+                    "target": "开启后，笔记标题将显示在页面顶部。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, a filetree will be shown on your site.",
+                    "target": "开启后，站点将显示文件树。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, users will be able to search through the content of your site.",
+                    "target": "开启后，用户可以搜索站点内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, hovering over links to notes in your garden shows a scrollable preview.",
+                    "target": "开启后，悬停在花园中的笔记链接上会显示可滚动的预览。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When turned on, tags in your frontmatter will be displayed on each note. If search is enabled, clicking on a tag will bring up a search for all notes containing that tag.",
+                    "target": "开启后，frontmatter 中的标签会显示在每篇笔记上。如果启用了搜索，点击标签将搜索所有包含该标签的笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize labels and messages shown on your garden (Search, Backlinks, etc.)",
+                    "target": "自定义在你的花园中显示的标签和消息（搜索、反向链接等）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"Pages mentioning this page\"",
+                    "target": "默认值：“提及此页面的页面”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"No other pages mentions this page\"",
+                    "target": "默认值：“没有其他页面提及此页面”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"Search\"",
+                    "target": "默认值：“搜索”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"Start typing...\"",
+                    "target": "默认值：“开始输入...”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"Enter to select\"",
+                    "target": "默认值：“按 Enter 选择”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"to navigate\"",
+                    "target": "默认值：“用于导航”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"ESC to close\"",
+                    "target": "默认值：“按 ESC 关闭”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"No results for\"",
+                    "target": "默认值：“没有结果：”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: \"Select a result to preview\"",
+                    "target": "默认值：“选择一个结果以预览”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of your site. This will be displayed as the site header.",
+                    "target": "你的网站名称。这将显示为站点页眉。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to an image in your vault to use as a logo instead of the sitename. Leave blank to show sitename text.",
+                    "target": "在你的 vault 中的图片路径，用作 Logo 以替代站点名称。留空将显示站点名称文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Language code (ISO 639-1) for the main language of your site. This is used to set the correct language on your site to assist search engines and browsers.",
+                    "target": "你的网站主要语言代码（ISO 639-1）。用于在站点上设置正确语言，以帮助搜索引擎和浏览器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to an svg in your vault you wish to use as a favicon. Leave blank to use default. Must be square! (eg. 16x16)",
+                    "target": "在你的 vault 中要用作 favicon 的 svg 路径。留空使用默认值。必须为正方形！（例如 16x16）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default, the images on your site are compressed to make your site load faster. If you instead want to use the full resolution images, enable this setting.",
+                    "target": "默认情况下，站点上的图片会被压缩以加快加载速度。如果你想使用全分辨率图片，请启用此设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The format string to render timestamp on the garden. Must be luxon compatible",
+                    "target": "在 garden 上渲染时间戳的格式字符串。必须与 luxon 兼容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Key to get the created timestamp from the frontmatter. Leave blank to get the value from file creation time. The value can be any value that luxon Datetime.fromISO can parse.",
+                    "target": "用于从 frontmatter 获取创建时间戳的键。留空将从文件创建时间获取值。该值可以是 luxon Datetime.fromISO 能解析的任何值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Key to get the updated timestamp from the frontmatter. Leave blank to get the value from file update time. The value can be any value that luxon Datetime.fromISO can parse.",
+                    "target": "用于从 frontmatter 获取更新时间戳的键。留空将从文件更新时间获取值。该值可以是 luxon Datetime.fromISO 能解析的任何值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Key for setting css-classes to the note body from the frontmatter.",
+                    "target": "用于从 frontmatter 为笔记正文设置 css-classes 的键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Key to get the note icon value from the frontmatter",
+                    "target": "用于从 frontmatter 获取笔记图标值的键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default value for note icon if not specified",
+                    "target": "未指定时的笔记图标默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Transform the URL from \"/My Folder/My Note/\" to \"/my-folder/my-note\". If your note titles contains non-English characters, this should be disabled.",
+                    "target": "将 URL 从 \"/My Folder/My Note/\" 转换为 \"/my-folder/my-note\"。如果你的笔记标题包含非英文字符，应禁用此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define custom rules to replace parts of the note before publishing.",
+                    "target": "定义自定义规则，在发布前替换笔记的部分内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub repo name",
+                    "target": "GitHub 仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub Username",
+                    "target": "GitHub 用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub token",
+                    "target": "GitHub 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Publish Platform",
+                    "target": "发布平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Path Rewrite Rules",
+                    "target": "路径重写规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable debug logging",
+                    "target": "启用调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Global Note Settings",
+                    "target": "全局笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show home link (dg-home-link)",
+                    "target": "显示首页链接 (dg-home-link)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show local graph for notes (dg-show-local-graph)",
+                    "target": "显示笔记的本地图谱 (dg-show-local-graph)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show backlinks for notes (dg-show-backlinks)",
+                    "target": "显示笔记的反向链接 (dg-show-backlinks)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show a table of content for notes (dg-show-toc)",
+                    "target": "显示笔记目录 (dg-show-toc)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show inline title (dg-show-inline-title)",
+                    "target": "显示内联标题 (dg-show-inline-title)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show filetree sidebar (dg-show-file-tree)",
+                    "target": "显示文件树侧栏 (dg-show-file-tree)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable search (dg-enable-search)",
+                    "target": "启用搜索 (dg-enable-search)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable link preview (dg-link-preview)",
+                    "target": "启用链接预览 (dg-link-preview)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Tags (dg-show-tags)",
+                    "target": "显示标签 (dg-show-tags)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Let all frontmatter through (dg-pass-frontmatter)",
+                    "target": "允许所有 Frontmatter 通过 (dg-pass-frontmatter)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UI Text / Localization",
+                    "target": "UI 文本 / 本地化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backlink header",
+                    "target": "反向链接标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "No backlinks message",
+                    "target": "无反向链接提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search button text",
+                    "target": "搜索按钮文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search placeholder",
+                    "target": "搜索占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enter to select hint",
+                    "target": "按 Enter 选择提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Navigate hint",
+                    "target": "导航提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Close hint",
+                    "target": "关闭提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "No results message",
+                    "target": "无结果提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preview placeholder text",
+                    "target": "预览占位符文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply current style settings to site",
+                    "target": "将当前样式设置应用到站点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Main language",
+                    "target": "主要语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use full resolution images",
+                    "target": "使用全分辨率图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Timestamp format",
+                    "target": "时间戳格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show created timestamp",
+                    "target": "显示创建时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Created timestamp Frontmatter Key",
+                    "target": "创建时间戳 Frontmatter 键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show updated timestamp",
+                    "target": "显示更新时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Updated timestamp Frontmatter Key",
+                    "target": "更新时间戳 Frontmatter 键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Body Classes Key",
+                    "target": "Body Classes 键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note icon Frontmatter Key",
+                    "target": "注释图标 Frontmatter 键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default note icon Value",
+                    "target": "默认笔记图标值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show note icon on Title",
+                    "target": "在标题上显示笔记图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show note icon in FileTree",
+                    "target": "在文件树中显示笔记图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show note icon on Internal Links",
+                    "target": "在内部链接上显示笔记图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show note icon on Backlinks",
+                    "target": "在反向链接上显示笔记图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Base URL",
+                    "target": "基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Slugify Note URL",
+                    "target": "将笔记 URL 转换为 slug"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Filters",
+                    "target": "自定义筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "regex pattern",
+                    "target": "正则表达式模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Secret Token",
+                    "target": "密钥令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Pages mentioning this page",
+                    "target": "提及此页面的页面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "No other pages mentions this page",
+                    "target": "没有其他页面提及此页面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Start typing...",
+                    "target": "开始输入..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter to select",
+                    "target": "按 Enter 选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "to navigate",
+                    "target": "以导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ESC to close",
+                    "target": "按 ESC 关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "No results for",
+                    "target": "没有结果："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a result to preview",
+                    "target": "选择结果以预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "You have unsaved changes",
+                    "target": "你有未保存的更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Change a setting to apply",
+                    "target": "更改设置以应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Loading settings from site...",
+                    "target": "正在从站点加载设置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Settings loaded from site",
+                    "target": "已从站点加载设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Could not load settings from site",
+                    "target": "无法从站点加载设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add a filter",
+                    "target": "添加筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[before-after-hook]: \"Hook()\" repurposing warning, use \"Hook.Collection()\". Read more: https://git.io/upgrade-before-after-hook-to-1.4",
+                    "target": "[before-after-hook]：“Hook()”用途变更警告，请使用“Hook.Collection()”。了解更多：https://git.io/upgrade-before-after-hook-to-1.4"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dvapi.tryEvaluate did not yield any result",
+                    "target": "dvapi.tryEvaluate 未产生任何结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "eval did not yield any result",
+                    "target": "eval 未产生任何结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error processing image link:",
+                    "target": "处理图片链接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error processing linked image:",
+                    "target": "处理链接的图片时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error processing transcluded PDF link:",
+                    "target": "处理嵌入的 PDF 链接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error processing PDF link:",
+                    "target": "处理 PDF 链接时出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "devPluginPath missing, run generateGardenSettings.mjs",
+                    "target": "缺少 devPluginPath，请运行 generateGardenSettings.mjs"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Check snapshot to make sure nothing has accidentally changed",
+                    "target": "检查快照，确保没有意外更改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note does not have the dg-publish: true set. Please add this and try again.",
+                    "target": "笔记未设置 dg-publish: true。请添加后再试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings already up to date!",
+                    "target": "设置已是最新！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set the garden base url in the settings",
+                    "target": "请在设置中设置 garden base url"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render dataview query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染 dataview 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render dataviewjs query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染 dataviewjs 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render inline dataview query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染内联 dataview 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to render inline dataviewjs query. Please update the dataview plugin to the latest version.",
+                    "target": "无法渲染内联 dataviewjs 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Config error: You need to define a Forestry.md Garden Key in the plugin settings",
+                    "target": "配置错误：你需要在插件设置中定义 Forestry.md Garden Key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Config error: You need to define a GitHub repo in the plugin settings",
+                    "target": "配置错误：你需要在插件设置中定义 GitHub 仓库"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Config error: You need to define a GitHub Username in the plugin settings",
+                    "target": "配置错误：你需要在插件设置中定义 GitHub 用户名"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Config error: You need to define a GitHub Token in the plugin settings",
+                    "target": "配置错误：你需要在插件设置中定义 GitHub Token"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid Garden Key",
+                    "target": "无效的 Garden Key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Applying settings to site...",
+                    "target": "正在将设置应用到站点..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update favicon. Check the developer console for details.",
+                    "target": "更新 favicon 失败。请查看开发者控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update logo. Check the developer console for details.",
+                    "target": "更新 logo 失败。请查看开发者控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings applied to site!",
+                    "target": "设置已应用到站点！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Applying Style Settings...",
+                    "target": "正在应用样式设置..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Style Settings found",
+                    "target": "未找到样式设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Style Settings applied to site",
+                    "target": "样式设置已应用到站点"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully applied settings",
+                    "target": "设置应用成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updating settings...",
+                    "target": "正在更新设置..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update settings. Make sure you have an internet connection.",
+                    "target": "更新设置失败。请确保已连接互联网。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings successfully updated!",
+                    "target": "设置已成功更新！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to upload logo. Check the developer console for details.",
+                    "target": "上传徽标失败。请查看开发者控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Adding publish flag to note and publishing it.",
+                    "target": "正在为笔记添加发布标记并发布。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A publish operation is already in progress. Please wait for it to complete.",
+                    "target": "发布操作正在进行中。请等待完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processing files to publish...",
+                    "target": "正在处理要发布的文件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Garden is already fully synced!",
+                    "target": "花园已完全同步！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to publish multiple notes, something went wrong.",
+                    "target": "无法发布多个笔记，出现了问题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file is open/active. Please open a file and try again.",
+                    "target": "没有打开/激活任何文件。请打开文件后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note URL copied to clipboard",
+                    "target": "笔记 URL 已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to copy note URL to clipboard, something went wrong.",
+                    "target": "无法将笔记 URL 复制到剪贴板，出现了问题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The current file is not a markdown or canvas file. Please open a supported file and try again.",
+                    "target": "当前文件不是 Markdown 或 Canvas 文件。请打开受支持的文件后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Publishing note...",
+                    "target": "正在发布笔记..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully published note to your garden.",
+                    "target": "已成功将笔记发布到你的花园。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to publish note, something went wrong.",
+                    "target": "无法发布笔记，出现了问题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note is already set as the garden home page.",
+                    "target": "该笔记已设为花园主页。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Publishing blocked: Storage limit exceeded. Free up space or upgrade at dashboard.forestry.md/settings",
+                    "target": "发布被阻止：存储空间已超限。请释放空间或在 dashboard.forestry.md/settings 升级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Update files",
+                    "target": "更新文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Update settings",
+                    "target": "更新设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Red Graphite",
+                    "target": "红色石墨"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quick Publish And Share Note",
+                    "target": "快速发布并分享笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish Active Note",
+                    "target": "发布当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate Garden Snapshot",
+                    "target": "生成花园快照"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish All Notes Marked for Publish",
+                    "target": "发布所有标记为发布的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy Garden URL",
+                    "target": "复制花园 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Publication Center",
+                    "target": "打开发布中心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add publish flag",
+                    "target": "添加发布标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle publication status",
+                    "target": "切换发布状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set as Garden Home Page",
+                    "target": "设为花园主页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Digital Garden: ",
+                    "target": "数字花园："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Publication Center",
+                    "target": "发布中心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GitHub Authentication (required)",
+                    "target": "GitHub 认证（必需）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Digital Garden Settings",
+                    "target": "数字花园设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default Note Settings",
+                    "target": "默认笔记设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note Setting Docs is available ",
+                    "target": "笔记设置文档可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Apply changes to site",
+                    "target": "将更改应用到站点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UI Text Settings",
+                    "target": "UI 文本设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Appearance Settings",
+                    "target": "外观设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Style Settings Plugin",
+                    "target": "样式设置插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No preview",
+                    "target": "无预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Timestamps Settings",
+                    "target": "时间戳设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CSS settings",
+                    "target": "CSS 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note icons Settings",
+                    "target": "笔记图标设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Documentation on note icons",
+                    "target": "笔记图标文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom Filters",
+                    "target": "自定义筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Update site",
+                    "target": "更新站点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create Pull Request",
+                    "target": "创建拉取请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Recent Pull Requests",
+                    "target": "最近的拉取请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Creating pull request...",
+                    "target": "正在创建拉取请求…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This usually takes 30-60 seconds",
+                    "target": "这通常需要 30-60 秒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pull request created!",
+                    "target": "拉取请求已创建！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Approve the PR to make the changes go live.",
+                    "target": "批准该 PR 以使更改生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Pull Request",
+                    "target": "打开拉取请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Already up to date!",
+                    "target": "已是最新！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Something went wrong",
+                    "target": "出现错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Replace Garden Home Page?",
+                    "target": "替换花园主页？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Important: Both notes should be published from the Publication Center to ensure your garden has a proper home page.",
+                    "target": "⚠️ 重要：两篇笔记都应从发布中心发布，以确保你的花园拥有正确的主页。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Replace Home Page",
+                    "target": "替换主页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Open Forestry dashboard",
+                    "target": "打开 Forestry 仪表盘"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
