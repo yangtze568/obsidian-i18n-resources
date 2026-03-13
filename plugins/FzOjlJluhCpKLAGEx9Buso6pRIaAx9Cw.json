@@ -1,0 +1,283 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ob2static-site",
+        "version": "1.0.0",
+        "title": "Static Site MD Exporter",
+        "description": "Static Site MD Exporter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.",
+                    "target": "此浏览器缺少 typed array (Uint8Array) 支持，这是 `buffer` v5.x 所必需的。如需旧版浏览器支持，请使用 `buffer` v4.x。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't delete database",
+                    "target": "无法删除数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "process complete",
+                    "target": "处理完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Confirm Export",
+                    "target": "确认导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Commit & Push",
+                    "target": "提交并推送"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Full URL of the git repository",
+                    "target": "git 仓库的完整 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Branch name",
+                    "target": "分支名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The target position of your posts, don't starts with /",
+                    "target": "文章的目标位置，不要以 / 开头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Password when 'git login'",
+                    "target": "在 'git login' 时的密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used as 'git config user.name'",
+                    "target": "用作 'git config user.name'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Delete the local cache database used by git",
+                    "target": "删除 git 使用的本地缓存数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The prefix of the post URL with trailing slash. Default to '/post/'.\n\t\t\t\te.g. A link to a note with slug 'abc' will be rendered as '/post/abc'.",
+                    "target": "带尾斜杠的文章 URL 前缀。默认值为 '/post/'。\n\t\t\t\t例如：slug 为 'abc' 的笔记链接将被渲染为 '/post/abc'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select which transformer to use for links to image",
+                    "target": "选择用于图片链接的转换器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Frontmatter key to determine if the post is published. Default to 'published'.",
+                    "target": "用于判断文章是否发布的 Frontmatter 键。默认值为 'published'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Post Uploader",
+                    "target": "文章上传器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repo link",
+                    "target": "仓库链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target Path",
+                    "target": "目标路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub username",
+                    "target": "GitHub 用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub personal access token",
+                    "target": "GitHub 个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Git commit message",
+                    "target": "Git 提交信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Author name",
+                    "target": "作者名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete cache",
+                    "target": "删除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Post settings",
+                    "target": "文章设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Post prefix",
+                    "target": "文章前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transform tags",
+                    "target": "转换标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image Transformer",
+                    "target": "图像转换器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Published flag",
+                    "target": "发布标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Confirm Export",
+                    "target": "确认导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Git: Changed files",
+                    "target": "Git：已更改的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Git: Success",
+                    "target": "Git：成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Nothing to commit, worktree clean.",
+                    "target": "无可提交，工作区干净。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "IndexedDB deletion blocked. Close other tabs and retry.",
+                    "target": "IndexedDB 删除被阻止。关闭其他标签页后重试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "link not found:",
+                    "target": "未找到链接:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "DB already cleared",
+                    "target": "数据库已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Database (used by git upload) cleared",
+                    "target": "用于 git 上传的数据库已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Couldn't delete database; see console for details",
+                    "target": "无法删除数据库；详情见控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting process",
+                    "target": "开始处理"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file active",
+                    "target": "没有活动文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "worktree clean",
+                    "target": "工作区干净"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obsidian Exporter",
+                    "target": "Obsidian Exporter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Successfully committed and pushed",
+                    "target": "成功提交并推送"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Repository",
+                    "target": "打开仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Nothing to commit",
+                    "target": "没有可提交的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Failed to push",
+                    "target": "推送失败"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
