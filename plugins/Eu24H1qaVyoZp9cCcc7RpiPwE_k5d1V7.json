@@ -1,0 +1,163 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "inbox",
+        "version": "1.0.0",
+        "title": "Inbox",
+        "description": "Inbox Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Restart Obsidian. You should <i>not</i> get a notification, since\n\t\t\t\tyour Inbox folder hasn&#39;t been updated externally.",
+                    "target": "重新启动 Obsidian。你<i>不应</i>收到通知，因为\n\t\t\t\t你的 Inbox 文件夹未在外部更新。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Open Obsidian. You <i>should</i> get a notification, because your\n\t\t\t\t&quot;Inbox&quot; folder was changed outside of Obsidian.",
+                    "target": "打开 Obsidian。你<i>应该</i>收到通知，因为你的\n\t\t\t\t“Inbox”文件夹在 Obsidian 之外被更改了。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Restart Obsidian. You should <i>not</i> get a notification, since\n\t\t\t\tyour Inbox note hasn&#39;t been updated externally.",
+                    "target": "重新启动 Obsidian。你<i>不应</i>收到通知，因为\n\t\t\t\t你的 Inbox 笔记未在外部更新。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Open Obsidian. You <i>should</i> get a notification, because your\n\t\t\t\t&quot;Inbox&quot; note was changed outside of Obsidian.",
+                    "target": "打开 Obsidian。你<i>应该</i>收到通知，因为你的\n\t\t\t\t“Inbox”笔记在 Obsidian 之外被更改了。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<li>Restart Obsidian. You should <i>not</i> get a notification, since\n\t\t\t\tyou haven&#39;t added anything to your &quot;Inbox&quot; note aside from anything\n\t\t\t\tadded before you ran the &quot;Set inbox note&quot; command.</li> \n\t\t\t<li>Add anything to your &quot;Inbox&quot; note.</li> \n\t\t\t<li>Restart Obsidian. You <i>should</i> get a notification, because your\n\t\t\t\t&quot;Inbox&quot; note no longer matches what you set it to when you ran the\n\t\t\t\t&quot;Set inbox note&quot; command.</li>",
+                    "target": "<li>重新启动 Obsidian。你<i>不应</i>收到通知，因为\n\t\t\t\t除在运行“Set inbox note”命令之前添加的内容外，\n\t\t\t\t你没有向“Inbox”笔记添加任何内容。</li> \n\t\t\t<li>向你的“Inbox”笔记添加任何内容。</li> \n\t\t\t<li>重新启动 Obsidian。你<i>应该</i>收到通知，因为你的\n\t\t\t\t“Inbox”笔记不再与运行“Set inbox note”命令时设置的内容匹配。</li>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Looks like you haven't setup Obsidian Inbox yet! Let's get started!",
+                    "target": "看起来你还没有设置 Obsidian Inbox！让我们开始吧！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "You've completed the walkthrough!",
+                    "target": "你已完成演练！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Feel free to close the walkthrough, or go back if you missed something!\n\t\tYou can always re-open this walkthrough in the plugin settings.",
+                    "target": "你可以关闭该演练，或在遗漏内容时返回！\n\t\t你随时可以在插件设置中重新打开此演练。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Alright, let's verify that this is working.",
+                    "target": "好的，让我们验证它是否正常工作。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Click the \"Next\" button below to continue.",
+                    "target": "点击下方的“Next”按钮继续。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "What would you like to compare your inbox note's contents to when\n\t\tdeciding whether or not to show a notification on startup?",
+                    "target": "在决定启动时是否显示通知时，您希望将收件箱笔记的内容与什么进行比较？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "'Compare to last tracked' will compare to a snapshot from when Obsidian\n\t\twas last closed. This is the default, and is most commonly used when you\n\t\twant to know if a note was changes externally outside of Obsidian.",
+                    "target": "“Compare to last tracked”将与 Obsidian 上次关闭时的快照进行比较。这是默认选项，通常在您想知道笔记是否在 Obsidian 之外被外部更改时使用。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "'Compare to base' will compare to a base contents that you define. This\n\t\tis used for when you want to know if there's anything in your inbox\n\t\tnote, even if there haven't been any changes to your note since your\n\t\tlast startup.",
+                    "target": "“Compare to base”将与您定义的基准内容进行比较。用于在您想知道收件箱笔记中是否有任何内容时，即使自上次启动以来笔记没有任何更改。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Would you like to be notified when changes are made to a note, or when\n\t\tnew files are added to a folder?",
+                    "target": "您希望在笔记被更改时通知，还是在文件夹中添加新文件时通知？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Select the note that you want to be notified of when it's contents\n\t\t\tare changed.",
+                    "target": "选择当其内容被更改时您希望收到通知的笔记。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Obsidian Inbox Walkthrough",
+                    "target": "Obsidian 收件箱使用引导"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No options",
+                    "target": "无选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This will open a pane in the sidebar to guide you through how to use this plugin.",
+                    "target": "这将在侧边栏打开一个窗格，引导您了解如何使用此插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Compare to last tracked",
+                    "target": "与上次跟踪比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Compare to base",
+                    "target": "与基准比较"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start walkthrough",
+                    "target": "开始引导"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "# Inbox",
+                    "target": "# 收件箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "What to compare the inbox note contents to when deciding whether or not to notify. 'Compare to last tracked' will compare to a snapshot from when Obsidian was last closed. 'Compare to base' will compare to a base contents that you define.",
+                    "target": "在决定是否通知时，用什么来对比收件箱笔记内容。“与上次跟踪比较”会与 Obsidian 上次关闭时的快照进行比较。“与基准比较”会与您定义的基准内容进行比较。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "If tracking note, will notify when a note's content is updated. If tracking folder, will notify when new files are added to a folder.",
+                    "target": "如果跟踪笔记，当笔记内容更新时会通知。如果跟踪文件夹，当有新文件添加到文件夹时会通知。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
