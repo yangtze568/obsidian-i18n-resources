@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "messager",
+        "version": "1.0.0",
+        "title": "Messager",
+        "description": "Messager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MessageToObsidian addNote exception:",
+                    "target": "MessageToObsidian addNote 异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "saveUrlToLocal err,url:",
+                    "target": "saveUrlToLocal 错误,url:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "resp err:",
+                    "target": "响应错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "saveUrlToLocal vault.createBinary err,file not saved.",
+                    "target": "saveUrlToLocal vault.createBinary 错误,文件未保存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "saveUrlToLocal createBinary err:",
+                    "target": "saveUrlToLocal createBinary 错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "no configTmpName err.",
+                    "target": "无 configTmpName 错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "attachment regex match result not 2",
+                    "target": "附件正则匹配结果不是2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Messager plugin err:",
+                    "target": "Messager 插件错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "准备addNote",
+                    "target": "准备addNote"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "匹配了matches",
+                    "target": "匹配了matches"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
