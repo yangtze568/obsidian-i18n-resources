@@ -1,0 +1,3427 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "notemd",
+        "version": "1.0.0",
+        "title": "Notemd",
+        "description": "Notemd Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.6.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Processes the current file to add [[wiki-links]] and create concept notes.",
+                    "target": "处理当前文件以添加 [[wiki-links]] 并创建概念笔记。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Processes all files in a selected folder to add [[wiki-links]] and create concept notes.",
+                    "target": "处理所选文件夹中的所有文件以添加 [[wiki-links]] 并创建概念笔记。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Uses the current note title or selection for web search and appends an LLM summary.",
+                    "target": "使用当前笔记标题或所选内容进行网络搜索，并追加 LLM 摘要。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Generates content for the current note based on its title, replacing existing content.",
+                    "target": "根据当前笔记标题生成内容，替换现有内容。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Generates content for all notes in a selected folder based on their titles.",
+                    "target": "根据所选文件夹中所有笔记的标题生成内容。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Translates the selected text using the configured provider.",
+                    "target": "使用配置的提供商翻译所选文本。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Translates all files in a selected folder.",
+                    "target": "翻译所选文件夹中的所有文件。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Summarises the current note content as a Mermaid mindmap diagram and saves it to a new file.",
+                    "target": "将当前笔记内容总结为 Mermaid 思维导图并保存到新文件。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Extracts concepts from the current file and creates concept notes without modifying the original file.",
+                    "target": "从当前文件中提取概念并创建概念笔记，不修改原文件。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Extracts concepts from all files in a selected folder and creates concept notes without modifying the original files.",
+                    "target": "从所选文件夹中的所有文件提取概念并创建概念笔记，不修改原文件。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Extracts verbatim text from the current file based on questions defined in settings.",
+                    "target": "根据设置中定义的问题从当前文件提取原文。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Fixes Mermaid and LaTeX syntax in all Markdown files in a selected folder.",
+                    "target": "修复所选文件夹中所有 Markdown 文件的 Mermaid 和 LaTeX 语法。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Converts single $ lines to $$ blocks in the current file.",
+                    "target": "将当前文件中的单个 $ 行转换为 $$ 块。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Converts single $ lines to $$ blocks for all files in a folder.",
+                    "target": "将文件夹中所有文件的单个 $ 行转换为 $$ 块。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Checks Concept Note folder for duplicates and prompts for deletion.",
+                    "target": "检查概念笔记文件夹中的重复项并提示删除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DuckDuckGo (experimental)",
+                    "target": "DuckDuckGo（实验性）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tavily (requires API key)",
+                    "target": "Tavily（需要 API 密钥）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Advanced (2 Credits)",
+                    "target": "高级（2 积分）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Concept folder only (compares concept notes against each other)",
+                    "target": "仅概念文件夹（将概念笔记相互比较）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Exclude specific folders (compares concept notes to notes outside specified folders)",
+                    "target": "排除指定文件夹（将概念笔记与指定文件夹外的笔记比较）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Include specific folders only (compares concept notes to notes in specified folders)",
+                    "target": "仅包含指定文件夹（将概念笔记与指定文件夹内的笔记比较）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Entire vault (default - compares concept notes to all other notes)",
+                    "target": "整个库（默认 - 将概念笔记与所有其他笔记比较）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid icon loader:",
+                    "target": "无效的图标加载器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bailing out",
+                    "target": "正在退出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in cose-bilkent layout algorithm:",
+                    "target": "cose-bilkent 布局算法出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred during validation:",
+                    "target": "验证过程中发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing gitGraph options",
+                    "target": "解析 gitGraph 选项时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor link text",
+                    "target": "解析 actor 链接文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor properties text",
+                    "target": "解析 actor 属性文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor details text",
+                    "target": "解析 actor 详情文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while drawing message",
+                    "target": "绘制消息时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Error injecting clickable links:",
+                    "target": "❌ 注入可点击链接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating format function:",
+                    "target": "创建格式化函数时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in concurrent task:",
+                    "target": "并发任务出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use the suppressErrors option to suppress these errors",
+                    "target": "使用 suppressErrors 选项来抑制这些错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid failed to initialize",
+                    "target": "Mermaid 初始化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error executing queue",
+                    "target": "执行队列时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing",
+                    "target": "解析出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy error to clipboard:",
+                    "target": "无法将错误复制到剪贴板："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating concept notes:",
+                    "target": "创建概念笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write to error_syntax_fix.log:",
+                    "target": "无法写入 error_syntax_fix.log："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save error log:",
+                    "target": "无法保存错误日志："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error ensuring plugin directory exists:",
+                    "target": "确保插件目录存在时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error exporting provider settings:",
+                    "target": "导出提供者设置时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error importing provider settings:",
+                    "target": "导入提供者设置时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking duplicates (Sidebar):",
+                    "target": "检查重复项时出错（侧边栏）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Batch translation error:",
+                    "target": "批量翻译错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Translation Error:",
+                    "target": "翻译错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking duplicates:",
+                    "target": "检查重复项时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not get right sidebar leaf.",
+                    "target": "无法获取右侧边栏叶节点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write to error log:",
+                    "target": "写入错误日志失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LLM Connection Test Error:",
+                    "target": "LLM 连接测试错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Summarization Error:",
+                    "target": "摘要错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "our points",
+                    "target": "我们的点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Circle intersect",
+                    "target": "Circle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "crossedCircle intersect",
+                    "target": "crossedCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "DoubleCircle intersect",
+                    "target": "DoubleCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "filledCircle intersect",
+                    "target": "filledCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Triangle intersect",
+                    "target": "Triangle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pill intersect",
+                    "target": "Pill 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "iconSquare intersect",
+                    "target": "iconSquare 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "lightningBolt intersect",
+                    "target": "lightningBolt 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Text 2",
+                    "target": "文本 2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Bang intersect",
+                    "target": "Bang 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cloud intersect",
+                    "target": "Cloud 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Creating subgraph rect for ",
+                    "target": "正在为 创建子图矩形 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "abc88 checking point",
+                    "target": "abc88 检查点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "to cluster abc88",
+                    "target": "到集群 abc88"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Descendants of ",
+                    "target": "后代为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " is ",
+                    "target": " 为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Edge is ",
+                    "target": "边为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "cp ",
+                    "target": "cp "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " to ",
+                    "target": " 到 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " with parent ",
+                    "target": " 父级为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "In copy ",
+                    "target": "在复制中 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Edge data",
+                    "target": "边数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Copying as ",
+                    "target": "正在复制为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "newGraph edges ",
+                    "target": "newGraph 边 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Skipping copy of edge ",
+                    "target": "跳过复制边 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " rootId: ",
+                    "target": " rootId: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " clusterId:",
+                    "target": " clusterId:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Recursive render XXX",
+                    "target": "递归渲染 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No nodes found for",
+                    "target": "未找到节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Recursive edges",
+                    "target": "递归边"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cluster identified XBX",
+                    "target": "已识别集群 XBX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "New compound node after recursive render XAX",
+                    "target": "递归渲染后的新复合节点 XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "ids:",
+                    "target": "ids:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Translating: ",
+                    "target": "正在转换："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Graph before layout:",
+                    "target": "布局前的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "############################################# XXX",
+                    "target": "############################################# XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "###                Layout                 ### XXX",
+                    "target": "###                布局                  ### XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Graph after layout:",
+                    "target": "布局后的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": ") width: ",
+                    "target": ") 宽度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " height: ",
+                    "target": " 高度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A tainted cluster node XBX1",
+                    "target": "一个受污染的集群节点 XBX1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A pure cluster node XBX1",
+                    "target": "一个纯净的集群节点 XBX1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A regular node XBX1 - using the padding",
+                    "target": "一个常规节点 XBX1 - 使用内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cytoscape ready",
+                    "target": "Cytoscape 就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "abc78 Got edge...",
+                    "target": "abc78 获取到边..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pushing edge...",
+                    "target": "正在推送边..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "REF0:",
+                    "target": "REF0:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing state diagram (v2)",
+                    "target": "正在绘制状态图（v2）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Added new entity :",
+                    "target": "已添加新实体："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing er diagram (unified)",
+                    "target": "正在绘制 ER 图（统一）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "main branch",
+                    "target": "主分支"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "clear called",
+                    "target": "已调用清除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing class diagram (v3)",
+                    "target": "正在绘制类图（v3）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "🔗 Wrapped node in <a> tag for:",
+                    "target": "🔗 已将节点包裹在 <a> 标签中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting cluster for XCX",
+                    "target": "正在为 XCX 设置集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting root doc",
+                    "target": "正在设置根文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Adding state ",
+                    "target": "正在添加状态 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state description",
+                    "target": "正在设置状态描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state classes",
+                    "target": "正在设置状态类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state styles",
+                    "target": "正在设置状态样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Documents = ",
+                    "target": "文档 = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Title height",
+                    "target": "标题高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Node: ",
+                    "target": "节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Classes = ",
+                    "target": "类 = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Question main (Circle)",
+                    "target": "问题主节点（圆形）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Label text abc79",
+                    "target": "标签文本 abc79"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Circle main",
+                    "target": "圆形主节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "DoubleCircle main",
+                    "target": "双圆主节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Totals:",
+                    "target": "总计："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Texture Atlases Used:",
+                    "target": "使用的纹理图集："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Garbage Collect!",
+                    "target": "垃圾回收！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "webgl rendering enabled",
+                    "target": "已启用 WebGL 渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "nothing to garbage collect",
+                    "target": "无可进行垃圾回收的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "garbage collect flag set",
+                    "target": "已设置垃圾回收标志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "If randomize option is set to false, then quality option must be 'default' or 'proof'.",
+                    "target": "如果 randomize 选项设为 false，则 quality 选项必须为 'default' 或 'proof'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DeepSeek] Response has reasoning_content but no content field",
+                    "target": "[DeepSeek] 响应包含 reasoning_content 但没有 content 字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[OpenRouter] Successfully parsed JSON response.",
+                    "target": "[OpenRouter] 成功解析 JSON 响应。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[OpenRouter] Warning: JSON parsing failed despite 200 OK. Using raw response text as potential content.",
+                    "target": "[OpenRouter] 警告：尽管返回 200 OK，JSON 解析失败。使用原始响应文本作为潜在内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning: Could not parse any valid results from DuckDuckGo HTML.",
+                    "target": "警告：无法从 DuckDuckGo HTML 解析出任何有效结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tavily returned no results.",
+                    "target": "Tavily 未返回任何结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Finished fetching content for DuckDuckGo results.",
+                    "target": "已完成获取 DuckDuckGo 结果的内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using snippets directly from Tavily results.",
+                    "target": "直接使用 Tavily 结果中的片段。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No content could be obtained from search results.",
+                    "target": "无法从搜索结果获取任何内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Entering researchAndSummarize function.",
+                    "target": "进入 researchAndSummarize 函数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error: No active file found in researchAndSummarize.",
+                    "target": "错误：在 researchAndSummarize 中未找到活动文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error: Could not get provider for 'research' task.",
+                    "target": "错误：无法获取 'research' 任务的提供方。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Mermaid/LaTeX cleanup applied to summary.",
+                    "target": "已对摘要应用 Mermaid/LaTeX 清理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Duplicate detection is disabled in settings.",
+                    "target": "设置中已禁用重复检测。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Potential duplicate/consistency issues found in content:",
+                    "target": "在内容中发现潜在的重复/一致性问题："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No concepts found in LLM output to create notes for.",
+                    "target": "LLM 输出中未发现可创建笔记的概念。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing mode: Move & Overwrite original file.",
+                    "target": "处理模式：移动并覆盖原始文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing mode: Overwrite original (custom setting).",
+                    "target": "处理模式：覆盖原始文件（自定义设置）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing mode: Create copy with custom suffix.",
+                    "target": "处理模式：使用自定义后缀创建副本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing mode: Create/Overwrite default processed copy.",
+                    "target": "处理模式：创建/覆盖默认处理副本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Research disabled for \"Generate from Title\".",
+                    "target": "“从标题生成”已禁用研究。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Mermaid/LaTeX cleanup applied.",
+                    "target": "已应用 Mermaid/LaTeX 清理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cancellation requested, stopping batch processing.",
+                    "target": "已请求取消，停止批量处理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cancellation requested, stopping batch fix.",
+                    "target": "已请求取消，停止批量修复。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to save error log file. Check console.",
+                    "target": "无法保存错误日志文件。请检查控制台。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Duplicate check mode: Comparing concept notes against 'Entire Vault' (excluding concept folder).",
+                    "target": "重复检查模式：将概念笔记与“Entire Vault”（不含概念文件夹）进行比较。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Duplicate check mode: Comparing concept notes against other notes within the 'Concept Folder Only'.",
+                    "target": "重复检查模式：将概念笔记与“Concept Folder Only”中的其他笔记进行比较。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skipping single-word containment check (mode: 'Concept Folder Only').",
+                    "target": "跳过单词包含检查（模式：“Concept Folder Only”）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Review the list above.",
+                    "target": "请查看上方列表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "User confirmed deletion. Proceeding...",
+                    "target": "用户确认删除。正在继续…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Deletion cancelled by user.",
+                    "target": "用户已取消删除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No potential duplicate concept notes found.",
+                    "target": "未发现潜在的重复概念笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "User requested cancellation.",
+                    "target": "用户请求取消。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "clearDisplay called.",
+                    "target": "clearDisplay 已调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Debug: \"Research & Summarize\" clicked, but no active Markdown file found.",
+                    "target": "调试：已点击“Research & Summarize”，但未找到活动的 Markdown 文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Translate button clicked but already processing. Ignoring.",
+                    "target": "已点击翻译按钮，但正在处理中。忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No active file to translate. Translate command not started.",
+                    "target": "没有可翻译的活动文件。翻译命令未启动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Translation cancelled by user.",
+                    "target": "用户已取消翻译。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Running automatic Mermaid syntax fix...",
+                    "target": "正在运行 Mermaid 语法自动修复…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Folder selection cancelled.",
+                    "target": "文件夹选择已取消。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "⚠️ Failed to write error details to log file.",
+                    "target": "⚠️ 无法将错误详情写入日志文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Running automatic Mermaid syntax fix on completed folder...",
+                    "target": "正在对已完成文件夹运行 Mermaid 语法自动修复…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Could not determine completed folder path for Mermaid fix.",
+                    "target": "无法确定用于 Mermaid 修复的已完成文件夹路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Translation complete.",
+                    "target": "翻译完成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export providers",
+                    "target": "导出服务提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Import providers",
+                    "target": "导入服务提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Export your current provider settings to a JSON file, or import settings from a file.",
+                    "target": "将当前提供商设置导出为 JSON 文件，或从文件导入设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the LLM provider to use for processing.",
+                    "target": "选择用于处理的 LLM 提供商。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Controls randomness (0=deterministic, 1=creative).",
+                    "target": "控制随机性（0=确定性，1=创造性）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Required API version for Azure OpenAI (e.g., 2024-02-15-preview)",
+                    "target": "Azure OpenAI 所需的 API 版本（例如 2024-02-15-preview）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Verify API key, endpoint, and model accessibility.",
+                    "target": "验证 API 密钥、端点和模型可访问性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Select a specific LLM provider for each task below. Off: Use the single \"Active Provider\".",
+                    "target": "开：为下方每个任务选择特定的 LLM 提供商。关：使用单一“活动提供商”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Save translated files to a specified path. Off: Save in the same folder as the original file.",
+                    "target": "开：将翻译文件保存到指定路径。关：保存在原文件所在文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder where translated files will be saved (relative to vault root).",
+                    "target": "翻译文件保存的文件夹（相对库根目录）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to use a custom suffix instead of the default \"_translated\".",
+                    "target": "启用后使用自定义后缀替代默认的“_translated”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The custom suffix to append to translated filenames.",
+                    "target": "追加到翻译文件名的自定义后缀。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Save Mermaid summary files to a specified path. Off: Save in the same folder as the original file.",
+                    "target": "开：将 Mermaid 摘要文件保存到指定路径。关：保存在原文件所在文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder where Mermaid summary files will be saved (relative to vault root).",
+                    "target": "Mermaid 摘要文件保存的文件夹（相对库根目录）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to use a custom suffix instead of the default \"_summ\".",
+                    "target": "启用后使用自定义后缀替代默认的“_summ”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The custom suffix to append to Mermaid summary filenames.",
+                    "target": "追加到 Mermaid 摘要文件名的自定义后缀。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If selected, the summary output will be translated into the user's selected translation language; if not selected, the default will be the original text language.",
+                    "target": "勾选后，摘要输出将翻译为用户选择的翻译语言；未勾选则默认使用原文语言。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Newly created concept notes will only contain the title. Off: They may include other content like backlinks.",
+                    "target": "开：新建概念笔记仅包含标题。关：可能包含反向链接等其他内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Add a backlink to the source document in the concept note. Off: Do not add backlinks during extraction.",
+                    "target": "开：在概念笔记中添加指向源文档的反向链接。关：提取时不添加反向链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Automatically retry failed LLM API calls. Off: Fail on first error.",
+                    "target": "开：自动重试失败的 LLM API 调用。关：首次错误即失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Wait time between retries.",
+                    "target": "重试间隔时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Enable detailed error logging (DeepSeek-style) for all providers to help diagnose API issues. Off: Use standard concise error reporting.",
+                    "target": "开：为所有提供商启用详细错误日志（DeepSeek 风格），帮助诊断 API 问题。关：使用标准简洁错误报告。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Save to specified path. Off: Save in original folder.",
+                    "target": "开：保存到指定路径。关：保存在原文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Relative path within vault.",
+                    "target": "库内相对路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Move original to processed folder. Off: Create copy named \"_processed.md\".",
+                    "target": "开：将原文件移动到已处理文件夹。关：创建名为“_processed.md”的副本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Create new concept notes in specified path. Off: Do not create automatically.",
+                    "target": "开：在指定路径创建新的概念笔记。关：不自动创建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Log newly created concept notes.",
+                    "target": "开：记录新创建的概念笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Relative path. Required if custom path enabled.",
+                    "target": "相对路径。启用自定义路径时必填。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name for the log file. Required if custom name enabled.",
+                    "target": "日志文件名称。启用自定义名称时必填。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Perform web research before generating.",
+                    "target": "开：生成前执行网页研究。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Automatically run a syntax fix pass on notes after using 'Generate from Title' or 'Create & Generate from Selection'.",
+                    "target": "开：使用“从标题生成”或“从选区创建并生成”后自动对笔记进行语法修复。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the list of questions to extract specific text for, separated by newlines.",
+                    "target": "输入要提取特定文本的问题列表，以换行分隔。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Move completed files to custom folder. Off: Move to '[original_foldername]_complete'.",
+                    "target": "开：将已完成文件移至自定义文件夹。关：移至“[original_foldername]_complete”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Subfolder name for completed files.",
+                    "target": "已完成文件的子文件夹名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Engine for \"Research and Summarize\".",
+                    "target": "“研究并总结”的引擎。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Required for Tavily. Get from tavily.com.",
+                    "target": "Tavily 必需。请从 tavily.com 获取。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Max results (1-20).",
+                    "target": "最大结果数（1-20）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\"advanced\" uses more credits.",
+                    "target": "“advanced”会消耗更多额度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Max results to parse.",
+                    "target": "要解析的最大结果数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Max wait time per result URL.",
+                    "target": "每个结果 URL 的最大等待时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Approx. max tokens from web results for summarization prompt.",
+                    "target": "用于总结提示词的网页结果最大 token 约数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Max words per chunk sent to LLM.",
+                    "target": "发送给 LLM 的每个分块最大字数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Max tokens LLM should generate per response.",
+                    "target": "LLM 每次响应应生成的最大 token 数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow parallel LLM calls for faster batch processing.",
+                    "target": "允许并行调用 LLM 以加快批处理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Max parallel LLM calls (1=serial). Respect API limits!",
+                    "target": "最大并行 LLM 调用数（1=串行）。请遵守 API 限制！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable checks for duplicate terms (results in console).",
+                    "target": "启用重复术语检查（结果在控制台）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the desired output language for LLM responses.",
+                    "target": "选择 LLM 响应的目标输出语言。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Select a specific language for each task below. Off: Use the single \"Output language\".",
+                    "target": "开：为下方每个任务选择特定语言。关：使用单一的“输出语言”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Non-Translate tasks do not force a target language or auto-translate outputs. The explicit \"Translate\" task still performs translation as configured.",
+                    "target": "开：非翻译任务不强制目标语言，也不自动翻译输出。明确的“翻译”任务仍按配置进行翻译。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If selected, the output will include a translation in the selected extraction language.",
+                    "target": "选中后，输出将包含所选提取语言的翻译。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Submit all questions in a single LLM prompt (faster/cheaper). Off: Process each question individually (higher precision).",
+                    "target": "开：将所有问题合并为一次 LLM 提示（更快/更省）。关：逐个处理问题（精度更高）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Use custom folder and suffix for extracted files. Off: Save in original folder with default \"_Extracted\" suffix.",
+                    "target": "开：为提取文件使用自定义文件夹和后缀。关：保存在原始文件夹并使用默认“_Extracted”后缀。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder where extracted files will be saved (relative to vault root).",
+                    "target": "提取的文件将保存到的文件夹（相对于库根目录）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The custom suffix to append to the filename (e.g., \"_MyExtract\").",
+                    "target": "要追加到文件名的自定义后缀（例如 \"_MyExtract\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Scan files for Mermaid syntax errors after fixing and generate a report. Off: Skip error detection.",
+                    "target": "开：修复后扫描文件中的 Mermaid 语法错误并生成报告。关：跳过错误检测。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Move any files that still contain Mermaid errors after fixing to a designated folder.",
+                    "target": "开：将修复后仍包含 Mermaid 错误的文件移动到指定文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to move files with errors to.",
+                    "target": "用于移动有错误文件的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define the scope for finding duplicate counterparts.",
+                    "target": "定义查找重复对应项的范围。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Use your custom prompt below for this task. Off: Use the default prompt.",
+                    "target": "开：对此任务使用下面的自定义提示词。关：使用默认提示词。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your custom prompt. Placeholders like {TITLE} or {RESEARCH_CONTEXT_SECTION} will be replaced if applicable for the task. Refer to the default prompt for available placeholders.",
+                    "target": "输入你的自定义提示词。若适用于该任务，{TITLE} 或 {RESEARCH_CONTEXT_SECTION} 等占位符将被替换。可参考默认提示词查看可用占位符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On: Add a specific learning domain to your prompts to improve contextual understanding. Off: Use the default general prompt.",
+                    "target": "开：在提示词中加入特定学习领域以提升上下文理解。关：使用默认通用提示词。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify one or more fields, e.g., 'Materials Science', 'Polymer Physics', 'Machine Learning'. This will be added to the beginning of your prompts.",
+                    "target": "指定一个或多个领域，例如“材料科学”“高分子物理”“机器学习”。这将添加到你的提示词开头。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "LLM providers",
+                    "target": "LLM 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manage provider configurations",
+                    "target": "管理提供商配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Active provider",
+                    "target": "当前提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Base URL / endpoint",
+                    "target": "基础 URL / 端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API version",
+                    "target": "API 版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Multi-model usage",
+                    "target": "多模型使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use different providers for tasks",
+                    "target": "为不同任务使用不同提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task: Translate",
+                    "target": "任务：翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customise translation file save path",
+                    "target": "自定义翻译文件保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translation save path",
+                    "target": "翻译保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom suffix for translated files",
+                    "target": "为翻译文件使用自定义后缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Suffix",
+                    "target": "自定义后缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task: Summarise as Mermaid diagram",
+                    "target": "任务：总结为 Mermaid 图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customise Mermaid summary save path",
+                    "target": "自定义 Mermaid 摘要保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mermaid summary save path",
+                    "target": "Mermaid 摘要保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom suffix for Mermaid summary files",
+                    "target": "为 Mermaid 摘要文件使用自定义后缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translate to corresponding language when summarising",
+                    "target": "摘要时翻译为对应语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task: Extract Concepts",
+                    "target": "任务：提取概念"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create minimal concept notes",
+                    "target": "创建简要概念笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add \"Linked From\" backlink",
+                    "target": "添加“Linked From”反向链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stable API calls",
+                    "target": "稳定的 API 调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable stable API calls (retry logic)",
+                    "target": "启用稳定的 API 调用（重试逻辑）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Retry interval (seconds)",
+                    "target": "重试间隔（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum retries",
+                    "target": "最大重试次数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API error debugging mode",
+                    "target": "API 错误调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Processed file output",
+                    "target": "处理后文件输出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize processed file save path",
+                    "target": "自定义处理后文件保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Processed file folder path",
+                    "target": "处理后文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Move original file after processing",
+                    "target": "处理后移动原始文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom output filename for 'Add links'",
+                    "target": "为“Add links”使用自定义输出文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Concept note output",
+                    "target": "概念笔记输出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize concept note path",
+                    "target": "自定义概念笔记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Concept note folder path",
+                    "target": "概念笔记文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Concept log file output",
+                    "target": "概念日志文件输出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Generate concept log file",
+                    "target": "生成概念日志文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize log file save path",
+                    "target": "自定义日志文件保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Concept log folder path",
+                    "target": "概念日志文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize log file name",
+                    "target": "自定义日志文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Concept log file name",
+                    "target": "概念日志文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content generation & output",
+                    "target": "内容生成与输出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable research in \"Generate from title\"",
+                    "target": "在“从标题生成”中启用研究"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-run Mermaid syntax fix after generation",
+                    "target": "生成后自动运行 Mermaid 语法修复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extract Specific Original Text",
+                    "target": "提取特定原文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Questions for extraction",
+                    "target": "提取问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom output folder for 'Generate from title'",
+                    "target": "为“从标题生成”使用自定义输出文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom output folder name",
+                    "target": "自定义输出文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Web research provider",
+                    "target": "网络研究提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search provider",
+                    "target": "搜索提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tavily API key",
+                    "target": "Tavily API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tavily max results",
+                    "target": "Tavily 最大结果数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tavily search depth",
+                    "target": "Tavily 搜索深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DuckDuckGo max results",
+                    "target": "DuckDuckGo 最大结果数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DuckDuckGo content fetch timeout (seconds)",
+                    "target": "DuckDuckGo 内容获取超时（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max research content tokens",
+                    "target": "研究内容最大 token 数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Processing parameters",
+                    "target": "处理参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chunk word count",
+                    "target": "分块词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max tokens",
+                    "target": "最大 token 数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Batch Processing",
+                    "target": "批处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Batch Parallelism",
+                    "target": "启用批处理并行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Batch Concurrency",
+                    "target": "批处理并发数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable duplicate detection",
+                    "target": "启用重复检测"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Language settings",
+                    "target": "语言设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output language",
+                    "target": "输出语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select different languages for different tasks.",
+                    "target": "为不同任务选择不同语言。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable auto translation (except for \"Translate\" task)",
+                    "target": "禁用自动翻译（“Translate”任务除外）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translate output to corresponding language",
+                    "target": "将输出翻译为对应语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Merged query mode",
+                    "target": "合并查询模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customise extracted text save path & filename",
+                    "target": "自定义提取文本保存路径和文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extracted file save path",
+                    "target": "提取文件保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Batch Mermaid fix",
+                    "target": "批量 Mermaid 修复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Mermaid Error Detection",
+                    "target": "启用 Mermaid 错误检测"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Move files with Mermaid errors to specified folder",
+                    "target": "将包含 Mermaid 错误的文件移动到指定文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mermaid error folder path",
+                    "target": "Mermaid 错误文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Duplicate check scope",
+                    "target": "重复检查范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Duplicate check scope mode",
+                    "target": "重复检查范围模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom prompt settings",
+                    "target": "自定义提示设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable custom prompts for specific tasks",
+                    "target": "为特定任务启用自定义提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Focused learning domain",
+                    "target": "专注学习领域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable focused learning domain",
+                    "target": "启用专注学习领域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Learning domain",
+                    "target": "学习领域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter API version",
+                    "target": "输入 API 版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Translations",
+                    "target": "例如：Translations"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Summaries/Mermaid",
+                    "target": "例如：Summaries/Mermaid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Processed/Notes",
+                    "target": "例如：Processed/Notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Concepts",
+                    "target": "例如：Concepts"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Logs/ConceptLogs",
+                    "target": "例如：Logs/ConceptLogs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your questions here...",
+                    "target": "在此输入你的问题..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter Tavily API key (tvly-...)",
+                    "target": "输入 Tavily API 密钥（tvly-...）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., ExtractedData",
+                    "target": "例如：ExtractedData"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Notes/ProjectA\nSource Material",
+                    "target": "例如，Notes/ProjectA\n源材料"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., 'Materials Science', 'Polymer Physics'",
+                    "target": "例如，'材料科学'，'高分子物理'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Copy Error Details",
+                    "target": "复制错误详情"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm duplicate deletion",
+                    "target": "确认删除重复项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Processing stopped.",
+                    "target": "处理已停止。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Select Folder",
+                    "target": "选择文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Batch Translate",
+                    "target": "批量翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save provider configurations",
+                    "target": "保存提供方配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Load provider configurations (merges)",
+                    "target": "加载提供方配置（合并）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: KaTeX doesn't work in quirks mode. Make sure your website has a suitable doctype.",
+                    "target": "警告：KaTeX 在怪异模式下无法工作。请确保你的网站使用合适的 doctype。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 cutPathAtIntersect",
+                    "target": "abc88 cutPathAtIntersect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 no intersect",
+                    "target": "abc88 no intersect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 outside",
+                    "target": "abc88 outside"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copying children of ",
+                    "target": "正在复制子节点于 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copying (nodes) clusterId",
+                    "target": "正在复制（节点）clusterId"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting parent",
+                    "target": "正在设置父级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster identified",
+                    "target": "已识别集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Edge: ",
+                    "target": "边： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " leaves cluster ",
+                    "target": " 离开集群 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Descendants of XXX ",
+                    "target": "XXX 的后代 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fix XXX",
+                    "target": "修复 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ids:",
+                    "target": "ids:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Translating: ",
+                    "target": "正在翻译： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " --- ",
+                    "target": " --- "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fix Replacing with XXX",
+                    "target": "修复为替换为 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Adjusted Graph",
+                    "target": "已调整的图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "extractor - ",
+                    "target": "提取器 - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster without external connections, without a parent and with children",
+                    "target": "没有外部连接、没有父节点且有子节点的集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fixing dir",
+                    "target": "正在修复 dir"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Old graph before copy",
+                    "target": "复制前的旧图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "New graph after copy node: (",
+                    "target": "复制节点后的新图：（"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster ** ",
+                    "target": "集群 ** "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " **not meeting the criteria !externalConnections:",
+                    "target": " **不符合条件 !externalConnections:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " no parent: ",
+                    "target": " 无父节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " children ",
+                    "target": " 子节点 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "New list of nodes",
+                    "target": "新的节点列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " Now next level",
+                    "target": " 现在进入下一层"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph in recursive render:XAX",
+                    "target": "递归渲染中的图：XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Returning from recursive render XAX",
+                    "target": "从递归渲染返回 XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph at first:",
+                    "target": "初始图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph after XAX:",
+                    "target": "XAX 后的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "flowchart-elk was moved to an external package in Mermaid v11. Please refer [release notes](https://github.com/mermaid-js/mermaid/releases/tag/v11.0.0) for more details. This diagram will be rendered using `dagre` layout as a fallback.",
+                    "target": "在 Mermaid v11 中，flowchart-elk 已移动到外部包。请参阅[发布说明](https://github.com/mermaid-js/mermaid/releases/tag/v11.0.0)了解更多详情。该图将使用 `dagre` 布局作为回退渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The difference between the min and max time is more than 5 years. This will cause performance issues. Skipping drawing exclude days.",
+                    "target": "最小和最大时间的差值超过 5 年。这将导致性能问题。跳过绘制排除的天数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Invalid or missing stateId from key:",
+                    "target": "⚠️ 从键中获取的 stateId 无效或缺失："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Could not find node matching text:",
+                    "target": "⚠️ 未找到匹配文本的节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Node has no parent, cannot wrap:",
+                    "target": "⚠️ 节点没有父节点，无法包裹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Adding link",
+                    "target": "正在添加链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Intersect called",
+                    "target": "已调用 Intersect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mermaid.init is deprecated. Please use run instead.",
+                    "target": "mermaid.init 已弃用。请改用 run。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Skipping invalid provider object during import:",
+                    "target": "导入时跳过无效的 provider 对象："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error details copied to clipboard!",
+                    "target": "错误详情已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy error details. See console.",
+                    "target": "复制错误详情失败。请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select the topic text in the editor first, or ensure the note has a title.",
+                    "target": "请先在编辑器中选中主题文本，或确保该笔记有标题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Duplicate deletion cancelled.",
+                    "target": "重复项删除已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No potential duplicate concept notes found.",
+                    "target": "未发现潜在重复的概念笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active provider reset to default as previous one was not found after import.",
+                    "target": "由于导入后未找到先前的 provider，已将活动 provider 重置为默认值。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid path(s) detected. Settings not saved for this field.",
+                    "target": "检测到无效路径。该字段的设置未保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Default prompt copied to clipboard!",
+                    "target": "默认提示已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processing already in progress.",
+                    "target": "正在处理中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown file selected.",
+                    "target": "未选择活动的 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file to translate.",
+                    "target": "没有可翻译的活动文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active .md/.txt file.",
+                    "target": "没有活动的 .md/.txt 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active '.md' or '.txt' file to check.",
+                    "target": "没有可检查的活动 '.md' 或 '.txt' 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot test connection while processing.",
+                    "target": "处理过程中无法测试连接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Log copied!",
+                    "target": "日志已复制！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy log.",
+                    "target": "复制日志失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No markdown files found in the selected folder.",
+                    "target": "所选文件夹中未找到 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Batch translation failed. See console for details.",
+                    "target": "批量翻译失败。详情请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No provider configured for translation.",
+                    "target": "未配置用于翻译的 provider。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to translate file. See console for details.",
+                    "target": "翻译文件失败。详情请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown file selected or file changed.",
+                    "target": "未选择活动的 Markdown 文件或文件已更改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown editor found.",
+                    "target": "未找到活动的 Markdown 编辑器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select a valid word (2+ chars).",
+                    "target": "请选择有效单词（2 个以上字符）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Set Concept Note Folder in settings.",
+                    "target": "请在设置中设置概念笔记文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Batch processing cancelled.",
+                    "target": "批量处理已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file.",
+                    "target": "没有活动文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No topic found (select text or use note title).",
+                    "target": "未找到主题（请选择文本或使用笔记标题）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Batch generation cancelled.",
+                    "target": "批量生成已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Another process is running. Please wait.",
+                    "target": "另一个进程正在运行。请稍候。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Mermaid diagram summarization complete!",
+                    "target": "Mermaid 图表总结完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No concepts found to extract.",
+                    "target": "未找到可提取的概念。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Batch extraction cancelled.",
+                    "target": "批量提取已取消。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "<g><rect width=\"80\" height=\"80\" style=\"fill: #087ebf; stroke-width: 0px;\"/><text transform=\"translate(21.16 64.67)\" style=\"fill: #fff; font-family: ArialMT, Arial; font-size: 67.75px;\"><tspan x=\"0\" y=\"0\">?</tspan></text></g>",
+                    "target": "<g><rect width=\"80\" height=\"80\" style=\"fill: #087ebf; stroke-width: 0px;\"/><text transform=\"translate(21.16 64.67)\" style=\"fill: #fff; font-family: ArialMT, Arial; font-size: 67.75px;\"><tspan x=\"0\" y=\"0\">?</tspan></text></g>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Test connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You are a helpful assistant.",
+                    "target": "你是一个有帮助的助手。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "This is a connection test.",
+                    "target": "这是一次连接测试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Markdown-ish syntax for generating flowcharts, mindmaps, sequence diagrams, class diagrams, gantt charts, git graphs and more.",
+                    "target": "用于生成流程图、思维导图、时序图、类图、甘特图、Git 图等的类 Markdown 语法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render math in display mode, which puts the math in display style (so \\int and \\sum are large, for example), and centers the math on the page on its own line.",
+                    "target": "以显示模式渲染数学公式，使公式采用显示样式（例如 \\int 和 \\sum 会更大），并在页面上单独成行居中显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determines the markup language of the output.",
+                    "target": "确定输出的标记语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math in leqno style (left-justified tags).",
+                    "target": "以 leqno 样式渲染显示公式（标签左对齐）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math flush left.",
+                    "target": "将显示公式左对齐渲染。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Makes \\color behave like LaTeX's 2-argument \\textcolor, instead of LaTeX's one-argument \\color mode change.",
+                    "target": "使 \\color 的行为类似于 LaTeX 的双参数 \\textcolor，而不是 LaTeX 的单参数 \\color 模式切换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.",
+                    "target": "开启严格 / LaTeX 忠实模式，如果输入使用了 LaTeX 不支持的特性将报错。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trust the input, enabling all HTML features such as \\url.",
+                    "target": "信任输入，启用所有 HTML 特性，例如 \\url。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.",
+                    "target": "将宏展开次数限制为指定数量，以防止例如无限宏循环。若设为 Infinity，宏展开器将尝试像 LaTeX 一样完全展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Standard process shape",
+                    "target": "标准流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents an event",
+                    "target": "表示一个事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal point",
+                    "target": "终点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Database storage",
+                    "target": "数据库存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Starting point",
+                    "target": "起点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Decision-making step",
+                    "target": "决策步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Preparation or condition step",
+                    "target": "准备或条件步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents input or output",
+                    "target": "表示输入或输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents output or input",
+                    "target": "表示输出或输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Priority action",
+                    "target": "优先操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a manual task",
+                    "target": "表示手动任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a stop point",
+                    "target": "表示停止点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text block",
+                    "target": "文本块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a card",
+                    "target": "表示卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lined process shape",
+                    "target": "带线条的流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Small starting point",
+                    "target": "小起点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stop point",
+                    "target": "停止点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fork or join in process flow",
+                    "target": "流程中的分叉或汇合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a collate operation",
+                    "target": "表示整理操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adds a comment",
+                    "target": "添加注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Communication link",
+                    "target": "通信链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a document",
+                    "target": "表示文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a delay",
+                    "target": "表示延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Direct access storage",
+                    "target": "直接访问存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Disk storage",
+                    "target": "磁盘存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a display",
+                    "target": "表示显示器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Divided process shape",
+                    "target": "分割的流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Extraction process",
+                    "target": "提取过程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Internal storage",
+                    "target": "内部存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Junction point",
+                    "target": "汇合点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Loop limit step",
+                    "target": "循环限制步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manual file operation",
+                    "target": "手动文件操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manual input step",
+                    "target": "手动输入步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Multiple documents",
+                    "target": "多个文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Multiple processes",
+                    "target": "多个流程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stored data",
+                    "target": "存储数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tagged document",
+                    "target": "带标签的文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tagged process",
+                    "target": "带标签的流程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paper tape",
+                    "target": "纸带"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odd shape",
+                    "target": "不规则形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lined document",
+                    "target": "有线条的文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This Object indicates the Parser is during Recording Phase",
+                    "target": "此对象表示解析器处于记录阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Warning: No LINE_BREAKS Found.\n\tThis Lexer has been defined to track line and column information,\n\tBut none of the Token Types can be identified as matching a line terminator.\n\tSee https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\tfor details.",
+                    "target": "警告：未找到 LINE_BREAKS。\n\t此词法分析器已定义为跟踪行和列信息，\n\t但没有任何 Token 类型可被识别为匹配行终止符。\n\t详见 https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\t了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Successfully connected to Anthropic API.",
+                    "target": "已成功连接到 Anthropic API。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Successfully connected to Google API.",
+                    "target": "已成功连接到 Google API。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rounded Rectangle",
+                    "target": "圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Framed Rectangle",
+                    "target": "带框矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lean Right",
+                    "target": "右倾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lean Left",
+                    "target": "左倾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoid Base Bottom",
+                    "target": "梯形下底"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoid Base Top",
+                    "target": "梯形上底"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Double Circle",
+                    "target": "双圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Block",
+                    "target": "文本块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notched Rectangle",
+                    "target": "缺口矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Rectangle",
+                    "target": "线条矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Small Circle",
+                    "target": "小圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Framed Circle",
+                    "target": "带框圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filled Rectangle",
+                    "target": "实心矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curly Brace",
+                    "target": "花括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curly Braces",
+                    "target": "花括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Bolt",
+                    "target": "闪电"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Half-Rounded Rectangle",
+                    "target": "半圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horizontal Cylinder",
+                    "target": "水平圆柱体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Cylinder",
+                    "target": "线条圆柱体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curved Trapezoid",
+                    "target": "弧形梯形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Divided Rectangle",
+                    "target": "分割矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Window Pane",
+                    "target": "窗格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filled Circle",
+                    "target": "实心圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoidal Pentagon",
+                    "target": "梯形五边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flipped Triangle",
+                    "target": "翻转三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sloped Rectangle",
+                    "target": "斜面矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stacked Document",
+                    "target": "叠放文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stacked Rectangle",
+                    "target": "叠放矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bow Tie Rectangle",
+                    "target": "蝴蝶结矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crossed Circle",
+                    "target": "交叉圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagged Document",
+                    "target": "带标签文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagged Rectangle",
+                    "target": "带标签矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Document",
+                    "target": "线条文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "This CSTNode indicates the Parser is in Recording Phase\n\tSee: https://chevrotain.io/docs/guide/internals.html#grammar-recording for details",
+                    "target": "此 CSTNode 表示解析器处于记录阶段\n\t详情请参阅: https://chevrotain.io/docs/guide/internals.html#grammar-recording"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Azure OpenAI",
+                    "target": "Azure OpenAI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Español",
+                    "target": "西班牙语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Français",
+                    "target": "法语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Português",
+                    "target": "葡萄牙语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "简体中文",
+                    "target": "简体中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "繁體中文",
+                    "target": "繁体中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日本語",
+                    "target": "日语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "한국어",
+                    "target": "韩语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Русский",
+                    "target": "俄语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "العربية",
+                    "target": "阿拉伯语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "हिन्दी",
+                    "target": "印地语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "বাংলা",
+                    "target": "孟加拉语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Türkçe",
+                    "target": "土耳其语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "עברית",
+                    "target": "希伯来语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ไทย",
+                    "target": "泰语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ελληνικά",
+                    "target": "希腊语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Čeština",
+                    "target": "捷克语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Română",
+                    "target": "罗马尼亚语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Українська",
+                    "target": "乌克兰语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tiếng Việt",
+                    "target": "越南语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bahasa Indonesia",
+                    "target": "印度尼西亚语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bahasa Melayu",
+                    "target": "马来语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Links (Process File/Folder)",
+                    "target": "添加链接 (处理文件/文件夹)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate from Title",
+                    "target": "从标题生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Research & Summarize",
+                    "target": "研究与总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Summarise as Mermaid diagram",
+                    "target": "以 Mermaid 图表总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Concepts",
+                    "target": "提取概念"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Specific Original Text",
+                    "target": "提取指定原文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Process current file (add links)",
+                    "target": "处理当前文件（添加链接）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Process folder (add links)",
+                    "target": "处理文件夹（添加链接）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Check for duplicates in current file",
+                    "target": "检查当前文件中的重复项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Test LLM connection",
+                    "target": "测试 LLM 连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate content from note title",
+                    "target": "根据笔记标题生成内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Research and summarize topic",
+                    "target": "研究并总结主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch generate content from titles",
+                    "target": "批量根据标题生成内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch fix Mermaid syntax",
+                    "target": "批量修复 Mermaid 语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fix formula formats (current file)",
+                    "target": "修复公式格式（当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch fix formula formats",
+                    "target": "批量修复公式格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate current file",
+                    "target": "翻译当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract concepts (create concept notes only)",
+                    "target": "提取概念（仅创建概念笔记）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch extract concepts from folder",
+                    "target": "从文件夹批量提取概念"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch Translate Folder",
+                    "target": "批量翻译文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Concepts and Generate Titles",
+                    "target": "提取概念并生成标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Wiki-Link & Generate Note from Selection",
+                    "target": "创建 Wiki 链接并从选区生成笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy Error Details",
+                    "target": "复制错误详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error: Could not find configuration for the active provider.",
+                    "target": "错误：找不到活动提供程序的配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy Default Prompt",
+                    "target": "复制默认提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Original processing",
+                    "target": "原始处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Process file (add links)",
+                    "target": "处理文件（添加链接）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Process folder (add links)",
+                    "target": "处理文件夹（添加链接）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New features",
+                    "target": "新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Research & summarize",
+                    "target": "研究与总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generate from title",
+                    "target": "根据标题生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Batch generate from titles",
+                    "target": "批量根据标题生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Batch Translate",
+                    "target": "批量翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Summarise as Mermaid diagram",
+                    "target": "总结为 Mermaid 图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extract concepts (current file)",
+                    "target": "提取概念（当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extract concepts (folder)",
+                    "target": "提取概念（文件夹）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extract Specific Original Text",
+                    "target": "提取指定原文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Batch Mermaid fix",
+                    "target": "批量修复 Mermaid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fix formula formats (current)",
+                    "target": "修复公式格式（当前）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Batch fix formula formats",
+                    "target": "批量修复公式格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Check duplicates (current file)",
+                    "target": "检查重复（当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Test LLM connection",
+                    "target": "测试 LLM 连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel processing",
+                    "target": "取消处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Log output",
+                    "target": "日志输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy log",
+                    "target": "复制日志"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
