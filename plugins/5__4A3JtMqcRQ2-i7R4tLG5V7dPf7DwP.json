@@ -1,0 +1,367 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sqlseal-charts",
+        "version": "1.0.0",
+        "title": "SQLSeal Charts",
+        "description": "SQLSeal Charts Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "✓ Formatted",
+                    "target": "✓ 已格式化"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Format JSON",
+                    "target": "格式化 JSON"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "✗ Invalid JSON5",
+                    "target": "✗ 无效的 JSON5"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "param should be highDownDispatcher",
+                    "target": "param 应为 highDownDispatcher"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Illegal media option. Must be like { media: [ { query: {}, option: {} } ] }",
+                    "target": "非法的 media 选项。必须类似 { media: [ { query: {}, option: {} } ] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Illegal media option. Must be an array. Like { media: [ {...}, {...} ] }",
+                    "target": "非法的 media 选项。必须是数组。例如 { media: [ {...}, {...} ] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`setOption` should not be called during main process.",
+                    "target": "`setOption` 不应在主进程中调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`resize` should not be called during main process.",
+                    "target": "`resize` 不应在主进程中调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Danger: only stack dimension can be modified",
+                    "target": "危险：只能修改堆栈维度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For some unknown reason. drawIndex is -1",
+                    "target": "由于某些未知原因。drawIndex 为 -1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid boundingCoords",
+                    "target": "无效的 boundingCoords"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Graph nodes have duplicate name or id",
+                    "target": "图形节点存在重复的名称或 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid morphing: unmatched splitted path",
+                    "target": "无效的变形：未匹配的拆分路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Configuration",
+                    "target": "添加配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create a new global configuration",
+                    "target": "创建新的全局配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A unique name to identify this configuration",
+                    "target": "用于标识此配置的唯一名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Configuration",
+                    "target": "添加新配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Configuration Name",
+                    "target": "配置名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Since Acorn 8.0.0, options.ecmaVersion is required.\nDefaulting to 2020, but this will stop working in the future.",
+                    "target": "自 Acorn 8.0.0 起，需要 options.ecmaVersion。\n默认使用 2020，但未来将不再生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "z / z2 / zlevel of displayable is invalid, which may cause unexpected errors",
+                    "target": "displayable 的 z / z2 / zlevel 无效，可能导致意外错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Currently only one tooltip component is allowed.",
+                    "target": "目前只允许一个 tooltip 组件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "There is no specified series model",
+                    "target": "未指定 series model"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "model or view can not be found by params",
+                    "target": "无法通过 params 找到 model 或 view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "There is a chart instance already initialized on the dom.",
+                    "target": "dom 上已初始化一个图表实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.",
+                    "target": "无法获取 DOM 宽度或高度。请检查 dom.clientWidth 和 dom.clientHeight。它们不应为 0。例如，你可能需要在 window.onload 的回调中调用此方法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Exceed safe limit.",
+                    "target": "超出安全限制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Boolean type for boundaryGap is only allowed for ordinal axis. Please use string in percentage instead, e.g., \"20%\". Currently, boundaryGap is set to be 0.",
+                    "target": "boundaryGap 的布尔类型仅允许用于 ordinal axis。请改用百分比字符串，例如 \"20%\"。当前，boundaryGap 被设置为 0。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Visual map on line style is only supported on cartesian2d.",
+                    "target": "线条样式上的 visual map 仅支持 cartesian2d。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Visual map on line style only support x or y dimension.",
+                    "target": "线条样式上的 visual map 仅支持 x 或 y 维度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Only cartesian2d and polar supported for bar.",
+                    "target": "bar 仅支持 cartesian2d 和 polar。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`realtimeSort` will not work because this bar series is not based on a category axis.",
+                    "target": "`realtimeSort` 将无法工作，因为该柱状系列不是基于类目轴。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`realtimeSort` will not work because this bar series is not on cartesian2d.",
+                    "target": "`realtimeSort` 将无法工作，因为该柱状系列不在 cartesian2d 上。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "project and unproject must be both provided in the projeciton.",
+                    "target": "project 和 unproject 必须同时在 projeciton 中提供。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Given layoutCenter or layoutSize data are invalid. Use left/top/width/height instead.",
+                    "target": "给定的 layoutCenter 或 layoutSize 数据无效。请改用 left/top/width/height。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Position error: Funnel chart on vertical orient dose not support top and bottom.",
+                    "target": "位置错误：纵向的漏斗图不支持 top 和 bottom。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Position error: Funnel chart on horizontal orient dose not support left and right.",
+                    "target": "位置错误：横向的漏斗图不支持 left 和 right。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SVG render mode doesn't support lines with trail effect",
+                    "target": "SVG 渲染模式不支持带尾迹效果的线条。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Large lines not support effect",
+                    "target": "大线条不支持效果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Lines data configuration has been changed to { coords:[[1,2],[2,3]] }",
+                    "target": "Lines 数据配置已更改为 { coords:[[1,2],[2,3]] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "End frame with percent: 1 is missing in the keyframeAnimation.",
+                    "target": "keyframeAnimation 中缺少百分比为 1 的结束帧。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Universal transition is disabled on large data > 10k.",
+                    "target": "大数据量（> 10k）已禁用通用过渡。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Open chart in fullscreen",
+                    "target": "全屏打开图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ADVANCED MODE",
+                    "target": "高级模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "SQLSeal Charts Settings",
+                    "target": "SQLSeal 图表设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Global Chart Configurations",
+                    "target": "全局图表配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Define reusable JSON5 configurations that can be accessed as variables in your charts.",
+                    "target": "定义可复用的 JSON5 配置，可在图表中作为变量访问。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Example Usage:",
+                    "target": "示例用法："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✨ Supports JSON5: unquoted keys, single quotes, trailing commas, and comments",
+                    "target": "✨ 支持 JSON5：未加引号的键、单引号、尾随逗号和注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No configurations found. Click \"Add Configuration\" to create one.",
+                    "target": "未找到配置。点击“添加配置”以创建一个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "← Back to List",
+                    "target": "← 返回列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "JSON5 Configuration:",
+                    "target": "JSON5 配置："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Supports unquoted keys, single quotes, trailing commas, and // comments",
+                    "target": "支持未加引号的键、单引号、尾随逗号和 // 注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Format JSON",
+                    "target": "格式化 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Data View",
+                    "target": "数据视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Save as Image",
+                    "target": "保存为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "数据视图",
+                    "target": "数据视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "还原",
+                    "target": "还原"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "保存为图片",
+                    "target": "保存为图片"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
