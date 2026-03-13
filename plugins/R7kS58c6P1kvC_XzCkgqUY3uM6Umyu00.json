@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lapel",
+        "version": "1.0.0",
+        "title": "Lapel",
+        "description": "Lapel Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle whether the heading markers are shown before or after the line numbers in the gutter.",
+                    "target": "切换标题标记是在边栏行号之前还是之后显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show before line numbers",
+                    "target": "在行号之前显示"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
