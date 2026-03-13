@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-day-and-night",
+        "version": "1.0.0",
+        "title": "Day and Night",
+        "description": "Day and Night Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "24-hour format",
+                    "target": "24小时制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Day and Night",
+                    "target": "启用昼夜"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Night Start Time",
+                    "target": "夜间开始时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Day Start Time",
+                    "target": "白天开始时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Day and Night plugin.",
+                    "target": "昼夜插件设置。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
