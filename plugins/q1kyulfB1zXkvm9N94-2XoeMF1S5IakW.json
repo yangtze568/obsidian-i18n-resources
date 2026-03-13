@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "latex-panel-helper",
+        "version": "1.0.0",
+        "title": "LaTeX Panel Helper",
+        "description": "LaTeX Panel Helper Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Paste your JSON here...",
+                    "target": "在此粘贴你的 JSON..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open LaTeX panel",
+                    "target": "打开 LaTeX 面板"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
