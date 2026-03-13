@@ -1,0 +1,1615 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "smart-templates",
+        "version": "1.0.0",
+        "title": "Smart Templates",
+        "description": "Smart Templates Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.14",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hide source data",
+                    "target": "隐藏源数据"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Show source data",
+                    "target": "显示源数据"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Edit context",
+                    "target": "编辑上下文"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Add property",
+                    "target": "添加属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "No folder selected",
+                    "target": "未选择文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting component",
+                    "target": "获取组件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Path: ",
+                    "target": "路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during write:",
+                    "target": "写入时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No callback or href found for button.",
+                    "target": "未找到按钮的回调或 href。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "get_many called with non-array keys:",
+                    "target": "get_many 被以非数组键调用："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in SmartHttpObsidianRequestAdapter.request():",
+                    "target": "SmartHttpObsidianRequestAdapter.request() 中的错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid response format",
+                    "target": "无效的响应格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid model data format from Ollama:",
+                    "target": "来自 Ollama 的模型数据格式无效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid response format from Ollama:",
+                    "target": "来自 Ollama 的响应格式无效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch model data:",
+                    "target": "获取模型数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in SmartChatModelApiAdapter.complete():",
+                    "target": "SmartChatModelApiAdapter.complete() 中的错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing stream chunk:",
+                    "target": "处理流分块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Stream error:",
+                    "target": "流错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "*API Error. See console logs for details.*",
+                    "target": "*API 错误。详情请查看控制台日志。*"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to start stream:",
+                    "target": "启动流失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in SmartCompletion.complete():",
+                    "target": "SmartCompletion.complete() 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[source_inspector] Error reading block:",
+                    "target": "[source_inspector] 读取区块出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "OAuth callback error",
+                    "target": "OAuth 回调错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy text:",
+                    "target": "复制文本失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "stream error",
+                    "target": "流错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy prompt:",
+                    "target": "复制提示失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "model_key not set",
+                    "target": "model_key 未设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "window.document not available",
+                    "target": "window.document 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "model loaded",
+                    "target": "模型已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "no chunk",
+                    "target": "无分块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "no re_render_settings",
+                    "target": "没有 re_render_settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "no chat_model, using collection chat_model",
+                    "target": "没有 chat_model，使用集合 chat_model"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "failed to parse tool_call in response_structured_output",
+                    "target": "无法解析 response_structured_output 中的 tool_call"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ActionCompletionAdapter: skipping tools, not the current completion",
+                    "target": "ActionCompletionAdapter: 跳过工具，不是当前 completion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ActionCompletionAdapter: from_response",
+                    "target": "ActionCompletionAdapter: from_response"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ActionXmlCompletionAdapter: skipping tools, not the current completion",
+                    "target": "ActionXmlCompletionAdapter: 跳过工具，不是当前 completion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Smart Connections: Waiting for Obsidian Sync to finish",
+                    "target": "Smart Connections: 等待 Obsidian Sync 完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "no reload_model needed",
+                    "target": "不需要 reload_model"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a folder to exclude...",
+                    "target": "选择要排除的文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a file to exclude...",
+                    "target": "选择要排除的文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Excluded Sources",
+                    "target": "排除的来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Smart Environment",
+                    "target": "智能环境"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Inspect active note",
+                    "target": "检查活动笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show stats",
+                    "target": "显示统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Learn about Community Supporters",
+                    "target": "了解社区支持者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SmartEnv: Reloading environment because of version mismatch",
+                    "target": "SmartEnv: 因版本不匹配而重新加载环境"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "get_link_target_path: file_paths not found",
+                    "target": "get_link_target_path: 未找到 file_paths"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Scope required for rendering markdown in Obsidian adapter",
+                    "target": "在 Obsidian 适配器中渲染 markdown 需要作用域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error rendering markdown in Obsidian adapter",
+                    "target": "在 Obsidian 适配器中渲染 markdown 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "nearest: no vec",
+                    "target": "nearest: 无 vec"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "furthest: no vec",
+                    "target": "furthest: 没有 vec"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Smart Connections: Error during import: re-queueing import",
+                    "target": "Smart Connections: 导入时出错：正在重新加入导入队列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Entity.search: keywords not set or is not an array",
+                    "target": "Entity.search: keywords 未设置或不是数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "search_filter.keywords not set",
+                    "target": "search_filter.keywords 未设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fixing trailing comma error",
+                    "target": "正在修复尾随逗号错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error parsing JSON:",
+                    "target": "解析 JSON 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "merge error: Expected an object from parse_markdown_blocks, but received:",
+                    "target": "合并错误：期望从 parse_markdown_blocks 获得对象，但收到："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Obsidian environment not found; cannot render markdown.",
+                    "target": "未找到 Obsidian 环境；无法渲染 markdown。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ObsidianMarkdownSourceContentAdapter: Timeout waiting for markdown to render.",
+                    "target": "ObsidianMarkdownSourceContentAdapter: 等待 markdown 渲染超时。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "re_render_settings is not a function (must be passed in model opts)",
+                    "target": "re_render_settings 不是函数（必须在 model opts 中传入）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "reload_model is not a function (must be passed in model opts)",
+                    "target": "reload_model 不是函数（必须在 model opts 中传入）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid model data, not re-rendering settings",
+                    "target": "模型数据无效，不重新渲染设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "models.dev fetch failed; continuing without enrichment",
+                    "target": "models.dev 获取失败；将继续而不进行增强"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No completion.request found, skipping complete().",
+                    "target": "未找到 completion.request，跳过 complete()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No chat model available for SmartCompletion. Check environment config.",
+                    "target": "没有可用于 SmartCompletion 的聊天模型。请检查环境配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "parse error for line: ",
+                    "target": "解析行时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "insert_image: no last_user_message",
+                    "target": "insert_image：没有 last_user_message"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "insert_pdf: no last_user_message",
+                    "target": "insert_pdf：没有 last_user_message"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No 'smart_contexts' collection found; skipping context adapter.",
+                    "target": "未找到 'smart_contexts' 集合；跳过上下文适配器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No 'smart_actions' collection found; skipping action adapter.",
+                    "target": "未找到 'smart_actions' 集合；跳过操作适配器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error generating action tool",
+                    "target": "生成操作工具时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No tool call found in response",
+                    "target": "响应中未找到工具调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not parse tool_call arguments",
+                    "target": "无法解析 tool_call 参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to compile OpenAPI → tools",
+                    "target": "无法编译 OpenAPI → tools"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ActionXmlCompletionAdapter: assistant message not found",
+                    "target": "ActionXmlCompletionAdapter：未找到助手消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SmartEnv: Unable to init source for newly created file",
+                    "target": "SmartEnv：无法为新创建的文件初始化源内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SmartEnv: Unable to init source for renamed file",
+                    "target": "SmartEnv：无法为重命名的文件初始化源内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SmartEnv: Unable to get source for modified file",
+                    "target": "SmartEnv：无法获取已修改文件的源内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active note found",
+                    "target": "未找到活动笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active note is not indexed by Smart Environment",
+                    "target": "活动笔记未被 Smart Environment 索引"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No OAuth code provided in URL. Login failed.",
+                    "target": "URL 中未提供 OAuth 代码。登录失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Smart Plugins installed / updated successfully!",
+                    "target": "Smart 插件安装/更新成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to copy text: no valid method found.",
+                    "target": "无法复制文本：未找到有效方法。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy.",
+                    "target": "复制失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Streaming error – see console.",
+                    "target": "流式处理出错——请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor.",
+                    "target": "没有活动的编辑器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create note.",
+                    "target": "创建笔记失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prompt copied to clipboard!",
+                    "target": "提示词已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy failed – see console.",
+                    "target": "复制失败——请查看控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Toggle on if this is an Obsidian vault.",
+                    "target": "如果这是 Obsidian 库，请开启此开关。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Comma-separated list of files to exclude.",
+                    "target": "要排除的文件列表，用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Comma-separated list of folders to exclude.",
+                    "target": "要排除的文件夹列表，用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Comma-separated list of headings to exclude. Note: currently only applies to blocks (2025-04-07).",
+                    "target": "要排除的标题列表，用逗号分隔。注意：目前仅适用于块（2025-04-07）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Turning on will include the folder path in the connections results.",
+                    "target": "开启后会在连接结果中包含文件夹路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Turn off to prevent rendering markdown and display connection results as plain text.",
+                    "target": "关闭以避免渲染 Markdown，并将连接结果显示为纯文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adjust the number of connections displayed in the connections view (default 20).",
+                    "target": "调整连接视图中显示的连接数量（默认 20）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Exclude notes that already link to the current note from the connections results.",
+                    "target": "将已链接到当前笔记的笔记从连接结果中排除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Exclude notes that are already linked from within the current note from appearing in the connections results.",
+                    "target": "将当前笔记中已链接的笔记从连接结果中排除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Notes must match this value in their file/folder path. Matching notes will be included in the connections results. Separate multiple values with commas.",
+                    "target": "笔记的文件/文件夹路径必须匹配此值。匹配的笔记将包含在连接结果中。多个值请用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Notes must *not* match this value in their file/folder path. Matching notes will be *excluded* from the connections results. Separate multiple values with commas.",
+                    "target": "笔记的文件/文件夹路径必须*不*匹配此值。匹配的笔记将从连接结果中*排除*。多个值请用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show only sources in the connections results (no blocks).",
+                    "target": "在连接结果中仅显示来源（不含区块）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show only sources in the connections results (no frontmatter blocks).",
+                    "target": "在连接结果中仅显示来源（不含 frontmatter 区块）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select a model platform to use with Smart Model.",
+                    "target": "选择与智能模型一起使用的模型平台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "OpenAI (API)",
+                    "target": "OpenAI（API）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 1,536 dim",
+                    "target": "API，8,191 个 tokens，1,536 维"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 3,072 dim",
+                    "target": "API，8,191 个 tokens，3,072 维"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 512 dim",
+                    "target": "API，8,191 个 tokens，512 维"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 256 dim",
+                    "target": "API，8,191 个 tokens，256 维"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Transformers (Local, built-in)",
+                    "target": "Transformers（本地，内置）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 512 tokens, 384 dim (recommended)",
+                    "target": "本地，512 个 tokens，384 维（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 512 tokens, 384 dim",
+                    "target": "本地，512 tokens，384 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 512 tokens, 768 dim",
+                    "target": "本地，512 tokens，768 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 4,096 tokens, 384 dim",
+                    "target": "本地，4,096 tokens，384 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 8,192 tokens, 768 dim, Chinese/English bilingual",
+                    "target": "本地，8,192 tokens，768 维度，中英双语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 8,192 tokens, 512 dim",
+                    "target": "本地，8,192 tokens，512 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 8,192 tokens, 768 dim",
+                    "target": "本地，8,192 tokens，768 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 2,048 tokens, 768 dim",
+                    "target": "本地，2,048 tokens，768 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ollama (Local)",
+                    "target": "Ollama（本地）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enter the host for your Ollama instance",
+                    "target": "请输入你的 Ollama 实例主机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 2,048 tokens, 768 dim",
+                    "target": "API，2,048 tokens，768 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select a platform/provider for chat models.",
+                    "target": "选择聊天模型的平台/提供商。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select a chat model.",
+                    "target": "选择聊天模型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Refresh the list of available models.",
+                    "target": "刷新可用模型列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enter your API key for the chat model platform.",
+                    "target": "输入聊天模型平台的 API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude",
+                    "target": "Anthropic Claude"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude Opus 4.1 snapshot (2025-08-05)",
+                    "target": "Anthropic Claude Opus 4.1 快照 (2025-08-05)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude Opus 4 snapshot (2025-05-14)",
+                    "target": "Anthropic Claude Opus 4 快照 (2025-05-14)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude Sonnet 4 snapshot (2025-05-14)",
+                    "target": "Anthropic Claude Sonnet 4 快照 (2025-05-14)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3.7 Sonnet (rolling-latest)",
+                    "target": "Anthropic Claude 3.7 Sonnet (rolling-latest)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3.7 Sonnet snapshot (2025-02-19)",
+                    "target": "Anthropic Claude 3.7 Sonnet 快照 (2025-02-19)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3.5 Sonnet (rolling-latest)",
+                    "target": "Anthropic Claude 3.5 Sonnet（滚动最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3.5 Sonnet snapshot (2024-10-22)",
+                    "target": "Anthropic Claude 3.5 Sonnet 快照（2024-10-22）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3.5 Haiku (rolling-latest)",
+                    "target": "Anthropic Claude 3.5 Haiku（滚动最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3.5 Haiku snapshot (2024-10-22)",
+                    "target": "Anthropic Claude 3.5 Haiku 快照（2024-10-22）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3 Opus (rolling-latest)",
+                    "target": "Anthropic Claude 3 Opus（滚动最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3 Opus snapshot (2024-02-29)",
+                    "target": "Anthropic Claude 3 Opus 快照（2024-02-29）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3 Sonnet snapshot (2024-02-29)",
+                    "target": "Anthropic Claude 3 Sonnet 快照（2024-02-29）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude 3 Haiku snapshot (2024-03-07)",
+                    "target": "Anthropic Claude 3 Haiku 快照（2024-03-07）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the image resolution for the chat model.",
+                    "target": "选择聊天模型的图像分辨率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Azure OpenAI",
+                    "target": "Azure OpenAI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The name of your Azure OpenAI resource (e.g. 'my-azure-openai').",
+                    "target": "你的 Azure OpenAI 资源名称（例如“my-azure-openai”）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The name of your specific model deployment (e.g. 'gpt35-deployment').",
+                    "target": "你的特定模型部署名称（例如“gpt35-deployment”）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The API version for Azure OpenAI (e.g. '2024-10-01-preview').",
+                    "target": "Azure OpenAI 的 API 版本（例如“2024-10-01-preview”）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open Router",
+                    "target": "Open Router"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "LM Studio (OpenAI‑compatible)",
+                    "target": "LM Studio（兼容 OpenAI）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pick a built-in or external adapter to parse request/response data.",
+                    "target": "选择内置或外部适配器来解析请求/响应数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enter the model name for your endpoint if needed.",
+                    "target": "如有需要，请输入你的端点的模型名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "e.g. http or https",
+                    "target": "例如 http 或 https"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Port number or leave blank",
+                    "target": "端口号或留空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path portion of the URL (leading slash optional)",
+                    "target": "URL 的路径部分（可选前导斜杠）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable streaming if your API supports it.",
+                    "target": "如果你的 API 支持，请启用流式传输。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Max number of tokens your model can handle in the prompt.",
+                    "target": "模型在提示词中可处理的最大 token 数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If your service requires an API key, add it here.",
+                    "target": "如果你的服务需要 API 密钥，请在此添加。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "xAI Grok",
+                    "target": "xAI Grok"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Time in seconds to wait before re-importing a file after modification.",
+                    "target": "文件修改后重新导入前需等待的时间（秒）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Headings/patterns to exclude; use newline to separate multiple patterns. Case-sensitive",
+                    "target": "要排除的标题/模式；使用换行分隔多个模式。区分大小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If off, any links found inside excluded heading sections are ignored (not followed).",
+                    "target": "若关闭，排除的标题区块内找到的链接将被忽略（不跟随）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text inserted at the top of the final output.",
+                    "target": "插入到最终输出顶部的文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text inserted at the bottom of the final output.",
+                    "target": "插入到最终输出底部的文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The language for the chat.",
+                    "target": "聊天的语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trigger lookup when user message references 'my notes', etc.",
+                    "target": "当用户消息提到“我的笔记”等时触发检索。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show retrieved context for approval before sending to AI.",
+                    "target": "在发送给 AI 前显示已检索的上下文以供确认。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to stream the response from the AI.",
+                    "target": "是否以流式方式返回 AI 的响应。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose which modifier (if any) is required with Enter to send the chat.",
+                    "target": "选择发送聊天时按 Enter 需要的修饰键（如有）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Reccommended if the model you're using supports it. Turn off to use more-compatible yet less-reliable format.",
+                    "target": "如果你使用的模型支持，建议开启。关闭后将使用更兼容但更不可靠的格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid comparison function",
+                    "target": "比较函数无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Comparison function did not return a result",
+                    "target": "比较函数未返回结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "hypotheticals is required",
+                    "target": "hypotheticals 为必填项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No model selected.",
+                    "target": "未选择模型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "API key is missing.",
+                    "target": "缺少 API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Selected model does not support tools.",
+                    "target": "所选模型不支持工具。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Configuration is valid.",
+                    "target": "配置有效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Azure resource name is missing.",
+                    "target": "缺少 Azure 资源名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Azure deployment name is missing.",
+                    "target": "缺少 Azure 部署名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Azure API version is missing.",
+                    "target": "缺少 Azure API 版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Azure OpenAI API key is missing.",
+                    "target": "缺少 Azure OpenAI API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "DeepSeek API key is missing.",
+                    "target": "缺少 DeepSeek API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No model selected for DeepSeek.",
+                    "target": "未为 DeepSeek 选择模型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obsidian Vault",
+                    "target": "Obsidian 库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File Exclusions",
+                    "target": "文件排除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folder Exclusions",
+                    "target": "文件夹排除项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excluded Headings",
+                    "target": "排除的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimum length",
+                    "target": "最小长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show full path",
+                    "target": "显示完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Render markdown",
+                    "target": "渲染 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Results limit",
+                    "target": "结果限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude inlinks (backlinks)",
+                    "target": "排除入链（反向链接）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude outlinks",
+                    "target": "排除出链"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Include filter",
+                    "target": "包含筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude filter",
+                    "target": "排除筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide blocks in results",
+                    "target": "在结果中隐藏块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide frontmatter blocks in results",
+                    "target": "在结果中隐藏前置信息块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Utilize Smart Blocks",
+                    "target": "使用智能块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Model Platform",
+                    "target": "模型平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "No models currently available",
+                    "target": "当前没有可用模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI Text-3 Small",
+                    "target": "OpenAI Text-3 Small"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI Text-3 Large",
+                    "target": "OpenAI Text-3 Large"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI Text-3 Small - 512",
+                    "target": "OpenAI Text-3 Small - 512"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI Text-3 Large - 256",
+                    "target": "OpenAI Text-3 Large - 256"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI Ada",
+                    "target": "OpenAI Ada"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPU batch size",
+                    "target": "GPU 批处理大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Legacy transformers (no GPU)",
+                    "target": "旧版 transformers（无 GPU）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ollama host",
+                    "target": "Ollama 主机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat Model Platform",
+                    "target": "聊天模型平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat Model",
+                    "target": "聊天模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh Models",
+                    "target": "刷新模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Opus 4.1 (2025-08-05)",
+                    "target": "Claude Opus 4.1（2025-08-05）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Opus 4 (2025-05-14)",
+                    "target": "Claude Opus 4（2025-05-14）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Sonnet 4 (2025-05-14)",
+                    "target": "Claude Sonnet 4（2025-05-14）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.7 Sonnet (latest)",
+                    "target": "Claude 3.7 Sonnet（最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.7 Sonnet (2025-02-19)",
+                    "target": "Claude 3.7 Sonnet（2025-02-19）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.5 Sonnet (latest)",
+                    "target": "Claude 3.5 Sonnet（最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.5 Sonnet (2024-10-22)",
+                    "target": "Claude 3.5 Sonnet（2024-10-22）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.5 Haiku (latest)",
+                    "target": "Claude 3.5 Haiku（最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.5 Haiku (2024-10-22)",
+                    "target": "Claude 3.5 Haiku（2024-10-22）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Opus (latest)",
+                    "target": "Claude 3 Opus（最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Opus (2024-02-29)",
+                    "target": "Claude 3 Opus（2024-02-29）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Sonnet (2024-02-29)",
+                    "target": "Claude 3 Sonnet（2024-02-29）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Haiku (2024-03-07)",
+                    "target": "Claude 3 Haiku（2024-03-07）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Image Resolution",
+                    "target": "图像分辨率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note about using OpenAI",
+                    "target": "关于使用 OpenAI 的说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Azure Resource Name",
+                    "target": "Azure 资源名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Azure Deployment Name",
+                    "target": "Azure 部署名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Azure API Version",
+                    "target": "Azure API 版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CORS required",
+                    "target": "需要 CORS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "API Adapter",
+                    "target": "API 适配器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Model Name",
+                    "target": "模型名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max Input Tokens",
+                    "target": "最大输入令牌数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Re-import wait time",
+                    "target": "重新导入等待时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Visible open files",
+                    "target": "可见打开的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All open files",
+                    "target": "所有打开的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excluded headings",
+                    "target": "排除的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Follow links in excluded headings?",
+                    "target": "在排除的标题中跟随链接？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before context",
+                    "target": "上下文前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "After context",
+                    "target": "上下文后"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Español",
+                    "target": "西班牙语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Français",
+                    "target": "法语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Português",
+                    "target": "葡萄牙语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Português (Brasil)",
+                    "target": "葡萄牙语（巴西）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日本語",
+                    "target": "日语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "한국어",
+                    "target": "韩语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "中文（简体）",
+                    "target": "中文（简体）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "中文（繁体）",
+                    "target": "中文（繁体）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "हिन्दी",
+                    "target": "印地语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "العربية",
+                    "target": "阿拉伯语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "বাংলা",
+                    "target": "孟加拉语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "اردو",
+                    "target": "乌尔都语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Українська",
+                    "target": "乌克兰语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Türkçe",
+                    "target": "土耳其语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Русский",
+                    "target": "俄语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Detect Self-Referential Pronouns",
+                    "target": "检测自指代词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Review Context",
+                    "target": "查看上下文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modifier key to send with Enter",
+                    "target": "按 Enter 发送的修饰键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use tool calling for actions",
+                    "target": "使用工具调用来执行操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Naming convention",
+                    "target": "命名规范"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter number ex. 300",
+                    "target": "输入数字，例如 300"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter OpenAI API key",
+                    "target": "输入 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter number ex. 10",
+                    "target": "输入数字，例如 10"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter Google API Key",
+                    "target": "输入 Google API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Additional instructions (optional)",
+                    "target": "附加说明（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Loading stats...",
+                    "target": "正在加载统计..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Failed to load stats.",
+                    "target": "加载统计失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No folders excluded yet.",
+                    "target": "尚未排除任何文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files excluded yet.",
+                    "target": "尚未排除任何文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy as prompt",
+                    "target": "复制为提示词"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
