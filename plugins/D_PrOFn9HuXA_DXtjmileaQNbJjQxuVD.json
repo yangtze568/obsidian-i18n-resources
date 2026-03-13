@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-heading-shifter",
+        "version": "1.0.0",
+        "title": "Heading Shifter",
+        "description": "Heading Shifter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.10.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "sync with headings",
+                    "target": "与标题同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Sync with headings",
+                    "target": "与标题同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "outdent to zero",
+                    "target": "减少缩进至零"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Outdent to 0",
+                    "target": "减少缩进至 0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The lower Heading Size that will be decreased by the Heading Shift ",
+                    "target": "将被标题位移减小的标题下限大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tab execute \"Increase Headings\" and Shift-Tab execute \"Decrease Headings\"",
+                    "target": "Tab 执行“增加标题”，Shift-Tab 执行“减少标题”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "1., 2. ,3. ,...",
+                    "target": "1., 2. ,3. ,..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Arbitrary string (regular expression)",
+                    "target": "任意字符串（正则表达式）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Lower limit of Heading",
+                    "target": "标题下限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable override tab behavior",
+                    "target": "启用覆盖 Tab 行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Unordered list",
+                    "target": "无序列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ordered list",
+                    "target": "有序列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User defined",
+                    "target": "用户自定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Children behavior",
+                    "target": "子元素行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tab size",
+                    "target": "制表符大小"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot Increase (contains more than Heading 6)",
+                    "target": "无法提升（包含超过 6 级标题）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading at current level",
+                    "target": "在当前级别插入标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading at one level deeper",
+                    "target": "在更深一级插入标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading at one level higher",
+                    "target": "在更高一级插入标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decrease Headings",
+                    "target": "降低标题级别"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
