@@ -1,0 +1,1315 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vikunja-sync",
+        "version": "1.0.0",
+        "title": "Vikunja Sync",
+        "description": "Vikunja Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.19",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deleting task",
+                    "target": "删除任务时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error adding label to task, mostly because it is already there",
+                    "target": "添加标签到任务时出错，多半因为已存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing json",
+                    "target": "解析 JSON 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "DataviewSearcher: Could not find page for file",
+                    "target": "DataviewSearcher：无法找到文件对应的页面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "DataviewSearcher: Could not find tasks for page",
+                    "target": "DataviewSearcher：无法找到页面的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "DataviewSearcher: Could not find file for task",
+                    "target": "DataviewSearcher：无法找到任务对应的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error while updating task in vault",
+                    "target": "在库中更新任务时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LabelsAPI: Could not get labels",
+                    "target": "LabelsAPI：无法获取标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting labels",
+                    "target": "获取标签时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义日记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "LabelsAPI: No labels there",
+                    "target": "LabelsAPI：没有标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cron interval must be a number and greater or equal than 20. Got",
+                    "target": "Cron 间隔必须为数字且大于或等于 20。收到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Save cache to disk frequency - high limits",
+                    "target": "保存缓存到磁盘的频率 - 高限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Save cache to disk frequency - low limits",
+                    "target": "保存缓存到磁盘的频率 - 低限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Got tasks:",
+                    "target": "SettingsTab：获取到任务："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Got projects:",
+                    "target": "SettingsTab：获取到项目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Selected Vikunja project:",
+                    "target": "SettingsTab: 已选择的 Vikunja 项目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Available views:",
+                    "target": "SettingsTab: 可用视图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Done bucket set to:",
+                    "target": "SettingsTab: 已完成分桶设置为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Selected Vikunja bucket:",
+                    "target": "SettingsTab: 已选择的 Vikunja 分桶："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Daily notes core plugin is not loaded. So we cannot create daily note. Please install daily notes core plugin. Interrupt now.",
+                    "target": "未加载 Daily notes core 插件。因此无法创建每日笔记。请安装 Daily notes core 插件。现在中断。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Output file not found. Please select a valid file to use File as output.",
+                    "target": "未找到输出文件。请选择有效文件作为输出文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Default project set to:",
+                    "target": "SettingsTab: 默认项目设置为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Start cache listener",
+                    "target": "SettingsTab: 启动缓存监听器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "SettingsTab: Start cron listener",
+                    "target": "SettingsTab: 启动 cron 监听器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Updating task",
+                    "target": "TasksApi: 正在更新任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Creating task",
+                    "target": "TasksApi: 正在创建任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Deleting task",
+                    "target": "TasksApi: 正在删除任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Deleted task",
+                    "target": "TasksApi: 已删除任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Adding labels to task",
+                    "target": "TasksApi: 正在为任务添加标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Adding label to task",
+                    "target": "TasksApi: 正在为任务添加标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Deleting labels from task",
+                    "target": "TasksApi: 正在从任务中删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Updating project id in tasks",
+                    "target": "TasksApi: 正在更新任务中的项目id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TasksApi: Updating project id in task",
+                    "target": "TasksApi: 正在更新任务中的项目id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: Filtering tasks to only default project",
+                    "target": "Step GetTask: 正在将任务筛选为仅默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: Filtered tasks to only default project",
+                    "target": "Step GetTask: 已将任务筛选为仅默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: Pulling tasks from vault",
+                    "target": "Step GetTask: 从vault拉取任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: Got tasks from Vikunja",
+                    "target": "Step GetTask: 已从Vikunja获取任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Starting update tasks",
+                    "target": "Step UpdateTask: 开始更新任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Split tasks after updated status, outstanding updates in vault",
+                    "target": "Step UpdateTask: 更新状态后拆分任务，vault中有待处理更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "outstanding updates in vikunja",
+                    "target": "vikunja中有待处理更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Find tasks which have updates on the other platform",
+                    "target": "Step UpdateTask: 查找在另一平台有更新的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: found Vikunja task",
+                    "target": "Step UpdateTask: 找到Vikunja任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " for Vault task",
+                    "target": " 为Vault任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: updated field is not defined",
+                    "target": "Step UpdateTask: updated字段未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Task is the same in both platforms",
+                    "target": "Step UpdateTask: 两个平台中的任务相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " updated on vault",
+                    "target": " 已在vault更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Updating tasks in vault and Vikunja",
+                    "target": "步骤 UpdateTask：正在更新vault和Vikunja中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Update tasks in vikunja",
+                    "target": "步骤 UpdateTask：更新vikunja中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Updated task in Vikunja",
+                    "target": "步骤 UpdateTask：已更新Vikunja中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step UpdateTask: Update tasks in vault",
+                    "target": "步骤 UpdateTask：更新vault中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step CreateTask: Creating tasks in Vikunja and vault",
+                    "target": "步骤 CreateTask：正在在Vikunja和vault中创建任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step SyncLabels: Deleting labels in Vikunja if not in vault.",
+                    "target": "步骤 SyncLabels：若不在vault中则删除Vikunja中的标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step SyncLabels: Not deleting labels in vikunja if ID not found in vault",
+                    "target": "步骤 SyncLabels：若在vault中找不到ID则不删除vikunja中的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step SyncLabels: Deleting labels in Vikunja",
+                    "target": "步骤 SyncLabels：删除Vikunja中的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step SyncLabels: Creating labels in Vikunja if not existing.",
+                    "target": "步骤 SyncLabels：若不存在则在Vikunja中创建标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step SyncLabels: Preparing labels for local tasks for vikunja update",
+                    "target": "步骤 SyncLabels：为 vikunja 更新准备本地任务的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: using file for indexing",
+                    "target": "步骤 GetTask：使用文件进行索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: Dataview metadata change",
+                    "target": "步骤 GetTask：Dataview 元数据更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: Waiting for dataview index to be ready",
+                    "target": "步骤 GetTask：等待 dataview 索引就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "counter for events",
+                    "target": "事件计数器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "timeout counter as backup",
+                    "target": "超时计数器作为备用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step GetTask: Dataview index is ready",
+                    "target": "步骤 GetTask：Dataview 索引已就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DataviewSearcher: Found dataview tasks",
+                    "target": "DataviewSearcher：已找到 dataview 任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DataviewSearcher: Found cached task",
+                    "target": "DataviewSearcher：已找到缓存的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DataviewSearcher: Fallback to file modified date",
+                    "target": "DataviewSearcher：回退到文件修改日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DataviewSearcher: Parsed task",
+                    "target": "DataviewSearcher: 已解析任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DataviewSearcher: Finally formatted tasks",
+                    "target": "DataviewSearcher: 最终格式化任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Start processing",
+                    "target": "Processor: 开始处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Reset automaton",
+                    "target": "Processor: 重置自动机"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: End processing",
+                    "target": "Processor: 结束处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Save to vault",
+                    "target": "Processor: 保存到 vault"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Update on startup is disabled",
+                    "target": "Processor: 启动时更新已禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Update tasks in vault and vikunja",
+                    "target": "Processor: 更新 vault 和 vikunja 中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: No markdown view found",
+                    "target": "Processor: 未找到 Markdown 视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: No cursor found",
+                    "target": "Processor: 未找到光标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: No file found",
+                    "target": "处理器：未找到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Last line,",
+                    "target": "处理器：最后一行，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Last line text",
+                    "target": "最后一行文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Error while parsing task, mostly because there is no task",
+                    "target": "处理器：解析任务时出错，主要因为没有任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: No line found",
+                    "target": "处理器：未找到行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processor: Update task in vault",
+                    "target": "处理器：更新 vault 中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step CreateTask: Pushing tasks to Vikunja and updates in Vault",
+                    "target": "步骤 CreateTask：将任务推送到 Vikunja 并更新 Vault"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step CreateTask: Pulling tasks from vikunja to vault, vault tasks",
+                    "target": "步骤 CreateTask：从 vikunja 拉取任务到 vault，vault 任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "vikunja tasks",
+                    "target": "vikunja 任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step CreateTask: Pushing tasks to vault",
+                    "target": "步骤 CreateTask：将任务推送到 vault"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step CreateTask: Found formatted date",
+                    "target": "步骤 CreateTask：找到已格式化日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "using it as daily note",
+                    "target": "将其用作每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step CreateTask: Pushing task to vikunja",
+                    "target": "步骤 CreateTask：将任务推送到 vikunja"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Step CreateTask: Update task in Vault ",
+                    "target": "步骤 CreateTask：在 Vault 中更新任务 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LabelsAPI: Creating label",
+                    "target": "LabelsAPI：正在创建标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LabelsAPI: Created label",
+                    "target": "LabelsAPI：已创建标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LabelsAPI: Created labels",
+                    "target": "LabelsAPI：已创建标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LabelsAPI: Returning labels",
+                    "target": "LabelsAPI：正在返回标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LabelsAPI: Returning labels with id",
+                    "target": "LabelsAPI：正在返回带 ID 的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LabelsAPI: Deleting label",
+                    "target": "LabelsAPI：正在删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LabelsAPI: Deleted label",
+                    "target": "LabelsAPI: 已删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Vikunja Plugin: Daily notes core plugin is not loaded. So we cannot create daily note. Please install daily notes core plugin to use Daily Note.",
+                    "target": "Vikunja Plugin: 日记核心插件未加载，因此无法创建日记。请安装日记核心插件以使用日记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Vikunja Plugin: Output file is not selected. Please select a file to use File as output.",
+                    "target": "Vikunja Plugin: 未选择输出文件。请选择一个文件作为输出。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Vikunja Plugin: Output file not found. Please select a valid file to use File as output.",
+                    "target": "Vikunja Plugin: 未找到输出文件。请选择一个有效文件作为输出。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Vikunja Plugin: Obsidian Dataview plugin is not loaded. Please install Obsidian Dataview plugin to use Dataview.",
+                    "target": "Vikunja Plugin: Obsidian Dataview 插件未加载。请安装 Obsidian Dataview 插件以使用 Dataview。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Vikunja Plugin: Not sufficient permissions for Vikunja API. Please check the permissions in Vikunja Settings.",
+                    "target": "Vikunja Plugin: Vikunja API 权限不足。请在 Vikunja 设置中检查权限。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Vikunja Plugin: No views found. Please configure the plugin before using it.",
+                    "target": "Vikunja Plugin: 未找到视图。请在使用前配置插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Move all tasks to default project",
+                    "target": "将所有任务移动到默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Pull tasks from Vikunja",
+                    "target": "从 Vikunja 拉取任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Reset tasks in Vikunja",
+                    "target": "重置 Vikunja 中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Reset tasks in Vikunja cancelled",
+                    "target": "已取消重置 Vikunja 中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Resetting tasks in Vikunja confirmed",
+                    "target": "已确认重置 Vikunja 中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No tasks and labels found in Vikunja",
+                    "target": "在 Vikunja 中未找到任务和标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Deleting tasks",
+                    "target": "正在删除任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Deleting labels",
+                    "target": "正在删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Resetting tasks in Vikunja done",
+                    "target": "已完成重置 Vikunja 中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found views",
+                    "target": "已找到视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found kanban views",
+                    "target": "已找到看板视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Updated Kanban view",
+                    "target": "已更新看板视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "VaultTaskCache: Loading cache from disk",
+                    "target": "VaultTaskCache: 正在从磁盘加载缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "VaultTaskCache: Loaded cache from disk",
+                    "target": "VaultTaskCache: 已从磁盘加载缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "VaultTaskCache: Updated cache in settings",
+                    "target": "VaultTaskCache: 已在设置中更新缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "VaultTaskCache: Updating task",
+                    "target": "VaultTaskCache: 正在更新任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "with updated file infos",
+                    "target": "包含已更新的文件信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "with updated date",
+                    "target": "包含已更新的日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "VaultTaskCache: Saved cache to disk",
+                    "target": "VaultTaskCache: 已将缓存保存到磁盘"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Layout ready, check dependencies and start syncing",
+                    "target": "布局就绪，检查依赖并开始同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Checking for task update",
+                    "target": "正在检查任务更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No task to update found",
+                    "target": "未发现可更新的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Editor changed",
+                    "target": "编辑器已更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No file open",
+                    "target": "没有打开的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Line changed via keys",
+                    "target": "通过按键更改了行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No task or task id found in task",
+                    "target": "在任务中未找到任务或任务 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Checkbox clicked",
+                    "target": "复选框已点击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No task id found for checkbox",
+                    "target": "未找到复选框对应的任务 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Move all tasks",
+                    "target": "移动所有任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debugging in console logs. Useful for troubleshooting and development.",
+                    "target": "在控制台日志中启用调试。对排障和开发很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Check if all dependencies are installed and if it can works correctly with your current settings to communicate with Vikunja. If there is only one Notice, everything is fine. If there are more, please enable debugging and check the console for more information.",
+                    "target": "检查是否已安装所有依赖，并确认在当前设置下能否与 Vikunja 正常通信。如果只有一条提示，一切正常。如果有更多提示，请启用调试并查看控制台以获取更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable the cron job to sync tasks automatically. If disabled, you have to trigger the sync manually via command.",
+                    "target": "启用定时任务以自动同步任务。若禁用，则需要通过命令手动触发同步。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the cache will be written to disk immediately after a change. If disabled, the cache will be written to disk after a certain interval. If you experience performance issues, you should disable this and use a frequency.",
+                    "target": "启用后，缓存会在更改后立即写入磁盘；禁用后，缓存会在一定间隔后写入磁盘。如果遇到性能问题，建议禁用此项并使用频率设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This plugin uses a cache to calculate correct dates. Set the interval in minutes to save the cache to disk. Lower values will result in more frequent saves, but may cause performance issues. Set too high, task dates are not correctly calculated, because they are missing in cache in next startup. If you make bulk edits of tasks in your vault, you should set higher value. Cache will be only written, if changes were made since last check. If you are unsure, try lowest value and increase it, if you experience performance issues. Limits are 1 to 60 minutes.",
+                    "target": "此插件使用缓存来计算正确的日期。设置以分钟为单位的间隔，将缓存保存到磁盘。较低的值会导致更频繁的保存，但可能引发性能问题。设置过高会导致任务日期无法正确计算，因为下次启动时缓存中缺少它们。如果你在库中批量编辑任务，应设置更高的值。仅当自上次检查以来有变更时才会写入缓存。如果不确定，请先尝试最低值，出现性能问题时再提高。范围为 1 到 60 分钟。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Settings to connect to Vikunja.",
+                    "target": "连接到 Vikunja 的设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set your Vikunja Access token",
+                    "target": "设置你的 Vikunja 访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will check for changes in Vault and Vikunja and update the tasks vice versa, but prioritize the changes in Obsidian. Useful, if you want to use Vikunja, but do not make any changes directly on the markdown files while obsidian is closed.",
+                    "target": "这将检查 Vault 和 Vikunja 的更改并相互更新任务，但优先采用 Obsidian 中的更改。适用于你想使用 Vikunja，但在 Obsidian 关闭时不直接修改 markdown 文件的情况。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This project will be used to place new tasks created by this plugin.",
+                    "target": "此项目将用于放置由该插件创建的新任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Because vikunja does not move done tasks to the correct bucket, you have to select the bucket where the done tasks are placed, so this plugin can do it for you.",
+                    "target": "由于 Vikunja 不会将已完成任务移动到正确的桶中，你需要选择已完成任务所在的桶，这样插件才能为你执行移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Append tasks to the daily note at the bottom.",
+                    "target": "将任务追加到每日笔记的底部。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Insert tasks after the given string. The plugin will search in current daily note for the string and insert tasks after it.",
+                    "target": "在指定字符串之后插入任务。插件会在当前每日笔记中搜索该字符串，并在其后插入任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add tags that should be ignored when using tags in text. Tags added here will not be converted to text when pushed to vikunja. Comma separated.",
+                    "target": "添加在文本中使用标签时应忽略的标签。此处添加的标签在推送到 Vikunja 时不会转换为文本。用逗号分隔。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Please wait until the projects are loaded. If this message still there after a few seconds, please check your Vikunja Host and Access Token. Enable debugging and check the console for more information.",
+                    "target": "请等待项目加载完成。如果几秒后此消息仍然存在，请检查你的 Vikunja Host 和 Access Token。启用调试并查看控制台以获取更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will create a task in Vikunja, if you move the cursor and the found task on last line was not synced to Vikunja. Useful, if you want to create a task quickly and do not want to sync manually.",
+                    "target": "如果你移动光标且最后一行找到的任务未同步到 Vikunja，这将会在 Vikunja 中创建一个任务。若你想快速创建任务且不想手动同步，这很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will update the completed status of tasks immediately to Vikunja.",
+                    "target": "这将立即把任务的完成状态更新到 Vikunja。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Check for dependencies",
+                    "target": "检查依赖项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use tasks format",
+                    "target": "使用任务格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backend to find tasks",
+                    "target": "用于查找任务的后端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Cron",
+                    "target": "启用 Cron"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cron interval",
+                    "target": "Cron 间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update cache to disk immediately",
+                    "target": "立即将缓存更新到磁盘"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save cache to disk frequency",
+                    "target": "保存缓存到磁盘的频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vikunja Settings",
+                    "target": "Vikunja 设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access token",
+                    "target": "访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Test connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Updates: Obsidian <-> Vikunja",
+                    "target": "更新：Obsidian <-> Vikunja"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Check for updates on startup",
+                    "target": "启动时检查更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select default project",
+                    "target": "选择默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select bucket",
+                    "target": "选择分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Move all tasks to selected default project",
+                    "target": "将所有任务移至所选默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pull: Obsidian <- Vikunja",
+                    "target": "拉取：Obsidian <- Vikunja"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pull tasks to file",
+                    "target": "将任务拉取到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Append mode",
+                    "target": "追加模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert after",
+                    "target": "在后面插入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output file",
+                    "target": "输出文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pull tasks only from default project",
+                    "target": "仅从默认项目拉取任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Push: Obsidian -> Vikunja",
+                    "target": "推送：Obsidian -> Vikunja"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add link to file in description",
+                    "target": "在描述中添加文件链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use tags in text",
+                    "target": "在文本中使用标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exceptions for tags in text",
+                    "target": "文本中标签的例外情况"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Loading projects...",
+                    "target": "正在加载项目..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update completed status immediately",
+                    "target": "立即更新完成状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enter 'yes' to confirm:",
+                    "target": "输入“yes”以确认："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "# Tasks for today",
+                    "target": "# 今天的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "#tag1, #tag2",
+                    "target": "#tag1, #tag2"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Check for dependencies done.",
+                    "target": "依赖检查完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Host must not end with /api/v1",
+                    "target": "Host 不能以 /api/v1 结尾"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Host must start with http:// or https://",
+                    "target": "Host 必须以 http:// 或 https:// 开头"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Host must not end with /",
+                    "target": "Host 不能以 / 结尾"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Connection OK! ✅",
+                    "target": "连接成功！✅"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Connection Error! ❌",
+                    "target": "连接错误！❌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily notes core plugin is not loaded. So we cannot create daily note. Please install daily notes core plugin. Interrupt now.",
+                    "target": "每日笔记核心插件未加载，因此无法创建每日笔记。请安装每日笔记核心插件。现在中断。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vikunja Plugin: Could not find any files in the vault! Please create a file first.",
+                    "target": "Vikunja 插件：在库中找不到任何文件！请先创建一个文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error while syncing tasks",
+                    "target": "同步任务时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Finished syncing tasks",
+                    "target": "任务同步完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vikunja Plugin: Daily notes core plugin is not loaded. So we cannot create daily note. Please install daily notes core plugin to use Daily Note.",
+                    "target": "Vikunja 插件：未加载日记核心插件，因此无法创建日记。请安装日记核心插件以使用日记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vikunja Plugin: Output file is not selected. Please select a file to use File as output.",
+                    "target": "Vikunja 插件：未选择输出文件。请选择一个文件作为输出。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vikunja Plugin: Output file not found. Please select a valid file to use File as output.",
+                    "target": "Vikunja 插件：未找到输出文件。请选择一个有效文件作为输出。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vikunja Plugin: Obsidian Dataview plugin is not loaded. Please install Obsidian Dataview plugin to use Dataview.",
+                    "target": "Vikunja 插件：未加载 Obsidian Dataview 插件。请安装 Obsidian Dataview 插件以使用 Dataview。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vikunja Plugin: Not sufficient permissions for Vikunja API. Please check the permissions in Vikunja Settings and create a new token.",
+                    "target": "Vikunja 插件：Vikunja API 权限不足。请在 Vikunja 设置中检查权限并创建新的令牌。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vikunja Plugin: No views found. Please configure the plugin before using it.",
+                    "target": "Vikunja 插件：未找到视图。请先配置插件再使用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Deleting tasks and labels in Vikunja",
+                    "target": "正在删除 Vikunja 中的任务和标签"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Resetting tasks and labels in Vikunja done",
+                    "target": "在 Vikunja 中重置任务和标签已完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Deduplicating labels in Vikunja starting",
+                    "target": "开始在 Vikunja 中去重标签"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Deduplicating labels in Vikunja done",
+                    "target": "在 Vikunja 中去重标签已完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Start syncing with Vikunja",
+                    "target": "开始与 Vikunja 同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trigger sync with Vikunja",
+                    "target": "触发与 Vikunja 同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pull tasks from Vikunja",
+                    "target": "从 Vikunja 拉取任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move all tasks to default project",
+                    "target": "将所有任务移动到默认项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset vikunja instance, delete all tasks and labels",
+                    "target": "重置 vikunja 实例，删除所有任务和标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset cache and reindex tasks",
+                    "target": "重置缓存并重新索引任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deduplicate labels in Vikunja",
+                    "target": "在 Vikunja 中去重标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cron interval must be a number and greater or equal than 20s.",
+                    "target": "Cron 间隔必须为数字且大于或等于 20 秒。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Daily Note",
+                    "target": "每日笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Output file not found. Please select a valid file to use File as output.",
+                    "target": "未找到输出文件。请选择一个有效文件以使用“文件”作为输出。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "github issue",
+                    "target": "GitHub issue"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure to reset your vikunja instance?",
+                    "target": "确定要重置你的 vikunja 实例吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will delete all your tasks and labels. This action cannot be undone.",
+                    "target": "这将删除你的所有任务和标签。此操作无法撤销。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
