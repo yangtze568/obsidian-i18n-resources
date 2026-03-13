@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "daily-statistics",
+        "version": "1.0.0",
+        "title": "Daily Statistics",
+        "description": "Daily Statistics Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存统计数据出错：",
+                    "target": "保存统计数据出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "registerView error",
+                    "target": "registerView 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "loadStatisticsData error",
+                    "target": "loadStatisticsData 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "leaf is null",
+                    "target": "leaf 为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "当前颜色 {color}，按 Enter 键选择新颜色",
+                    "target": "当前颜色 {color}，按 Enter 键选择新颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "current color is {color}. press enter to select a new color.",
+                    "target": "当前颜色为 {color}。按 Enter 键选择新颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "输入的数据不合法!",
+                    "target": "输入的数据不合法!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "加载失败",
+                    "target": "加载失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Illegal input",
+                    "target": "输入非法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Vuex Mutations",
+                    "target": "Vuex 变更"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Vuex Actions",
+                    "target": "Vuex 操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "面包屑",
+                    "target": "面包屑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "请选择",
+                    "target": "请选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "提示",
+                    "target": "提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "返回",
+                    "target": "返回"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Action duration",
+                    "target": "操作持续时间"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
