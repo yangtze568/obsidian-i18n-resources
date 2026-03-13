@@ -1,0 +1,421 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "gridexplorer",
+        "version": "1.0.0",
+        "title": "GridExplorer",
+        "description": "GridExplorer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.1.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"9\" cy=\"12\" r=\"1\"/><circle cx=\"9\" cy=\"5\" r=\"1\"/><circle cx=\"9\" cy=\"19\" r=\"1\"/><circle cx=\"15\" cy=\"12\" r=\"1\"/><circle cx=\"15\" cy=\"5\" r=\"1\"/><circle cx=\"15\" cy=\"19\" r=\"1\"/></svg>",
+                    "target": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"9\" cy=\"12\" r=\"1\"/><circle cx=\"9\" cy=\"5\" r=\"1\"/><circle cx=\"9\" cy=\"19\" r=\"1\"/><circle cx=\"15\" cy=\"12\" r=\"1\"/><circle cx=\"15\" cy=\"5\" r=\"1\"/><circle cx=\"15\" cy=\"19\" r=\"1\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polyline points=\"9,18 15,12 9,6\"></polyline></svg>",
+                    "target": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polyline points=\"9,18 15,12 9,6\"></polyline></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polyline points=\"3,6 5,6 21,6\"></polyline><path d=\"m19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2\"></path></svg>",
+                    "target": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polyline points=\"3,6 5,6 21,6\"></polyline><path d=\"m19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "無法載入筆記內容",
+                    "target": "无法载入笔记内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "ge-icon-container ge-img",
+                    "target": "ge-icon-container ge-img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "ge-icon-container ge-video",
+                    "target": "ge-icon-container ge-video"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "ge-icon-container ge-audio",
+                    "target": "ge-icon-container ge-audio"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "ge-icon-container ge-pdf",
+                    "target": "ge-icon-container ge-pdf"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "ge-icon-container ge-canvas",
+                    "target": "ge-icon-container ge-canvas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "ge-icon-container ge-base",
+                    "target": "ge-icon-container ge-base"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting tasks from Tasks plugin:",
+                    "target": "从 Tasks 插件获取任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting tasks from Dataview:",
+                    "target": "从 Dataview 获取任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Grid Explorer: Error executing Dataview query.",
+                    "target": "Grid Explorer：执行 Dataview 查询时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rename folder",
+                    "target": "重命名文件夹失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while creating a new note:",
+                    "target": "创建新笔记时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while creating a new folder:",
+                    "target": "创建新文件夹时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while creating a new canvas:",
+                    "target": "创建新画布时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while creating a new base:",
+                    "target": "创建新基座时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Create shortcut error",
+                    "target": "创建快捷方式出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "無法讀取資料夾筆記設定",
+                    "target": "无法读取文件夹笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "無法儲存資料夾筆記",
+                    "target": "无法保存文件夹笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to move folder",
+                    "target": "无法移动文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析拖放文字為檔案路徑時發生錯誤:",
+                    "target": "将拖放文本解析为文件路径时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "處理暫存區拖放時發生錯誤:",
+                    "target": "处理剪贴板拖放时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while moving one of the files (ExplorerView):",
+                    "target": "移动其中一个文件时发生错误（ExplorerView）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse source info:",
+                    "target": "解析源信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while moving multiple files to folder:",
+                    "target": "将多个文件移动到文件夹时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while moving one of the files to folder:",
+                    "target": "将其中一个文件移动到文件夹时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling obsidian:// URIs (container drop):",
+                    "target": "处理 obsidian:// URI 时出错（容器拖放）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while moving one of the files (container):",
+                    "target": "移动其中一个文件时发生错误（容器）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling obsidian:// URIs:",
+                    "target": "处理 obsidian:// URI 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while moving one of the files:",
+                    "target": "移动其中一个文件时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error finding image in note:",
+                    "target": "在笔记中查找图片时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Create redirect note error",
+                    "target": "创建重定向笔记时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "無法讀取筆記屬性設定",
+                    "target": "无法读取笔记属性设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "無法儲存筆記屬性設定",
+                    "target": "无法保存笔记属性设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GridExplorer: evaluate displayName error",
+                    "target": "GridExplorer：评估 displayName 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading note content:",
+                    "target": "加载笔记内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GridExplorer: Failed to export using Obsidian API on mobile",
+                    "target": "GridExplorer：在移动端使用 Obsidian API 导出失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Grid Explorer: Error importing custom modes",
+                    "target": "Grid Explorer：导入自定义模式时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GridExplorer: Failed to export settings using Obsidian API on mobile",
+                    "target": "GridExplorer：在移动端使用 Obsidian API 导出设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Grid Explorer: Error importing settings",
+                    "target": "Grid Explorer：导入设置出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GridExplorer: Failed to parse drop data from GridExplorer.",
+                    "target": "GridExplorer：解析来自 GridExplorer 的拖放数据失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Dataview JS code",
+                    "target": "Dataview JS 代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "#FF8800 or #F80",
+                    "target": "#FF8800 或 #F80"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "獲取資料夾 frontmatter 圖示時發生錯誤:",
+                    "target": "获取文件夹 frontmatter 图标时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "解析 obsidian:// 路徑失敗，已略過",
+                    "target": "解析 obsidian:// 路径失败，已跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[GridExplorer] Unable to resolve dragged obsidian file (container drop):",
+                    "target": "[GridExplorer] 无法解析拖拽的 obsidian 文件（容器拖放）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[GridExplorer] Unable to resolve dragged obsidian file:",
+                    "target": "[GridExplorer] 无法解析拖拽的 obsidian 文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "GridExplorer: Error during event cleanup:",
+                    "target": "GridExplorer：事件清理期间出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to rename folder",
+                    "target": "重命名文件夹失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to move folder",
+                    "target": "移动文件夹失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "找不到 Explorer 視圖",
+                    "target": "找不到 Explorer 视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "無法訪問 Explorer 視圖",
+                    "target": "无法访问 Explorer 视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "選項",
+                    "target": "选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "选项",
+                    "target": "选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "選択肢",
+                    "target": "选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "Опция",
+                    "target": "选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "Опція",
+                    "target": "选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "옵션",
+                    "target": "选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜尋",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "検索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Поиск",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Пошук",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "검색",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "🔍",
+                    "target": "🔍"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
