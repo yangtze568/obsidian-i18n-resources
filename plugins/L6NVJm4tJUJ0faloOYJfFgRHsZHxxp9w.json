@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "easy-timeline",
+        "version": "1.0.0",
+        "title": "Easy Timeline",
+        "description": "Easy Timeline Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Invalid reference",
+                    "target": "无效的引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the reference setting will use regex to pick which property to use as the reference for dates based on the first regex match.",
+                    "target": "启用后，引用设置将使用正则表达式根据第一个匹配结果选择用于日期引用的属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the property name or regex to find which property to use as the reference for dates, if available.",
+                    "target": "指定属性名称或正则表达式，以在可用时找到用于日期引用的属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The sorting to be used if not specified in source block",
+                    "target": "在源块未指定时使用的排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If sections are seperated by single lines instead of double lines",
+                    "target": "如果段落用单行而不是双行分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Regex",
+                    "target": "使用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use single line",
+                    "target": "使用单行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter tag (no hashtag #) or regex",
+                    "target": "输入标签（不含井号 #）或正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " Descending",
+                    "target": " 降序"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
