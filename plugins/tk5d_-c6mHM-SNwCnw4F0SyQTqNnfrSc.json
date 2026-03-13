@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "annotate-audio",
+        "version": "1.0.0",
+        "title": "Annotate Audio",
+        "description": "Annotate Audio Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "retriveDuration: ",
+                    "target": "retriveDuration: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: annonate-audio locale not found",
+                    "target": "错误：未找到 annonate-audio 语言包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot manage properties - ",
+                    "target": "无法管理属性 - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No ID",
+                    "target": "无 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "File name",
+                    "target": "文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select an audio file",
+                    "target": "选择一个音频文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Annotate-Audio: Impossible audio chunk",
+                    "target": "Annotate-Audio：不可能的音频片段"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audiobox has been paused",
+                    "target": "Audiobox 已暂停"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audiobox is playing",
+                    "target": "Audiobox 正在播放"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audiobox has been toggled",
+                    "target": "Audiobox 已切换"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audiobox is moving forward",
+                    "target": "Audiobox 正在向前移动"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audiobox is moving backward",
+                    "target": "Audiobox 正在向后移动"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
