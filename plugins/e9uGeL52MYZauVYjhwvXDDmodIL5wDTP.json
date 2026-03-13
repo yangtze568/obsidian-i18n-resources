@@ -1,0 +1,283 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quick-latex",
+        "version": "1.0.0",
+        "title": "Quick Latex",
+        "description": "Quick Latex Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.6.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": " & ",
+                    "target": " & "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": "\\\\\n",
+                    "target": "\\\\\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": " \\\\\n",
+                    "target": " \\\\\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": " \\\\ ",
+                    "target": " \\\\ "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": "\\\\\n&",
+                    "target": "\\\\\n&"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Typing two consecutive $ symbols will automatically shift the cursor in between the $$ symbols",
+                    "target": "连续输入两个 $ 符号将自动把光标移到 $$ 符号之间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Typing \"{\" will automatically close with \"}\"",
+                    "target": "输入“{”将自动补全为“}”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Typing \"[\" will automatically close with \"]\"",
+                    "target": "输入“[”将自动补全为“]”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Typing \"(\" will automatically close with \")\"",
+                    "target": "输入“(”将自动补全为“)”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the text parameter in \\begin{parameter} and \\end{parameter}.",
+                    "target": "在 \\begin{parameter} 和 \\end{parameter} 中设置文本参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When within the align block, the align symbol \"&\" will be automatically added before these symbols. (separate by spaces)",
+                    "target": "在 align 块内，这些符号前会自动添加对齐符号 \"&\"。（用空格分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For align and cases block above, pressing enter automatically adds line break symbol \"\\\" or \"&\". Switch here to use shift-enter instead.",
+                    "target": "对于上面的 align 和 cases 块，按回车会自动添加换行符号 \"\\\" 或 \"&\"。在此切换为使用 Shift+Enter。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use Tab instead of space to complete custom shorthand.",
+                    "target": "使用 Tab 代替空格完成自定义简写。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Autoclose $$ symbols",
+                    "target": "自动闭合 $$ 符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shortcut for inline and block math",
+                    "target": "行内与块级数学的快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Move cursor between $$ symbols",
+                    "target": "在 $$ 符号之间移动光标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enclose selected expression with math symbol $$",
+                    "target": "用数学符号 $$ 包裹所选表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Autoclose {} curly brackets",
+                    "target": "自动闭合 {} 花括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Autoclose [] square brackets",
+                    "target": "自动闭合 [] 方括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Autoclose () round brackets",
+                    "target": "自动闭合 () 圆括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto append \"\\limits\" after \"\\sum\"",
+                    "target": "在 \"\\sum\" 后自动追加 \"\\limits\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto enlarge brackets that contains \\sum, \\int or \\frac",
+                    "target": "自动放大包含 \\sum、\\int 或 \\frac 的括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto enclose expression after superscipt with {}",
+                    "target": "在 superscipt 后自动用 {} 包裹表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto enclose expression after subscript with {}",
+                    "target": "在 subscript 后自动用 {} 包裹表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Type \"/\" instead of \\frac{}{}",
+                    "target": "输入 \"/\" 代替 \\frac{}{}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shortcut for Align Block",
+                    "target": "对齐块的快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Align Block Parameter",
+                    "target": "对齐块参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "【NEW!】Auto-align at these symbols",
+                    "target": "【新！】在这些符号处自动对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shortcut for Cases Block",
+                    "target": "分段块的快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use shift-enter for line break in align and cases block",
+                    "target": "在对齐块和分段块中使用 shift-enter 换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shortcut for Matrix Block",
+                    "target": "矩阵块快捷方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Matrix Block Parameter",
+                    "target": "矩阵块参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Greek symbols math mode",
+                    "target": "希腊符号数学模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Shorthand",
+                    "target": "自定义简写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Tab to complete custom shorthand",
+                    "target": "使用 Tab 完成自定义简写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Shorthand Parameter",
+                    "target": "自定义简写参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "default: align*",
+                    "target": "默认：align*"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "default: pmatrix",
+                    "target": "默认：pmatrix"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Align Block",
+                    "target": "添加对齐块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Inline Math",
+                    "target": "添加行内数学"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Block Math",
+                    "target": "添加块级数学"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Matrix Block",
+                    "target": "添加矩阵块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Cases Block",
+                    "target": "添加分段块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quick Latex for Obsidian - Settings",
+                    "target": "Quick Latex for Obsidian - 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
