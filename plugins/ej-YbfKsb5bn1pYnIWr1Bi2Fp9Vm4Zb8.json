@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "custom-commands",
+        "version": "1.0.0",
+        "title": "Custom Commands",
+        "description": "Custom Commands Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Create custom commands to <strong>open</strong> notes, <strong>create</strong> new notes at a specified path, <strong>insert</strong> text or code snippets, or run a combination <strong>sequence</strong> of other commands. To set hotkeys for these commands, go to <strong>Settings → Hotkeys</strong> and search for the command name.",
+                    "target": "创建自定义命令以<strong>打开</strong>笔记、在指定路径<strong>创建</strong>新笔记、<strong>插入</strong>文本或代码片段，或运行其他命令的组合<strong>序列</strong>。要为这些命令设置快捷键，请前往<strong>设置 → 快捷键</strong>并搜索命令名称。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter format (e.g., daily/{{date:YYYY-MM-DD-dddd}}.md)",
+                    "target": "输入格式（例如：daily/{{date:YYYY-MM-DD-dddd}}.md）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "resolveDatePlaceholders function missing on plugin instance.",
+                    "target": "插件实例中缺少 resolveDatePlaceholders 函数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating note:",
+                    "target": "创建笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening note:",
+                    "target": "打开笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add command",
+                    "target": "添加命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create a new custom command",
+                    "target": "创建新的自定义命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open notes in new tab (leaf), window, or current tab?",
+                    "target": "在新标签页（leaf）、窗口还是当前标签页中打开笔记？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add new command",
+                    "target": "添加新命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New note option",
+                    "target": "新建笔记选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Command name",
+                    "target": "命令名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Path: daily/{{date}}.md)",
+                    "target": "路径：daily/{{date}}.md)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Snippet to insert...",
+                    "target": "要插入的片段..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Command names (comma-sep)",
+                    "target": "命令名称（逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Test format",
+                    "target": "测试格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error: resolveDatePlaceholders function not found.",
+                    "target": "错误：未找到 resolveDatePlaceholders 函数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete command",
+                    "target": "删除命令"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No note path specified for creation.",
+                    "target": "未指定用于创建的笔记路径。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor found to insert snippet.",
+                    "target": "未找到可用编辑器以插入片段。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No command names provided for sequence.",
+                    "target": "未提供用于序列的命令名称。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid command names found in sequence.",
+                    "target": "在序列中未找到有效的命令名称。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No note path specified",
+                    "target": "未指定笔记路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open home",
+                    "target": "打开主页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create today",
+                    "target": "创建今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start day",
+                    "target": "开始一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sequence today",
+                    "target": "序列今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Test date format",
+                    "target": "测试日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Date placeholders:",
+                    "target": "日期占位符："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
