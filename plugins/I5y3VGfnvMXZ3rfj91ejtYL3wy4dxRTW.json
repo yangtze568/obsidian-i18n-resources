@@ -1,0 +1,349 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "node-flow",
+        "version": "1.0.0",
+        "title": "NodeFlow",
+        "description": "NodeFlow Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse json:",
+                    "target": "解析json失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "rawJson:",
+                    "target": "rawJson:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: copy fail",
+                    "target": "错误：复制失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Drag start",
+                    "target": "开始拖动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Drag stop",
+                    "target": "停止拖动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Pane click",
+                    "target": "窗格点击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Pane scroll",
+                    "target": "窗格滚动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Pane ctx menu",
+                    "target": "窗格上下文菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Move end",
+                    "target": "移动结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Debug json:",
+                    "target": "调试json："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Info: copy success",
+                    "target": "信息：复制成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "追加换行内容失败: 首行非列表",
+                    "target": "追加换行内容失败: 首行非列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "追加换行内容失败: 追加节点无vlaue属性",
+                    "target": "追加换行内容失败: 追加节点无vlaue属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "sd1.5\\动漫\\darkSushiMixMix_225D.safetensors",
+                    "target": "sd1.5\\动漫\\darkSushiMixMix_225D.safetensors"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "LR layout",
+                    "target": "左右布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Copy md",
+                    "target": "复制 md"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Node 11",
+                    "target": "节点 11"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Node 12",
+                    "target": "节点 12"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Node 13",
+                    "target": "节点 13"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Node 14",
+                    "target": "节点 14"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "前上下文",
+                    "target": "前上下文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "视图设置",
+                    "target": "视图设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "上下文设置",
+                    "target": "上下文设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "动态模型",
+                    "target": "动态模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "动态LoRA",
+                    "target": "动态LoRA"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "缩放多值",
+                    "target": "缩放多值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "效果多值",
+                    "target": "效果多值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "AD关键帧",
+                    "target": "AD关键帧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "动态模型组",
+                    "target": "动态模型组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "AD设置",
+                    "target": "AD设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "帧间隔",
+                    "target": "帧间隔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "正面条件",
+                    "target": "正面条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "负面条件",
+                    "target": "负面条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "图像",
+                    "target": "图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "遮罩",
+                    "target": "遮罩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Latent关键帧",
+                    "target": "Latent关键帧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ControlNet权重",
+                    "target": "ControlNet权重"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "条件",
+                    "target": "条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "IP适配",
+                    "target": "IP适配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "CLIP视觉",
+                    "target": "CLIP视觉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "模型",
+                    "target": "模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "关注层遮罩",
+                    "target": "关注层遮罩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "采样设置",
+                    "target": "采样设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "采样器",
+                    "target": "采样器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "输出",
+                    "target": "输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "降噪输出",
+                    "target": "降噪输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "宽度",
+                    "target": "宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "高度",
+                    "target": "高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "批次大小",
+                    "target": "批次大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "帧计数",
+                    "target": "帧计数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "音频",
+                    "target": "音频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "批次管理",
+                    "target": "批次管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "文件名",
+                    "target": "文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "## Title\n\n**Test** *1*\n",
+                    "target": "## 标题\n\n**测试** *1*\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "~~Test~~ ==2==\n",
+                    "target": "~~测试~~ ==2==\n"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
