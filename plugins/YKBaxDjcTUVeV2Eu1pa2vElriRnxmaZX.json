@@ -1,0 +1,157 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-upcoming",
+        "version": "1.0.0",
+        "title": "Upcoming",
+        "description": "Upcoming Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "alt",
+                    "source": "Buy Me A Coffee",
+                    "target": "请我喝杯咖啡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Split panes",
+                    "target": "分割窗格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Got a suggestion or found a bug? You can open an issue on ",
+                    "target": "有建议或发现了错误？你可以在这里提交 issue："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If you really like this plugin and want to support its development, please consider buying me a coffee 🙂 Thanks!",
+                    "target": "如果你真的喜欢这个插件并想支持它的开发，请考虑请我喝杯咖啡 🙂 谢谢！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义的每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义的每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义的每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义的季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义的年度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How many daily notes in the future to open when running the command.",
+                    "target": "运行该命令时要打开多少未来的每日笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How many daily notes in the past to open when running the command.",
+                    "target": "运行命令时打开多少天之前的每日笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, daily notes will be created as they're opened if they don't exist.",
+                    "target": "如果启用，在打开每日笔记时若不存在将自动创建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open notes in…",
+                    "target": "在…中打开笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Days ahead to open",
+                    "target": "打开前几天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Days behind to open",
+                    "target": "打开后几天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create notes when opening",
+                    "target": "打开时创建笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opening notes in windows is unsupported on mobile.",
+                    "target": "移动端不支持在窗口中打开笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opening notes in tabs is unsupported on mobile.",
+                    "target": "移动端不支持在标签页中打开笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open upcoming notes",
+                    "target": "打开即将到来的备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Close notes",
+                    "target": "关闭备注"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
