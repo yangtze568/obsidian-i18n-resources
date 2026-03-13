@@ -1,0 +1,271 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "link-favicon",
+        "version": "1.0.0",
+        "title": "Link Favicons",
+        "description": "Link Favicons Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.8.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "After the link",
+                    "target": "链接之后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Before the link",
+                    "target": "链接之前"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Link Favicons: misconfigured providers",
+                    "target": "链接网站图标：提供程序配置错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "could not extract color information from icon",
+                    "target": "无法从图标中提取颜色信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "enabling plugin: link favicons",
+                    "target": "正在启用插件：链接网站图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "disabling plugin: link favicons",
+                    "target": "正在停用插件：链接网站图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test Providers",
+                    "target": "测试提供程序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This Provider is selfhosted, please specify your deployment url. Refer to the readme of the provider for deployment instructions.",
+                    "target": "此提供程序为自托管，请指定您的部署 URL。部署说明请参考该提供程序的 readme。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This Provider is be selfhosted, please specify your deployment url. Refer to the readme of the provider for deployment instructions.",
+                    "target": "此提供程序为自托管，请指定您的部署 URL。部署说明请参考该提供程序的 readme。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Don't show an favicon for these domains(one per line)",
+                    "target": "这些域名不显示网站图标（每行一个）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When link is formatted like: [Obsidian](https://obsidian.md/)",
+                    "target": "当链接格式为：[Obsidian](https://obsidian.md/)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When link is formatted like: https://obsidian.md/",
+                    "target": "当链接格式为：https://obsidian.md/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Favicon colors will be automatically inverted if the icon is detected to be less readable",
+                    "target": "如果检测到图标可读性较差，Favicon 颜色将自动反转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add custom icon",
+                    "target": "添加自定义图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How fast after editing a link should a icon be displayed(in milliseconds)?",
+                    "target": "编辑链接后多快显示图标（毫秒）？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon provider",
+                    "target": "图标提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Provider domain",
+                    "target": "提供商域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fallback icon provider",
+                    "target": "备用图标提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fallback provider domain",
+                    "target": "备用提供商域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Not sure which provider to choose?",
+                    "target": "不确定选择哪个提供商？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignored domains",
+                    "target": "忽略的域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show icon when link has alias",
+                    "target": "链接有别名时显示图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show icon when link has no alias",
+                    "target": "链接无别名时显示图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show in Reading mode",
+                    "target": "在阅读模式中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show in Source mode",
+                    "target": "在源码模式中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show in live preview",
+                    "target": "在实时预览中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Icon Position",
+                    "target": "图标位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color inversion",
+                    "target": "颜色反转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add new",
+                    "target": "新增"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear icon cache",
+                    "target": "清除图标缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "add custom icon",
+                    "target": "添加自定义图标"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cleared cache",
+                    "target": "缓存已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Link favicons:misconfigured providers, please check the settings",
+                    "target": "链接网站图标：提供程序配置错误，请检查设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Icon Horse",
+                    "target": "Icon Horse"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Favicon Finder",
+                    "target": "网站图标查找器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Favicon Grabber",
+                    "target": "网站图标抓取器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Could not generate favicon, check your settings",
+                    "target": "无法生成网站图标，请检查设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom icons",
+                    "target": "自定义图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "for domains",
+                    "target": "用于域名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Debugging tools",
+                    "target": "调试工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Only use these tools if you know what you are doing",
+                    "target": "仅在你知道自己在做什么时才使用这些工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cached icons",
+                    "target": "已缓存的图标"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
