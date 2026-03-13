@@ -1,0 +1,1273 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "text-block-timer",
+        "version": "1.0.0",
+        "title": "Text Block Timer",
+        "description": "Text Block Timer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[PerfMonitor] Wrap failed:",
+                    "target": "[PerfMonitor] 包裹失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[PerfMonitor] 使用方法:",
+                    "target": "[PerfMonitor] 使用方法:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "• PerfMonitorStart() - 开始监控",
+                    "target": "• PerfMonitorStart() - 开始监控"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "• PerfMonitorStop() - 停止监控并查看报告",
+                    "target": "• PerfMonitorStop() - 停止监控并查看报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[PerfMonitor] reset",
+                    "target": "[PerfMonitor] 重置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[PerfMonitor] interval tracking enabled",
+                    "target": "[PerfMonitor] 间隔跟踪已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[PerfMonitor] interval tracking disabled",
+                    "target": "[PerfMonitor] 间隔跟踪已禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[PerfMonitor] interval tracking not enabled",
+                    "target": "[PerfMonitor] 间隔跟踪未启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[PerfMonitor] Debug mode enabled. Use PerfMonitorStart() to begin monitoring.",
+                    "target": "[PerfMonitor] 调试模式已启用。使用 PerfMonitorStart() 开始监控。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[TimerManager] 页面回到前台",
+                    "target": "[TimerManager] 页面回到前台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[TimerManager] 页面进入后台",
+                    "target": "[TimerManager] 页面进入后台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "找到变化",
+                    "target": "找到变化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "次数达到上限，未找到变化，停止监听",
+                    "target": "次数达到上限，未找到变化，停止监听"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "combine symbols directly, eg /",
+                    "target": "直接组合符号，例如 /"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "combine symbols directly, eg -xX",
+                    "target": "直接组合符号，例如 -xX"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configure timer behavior",
+                    "target": "配置计时器行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use the command palette to toggle timers",
+                    "target": "使用命令面板切换计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Right-click in the editor to access timer options",
+                    "target": "在编辑器中右键访问计时器选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configure checkbox-based timer controls",
+                    "target": "配置基于复选框的计时器控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When to automatically stop running timers",
+                    "target": "何时自动停止运行中的计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "End of line recommened if you use Day Planner Plugin as well.",
+                    "target": "如果你也使用 Day Planner 插件，建议放在行尾。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the icon displayed for running timers (default: ⏳)",
+                    "target": "设置运行计时器显示的图标（默认：⏳）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the icon displayed for paused timers (default: 💐)",
+                    "target": "设置暂停计时器显示的图标（默认：💐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose how the time is displayed",
+                    "target": "选择时间的显示方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose the visual style for timer display (applies to both edit and reading modes)",
+                    "target": "选择计时器显示的视觉样式（适用于编辑和阅读模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Text color for running timers",
+                    "target": "运行计时器的文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Background color for running timers (badge mode only)",
+                    "target": "运行计时器的背景颜色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Text color for paused timers",
+                    "target": "暂停计时器的文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Background color for paused timers (badge mode only)",
+                    "target": "暂停计时器的背景颜色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Allow checkboxes to control timers",
+                    "target": "允许复选框控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Checkbox symbols that start/continue timers",
+                    "target": "用于启动/继续计时器的复选框符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Checkbox symbols that pause timers",
+                    "target": "用于暂停计时器的复选框符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Control which files can use checkbox timers",
+                    "target": "控制哪些文件可使用复选框计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "配置计时器行为",
+                    "target": "配置计时器行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "强烈建议给命令`启动计时器/切换计时器状态`添加一个快捷键，并使用快捷键控制计时器",
+                    "target": "强烈建议给命令`启动计时器/切换计时器状态`添加一个快捷键，并使用快捷键控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "你可以通过右键菜单快速体验计时器功能，但并不推荐这种使用方式（尤其是Mac系统）",
+                    "target": "你可以通过右键菜单快速体验计时器功能，但并不推荐这种使用方式（尤其是Mac系统）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "你可以在切换任务状态（复选框类型）的同时，自动生成或更新计时器，对Tasks Plugin（任务插件）用户友好",
+                    "target": "你可以在切换任务状态（复选框类型）的同时，自动生成或更新计时器，对Tasks Plugin（任务插件）用户友好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "哪些行为视作用户手动停止计时器",
+                    "target": "哪些行为视作用户手动停止计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "配合Day Planner插件使用时，推荐在文本后插入",
+                    "target": "配合Day Planner插件使用时，推荐在文本后插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置运行中计时器显示的图标（默认: ⏳）",
+                    "target": "设置运行中计时器显示的图标（默认: ⏳）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置暂停计时器显示的图标（默认: 💐）",
+                    "target": "设置暂停计时器显示的图标（默认: 💐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择时间的显示方式",
+                    "target": "选择时间的显示方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择计时器的显示风格（同时应用于编辑模式和阅读模式）",
+                    "target": "选择计时器的显示风格（同时应用于编辑模式和阅读模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "运行中计时器的文字颜色",
+                    "target": "运行中计时器的文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "运行中计时器的背景颜色（仅徽章模式）",
+                    "target": "运行中计时器的背景颜色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "已暂停计时器的文字颜色",
+                    "target": "已暂停计时器的文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "已暂停计时器的背景颜色（仅徽章模式）",
+                    "target": "已暂停计时器的背景颜色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用此功能后，你可以通过更改任务框的状态自动控制计时器的启动、暂停、继续",
+                    "target": "启用此功能后，你可以通过更改任务框的状态自动控制计时器的启动、暂停、继续"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "任务状态符号应为合法的单个字符，如 /, 如希望多种符号都能触发计时器开始/继续，请直接把这些字符连接起来，如/>+",
+                    "target": "任务状态符号应为合法的单个字符，如 /, 如希望多种符号都能触发计时器开始/继续，请直接把这些字符连接起来，如/>+"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "任务状态符号应为合法的单个字符，如 x, 如希望多种符号都能触发计时器暂停，请直接把这些字符连接起来，如xX-",
+                    "target": "任务状态符号应为合法的单个字符，如 x, 如希望多种符号都能触发计时器暂停，请直接把这些字符连接起来，如xX-"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "是否需要限制在哪些文件夹内才能用任务状态控制计时器，注意：当路径直接指向文件时，必须显式声明文件后缀。如 `日记/2025`是个目录,`日记/20250101.md`是文件。",
+                    "target": "是否需要限制在哪些文件夹内才能用任务状态控制计时器，注意：当路径直接指向文件时，必须显式声明文件后缀。如 `日记/2025`是个目录,`日记/20250101.md`是文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "配置計時器行為",
+                    "target": "配置计时器行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "強烈建議給命令列『啟動計時器/切換計時器狀態』添加一個快捷鍵，並使用快捷鍵控制計時器",
+                    "target": "强烈建议给命令行『启动计时器/切换计时器状态』添加一个快捷键，并使用快捷键控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在目標文本區塊處右鍵下拉選單，點擊計時器功能按鈕",
+                    "target": "在目标文本区块处右键下拉菜单，点击计时器功能按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "你可以在切換任務狀態的同時，自动生成或更新計時器，對Tasks Plugin（任務插件）用戶友好",
+                    "target": "你可以在切换任务状态的同时，自动生成或更新计时器，对Tasks Plugin（任务插件）用户友好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "哪些行為視作用戶手動停止計時器",
+                    "target": "哪些行为视作用户手动停止计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "與 Day Planner 插件搭配使用時，建議在文本後插入",
+                    "target": "与 Day Planner 插件搭配使用时，建议在文本后插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設置運行中計時器顯示的圖標（默認: ⏳）",
+                    "target": "设置运行中计时器显示的图标（默认: ⏳）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設置暫停計時器顯示的圖標（默認: 💐）",
+                    "target": "设置暂停计时器显示的图标（默认: 💐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "選擇時間的顯示方式",
+                    "target": "选择时间的显示方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "選擇計時器的顯示風格（同時應用於編輯模式和閱讀模式）",
+                    "target": "选择计时器的显示风格（同时应用于编辑模式和阅读模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "運行中計時器的文字顏色",
+                    "target": "运行中计时器的文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "運行中計時器的背景顏色（僅徽章模式）",
+                    "target": "运行中计时器的背景颜色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "已暫停計時器的文字顏色",
+                    "target": "已暂停计时器的文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "已暫停計時器的背景顏色（僅徽章模式）",
+                    "target": "已暂停计时器的背景颜色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用此功能後，你可以通過更改任務框的狀態自動控制計時器的啟動、暫停、繼續",
+                    "target": "启用此功能后，你可以通过更改任务框的状态自动控制计时器的启动、暂停、继续"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "任務狀態符號應為合法的單個字符，如 /, 如希望多種符號都能觸發計時器開始/继续，請直接把这些符號連接起來，如/>+",
+                    "target": "任务状态符号应为合法的单个字符，如 /, 如希望多种符号都能触发计时器开始/继续，请直接把这些符号连接起来，如/>+"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "任務狀態符號應為合法的單個字符，如 x, 如希望多種符號都能觸發計時器暫停，請直接把这些符號連接起來，如xX-",
+                    "target": "任务状态符号应为合法的单个字符，如 x, 如希望多种符号都能触发计时器暂停，请直接把这些符号连接起来，如xX-"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "是否需要限制在哪些路徑下才能用任務狀態控制計時器，註意：當路徑直接指向文件時，必須顯式聲明文件後綴。如 `日記/2025`是個目錄,`日記/20250101.md`是文件。",
+                    "target": "是否需要限制在哪些路径下才能用任务状态控制计时器，注意：当路径直接指向文件时，必须显式声明文件后缀。如 `日记/2025`是个目录,`日记/20250101.md`是文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "タイマーの動作を設定します",
+                    "target": "设置计时器的行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ショートカットを toggle-timer コマンドに割り当てることを強く推奨します。",
+                    "target": "强烈建议将快捷键分配给 toggle-timer 命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "すぐに体験したい場合は右クリックで操作できますが、Mac ユーザーの場合は非推奨です。",
+                    "target": "如果想立即体验，可通过右键操作，但不建议 Mac 用户使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "チェックボックスを切り替えるだけでタイマーが自動作成・更新されます。Tasks プラグインユーザーに特に便利です。",
+                    "target": "仅切换复选框即可自动创建与更新计时器。对 Tasks 插件用户尤其方便。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "どのアクションでタイマーを自動停止しますか？",
+                    "target": "要通过哪个操作自动停止计时器？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Day Planner プラグインと併用する場合は「テキストの後ろ」に挿入することを推奨します。",
+                    "target": "与 Day Planner 插件一起使用时，建议插入到“文本后面”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "実行中タイマーに表示するアイコンを設定（デフォルト: ⏳）",
+                    "target": "设置运行中计时器显示的图标（默认：⏳）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一時停止タイマーに表示するアイコンを設定（デフォルト: 💐）",
+                    "target": "设置暂停计时器显示的图标（默认：💐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "時間の表示方法を選択してください",
+                    "target": "请选择时间的显示方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "タイマーの表示スタイルを選択してください（編集モードと閲覧モードの両方に適用されます）",
+                    "target": "请选择计时器的显示样式（适用于编辑模式和阅读模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "実行中タイマーのテキスト色",
+                    "target": "运行中计时器的文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "実行中タイマーの背景色（バッジモードのみ）",
+                    "target": "运行中计时器的背景色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一時停止タイマーのテキスト色",
+                    "target": "暂停计时器的文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一時停止タイマーの背景色（バッジモードのみ）",
+                    "target": "暂停计时器的背景色（仅徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "この機能を有効にすると、タスクボックスの状態を変更することでタイマーの起動、停止、継続を自働的に制御できます。",
+                    "target": "启用此功能后，可通过更改任务框状态来自动控制计时器的启动、停止与继续。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "タイマー実行中を示す単一文字。複数は直接連結、例：/>+",
+                    "target": "表示计时器运行中的单个字符。多个时直接连接，例：/>+"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "タイマー一時停止を示す単一文字。複数は直接連結、例：xX-",
+                    "target": "表示计时器暂停的单个字符。多个时直接连接，例：xX-"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "타이머 동작 설정",
+                    "target": "计时器行为设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "명령줄 `타이머 시작/상태 전환`에 단축키를 추가하는 것을 강력추천하며, 단축키를 사용하여 타이머를 제어할 수 있습니다",
+                    "target": "强烈建议为命令栏 `타이머 시작/상태 전환` 添加快捷键，并可使用快捷键控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "목표 텍스트 블록에서 우클릭 드롭다운 메뉴를 열고, 타이머 기능 버튼을 클릭합니다",
+                    "target": "在目标文本块中右键打开下拉菜单，点击计时器功能按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "태스크 상태를 전환하는 동안 타이머를 자동으로 생성하거나 업데이트할 수 있으며,  Tasks Plugin 사용자들에게 매우 우호적입니다",
+                    "target": "在切换任务状态时可自动创建或更新计时器，对  Tasks Plugin 用户非常友好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "사용자가 타이머를 수동으로 정지한 것으로 간주되는 동작은?",
+                    "target": "被视为用户手动停止计时器的操作是？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Day Planner 플러그인과 함께 사용할 때는 텍스트 뒤에 삽입하는 것을 추천합니다",
+                    "target": "与 Day Planner 插件一起使用时，建议插入在文本后面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "실행 중 타이머에 표시할 아이콘 설정 (기본값: ⏳)",
+                    "target": "设置运行中计时器显示的图标（默认值：⏳）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "일시정지 타이머에 표시할 아이콘 설정 (기본값: 💐)",
+                    "target": "设置暂停计时器显示的图标（默认值：💐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "시간 표시 방법을 선택하세요",
+                    "target": "请选择时间显示方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "타이머의 표시 스타일을 선택하세요 (편집 모드와 읽기 모드 모두에 적용됩니다)",
+                    "target": "请选择计时器显示样式（适用于编辑模式和阅读模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "실행 중인 타이머의 텍스트 색상",
+                    "target": "运行中计时器的文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "실행 중인 타이머의 배경 색상 (배지 모드 전용)",
+                    "target": "运行中计时器的背景颜色（仅限徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "일시정지된 타이머의 텍스트 색상",
+                    "target": "已暂停计时器的文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "일시정지된 타이머의 배경 색상 (배지 모드 전용)",
+                    "target": "已暂停计时器的背景颜色（仅限徽章模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "이 기능을 사용하면 작업 상자의 상태를 변경하여 타이머의 시작, 일시 정지, 계속을 자동으로 제어할 수 있습니다",
+                    "target": "使用此功能可通过更改任务框状态自动控制计时器的开始、暂停和继续"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "시작/재개를 나타내는 체크박스 상태 기호를 지정합니다. 여러 기호를 조합하여 사용할 수 있습니다. 예: />+",
+                    "target": "指定表示开始/恢复的复选框状态符号。可组合多个符号使用。例如: />+"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "일시정지를 나타내는 체크박스 상태 기호를 지정합니다. 여러 기호를 조합하여 사용할 수 있습니다. 예: xX-",
+                    "target": "指定表示暂停的复选框状态符号。可组合多个符号使用。例如: xX-"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "체크박스 상태로 타이머를 제어할 수 있는 폴더를 제한합니다，참고:경로가 파일을 직접 지칭할 때는 파일 접미사를 써야 한다，예를 들어,`일기/2025`는 카탈로그이고,`일기/20250101.md`는 파일이다",
+                    "target": "限制可通过复选框状态控制计时器的文件夹，注意：当路径直接指向文件时必须写文件扩展名，例如，`일기/2025`是目录，`일기/20250101.md`是文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Block Timer Settings",
+                    "target": "文本块计时器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Basic Settings",
+                    "target": "基本设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timer by Command",
+                    "target": "命令计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timer by Editor Menu",
+                    "target": "编辑器菜单计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timer by Checkbox",
+                    "target": "复选框计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Appearance Settings",
+                    "target": "外观设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-stop timers",
+                    "target": "自动停止计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timer insert location",
+                    "target": "计时器插入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Running timer icon",
+                    "target": "运行中计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paused timer icon",
+                    "target": "暂停的计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Time Display Format",
+                    "target": "时间显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timer Display Style",
+                    "target": "计时器显示样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Running Timer Text Color",
+                    "target": "运行中计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Running Timer Background Color",
+                    "target": "运行中计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paused Timer Text Color",
+                    "target": "暂停计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paused Timer Background Color",
+                    "target": "暂停计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable checkbox to timer",
+                    "target": "启用计时器复选框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Running checkbox state",
+                    "target": "运行中复选框状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paused checkbox state",
+                    "target": "暂停复选框状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Path restriction",
+                    "target": "路径限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文本块计时器设置",
+                    "target": "文本块计时器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通用设置",
+                    "target": "通用设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通过命令行控制计时器",
+                    "target": "通过命令行控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通过右键菜单控制计时器",
+                    "target": "通过右键菜单控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通过任务状态自动控制计时器",
+                    "target": "通过任务状态自动控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外观设置",
+                    "target": "外观设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动停止计时器",
+                    "target": "自动停止计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "计时器插入位置",
+                    "target": "计时器插入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "运行中计时器图标",
+                    "target": "运行中计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "暂停计时器图标",
+                    "target": "暂停计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "时间显示格式",
+                    "target": "时间显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "计时器显示风格",
+                    "target": "计时器显示风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "运行中计时器文字颜色",
+                    "target": "运行中计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "运行中计时器背景颜色",
+                    "target": "运行中计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "已暂停计时器文字颜色",
+                    "target": "已暂停计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "已暂停计时器背景颜色",
+                    "target": "已暂停计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用任务状态控制计时器",
+                    "target": "使用任务状态控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "触发计时器开始/继续的任务状态符号",
+                    "target": "触发计时器开始/继续的任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "触发计时器暂停的任务状态符号",
+                    "target": "触发计时器暂停的任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "是否启用路径控制",
+                    "target": "是否启用路径控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文本塊計時器設定",
+                    "target": "文本块计时器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通用設定",
+                    "target": "通用设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通過命令列控制計時器",
+                    "target": "通过命令列控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通過右鍵選單控制計時器",
+                    "target": "通过右键菜单控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通過任務狀態自動控制計時器",
+                    "target": "通过任务状态自动控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外觀設定",
+                    "target": "外观设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自動停止計時器",
+                    "target": "自动停止计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "計時器插入位置",
+                    "target": "计时器插入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "運行中計時器圖標",
+                    "target": "运行中计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "暫停計時器圖標",
+                    "target": "暂停计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "時間顯示格式",
+                    "target": "时间显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "計時器顯示風格",
+                    "target": "计时器显示风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "運行中計時器文字顏色",
+                    "target": "运行中计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "運行中計時器背景顏色",
+                    "target": "运行中计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "已暫停計時器文字顏色",
+                    "target": "已暂停计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "已暫停計時器背景顏色",
+                    "target": "已暂停计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用任務狀態控制計時器",
+                    "target": "使用任务状态控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "觸發計時器開始/繼續的任務狀態符號",
+                    "target": "触发计时器开始/继续的任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "觸發計時器暫停的任務狀態符號",
+                    "target": "触发计时器暂停的任务状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "是否啟用路徑控制",
+                    "target": "是否启用路径控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "テキストブロックタイマー設定",
+                    "target": "文本块计时器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "汎用設定です",
+                    "target": "这是通用设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "コマンドでタイマーを制御",
+                    "target": "用命令控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "右クリックメニューでタイマーを制御",
+                    "target": "用右键菜单控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "チェックボックスでタイマーを自動制御",
+                    "target": "用复选框自动控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外観設定",
+                    "target": "外观设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "タイマーの自動停止",
+                    "target": "计时器自动停止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "タイマーの挿入位置",
+                    "target": "计时器插入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "実行中タイマーアイコン",
+                    "target": "运行中计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一時停止タイマーアイコン",
+                    "target": "暂停计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "時間表示形式",
+                    "target": "时间显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "タイマー表示スタイル",
+                    "target": "计时器显示样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "実行中タイマーの文字色",
+                    "target": "运行中计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "実行中タイマーの背景色",
+                    "target": "运行中计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一時停止タイマーの文字色",
+                    "target": "暂停计时器文字颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一時停止タイマーの背景色",
+                    "target": "暂停计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "タスク状態制御タイマーを使います",
+                    "target": "使用任务状态控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "実行中記号",
+                    "target": "运行中标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一時停止記号",
+                    "target": "暂停标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "パス制限",
+                    "target": "路径限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "텍스트 블록 타이머 설정",
+                    "target": "文本块计时器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "일반 설정",
+                    "target": "常规设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "명령줄로 타이머 제어",
+                    "target": "通过命令行控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "우클릭 메뉴로 타이머 제어",
+                    "target": "通过右键菜单控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "체크박스를 통한 자동 타이머 제어",
+                    "target": "通过复选框自动控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "외관 설정",
+                    "target": "外观设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "타이머 자동 정지",
+                    "target": "计时器自动停止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "타이머 삽입 위치",
+                    "target": "计时器插入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "실행 중 타이머 아이콘",
+                    "target": "运行中计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "일시정지 타이머 아이콘",
+                    "target": "暂停计时器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "시간 표시 형식",
+                    "target": "时间显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "타이머 표시 스타일",
+                    "target": "计时器显示样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "실행 중 타이머 텍스트 색상",
+                    "target": "运行中计时器文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "실행 중 타이머 배경 색상",
+                    "target": "运行中计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "일시정지 타이머 텍스트 색상",
+                    "target": "暂停计时器文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "일시정지 타이머 배경 색상",
+                    "target": "暂停计时器背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "체크박스로 타이머 제어",
+                    "target": "用复选框控制计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "타이머 시작/재개 체크박스 상태 기호",
+                    "target": "计时器开始/继续复选框状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "타이머 일시정지 체크박스 상태 기호",
+                    "target": "计时器暂停复选框状态符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "경로 제어 활성화",
+                    "target": "启用路径控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Set Time Cost To",
+                    "target": "将耗时设为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "设定耗时为",
+                    "target": "设定耗时为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "設定耗時為",
+                    "target": "设定耗时为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "時間を設定",
+                    "target": "设置时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "시간 설정",
+                    "target": "设置时间"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
