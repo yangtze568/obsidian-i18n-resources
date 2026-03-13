@@ -1,0 +1,253 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "virt-folder",
+        "version": "1.0.0",
+        "title": "VirtFolder",
+        "description": "VirtFolder Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📌",
+                    "target": "📌"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Delete note",
+                    "target": "删除笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name can contain letters, numbers, minus sign, underscore and dots",
+                    "target": "名称可包含字母、数字、减号、下划线和点号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Leave the field blank to take the title from the file name",
+                    "target": "将此字段留空以从文件名获取标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display note's title instead of file name when displaying command results",
+                    "target": "显示命令结果时显示笔记标题而非文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Note sorting criteria in the tree view",
+                    "target": "树视图中的笔记排序条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Each line is interpreted as the start of an ignored path",
+                    "target": "每一行都被解释为要忽略的路径开头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show confirmation dialog before deleting a note",
+                    "target": "删除笔记前显示确认对话框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically reveal the active file in the tree when opening any file",
+                    "target": "打开任何文件时在树中自动显示当前文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "YAML for  note's folders",
+                    "target": "笔记文件夹的YAML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "YAML for note's title",
+                    "target": "笔记标题的 YAML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use title in commands",
+                    "target": "在命令中使用标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reverse sort order",
+                    "target": "反转排序顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "List of ignored paths",
+                    "target": "忽略路径列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignored files",
+                    "target": "忽略的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use [[WikiLinks]] in YAML",
+                    "target": "在 YAML 中使用 [[WikiLinks]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm before deleting",
+                    "target": "删除前确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto reveal active file",
+                    "target": "自动显示活动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter one or more paths relative to the archive root",
+                    "target": "输入相对于归档根目录的一个或多个路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type note's title",
+                    "target": "输入笔记标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Manage icon",
+                    "target": "管理图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create note",
+                    "target": "创建笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create unique note",
+                    "target": "创建唯一笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Manage icon",
+                    "target": "管理图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete note",
+                    "target": "删除笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete with children",
+                    "target": "删除并包含子项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to virtual folder",
+                    "target": "添加到虚拟文件夹"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't move a folder into itself",
+                    "target": "不能将文件夹移动到其自身"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note deleted",
+                    "target": "笔记已删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show tree",
+                    "target": "显示树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add folder",
+                    "target": "添加文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move folder",
+                    "target": "移动文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete folder",
+                    "target": "删除文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reveal file",
+                    "target": "显示文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add selected files to virtual folder",
+                    "target": "将选中的文件添加到虚拟文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manage icon",
+                    "target": "管理图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pin note",
+                    "target": "置顶笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Nothing found",
+                    "target": "未找到任何内容"
+                },
+                {
+                    "type": "VariableDeclarator",
+                    "name": "title",
+                    "source": "Delete notes",
+                    "target": "删除笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
