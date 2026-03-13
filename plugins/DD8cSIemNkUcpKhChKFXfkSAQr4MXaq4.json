@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-wordnik",
+        "version": "1.0.0",
+        "title": "Wordnik Definitions",
+        "description": "Wordnik Definitions Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "definitions extract: ",
+                    "target": "定义提取："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "related extract: ",
+                    "target": "相关提取："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "definitions url: ",
+                    "target": "定义 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "definitions resp: ",
+                    "target": "定义响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "related url: ",
+                    "target": "相关 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "related resp: ",
+                    "target": "相关响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "FROM PASTE INTO EDITOR",
+                    "target": "从粘贴到编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You will need to include your Wordnik API key to use this plugin.",
+                    "target": "使用此插件需要包含你的 Wordnik API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The most definitions from wordnik that will be shown in the result.",
+                    "target": "结果中将显示来自 wordnik 的最多定义数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Wordnik API Key",
+                    "target": "Wordnik API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum Definitions",
+                    "target": "最大定义数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to get Wordnik data. Check your internet connection.",
+                    "target": "无法获取 Wordnik 数据。请检查你的互联网连接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get Wordnik data for Search Term",
+                    "target": "获取搜索词的 Wordnik 数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter Search Term:",
+                    "target": "输入搜索词："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Wordnik",
+                    "target": "Obsidian Wordnik"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
