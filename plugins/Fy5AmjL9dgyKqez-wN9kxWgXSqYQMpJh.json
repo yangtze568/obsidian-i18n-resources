@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-nomnoml-diagram",
+        "version": "1.0.0",
+        "title": "Nomnoml Diagram",
+        "description": "Nomnoml Diagram Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Longest Path",
+                    "target": "最长路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tight Tree",
+                    "target": "紧凑树"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Network Simplex",
+                    "target": "网络单纯形"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "end of file",
+                    "target": "文件结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading nomnoml diagram plugin",
+                    "target": "正在加载 nomnoml 图表插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading nomnoml diagram plugin",
+                    "target": "正在卸载 nomnoml 图表插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#arrowSize directive",
+                    "target": "#arrowSize 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#bendSize directive",
+                    "target": "#bendSize 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#direction directive",
+                    "target": "#direction 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#gutter directive",
+                    "target": "#gutter 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#gravity directive",
+                    "target": "#gravity 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#edges directive",
+                    "target": "#edges 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#background directive",
+                    "target": "#background 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#fill directive",
+                    "target": "#fill 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#fillArrows directive",
+                    "target": "#fillArrows 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#font directive",
+                    "target": "#font 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#fontSize directive",
+                    "target": "#fontSize 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#leading directive",
+                    "target": "#leading 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#lineWidth directive",
+                    "target": "#lineWidth 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#padding directive",
+                    "target": "#padding 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#spacing directive",
+                    "target": "#间距 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#stroke directive",
+                    "target": "#描边 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "#ranker directive",
+                    "target": "#排序器 指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Arrow Size",
+                    "target": "箭头大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bend Size",
+                    "target": "弯曲大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Edge Margin",
+                    "target": "边缘边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fill Arrows",
+                    "target": "填充箭头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Font Size",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line Width",
+                    "target": "线宽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "#eee8d5; #fdf6e3",
+                    "target": "#eee8d5; #fdf6e3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Diagram",
+                    "target": "新建图表"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
