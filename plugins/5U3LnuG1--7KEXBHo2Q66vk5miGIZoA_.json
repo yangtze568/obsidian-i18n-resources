@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lavadocs",
+        "version": "1.0.0",
+        "title": "Lavadocs",
+        "description": "Lavadocs Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Get this from your lavadocs.com account settings. Keep it secret, keep it safe!",
+                    "target": "从你的 lavadocs.com 账户设置中获取。保密、注意安全！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open Lavadocs in a new window after pushing your doc.",
+                    "target": "推送文档后在新窗口打开 Lavadocs。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you're hosting your own Lavadocs instance, enter the full url here.",
+                    "target": "如果你自托管 Lavadocs 实例，请在此输入完整 URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Lava Key",
+                    "target": "Lava 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New window after push",
+                    "target": "推送后新窗口打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hosted URL",
+                    "target": "托管 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your key",
+                    "target": "输入你的密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pushed to Lavadocs!",
+                    "target": "已推送到 Lavadocs！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unauthorized, the gates are closed! Check your Lava Key in the settings.",
+                    "target": "未授权，大门紧闭！请在设置中检查你的 Lava 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Out of documents! Upgrade your account to push more.",
+                    "target": "文档数量已用尽！升级你的账户以推送更多。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Instance of Lavadocs not found. Check the URL in the settings.",
+                    "target": "未找到 Lavadocs 实例。请检查设置中的 URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "SSL protocol error. Check that your Lavadocs instance is serving on https, or change your URL to regular http.",
+                    "target": "SSL 协议错误。请检查你的 Lavadocs 实例是否通过 https 提供服务，或将 URL 改为普通 http。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file",
+                    "target": "没有活动文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
