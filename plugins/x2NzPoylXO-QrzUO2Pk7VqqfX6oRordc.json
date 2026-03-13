@@ -1,0 +1,853 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "book-smith",
+        "version": "1.0.0",
+        "title": "Book Smith",
+        "description": "Book Smith Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n                    <div class=\"preview-waiting-icon\">\\u{1F4C4}</div>\n                    <div class=\"preview-waiting-text\">\\u70B9\\u51FB\\u5F00\\u59CB\\u6E32\\u67D3\\u9884\\u89C8</div>\n                ",
+                    "target": "\n                    <div class=\"preview-waiting-icon\">\\u{1F4C4}</div>\n                    <div class=\"preview-waiting-text\">\\u70B9\\u51FB\\u5F00\\u59CB\\u6E32\\u67D3\\u9884\\u89C8</div>\n                "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n                    <div class=\"preview-loading-spinner\"></div>\n                    <div class=\"preview-loading-text\">\\u6B63\\u5728\\u6E32\\u67D3\\u9884\\u89C8...</div>\n                    <div class=\"progress-bar\">\n                        <div class=\"progress-fill\" style=\"width: 0%\"></div>\n                    </div>\n                    <div class=\"progress-text\">\\u51C6\\u5907\\u4E2D...</div>\n                    <div class=\"progress-file\"></div>\n                ",
+                    "target": "\n                    <div class=\"preview-loading-spinner\"></div>\n                    <div class=\"preview-loading-text\">\\u6B63\\u5728\\u6E32\\u67D3\\u9884\\u89C8...</div>\n                    <div class=\"progress-bar\">\n                        <div class=\"progress-fill\" style=\"width: 0%\"></div>\n                    </div>\n                    <div class=\"progress-text\">\\u51C6\\u5907\\u4E2D...</div>\n                    <div class=\"progress-file\"></div>\n                "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n            <div class=\"preview-loading-spinner\"></div>\n            <div class=\"preview-loading-text\">\\u6B63\\u5728\\u6E32\\u67D3\\u9884\\u89C8...</div>\n            <div class=\"progress-bar\">\n                <div class=\"progress-fill\" style=\"width: 0%\"></div>\n            </div>\n            <div class=\"progress-text\">\\u51C6\\u5907\\u4E2D...</div>\n            <div class=\"progress-file\"></div>\n        ",
+                    "target": "\n            <div class=\"preview-loading-spinner\"></div>\n            <div class=\"preview-loading-text\">\\u6B63\\u5728\\u6E32\\u67D3\\u9884\\u89C8...</div>\n            <div class=\"progress-bar\">\n                <div class=\"progress-fill\" style=\"width: 0%\"></div>\n            </div>\n            <div class=\"progress-text\">\\u51C6\\u5907\\u4E2D...</div>\n            <div class=\"progress-file\"></div>\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "📖",
+                    "target": "📖"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n            <div class=\"export-placeholder-icon\">\\u2699\\uFE0F</div>\n            <div class=\"export-placeholder-text\">\\u8BF7\\u5148\\u9009\\u62E9\\u5BFC\\u51FA\\u683C\\u5F0F</div>\n        ",
+                    "target": "\n            <div class=\"export-placeholder-icon\">\\u2699\\uFE0F</div>\n            <div class=\"export-placeholder-text\">\\u8BF7\\u5148\\u9009\\u62E9\\u5BFC\\u51FA\\u683C\\u5F0F</div>\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n                <div class=\"export-placeholder-icon\">\\u2699\\uFE0F</div>\n                <div class=\"export-placeholder-text\">\\u8BF7\\u5148\\u9009\\u62E9\\u5BFC\\u51FA\\u683C\\u5F0F</div>\n            ",
+                    "target": "\n                <div class=\"export-placeholder-icon\">\\u2699\\uFE0F</div>\n                <div class=\"export-placeholder-text\">\\u8BF7\\u5148\\u9009\\u62E9\\u5BFC\\u51FA\\u683C\\u5F0F</div>\n            "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n                <span class=\"export-setting-icon\" style=\"font-size: 18px;\">\\u{1F4CF}</span>\n                <span class=\"export-setting-title\" style=\"font-size: 15px;\">\\u5F00\\u672C\\u5927\\u5C0F</span>\n            ",
+                    "target": "\n                <span class=\"export-setting-icon\" style=\"font-size: 18px;\">\\u{1F4CF}</span>\n                <span class=\"export-setting-title\" style=\"font-size: 15px;\">\\u5F00\\u672C\\u5927\\u5C0F</span>\n            "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n            <span class=\"export-setting-icon\" style=\"font-size: 18px;\">\\u{1F3A8}</span>\n            <span class=\"export-setting-title\" style=\"font-size: 15px;\">\\u5C01\\u9762\\u8BBE\\u7F6E</span>\n        ",
+                    "target": "\n            <span class=\"export-setting-icon\" style=\"font-size: 18px;\">\\u{1F3A8}</span>\n            <span class=\"export-setting-title\" style=\"font-size: 15px;\">\\u5C01\\u9762\\u8BBE\\u7F6E</span>\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n            <span class=\"export-setting-icon\" style=\"font-size: 18px;\">\\u{1F4D1}</span>\n            <span class=\"export-setting-title\" style=\"font-size: 15px;\">\\u9875\\u7709\\u9875\\u811A\\u76EE\\u5F55\\u8BBE\\u7F6E</span>\n        ",
+                    "target": "\n            <span class=\"export-setting-icon\" style=\"font-size: 18px;\">\\u{1F4D1}</span>\n            <span class=\"export-setting-title\" style=\"font-size: 15px;\">\\u9875\\u7709\\u9875\\u811A\\u76EE\\u5F55\\u8BBE\\u7F6E</span>\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class=\"magazine-section\">\\u4E13\\u9898</div>",
+                    "target": "<div class=\"magazine-section\">\\u4E13\\u9898</div>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "加粗",
+                    "target": "加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "正常",
+                    "target": "正常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "倾斜",
+                    "target": "倾斜"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "PDF 导出成功！是否打开文件？",
+                    "target": "PDF 导出成功！是否打开文件？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "确定要删除此文件夹及其所有内容吗？",
+                    "target": "确定要删除此文件夹及其所有内容吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "移动失败:",
+                    "target": "移动失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "读取引用配置失败:",
+                    "target": "读取引用配置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Render failed:",
+                    "target": "渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing save dialog:",
+                    "target": "显示保存对话框出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "PDF export failed:",
+                    "target": "PDF 导出失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update TOC page numbers:",
+                    "target": "更新目录页码失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate and merge cover:",
+                    "target": "生成并合并封面失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "封面转图片失败:",
+                    "target": "封面转图片失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to inject content to webview:",
+                    "target": "向 WebView 注入内容失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading CSS rules:",
+                    "target": "读取 CSS 规则出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载书籍列表失败:",
+                    "target": "加载书籍列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "打开导出模态框失败:",
+                    "target": "打开导出模态框失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存模板失败:",
+                    "target": "保存模板失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取书籍配置时发生错误:",
+                    "target": "获取书籍配置时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存配置文件时发生错误:",
+                    "target": "保存配置文件时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "导入书籍失败:",
+                    "target": "导入书籍失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "FLATE:",
+                    "target": "FLATE:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Rendering completed successfully",
+                    "target": "渲染成功完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Rendering was aborted",
+                    "target": "渲染已中止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Received open-donate-modal event",
+                    "target": "收到 open-donate-modal 事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "导出设置",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "支持变量：{{title}}, {{author}}, {{date}}",
+                    "target": "支持变量：{{title}}, {{author}}, {{date}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "支持变量：{{pageNumber}}, {{totalPages}}, {{title}}",
+                    "target": "支持变量：{{pageNumber}}, {{totalPages}}, {{title}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "显示到第几级标题",
+                    "target": "显示到第几级标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在目录后插入分页符",
+                    "target": "在目录后插入分页符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用页眉",
+                    "target": "启用页眉"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页眉左侧",
+                    "target": "页眉左侧"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页眉中间",
+                    "target": "页眉中间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页眉右侧",
+                    "target": "页眉右侧"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体大小",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用页脚",
+                    "target": "启用页脚"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页脚左侧",
+                    "target": "页脚左侧"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页脚中间",
+                    "target": "页脚中间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页脚右侧",
+                    "target": "页脚右侧"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "生成目录",
+                    "target": "生成目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "目录标题",
+                    "target": "目录标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "最大层级",
+                    "target": "最大层级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体样式",
+                    "target": "字体样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "行高",
+                    "target": "行高"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "缩进大小",
+                    "target": "缩进大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "目录后分页",
+                    "target": "目录后分页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "书名",
+                    "target": "书名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "副标题",
+                    "target": "副标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "作者",
+                    "target": "作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体颜色",
+                    "target": "字体颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体粗细",
+                    "target": "字体粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "页眉左侧内容",
+                    "target": "页眉左侧内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "页眉中间内容",
+                    "target": "页眉中间内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "页眉右侧内容",
+                    "target": "页眉右侧内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "页脚左侧内容",
+                    "target": "页脚左侧内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "页脚中间内容",
+                    "target": "页脚中间内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "页脚右侧内容",
+                    "target": "页脚右侧内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "目录",
+                    "target": "目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入书名",
+                    "target": "输入书名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入副标题",
+                    "target": "输入副标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入作者",
+                    "target": "输入作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "重置位置",
+                    "target": "重置位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "未找到封面容器元素",
+                    "target": "未找到封面容器元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "toPng 失败，尝试备用方法",
+                    "target": "toPng 失败，尝试备用方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load CSS snippet:",
+                    "target": "加载 CSS 代码片段失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "封面设置已更新，请点击\"重新渲染\"按钮查看效果",
+                    "target": "封面设置已更新，请点击\"重新渲染\"按钮查看效果"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "渲染进行中，请稍候...",
+                    "target": "渲染进行中，请稍候..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "渲染失败，请检查控制台错误信息",
+                    "target": "渲染失败，请检查控制台错误信息"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法打开保存对话框",
+                    "target": "无法打开保存对话框"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "PDF 预览未准备就绪，请稍候",
+                    "target": "PDF 预览未准备就绪，请稍候"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "PDF 导出成功！",
+                    "target": "PDF 导出成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "TXT 导出功能开发中...",
+                    "target": "TXT 导出功能开发中..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "DOCX 导出功能开发中...",
+                    "target": "DOCX 导出功能开发中..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择导出格式",
+                    "target": "请先选择导出格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "不支持的导出格式",
+                    "target": "不支持的导出格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "加载书籍列表失败",
+                    "target": "加载书籍列表失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择一本书籍",
+                    "target": "请先选择一本书籍"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "打开导出模态框失败",
+                    "target": "打开导出模态框失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "便携文档格式",
+                    "target": "便携文档格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Word文档格式",
+                    "target": "Word文档格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "包含前言、大纲、正文卷章和后记的标准结构",
+                    "target": "包含前言、大纲、正文卷章和后记的标准结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "系统默认主题",
+                    "target": "系统默认主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "明亮清新的浅色主题",
+                    "target": "明亮清新的浅色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "护眼舒适的深色主题",
+                    "target": "护眼舒适的深色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #0366d6; text-decoration: none;",
+                    "target": "color: #0366d6; text-decoration: none;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "color: #58a6ff; text-decoration: none;",
+                    "target": "color: #58a6ff; text-decoration: none;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PDF Files",
+                    "target": "PDF 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All Files",
+                    "target": "所有文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认主题",
+                    "target": "默认主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "浅色主题",
+                    "target": "浅色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "深色主题",
+                    "target": "深色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入名称",
+                    "target": "输入名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📊",
+                    "target": "📊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡",
+                    "target": "💡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "换一批灵感",
+                    "target": "换一批灵感"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "页眉页脚和目录设置",
+                    "target": "页眉页脚和目录设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "页眉设置",
+                    "target": "页眉设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "页脚设置",
+                    "target": "页脚设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "目录设置",
+                    "target": "目录设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "--- 分页符 ---",
+                    "target": "--- 分页符 ---"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "这里是文档内容的预览...",
+                    "target": "这里是文档内容的预览..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确定",
+                    "target": "确定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "拖拽图片调整位置，或点击重置到中心",
+                    "target": "拖拽图片调整位置，或点击重置到中心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导出书籍",
+                    "target": "导出书籍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "PDF导出预览",
+                    "target": "PDF导出预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "封面预览",
+                    "target": "封面预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导出",
+                    "target": "导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择导出格式",
+                    "target": "选择导出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导出设置",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "包含封面",
+                    "target": "包含封面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自定义封面",
+                    "target": "自定义封面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自定义页眉页脚和目录",
+                    "target": "自定义页眉页脚和目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择要导出的书籍",
+                    "target": "选择要导出的书籍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未找到任何书籍",
+                    "target": "未找到任何书籍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请先创建一本书籍再进行导出",
+                    "target": "请先创建一本书籍再进行导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "第一章 概述",
+                    "target": "第一章 概述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "1.1 背景介绍",
+                    "target": "1.1 背景介绍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "1.2 研究目标",
+                    "target": "1.2 研究目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "第二章 方法论",
+                    "target": "第二章 方法论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "2.1 理论基础",
+                    "target": "2.1 理论基础"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "2.1.1 核心概念",
+                    "target": "2.1.1 核心概念"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "导出 PDF",
+                    "target": "导出 PDF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "前言",
+                    "target": "前言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "大纲",
+                    "target": "大纲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "第一卷",
+                    "target": "第一卷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "第一章",
+                    "target": "第一章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "第二章",
+                    "target": "第二章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "后记",
+                    "target": "后记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
