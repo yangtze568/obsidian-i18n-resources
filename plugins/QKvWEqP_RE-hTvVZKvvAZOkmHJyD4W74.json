@@ -1,0 +1,1651 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "invio",
+        "version": "1.0.0",
+        "title": "Invio",
+        "description": "Invio Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.31",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-printer\"><polyline points=\"6 9 6 2 18 2 18 9\"/><path d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"/><rect width=\"12\" height=\"8\" x=\"6\" y=\"14\"/></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-printer\"><polyline points=\"6 9 6 2 18 2 18 9\"/><path d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"/><rect width=\"12\" height=\"8\" x=\"6\" y=\"14\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n\t\t<div class=\"graph-view-container\">\n\t\t\t<div class=\"graph-icon graph-expand\" role=\"button\" aria-label=\"Expand\" data-tooltip-position=\"top\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-arrow-up-right\"><line x1=\"7\" y1=\"17\" x2=\"17\" y2=\"7\"></line><polyline points=\"7 7 17 7 17 17\"></polyline></svg></div>\n\t\t\t<canvas id=\"graph-canvas\" width=\"512px\" height=\"512px\"></canvas>\n\t\t</div>\n\t\t",
+                    "target": "\n\t\t<div class=\"graph-view-container\">\n\t\t\t<div class=\"graph-icon graph-expand\" role=\"button\" aria-label=\"展开\" data-tooltip-position=\"top\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-arrow-up-right\"><line x1=\"7\" y1=\"17\" x2=\"17\" y2=\"7\"></line><polyline points=\"7 7 17 7 17 17\"></polyline></svg></div>\n\t\t\t<canvas id=\"graph-canvas\" width=\"512px\" height=\"512px\"></canvas>\n\t\t</div>\n\t\t"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Stay up to date with the latest news and updates about our product by following us on Twitter: ",
+                    "target": "关注我们的 Twitter，随时获取关于我们产品的最新消息和更新："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Interactive Graph",
+                    "target": "交互式图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.",
+                    "target": "此浏览器缺少 `buffer` v5.x 所需的类型化数组（Uint8Array）支持。如需旧版浏览器支持，请使用 `buffer` v4.x。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "无法将值转换为 JSON 字符串："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Input not Buffer",
+                    "target": "输入不是 Buffer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "non-byte EncoderBuffer value",
+                    "target": "非字节 EncoderBuffer 值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Choice not matched",
+                    "target": "选择不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Child should have a key",
+                    "target": "子项应有一个键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Child expected, but input is not object",
+                    "target": "需要子项，但输入不是对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "seqof/setof, but data is not Array",
+                    "target": "seqof/setof，但数据不是 Array"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tag could be omitted only for .use()",
+                    "target": "仅对 .use() 可省略 Tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Encoding of string type: numstr supports only digits and space",
+                    "target": "字符串类型的编码：numstr 仅支持数字和空格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Encoding of string type: printstr supports only latin upper and lower case letters, digits, space, apostrophe, left and rigth parenthesis, plus sign, comma, hyphen, dot, slash, colon, equal sign, question mark",
+                    "target": "字符串类型的编码：printstr 仅支持拉丁大小写字母、数字、空格、撇号、左括号和右括号、加号、逗号、连字符、点、斜杠、冒号、等号、问号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "string objid given, but no values map found",
+                    "target": "给定了 string objid，但未找到 values map"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "objid not found in values map",
+                    "target": "在 values map 中未找到 objid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Second objid identifier OOB",
+                    "target": "第二个 objid 标识符超出范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "String int or enum given, but no values map",
+                    "target": "给定了 string int 或 enum，但没有 values map"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Multi-octet tag encoding unsupported",
+                    "target": "不支持多八位组标签编码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decoding of string type: bmpstr length mismatch",
+                    "target": "字符串类型解码：bmpstr 长度不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decoding of string type: numstr unsupported characters",
+                    "target": "字符串类型解码：numstr 含不支持的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decoding of string type: printstr unsupported characters",
+                    "target": "字符串类型解码：printstr 含不支持的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "length octect is too long",
+                    "target": "长度八位组过长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unhandled promise rejection",
+                    "target": "未处理的 Promise 拒绝"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "tried to delete db but something goes wrong!",
+                    "target": "尝试删除数据库但出现问题！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "get machine id failed: ",
+                    "target": "获取机器 ID 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Imported settings not configured correctly.",
+                    "target": "导入的设置未正确配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "create project failed: ",
+                    "target": "创建项目失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "create mock folder failed: ",
+                    "target": "创建 mock 文件夹失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse lines, starting in 0!",
+                    "target": "解析行失败，从 0 开始！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown state reached while processing groups of lines",
+                    "target": "处理行分组时达到未知状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "found abnormal backwardmapping record and skip it",
+                    "target": "发现异常的 backwardmapping 记录并跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected err: ",
+                    "target": "意外错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "file path not found: ",
+                    "target": "未找到文件路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "exception: ",
+                    "target": "异常："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "slug error: ",
+                    "target": "slug 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "reload invio: ",
+                    "target": "重新加载 invio："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "parse user info failed: ",
+                    "target": "解析用户信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "db connected",
+                    "target": "数据库已连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "db deleted",
+                    "target": "数据库已删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "restoredStr changed: ",
+                    "target": "restoredStr 已更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "goto account page...",
+                    "target": "前往账户页面..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Log out... ",
+                    "target": "退出登录... "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "start authing: ",
+                    "target": "开始认证："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "new domain: ",
+                    "target": "新域名："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "get machine id: ",
+                    "target": "获取机器ID："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "existed credential",
+                    "target": "已存在凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "got new cred",
+                    "target": "已获取新凭证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "upload progress: ",
+                    "target": "上传进度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "creating file: ",
+                    "target": "正在创建文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "fetch meta file src: ",
+                    "target": "获取元文件源："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "file contents diff nothing",
+                    "target": "文件内容无差异"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "list result: ",
+                    "target": "列表结果："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "snap found: ",
+                    "target": "找到快照："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "current contents same with last sync, not changed",
+                    "target": "当前内容与上次同步相同，未更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "current contents changed",
+                    "target": "当前内容已更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "upload extra meta: ",
+                    "target": "上传额外元数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "dispatch - ",
+                    "target": "分发 - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "rename last changed version from local for backup: ",
+                    "target": "将本地最后更改版本重命名以备份："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "mkdir in vault: ",
+                    "target": "在保险库中创建目录："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "local dir list: ",
+                    "target": "本地目录列表："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "uploading attachment: ",
+                    "target": "正在上传附件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "downloading attachment: ",
+                    "target": "正在下载附件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "get local path: ",
+                    "target": "获取本地路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "agree to use the new algorithm",
+                    "target": "同意使用新算法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "do not agree to use the new algorithm",
+                    "target": "不同意使用新算法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "AssetHandler.mathStyles asset matched: ",
+                    "target": "AssetHandler.mathStyles 资源匹配："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "cssText asset matched: ",
+                    "target": "cssText 资产匹配: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "auto fix list: ",
+                    "target": "自动修复列表: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "on select: ",
+                    "target": "选择时: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "diff file changed - ",
+                    "target": "diff 文件已更改 - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "init view with data: ",
+                    "target": "使用数据初始化视图: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "update key...",
+                    "target": "更新键..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "view show info: ",
+                    "target": "视图显示信息: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "view show warn: ",
+                    "target": "视图显示警告: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "view show error: ",
+                    "target": "视图显示错误: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "on open... ",
+                    "target": "打开时... "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "assets download root path and dir: ",
+                    "target": "资源下载根路径和目录："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "get file metadata: ",
+                    "target": "获取文件元数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "page config: ",
+                    "target": "页面配置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "site meta: ",
+                    "target": "站点元数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "merged config: ",
+                    "target": "合并后的配置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "start publishing file list: ",
+                    "target": "开始发布文件列表："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "html path: ",
+                    "target": "HTML 路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "exported file downloads: ",
+                    "target": "导出的文件下载："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "download list: ",
+                    "target": "下载列表："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "generating meta...",
+                    "target": "正在生成元数据..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "download files to: ",
+                    "target": "下载文件到："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "url list: ",
+                    "target": "URL 列表："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "deleting.... ",
+                    "target": "正在删除.... "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "slug changed: ",
+                    "target": "slug 已更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "password changed: ",
+                    "target": "密码已更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "project created: ",
+                    "target": "项目已创建："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "switching project: ",
+                    "target": "正在切换项目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "diff file changed: ",
+                    "target": "diff 文件已更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "diff modal cancel",
+                    "target": "diff 模态框取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "file synced: ",
+                    "target": "文件已同步："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "file snapshot: ",
+                    "target": "文件快照："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "local file path list: ",
+                    "target": "本地文件路径列表："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "local: ",
+                    "target": "本地："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "local history: ",
+                    "target": "本地历史："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "cancel action",
+                    "target": "取消操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "plan.mixedStates: ",
+                    "target": "plan.mixedStates: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "prunded mixedStates: ",
+                    "target": "修剪后的 mixedStates："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "view file diff: ",
+                    "target": "查看文件差异："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "touched model reloading...",
+                    "target": "已触及的模型重新加载中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "user confirmed: ",
+                    "target": "用户已确认："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "user cancelled",
+                    "target": "用户已取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "init stats view: ",
+                    "target": "初始化统计视图: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Stats data init...",
+                    "target": "统计数据初始化..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "syncing ",
+                    "target": "正在同步 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "ignore decision ",
+                    "target": "忽略决定 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "sync failed ",
+                    "target": "同步失败 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "sync done ",
+                    "target": "同步完成 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "sync done with touched file map: ",
+                    "target": "同步完成，涉及文件映射: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "selected mode",
+                    "target": "已选择模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "pub list: ",
+                    "target": "pub 列表: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "publishing ",
+                    "target": "正在发布 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "set file start publishing",
+                    "target": "设置文件开始发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "set file DONE publishing",
+                    "target": "设置文件发布完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "toughed files: ",
+                    "target": "处理过的文件： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "update info: ",
+                    "target": "更新信息： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "protocol: ",
+                    "target": "协议： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "active file: ",
+                    "target": "活动文件： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "using host service",
+                    "target": "使用主机服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "need auth",
+                    "target": "需要认证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "get platform: ",
+                    "target": "获取平台： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "dialog response: ",
+                    "target": "对话框响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "close modal after 500ms",
+                    "target": "500ms 后关闭模态框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "diff styles changed to ",
+                    "target": "diff 样式更改为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "list clicked",
+                    "target": "列表已点击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "is windows platform",
+                    "target": "是 Windows 平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "render browser window closed",
+                    "target": "渲染浏览器窗口已关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "new domain: ",
+                    "target": "新域名："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "view root: ",
+                    "target": "视图根："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "stats type: ",
+                    "target": "统计类型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "file.exportPath: ",
+                    "target": "file.exportPath: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error in grabReleaseFileFromRepository",
+                    "target": "grabReleaseFileFromRepository 中出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Invio - Local Manifest Load: ",
+                    "target": "Invio - 本地清单加载："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Paste the hash string you got",
+                    "target": "粘贴你获得的哈希字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Please check the file changes list to confirm that all changes are as expected.",
+                    "target": "请检查文件更改列表，以确认所有更改符合预期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Current directory name",
+                    "target": "当前目录名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Slug of Sub domain",
+                    "target": "子域的标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set project private",
+                    "target": "将项目设为私有"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import String",
+                    "target": "导入字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Encrypted config string",
+                    "target": "加密配置字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "trying to delete db but it was blocked",
+                    "target": "尝试删除 db 但被阻止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ga error ",
+                    "target": "ga error "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DEPRECATED] The `destroy` method will be unsupported in a future version. Instead use unsubscribe function returned by subscribe. Everything will be garbage-collected if store is garbage-collected.",
+                    "target": "[DEPRECATED] `destroy` 方法将在未来版本中不再受支持。请改用 subscribe 返回的 unsubscribe 函数。如果 store 被垃圾回收，一切都会被垃圾回收。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DEPRECATED] Use `createWithEqualityFn` instead of `create` or use `useStoreWithEqualityFn` instead of `useStore`. They can be imported from 'zustand/traditional'. https://github.com/pmndrs/zustand/discussions/1937",
+                    "target": "[DEPRECATED] 使用 `createWithEqualityFn` 代替 `create`，或使用 `useStoreWithEqualityFn` 代替 `useStore`。它们可以从 'zustand/traditional' 导入。https://github.com/pmndrs/zustand/discussions/1937"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DEPRECATED] Passing a vanilla store will be unsupported in a future version. Instead use `import { useStore } from 'zustand'`.",
+                    "target": "[DEPRECATED] 传入原生 store 将在未来版本中不再受支持。请改用 `import { useStore } from 'zustand'`。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Local project import failed",
+                    "target": "本地项目导入失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is not at least on version in the file recovery.",
+                    "target": "文件恢复中至少没有一个版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Not supported diff view type",
+                    "target": "不支持的差异视图类型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Failed to create leaf for rendering!",
+                    "target": "错误：无法创建用于渲染的叶节点！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard! Please paste this into your github issue as is.",
+                    "target": "已复制到剪贴板！请按原样粘贴到你的 GitHub issue 中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto fix the failed job",
+                    "target": "自动修复失败的任务"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No failed job found",
+                    "target": "未找到失败的作业"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Link not found",
+                    "target": "未找到链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This file already been deleted",
+                    "target": "该文件已被删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File not found",
+                    "target": "未找到文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "for screen reader",
+                    "target": "供屏幕阅读器使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "EC cryptography",
+                    "target": "EC 密码学"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Africa (Cape Town)",
+                    "target": "非洲（开普敦）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Hong Kong)",
+                    "target": "亚太（香港）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Tokyo)",
+                    "target": "亚太（东京）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Seoul)",
+                    "target": "亚太（首尔）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Osaka)",
+                    "target": "亚太地区（大阪）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Mumbai)",
+                    "target": "亚太地区（孟买）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Hyderabad)",
+                    "target": "亚太地区（海得拉巴）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Singapore)",
+                    "target": "亚太地区（新加坡）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Sydney)",
+                    "target": "亚太地区（悉尼）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Jakarta)",
+                    "target": "亚太地区（雅加达）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Melbourne)",
+                    "target": "亚太地区（墨尔本）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS Standard global region",
+                    "target": "AWS 标准全球区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Canada (Central)",
+                    "target": "加拿大（中部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Frankfurt)",
+                    "target": "欧洲（法兰克福）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Zurich)",
+                    "target": "欧洲（苏黎世）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Stockholm)",
+                    "target": "欧洲（斯德哥尔摩）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Milan)",
+                    "target": "欧洲（米兰）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Spain)",
+                    "target": "欧洲（西班牙）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Ireland)",
+                    "target": "欧洲（爱尔兰）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (London)",
+                    "target": "欧洲（伦敦）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Paris)",
+                    "target": "欧洲（巴黎）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Israel (Tel Aviv)",
+                    "target": "以色列（特拉维夫）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Middle East (UAE)",
+                    "target": "中东（阿联酋）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Middle East (Bahrain)",
+                    "target": "中东（巴林）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "South America (Sao Paulo)",
+                    "target": "南美（圣保罗）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US East (N. Virginia)",
+                    "target": "美国东部（北弗吉尼亚）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US East (Ohio)",
+                    "target": "美国东部（俄亥俄）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US West (N. California)",
+                    "target": "美国西部（北加利福尼亚）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US West (Oregon)",
+                    "target": "美国西部（俄勒冈）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS China global region",
+                    "target": "AWS 中国全球区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "China (Beijing)",
+                    "target": "中国（北京）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "China (Ningxia)",
+                    "target": "中国（宁夏）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS GovCloud (US) global region",
+                    "target": "AWS GovCloud（美国）全球区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS GovCloud (US-East)",
+                    "target": "AWS GovCloud（美国东部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS GovCloud (US-West)",
+                    "target": "AWS GovCloud（美国西部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS ISO (US) global region",
+                    "target": "AWS ISO（美国）全球区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISO East",
+                    "target": "美国 ISO 东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISO WEST",
+                    "target": "美国 ISO 西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS ISOB (US) global region",
+                    "target": "AWS ISOB（美国）全球区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISOB East (Ohio)",
+                    "target": "美国 ISOB 东部（俄亥俄）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS SDK for JavaScript S3 Client for Node.js, Browser and React Native",
+                    "target": "适用于 Node.js、浏览器和 React Native 的 AWS JavaScript SDK S3 客户端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No data",
+                    "target": "无数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Accelerate cannot be used with FIPS",
+                    "target": "加速不能与 FIPS 一起使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Cannot set dual-stack in combination with a custom endpoint.",
+                    "target": "无法将双栈与自定义端点一起设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "A custom endpoint cannot be combined with FIPS",
+                    "target": "自定义端点不能与 FIPS 结合使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "A custom endpoint cannot be combined with S3 Accelerate",
+                    "target": "自定义端点不能与 S3 Accelerate 结合使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Partition does not support FIPS",
+                    "target": "分区不支持 FIPS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Unrecognized hardware type: \"Expected hardware type o or e but got {hardwareType}\"",
+                    "target": "无法识别的硬件类型：“期望的硬件类型为 o 或 e，但得到 {hardwareType}”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: The outpost Id must only contain a-z, A-Z, 0-9 and `-`.",
+                    "target": "无效的 ARN：outpost Id 只能包含 a-z、A-Z、0-9 和 `-`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Custom endpoint `{Endpoint}` was not a valid URI",
+                    "target": "自定义端点 `{Endpoint}` 不是有效的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "S3 Accelerate cannot be used in this region",
+                    "target": "此区域无法使用 S3 Accelerate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: Missing account id",
+                    "target": "无效的 ARN：缺少 account id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: bucket ARN is missing a region",
+                    "target": "无效的 ARN：bucket ARN 缺少区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: Object Lambda ARNs only support `accesspoint` arn types, but found: `{arnType}`",
+                    "target": "无效的 ARN：Object Lambda ARNs 仅支持 `accesspoint` arn 类型，但发现：`{arnType}`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Access Points do not support S3 Accelerate",
+                    "target": "接入点不支持 S3 Accelerate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: The ARN was not for the S3 service, found: {bucketArn#service}",
+                    "target": "无效的 ARN：该 ARN 不属于 S3 服务，发现：{bucketArn#service}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "S3 MRAP does not support dual-stack",
+                    "target": "S3 MRAP 不支持双栈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "S3 MRAP does not support FIPS",
+                    "target": "S3 MRAP 不支持 FIPS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "S3 MRAP does not support S3 Accelerate",
+                    "target": "S3 MRAP 不支持 S3 Accelerate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid configuration: Multi-Region Access Point ARNs are disabled.",
+                    "target": "无效配置：多区域接入点 ARN 已禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Client was configured for partition `{mrapPartition#name}` but bucket referred to partition `{bucketArn#partition}`",
+                    "target": "客户端配置为分区 `{mrapPartition#name}`，但存储桶引用的分区为 `{bucketArn#partition}`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid Access Point Name",
+                    "target": "无效的接入点名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "S3 Outposts does not support Dual-stack",
+                    "target": "S3 Outposts 不支持双栈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "S3 Outposts does not support FIPS",
+                    "target": "S3 Outposts 不支持 FIPS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "S3 Outposts does not support S3 Accelerate",
+                    "target": "S3 Outposts 不支持 S3 Accelerate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid Arn: Outpost Access Point ARN contains sub resources",
+                    "target": "无效的 Arn：Outpost Access Point ARN 包含子资源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Expected an outpost type `accesspoint`, found {outpostType}",
+                    "target": "期望的 Outpost 类型为 `accesspoint`，但发现 {outpostType}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: expected an access point name",
+                    "target": "无效的 ARN：期望访问点名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: Expected a 4-component resource",
+                    "target": "无效的 ARN：期望为 4 组件资源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: The outpost Id may only contain a-z, A-Z, 0-9 and `-`. Found: `{outpostId}`",
+                    "target": "无效的 ARN：outpost Id 只能包含 a-z、A-Z、0-9 和 `-`。发现：`{outpostId}`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: The Outpost Id was not set",
+                    "target": "无效的 ARN：未设置 Outpost Id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: Unrecognized format: {Bucket} (type: {arnType})",
+                    "target": "无效的 ARN：无法识别的格式：{Bucket}（类型：{arnType}）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: No ARN type specified",
+                    "target": "无效的 ARN：未指定 ARN 类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid ARN: `{Bucket}` was not a valid ARN",
+                    "target": "无效的 ARN：`{Bucket}` 不是有效的 ARN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Path-style addressing cannot be used with ARN buckets",
+                    "target": "路径样式寻址不能用于 ARN 存储桶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Path-style addressing cannot be used with S3 Accelerate",
+                    "target": "路径样式寻址不能用于 S3 加速"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "A region must be set when sending requests to S3.",
+                    "target": "向 S3 发送请求时必须设置区域。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Samsung Internet for Android",
+                    "target": "三星 Android 版浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NAVER Whale Browser",
+                    "target": "NAVER Whale 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MZ Browser",
+                    "target": "MZ 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opera Coast",
+                    "target": "Opera Coast"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opera Touch",
+                    "target": "Opera Touch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yandex Browser",
+                    "target": "Yandex 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "UC Browser",
+                    "target": "UC 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Internet Explorer",
+                    "target": "Internet Explorer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Microsoft Edge",
+                    "target": "Microsoft Edge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amazon Silk",
+                    "target": "Amazon Silk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "WebOS Browser",
+                    "target": "WebOS 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Google Search",
+                    "target": "谷歌搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Android Browser",
+                    "target": "安卓浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PlayStation 4",
+                    "target": "PlayStation 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AWS SDK for JavaScript Team",
+                    "target": "AWS SDK for JavaScript Team"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All Files",
+                    "target": "所有文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select time",
+                    "target": "选择时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select date",
+                    "target": "选择日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Please select",
+                    "target": "请选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import project to local",
+                    "target": "将项目导入本地"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Stay up to date",
+                    "target": "保持最新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Files Checklist",
+                    "target": "同步文件清单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Local files to be modified",
+                    "target": "将要修改的本地文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Conflicted files",
+                    "target": "冲突文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Warnning: Don't worry, to prevent data loss, conflicting files will generate a .conflict.md backup file with the overwritten content to your local folder.",
+                    "target": "Warnning: 别担心，为防止数据丢失，冲突文件会在本地文件夹生成包含被覆盖内容的 .conflict.md 备份文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Checking Sync Files",
+                    "target": "正在检查同步文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create a new Project",
+                    "target": "创建新项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Click to show file contents",
+                    "target": "点击显示文件内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Click to show error message",
+                    "target": "点击显示错误信息"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
