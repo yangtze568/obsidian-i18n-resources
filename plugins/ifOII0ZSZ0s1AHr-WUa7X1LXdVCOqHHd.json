@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "kale-graph",
+        "version": "1.0.0",
+        "title": "Kale Graph",
+        "description": "Kale Graph Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will render a kale graph if provided as the language of a code block.",
+                    "target": "如果将其作为代码块的语言提供，将渲染 kale 图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How dramatically lines on the same edge should bend around each other",
+                    "target": "同一条边上的线条彼此绕行的弯曲程度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Radius of the big circle vertices are placed on",
+                    "target": "顶点所放置的大圆半径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Code block keyword",
+                    "target": "代码块关键字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Background color",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vertex color",
+                    "target": "顶点颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Edge color",
+                    "target": "边颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vertex radius",
+                    "target": "顶点半径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Edge thickness",
+                    "target": "边粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Arrow size",
+                    "target": "箭头大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Big radius",
+                    "target": "大半径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "An unexpected error occured while rendering graph:",
+                    "target": "渲染图形时发生意外错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "An error occured while rendering graph:",
+                    "target": "渲染图形时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "An unexpected error occured while parsing kale code:",
+                    "target": "解析 kale 代码时发生意外错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "An error occured while parsing kale code:",
+                    "target": "解析 kale 代码时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "An unexpected error occured:",
+                    "target": "发生意外错误："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please ",
+                    "target": "请"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "report this issue on GitHub",
+                    "target": "在 GitHub 上报告此问题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
