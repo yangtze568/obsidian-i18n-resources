@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-rss",
+        "version": "1.0.0",
+        "title": "Simple RSS",
+        "description": "Simple RSS Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected end",
+                    "target": "意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot write after close. Assign an onready handler.",
+                    "target": "关闭后无法写入。请分配一个onready处理程序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Add Feed",
+                    "target": "添加订阅源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Delete Feed",
+                    "target": "删除订阅源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Add Feed type",
+                    "target": "添加订阅源类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pull the feeds on periodic basis. (Restart required)",
+                    "target": "按周期拉取订阅源。（需要重启）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time interval between each pull in minutes. (Restart required)",
+                    "target": "每次拉取之间的时间间隔（分钟）。（需要重启）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is the default path for all feed.",
+                    "target": "这是所有订阅源的默认路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Feed Field",
+                    "target": "订阅源字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Time interval",
+                    "target": "时间间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default path",
+                    "target": "默认路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Separator: ,",
+                    "target": "分隔符：,"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Time Interval",
+                    "target": "时间间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add feed",
+                    "target": "添加订阅源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete this feed",
+                    "target": "删除此订阅源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add feed type",
+                    "target": "添加订阅源类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete this feed type",
+                    "target": "删除此订阅源类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Feed Types",
+                    "target": "订阅源类型"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
