@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "external-links",
+        "version": "1.0.0",
+        "title": "External Links",
+        "description": "External Links Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个 0 到 125 之间的正整数，不支持强制帧率高于 125 fps"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`@import` rules can't be nested inside other rules. Please move it to the top level and put it before regular rules. Keep in mind that they can only be used within global styles.",
+                    "target": "`@import` 规则不能嵌套在其他规则内。请将其移到顶层并放在常规规则之前。请注意它们只能在全局样式中使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`@import` rules can't be after other rules. Please put your `@import` rules before your other rules.",
+                    "target": "`@import` 规则不能放在其他规则之后。请将你的 `@import` 规则放在其他规则之前。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Functions that are interpolated in css calls will be stringified.\nIf you want to have a css call based on props, create a function that returns a css call like this\nlet dynamicStyle = (props) => css`color: ${props.color}`\nIt can be called directly with props or interpolated in a styled call like this\nlet SomeComponent = styled('div')`${dynamicStyle}`",
+                    "target": "在 css 调用中被插值的函数会被字符串化。\n如果你想基于 props 进行 css 调用，请创建一个返回 css 调用的函数，如下所示\nlet dynamicStyle = (props) => css`color: ${props.color}`\n它可以直接用 props 调用，或在 styled 调用中作为插值使用，如下所示\nlet SomeComponent = styled('div')`${dynamicStyle}`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "It looks like you're using the css prop on Global, did you mean to use the styles prop instead?",
+                    "target": "看起来你在 Global 上使用了 css prop，你是不是想用 styles prop？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `fontSize` is required to be a number.",
+                    "target": "MUI: `fontSize` 必须是一个数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `htmlFontSize` is required to be a number.",
+                    "target": "MUI: `htmlFontSize` 必须是一个数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"props\" must be a string or Array.",
+                    "target": "MUI: 参数 \"props\" 必须是字符串或数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"easing\" must be a string.",
+                    "target": "MUI: 参数 \"easing\" 必须是字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"delay\" must be a number or a string.",
+                    "target": "MUI: 参数 \"delay\" 必须是数字或字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show external links",
+                    "target": "显示外部链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
