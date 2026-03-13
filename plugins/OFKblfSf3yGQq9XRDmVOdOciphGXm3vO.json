@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "nsfw-filter",
+        "version": "1.0.0",
+        "title": "NSFW filter",
+        "description": "NSFW filter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Search query ('global-search') for files you want to hide",
+                    "target": "用于隐藏文件的搜索查询（'global-search'）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default obsidian ignores folders starting with '.'.",
+                    "target": "默认情况下，Obsidian 会忽略以“.”开头的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Query for NSFW files",
+                    "target": "NSFW 文件查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignored directory",
+                    "target": "忽略的目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notice on visibility change",
+                    "target": "可见性更改通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "NSFW visibility",
+                    "target": "NSFW 可见性"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Set Vault to NSFW before changing",
+                    "target": "更改前将 Vault 设为 NSFW"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle filter",
+                    "target": "切换筛选器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Read more",
+                    "target": "了解更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "WARNING: Make sure to set vault to NSFW before changing 'Ignored directory'.",
+                    "target": "警告：在更改“Ignored directory”之前，请确保将 Vault 设为 NSFW。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
