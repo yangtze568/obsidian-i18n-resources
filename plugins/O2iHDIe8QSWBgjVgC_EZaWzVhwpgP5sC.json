@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "exmemo-tools",
+        "version": "1.0.0",
+        "title": "ExMemo Tools",
+        "description": "ExMemo Tools Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LLM connection test error:",
+                    "target": "LLM 连接测试错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Parse error:",
+                    "target": "解析错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Update time failed:",
+                    "target": "更新时间失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error extracting zettelkasten:",
+                    "target": "提取 zettelkasten 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating zettelkasten:",
+                    "target": "创建 zettelkasten 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing content with LLM:",
+                    "target": "使用 LLM 处理内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating directory:",
+                    "target": "创建目录时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating next sentence:",
+                    "target": "生成下一句时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to parse JSON response, falling back to text parsing",
+                    "target": "解析 JSON 响应失败，回退到文本解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed advanced text parsing",
+                    "target": "高级文本解析失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LLM request:",
+                    "target": "LLM 请求："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "LLM response:",
+                    "target": "LLM 响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "failed to create file",
+                    "target": "创建文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "failed to get file",
+                    "target": "获取文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your token",
+                    "target": "输入你的令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "YYYY-MM-DD HH:mm:ss",
+                    "target": "YYYY-MM-DD HH:mm:ss"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "xxx.md, *_yyy.md default is null",
+                    "target": "xxx.md, *_yyy.md 默认值为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "xxx, *_yyy default is null",
+                    "target": "xxx, *_yyy 默认值为 null"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error:",
+                    "target": "错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "requestUrl failed:",
+                    "target": "requestUrl 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "OpenAI SDK failed for Google API:",
+                    "target": "OpenAI SDK 调用 Google API 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error in callLLM:",
+                    "target": "callLLM 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Features have not been extracted yet. Call extract() first.",
+                    "target": "尚未提取特征。请先调用 extract()。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "描述",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Extract the heading and the text below it",
+                    "target": "提取标题及其下方的文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "提取标题及其下方的文字",
+                    "target": "提取标题及其下方的文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标题",
+                    "target": "标题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
