@@ -1,0 +1,469 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-google-tasks",
+        "version": "1.0.0",
+        "title": "Google Tasks",
+        "description": "Google Tasks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Task Selection",
+                    "target": "任务选择"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Insert selected Tasks",
+                    "target": "插入所选任务"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Date Range",
+                    "target": "日期范围"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Not Completed",
+                    "target": "未完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting Tokens.",
+                    "target": "获取令牌时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Tokens acquired.",
+                    "target": "已获取令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Update Categorie",
+                    "target": "更新类别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Google client id",
+                    "target": "Google 客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Google client secret",
+                    "target": "Google 客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Login to your Google Account",
+                    "target": "登录到您的 Google 帐户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Logout off your Google Account",
+                    "target": "退出你的 Google 账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Google Refresh Token from OAuth",
+                    "target": "来自 OAuth 的 Google 刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ask for confirmations when deleting a task",
+                    "target": "删除任务时要求确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show notifications of info and errors",
+                    "target": "显示信息和错误通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh Token",
+                    "target": "刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your client id",
+                    "target": "输入你的客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your client secret",
+                    "target": "输入你的客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter refresh token",
+                    "target": "输入刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a task to complete it",
+                    "target": "选择一个任务以完成它"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Client ID Token is not the correct format",
+                    "target": "客户端 ID 令牌格式不正确"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Client Secret is not the correct format",
+                    "target": "Client Secret 格式不正确"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't use OAuth on this device",
+                    "target": "此设备无法使用 OAuth"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Refresh Token. Please Login.",
+                    "target": "无 Refresh Token。请登录。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Token copied",
+                    "target": "Token 已复制"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy token",
+                    "target": "无法复制 Token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate is not valid yet or has expired.",
+                    "target": "证书尚未生效或已过期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate signature is invalid.",
+                    "target": "证书签名无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate is not trusted.",
+                    "target": "证书不受信任。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate issuer is invalid.",
+                    "target": "证书颁发者无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate has an unsupported critical extension.",
+                    "target": "证书包含不受支持的关键扩展。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate keyUsage or basicConstraints conflict or indicate that the certificate is not a CA. If the certificate is the only one in the chain or isn't the first then the certificate must be a valid CA.",
+                    "target": "证书的 keyUsage 或 basicConstraints 冲突，或表明该证书不是 CA。如果该证书是链中唯一的证书或不是第一张证书，则该证书必须是有效的 CA。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate basicConstraints indicates the certificate is not a CA.",
+                    "target": "证书的 basicConstraints 表明该证书不是 CA。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate basicConstraints pathLenConstraint violated.",
+                    "target": "证书的 basicConstraints pathLenConstraint 被违反。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The application rejected the certificate.",
+                    "target": "应用程序拒绝了该证书。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected message. Received TLS record out of order.",
+                    "target": "意外消息。收到乱序的 TLS 记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "TLS version change is disallowed during renegotiation.",
+                    "target": "重新协商期间不允许更改 TLS 版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No cipher suites in common.",
+                    "target": "没有共同的密码套件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Incompatible TLS version.",
+                    "target": "TLS 版本不兼容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid Certificate message. Message too short.",
+                    "target": "无效的 Certificate 消息。消息过短。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not parse certificate list.",
+                    "target": "无法解析证书列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid key parameters. Only RSA is supported.",
+                    "target": "无效的密钥参数。仅支持 RSA。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not get private key.",
+                    "target": "无法获取私钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No private key set.",
+                    "target": "未设置私钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid CertificateRequest. Message too short.",
+                    "target": "无效的 CertificateRequest。消息过短。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid CertificateVerify. Message too short.",
+                    "target": "无效的 CertificateVerify。消息过短。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Bad signature in CertificateVerify.",
+                    "target": "CertificateVerify 中的签名无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid ServerHelloDone message. Invalid length.",
+                    "target": "无效的 ServerHelloDone 消息。长度无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No server certificate provided. Not enough security.",
+                    "target": "未提供服务器证书。安全性不足。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid ChangeCipherSpec message received.",
+                    "target": "收到无效的 ChangeCipherSpec 消息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid verify_data in Finished message.",
+                    "target": "Finished 消息中的 verify_data 无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not decompress record.",
+                    "target": "无法解压记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not decrypt record or bad MAC.",
+                    "target": "无法解密记录或 MAC 无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not encrypt record.",
+                    "target": "无法加密记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not compress record.",
+                    "target": "无法压缩记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not send certificate list.",
+                    "target": "无法发送证书列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid fragmented record.",
+                    "target": "无效的分片记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Cannot initiate handshake as a server.",
+                    "target": "无法作为服务器发起握手。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Handshake already in progress.",
+                    "target": "握手已在进行中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Google Inc.",
+                    "target": "Google Inc."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notBefore (utc)",
+                    "target": "Certificate.TBSCertificate.validity.notBefore (utc)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notBefore (generalized)",
+                    "target": "Certificate.TBSCertificate.validity.notBefore (generalized)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notAfter (utc)",
+                    "target": "Certificate.TBSCertificate.validity.notAfter (utc)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notAfter (generalized)",
+                    "target": "Certificate.TBSCertificate.validity.notAfter (generalized)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List Google Tasks",
+                    "target": "列出 Google 任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Google Tasks",
+                    "target": "创建 Google 任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Google Tasks and insert it",
+                    "target": "创建 Google 任务并插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Uncompleted Google Tasks",
+                    "target": "插入未完成的 Google 任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Google Tasks",
+                    "target": "插入 Google 任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy Google Refresh Token to Clipboard",
+                    "target": "将 Google 刷新令牌复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to delete this task?",
+                    "target": "确定要删除此任务吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add a new Task",
+                    "target": "添加新任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit Task",
+                    "target": "编辑任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Google Tasks",
+                    "target": "Google 任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Missing settings",
+                    "target": "缺少设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Google Tasks",
+                    "target": "Google 任务设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
