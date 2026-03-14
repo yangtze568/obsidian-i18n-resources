@@ -1,0 +1,448 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Encore",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Encore",
+        "description": "Encore Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Encore",
+            "target": "Encore"
+        },
+        {
+            "type": "title",
+            "source": "🌚 Theme • Dark Mode",
+            "target": "🌚 主题 • 暗黑模式"
+        },
+        {
+            "type": "description",
+            "source": "Theme used in dark mode",
+            "target": "暗黑模式使用的主题"
+        },
+        {
+            "type": "label",
+            "source": "Obsidian Redux",
+            "target": "Obsidian Redux"
+        },
+        {
+            "type": "label",
+            "source": "Cobalt",
+            "target": "钴蓝"
+        },
+        {
+            "type": "label",
+            "source": "Mercury",
+            "target": "水银"
+        },
+        {
+            "type": "label",
+            "source": "Iron",
+            "target": "铁"
+        },
+        {
+            "type": "label",
+            "source": "Carbon",
+            "target": "碳"
+        },
+        {
+            "type": "label",
+            "source": "Blackout",
+            "target": "全黑"
+        },
+        {
+            "type": "label",
+            "source": "Obsidian",
+            "target": "Obsidian"
+        },
+        {
+            "type": "label",
+            "source": "Blue Slate",
+            "target": "蓝石板"
+        },
+        {
+            "type": "label",
+            "source": "Atom (One Dark)",
+            "target": "原子 (One Dark)"
+        },
+        {
+            "type": "label",
+            "source": "RGB",
+            "target": "RGB"
+        },
+        {
+            "type": "label",
+            "source": "Material Ocean",
+            "target": "材质海洋"
+        },
+        {
+            "type": "label",
+            "source": "Flexoki",
+            "target": "Flexoki"
+        },
+        {
+            "type": "label",
+            "source": "Glass Royale",
+            "target": "玻璃皇权"
+        },
+        {
+            "type": "title",
+            "source": "🌞 Theme • Light Mode",
+            "target": "🌞 主题 • 浅色模式"
+        },
+        {
+            "type": "description",
+            "source": "Theme used in light mode",
+            "target": "浅色模式主题"
+        },
+        {
+            "type": "label",
+            "source": "Sterling",
+            "target": "斯特林"
+        },
+        {
+            "type": "label",
+            "source": "Atom (One Light)",
+            "target": "原子 (One Light)"
+        },
+        {
+            "type": "title",
+            "source": "🎨 Colors in Text",
+            "target": "🎨 文本中的颜色"
+        },
+        {
+            "type": "description",
+            "source": "All of Encore's themes come with colors for headers, bold, italics, etc... Enable them here, or choose your own",
+            "target": "Encore 的所有主题都包含标题、加粗、斜体等颜色的设置... 在此处启用它们，或选择您自己的颜色。"
+        },
+        {
+            "type": "label",
+            "source": "Neutral",
+            "target": "中性"
+        },
+        {
+            "type": "label",
+            "source": "Colorful",
+            "target": "多彩"
+        },
+        {
+            "type": "label",
+            "source": "Custom",
+            "target": "自定义"
+        },
+        {
+            "type": "title",
+            "source": "👑 Encore Translucency",
+            "target": "👑 Encore 半透明"
+        },
+        {
+            "type": "description",
+            "source": "Get that translucent aesthetic back in your vault.",
+            "target": "让你的库重新拥有半透明美学。"
+        },
+        {
+            "type": "title",
+            "source": "🖼️ Translucency Background",
+            "target": "🖼️ 半透明背景"
+        },
+        {
+            "type": "title",
+            "source": "About",
+            "target": "关于"
+        },
+        {
+            "type": "description",
+            "source": "Make sure you've enabled **👑 Encore Translucency** above. Check out the **Glass Royale** theme (dark mode only) for some translucent workspaces!",
+            "target": "请确保您已启用上方的 **👑 Encore 半透明**。查看 **Glass Royale** 主题（仅限深色模式）以获取一些半透明工作区！"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "真"
+        },
+        {
+            "type": "title",
+            "source": "Translucency Strength",
+            "target": "透明度强度"
+        },
+        {
+            "type": "description",
+            "source": "Adjusts how visible the background is",
+            "target": "调整背景的可见度"
+        },
+        {
+            "type": "title",
+            "source": "Translucency Background",
+            "target": "透明度背景"
+        },
+        {
+            "type": "description",
+            "source": "Pick a background to use in translucent mode.",
+            "target": "选择在透明模式下使用的背景。"
+        },
+        {
+            "type": "label",
+            "source": "Custom Image",
+            "target": "自定义图片"
+        },
+        {
+            "type": "label",
+            "source": "Emerald",
+            "target": "祖母绿"
+        },
+        {
+            "type": "label",
+            "source": "Sapphire",
+            "target": "蓝宝石"
+        },
+        {
+            "type": "label",
+            "source": "🎦 Frosty",
+            "target": "🎦 霜冻"
+        },
+        {
+            "type": "label",
+            "source": "🎦 Lava",
+            "target": "🎦 熔岩"
+        },
+        {
+            "type": "label",
+            "source": "🎦 Dawn",
+            "target": "黎明"
+        },
+        {
+            "type": "label",
+            "source": "🎦 Chromatic",
+            "target": "色度"
+        },
+        {
+            "type": "label",
+            "source": "🎦 Prismatic",
+            "target": "棱镜"
+        },
+        {
+            "type": "title",
+            "source": "Background Image",
+            "target": "背景图片"
+        },
+        {
+            "type": "description",
+            "source": "Used when \"Translucency Background\" is set to \"Custom Image\". Must be formatted as url(\"YOUR URL HERE\")",
+            "target": "当“半透明背景”设置为“自定义图片”时使用。必须格式化为 url(\"YOUR URL HERE\")。"
+        },
+        {
+            "type": "title",
+            "source": "Image Blur Amount",
+            "target": "图片模糊程度"
+        },
+        {
+            "type": "description",
+            "source": "Adjust how strong the blur is on images",
+            "target": "调整图片的模糊强度"
+        },
+        {
+            "type": "title",
+            "source": "🖌️ Custom Colours",
+            "target": "自定义颜色"
+        },
+        {
+            "type": "title",
+            "source": "Italic Text",
+            "target": "斜体文本"
+        },
+        {
+            "type": "title",
+            "source": "Bold Text",
+            "target": "粗体文本"
+        },
+        {
+            "type": "title",
+            "source": "Header One",
+            "target": "标题一"
+        },
+        {
+            "type": "title",
+            "source": "Header Two",
+            "target": "标题二"
+        },
+        {
+            "type": "title",
+            "source": "Header Three",
+            "target": "标题三"
+        },
+        {
+            "type": "title",
+            "source": "Header Four",
+            "target": "标题四"
+        },
+        {
+            "type": "title",
+            "source": "Header Five",
+            "target": "标题五"
+        },
+        {
+            "type": "title",
+            "source": "Header Six",
+            "target": "标题六"
+        },
+        {
+            "type": "title",
+            "source": "💎 Extras",
+            "target": "额外选项"
+        },
+        {
+            "type": "title",
+            "source": "✨ Fancy View Headers",
+            "target": "装饰性视图标题"
+        },
+        {
+            "type": "description",
+            "source": "Make note contents flow under note view headers, with a nice blur effect. Disabled by default as it may cause issues with some plugins.",
+            "target": "让笔记内容在视图标题下方流动，并带有漂亮的模糊效果。默认禁用，因为某些插件可能会产生冲突。"
+        },
+        {
+            "type": "title",
+            "source": "OLED Mode For Mobile",
+            "target": "移动端 OLED 模式"
+        },
+        {
+            "type": "description",
+            "source": "Enables true black for any color theme in Encore. If you're looking for a true black theme for all devices, try the Blackout color theme in Encore!",
+            "target": "为 Encore 中的任何配色方案启用纯黑。如果您正在寻找适用于所有设备的纯黑主题，请尝试 Encore 中的 Blackout 配色方案！"
+        },
+        {
+            "type": "title",
+            "source": "Mobile Translucency",
+            "target": "移动端半透明"
+        },
+        {
+            "type": "description",
+            "source": "Makes the mobile side panes ✨ fancy ✨ - disabled by default as it can hurt performance & battery life. Try decreasing blur amount to improve performance!",
+            "target": "让移动端侧边栏 ✨ 精致 ✨ - 默认禁用，因为它可能会影响性能和电池寿命。尝试减少模糊程度以提高性能！"
+        },
+        {
+            "type": "title",
+            "source": "Coloured Tooltip",
+            "target": "彩色提示框"
+        },
+        {
+            "type": "description",
+            "source": "Make tooltips stand out much more by applying your theme colour to the border",
+            "target": "通过将主题颜色应用于边框，使提示框更加突出"
+        },
+        {
+            "type": "title",
+            "source": "Highlighted Text Border",
+            "target": "高亮文本边框"
+        },
+        {
+            "type": "description",
+            "source": "Make highlighted text stand out even more with a glowing border",
+            "target": "使用发光边框使高亮文本更加突出"
+        },
+        {
+            "type": "title",
+            "source": "Use Bright Accent Colour",
+            "target": "使用明亮强调色"
+        },
+        {
+            "type": "description",
+            "source": "Enable if you're using a bright accent color that is hard to read white text on. Will change text to be black.",
+            "target": "如果您使用的是难以在白色文本上阅读的明亮强调色，请启用。会将文本更改为黑色。"
+        },
+        {
+            "type": "title",
+            "source": "Blur Amount",
+            "target": "模糊程度"
+        },
+        {
+            "type": "description",
+            "source": "Lowering the blur amount helps increase performance",
+            "target": "降低模糊程度有助于提高性能"
+        },
+        {
+            "type": "label",
+            "source": "Full",
+            "target": "完整"
+        },
+        {
+            "type": "label",
+            "source": "Less",
+            "target": "较少"
+        },
+        {
+            "type": "label",
+            "source": "Off",
+            "target": "关闭"
+        },
+        {
+            "type": "title",
+            "source": "⚙️ Feature Toggles",
+            "target": "⚙️ 功能开关"
+        },
+        {
+            "type": "title",
+            "source": "Disable Grainy Background",
+            "target": "禁用颗粒背景"
+        },
+        {
+            "type": "description",
+            "source": "Encore adds a subtle grain effect around the main workspace",
+            "target": "Encore 在主工作区周围添加了微妙的颗粒效果"
+        },
+        {
+            "type": "title",
+            "source": "Disable Clickability Fix",
+            "target": "禁用点击修复"
+        },
+        {
+            "type": "description",
+            "source": "Encore makes it easier to click the edge of a document by adding some invisible padding. May cause issues if you have content that exceeds the width of your page. No effect on mobile version.",
+            "target": "Encore 通过添加不可见内边距，使点击文档边缘更容易。如果内容超出页面宽度，可能会导致问题。对移动版无影响。"
+        },
+        {
+            "type": "title",
+            "source": "Disable Logo on Horizontal Rule",
+            "target": "禁用水平分割线上的 Logo"
+        },
+        {
+            "type": "description",
+            "source": "Encore adds the Obsidian logo to horizontal ruled lines \"---\". Turn this on to revert to a simple line",
+            "target": "Encore 在水平分割线 \"---\" 上添加了 Obsidian 标志。开启此项可恢复为普通线条"
+        },
+        {
+            "type": "title",
+            "source": "Disable Calendar Integration",
+            "target": "禁用日历集成"
+        },
+        {
+            "type": "description",
+            "source": "Encore makes some changes to Calendar. Turn this on to keep the default look",
+            "target": "Encore 对日历做了一些修改。开启此项可保持默认外观"
+        },
+        {
+            "type": "title",
+            "source": "Disable Excalidraw Integration",
+            "target": "禁用 Excalidraw 集成"
+        },
+        {
+            "type": "description",
+            "source": "Encore makes some changes to Excalidraw to integrate it better with Obsidian. Turn this on to revert to Excalidraw's default theme",
+            "target": "Encore 对 Excalidraw 做了一些修改，使其更好地与 Obsidian 集成。开启此项可恢复 Excalidraw 的默认主题"
+        },
+        {
+            "type": "title",
+            "source": "Disable MAKE.md Integration",
+            "target": "禁用 MAKE.md 集成"
+        },
+        {
+            "type": "description",
+            "source": "Encore makes some changes to MAKE.md to enhance its look and feel. Turn this on to disable",
+            "target": "Encore 对 MAKE.md 做了一些修改以增强其外观和体验。开启此项可禁用"
+        }
+    ]
+}

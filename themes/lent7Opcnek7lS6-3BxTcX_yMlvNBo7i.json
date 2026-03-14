@@ -1,0 +1,238 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Ebullientworks",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Ebullientworks",
+        "description": "Ebullientworks Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Ebullientworks theme settings",
+            "target": "Ebullientworks 主题设置"
+        },
+        {
+            "type": "title",
+            "source": "Suppress/Remove this theme's checkbox styles",
+            "target": "禁用/移除本主题的复选框样式"
+        },
+        {
+            "type": "description",
+            "source": "Set this to true if you are going to use your own task snippet",
+            "target": "如果你要使用自定义的任务片段，请开启此项"
+        },
+        {
+            "type": "title",
+            "source": "Suppress/Remove this theme's tag styles",
+            "target": "禁用/移除本主题的标签样式"
+        },
+        {
+            "type": "description",
+            "source": "Set this to true if you are going to use your own tag snippet",
+            "target": "如果你要使用自定义的标签片段，请开启此项"
+        },
+        {
+            "type": "title",
+            "source": "Suppress/Remove leading § from headings",
+            "target": "禁用/移除标题前的 § 符号"
+        },
+        {
+            "type": "description",
+            "source": "Set this to true to remove the § from headings in reading mode",
+            "target": "如果你想在阅读模式下移除标题前的 § 符号，请开启此项"
+        },
+        {
+            "type": "title",
+            "source": "View header actions to the left",
+            "target": "视图标题栏操作按钮靠左显示"
+        },
+        {
+            "type": "description",
+            "source": "Set this to true if the view header is visible, and you want the controls on the left side",
+            "target": "如果视图标题栏可见，且你希望控件显示在左侧，请开启此项"
+        },
+        {
+            "type": "title",
+            "source": "Show external links in edit mode",
+            "target": "在编辑模式下显示外部链接"
+        },
+        {
+            "type": "description",
+            "source": "If true, external links (or the content of markdown links) will be shown in edit mode. External links are hidden by default.",
+            "target": "如果为 true，编辑模式下将显示外部链接（或 markdown 链接的内容）。默认情况下隐藏外部链接。"
+        },
+        {
+            "type": "title",
+            "source": "Float front-matter in a box to the right",
+            "target": "将 Front-matter 浮动显示在右侧框内"
+        },
+        {
+            "type": "description",
+            "source": "If true, front-matter in preview mode will be collapsed in a top-right container.",
+            "target": "如果为 true，预览模式下的 Front-matter 将折叠在右上角的容器中。"
+        },
+        {
+            "type": "title",
+            "source": "Hide the heading used to embed a document",
+            "target": "隐藏用于嵌入文档的标题"
+        },
+        {
+            "type": "description",
+            "source": "If true, the heading used to embed a document will be hidden.",
+            "target": "如果为 true，用于嵌入文档的标题将被隐藏。"
+        },
+        {
+            "type": "title",
+            "source": "Fonts",
+            "target": "字体"
+        },
+        {
+            "type": "title",
+            "source": "Headings",
+            "target": "标题"
+        },
+        {
+            "type": "description",
+            "source": "Font for text headings (h1 to h6); empty will use default text font",
+            "target": "文本标题（h1 到 h6）的字体；留空将使用默认文本字体"
+        },
+        {
+            "type": "title",
+            "source": "Heading Font Caps Variant",
+            "target": "标题字体大写变体"
+        },
+        {
+            "type": "description",
+            "source": "Capitalization variant for h1 text headings",
+            "target": "h1 文本标题的大写变体"
+        },
+        {
+            "type": "label",
+            "source": "normal",
+            "target": "正常"
+        },
+        {
+            "type": "label",
+            "source": "small-caps",
+            "target": "小型大写"
+        },
+        {
+            "type": "label",
+            "source": "all-small-caps",
+            "target": "全小型大写"
+        },
+        {
+            "type": "label",
+            "source": "all-petite-caps",
+            "target": "全微型大写"
+        },
+        {
+            "type": "label",
+            "source": "petite-caps",
+            "target": "微型大写"
+        },
+        {
+            "type": "label",
+            "source": "titling-caps",
+            "target": "标题大写"
+        },
+        {
+            "type": "label",
+            "source": "unicase",
+            "target": "单体"
+        },
+        {
+            "type": "label",
+            "source": "inherit",
+            "target": "继承"
+        },
+        {
+            "type": "label",
+            "source": "initial",
+            "target": "初始"
+        },
+        {
+            "type": "label",
+            "source": "unset",
+            "target": "未设置"
+        },
+        {
+            "type": "title",
+            "source": "Tags",
+            "target": "标签"
+        },
+        {
+            "type": "description",
+            "source": "Font for tags; empty will use default text font",
+            "target": "标签字体；留空则使用默认文本字体"
+        },
+        {
+            "type": "title",
+            "source": "Callout/admonition titles",
+            "target": "标注/提示框标题"
+        },
+        {
+            "type": "description",
+            "source": "Font for callout/admonition titles; empty will use default text font",
+            "target": "标注/提示框标题字体；留空则使用默认文本字体"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph spacing modifier",
+            "target": "段落间距系数"
+        },
+        {
+            "type": "description",
+            "source": "Gap between paragraphs (line height * this modifier)",
+            "target": "段落之间的间距（行高 × 此系数）"
+        },
+        {
+            "type": "title",
+            "source": "Header spacing modifier",
+            "target": "标题间距系数"
+        },
+        {
+            "type": "description",
+            "source": "Gap before headings (paragraph spacing * this modifier)",
+            "target": "标题前的间距（段落间距 × 此系数）"
+        },
+        {
+            "type": "title",
+            "source": "Use Appearance to customize text/monospace fonts",
+            "target": "前往“外观”设置自定义文本/等宽字体"
+        },
+        {
+            "type": "description",
+            "source": "(This has no effect. ;) )",
+            "target": "（此项无效。;) ）"
+        },
+        {
+            "type": "title",
+            "source": "Colors",
+            "target": "颜色"
+        },
+        {
+            "type": "title",
+            "source": "Primary accent color",
+            "target": "主要强调色"
+        },
+        {
+            "type": "description",
+            "source": "Choose the primary accent color. You must define a snippet if you select primary-accent-custom. See the Theme's README.",
+            "target": "选择主要强调色。若选择 primary-accent-custom，则必须定义 CSS 代码片段。详情请参阅主题 README。"
+        },
+        {
+            "type": "title",
+            "source": "Secondary accent color",
+            "target": "次要强调色"
+        },
+        {
+            "type": "description",
+            "source": "Choose the secondary accent color. You must define a snippet if you select secondary-accent-custom. See the Theme's README.",
+            "target": "选择次要强调色。若选择 secondary-accent-custom，则必须定义 CSS 代码片段。详情请参阅主题 README。"
+        }
+    ]
+}

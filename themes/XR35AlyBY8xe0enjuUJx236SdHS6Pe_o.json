@@ -1,0 +1,53 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Comfort",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Comfort",
+        "description": "Comfort Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "🍵 Comfort Light Theme",
+            "target": "🍵 舒适浅色主题"
+        },
+        {
+            "type": "title",
+            "source": "Background-primary Color",
+            "target": "主背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "Background-secondary Color",
+            "target": "次要背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "background-secondary-alt Color",
+            "target": "次要背景替代色"
+        },
+        {
+            "type": "title",
+            "source": "tab-container-background Color",
+            "target": "标签容器背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "ribbon-background Color",
+            "target": "功能区背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "font-family",
+            "target": "字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used for the user interface",
+            "target": "用于用户界体的字体"
+        }
+    ]
+}
