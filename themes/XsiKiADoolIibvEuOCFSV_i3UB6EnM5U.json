@@ -1,0 +1,1228 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "flexcyon",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "flexcyon",
+        "description": "flexcyon Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Flexcyon Style Settings",
+            "target": "Flexcyon 样式设置"
+        },
+        {
+            "type": "title",
+            "source": "About",
+            "target": "关于"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "是"
+        },
+        {
+            "type": "description",
+            "source": "Flexcyon is a theme based around the Halcyon, Flexoki and Origami themes. You can find its [source code here](https://github.com/bladeacer/flexcyon). <br><br>It aims to be *reasonably opinionated and highly customisable*. If you are interested, feel free to learn more about the theme via the ==README and the documentation==. When it comes to customising this theme, installing and using the Settings Search plugin is highly recommended.",
+            "target": "Flexcyon 是一款基于 Halcyon、Flexoki 和 Origami 主题的主题。您可以在 [此处](https://github.com/bladeacer/flexcyon) 找到其 [源代码](https://github.com/bladeacer/flexcyon)。 <br><br>它旨在做到 *适度有主见且高度可定制*。如果您感兴趣，请通过 ==README 和文档== 了解更多关于该主题的信息。在自定义此主题时，强烈建议安装并使用 Settings Search 插件。"
+        },
+        {
+            "type": "title",
+            "source": "Documentation",
+            "target": "文档"
+        },
+        {
+            "type": "description",
+            "source": "For more information, check out the [documentation here](https://flexcyon.github.io/docs-en/). <br><br> 如果您更熟悉中文, 请 [单击此处](https://flexcyon.github.io/docs-en/zh/) 查看中文文档。<br><br>For your own sanity when it comes to searching for settings, the Settings Search plugin is highly recommended.<br><br> <h5>A caveat of Style Settings is that it sometimes does not properly unload CSS classes. Hence, you would need to reload or restart your app for certain customisations to take effect. I am working to improve this.</h5><h4>Settings you would need to do this for include the status bar, workspace layouts, animations (and a few others)</h4>",
+            "target": "如需更多信息，请查看 [此处文档](https://flexcyon.github.io/docs-en/)。<br><br>如果您更熟悉中文，请 [单击此处](https://flexcyon.github.io/docs-en/zh/) 查看中文文档。<br><br>为了在搜索设置时保持理智，强烈建议使用 Settings Search 插件。<br><br> <h5>Style Settings 的一个注意事项是，它有时无法正确卸载 CSS 类。因此，您需要重新加载或重启应用程序才能使某些自定义设置生效。我正在努力改进这一点。</h5><h4>您需要为此重新加载或重启的应用程序设置包括状态栏、工作区布局、动画（以及其他几个）</h4>"
+        },
+        {
+            "type": "title",
+            "source": "Modes",
+            "target": "模式"
+        },
+        {
+            "type": "description",
+            "source": "Some unique modes flexcyon has to offer. You are also able to configure accessibility settings here.",
+            "target": "Flexcyon 提供的一些独特模式。您还可以在此处配置无障碍设置。"
+        },
+        {
+            "type": "description",
+            "source": "Extreme minimalism inspired by Shimmering Focus theme. Will override some Style Settings options. Will not work with Flex Max mode enabled.",
+            "target": "受 Shimmering Focus 主题启发的极致极简主义。将覆盖部分样式设置选项。无法与 Flex Max 模式同时启用。"
+        },
+        {
+            "type": "description",
+            "source": "An extremely opinionated set up which showcases the unique customisation in this theme, with features working out of the box. If some options are not too your taste you can disable this mode and customise the theme more yourself, it will reset the theme to a clean slate customisations wise. There are also other default options enabled which you may or may not like. Refer to the documentation for the list of options it enables on your behalf.",
+            "target": "一种极度有主见的设置，展示了该主题的独特自定义功能，且开箱即用。如果您不喜欢某些选项，可以禁用此模式并自行进一步自定义，这将重置主题的自定义设置。此外，还启用了其他默认选项，您可能喜欢也可能不喜欢。请参阅文档以了解它为您启用的选项列表。"
+        },
+        {
+            "type": "description",
+            "source": "Reduce opacity of all but the active line in source and live preview mode",
+            "target": "在源码模式和实时预览模式下，降低非活动行的透明度。"
+        },
+        {
+            "type": "description",
+            "source": "Opacity of dimmed non-active lines in typewriter mode",
+            "target": "打字机模式下非活动行的透明度。"
+        },
+        {
+            "type": "description",
+            "source": "Reverses the rendering of stuff in the UI",
+            "target": "反转 UI 中元素的渲染效果。"
+        },
+        {
+            "type": "description",
+            "source": "Like the corresponding callout metadata option but applied globally instead",
+            "target": "类似于相应的 callout 元数据选项，但应用于全局。"
+        },
+        {
+            "type": "description",
+            "source": "Toggle accessibility options",
+            "target": "切换辅助功能选项。"
+        },
+        {
+            "type": "title",
+            "source": "Mobile",
+            "target": "移动端"
+        },
+        {
+            "type": "title",
+            "source": "Editor",
+            "target": "编辑器"
+        },
+        {
+            "type": "description",
+            "source": "Editor related style settings",
+            "target": "编辑器相关样式设置。"
+        },
+        {
+            "type": "description",
+            "source": "Configure the accent and other colours of this theme. You would need to click on the restore default button to properly preview most colours.",
+            "target": "配置此主题的强调色和其他颜色。您需要点击恢复默认按钮才能正确预览大多数颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Cyan Color",
+            "target": "青色"
+        },
+        {
+            "type": "title",
+            "source": "Green Color",
+            "target": "绿色"
+        },
+        {
+            "type": "title",
+            "source": "Orange Color",
+            "target": "橙色"
+        },
+        {
+            "type": "title",
+            "source": "Yellow Color",
+            "target": "黄色"
+        },
+        {
+            "type": "title",
+            "source": "Purple Color",
+            "target": "紫色"
+        },
+        {
+            "type": "title",
+            "source": "Red Color",
+            "target": "红色"
+        },
+        {
+            "type": "title",
+            "source": "Blue Color",
+            "target": "蓝色"
+        },
+        {
+            "type": "title",
+            "source": "Pink Color",
+            "target": "粉色"
+        },
+        {
+            "type": "title",
+            "source": "Accent Color",
+            "target": "强调色"
+        },
+        {
+            "type": "description",
+            "source": "Configure the base and other colours of this theme. You would need to click on the restore default button to properly preview most colours.",
+            "target": "配置此主题的基础和其他颜色。您需要点击恢复默认按钮才能正确预览大多数颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Base Color 01",
+            "target": "基础颜色 01"
+        },
+        {
+            "type": "title",
+            "source": "Base Color 02",
+            "target": "基础颜色 02"
+        },
+        {
+            "type": "title",
+            "source": "Base Color 03",
+            "target": "基础颜色 03"
+        },
+        {
+            "type": "title",
+            "source": "Base Color 04",
+            "target": "基础颜色 04"
+        },
+        {
+            "type": "title",
+            "source": "Base Color 05",
+            "target": "基础颜色 05"
+        },
+        {
+            "type": "title",
+            "source": "Base dark grey",
+            "target": "基础深灰"
+        },
+        {
+            "type": "title",
+            "source": "Base light grey",
+            "target": "基础浅灰"
+        },
+        {
+            "type": "title",
+            "source": "Base grey tab",
+            "target": "基础灰标签"
+        },
+        {
+            "type": "title",
+            "source": "Base grey token",
+            "target": "基础灰标记"
+        },
+        {
+            "type": "title",
+            "source": "Base grey scroll",
+            "target": "基础灰滚动条"
+        },
+        {
+            "type": "title",
+            "source": "Base grey scroll hover",
+            "target": "基础灰滚动条悬停"
+        },
+        {
+            "type": "title",
+            "source": "Normal Text color",
+            "target": "普通文本颜色"
+        },
+        {
+            "type": "description",
+            "source": "Used in search results, tree items, tooltips, and other smaller spaces. Description from the Obsidian Developer Docs.",
+            "target": "用于搜索结果、侧边栏树状项、提示框和其他较小空间。来自 Obsidian 开发者文档的描述。"
+        },
+        {
+            "type": "title",
+            "source": "Enable coloured headings",
+            "target": "启用彩色标题"
+        },
+        {
+            "type": "description",
+            "source": "If the Obsidian installer version is below 1.9.0, use this option instead.",
+            "target": "如果 Obsidian 安装版本低于 1.9.0，请使用此选项。"
+        },
+        {
+            "type": "description",
+            "source": "Colour of Heading 1 when coloured headings is enabled.",
+            "target": "启用彩色标题时，标题 1 的颜色。"
+        },
+        {
+            "type": "description",
+            "source": "Sets the text alignment of Heading 1",
+            "target": "设置标题 1 的文本对齐方式"
+        },
+        {
+            "type": "description",
+            "source": "Colour of Heading 2 when coloured headings is enabled.",
+            "target": "启用彩色标题时，标题 2 的颜色。"
+        },
+        {
+            "type": "description",
+            "source": "Sets the text alignment of Heading 2",
+            "target": "设置标题 2 的文本对齐方式"
+        },
+        {
+            "type": "description",
+            "source": "Colour of Heading 3 when coloured headings is enabled.",
+            "target": "启用彩色标题时，标题 3 的颜色。"
+        },
+        {
+            "type": "description",
+            "source": "Sets the text alignment of Heading 3",
+            "target": "设置标题 3 的文本对齐方式"
+        },
+        {
+            "type": "description",
+            "source": "Colour of Heading 4 when coloured headings is enabled.",
+            "target": "启用彩色标题时，标题 4 的颜色。"
+        },
+        {
+            "type": "description",
+            "source": "Sets the text alignment of Heading 4",
+            "target": "设置标题 4 的文本对齐方式。"
+        },
+        {
+            "type": "description",
+            "source": "Colour of Heading 5 when coloured headings is enabled.",
+            "target": "启用彩色标题时，标题 5 的颜色。"
+        },
+        {
+            "type": "description",
+            "source": "Sets the text alignment of Heading 5",
+            "target": "设置标题 5 的文本对齐方式。"
+        },
+        {
+            "type": "description",
+            "source": "Colour of Heading 6 when coloured headings is enabled.",
+            "target": "启用彩色标题时，标题 6 的颜色。"
+        },
+        {
+            "type": "description",
+            "source": "Sets the text alignment of Heading 6",
+            "target": "设置标题 6 的文本对齐方式。"
+        },
+        {
+            "type": "label",
+            "source": "Catppuccin",
+            "target": "Catppuccin"
+        },
+        {
+            "type": "label",
+            "source": "Lego",
+            "target": "Lego"
+        },
+        {
+            "type": "label",
+            "source": "Monochrome",
+            "target": "Monochrome"
+        },
+        {
+            "type": "description",
+            "source": "Customise the code block file extension, only appears in Live Preview mode",
+            "target": "自定义代码块文件扩展名，仅出现在实时预览模式中。"
+        },
+        {
+            "type": "description",
+            "source": "Proportion to scale Live Preview table heading padding when compared to Reading mode.",
+            "target": "相对于阅读模式，调整实时预览表格标题的内边距比例。"
+        },
+        {
+            "type": "description",
+            "source": "Proportion to scale Live Preview table cell padding when compared to Reading mode.",
+            "target": "相对于阅读模式，调整实时预览表格单元格的内边距比例。"
+        },
+        {
+            "type": "description",
+            "source": "Set a custom string value for active file indicator.",
+            "target": "为活动文件指示器设置自定义字符串值。"
+        },
+        {
+            "type": "description",
+            "source": "Enables vertical navigation style. Navigation icons like Files, new note and so on are displayed vertically much like stacked tabs.",
+            "target": "启用垂直导航样式。导航图标（如文件、新建笔记等）垂直排列，类似于堆叠的标签页。"
+        },
+        {
+            "type": "description",
+            "source": "Select the folder style, sometimes need to restart or force reload for it to take effect properly. Alternate folder style Adds padding for active file item, makes collapse icons and borders blue for active folders.",
+            "target": "选择文件夹样式，有时需要重启或强制刷新才能生效。交替文件夹样式为活动文件项添加内边距，并将折叠图标和边框设为蓝色。"
+        },
+        {
+            "type": "label",
+            "source": "Rainbow folders",
+            "target": "彩虹文件夹"
+        },
+        {
+            "type": "label",
+            "source": "Alternate folder style",
+            "target": "交替文件夹样式"
+        },
+        {
+            "type": "label",
+            "source": "Markdown file tree style",
+            "target": "Markdown 文件树样式"
+        },
+        {
+            "type": "description",
+            "source": "Removes left borders and collapse icons from trees in the app, this affects folder and outlines",
+            "target": "移除应用中树形结构的左侧边框和折叠图标，这会影响文件夹和大纲。"
+        },
+        {
+            "type": "description",
+            "source": "Vertical Padding of tree item variables like file explorer items",
+            "target": "树形项目变量（如文件资源管理器项目）的垂直内边距。"
+        },
+        {
+            "type": "description",
+            "source": "Horizontal Padding of tree item variables like file explorer items",
+            "target": "Tree item（如文件资源管理器）的水平内边距"
+        },
+        {
+            "type": "description",
+            "source": "Wrap long filenames to a new line instead of cutting it off with ellipses when the text does overflow",
+            "target": "当文本溢出时，将长文件名换行显示，而不是用省略号截断"
+        },
+        {
+            "type": "description",
+            "source": "Places nav header below other content, for example placing the New Note and other icons below the file explorer.",
+            "target": "将导航栏置于其他内容下方，例如将新建笔记和其他图标置于文件资源管理器下方。"
+        },
+        {
+            "type": "description",
+            "source": "File line width when readable line length is enabled",
+            "target": "启用可读行长度时的文件行宽"
+        },
+        {
+            "type": "description",
+            "source": "Opacity of dimmed UI elements",
+            "target": "变暗 UI 元素的透明度"
+        },
+        {
+            "type": "description",
+            "source": "Opacity of block ID labels",
+            "target": "块 ID 标签的透明度"
+        },
+        {
+            "type": "description",
+            "source": "Sets the top margin of the editor.",
+            "target": "设置编辑器的上边距"
+        },
+        {
+            "type": "description",
+            "source": "Alignment of the top actions (the ones with icons that allow you to make a new note, new folder etc.). Defaults to left if an invalid value is given.",
+            "target": "顶部操作栏的对齐方式（带有图标用于新建笔记、新建文件夹等）。如果提供无效值，默认为左对齐。"
+        },
+        {
+            "type": "description",
+            "source": "Sets the width of prompts like the command prompt",
+            "target": "设置提示框（如命令面板）的宽度"
+        },
+        {
+            "type": "description",
+            "source": "Sets the maximum width of prompts like the command prompt",
+            "target": "设置提示框（如命令面板）的最大宽度"
+        },
+        {
+            "type": "description",
+            "source": "Sets the maximum height of prompts like the command prompt",
+            "target": "设置提示框（如命令面板）的最大高度"
+        },
+        {
+            "type": "description",
+            "source": "Configure the alignment of prompt such as the command prompt and Omnisearch search prompt",
+            "target": "配置提示框的对齐方式，例如命令面板和 Omnisearch 搜索框"
+        },
+        {
+            "type": "label",
+            "source": "Top left",
+            "target": "左上"
+        },
+        {
+            "type": "label",
+            "source": "Top center",
+            "target": "顶部居中"
+        },
+        {
+            "type": "label",
+            "source": "Center left",
+            "target": "左侧居中"
+        },
+        {
+            "type": "label",
+            "source": "Bottom left",
+            "target": "左下"
+        },
+        {
+            "type": "label",
+            "source": "Bottom center",
+            "target": "底部居中"
+        },
+        {
+            "type": "description",
+            "source": "Configure the vertical padding of Search, Quick Switcher and Omnisearch",
+            "target": "配置搜索、快速切换器和 Omnisearch 的垂直内边距"
+        },
+        {
+            "type": "description",
+            "source": "Configure the horizontal padding of Search, Quick Switcher and Omnisearch",
+            "target": "配置搜索、快速切换器和 Omnisearch 的水平内边距"
+        },
+        {
+            "type": "description",
+            "source": "Configure animation type for note content",
+            "target": "配置笔记内容的动画类型"
+        },
+        {
+            "type": "label",
+            "source": "Slide in Left to Right",
+            "target": "从左向右滑入"
+        },
+        {
+            "type": "label",
+            "source": "Slide in Right to Left",
+            "target": "从右向左滑入"
+        },
+        {
+            "type": "label",
+            "source": "Slide in Top to Bottom",
+            "target": "从上向下滑入"
+        },
+        {
+            "type": "label",
+            "source": "Slide in Bottom to Top",
+            "target": "从下向上滑入"
+        },
+        {
+            "type": "label",
+            "source": "Rotate in Bottom to Top",
+            "target": "从下向上旋转"
+        },
+        {
+            "type": "label",
+            "source": "Rotate in Right to Left",
+            "target": "从右向左旋转"
+        },
+        {
+            "type": "label",
+            "source": "Scale Up",
+            "target": "放大"
+        },
+        {
+            "type": "label",
+            "source": "Fade In",
+            "target": "淡入"
+        },
+        {
+            "type": "description",
+            "source": "Configure animation type for transitions of prompts, modals and tab containers.",
+            "target": "配置提示、模态框和标签页容器的过渡动画类型。"
+        },
+        {
+            "type": "description",
+            "source": "Transition duration for animations. Affects Bases Cards View flex grow transition as well as many other UI elements when animations are enabled",
+            "target": "动画过渡时长。启用动画时，会影响基础卡片视图的 flex grow 过渡以及其他许多 UI 元素。"
+        },
+        {
+            "type": "description",
+            "source": "Transition easing fucntion for animations",
+            "target": "动画过渡缓动函数"
+        },
+        {
+            "type": "description",
+            "source": "The amount of pixels the slide animations will slide",
+            "target": "滑动动画的滑动像素数"
+        },
+        {
+            "type": "description",
+            "source": "Initial scaling for scale up animation.",
+            "target": "放大动画的初始缩放比例"
+        },
+        {
+            "type": "description",
+            "source": "Initial opacity for all animations. When set to 1, the fade in animatin does not visually show anything.",
+            "target": "所有动画的初始不透明度。当设置为 1 时，淡入动画在视觉上不会显示任何内容。"
+        },
+        {
+            "type": "description",
+            "source": "Select the background type for the editor",
+            "target": "选择编辑器的背景类型"
+        },
+        {
+            "type": "label",
+            "source": "Grid Background",
+            "target": "网格背景"
+        },
+        {
+            "type": "label",
+            "source": "Dotted Background",
+            "target": "点状背景"
+        },
+        {
+            "type": "label",
+            "source": "Rhombus Background",
+            "target": "菱形背景"
+        },
+        {
+            "type": "description",
+            "source": "How many degrees the grid background will be rotated",
+            "target": "网格背景旋转的角度"
+        },
+        {
+            "type": "description",
+            "source": "Select the workspace layout. Card layout adds solid rounded borders. Angled layout is tilted stuff. Powerlevel10k one has plenty of polygons.",
+            "target": "选择工作区布局。卡片布局添加实心圆角边框。角度布局是倾斜的样式。Powerlevel10k 那个有很多多边形。"
+        },
+        {
+            "type": "label",
+            "source": "Cards Layout",
+            "target": "卡片布局"
+        },
+        {
+            "type": "label",
+            "source": "Angled Layout",
+            "target": "斜角布局"
+        },
+        {
+            "type": "label",
+            "source": "Powerlevel10k Layout",
+            "target": "Powerlevel10k 布局"
+        },
+        {
+            "type": "description",
+            "source": "Makes Files, properties and other items adopt styling inspired by TUIs.",
+            "target": "使文件、属性和其他项目采用受 TUI 启发的样式。"
+        },
+        {
+            "type": "description",
+            "source": "Right padding for the callout icon",
+            "target": "警告框图标的右侧内边距"
+        },
+        {
+            "type": "description",
+            "source": "Margin top for the first codeblock in a callout, affects images too.",
+            "target": "警告框内第一个代码块的顶部外边距，也会影响图片。"
+        },
+        {
+            "type": "description",
+            "source": "Configures the opacity of callouts when they have metadata of <all-*> or <bg-*>",
+            "target": "配置警告框在具有 <all-*> 或 <bg-*> 元数据时的不透明度"
+        },
+        {
+            "type": "description",
+            "source": "Configures the vertical margin of callouts",
+            "target": "配置警告框的垂直外边距"
+        },
+        {
+            "type": "description",
+            "source": "Configures the vertical padding of callouts",
+            "target": "配置警告框的垂直内边距"
+        },
+        {
+            "type": "description",
+            "source": "Configures the horizontal padding of callouts",
+            "target": "配置警告框的水平内边距"
+        },
+        {
+            "type": "description",
+            "source": "Configures the border radius of callouts",
+            "target": "配置便签圆角大小"
+        },
+        {
+            "type": "description",
+            "source": "Configures the border radius of callouts and other UI elements with additional border radius. E.g. Cards TUI add-on.",
+            "target": "配置便签和其他具有额外圆角的 UI 元素的圆角。例如：卡片 TUI 插件。"
+        },
+        {
+            "type": "description",
+            "source": "Modifies the default styles of all callouts. Needs an app reload to properly refresh callout rendering.",
+            "target": "修改所有便签的默认样式。需要重新加载应用才能正确刷新便签渲染。"
+        },
+        {
+            "type": "label",
+            "source": "TUI Callouts",
+            "target": "TUI 便签"
+        },
+        {
+            "type": "label",
+            "source": "Plain Callouts",
+            "target": "纯文本便签"
+        },
+        {
+            "type": "label",
+            "source": "Vertical Callouts",
+            "target": "垂直便签"
+        },
+        {
+            "type": "description",
+            "source": "Do not display icons for TUI callout",
+            "target": "不显示 TUI 便签的图标"
+        },
+        {
+            "type": "description",
+            "source": "Configures the width of flashcard callouts",
+            "target": "配置闪卡便签的宽度"
+        },
+        {
+            "type": "description",
+            "source": "Configures the height of flashcard callouts",
+            "target": "配置闪卡便签的高度"
+        },
+        {
+            "type": "description",
+            "source": "Do not display horizontal rules in reading mode",
+            "target": "阅读模式下不显示水平分割线"
+        },
+        {
+            "type": "description",
+            "source": "Unfortunately I cannot get it to work within CodeMirror's context, because the output html is not ordered list tags which are easier to style.",
+            "target": "很遗憾，我无法在 CodeMirror 的上下文中实现此功能，因为输出的 HTML 不是更容易定制的有序列表标签。"
+        },
+        {
+            "type": "description",
+            "source": "Select whether the status bar is hidden, and if it is whether to hover or to press and hold to unhide it.",
+            "target": "选择状态栏是否隐藏，以及是悬停还是按住以显示它。"
+        },
+        {
+            "type": "label",
+            "source": "Hide until hover",
+            "target": "悬停时隐藏"
+        },
+        {
+            "type": "label",
+            "source": "Hide until hold",
+            "target": "按住时隐藏"
+        },
+        {
+            "type": "label",
+            "source": "None",
+            "target": "无"
+        },
+        {
+            "type": "label",
+            "source": "Centre",
+            "target": "居中"
+        },
+        {
+            "type": "label",
+            "source": "Right",
+            "target": "右侧"
+        },
+        {
+            "type": "description",
+            "source": "Text to show when hide until hover is enabled, do not leave empty",
+            "target": "启用“悬停时隐藏”时显示的文本，请勿留空。"
+        },
+        {
+            "type": "description",
+            "source": "Translation for showing status bar on hover, requires hide until hover to be enabled.",
+            "target": "悬停时显示状态栏的文本，需要启用“悬停时隐藏”。"
+        },
+        {
+            "type": "description",
+            "source": "Transition duration for showing status bar on hover, requires hide until hover to be enabled.",
+            "target": "悬停时显示状态栏的过渡时长，需要启用“悬停时隐藏”。"
+        },
+        {
+            "type": "description",
+            "source": "Transition timing function for showing status bar on hover, requires hide until hover to be enabled.",
+            "target": "悬停显示状态栏的过渡效果，需启用“悬停时隐藏”。"
+        },
+        {
+            "type": "description",
+            "source": "Use text instead of icons for mode status",
+            "target": "在模式状态中使用文字而非图标"
+        },
+        {
+            "type": "description",
+            "source": "Text to display when in reading mode, needs use text instead of icons for mode status enabled.",
+            "target": "阅读模式下显示的文字，需启用“在模式状态中使用文字而非图标”。"
+        },
+        {
+            "type": "description",
+            "source": "Text to display when in source mode, needs use text instead of icons for mode status enabled.",
+            "target": "源码模式下显示的文字，需启用“在模式状态中使用文字而非图标”。"
+        },
+        {
+            "type": "description",
+            "source": "Text to display when in live preview mode, needs use text instead of icons for mode status enabled.",
+            "target": "实时预览模式下显示的文字，需启用“在模式状态中使用文字而非图标”。"
+        },
+        {
+            "type": "description",
+            "source": "Angled status bar style is inspired by Powerlevel10k. Cards has a more pronounced border radius.",
+            "target": "角落风格的状态栏受 Powerlevel10k 启发。卡片风格具有更明显的圆角。"
+        },
+        {
+            "type": "label",
+            "source": "Angled",
+            "target": "角落"
+        },
+        {
+            "type": "label",
+            "source": "Cards",
+            "target": "卡片"
+        },
+        {
+            "type": "label",
+            "source": "Powerlevel10k",
+            "target": "Powerlevel10k"
+        },
+        {
+            "type": "description",
+            "source": "Affects text colors for vim mode status text as well.",
+            "target": "同样影响 Vim 模式状态文字的颜色。"
+        },
+        {
+            "type": "description",
+            "source": "Does not show status bar in new empty tabs where ASCII art or actions are shown by default.",
+            "target": "默认显示 ASCII 艺术或操作的新空标签页中不显示状态栏。"
+        },
+        {
+            "type": "description",
+            "source": "Enable hover effects on titlebar buttons",
+            "target": "启用标题栏按钮悬停效果"
+        },
+        {
+            "type": "description",
+            "source": "Configure and customise line numbers.",
+            "target": "配置和自定义行号"
+        },
+        {
+            "type": "description",
+            "source": "Highlights the active line while editing.",
+            "target": "编辑时高亮当前行"
+        },
+        {
+            "type": "description",
+            "source": "Enable Relative Line Numbers. Adapted from Shimmering Focus Theme",
+            "target": "启用相对行号。改编自 Shimmering Focus 主题"
+        },
+        {
+            "type": "description",
+            "source": "Does not display line numbers for lines which have relative line numbers displayed.",
+            "target": "不显示已有相对行号的行"
+        },
+        {
+            "type": "description",
+            "source": "Overrides previous configuration option.",
+            "target": "覆盖之前的配置选项"
+        },
+        {
+            "type": "label",
+            "source": "Roman",
+            "target": "罗马"
+        },
+        {
+            "type": "label",
+            "source": "Greek",
+            "target": "希腊"
+        },
+        {
+            "type": "label",
+            "source": "Chinese",
+            "target": "中文"
+        },
+        {
+            "type": "description",
+            "source": "Customise the active line number with your own string, defaults to \"->\"",
+            "target": "自定义活动行号，默认为 \"->\""
+        },
+        {
+            "type": "description",
+            "source": "Sets the cursor type when it is not specified by the app",
+            "target": "设置应用程序未指定时的光标类型"
+        },
+        {
+            "type": "description",
+            "source": "Enable Smooth transition for vim mode block cursor",
+            "target": "为 vim 模式块光标启用平滑过渡"
+        },
+        {
+            "type": "description",
+            "source": "Max width of view header breadcrumb",
+            "target": "视图标题面包屑的最大宽度"
+        },
+        {
+            "type": "description",
+            "source": "Vertical paddding of View Header title in modes like Angled and Powerlevel10k",
+            "target": "Angled 和 Powerlevel10k 等模式中视图标题的垂直内边距"
+        },
+        {
+            "type": "description",
+            "source": "Horizontal padding of View Header title in modes like Angled and Powerlevel10k",
+            "target": "Angled 和 Powerlevel10k 等模式中视图标题的水平内边距"
+        },
+        {
+            "type": "description",
+            "source": "Debugging details like operating system and screen dimension.",
+            "target": "调试详情，如操作系统和屏幕尺寸"
+        },
+        {
+            "type": "description",
+            "source": "Display the width and height of the current Obsidian window using pure CSS",
+            "target": "使用纯 CSS 显示当前 Obsidian 窗口的宽度和高度"
+        },
+        {
+            "type": "description",
+            "source": "Numbers your tabs in sequential order. Each tab group has its own counter. Meant for RTZ mode, but can be enabled separately.",
+            "target": "按顺序为标签页编号。每个标签页组都有自己的计数器。用于 RTZ 模式，但可单独启用。"
+        },
+        {
+            "type": "description",
+            "source": "Removes tab headers. You can still view the original content by hovering and a tooltip will appear. Meant for RTZ mode, but can be enabled separately.",
+            "target": "移除标签页标题。悬停时仍可查看原始内容并显示工具提示。用于 RTZ 模式，但可单独启用。"
+        },
+        {
+            "type": "description",
+            "source": "Places tab header container at the bottom instead of the top of the screen, does not do anything for Stacked Tabs.",
+            "target": "将标签页标题容器置于屏幕底部而非顶部，对堆叠标签页无效。"
+        },
+        {
+            "type": "description",
+            "source": "For icon related styling",
+            "target": "用于图标相关样式"
+        },
+        {
+            "type": "description",
+            "source": "Upscale percentage used in smiley icons and side dock icon effects",
+            "target": "笑脸图标和侧边栏图标效果中使用的放大百分比"
+        },
+        {
+            "type": "description",
+            "source": "Upscale percentage used in side dock icon effects",
+            "target": "侧边栏图标效果中使用的放大百分比"
+        },
+        {
+            "type": "description",
+            "source": "Display smiley toggle icons in the UI",
+            "target": "在界面中显示笑脸切换图标"
+        },
+        {
+            "type": "description",
+            "source": "Replaces some icons with ASCII Icons, works best when used together with smiley icons. This will override the declarations by community plugins like Iconic for the specific icons targeted. This can be prevented with the setting below.",
+            "target": "用 ASCII 图标替换部分图标，与笑脸图标配合使用效果最佳。这将覆盖社区插件（如 Iconic）对特定图标的声明。可通过下方设置防止此行为。"
+        },
+        {
+            "type": "description",
+            "source": "Ensure community plugins which modify icons have their modifications take precedence over this theme's. Smiley Icons and ASCII Icons will not render when said community plugins are enabled and this setting is enabled. This setting currently only works with the Iconic plugin, as adding support for all icon related plugins negatively affects performance too much.",
+            "target": "确保修改图标的社区插件的优先级高于此主题。当启用此类插件和此设置时，笑脸图标和 ASCII 图标将不显示。此设置目前仅适用于 Iconic 插件，因为支持所有图标相关插件会严重影响性能。"
+        },
+        {
+            "type": "description",
+            "source": "Display coloured icons for buttons in setting like uninstall, options, hotkeys, etc.",
+            "target": "为设置中的按钮（如卸载、选项、快捷键等）显示彩色图标"
+        },
+        {
+            "type": "description",
+            "source": "Stylise pin icons in the sidebars",
+            "target": "美化侧边栏中的固定图标"
+        },
+        {
+            "type": "description",
+            "source": "Customise the appearance of inputs",
+            "target": "自定义输入框的外观"
+        },
+        {
+            "type": "description",
+            "source": "Customise the appearance of settings",
+            "target": "自定义设置的外观"
+        },
+        {
+            "type": "description",
+            "source": "Enable installed tooltip effects such as subtle dimming of community items and fixing positioning of installed tooltip in community items.",
+            "target": "启用已安装的提示框效果，例如淡化社区项目并修复社区项目中已安装提示框的位置。"
+        },
+        {
+            "type": "description",
+            "source": "Control the left margin of the installed tooltip",
+            "target": "控制已安装提示框的左边距"
+        },
+        {
+            "type": "description",
+            "source": "Do not show scrollbar in settings where it is not necessary.",
+            "target": "在不需要滚动条的地方不显示滚动条。"
+        },
+        {
+            "type": "description",
+            "source": "Configure the appearance for style settings",
+            "target": "配置样式设置的外观"
+        },
+        {
+            "type": "description",
+            "source": "Dims collapsed Style Settings headings, useful for navigating larger or heavily nested Style Settings.",
+            "target": "淡化折叠的样式设置标题，便于浏览较大的或嵌套较深的样式设置。"
+        },
+        {
+            "type": "description",
+            "source": "Style settings related to supported plugins",
+            "target": "与支持插件相关的样式设置"
+        },
+        {
+            "type": "description",
+            "source": "Used in alternate file tree folder",
+            "target": "用于备用文件树文件夹"
+        },
+        {
+            "type": "description",
+            "source": "Used in alternate file tree files",
+            "target": "用于备用文件树文件"
+        },
+        {
+            "type": "description",
+            "source": "Remove folder icons",
+            "target": "移除文件夹图标"
+        },
+        {
+            "type": "description",
+            "source": "Remove file tree header",
+            "target": "移除文件树标题"
+        },
+        {
+            "type": "description",
+            "source": "Alternate folder count style, shows count on hover",
+            "target": "切换文件夹计数样式，悬停时显示计数"
+        },
+        {
+            "type": "description",
+            "source": "Toggle the blur effect of inactive canvas nodes.",
+            "target": "切换未激活画布节点的模糊效果"
+        },
+        {
+            "type": "description",
+            "source": "How intense the blur effect is when the blur inactive canvas nodes mode is on",
+            "target": "开启未激活画布节点模糊模式时的模糊强度"
+        },
+        {
+            "type": "label",
+            "source": "Bottom right",
+            "target": "右下角"
+        },
+        {
+            "type": "label",
+            "source": "Top right",
+            "target": "右上角"
+        },
+        {
+            "type": "label",
+            "source": "Left aligned center",
+            "target": "左对齐居中"
+        },
+        {
+            "type": "label",
+            "source": "Left aligned top",
+            "target": "左对齐顶部"
+        },
+        {
+            "type": "label",
+            "source": "Left aligned bottom",
+            "target": "左对齐底部"
+        },
+        {
+            "type": "label",
+            "source": "Right aligned center",
+            "target": "右对齐居中"
+        },
+        {
+            "type": "label",
+            "source": "Right aligned top",
+            "target": "顶部右对齐"
+        },
+        {
+            "type": "label",
+            "source": "Right aligned bottom",
+            "target": "底部右对齐"
+        },
+        {
+            "type": "label",
+            "source": "Right aligned center align",
+            "target": "居中右对齐"
+        },
+        {
+            "type": "description",
+            "source": "For configuring the Various Complements Plugin",
+            "target": "用于配置 Various Complements 插件"
+        },
+        {
+            "type": "description",
+            "source": "Overrides defaults. Uses padding 4px 8px.",
+            "target": "覆盖默认值。使用 4px 8px 间距。"
+        },
+        {
+            "type": "description",
+            "source": "For configuring the Omnisearch Plugin",
+            "target": "用于配置 Omnisearch 插件"
+        },
+        {
+            "type": "description",
+            "source": "Removes Omnisearch search result icons.",
+            "target": "移除 Omnisearch 搜索结果图标。"
+        },
+        {
+            "type": "description",
+            "source": "For configuring the core Bases plugin",
+            "target": "用于配置核心 Bases 插件"
+        },
+        {
+            "type": "description",
+            "source": "Sets vertical padding for Base file content",
+            "target": "设置 Base 文件内容的垂直间距"
+        },
+        {
+            "type": "description",
+            "source": "Sets horizontal padding for Base file content",
+            "target": "设置 Base 文件内容的水平间距"
+        },
+        {
+            "type": "description",
+            "source": "Sets padding for Base embeds",
+            "target": "设置基础嵌入内容的内边距。"
+        },
+        {
+            "type": "description",
+            "source": "Opacity of Labels in Cards View",
+            "target": "卡片视图中标签的不透明度。"
+        },
+        {
+            "type": "description",
+            "source": "This is the factor of how long the Card View takes to scale depending on tab size.",
+            "target": "这取决于标签页大小，卡片视图缩放所需的时间因子。"
+        },
+        {
+            "type": "description",
+            "source": "Vim mode text, new tab appearance, side dock icons, tooltip radius, background images",
+            "target": "Vim 模式文本、新标签页外观、侧边栏图标、工具提示半径、背景图片。"
+        },
+        {
+            "type": "description",
+            "source": "Text to display modes when using built-in vim bindings, inherits style and color from status bar style",
+            "target": "使用内置 Vim 绑定时显示的模式文本，继承自状态栏样式。"
+        },
+        {
+            "type": "description",
+            "source": "Enable text for displaying current vim mode",
+            "target": "启用显示当前 Vim 模式的文本。"
+        },
+        {
+            "type": "description",
+            "source": "How far from the left of the screen the current vim mode text is (as the number gets greater, the text moves to the right of the screen)",
+            "target": "当前 Vim 模式文本距离屏幕左侧的距离（数值越大，文本越靠右）。"
+        },
+        {
+            "type": "description",
+            "source": "How far from the bottom of the screen the current vim mode text is (as the number gets greater, the text moves higher up the screen)",
+            "target": "当前 Vim 模式文本距离屏幕底部的距离（数值越大，文本越靠上）。"
+        },
+        {
+            "type": "description",
+            "source": "Text to display when in insert mode",
+            "target": "插入模式下显示的文本。"
+        },
+        {
+            "type": "description",
+            "source": "Text to display when in normal mode",
+            "target": "普通模式下显示的文本。"
+        },
+        {
+            "type": "description",
+            "source": "Text to display when in command mode",
+            "target": "在命令模式下显示的文本"
+        },
+        {
+            "type": "description",
+            "source": "Customise the appearance of new tabs. Type backslash character and a to pass it as a newline in ASCII art and other input values.",
+            "target": "自定义新标签页的外观。输入反斜杠和 a 以在 ASCII 艺术和其他输入值中作为换行符传递。"
+        },
+        {
+            "type": "label",
+            "source": "ASCII art",
+            "target": "ASCII 艺术"
+        },
+        {
+            "type": "label",
+            "source": "Quote",
+            "target": "引用"
+        },
+        {
+            "type": "description",
+            "source": "Background color for the add before empty state title, accepts CSS variables.",
+            "target": "添加到空状态标题的背景颜色，接受 CSS 变量。"
+        },
+        {
+            "type": "description",
+            "source": "The quote that will be displayed",
+            "target": "将要显示的引用"
+        },
+        {
+            "type": "description",
+            "source": "The prefix before the quote attribution",
+            "target": "引用归属前的前缀"
+        },
+        {
+            "type": "description",
+            "source": "The quote attribution",
+            "target": "引用归属"
+        },
+        {
+            "type": "description",
+            "source": "ASCII art to display in new tab. Will also appear in other parts of the UI like core Slides plugin pause presentation mode.",
+            "target": "在新标签页中显示的 ASCII 艺术。也会出现在 UI 的其他部分，例如核心幻灯片插件暂停演示模式。"
+        },
+        {
+            "type": "description",
+            "source": "The maximum size of the ASCII art",
+            "target": "ASCII 艺术的最大尺寸"
+        },
+        {
+            "type": "description",
+            "source": "The line height of the ASCII art and quotes.",
+            "target": "ASCII 艺术和引用的行高"
+        },
+        {
+            "type": "description",
+            "source": "The scale of the ASCII art",
+            "target": "ASCII 艺术的缩放比例"
+        },
+        {
+            "type": "description",
+            "source": "Toggle the empty state title",
+            "target": "切换空状态标题"
+        },
+        {
+            "type": "description",
+            "source": "Toggle the empty state actions",
+            "target": "切换空状态操作"
+        },
+        {
+            "type": "description",
+            "source": "Enable the colors, dim till hover effects for side dock icons",
+            "target": "启用侧边栏图标颜色，悬停时变暗"
+        },
+        {
+            "type": "description",
+            "source": "Configure the width of the workspace ribbon on the left.",
+            "target": "配置左侧工作区 Ribbon 的宽度"
+        },
+        {
+            "type": "description",
+            "source": "Configure background images in the left and right sidebars",
+            "target": "配置左右侧边栏的背景图片"
+        },
+        {
+            "type": "description",
+            "source": "Overrides background image declaration below, configures in both left and right sidebar",
+            "target": "覆盖下方背景图片声明，同时配置左右侧边栏"
+        },
+        {
+            "type": "label",
+            "source": "Grid",
+            "target": "网格"
+        },
+        {
+            "type": "label",
+            "source": "Dotted",
+            "target": "点状"
+        },
+        {
+            "type": "label",
+            "source": "Rhombus",
+            "target": "菱形"
+        },
+        {
+            "type": "description",
+            "source": "Configure background images in the background of settings menu, prompts etc",
+            "target": "配置设置菜单、提示等界面的背景图片"
+        },
+        {
+            "type": "description",
+            "source": "Sets how dark the modal background is. A higher value dims background content better.",
+            "target": "设置模态框背景的深浅。数值越高，背景内容越暗。"
+        }
+    ]
+}

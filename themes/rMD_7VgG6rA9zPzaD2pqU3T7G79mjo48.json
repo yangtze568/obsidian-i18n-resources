@@ -1,0 +1,393 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Jotter",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Jotter",
+        "description": "Jotter Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Jotter",
+            "target": "速记本"
+        },
+        {
+            "type": "title",
+            "source": "Interface",
+            "target": "界面"
+        },
+        {
+            "type": "title",
+            "source": "Wrap titles",
+            "target": "标题换行"
+        },
+        {
+            "type": "description",
+            "source": "Show the full name of files in the explorer (no ellipsis)",
+            "target": "在资源管理器中显示文件的完整名称（不显示省略号）"
+        },
+        {
+            "type": "title",
+            "source": "Border style",
+            "target": "边框样式"
+        },
+        {
+            "type": "label",
+            "source": "Invisible",
+            "target": "不可见"
+        },
+        {
+            "type": "label",
+            "source": "Visible",
+            "target": "可见"
+        },
+        {
+            "type": "title",
+            "source": "Colorful tooltips",
+            "target": "彩色提示框"
+        },
+        {
+            "type": "description",
+            "source": "When enabled, tooltips will have the same background color as your accent color",
+            "target": "启用后，提示框将使用与强调色相同的背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "Additional color themes",
+            "target": "额外的配色主题"
+        },
+        {
+            "type": "label",
+            "source": "Reporter",
+            "target": "报告员"
+        },
+        {
+            "type": "label",
+            "source": "Explorer",
+            "target": "探索者"
+        },
+        {
+            "type": "label",
+            "source": "Keeper",
+            "target": "守护者"
+        },
+        {
+            "type": "label",
+            "source": "Undercover",
+            "target": "伪装者"
+        },
+        {
+            "type": "label",
+            "source": "Obsidian",
+            "target": "黑曜石"
+        },
+        {
+            "type": "title",
+            "source": "Accent Colors",
+            "target": "强调色"
+        },
+        {
+            "type": "title",
+            "source": "Enable predefined accent colors",
+            "target": "启用预设强调色"
+        },
+        {
+            "type": "description",
+            "source": "Enable to pick your accent color from the following list (when disabled, you'll be able to pick your accent color from the Appearance tab, as usual)",
+            "target": "启用后可从下方列表选择强调色（禁用后，您仍可在外观选项卡中像往常一样选择强调色）"
+        },
+        {
+            "type": "title",
+            "source": "Accent colors",
+            "target": "强调色"
+        },
+        {
+            "type": "description",
+            "source": "Handpicked accent colors you can choose from",
+            "target": "您可以从中选择的精选强调色"
+        },
+        {
+            "type": "label",
+            "source": "Rust",
+            "target": "铁锈色"
+        },
+        {
+            "type": "label",
+            "source": "Vermilion",
+            "target": "朱砂色"
+        },
+        {
+            "type": "label",
+            "source": "Pumpkin",
+            "target": "南瓜色"
+        },
+        {
+            "type": "label",
+            "source": "Mustard",
+            "target": "芥末色"
+        },
+        {
+            "type": "label",
+            "source": "Jade",
+            "target": "玉色"
+        },
+        {
+            "type": "label",
+            "source": "Forest",
+            "target": "森林绿"
+        },
+        {
+            "type": "label",
+            "source": "Turquoise",
+            "target": "绿松石色"
+        },
+        {
+            "type": "label",
+            "source": "Ultramarine",
+            "target": "靛青色"
+        },
+        {
+            "type": "label",
+            "source": "Denim",
+            "target": "牛仔蓝"
+        },
+        {
+            "type": "label",
+            "source": "Mauve",
+            "target": "茜紫色"
+        },
+        {
+            "type": "label",
+            "source": "Wine",
+            "target": "红酒"
+        },
+        {
+            "type": "label",
+            "source": "Bubblegum",
+            "target": "泡泡糖"
+        },
+        {
+            "type": "label",
+            "source": "Slate",
+            "target": "板岩"
+        },
+        {
+            "type": "title",
+            "source": "Editor",
+            "target": "编辑器"
+        },
+        {
+            "type": "title",
+            "source": "Active line highlight",
+            "target": "活动行高亮"
+        },
+        {
+            "type": "title",
+            "source": "Hide note title",
+            "target": "隐藏笔记标题"
+        },
+        {
+            "type": "title",
+            "source": "Headings",
+            "target": "标题"
+        },
+        {
+            "type": "title",
+            "source": "Styling",
+            "target": "样式"
+        },
+        {
+            "type": "title",
+            "source": "H2 underline",
+            "target": "H2 下划线"
+        },
+        {
+            "type": "description",
+            "source": "Toggle H2 underline",
+            "target": "切换 H2 下划线"
+        },
+        {
+            "type": "title",
+            "source": "H3 italics",
+            "target": "H3 斜体"
+        },
+        {
+            "type": "description",
+            "source": "Toggle H3 italics",
+            "target": "切换 H3 斜体"
+        },
+        {
+            "type": "title",
+            "source": "H5 uppercase",
+            "target": "H5 大写"
+        },
+        {
+            "type": "description",
+            "source": "Toggle H5 uppercase",
+            "target": "切换 H5 大写"
+        },
+        {
+            "type": "title",
+            "source": "H6 uppercase",
+            "target": "H6 大写"
+        },
+        {
+            "type": "description",
+            "source": "Toggle H6 uppercase",
+            "target": "切换 H6 大写"
+        },
+        {
+            "type": "title",
+            "source": "Colors",
+            "target": "颜色"
+        },
+        {
+            "type": "title",
+            "source": "H1 color",
+            "target": "H1 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H2 color",
+            "target": "H2 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H3 color",
+            "target": "H3 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H4 color",
+            "target": "H4 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H5 color",
+            "target": "H5 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H6 color",
+            "target": "H6 颜色"
+        },
+        {
+            "type": "title",
+            "source": "Size",
+            "target": "大小"
+        },
+        {
+            "type": "title",
+            "source": "H1 size",
+            "target": "H1 大小"
+        },
+        {
+            "type": "title",
+            "source": "H2 size",
+            "target": "H2 大小"
+        },
+        {
+            "type": "title",
+            "source": "H3 size",
+            "target": "H3 大小"
+        },
+        {
+            "type": "title",
+            "source": "H4 size",
+            "target": "H4 大小"
+        },
+        {
+            "type": "title",
+            "source": "H5 size",
+            "target": "H5 大小"
+        },
+        {
+            "type": "title",
+            "source": "H6 size",
+            "target": "H6 大小"
+        },
+        {
+            "type": "title",
+            "source": "Typography",
+            "target": "排版"
+        },
+        {
+            "type": "title",
+            "source": "Italic text",
+            "target": "斜体文本"
+        },
+        {
+            "type": "title",
+            "source": "Italics color",
+            "target": "斜体颜色"
+        },
+        {
+            "type": "title",
+            "source": "Italics underline",
+            "target": "斜体下划线"
+        },
+        {
+            "type": "description",
+            "source": "Toggle italics underline",
+            "target": "切换斜体下划线"
+        },
+        {
+            "type": "title",
+            "source": "Italics underline color",
+            "target": "斜体下划线颜色"
+        },
+        {
+            "type": "description",
+            "source": "Change italics underline color",
+            "target": "更改斜体下划线颜色"
+        },
+        {
+            "type": "title",
+            "source": "Bold text",
+            "target": "粗体文本"
+        },
+        {
+            "type": "title",
+            "source": "Bold font color",
+            "target": "粗体颜色"
+        },
+        {
+            "type": "title",
+            "source": "Bold underline",
+            "target": "粗体下划线"
+        },
+        {
+            "type": "description",
+            "source": "Toggle bold underline",
+            "target": "切换粗体下划线"
+        },
+        {
+            "type": "title",
+            "source": "Bold underline color",
+            "target": "粗体下划线颜色"
+        },
+        {
+            "type": "description",
+            "source": "Change bold underline color (dy default, it is set to be the same as your accent color)",
+            "target": "更改粗体下划线颜色（默认情况下，设置为与强调色相同）"
+        },
+        {
+            "type": "title",
+            "source": "Hyperlinks",
+            "target": "超链接"
+        },
+        {
+            "type": "title",
+            "source": "Internal links",
+            "target": "内部链接"
+        },
+        {
+            "type": "title",
+            "source": "External links",
+            "target": "外部链接"
+        }
+    ]
+}
