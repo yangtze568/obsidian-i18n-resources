@@ -1,0 +1,48 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Nordic",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Nordic",
+        "description": "Nordic Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Nordic",
+            "target": "北欧"
+        },
+        {
+            "type": "title",
+            "source": "Flavor",
+            "target": "风格"
+        },
+        {
+            "type": "description",
+            "source": "Variations on the base nord theme",
+            "target": "基于基础 Nord 主题的变体"
+        },
+        {
+            "type": "title",
+            "source": "Colored Headers (Rainbow Headers)",
+            "target": "彩色标题 (彩虹标题)"
+        },
+        {
+            "type": "description",
+            "source": "adds different colors for each of the headings",
+            "target": "为每个标题添加不同的颜色"
+        },
+        {
+            "type": "title",
+            "source": "Darker Dark Theme",
+            "target": "更深的深色主题"
+        },
+        {
+            "type": "description",
+            "source": "prefer things a little darker? mix the base colors with this percentage of black",
+            "target": "想要更暗一点？用此黑色百分比混合基础颜色"
+        }
+    ]
+}

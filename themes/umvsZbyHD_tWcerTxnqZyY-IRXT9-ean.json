@@ -1,0 +1,728 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Minimalists Paradise",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Minimalists Paradise",
+        "description": "Minimalists Paradise Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Minimalists Paradise",
+            "target": "极简天堂"
+        },
+        {
+            "type": "title",
+            "source": "layout",
+            "target": "布局"
+        },
+        {
+            "type": "title",
+            "source": "frosted glass interface",
+            "target": "毛玻璃界面"
+        },
+        {
+            "type": "description",
+            "source": "apply a frosted glass effect to the main componenets of the interface. WARNING this feature is experimental, some aspects of the UI may not look as intended.",
+            "target": "为界面主要组件应用毛玻璃效果。警告：此功能为实验性功能，UI 的某些方面可能无法按预期显示。"
+        },
+        {
+            "type": "title",
+            "source": "frosted glass type",
+            "target": "毛玻璃类型"
+        },
+        {
+            "type": "description",
+            "source": "define the intensity and style of the frosted glass effect.",
+            "target": "定义毛玻璃效果的强度和风格。"
+        },
+        {
+            "type": "title",
+            "source": "disable mode switcher styling",
+            "target": "禁用模式切换器样式"
+        },
+        {
+            "type": "description",
+            "source": "disable the custom styles for the mode switcher button on mobile devices.",
+            "target": "禁用移动设备上模式切换按钮的自定义样式。"
+        },
+        {
+            "type": "title",
+            "source": "cards gap",
+            "target": "卡片间距"
+        },
+        {
+            "type": "title",
+            "source": "tab size",
+            "target": "标签页大小"
+        },
+        {
+            "type": "title",
+            "source": "divider width",
+            "target": "分隔线宽度"
+        },
+        {
+            "type": "title",
+            "source": "default radius",
+            "target": "默认圆角"
+        },
+        {
+            "type": "description",
+            "source": "this variable is used as the default radius for other radius variables, such as card-radius, input-radius and modal-radius. changing it change them all at once, but you can also change them individually.",
+            "target": "此变量用作其他圆角变量（如 card-radius、input-radius 和 modal-radius）的默认值。更改它会同时更改所有变量，但您也可以单独更改它们。"
+        },
+        {
+            "type": "title",
+            "source": "card radius",
+            "target": "卡片圆角"
+        },
+        {
+            "type": "title",
+            "source": "mobile card radius",
+            "target": "移动端卡片圆角"
+        },
+        {
+            "type": "title",
+            "source": "button radius",
+            "target": "按钮圆角"
+        },
+        {
+            "type": "title",
+            "source": "input radius",
+            "target": "输入框圆角"
+        },
+        {
+            "type": "title",
+            "source": "modal radius",
+            "target": "模态框圆角"
+        },
+        {
+            "type": "title",
+            "source": "tab radius",
+            "target": "标签页圆角"
+        },
+        {
+            "type": "title",
+            "source": "button/icon radius",
+            "target": "按钮/图标圆角"
+        },
+        {
+            "type": "title",
+            "source": "theme color accent override",
+            "target": "主题强调色覆盖"
+        },
+        {
+            "type": "title",
+            "source": "enable light theme color accent override?",
+            "target": "启用浅色主题强调色覆盖？"
+        },
+        {
+            "type": "title",
+            "source": "custom light theme color accent",
+            "target": "自定义浅色主题强调色"
+        },
+        {
+            "type": "title",
+            "source": "enable dark theme color accent override?",
+            "target": "启用深色主题强调色覆盖？"
+        },
+        {
+            "type": "title",
+            "source": "custom dark theme color accent",
+            "target": "自定义深色主题强调色"
+        },
+        {
+            "type": "title",
+            "source": "main colors",
+            "target": "主色调"
+        },
+        {
+            "type": "title",
+            "source": "primary background",
+            "target": "主背景色"
+        },
+        {
+            "type": "title",
+            "source": "cards background",
+            "target": "卡片背景色"
+        },
+        {
+            "type": "title",
+            "source": "card border color",
+            "target": "卡片边框颜色"
+        },
+        {
+            "type": "title",
+            "source": "interactive elements",
+            "target": "交互元素"
+        },
+        {
+            "type": "title",
+            "source": "text selection color",
+            "target": "文本选择颜色"
+        },
+        {
+            "type": "title",
+            "source": "scrollbar thumb color",
+            "target": "滚动条滑块颜色"
+        },
+        {
+            "type": "title",
+            "source": "scrollbar background color",
+            "target": "滚动条背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "interactive accent color",
+            "target": "交互强调色"
+        },
+        {
+            "type": "title",
+            "source": "interactive accent hover color",
+            "target": "交互强调色悬停"
+        },
+        {
+            "type": "title",
+            "source": "extended colors",
+            "target": "扩展颜色"
+        },
+        {
+            "type": "title",
+            "source": "red",
+            "target": "红色"
+        },
+        {
+            "type": "title",
+            "source": "orange",
+            "target": "橙色"
+        },
+        {
+            "type": "title",
+            "source": "yellow",
+            "target": "黄色"
+        },
+        {
+            "type": "title",
+            "source": "green",
+            "target": "绿色"
+        },
+        {
+            "type": "title",
+            "source": "cyan",
+            "target": "青色"
+        },
+        {
+            "type": "title",
+            "source": "blue",
+            "target": "蓝色"
+        },
+        {
+            "type": "title",
+            "source": "purple",
+            "target": "紫色"
+        },
+        {
+            "type": "title",
+            "source": "pink",
+            "target": "粉色"
+        },
+        {
+            "type": "title",
+            "source": "extended color schemes",
+            "target": "扩展配色方案"
+        },
+        {
+            "type": "title",
+            "source": "enable extended dark color schemes?",
+            "target": "启用扩展暗色配色方案？"
+        },
+        {
+            "type": "description",
+            "source": "enabling this will override the default dark color scheme with the one choosen below.",
+            "target": "启用此功能将用下方选择的配色方案覆盖默认暗色配色方案。"
+        },
+        {
+            "type": "title",
+            "source": "extended dark color schemes",
+            "target": "扩展暗色配色方案"
+        },
+        {
+            "type": "title",
+            "source": "enable extended light color schemes?",
+            "target": "启用扩展亮色配色方案？"
+        },
+        {
+            "type": "description",
+            "source": "enabling this will override the default light color scheme with the one choosen below.",
+            "target": "启用此功能将用下方选择的配色方案覆盖默认亮色配色方案。"
+        },
+        {
+            "type": "title",
+            "source": "extended light color schemes",
+            "target": "扩展浅色配色方案"
+        },
+        {
+            "type": "title",
+            "source": "colored headers",
+            "target": "彩色标题"
+        },
+        {
+            "type": "title",
+            "source": "enable colored headers?",
+            "target": "启用彩色标题？"
+        },
+        {
+            "type": "title",
+            "source": "override extended color scheme header colors?",
+            "target": "覆盖扩展配色方案标题颜色？"
+        },
+        {
+            "type": "description",
+            "source": "enabling this will override the predefined colored headers attached to the extended color themes with the set selected below.",
+            "target": "启用此选项将覆盖附加到扩展配色主题的预定义彩色标题，并使用下方设置的标题。"
+        },
+        {
+            "type": "title",
+            "source": "header color scheme",
+            "target": "标题配色方案"
+        },
+        {
+            "type": "title",
+            "source": "typography",
+            "target": "字体排版"
+        },
+        {
+            "type": "title",
+            "source": "colored text",
+            "target": "彩色文本"
+        },
+        {
+            "type": "description",
+            "source": "make all text use a color based on the selected accent color, looks specially good on the extended color schemes.",
+            "target": "让所有文本使用基于所选强调色的颜色，在扩展配色方案上看起来特别好看。"
+        },
+        {
+            "type": "title",
+            "source": "inline title color",
+            "target": "内联标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "inline title size",
+            "target": "行内标题大小"
+        },
+        {
+            "type": "title",
+            "source": "link color",
+            "target": "链接颜色"
+        },
+        {
+            "type": "title",
+            "source": "external link color",
+            "target": "外部链接颜色"
+        },
+        {
+            "type": "title",
+            "source": "unresolved link color",
+            "target": "未解析链接颜色"
+        },
+        {
+            "type": "title",
+            "source": "horizontal rule color",
+            "target": "水平线颜色"
+        },
+        {
+            "type": "title",
+            "source": "horizontal rule thickness",
+            "target": "水平线粗细"
+        },
+        {
+            "type": "title",
+            "source": "checkbox radius",
+            "target": "复选框圆角"
+        },
+        {
+            "type": "title",
+            "source": "paragraph spacing",
+            "target": "段落间距"
+        },
+        {
+            "type": "title",
+            "source": "headings",
+            "target": "标题"
+        },
+        {
+            "type": "title",
+            "source": "H1 color",
+            "target": "H1 颜色"
+        },
+        {
+            "type": "title",
+            "source": "disable H1 divider",
+            "target": "禁用 H1 分隔线"
+        },
+        {
+            "type": "description",
+            "source": "remove the bottom border from H1 headers.",
+            "target": "移除 H1 标题的底部边框。"
+        },
+        {
+            "type": "title",
+            "source": "H2 color",
+            "target": "H2 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H3 color",
+            "target": "H3 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H4 color",
+            "target": "H4 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H5 color",
+            "target": "H5 颜色"
+        },
+        {
+            "type": "title",
+            "source": "H6 color",
+            "target": "H6 颜色"
+        },
+        {
+            "type": "title",
+            "source": "callout border radius",
+            "target": "提示框边框圆角"
+        },
+        {
+            "type": "title",
+            "source": "blockquotes",
+            "target": "引用块"
+        },
+        {
+            "type": "title",
+            "source": "blockquote background color",
+            "target": "引用块背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "blockquote border color",
+            "target": "引用块边框颜色"
+        },
+        {
+            "type": "title",
+            "source": "blockquote text color",
+            "target": "引用块文本颜色"
+        },
+        {
+            "type": "title",
+            "source": "blockquote border radius",
+            "target": "引用块边框圆角"
+        },
+        {
+            "type": "title",
+            "source": "citation background color",
+            "target": "引用背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "syntax highlighting",
+            "target": "语法高亮"
+        },
+        {
+            "type": "title",
+            "source": "keywords (def, return, if...)",
+            "target": "关键字 (def, return, if...)"
+        },
+        {
+            "type": "title",
+            "source": "definitions (functions, etc)",
+            "target": "定义 (函数等)"
+        },
+        {
+            "type": "title",
+            "source": "default variables",
+            "target": "默认变量"
+        },
+        {
+            "type": "title",
+            "source": "darameters and arguments",
+            "target": "参数和参数"
+        },
+        {
+            "type": "title",
+            "source": "strings",
+            "target": "字符串"
+        },
+        {
+            "type": "title",
+            "source": "numbers",
+            "target": "数字"
+        },
+        {
+            "type": "title",
+            "source": "comments",
+            "target": "注释"
+        },
+        {
+            "type": "title",
+            "source": "built-in functions (print, len...)",
+            "target": "内置函数"
+        },
+        {
+            "type": "title",
+            "source": "operators (+, =, -...)",
+            "target": "运算符"
+        },
+        {
+            "type": "title",
+            "source": "properties (obj.method())",
+            "target": "属性"
+        },
+        {
+            "type": "title",
+            "source": "default text code color",
+            "target": "默认文本代码颜色"
+        },
+        {
+            "type": "title",
+            "source": "codeblock background color",
+            "target": "代码块背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "codeblock border radius",
+            "target": "代码块边框圆角"
+        },
+        {
+            "type": "title",
+            "source": "integrated snippets",
+            "target": "集成代码片段"
+        },
+        {
+            "type": "title",
+            "source": "enable hover on properties",
+            "target": "启用属性悬停"
+        },
+        {
+            "type": "description",
+            "source": "by enabling this your properties will be collapsed by default and will be shown by hovering over the \"properties\" label.",
+            "target": "启用此选项后，属性默认折叠，鼠标悬停在“属性”标签上时显示。"
+        },
+        {
+            "type": "title",
+            "source": "spotlight",
+            "target": "聚光灯"
+        },
+        {
+            "type": "description",
+            "source": "dim all inactive markdown panes.",
+            "target": "淡化所有未激活的 Markdown 面板。"
+        },
+        {
+            "type": "title",
+            "source": "labeled navigation",
+            "target": "带标签的导航"
+        },
+        {
+            "type": "description",
+            "source": "show labels next to icons for navigation items.",
+            "target": "在导航项图标旁显示标签。"
+        },
+        {
+            "type": "title",
+            "source": "infobox callouts",
+            "target": "信息框提示"
+        },
+        {
+            "type": "title",
+            "source": "enable infobox callouts",
+            "target": "启用信息框提示"
+        },
+        {
+            "type": "description",
+            "source": "Toggle to enable or disable the Infobox Callouts styles if you prefer using them as a separate snippet.",
+            "target": "如果您更喜欢将它们作为单独的片段使用，请切换以启用或禁用信息框提示样式。"
+        },
+        {
+            "type": "title",
+            "source": "callout Width",
+            "target": "提示框宽度"
+        },
+        {
+            "type": "title",
+            "source": "outside padding",
+            "target": "外部填充"
+        },
+        {
+            "type": "description",
+            "source": "Distance between callout and surrounding content.",
+            "target": "Callout 与周围内容之间的距离。"
+        },
+        {
+            "type": "title",
+            "source": "inside padding",
+            "target": "内部内边距"
+        },
+        {
+            "type": "description",
+            "source": "Space inside the callout box.",
+            "target": "Callout 内部间距。"
+        },
+        {
+            "type": "title",
+            "source": "corner radius",
+            "target": "圆角半径"
+        },
+        {
+            "type": "title",
+            "source": "border width",
+            "target": "边框宽度"
+        },
+        {
+            "type": "title",
+            "source": "infobox title",
+            "target": "信息框标题"
+        },
+        {
+            "type": "title",
+            "source": "alignment",
+            "target": "对齐方式"
+        },
+        {
+            "type": "title",
+            "source": "font size",
+            "target": "字体大小"
+        },
+        {
+            "type": "title",
+            "source": "margin",
+            "target": "外边距"
+        },
+        {
+            "type": "title",
+            "source": "extended typography",
+            "target": "扩展排版"
+        },
+        {
+            "type": "title",
+            "source": "enable extended typography",
+            "target": "启用扩展排版"
+        },
+        {
+            "type": "title",
+            "source": "font family",
+            "target": "字体族"
+        },
+        {
+            "type": "title",
+            "source": "stylistic set",
+            "target": "风格集"
+        },
+        {
+            "type": "title",
+            "source": "enable small caps",
+            "target": "启用小型大写字母"
+        },
+        {
+            "type": "title",
+            "source": "disclaimer",
+            "target": "免责声明"
+        },
+        {
+            "type": "description",
+            "source": "some themes, snippets, or plugins may override these styles.",
+            "target": "某些主题、代码片段或插件可能会覆盖这些样式。"
+        },
+        {
+            "type": "markdown",
+            "source": "false",
+            "target": "false"
+        },
+        {
+            "type": "title",
+            "source": "tabbed callout",
+            "target": "标签式提示框"
+        },
+        {
+            "type": "title",
+            "source": "enable tabbed callout",
+            "target": "启用标签式提示框"
+        },
+        {
+            "type": "description",
+            "source": "Toggle to enable or disable the Tabbed Callout styles.",
+            "target": "切换以启用或禁用标签式提示框样式。"
+        },
+        {
+            "type": "title",
+            "source": "hider",
+            "target": "隐藏器"
+        },
+        {
+            "type": "description",
+            "source": "automatically hide certain UI elements and expose them on hover. huge thanks to the Border Theme for the inspiration and this feature.",
+            "target": "自动隐藏特定 UI 元素，悬停时显示。非常感谢 Border Theme 提供的灵感和此功能。"
+        },
+        {
+            "type": "title",
+            "source": "auto hide tab bar",
+            "target": "自动隐藏标签栏"
+        },
+        {
+            "type": "description",
+            "source": "Mac users can adjust the position of the traffic light using the 'Electron Window Tweaker' plugin",
+            "target": "Mac 用户可以使用 'Electron Window Tweaker' 插件调整红绿灯按钮的位置"
+        },
+        {
+            "type": "title",
+            "source": "auto hide status bar",
+            "target": "自动隐藏状态栏"
+        },
+        {
+            "type": "title",
+            "source": "auto hide left ribbon menu",
+            "target": "自动隐藏左侧功能区"
+        },
+        {
+            "type": "title",
+            "source": "auto hide header icons in sidepane",
+            "target": "自动隐藏侧边栏标题图标"
+        },
+        {
+            "type": "title",
+            "source": "auto hide tab title bar",
+            "target": "自动隐藏标签标题栏"
+        },
+        {
+            "type": "title",
+            "source": "auto hide vault profile",
+            "target": "自动隐藏库资料"
+        },
+        {
+            "type": "title",
+            "source": "miscellaneous",
+            "target": "杂项"
+        },
+        {
+            "type": "title",
+            "source": "enable tab animations",
+            "target": "启用标签页动画"
+        },
+        {
+            "type": "title",
+            "source": "disable new tab styling",
+            "target": "禁用新标签页样式"
+        },
+        {
+            "type": "title",
+            "source": "animation speed",
+            "target": "动画速度"
+        }
+    ]
+}

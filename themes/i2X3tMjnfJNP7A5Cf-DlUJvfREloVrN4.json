@@ -1,0 +1,608 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Lagom",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Lagom",
+        "description": "Lagom Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Hide & move elements",
+            "target": "隐藏与移动元素"
+        },
+        {
+            "type": "title",
+            "source": "Move top buttons",
+            "target": "移动顶部按钮"
+        },
+        {
+            "type": "description",
+            "source": "Note: Only in case the top buttons cover the phone status bar",
+            "target": "注意：仅在顶部按钮遮挡手机状态栏时生效"
+        },
+        {
+            "type": "title",
+            "source": "Show icon settings",
+            "target": "显示图标设置"
+        },
+        {
+            "type": "label",
+            "source": "Hide",
+            "target": "隐藏"
+        },
+        {
+            "type": "label",
+            "source": "Show",
+            "target": "显示"
+        },
+        {
+            "type": "title",
+            "source": "Show number of notes",
+            "target": "显示笔记数量"
+        },
+        {
+            "type": "title",
+            "source": "Show explorer buttons",
+            "target": "显示侧边栏按钮"
+        },
+        {
+            "type": "title",
+            "source": "Move explorer buttons",
+            "target": "移动侧边栏按钮"
+        },
+        {
+            "type": "label",
+            "source": "Up",
+            "target": "向上"
+        },
+        {
+            "type": "label",
+            "source": "Down",
+            "target": "向下"
+        },
+        {
+            "type": "title",
+            "source": "Show editor bar",
+            "target": "显示编辑栏"
+        },
+        {
+            "type": "title",
+            "source": "Hide navigation bar",
+            "target": "隐藏导航栏"
+        },
+        {
+            "type": "title",
+            "source": "Show menu files",
+            "target": "显示文件菜单"
+        },
+        {
+            "type": "title",
+            "source": "Move menu files",
+            "target": "移动文件菜单"
+        },
+        {
+            "type": "title",
+            "source": "Show vault",
+            "target": "显示仓库"
+        },
+        {
+            "type": "title",
+            "source": "Move vault and settings",
+            "target": "移动仓库和设置"
+        },
+        {
+            "type": "title",
+            "source": "Show scrollbars",
+            "target": "Show scrollbars"
+        },
+        {
+            "type": "name",
+            "source": "Notes & Editor",
+            "target": "笔记与编辑器"
+        },
+        {
+            "type": "title",
+            "source": "Text note",
+            "target": "文本笔记"
+        },
+        {
+            "type": "title",
+            "source": "Font size",
+            "target": "字体大小"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph spacing",
+            "target": "段落间距"
+        },
+        {
+            "type": "title",
+            "source": "Padding note",
+            "target": "笔记内边距"
+        },
+        {
+            "type": "title",
+            "source": "List indent",
+            "target": "列表缩进"
+        },
+        {
+            "type": "title",
+            "source": "Letter spacing",
+            "target": "字间距"
+        },
+        {
+            "type": "title",
+            "source": "Line height",
+            "target": "行高"
+        },
+        {
+            "type": "title",
+            "source": "Text align",
+            "target": "文本对齐"
+        },
+        {
+            "type": "label",
+            "source": "Justify",
+            "target": "两端对齐"
+        },
+        {
+            "type": "label",
+            "source": "Center",
+            "target": "居中"
+        },
+        {
+            "type": "label",
+            "source": "Left",
+            "target": "左对齐"
+        },
+        {
+            "type": "label",
+            "source": "Right",
+            "target": "右侧"
+        },
+        {
+            "type": "title",
+            "source": "Opacity active line",
+            "target": "活跃行不透明度"
+        },
+        {
+            "type": "title",
+            "source": "Opacity non-active line",
+            "target": "非活跃行不透明度"
+        },
+        {
+            "type": "title",
+            "source": "Separator content",
+            "target": "分隔符内容"
+        },
+        {
+            "type": "title",
+            "source": "Separator color",
+            "target": "分隔符颜色"
+        },
+        {
+            "type": "title",
+            "source": "Active line indicator",
+            "target": "活跃行指示器"
+        },
+        {
+            "type": "title",
+            "source": "Background",
+            "target": "背景"
+        },
+        {
+            "type": "title",
+            "source": "Show line indicator",
+            "target": "显示行指示器"
+        },
+        {
+            "type": "title",
+            "source": "Style Page",
+            "target": "样式页面"
+        },
+        {
+            "type": "description",
+            "source": "Turn on the page-like view in reading mode.",
+            "target": "在阅读模式下开启类似页面的视图。"
+        },
+        {
+            "type": "title",
+            "source": "Style Page (Editor)",
+            "target": "样式页面 (编辑)"
+        },
+        {
+            "type": "title",
+            "source": "Side paddings",
+            "target": "侧边内边距"
+        },
+        {
+            "type": "description",
+            "source": "Change this value if the note content is too close to its edges.",
+            "target": "如果笔记内容离边缘太近，请更改此值。"
+        },
+        {
+            "type": "title",
+            "source": "Background image (source mode)",
+            "target": "背景图片 (源模式)"
+        },
+        {
+            "type": "description",
+            "source": "url(https://example.com/image.jpg)",
+            "target": "url(https://example.com/image.jpg)"
+        },
+        {
+            "type": "title",
+            "source": "Background size",
+            "target": "背景大小"
+        },
+        {
+            "type": "title",
+            "source": "Headers",
+            "target": "标题"
+        },
+        {
+            "type": "title",
+            "source": "Header H1",
+            "target": "标题 H1"
+        },
+        {
+            "type": "title",
+            "source": "Header H2",
+            "target": "标题 H2"
+        },
+        {
+            "type": "title",
+            "source": "Header H3",
+            "target": "标题 H3"
+        },
+        {
+            "type": "title",
+            "source": "Header H4",
+            "target": "H4 标题"
+        },
+        {
+            "type": "title",
+            "source": "Header H5",
+            "target": "H5 标题"
+        },
+        {
+            "type": "title",
+            "source": "Header H6",
+            "target": "H6 标题"
+        },
+        {
+            "type": "title",
+            "source": "Others",
+            "target": "其他"
+        },
+        {
+            "type": "title",
+            "source": "Header space",
+            "target": "标题间距"
+        },
+        {
+            "type": "title",
+            "source": "Align",
+            "target": "对齐"
+        },
+        {
+            "type": "title",
+            "source": "Inline title",
+            "target": "行内标题"
+        },
+        {
+            "type": "title",
+            "source": "Magazine style",
+            "target": "杂志风格"
+        },
+        {
+            "type": "description",
+            "source": "An elegant inline title inspired by The New Yorker covers",
+            "target": "受《纽约客》封面启发的优雅行内标题"
+        },
+        {
+            "type": "title",
+            "source": "Magazine background",
+            "target": "杂志背景"
+        },
+        {
+            "type": "description",
+            "source": "Sintax: url('myimage.com/here.jpg')",
+            "target": "语法: url('myimage.com/here.jpg')"
+        },
+        {
+            "type": "title",
+            "source": "Magazine opacity",
+            "target": "杂志透明度"
+        },
+        {
+            "type": "title",
+            "source": "Magazine font",
+            "target": "杂志字体"
+        },
+        {
+            "type": "title",
+            "source": "Block Inline Title",
+            "target": "块内联标题"
+        },
+        {
+            "type": "title",
+            "source": "Title align",
+            "target": "标题对齐"
+        },
+        {
+            "type": "title",
+            "source": "Bold",
+            "target": "加粗"
+        },
+        {
+            "type": "title",
+            "source": "Uppercase lock",
+            "target": "大写锁定"
+        },
+        {
+            "type": "title",
+            "source": "Code blocks & Inline code",
+            "target": "代码块与行内代码"
+        },
+        {
+            "type": "title",
+            "source": "Wrap code (Read mode)",
+            "target": "代码换行（阅读模式）"
+        },
+        {
+            "type": "label",
+            "source": "Enable",
+            "target": "启用"
+        },
+        {
+            "type": "label",
+            "source": "Disabled",
+            "target": "禁用"
+        },
+        {
+            "type": "title",
+            "source": "Font size (Preview)",
+            "target": "字体大小（预览）"
+        },
+        {
+            "type": "title",
+            "source": "Font size (Editor)",
+            "target": "字体大小（编辑器）"
+        },
+        {
+            "type": "title",
+            "source": "Quotes",
+            "target": "引用"
+        },
+        {
+            "type": "title",
+            "source": "Align text",
+            "target": "文本对齐"
+        },
+        {
+            "type": "title",
+            "source": "Quote padding",
+            "target": "引用内边距"
+        },
+        {
+            "type": "title",
+            "source": "Quote icon",
+            "target": "引用图标"
+        },
+        {
+            "type": "title",
+            "source": "Hide top line",
+            "target": "隐藏顶部线条"
+        },
+        {
+            "type": "title",
+            "source": "Hide down line",
+            "target": "隐藏底部线条"
+        },
+        {
+            "type": "title",
+            "source": "Callouts",
+            "target": "提示框"
+        },
+        {
+            "type": "title",
+            "source": "Show  title",
+            "target": "显示标题"
+        },
+        {
+            "type": "title",
+            "source": "Embed notes",
+            "target": "嵌入笔记"
+        },
+        {
+            "type": "title",
+            "source": "Hide  embed title",
+            "target": "隐藏嵌入标题"
+        },
+        {
+            "type": "title",
+            "source": "Show icon",
+            "target": "显示图标"
+        },
+        {
+            "type": "title",
+            "source": "Images",
+            "target": "图片"
+        },
+        {
+            "type": "title",
+            "source": "Enable shadows and borders",
+            "target": "启用阴影和边框"
+        },
+        {
+            "type": "title",
+            "source": "Grayscale images",
+            "target": "灰度图片"
+        },
+        {
+            "type": "description",
+            "source": "Only dark mode",
+            "target": "仅限深色模式"
+        },
+        {
+            "type": "title",
+            "source": "Opacity",
+            "target": "透明度"
+        },
+        {
+            "type": "title",
+            "source": "Links",
+            "target": "链接"
+        },
+        {
+            "type": "title",
+            "source": "Underline style",
+            "target": "下划线样式"
+        },
+        {
+            "type": "description",
+            "source": "Only affect local links",
+            "target": "仅影响本地链接"
+        },
+        {
+            "type": "label",
+            "source": "Dotted",
+            "target": "点状"
+        },
+        {
+            "type": "label",
+            "source": "Dashed",
+            "target": "虚线"
+        },
+        {
+            "type": "label",
+            "source": "Solid",
+            "target": "实线"
+        },
+        {
+            "type": "name",
+            "source": "Properties & YAML",
+            "target": "属性与 YAML"
+        },
+        {
+            "type": "title",
+            "source": "Show empty properties",
+            "target": "显示空属性"
+        },
+        {
+            "type": "title",
+            "source": "Show 'add properties' button",
+            "target": "显示“添加属性”按钮"
+        },
+        {
+            "type": "title",
+            "source": "Icon size",
+            "target": "图标大小"
+        },
+        {
+            "type": "title",
+            "source": "YAML font size",
+            "target": "YAML 字体大小"
+        },
+        {
+            "type": "title",
+            "source": "Show separators in Source mode",
+            "target": "源码模式显示分隔线"
+        },
+        {
+            "type": "name",
+            "source": "Obsidian UI",
+            "target": "Obsidian UI"
+        },
+        {
+            "type": "title",
+            "source": "Radius border",
+            "target": "圆角边框"
+        },
+        {
+            "type": "title",
+            "source": "Icons opacity",
+            "target": "图标透明度"
+        },
+        {
+            "type": "title",
+            "source": "Glass effect",
+            "target": "玻璃拟态效果"
+        },
+        {
+            "type": "title",
+            "source": "Blur level",
+            "target": "模糊程度"
+        },
+        {
+            "type": "title",
+            "source": "Light mode - Opacity",
+            "target": "浅色模式 - 透明度"
+        },
+        {
+            "type": "title",
+            "source": "Dark mode - Opacity",
+            "target": "深色模式 - 透明度"
+        },
+        {
+            "type": "name",
+            "source": "Explorer & Files",
+            "target": "探索器与文件"
+        },
+        {
+            "type": "title",
+            "source": "Icon file",
+            "target": "图标文件"
+        },
+        {
+            "type": "title",
+            "source": "Hyphens Enabled",
+            "target": "启用连字符"
+        },
+        {
+            "type": "label",
+            "source": "True",
+            "target": "是"
+        },
+        {
+            "type": "label",
+            "source": "False",
+            "target": "否"
+        },
+        {
+            "type": "title",
+            "source": "Pop-up style",
+            "target": "弹窗样式"
+        },
+        {
+            "type": "title",
+            "source": "Border color (folders)",
+            "target": "边框颜色（文件夹）"
+        },
+        {
+            "type": "title",
+            "source": "Separator style",
+            "target": "分隔符样式"
+        },
+        {
+            "type": "title",
+            "source": "Line thickness",
+            "target": "线条粗细"
+        },
+        {
+            "type": "name",
+            "source": "Tabs",
+            "target": "标签页"
+        },
+        {
+            "type": "title",
+            "source": "Tab height",
+            "target": "标签页高度"
+        }
+    ]
+}
