@@ -1,0 +1,58 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "80s Neon",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "80s Neon",
+        "description": "80s Neon Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "80's Neon Settings & Bonus Effects",
+            "target": "80年代霓虹灯设置与额外效果"
+        },
+        {
+            "type": "title",
+            "source": "Eye Strain Fix",
+            "target": "缓解眼部疲劳"
+        },
+        {
+            "type": "description",
+            "source": "Adjusts some colors to be easier on the eyes.",
+            "target": "调整部分颜色以减轻视觉疲劳。"
+        },
+        {
+            "type": "title",
+            "source": "Pentile effect (chunky pixels)",
+            "target": "Pentile 效果（粗糙像素）"
+        },
+        {
+            "type": "description",
+            "source": "Adds a pentile effect to the screen to simulate old chunky pixel displays.",
+            "target": "添加 Pentile 效果以模拟旧式粗糙像素显示屏。"
+        },
+        {
+            "type": "title",
+            "source": "Screen flicker",
+            "target": "屏幕闪烁"
+        },
+        {
+            "type": "description",
+            "source": "Adds a screen flicker effect to simulate old CRT monitors.",
+            "target": "添加屏幕闪烁效果以模拟旧式 CRT 显示器。"
+        },
+        {
+            "type": "title",
+            "source": "Text blur effect",
+            "target": "文字模糊效果"
+        },
+        {
+            "type": "description",
+            "source": "Adds a text blur effect to simulate old CRT monitors.",
+            "target": "添加文字模糊效果以模拟旧式 CRT 显示器。"
+        }
+    ]
+}

@@ -1,0 +1,758 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Bubble Space",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Bubble Space",
+        "description": "Bubble Space Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Bubble Space Settings",
+            "target": "Bubble Space 设置"
+        },
+        {
+            "type": "title",
+            "source": "I. Presets",
+            "target": "I. 预设"
+        },
+        {
+            "type": "title",
+            "source": "A. Quick Color Change",
+            "target": "A. 快速更改"
+        },
+        {
+            "type": "title",
+            "source": "💡",
+            "target": "💡"
+        },
+        {
+            "type": "description",
+            "source": "The values in quick change's default use the default Bubble and Space variables, but can still be used alongside Color and Style Presets. You can check out the presets' values [here]()",
+            "target": "快速更改的默认值使用默认的 Bubble 和 Space 变量，但仍可与颜色和样式预设一起使用。您可以在 [此处] 查看预设的值。"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "是"
+        },
+        {
+            "type": "title",
+            "source": "Rainbow Workspace",
+            "target": "彩虹工作区"
+        },
+        {
+            "type": "description",
+            "source": "Replace color preset-based gradient w/ rainbow colors",
+            "target": "用彩虹色替换基于颜色预设的渐变"
+        },
+        {
+            "type": "title",
+            "source": "Rainbow Markdown",
+            "target": "彩虹 Markdown"
+        },
+        {
+            "type": "description",
+            "source": "adds color to markdown syntax; can customize more in Basic Markdown",
+            "target": "为 Markdown 语法添加颜色；可在基础 Markdown 中进一步自定义"
+        },
+        {
+            "type": "title",
+            "source": "Background Colors",
+            "target": "背景颜色"
+        },
+        {
+            "type": "description",
+            "source": "There are 4 background colors that range from light to dark in **Bubble** and dark to light in **Space**.",
+            "target": "**Bubble** 主题中背景颜色从浅到深，而 **Space** 主题中则从深到浅，共有 4 种。"
+        },
+        {
+            "type": "title",
+            "source": "Background 1",
+            "target": "背景颜色 1"
+        },
+        {
+            "type": "title",
+            "source": "Background 2",
+            "target": "背景颜色 2"
+        },
+        {
+            "type": "title",
+            "source": "Background 3",
+            "target": "背景颜色 3"
+        },
+        {
+            "type": "title",
+            "source": "Background 4",
+            "target": "背景颜色 4"
+        },
+        {
+            "type": "title",
+            "source": "Text Colors",
+            "target": "文字颜色"
+        },
+        {
+            "type": "description",
+            "source": "There are 4 text colors that range from dark to light in **Bubble** and light to dark in **Space**.",
+            "target": "**Bubble** 主题中文字颜色从深到浅，而 **Space** 主题中则从浅到深，共有 4 种。"
+        },
+        {
+            "type": "title",
+            "source": "Text Color 1",
+            "target": "文字颜色 1"
+        },
+        {
+            "type": "title",
+            "source": "Text Color 2",
+            "target": "文字颜色 2"
+        },
+        {
+            "type": "title",
+            "source": "Text Color 3",
+            "target": "文本颜色 3"
+        },
+        {
+            "type": "title",
+            "source": "Text Color 4",
+            "target": "文本颜色 4"
+        },
+        {
+            "type": "description",
+            "source": "text on dark background (Bubble) or light background (Space)",
+            "target": "深色背景（气泡）或浅色背景（空间）上的文本"
+        },
+        {
+            "type": "title",
+            "source": "Main Gradient Backgrounds",
+            "target": "主要渐变背景"
+        },
+        {
+            "type": "description",
+            "source": "There are 8 background colors that create a sort of gradient.",
+            "target": "有8种背景颜色可以创建一种渐变效果。"
+        },
+        {
+            "type": "title",
+            "source": "Color 1",
+            "target": "颜色 1"
+        },
+        {
+            "type": "title",
+            "source": "Color 2",
+            "target": "颜色 2"
+        },
+        {
+            "type": "title",
+            "source": "Color 3",
+            "target": "颜色 3"
+        },
+        {
+            "type": "title",
+            "source": "Color 4",
+            "target": "颜色 4"
+        },
+        {
+            "type": "title",
+            "source": "Color 5",
+            "target": "颜色 5"
+        },
+        {
+            "type": "title",
+            "source": "Color 6",
+            "target": "颜色 6"
+        },
+        {
+            "type": "title",
+            "source": "Color 7",
+            "target": "颜色 7"
+        },
+        {
+            "type": "title",
+            "source": "Color 8",
+            "target": "颜色 8"
+        },
+        {
+            "type": "title",
+            "source": "B. Color Presets",
+            "target": "B. 颜色预设"
+        },
+        {
+            "type": "title",
+            "source": "Bubble Color Presets",
+            "target": "气泡颜色预设"
+        },
+        {
+            "type": "label",
+            "source": "Vanilla",
+            "target": "香草"
+        },
+        {
+            "type": "label",
+            "source": "Red Velvet",
+            "target": "红丝绒"
+        },
+        {
+            "type": "label",
+            "source": "Cotton Candy Pink",
+            "target": "棉花糖粉"
+        },
+        {
+            "type": "label",
+            "source": "Boba Milk Tea",
+            "target": "珍珠奶茶"
+        },
+        {
+            "type": "label",
+            "source": "Kiat Kiat",
+            "target": "Kiat Kiat"
+        },
+        {
+            "type": "label",
+            "source": "Cheese Bites",
+            "target": "奶酪小食"
+        },
+        {
+            "type": "label",
+            "source": "Mint Green",
+            "target": "薄荷绿"
+        },
+        {
+            "type": "label",
+            "source": "Cookie Monster",
+            "target": "奥利奥怪兽"
+        },
+        {
+            "type": "label",
+            "source": "Ube Mochi",
+            "target": "芋泥麻薯"
+        },
+        {
+            "type": "label",
+            "source": "Lilypad",
+            "target": "荷叶"
+        },
+        {
+            "type": "label",
+            "source": "Unicornucopia",
+            "target": "独角兽乐园"
+        },
+        {
+            "type": "title",
+            "source": "Space Color Presets",
+            "target": "空间配色预设"
+        },
+        {
+            "type": "description",
+            "source": "Neoniverse is best partnered with Style Presets > Glow",
+            "target": "Neoniverse 最好与样式预设 > 发光搭配使用"
+        },
+        {
+            "type": "label",
+            "source": "Void",
+            "target": "虚空"
+        },
+        {
+            "type": "label",
+            "source": "Blood Moon",
+            "target": "血月"
+        },
+        {
+            "type": "label",
+            "source": "Gliese 504b",
+            "target": "格利泽504b"
+        },
+        {
+            "type": "label",
+            "source": "Eclipse",
+            "target": "日食"
+        },
+        {
+            "type": "label",
+            "source": "Solar Flare",
+            "target": "太阳耀斑"
+        },
+        {
+            "type": "label",
+            "source": "Hazard",
+            "target": "危险"
+        },
+        {
+            "type": "label",
+            "source": "Green Nebula",
+            "target": "绿色星云"
+        },
+        {
+            "type": "label",
+            "source": "Son of Neptune",
+            "target": "海王之子"
+        },
+        {
+            "type": "label",
+            "source": "Darth Obsidius",
+            "target": "达斯·奥赛迪乌斯"
+        },
+        {
+            "type": "label",
+            "source": "Heatmap",
+            "target": "热力图"
+        },
+        {
+            "type": "label",
+            "source": "Neoniverse",
+            "target": "霓虹宇宙"
+        },
+        {
+            "type": "title",
+            "source": "C. Style Presets",
+            "target": "C. 样式预设"
+        },
+        {
+            "type": "title",
+            "source": "Bubble Style Presets",
+            "target": "气泡风格预设"
+        },
+        {
+            "type": "label",
+            "source": "Doodle",
+            "target": "涂鸦"
+        },
+        {
+            "type": "title",
+            "source": "Space Style Presets",
+            "target": "太空风格预设"
+        },
+        {
+            "type": "label",
+            "source": "Afterglow",
+            "target": "余晖"
+        },
+        {
+            "type": "title",
+            "source": "II. Basic Markdown",
+            "target": "II. 基础 Markdown"
+        },
+        {
+            "type": "title",
+            "source": "A. Regular Text",
+            "target": "A. 普通文本"
+        },
+        {
+            "type": "description",
+            "source": "You can change the text font and size in **Settings > Appearance**",
+            "target": "您可以在 **设置 > 外观** 中更改字体和大小"
+        },
+        {
+            "type": "title",
+            "source": "Gray Out Markdown Formatting",
+            "target": "淡化 Markdown 格式"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph Spacing",
+            "target": "段落间距"
+        },
+        {
+            "type": "description",
+            "source": "Reading Mode Only",
+            "target": "仅阅读模式"
+        },
+        {
+            "type": "title",
+            "source": "B. Bold, Italics, Comments, Math & Strikethrough",
+            "target": "B. 粗体、斜体、注释、数学公式与删除线"
+        },
+        {
+            "type": "title",
+            "source": "Bold Color",
+            "target": "粗体颜色"
+        },
+        {
+            "type": "title",
+            "source": "Italic Color",
+            "target": "斜体颜色"
+        },
+        {
+            "type": "title",
+            "source": "Comment Color",
+            "target": "注释颜色"
+        },
+        {
+            "type": "title",
+            "source": "Math Color",
+            "target": "数学公式颜色"
+        },
+        {
+            "type": "title",
+            "source": "Strikethrough Color",
+            "target": "删除线颜色"
+        },
+        {
+            "type": "title",
+            "source": "C. Headings",
+            "target": "C. 标题"
+        },
+        {
+            "type": "title",
+            "source": "Heading Fonts",
+            "target": "标题字体"
+        },
+        {
+            "type": "title",
+            "source": "Same H1-H6 Fonts",
+            "target": "H1-H6 使用相同字体"
+        },
+        {
+            "type": "title",
+            "source": "Bubble Heading Font",
+            "target": "气泡标题字体"
+        },
+        {
+            "type": "title",
+            "source": "Space Heading Font",
+            "target": "Space 标题字体"
+        },
+        {
+            "type": "title",
+            "source": "Different Bubble H1-H6 Fonts",
+            "target": "不同气泡 H1-H6 字体"
+        },
+        {
+            "type": "title",
+            "source": "H1 Font",
+            "target": "H1 字体"
+        },
+        {
+            "type": "title",
+            "source": "H2 Font",
+            "target": "H2 字体"
+        },
+        {
+            "type": "title",
+            "source": "H3 Font",
+            "target": "H3 字体"
+        },
+        {
+            "type": "title",
+            "source": "H4 Font",
+            "target": "H4 字体"
+        },
+        {
+            "type": "title",
+            "source": "H5 Font",
+            "target": "H5 字体"
+        },
+        {
+            "type": "title",
+            "source": "H6 Font",
+            "target": "H6 字体"
+        },
+        {
+            "type": "title",
+            "source": "Different Space H1-H6 Fonts",
+            "target": "不同 Space H1-H6 字体"
+        },
+        {
+            "type": "title",
+            "source": "Heading Sizes",
+            "target": "标题大小"
+        },
+        {
+            "type": "title",
+            "source": "H1 Size",
+            "target": "H1 大小"
+        },
+        {
+            "type": "title",
+            "source": "H2 Size",
+            "target": "H2 大小"
+        },
+        {
+            "type": "title",
+            "source": "H3 Size",
+            "target": "H3 大小"
+        },
+        {
+            "type": "title",
+            "source": "H4 Size",
+            "target": "H4 大小"
+        },
+        {
+            "type": "title",
+            "source": "H5 Size",
+            "target": "H5 大小"
+        },
+        {
+            "type": "title",
+            "source": "H6 Size",
+            "target": "H6 大小"
+        },
+        {
+            "type": "title",
+            "source": "Heading Positions",
+            "target": "标题位置"
+        },
+        {
+            "type": "title",
+            "source": "H1 Align",
+            "target": "H1 对齐"
+        },
+        {
+            "type": "title",
+            "source": "H2 Align",
+            "target": "H2 对齐"
+        },
+        {
+            "type": "title",
+            "source": "H3 Align",
+            "target": "H3 对齐"
+        },
+        {
+            "type": "title",
+            "source": "H4 Align",
+            "target": "H4 对齐"
+        },
+        {
+            "type": "title",
+            "source": "H5 Align",
+            "target": "H5 对齐"
+        },
+        {
+            "type": "title",
+            "source": "H6 Align",
+            "target": "H6 对齐"
+        },
+        {
+            "type": "title",
+            "source": "Heading Deco",
+            "target": "标题装饰"
+        },
+        {
+            "type": "title",
+            "source": "Add Marker",
+            "target": "添加标记"
+        },
+        {
+            "type": "title",
+            "source": "H1 Deco",
+            "target": "H1 装饰"
+        },
+        {
+            "type": "title",
+            "source": "Deco Type",
+            "target": "装饰类型"
+        },
+        {
+            "type": "label",
+            "source": "Underline",
+            "target": "下划线"
+        },
+        {
+            "type": "label",
+            "source": "Overline",
+            "target": "上划线"
+        },
+        {
+            "type": "label",
+            "source": "Bordered",
+            "target": "边框"
+        },
+        {
+            "type": "label",
+            "source": "Colored Background",
+            "target": "彩色背景"
+        },
+        {
+            "type": "label",
+            "source": "Image Background",
+            "target": "图片背景"
+        },
+        {
+            "type": "title",
+            "source": "Deco Color Type",
+            "target": "装饰颜色类型"
+        },
+        {
+            "type": "label",
+            "source": "Solid",
+            "target": "纯色"
+        },
+        {
+            "type": "label",
+            "source": "Gradient",
+            "target": "渐变"
+        },
+        {
+            "type": "title",
+            "source": "Main Color",
+            "target": "主色调"
+        },
+        {
+            "type": "title",
+            "source": "Partner Color",
+            "target": "配色"
+        },
+        {
+            "type": "title",
+            "source": "Border Radius",
+            "target": "圆角"
+        },
+        {
+            "type": "title",
+            "source": "Bubble H1 Background Image",
+            "target": "气泡 H1 背景图"
+        },
+        {
+            "type": "description",
+            "source": "format- url(\"image link\")",
+            "target": "格式: url(\"图片链接\")"
+        },
+        {
+            "type": "title",
+            "source": "Space H1 Background Image",
+            "target": "H1 空间背景图"
+        },
+        {
+            "type": "title",
+            "source": "H2 Deco",
+            "target": "H2 装饰"
+        },
+        {
+            "type": "title",
+            "source": "Bubble H2 Background Image",
+            "target": "H2 气泡背景图"
+        },
+        {
+            "type": "title",
+            "source": "Space H2 Background Image",
+            "target": "H2 空间背景图"
+        },
+        {
+            "type": "title",
+            "source": "H3 Deco",
+            "target": "H3 装饰"
+        },
+        {
+            "type": "title",
+            "source": "Bubble H3 Background Image",
+            "target": "H3 气泡背景图"
+        },
+        {
+            "type": "title",
+            "source": "Space H3 Background Image",
+            "target": "H3 空间背景图"
+        },
+        {
+            "type": "title",
+            "source": "H4 Deco",
+            "target": "H4 装饰"
+        },
+        {
+            "type": "title",
+            "source": "Bubble H4 Background Image",
+            "target": "H4 气泡背景图"
+        },
+        {
+            "type": "title",
+            "source": "Space H4 Background Image",
+            "target": "H4 空间背景图"
+        },
+        {
+            "type": "title",
+            "source": "H5 Deco",
+            "target": "H5 装饰"
+        },
+        {
+            "type": "title",
+            "source": "Bubble H5 Background Image",
+            "target": "H5 气泡背景图"
+        },
+        {
+            "type": "title",
+            "source": "Space H5 Background Image",
+            "target": "H5 空间背景图"
+        },
+        {
+            "type": "title",
+            "source": "H6 Deco",
+            "target": "H6 装饰"
+        },
+        {
+            "type": "title",
+            "source": "Bubble H6 Background Image",
+            "target": "H6 气泡背景图"
+        },
+        {
+            "type": "title",
+            "source": "Space H6 Background Image",
+            "target": "H6 空间背景图"
+        },
+        {
+            "type": "title",
+            "source": "Syntax in Headings",
+            "target": "标题中的语法"
+        },
+        {
+            "type": "title",
+            "source": "Blend Links in Headings",
+            "target": "标题中的链接融合"
+        },
+        {
+            "type": "description",
+            "source": "match link color to Heading colors",
+            "target": "链接颜色匹配标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "Blend Bold in Headings",
+            "target": "标题中的粗体融合"
+        },
+        {
+            "type": "description",
+            "source": "match bolded text color to Heading colors",
+            "target": "将粗体文本颜色匹配到标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "Blend Italics in Headings",
+            "target": "标题中的斜体融合"
+        },
+        {
+            "type": "description",
+            "source": "match italic text color to Heading colors",
+            "target": "将斜体文本颜色匹配到标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "III. Other Markdown/HTML",
+            "target": "III. 其他 Markdown/HTML"
+        },
+        {
+            "type": "title",
+            "source": "IV. Workspace/UI",
+            "target": "IV. 工作区/UI"
+        },
+        {
+            "type": "title",
+            "source": "V. Core Plugins",
+            "target": "V. 核心插件"
+        },
+        {
+            "type": "title",
+            "source": "VI. Community Plugins",
+            "target": "VI. 社区插件"
+        },
+        {
+            "type": "title",
+            "source": "VII. Additional Snippets",
+            "target": "VII. 额外代码片段"
+        },
+        {
+            "type": "title",
+            "source": "VIII. About Theme",
+            "target": "VIII. 关于主题"
+        }
+    ]
+}

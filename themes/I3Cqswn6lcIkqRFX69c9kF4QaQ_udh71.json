@@ -1,0 +1,78 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "AbsoluteGruv",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "AbsoluteGruv",
+        "description": "AbsoluteGruv Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Gruvmeplease ⟡",
+            "target": "Gruvmeplease ⟡"
+        },
+        {
+            "type": "title",
+            "source": "🙈 Show/Hide UI Elements",
+            "target": "🙈 显示/隐藏 UI 元素"
+        },
+        {
+            "type": "description",
+            "source": "Re-enable elements hidden by this theme",
+            "target": "重新启用被此主题隐藏的元素"
+        },
+        {
+            "type": "title",
+            "source": "Permanently show the Sidebar Tabs",
+            "target": "永久显示侧边栏标签页"
+        },
+        {
+            "type": "description",
+            "source": "When false, the Sidebar Tabs become visible upon hovering.",
+            "target": "关闭此项后，侧边栏标签页仅在鼠标悬停时显示。"
+        },
+        {
+            "type": "title",
+            "source": "Re-enable Title Bar",
+            "target": "重新启用标题栏"
+        },
+        {
+            "type": "description",
+            "source": "Enable this to have a title bar, for example to move the Obsidian window",
+            "target": "启用此项以显示标题栏，例如用于移动 Obsidian 窗口"
+        },
+        {
+            "type": "title",
+            "source": "Re-enable Scrollbars",
+            "target": "重新启用滚动条"
+        },
+        {
+            "type": "description",
+            "source": "When false, only the scroll bars in the Editor are shown.",
+            "target": "关闭此项后，仅显示编辑器内的滚动条。"
+        },
+        {
+            "type": "title",
+            "source": "Re-enable collapsed panes' borders",
+            "target": "重新启用折叠面板的边框"
+        },
+        {
+            "type": "description",
+            "source": "When false, collapsed panes' borders won't show.",
+            "target": "当设为 false 时，折叠面板的边框将不会显示。"
+        },
+        {
+            "type": "title",
+            "source": "Re-enable status bar border",
+            "target": "重新启用状态栏边框"
+        },
+        {
+            "type": "description",
+            "source": "When false, status bar's border won't show.",
+            "target": "当设为 false 时，状态栏的边框将不会显示。"
+        }
+    ]
+}

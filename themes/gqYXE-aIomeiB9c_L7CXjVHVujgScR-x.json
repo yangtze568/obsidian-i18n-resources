@@ -1,0 +1,58 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Blur",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Blur",
+        "description": "Blur Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Theme Settings",
+            "target": "主题设置"
+        },
+        {
+            "type": "title",
+            "source": "Custom Wallpaper URL",
+            "target": "自定义壁纸链接"
+        },
+        {
+            "type": "description",
+            "source": "Enter a direct image link e.g. url(https://i.postimg.cc/XXXXXX/image.png)",
+            "target": "输入直接图片链接，例如 url(https://i.postimg.cc/XXXXXX/image.png)"
+        },
+        {
+            "type": "title",
+            "source": "Enable Glow",
+            "target": "启用发光效果"
+        },
+        {
+            "type": "description",
+            "source": "Toggle glow effect on or off",
+            "target": "开启或关闭发光效果"
+        },
+        {
+            "type": "title",
+            "source": "Glow Daily Notes and General Notes",
+            "target": "发光效果：每日笔记与普通笔记"
+        },
+        {
+            "type": "title",
+            "source": "Headers and special text For Daily Notes",
+            "target": "每日笔记的标题和特殊文本发光"
+        },
+        {
+            "type": "title",
+            "source": "More Colors",
+            "target": "更多颜色"
+        },
+        {
+            "type": "title",
+            "source": "General Notes Themes",
+            "target": "普通笔记主题"
+        }
+    ]
+}
