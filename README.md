@@ -20,9 +20,7 @@
 
 ### 💡 如何选择最合适的翻译版本？
 
-在面对多个下载选项时，请遵循<strong>“先看译文版本，再看插件版本”</strong>的原则。
-
-![lates suite image](https://github.com/yunrr/obsidian-i18n-resources/blob/6e632927d3101523be57b63ea39957212d34c956/images/2026_03_15.jpg)
+在面对多个下载选项时，请遵循**“先看译文版本，再看插件版本”**的原则。
 
 以 **Latex Suite** 插件为例（如配图所示），您看到了以下三个选项：
 
@@ -31,7 +29,7 @@
 2. 译文 `v2.0.0` [对应插件 `1.9.8`] 👉 **（推荐选择项）**
     
 3. 译文 `v2.0.0` [对应插件 `1.9.5`]
-
+    
 
 **✅ 选择逻辑如下：**
 
@@ -56,3 +54,140 @@
 - 🤖 **主题翻译质量说明**：在历史版本的主题 AI 翻译工作中，我们测试了多种不同的 AI 模型。因此，不同主题之间的翻译质量可能会存在一定的波动（部分可能不够自然）。
     
 - 💬 **期待您的反馈**：您的反馈是我们不断优化的最大动力！如果在日常使用中遇到任何离谱的翻译、界面排版错位，或是未被翻译的英文漏网之鱼，欢迎随时向我们提交反馈。
+    
+
+---
+
+## 🙏 特别鸣谢：致敬 1.x 版本的先驱者们
+
+本 2.x 版本的翻译库中，包含了大量从 1.x 版本顺利迁移过来的宝贵译文。这些高质量的成果绝非一人之功，而是由众多热心的社区伙伴字斟句酌、共同打磨而成的。
+
+在此，我们要向所有为 1.x 版本汉化工作付出过心血的贡献者们致以最诚挚的感谢！正是你们的无私奉献与开源精神，为当前的 Obsidian 中文生态打下了坚实的基础，让无数用户得以跨越语言的障碍，享受更顺畅的笔记体验。💖
+
+**✨ 核心贡献者鸣谢名单（排名不分先后）：**
+
+- 佚名的大佬们
+
+- [宇桐非](https://gitee.com/hwpy)
+
+- [Fendi](https://gitee.com/fendi86)
+
+- [wyc](https://gitee.com/cuberwu)
+
+- [曲淡歌](https://gitee.com/song_of_light)
+
+- [hongskying](https://gitee.com/hong-skying)
+
+- [zero](https://gitee.com/zero--two)
+
+- [PennHui](https://gitee.com/pennhui)
+
+- 张海山
+
+- a
+
+- [阿弟要精致](https://gitee.com/zhang-wenzhen)
+
+- ginoon
+
+- [七又四分之一](https://gitee.com/seven-and-one-fourth)
+
+- [瑞心](https://gitee.com/yang-racy)
+
+- 碎蜗牛壳
+
+- deadnessking
+
+- 里安
+
+- tbs
+
+- Cong
+
+- 彼岸花
+
+- [Ahusm](https://gitee.com/zbos)
+
+- 四方天际
+
+- 简言
+
+- 小七姐
+
+- xzp
+
+- [renyumeng](https://gitee.com/renyumeng0301)      
+
+- NathanDing
+
+- Penn
+
+- SimonVinci
+
+- [幻月丶沧歌](https://gitee.com/IDarkBoss)
+
+- wanghong
+
+- [lsnu](https://gitee.com/lsnu)
+
+- 沉默的风
+
+- lin
+
+- [Linate](https://gitee.com/rogern_linate)
+
+- Simon
+
+- [沧浪](https://gitee.com/nuist-bin)
+
+- Az
+
+- evi1_f4iry
+
+- ☆海★
+
+- krc
+
+- [事明](https://gitee.com/shimingmeihao)
+
+- ARgo晓伟
+
+- 墨染
+
+- [白起](https://gitee.com/null_107_2454)
+
+- mtr
+
+- [梅宝](https://gitee.com/wutpeach)
+
+- 䲜
+
+- yulingkq
+
+- [wc3472](https://gitee.com/wc3472)
+
+- [瑞心](https://gitee.com/racy-style)
+
+- 缤
+
+- dost
+
+- [Lorangeve](https://gitee.com/lorangeve)
+
+- [墨染江南烟](https://gitee.com/ink-dyed-jiangnan-tobacco)
+
+- Cheng
+
+- osen
+
+- mute99
+
+- UNK
+
+- 大圣
+
+- [SCUT-He](https://gitee.com/scut-he)
+
+- Nathan Ding
+
+- Shiyu
