@@ -20,7 +20,7 @@
 
 ### 💡 如何选择最合适的翻译版本？
 
-在面对多个下载选项时，请遵循**先看译文版本，再看插件版本**的原则。
+在面对多个下载选项时，请遵循<strong>“先看译文版本，再看插件版本”</strong>的原则。
 
 ![lates suite image](https://github.com/yunrr/obsidian-i18n-resources/blob/6e632927d3101523be57b63ea39957212d34c956/images/2026_03_15.jpg)
 
